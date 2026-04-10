@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "ec1d08c933f49259",
+    "type": "split",
+    "children": [
+      {
+        "id": "345a7355e5628f7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5aec68fe7246b66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "164f659836e774fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "8734c074938f91d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e6d236cd667fea7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9629ad4f003e6bc4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6e856325689c67c5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c8e0d0b131181e4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1bec4e71d3b3a56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be95758c939509c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "f9204250e55dff9b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "99f7456ce1af4309",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8c5b7dc5ba4ea233",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "8085ccd8b4131497",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "~/Documents/GitHub/fin-regbase/raw/fca-consumer-duty/Consumer Duty implementation good practice and areas for improvement.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Consumer Duty implementation good practice and areas for improvement"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "9e6d236cd667fea7",
+  "lastOpenFiles": [
+    "~/Documents/Consumer Duty implementation good practice and areas for improvement.md",
+    "index.md",
+    "~/Documents/GitHub/fin-regbase/raw/fca-consumer-duty/Consumer Duty implementation good practice and areas for improvement.md",
+    "~/Documents/GitHub/fin-regbase/raw/fca-consumer-duty",
+    "~/Documents/GitHub/fin-regbase/raw",
+    "~/Documents/GitHub/fin-regbase",
+    "~/Documents/GitHub",
+    "~/Documents",
+    "~",
+    "summaries/ps22-9-policy-statement.md",
+    "derived/fca-supervisory-questions-consumer-duty.md",
+    "concepts/sludge-and-friction.md",
+    "summaries/fg22-5-guidance.md",
+    "concepts/consumer-duty-overview.md",
+    "concepts/vulnerable-customers.md",
+    "concepts/consumer-duty-consumer-support.md",
+    "concepts/consumer-duty-consumer-understanding.md",
+    "concepts/consumer-duty-price-value.md",
+    "concepts/consumer-duty-products-services.md",
+    "concepts/consumer-duty-cross-cutting-rules.md",
+    "concepts/consumer-principle.md"
+  ]
+}
