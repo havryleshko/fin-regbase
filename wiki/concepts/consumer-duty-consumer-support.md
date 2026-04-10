@@ -10,6 +10,7 @@ sources:
   - "FCA PS22/9 §9.1–§9.9"
   - "FCA FG22/5 §9.20–§9.28"
   - "FCA FG22/5 §9.55"
+  - "FCA Consumer Duty implementation review (February 2024)"
 tags: [consumer-duty, consumer-support, customer-service, outcomes, UK, FCA]
 related:
   - concepts/consumer-duty-overview.md
@@ -20,6 +21,7 @@ related:
   - summaries/ps22-9-policy-statement.md
   - summaries/fg22-5-guidance.md
   - derived/fca-supervisory-questions-consumer-duty.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
 ---
 
 # FCA Consumer Duty — Consumer Support Outcome
@@ -78,6 +80,27 @@ The FCA has confirmed that the following would constitute unreasonable barriers:
 - Providing no route to human support for complex or sensitive issues in a digital-only model.
 - Failing to support customers through circumstances that change during the product lifecycle (e.g. vulnerability emerging after sale).
 
+## Supervisory Findings — Named Poor Practices (February 2024 Implementation Review)
+
+### Gamification on Trading Platforms
+
+The February 2024 implementation review named business practices "akin to gamification" on online trading applications as a consumer support failure. Such practices encourage risky short-term trading and brokerage deals that may not deliver fair value for customers. The FCA's position: firms must design and deliver customer journeys that support good outcomes — not exploit customers' behavioural tendencies for commercial gain. **(FCA implementation review, February 2024)**
+
+This is distinct from sludge (which deters customers from actions in their interests) — gamification is the opposite failure mode: actively pushing customers towards harmful actions they would not otherwise take.
+
+### Fraud and Cyber: A Consumer Support Obligation
+
+The FCA frames inadequate fraud and cyber protection as a consumer support failure, not only a foreseeable harm issue. Firms must: **(FCA implementation review, February 2024)**
+
+1. Have **robust systems and controls** to avoid causing foreseeable harm from fraud or cyber-attacks — protecting investments, savings and personal data.
+2. **Provide prompt and appropriate support for fraud victims** — this post-incident support obligation is framed under consumer support, not just risk management.
+
+A firm that has adequate fraud prevention but fails to support victims appropriately is in breach of the consumer support outcome.
+
+### Insufficient Staff Training for Complex Conversations
+
+Firms not training staff well enough to handle complex conversations — particularly with customers in financial difficulty — result in customers not receiving appropriate forbearance solutions or signposting to other relevant support. The FCA flags the non-financial harm this causes: stress and unnecessary delays constitute consumer harm. **(FCA implementation review, February 2024)**
+
 ## FCA Supervisory Questions — Consumer Support
 
 The FCA has indicated it will ask the following questions in supervisory interactions on this outcome. **(FG22/5 Ch.9 — Key questions for firms)**
@@ -110,3 +133,4 @@ See [[fca-supervisory-questions-consumer-duty]] for the full set across all outc
 - [[ps22-9-policy-statement]]
 - [[fg22-5-guidance]]
 - [[fca-supervisory-questions-consumer-duty]]
+- [[fca-consumer-duty-implementation-review-2024]]

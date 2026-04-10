@@ -13,6 +13,7 @@ sources:
   - "FCA PS22/9 §9.7"
   - "FCA FG22/5 §10.6–§10.10"
   - "FCA FG22/5 §11.39–§11.43"
+  - "FCA Consumer Duty implementation review (February 2024)"
 tags: [consumer-duty, vulnerable-customers, vulnerability, outcomes, UK, FCA]
 related:
   - concepts/consumer-duty-overview.md
@@ -22,6 +23,7 @@ related:
   - concepts/consumer-duty-products-services.md
   - summaries/ps22-9-policy-statement.md
   - summaries/fg22-5-guidance.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
 ---
 
 # FCA Consumer Duty — Vulnerable Customers
@@ -126,6 +128,21 @@ The FCA removed all references to "average customer" from the final rules, repla
 
 The reason: designing for an average obscures the needs of customers at the edges of the target market distribution — particularly vulnerable customers. Firms must account for the **range of needs**, not a single central case.
 
+## Supervisory Findings — Named Poor Practices (February 2024 Implementation Review)
+
+The FCA's February 2024 implementation review identified specific vulnerability failures observed in the regulated population. These go beyond the conceptual guidance in PS22/9 and FG22/5 and represent the FCA's supervisory red lines.
+
+### Wealth Management: Near-Zero Vulnerability Identification
+
+The FCA's wealth data survey found 49% of portfolio managers and 69% of stockbrokers identified no vulnerable customers at all in their customer base. The FCA issued a Dear CEO letter to wealth and stockbroking firms, noting that statistically 50% of people will be classed as vulnerable at some point. The FCA considers it implausible that firms in this sector have no vulnerable customers and is directly scrutinising this. **(FCA implementation review, February 2024)**
+
+### Named Poor Practices to Avoid
+
+- **Blanket age-based vulnerability assessment:** Automatically classifying all customers above a certain age as vulnerable. Age is relevant to vulnerability, but a generalised approach fails to tailor support to individual needs. The Duty requires individual-level consideration. **(FCA implementation review, February 2024)**
+- **Demanding evidence of vulnerability:** Asking customers who self-identify as vulnerable to provide evidence of that vulnerability. This is a barrier to disclosure and to receiving appropriate support. **(FCA implementation review, February 2024)**
+- **Warning customers that disclosure may affect their service:** Telling customers who identify as vulnerable that it might affect their ability to receive the service. The FCA treats this as a barrier to vulnerability identification. **(FCA implementation review, February 2024)**
+- **Repeated re-disclosure between teams:** Requiring customers to repeatedly disclose their circumstances when passed between teams. The FCA frames the distress caused by repeated disclosure as itself a form of foreseeable harm — a direct breach of the cross-cutting rules. **(FCA implementation review, February 2024)**
+
 ## Key Points for Agents
 
 - Vulnerability is embedded across all four outcomes — it is not a fifth outcome or a separate test.
@@ -135,6 +152,7 @@ The reason: designing for an average obscures the needs of customers at the edge
 - Vulnerability is dynamic — anyone can become temporarily or permanently vulnerable, including customers who were not vulnerable at point of sale.
 - The four-driver culture model (Purpose, Leadership, People, Governance) from FG22/5 Ch.10 is the FCA's framework for embedding vulnerability obligations into firm culture — all four must actively support good outcomes for vulnerable customers.
 - Where special category data is processed in connection with vulnerability monitoring, both an Article 6 lawful basis and an Article 9 condition under the UK GDPR must be identified.
+- Four named supervisory red lines (from the February 2024 review): blanket age classification, demanding evidence of vulnerability, warning customers disclosure may affect their service, and repeated re-disclosure between teams.
 
 ## Related Articles
 
@@ -145,3 +163,4 @@ The reason: designing for an average obscures the needs of customers at the edge
 - [[consumer-duty-consumer-support]]
 - [[ps22-9-policy-statement]]
 - [[fg22-5-guidance]]
+- [[fca-consumer-duty-implementation-review-2024]]

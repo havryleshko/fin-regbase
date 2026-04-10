@@ -9,12 +9,14 @@ last_updated: 2026-04-10
 sources:
   - "FCA PS22/9 §7.1–§7.13"
   - "FCA PS22/9 §3.14"
+  - "FCA Consumer Duty implementation review (February 2024)"
 tags: [consumer-duty, price-value, fair-value, outcomes, UK, FCA]
 related:
   - concepts/consumer-duty-overview.md
   - concepts/consumer-duty-cross-cutting-rules.md
   - concepts/consumer-duty-products-services.md
   - summaries/ps22-9-policy-statement.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
 ---
 
 # FCA Consumer Duty — Price and Value Outcome
@@ -74,6 +76,16 @@ Firms meeting the following existing rules automatically satisfy this outcome: *
 - **PROD 7** (funeral plans)
 - **COBS 19** IGC/GAA value assessments (pensions) — firms must use these assessments but must still meet the price and value outcome requirements
 
+## Supervisory Findings — Named Poor Practices (February 2024 Implementation Review)
+
+The FCA's February 2024 implementation review identified specific price and value failures observed across the regulated population.
+
+- **Benchmarking alone does not constitute a fair value assessment.** Firms that relied solely on comparing their product to similar offerings in the market. The FCA states this does not prove the customer is getting a good deal. Value assessments must address the nature and benefits of the product, its limitations, and the expected total price — with qualitative reasoning explaining *why* the product offers fair value, not just a conclusion. **(FCA implementation review, February 2024)**
+- **Inability to justify remuneration.** Firms unable to explain their remuneration practices or demonstrate that they are proportionate to the work they do. The FCA expects firms to be able to articulate this clearly. **(FCA implementation review, February 2024)**
+- **Distribution chain fee stacking.** Multiple parties in long or complex chains adding fees that cumulatively result in the end consumer not receiving fair value. The FCA specifically flagged this as a risk in long or complex distribution chains. **(FCA implementation review, February 2024)**
+- **Charging for undelivered services.** Firms providing — and charging for — ongoing services (such as annual reviews) that customers are not actually receiving. The FCA describes the worst examples as customers paying for a service and not receiving it at all. This is among the clearest price and value breaches identified. **(FCA implementation review, February 2024)**
+- **Firm-focused value assessments.** Value assessments structured around the firm's economics rather than the customer's perspective — failing to consider the amounts customers invest and the value they receive relative to the risks they are taking. **(FCA implementation review, February 2024)**
+
 ## Key Points for Agents
 
 - Fair value means a reasonable relationship between price and benefit — assessed at product level, not individual customer level.
@@ -81,6 +93,8 @@ Firms meeting the following existing rules automatically satisfy this outcome: *
 - Differential pricing is permitted; price walking that creates unfair outcomes is not.
 - For closed books: firms must assess fair value on a forward-looking basis but may factor in original pricing assumptions; they cannot be required to amend vested contractual rights.
 - Existing PROD 4, COLL 6/8/15 and PROD 7 compliance satisfies this outcome.
+- Benchmarking alone is not a value assessment. Qualitative reasoning explaining *why* the product offers fair value is required.
+- Charging for a service the customer is not receiving is a named breach from the February 2024 supervisory review.
 
 ## Related Articles
 
@@ -88,3 +102,4 @@ Firms meeting the following existing rules automatically satisfy this outcome: *
 - [[consumer-duty-cross-cutting-rules]]
 - [[consumer-duty-products-services]]
 - [[ps22-9-policy-statement]]
+- [[fca-consumer-duty-implementation-review-2024]]

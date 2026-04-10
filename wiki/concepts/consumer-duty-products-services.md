@@ -9,6 +9,8 @@ last_updated: 2026-04-10
 sources:
   - "FCA PS22/9 §6.1–§6.11"
   - "FCA PS22/9 §1.15–§1.16"
+  - "FCA FG22/5 Ch.6 (Key questions for firms)"
+  - "FCA Consumer Duty implementation review (February 2024)"
 tags: [consumer-duty, products-services, outcomes, target-market, UK, FCA]
 related:
   - concepts/consumer-duty-overview.md
@@ -16,6 +18,9 @@ related:
   - concepts/consumer-duty-price-value.md
   - concepts/vulnerable-customers.md
   - summaries/ps22-9-policy-statement.md
+  - summaries/fg22-5-guidance.md
+  - derived/fca-supervisory-questions-consumer-duty.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
 ---
 
 # FCA Consumer Duty — Products and Services Outcome
@@ -71,6 +76,36 @@ The outcome applies to **services** as well as products, including: distribution
 
 The detailed rules on target market identification and distribution strategy do **not** apply to closed products (no longer on sale). However, high-level obligations under the cross-cutting rules — including reviewing whether aspects of the design could lead to foreseeable harm — still apply. **(PS22/9 §3.14)**
 
+## FCA Supervisory Questions — Products and Services
+
+The FCA has indicated it will ask the following questions in supervisory interactions on this outcome. **(FG22/5 Ch.6 — Key questions for firms)**
+
+- Has the firm specified the target market to the level of granularity necessary?
+- How has the firm satisfied itself that products and services are well-designed to meet the needs of consumers in the target market, and perform as expected? What testing has been conducted?
+- How has the firm identified if the product or service has features that could risk harm for groups of customers with characteristics of vulnerability? What changes is it making as a result?
+- Is the firm sharing all necessary information with other firms in the distribution chain, and receiving all necessary information itself?
+- How is the firm monitoring that distribution strategies are being followed and that products and services are being correctly distributed to the target market?
+- What data and MI is the firm using to monitor whether products and services continue to meet the needs of customers? How regularly is it reviewing this data and what action is being taken?
+- Where planning to withdraw a product or service, has the firm considered whether this could lead to foreseeable harm? What action is it taking to mitigate this risk?
+
+See [[fca-supervisory-questions-consumer-duty]] for the full set across all outcomes.
+
+## Supervisory Findings — Named Practices (February 2024 Implementation Review)
+
+### Good Practice Observed
+
+- Precisely defining target markets for products that could cause harm if sold to the wrong customers, then redesigning sales journeys to make suitability explicit.
+- Refining data and monitoring to track customers who bought a product despite falling outside the target market, enabling proactive contact to avoid harm.
+- One firm introducing **"11 golden rules"** for designing new products, each linked to a specific Duty requirement. Increased emphasis on consumer research and testing before product launch.
+- Simplifying product ranges to eliminate products with similar or overlapping features, making it easier for customers to identify and access what they need.
+- An investment firm identifying it has institutional clients with retail customers further down the chain, and offering alternative investment options better suited to those end customers — demonstrating chain-awareness without a direct retail relationship.
+
+### Poor Practice Observed
+
+- **Ineffective information sharing across distribution chains.** Manufacturers not informing distributors of product characteristics, target market and intended value. Distributors not providing sales and outcome data back to manufacturers. Both directions of information flow are required. **(FCA implementation review, February 2024)**
+- **Passive distribution strategy monitoring.** Where a manufacturer finds third-party brokers distributing its product outside the intended target market, it must consider appropriate remedial action — such as providing additional information to brokers — even though it is not responsible for the broker's activities. Manufacturers must actively monitor, not merely define, their distribution strategy. **(FCA implementation review, February 2024)**
+- **Failure to recognise distribution chain role.** Firms that have material influence over retail customer outcomes but lack a direct customer relationship failing to recognise that they are nonetheless in scope of the Duty. **(FCA implementation review, February 2024)**
+
 ## Key Points for Agents
 
 - Products and services must be designed for a defined target market and confirmed fit for purpose throughout the lifecycle — not only at launch.
@@ -78,6 +113,8 @@ The detailed rules on target market identification and distribution strategy do 
 - Manufacturers must share target market and value assessment results with distributors — without sharing commercially sensitive information such as margin breakdowns.
 - Complexity in product design is acceptable if necessary for functionality, but consumer-facing features must be understandable to the target market.
 - Existing PROD compliance satisfies this outcome — firms already meeting PROD do not face additional obligations on this outcome.
+- Information must flow in both directions in the chain: manufacturers to distributors (target market, value) and distributors back to manufacturers (sales data, outcomes).
+- A firm with material influence over retail outcomes but no direct customer relationship is still in scope — chain position does not determine Duty applicability.
 
 ## Related Articles
 
@@ -86,3 +123,6 @@ The detailed rules on target market identification and distribution strategy do 
 - [[consumer-duty-price-value]]
 - [[vulnerable-customers]]
 - [[ps22-9-policy-statement]]
+- [[fg22-5-guidance]]
+- [[fca-supervisory-questions-consumer-duty]]
+- [[fca-consumer-duty-implementation-review-2024]]

@@ -54,3 +54,45 @@ Notes:
 - Sludge and positive friction are FG22/5-only concepts — neither term appears in PS22/9 or the PRIN 2A rules.
 - The four-driver culture model (Purpose, Leadership, People, Governance) is FG22/5-only guidance, not a made rule.
 - Supervisory questions in `derived/fca-supervisory-questions-consumer-duty.md` are drawn verbatim from FG22/5 Ch.6–10 "Key questions for firms" sections.
+
+## 2026-04-10 ingest | FCA Consumer Duty implementation: good practice and areas for improvement (February 2024)
+
+Source: `raw/fca-consumer-duty/Consumer Duty implementation good practice and areas for improvement.md` (FCA publication, February 2024)
+
+Pages created (1):
+- `wiki/derived/fca-consumer-duty-implementation-review-2024.md`
+
+Pages updated (4):
+- `wiki/concepts/vulnerable-customers.md` — added four named vulnerability supervisory red lines (blanket age classification, demanding evidence, warning about service impact, repeated re-disclosure); wealth management data point (49%/69% firms identifying zero vulnerable customers)
+- `wiki/concepts/consumer-duty-consumer-support.md` — added gamification as named poor practice; fraud/cyber as consumer support obligation (prevention + victim support); insufficient staff training for complex conversations
+- `wiki/concepts/consumer-duty-price-value.md` — added five named poor practices: benchmarking-only assessments, unjustifiable remuneration, distribution chain fee stacking, charging for undelivered services, firm-focused value assessments
+- `wiki/concepts/consumer-duty-cross-cutting-rules.md` — added "wait and see" behaviour as named breach; Duty siloed in compliance as governance failure
+
+Notes:
+- This is the FCA's first empirical post-go-live review (published February 2024, seven months after July 2023 go-live). It adds observed supervisory findings, not guidance.
+- No contradictions with existing wiki pages. The review confirms and operationalises existing concepts with real-world examples.
+- Gamification is a new harm category not present in PS22/9 or FG22/5.
+- Fraud victim support is framed here as a consumer support outcome obligation, extending the foreseeable harm framing in the existing wiki.
+
+## 2026-04-10 lint
+
+Scanned all 13 wiki pages. No contradictions. No stale claims. No orphan pages.
+
+Issues found and fixed (11 total):
+
+A. Frontmatter/body inconsistency (3 fixes):
+- Added `[[fca-consumer-duty-implementation-review-2024]]` to Related Articles body of: consumer-duty-cross-cutting-rules.md, consumer-duty-consumer-support.md, vulnerable-customers.md
+
+B. Missing cross-references (6 fixes):
+- ps22-9-policy-statement.md: added fg22-5-guidance to related + Related Articles
+- consumer-duty-products-services.md: added fg22-5-guidance + implementation-review-2024 to related + Related Articles
+- consumer-duty-consumer-understanding.md: added fg22-5-guidance + implementation-review-2024 to related + Related Articles
+- fca-supervisory-questions-consumer-duty.md: added implementation-review-2024 to related + Related Articles
+
+D. Thin pages updated with substantive content (2 fixes):
+- consumer-duty-products-services.md: added FG22/5 supervisory questions section; added good/poor practice findings from implementation review (information-flow failures, passive distribution monitoring, chain-role blindness)
+- consumer-duty-consumer-understanding.md: added FG22/5 supervisory questions section; added good/poor practice findings from implementation review (jargon buster example, behavioural-bias-aware comms, financial promotions approvers, execution-only carve-out note)
+
+Flagged for future ingest (not yet actioned):
+- FG21/1 (FCA Guidance on the fair treatment of vulnerable customers) — referenced in vulnerable-customers.md and implementation review page
+- FCA Dear CEO letter to wealth and stockbroking firms — referenced in vulnerable-customers.md and implementation review page

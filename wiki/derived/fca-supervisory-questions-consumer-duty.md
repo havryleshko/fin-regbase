@@ -21,6 +21,7 @@ related:
   - concepts/consumer-duty-consumer-understanding.md
   - concepts/consumer-duty-consumer-support.md
   - concepts/sludge-and-friction.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
 ---
 
 # FCA Supervisory Questions — Consumer Duty (per Outcome)
@@ -131,3 +132,4 @@ These questions are not an exhaustive checklist — they are the FCA's signalled
 - [[consumer-duty-consumer-understanding]]
 - [[consumer-duty-consumer-support]]
 - [[sludge-and-friction]]
+- [[fca-consumer-duty-implementation-review-2024]]

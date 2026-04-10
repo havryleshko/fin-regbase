@@ -8,6 +8,8 @@ effective_date: 2023-07-31
 last_updated: 2026-04-10
 sources:
   - "FCA PS22/9 §8.1–§8.12"
+  - "FCA FG22/5 Ch.8 (Key questions for firms)"
+  - "FCA Consumer Duty implementation review (February 2024)"
 tags: [consumer-duty, consumer-understanding, communications, outcomes, UK, FCA]
 related:
   - concepts/consumer-duty-overview.md
@@ -15,6 +17,9 @@ related:
   - concepts/consumer-duty-consumer-support.md
   - concepts/vulnerable-customers.md
   - summaries/ps22-9-policy-statement.md
+  - summaries/fg22-5-guidance.md
+  - derived/fca-supervisory-questions-consumer-duty.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
 ---
 
 # FCA Consumer Duty — Consumer Understanding Outcome
@@ -70,6 +75,35 @@ The FCA acknowledged that some EU-legacy disclosure requirements can be prescrip
 
 This outcome does not alter the **advice/guidance boundary**. Non-advisory firms must equip customers with information to make effective decisions — but must do so within the scope of what they are authorised to do. **(PS22/9 §8.8)**
 
+## FCA Supervisory Questions — Consumer Understanding
+
+The FCA has indicated it will ask the following questions in supervisory interactions on this outcome. **(FG22/5 Ch.8 — Key questions for firms)**
+
+- Is the firm satisfied that it is applying the same standards and testing capabilities to ensure communications are delivering good customer outcomes, as they are to ensuring they generate sales and revenue?
+- What insights is the firm using to decide how best to keep customers engaged in their customer journey, whilst also ensuring its customers have the right information at the right time to make decisions?
+- How is the firm testing the effectiveness of its communications? How is it acting on the results?
+- How does the firm adapt its communications to meet the needs of customers with characteristics of vulnerability, and how does it know these adaptations are effective?
+- How does the firm ensure that its communications are equally effective across all channels it uses? How does it test that?
+- What data, MI and feedback does the firm use in its ongoing monitoring of the impact of its communications on customer outcomes? How often is this data reviewed, and what action is taken as a result?
+
+See [[fca-supervisory-questions-consumer-duty]] for the full set across all outcomes.
+
+## Supervisory Findings — Named Practices (February 2024 Implementation Review)
+
+### Good Practice Observed
+
+- Working with experts to improve communications — simplifying language (one firm rolled out a **jargon buster library** across its business), changing layout and presentation, improving website accessibility.
+- Developing customer understanding frameworks that consider how marketing could exploit behavioural biases, then taking steps to provide more balanced information and moderating incentivisation for higher-risk customer profiles.
+- Redesigning customer journeys based on how consumers behave in practice — adding in-the-moment prompts and push notifications where customers could incur fees or charges; one insurer highlighting policy exclusions before customers begin their application.
+- Proactive data-driven communications: using data to identify customers not earning enough interest or cashback to cover product fees, then making them aware of their options and monitoring the impact on behaviour.
+- Testing communications rigorously — one funeral plan provider tested 14 documents across its customer journey with customer focus groups before finalising them.
+
+### Poor Practice Observed
+
+- **Exploiting long-term client relationships.** Investment portfolio managers using long-established relationships to downplay risks of portfolios not aligned to client risk profiles but benefiting the firm. The FCA states that all firms — including execution-only — must promote products in a way that supports good outcomes; the outcome applies regardless of relationship depth. **(FCA implementation review, February 2024)**
+- **Unclear charge disclosure.** Firms unclear with customers about what charges apply and when. The FCA suggests providing **worked examples of product and service costs** as an effective approach. **(FCA implementation review, February 2024)**
+- **Financial promotions approvers not referencing the Duty.** Firms that approve financial promotions — including promotions for qualifying cryptoassets — making little or no reference to the Consumer Duty. Firms must consider Duty requirements when approving financial promotions, not only when issuing them. **(FCA implementation review, February 2024)**
+
 ## Key Points for Agents
 
 - The operative question is whether communications support effective decision-making in practice — not whether they are technically clear or non-misleading.
@@ -77,6 +111,8 @@ This outcome does not alter the **advice/guidance boundary**. Non-advisory firms
 - Testing communications is a formal obligation; firms must be able to demonstrate their testing approach delivers good outcomes.
 - This outcome applies to all communications: verbal, written, online, in product terms — not only regulated disclosures.
 - Existing mandatory disclosure requirements must still be met; this outcome applies on top of and around them.
+- The FCA explicitly applies this outcome to financial promotion approvers — the Duty must be considered at the point of approval, not only at point of issue.
+- Execution-only firms have no carve-out: the obligation to promote products in a way that supports good outcomes applies regardless of whether advice is given.
 
 ## Related Articles
 
@@ -85,3 +121,6 @@ This outcome does not alter the **advice/guidance boundary**. Non-advisory firms
 - [[consumer-duty-consumer-support]]
 - [[vulnerable-customers]]
 - [[ps22-9-policy-statement]]
+- [[fg22-5-guidance]]
+- [[fca-supervisory-questions-consumer-duty]]
+- [[fca-consumer-duty-implementation-review-2024]]

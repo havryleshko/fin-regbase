@@ -12,6 +12,7 @@ sources:
   - "FCA FG22/5 §5.9–§5.15"
   - "FCA FG22/5 §5.23"
   - "FCA FG22/5 §5.40–§5.41"
+  - "FCA Consumer Duty implementation review (February 2024)"
 tags: [consumer-duty, cross-cutting-rules, good-faith, foreseeable-harm, UK, FCA]
 related:
   - concepts/consumer-duty-overview.md
@@ -23,6 +24,7 @@ related:
   - concepts/vulnerable-customers.md
   - concepts/sludge-and-friction.md
   - summaries/fg22-5-guidance.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
 ---
 
 # FCA Consumer Duty — Cross-Cutting Rules
@@ -125,6 +127,18 @@ The cross-cutting rules apply at both levels: **(PS22/9 §5.15)**
 - **Target market level:** Product design, marketing, pricing decisions — a firm avoids causing foreseeable harm to its target market by designing products appropriately.
 - **Individual customer level:** One-to-one interactions, bespoke services, individual circumstances including vulnerability — a firm supports an individual customer to pursue their financial objectives by tailoring its response.
 
+## Supervisory Findings — Culture and Proactivity (February 2024 Implementation Review)
+
+The February 2024 implementation review identified two named good-faith and governance failures that bear directly on the cross-cutting rules.
+
+### "Wait and See" Behaviour
+
+Firms waiting to see if the FCA will intervene before addressing a known issue rather than tackling it themselves. The FCA states this is likely to cause greater complexity in the long run, particularly where consumer redress becomes due. The Duty requires firms to **proactively** identify and address risks of harm — passivity in the face of a known issue is a breach of the good faith and foreseeable harm rules. **(FCA implementation review, February 2024)**
+
+### Duty Ownership Siloed in Compliance
+
+Where the Duty is driven primarily by programme or compliance teams and not discussed at board level, the FCA treats this as evidence that culture, leadership and governance drivers are not functioning. Firms must ensure responsibility for good customer outcomes is understood across the whole business — from product design through to post-sale support — and that it is discussed at senior leadership and board level. **(FCA implementation review, February 2024)**
+
 ## Key Points for Agents
 
 - Three cross-cutting rules: act in good faith; avoid causing foreseeable harm; enable customers to pursue financial objectives. All three apply simultaneously.
@@ -134,6 +148,7 @@ The cross-cutting rules apply at both levels: **(PS22/9 §5.15)**
 - The cross-cutting rules apply at both target market and individual customer level depending on the context.
 - Specific bad-faith patterns named by FG22/5 include: exploiting behavioural biases, using algorithms that amplify bias, adding product complexity to hinder comparison, burying key terms, and designing sludge into support journeys.
 - Where a firm declines a customer, it should consider signposting them to reliable information or third-party resources.
+- "Wait and see" behaviour — knowing of an issue and waiting for the FCA to intervene — is a named breach of the proactivity obligation under the cross-cutting rules.
 
 ## Related Articles
 
@@ -146,3 +161,4 @@ The cross-cutting rules apply at both levels: **(PS22/9 §5.15)**
 - [[vulnerable-customers]]
 - [[sludge-and-friction]]
 - [[fg22-5-guidance]]
+- [[fca-consumer-duty-implementation-review-2024]]
