@@ -19,6 +19,8 @@ related:
   - concepts/consumer-duty-consumer-support.md
   - concepts/vulnerable-customers.md
   - summaries/fg22-5-guidance.md
+  - summaries/fg21-1-guidance.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
 ---
 
 # FCA PS22/9 — A New Consumer Duty: Feedback to CP21/36 and Final Rules
@@ -96,3 +98,5 @@ The FCA chose **not to attach a private right of action** to any part of the Dut
 - [[consumer-duty-consumer-support]]
 - [[vulnerable-customers]]
 - [[fg22-5-guidance]]
+- [[fg21-1-guidance]]
+- [[fca-consumer-duty-implementation-review-2024]]

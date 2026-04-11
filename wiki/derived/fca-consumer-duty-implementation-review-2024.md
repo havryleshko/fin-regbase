@@ -12,6 +12,7 @@ tags: [consumer-duty, implementation-review, good-practice, supervisory-findings
 related:
   - summaries/fg22-5-guidance.md
   - summaries/ps22-9-policy-statement.md
+  - summaries/fg21-1-guidance.md
   - concepts/consumer-duty-overview.md
   - concepts/consumer-duty-cross-cutting-rules.md
   - concepts/consumer-duty-products-services.md
@@ -19,7 +20,9 @@ related:
   - concepts/consumer-duty-consumer-understanding.md
   - concepts/consumer-duty-consumer-support.md
   - concepts/vulnerable-customers.md
+  - concepts/vulnerability-drivers-and-taxonomy.md
   - concepts/sludge-and-friction.md
+  - derived/fca-supervisory-questions-consumer-duty.md
 ---
 
 # FCA Consumer Duty Implementation Review — Good Practice and Areas for Improvement (February 2024)
@@ -167,6 +170,7 @@ The FCA states explicitly: firms should aim to **continuously address issues** t
 
 - [[fg22-5-guidance]]
 - [[ps22-9-policy-statement]]
+- [[fg21-1-guidance]]
 - [[consumer-duty-overview]]
 - [[consumer-duty-cross-cutting-rules]]
 - [[consumer-duty-products-services]]
@@ -174,4 +178,6 @@ The FCA states explicitly: firms should aim to **continuously address issues** t
 - [[consumer-duty-consumer-understanding]]
 - [[consumer-duty-consumer-support]]
 - [[vulnerable-customers]]
+- [[vulnerability-drivers-and-taxonomy]]
 - [[sludge-and-friction]]
+- [[fca-supervisory-questions-consumer-duty]]

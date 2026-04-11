@@ -15,11 +15,13 @@ sources:
 tags: [consumer-duty, supervisory-questions, FCA, UK, derived]
 related:
   - summaries/fg22-5-guidance.md
+  - summaries/fg21-1-guidance.md
   - concepts/consumer-duty-overview.md
   - concepts/consumer-duty-products-services.md
   - concepts/consumer-duty-price-value.md
   - concepts/consumer-duty-consumer-understanding.md
   - concepts/consumer-duty-consumer-support.md
+  - concepts/vulnerable-customers.md
   - concepts/sludge-and-friction.md
   - derived/fca-consumer-duty-implementation-review-2024.md
 ---
@@ -126,10 +128,12 @@ These questions are not an exhaustive checklist — they are the FCA's signalled
 ## Related Articles
 
 - [[fg22-5-guidance]]
+- [[fg21-1-guidance]]
 - [[consumer-duty-overview]]
 - [[consumer-duty-products-services]]
 - [[consumer-duty-price-value]]
 - [[consumer-duty-consumer-understanding]]
 - [[consumer-duty-consumer-support]]
+- [[vulnerable-customers]]
 - [[sludge-and-friction]]
 - [[fca-consumer-duty-implementation-review-2024]]

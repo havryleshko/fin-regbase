@@ -14,6 +14,7 @@ Claude Code reads this file first on every query to identify relevant pages.
 |------|---------|---------|
 | [summaries/ps22-9-policy-statement.md](summaries/ps22-9-policy-statement.md) | PS22/9 policy statement: introduces Principle 12, 3 cross-cutting rules, 4 outcomes; implementation timeline; scope; governance requirements | 1 |
 | [summaries/fg22-5-guidance.md](summaries/fg22-5-guidance.md) | FG22/5 operational guidance companion to PS22/9: good/poor practice examples, sludge, supervisory questions, sector scope table, four-driver culture model | 1 |
+| [summaries/fg21-1-guidance.md](summaries/fg21-1-guidance.md) | FG21/1 vulnerability guidance (Feb 2021): HLRC taxonomy, TEXAS model, policy/practice gap, vulnerability MI catalogue; pre-Duty but cross-referenced by FG22/5 and remains in force | 1 |
 
 ### Concepts
 
@@ -26,7 +27,8 @@ Claude Code reads this file first on every query to identify relevant pages.
 | [concepts/consumer-duty-price-value.md](concepts/consumer-duty-price-value.md) | Price & Value outcome: fair value assessment, distribution chain responsibilities, closed book application, COLL/PROD equivalence; named poor practices incl. charging for undelivered services | 3 |
 | [concepts/consumer-duty-consumer-understanding.md](concepts/consumer-duty-consumer-understanding.md) | Consumer Understanding outcome: communications must demonstrably support effective decisions; testing obligation; supervisory questions; financial promotions approvers; execution-only carve-out | 3 |
 | [concepts/consumer-duty-consumer-support.md](concepts/consumer-duty-consumer-support.md) | Consumer Support outcome: no unreasonable barriers; sludge/positive friction; at-least-as-easy-to-exit rule; channel obligations; digital-only rules; outsourcing | 2 |
-| [concepts/vulnerable-customers.md](concepts/vulnerable-customers.md) | Vulnerability as a cross-cutting lens: applies across all four outcomes; two categories; four-driver culture model; enhanced monitoring approaches; GDPR special category basis | 2 |
+| [concepts/vulnerable-customers.md](concepts/vulnerable-customers.md) | Vulnerability as a cross-cutting lens: HLRC taxonomy; TEXAS model; policy/practice gap; vulnerability MI catalogue; four-driver culture model; GDPR special category basis; supervisory red lines | 4 |
+| [concepts/vulnerability-drivers-and-taxonomy.md](concepts/vulnerability-drivers-and-taxonomy.md) | HLRC four-driver taxonomy (FG21/1 Table 1); vulnerability spectrum; scale data (46%/53%); "do not use the label"; TEXAS model; policy/practice gap; inclusive design; MI catalogue | 1 |
 | [concepts/sludge-and-friction.md](concepts/sludge-and-friction.md) | Sludge (harmful friction) vs positive friction (beneficial friction): definitions, named examples, the at-least-as-easy-to-exit rule, what does not constitute an unreasonable barrier | 1 |
 
 ### Derived

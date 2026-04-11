@@ -19,6 +19,7 @@ related:
   - concepts/consumer-duty-cross-cutting-rules.md
   - concepts/vulnerable-customers.md
   - concepts/sludge-and-friction.md
+  - summaries/ps22-9-policy-statement.md
   - derived/fca-supervisory-questions-consumer-duty.md
   - derived/fca-consumer-duty-implementation-review-2024.md
 ---
@@ -132,5 +133,6 @@ The notification system is consistent with the Consumer Understanding outcome if
 - [[consumer-duty-cross-cutting-rules]]
 - [[vulnerable-customers]]
 - [[sludge-and-friction]]
+- [[ps22-9-policy-statement]]
 - [[fca-supervisory-questions-consumer-duty]]
 - [[fca-consumer-duty-implementation-review-2024]]

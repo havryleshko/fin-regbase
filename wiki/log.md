@@ -102,5 +102,80 @@ D. Thin pages updated with substantive content (2 fixes):
 - consumer-duty-consumer-understanding.md: added FG22/5 supervisory questions section; added good/poor practice findings from implementation review (jargon buster example, behavioural-bias-aware comms, financial promotions approvers, execution-only carve-out note)
 
 Flagged for future ingest (not yet actioned):
-- FG21/1 (FCA Guidance on the fair treatment of vulnerable customers) — referenced in vulnerable-customers.md and implementation review page
+- ~~FG21/1 (FCA Guidance on the fair treatment of vulnerable customers)~~ — ingested 2026-04-10
+- FCA Dear CEO letter to wealth and stockbroking firms — referenced in vulnerable-customers.md and implementation review page
+
+## 2026-04-10 ingest | FCA FG21/1 — Guidance for Firms on the Fair Treatment of Vulnerable Customers
+
+Source: `raw/fca-consumer-duty/fg21-1.pdf` (FCA Finalised Guidance, February 2021, 5 chapters + 2 appendices)
+
+Pages created (2):
+- `wiki/summaries/fg21-1-guidance.md`
+- `wiki/concepts/vulnerability-drivers-and-taxonomy.md`
+
+Pages updated (1):
+- `wiki/concepts/vulnerable-customers.md` — added FG21/1 sources to frontmatter; added HLRC four-driver taxonomy (FG21/1 §2.5–§2.6) with Table 1 characteristics; added scale data (46%/53%, FG21/1 §2.7) and "do not use the label" (FG21/1 §2.9); added policy/practice gap section (FG21/1 §3.13); added TEXAS model section (FG21/1 §3.18–§3.20); added vulnerability MI catalogue (FG21/1 Ch.5, 10 named MI types); updated Key Points for Agents; updated Related Articles to include vulnerability-drivers-and-taxonomy, fg21-1-guidance
+
+Notes:
+- FG21/1 predates Consumer Duty (July 2022) and was issued under Principle 6. PS22/9 §10.8 and FG22/5 §11.40 explicitly cross-reference it — it remains fully in force under the Duty.
+- The HLRC four-driver taxonomy (Table 1) is the primary FCA source for characterising vulnerability. PS22/9 and FG22/5 reference vulnerability as a concept without providing this detail.
+- TEXAS model and policy/practice gap are FG21/1-only concepts not described in PS22/9 or FG22/5.
+- The vulnerability MI catalogue (FG21/1 Ch.5, 10 named types) is the most detailed FCA guidance on monitoring vulnerable customer outcomes. PS22/9 requires firms to monitor outcomes for distinct customer groups; FG21/1 specifies the mechanism.
+- No contradictions with existing wiki pages. FG21/1 adds operational depth to what PS22/9 and FG22/5 describe at a higher level.
+
+Flagged for future ingest (not yet actioned):
+- FCA Dear CEO letter to wealth and stockbroking firms — referenced in vulnerable-customers.md and implementation review page
+
+## 2026-04-11 lint (pass 1)
+
+Scanned all 16 wiki pages. No contradictions. No stale claims. No orphan pages.
+
+Issues found and fixed (11 total across 7 pages):
+
+A. Frontmatter/body inconsistency (1 fix):
+- fg22-5-guidance.md: body Related Articles was missing 3 entries already in frontmatter (consumer-duty-products-services, consumer-duty-price-value, consumer-duty-consumer-understanding) — added to body
+
+B. Missing cross-references (10 fixes):
+- fg22-5-guidance.md: added fg21-1-guidance to frontmatter + body (FG22/5 §11.40 explicitly cross-references FG21/1)
+- ps22-9-policy-statement.md: added fg21-1-guidance + fca-consumer-duty-implementation-review-2024 to frontmatter + body (PS22/9 §10.8 references FG21/1; implementation review is the primary forward link)
+- consumer-duty-price-value.md: added fg22-5-guidance + fca-supervisory-questions-consumer-duty to frontmatter + body (only outcome page missing these; FG22/5 Ch.7 cited in body)
+- consumer-duty-consumer-understanding.md: added consumer-understanding-digital-notifications to frontmatter + body (derived page already linked back; reverse was absent)
+- sludge-and-friction.md: added fca-consumer-duty-implementation-review-2024 to frontmatter + body (review discusses sludge removal as good practice)
+- consumer-principle.md: added vulnerable-customers to frontmatter + body (page mentions vulnerability in proportionality section but lacked link)
+- fca-consumer-duty-implementation-review-2024.md: added fg21-1-guidance + vulnerability-drivers-and-taxonomy to frontmatter + body (review's vulnerability findings map directly to FG21/1 frameworks)
+
+## 2026-04-11 lint (pass 2)
+
+Scanned all 16 wiki pages. No contradictions. No stale claims. No orphan pages.
+
+Issues found and fixed (7 total across 6 pages):
+
+B. Missing cross-references (7 fixes):
+- fca-supervisory-questions-consumer-duty.md: added vulnerable-customers + fg21-1-guidance to frontmatter + body (page notes vulnerability is a cross-cutting theme; FG21/1 underpins what firms must demonstrate)
+- fca-consumer-duty-implementation-review-2024.md: added fca-supervisory-questions-consumer-duty to frontmatter + body (supervisory questions page linked to review; reverse was absent)
+- fg21-1-guidance.md: added ps22-9-policy-statement to frontmatter + body (body cites PS22/9 §10.8; relationship to Consumer Duty discussed at length)
+- vulnerability-drivers-and-taxonomy.md: added fg22-5-guidance to frontmatter + body (FG22/5 §10.6 four-driver culture model builds on FG21/1 HLRC framework)
+- consumer-understanding-digital-notifications.md: added ps22-9-policy-statement to frontmatter + body (PS22/9 §8.1–§8.12 cited in sources but absent from Related Articles)
+- sludge-and-friction.md: added fca-supervisory-questions-consumer-duty to frontmatter + body (supervisory questions include the direct "at least as easy to exit" test)
+
+Flagged for future ingest (not yet actioned):
+- FCA Dear CEO letter to wealth and stockbroking firms — referenced in vulnerable-customers.md and implementation review page
+
+Scanned all 16 wiki pages. No contradictions. No stale claims. No orphan pages.
+
+Issues found and fixed (11 total across 7 pages):
+
+A. Frontmatter/body inconsistency (1 fix):
+- fg22-5-guidance.md: body Related Articles was missing 3 entries already in frontmatter (consumer-duty-products-services, consumer-duty-price-value, consumer-duty-consumer-understanding) — added to body
+
+B. Missing cross-references (10 fixes):
+- fg22-5-guidance.md: added fg21-1-guidance to frontmatter + body (FG22/5 §11.40 explicitly cross-references FG21/1)
+- ps22-9-policy-statement.md: added fg21-1-guidance + fca-consumer-duty-implementation-review-2024 to frontmatter + body (PS22/9 §10.8 references FG21/1; implementation review is the primary forward link)
+- consumer-duty-price-value.md: added fg22-5-guidance + fca-supervisory-questions-consumer-duty to frontmatter + body (only outcome page missing these; FG22/5 Ch.7 cited in body)
+- consumer-duty-consumer-understanding.md: added consumer-understanding-digital-notifications to frontmatter + body (derived page already linked back; reverse was absent)
+- sludge-and-friction.md: added fca-consumer-duty-implementation-review-2024 to frontmatter + body (review discusses sludge removal as good practice)
+- consumer-principle.md: added vulnerable-customers to frontmatter + body (page mentions vulnerability in proportionality section but lacked link)
+- fca-consumer-duty-implementation-review-2024.md: added fg21-1-guidance + vulnerability-drivers-and-taxonomy to frontmatter + body (review's vulnerability findings map directly to FG21/1 frameworks)
+
+Flagged for future ingest (not yet actioned):
 - FCA Dear CEO letter to wealth and stockbroking firms — referenced in vulnerable-customers.md and implementation review page

@@ -16,6 +16,8 @@ related:
   - concepts/consumer-duty-cross-cutting-rules.md
   - concepts/consumer-duty-products-services.md
   - summaries/ps22-9-policy-statement.md
+  - summaries/fg22-5-guidance.md
+  - derived/fca-supervisory-questions-consumer-duty.md
   - derived/fca-consumer-duty-implementation-review-2024.md
 ---
 
@@ -102,4 +104,6 @@ The FCA's February 2024 implementation review identified specific price and valu
 - [[consumer-duty-cross-cutting-rules]]
 - [[consumer-duty-products-services]]
 - [[ps22-9-policy-statement]]
+- [[fg22-5-guidance]]
+- [[fca-supervisory-questions-consumer-duty]]
 - [[fca-consumer-duty-implementation-review-2024]]

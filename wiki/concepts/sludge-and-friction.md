@@ -17,6 +17,8 @@ related:
   - concepts/consumer-duty-consumer-support.md
   - concepts/consumer-duty-cross-cutting-rules.md
   - concepts/consumer-duty-overview.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
+  - derived/fca-supervisory-questions-consumer-duty.md
 ---
 
 # FCA Consumer Duty — Sludge and Positive Friction
@@ -104,3 +106,5 @@ The consumer support outcome rules do not require: **(FG22/5 §9.55)**
 - [[consumer-duty-consumer-support]]
 - [[consumer-duty-cross-cutting-rules]]
 - [[consumer-duty-overview]]
+- [[fca-consumer-duty-implementation-review-2024]]
+- [[fca-supervisory-questions-consumer-duty]]

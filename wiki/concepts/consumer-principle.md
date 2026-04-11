@@ -13,6 +13,7 @@ tags: [consumer-duty, Principle-12, consumer-principle, UK, FCA]
 related:
   - concepts/consumer-duty-overview.md
   - concepts/consumer-duty-cross-cutting-rules.md
+  - concepts/vulnerable-customers.md
   - summaries/ps22-9-policy-statement.md
 ---
 
@@ -81,4 +82,5 @@ Under SM&CR, a new **Individual Conduct Rule 6** requires individuals at all lev
 
 - [[consumer-duty-overview]]
 - [[consumer-duty-cross-cutting-rules]]
+- [[vulnerable-customers]]
 - [[ps22-9-policy-statement]]

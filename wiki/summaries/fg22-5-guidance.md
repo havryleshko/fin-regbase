@@ -11,6 +11,7 @@ sources:
 tags: [consumer-duty, FG22/5, guidance, UK, FCA]
 related:
   - summaries/ps22-9-policy-statement.md
+  - summaries/fg21-1-guidance.md
   - concepts/consumer-duty-overview.md
   - concepts/consumer-duty-cross-cutting-rules.md
   - concepts/consumer-duty-products-services.md
@@ -99,8 +100,12 @@ This clarification matters for closed-book reviews: a firm assessing whether it 
 ## Related Articles
 
 - [[ps22-9-policy-statement]]
+- [[fg21-1-guidance]]
 - [[consumer-duty-overview]]
 - [[consumer-duty-cross-cutting-rules]]
+- [[consumer-duty-products-services]]
+- [[consumer-duty-price-value]]
+- [[consumer-duty-consumer-understanding]]
 - [[consumer-duty-consumer-support]]
 - [[sludge-and-friction]]
 - [[fca-supervisory-questions-consumer-duty]]
