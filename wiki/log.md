@@ -74,6 +74,14 @@ Notes:
 - Gamification is a new harm category not present in PS22/9 or FG22/5.
 - Fraud victim support is framed here as a consumer support outcome obligation, extending the foreseeable harm framing in the existing wiki.
 
+## 2026-04-10 query filed | Consumer Understanding Outcome — Digital Investment Platform In-App Notifications
+
+Page: `wiki/derived/consumer-understanding-digital-notifications.md`
+
+Query: whether a digital investment platform's in-app notification system complies with the Consumer Understanding outcome.
+
+Sources drawn on: PS22/9 §8.1–§8.12, FG22/5 §5.9/§5.13/Ch.8, FCA implementation review (February 2024). Key points synthesised: notifications are in-scope communications; the operative test is decision-support quality not technical accuracy; gamification is a named FCA concern; execution-only status provides no carve-out; testing is mandatory; behavioural bias exploitation is a named bad-faith pattern.
+
 ## 2026-04-10 lint
 
 Scanned all 13 wiki pages. No contradictions. No stale claims. No orphan pages.
