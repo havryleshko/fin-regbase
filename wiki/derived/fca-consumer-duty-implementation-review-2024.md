@@ -23,6 +23,9 @@ related:
   - concepts/vulnerability-drivers-and-taxonomy.md
   - concepts/sludge-and-friction.md
   - derived/fca-supervisory-questions-consumer-duty.md
+  - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
+  - summaries/fcg3-money-laundering-terrorist-financing.md
+  - concepts/aml-ctf-framework.md
 ---
 
 # FCA Consumer Duty Implementation Review — Good Practice and Areas for Improvement (February 2024)
@@ -181,3 +184,6 @@ The FCA states explicitly: firms should aim to **continuously address issues** t
 - [[vulnerability-drivers-and-taxonomy]]
 - [[sludge-and-friction]]
 - [[fca-supervisory-questions-consumer-duty]]
+- [[dear-ceo-letter-wealth-stockbroking-2023]]
+- [[fcg3-money-laundering-terrorist-financing]]
+- [[aml-ctf-framework]]

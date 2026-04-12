@@ -30,6 +30,7 @@ related:
   - summaries/fg22-5-guidance.md
   - summaries/fg21-1-guidance.md
   - derived/fca-consumer-duty-implementation-review-2024.md
+  - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
 ---
 
 # FCA Consumer Duty — Vulnerable Customers
@@ -228,3 +229,4 @@ The FCA's wealth data survey found 49% of portfolio managers and 69% of stockbro
 - [[fg22-5-guidance]]
 - [[fg21-1-guidance]]
 - [[fca-consumer-duty-implementation-review-2024]]
+- [[dear-ceo-letter-wealth-stockbroking-2023]]

@@ -124,7 +124,7 @@ Notes:
 - No contradictions with existing wiki pages. FG21/1 adds operational depth to what PS22/9 and FG22/5 describe at a higher level.
 
 Flagged for future ingest (not yet actioned):
-- FCA Dear CEO letter to wealth and stockbroking firms — referenced in vulnerable-customers.md and implementation review page
+- ~~FCA Dear CEO letter to wealth and stockbroking firms~~ — ingested 2026-04-11
 
 ## 2026-04-11 lint (pass 1)
 
@@ -159,7 +159,7 @@ B. Missing cross-references (7 fixes):
 - sludge-and-friction.md: added fca-supervisory-questions-consumer-duty to frontmatter + body (supervisory questions include the direct "at least as easy to exit" test)
 
 Flagged for future ingest (not yet actioned):
-- FCA Dear CEO letter to wealth and stockbroking firms — referenced in vulnerable-customers.md and implementation review page
+- ~~FCA Dear CEO letter to wealth and stockbroking firms~~ — ingested 2026-04-11
 
 Scanned all 16 wiki pages. No contradictions. No stale claims. No orphan pages.
 
@@ -178,4 +178,73 @@ B. Missing cross-references (10 fixes):
 - fca-consumer-duty-implementation-review-2024.md: added fg21-1-guidance + vulnerability-drivers-and-taxonomy to frontmatter + body (review's vulnerability findings map directly to FG21/1 frameworks)
 
 Flagged for future ingest (not yet actioned):
-- FCA Dear CEO letter to wealth and stockbroking firms — referenced in vulnerable-customers.md and implementation review page
+- ~~FCA Dear CEO letter to wealth and stockbroking firms~~ — ingested 2026-04-11
+- FCA Financial Crime Guide (FCG) — referenced in Dear CEO letter as mandatory reading; financial crime is out of scope until FCG is ingested
+
+## 2026-04-11 ingest | FCA Dear CEO Letter — Expectations for Wealth Management and Stockbroking Firms (November 2023)
+
+Source: `raw/fca-consumer-duty/dear-ceo-letter-fca-expectations-wealth-management-stockbroking-firms.pdf` (FCA Dear CEO letter, 8 November 2023, 4pp + summary graphic)
+
+Pages created (1):
+- `wiki/summaries/dear-ceo-letter-wealth-stockbroking-2023.md`
+
+Pages updated (3):
+- `wiki/concepts/consumer-duty-price-value.md` — added five named sector-specific poor practices: overtrading; client money interest withheld; securities lending revenue not shared; opaque fee disclosure; incomplete value chain assessment; updated Key Points for Agents
+- `wiki/concepts/consumer-duty-products-services.md` — added four named sector-specific findings: unsuitable portfolios obscured through relationship leverage; execution-only complexity failures; retail-to-professional uprating (14% stat); unjustified complex/unregulated investments; updated Key Points for Agents
+- `wiki/concepts/consumer-duty-consumer-understanding.md` — added FOS/FSCS protection limitation disclosure as a new obligation section; updated Key Points for Agents
+
+Notes:
+- This letter designates financial crime prevention as a co-equal supervisory priority alongside Consumer Duty. The wiki currently has no financial crime content. The FCG is the primary source for financial crime obligations and should be ingested if financial crime compliance enters scope.
+- No contradictions with existing wiki pages. The letter's Consumer Duty findings are consistent with and add sector-specific depth to PS22/9, FG22/5, and the 2024 implementation review.
+- The three new Price & Value failures (overtrading, client money interest, securities lending) are sector-specific and not present in any cross-sector FCA source already in the wiki.
+- Retail-to-professional uprating was mentioned in consumer-duty-overview.md as a scoping note (FG22/5 §2.10); the Dear CEO letter elevates it to an active supervisory concern with a hard data point (14% of firms).
+- The FOS/FSCS disclosure obligation is new; no existing wiki page addressed the obligation to ensure consumers understand the limits of their regulatory protections.
+
+## 2026-04-12 ingest | FCA Financial Crime Guide — FCG 3: Money Laundering and Terrorist Financing
+
+Source: `raw/fca-financial-crime/FCG 3 Money laundering and terrorist financing.pdf` (FCA FCG Chapter 3, April 2026 version, 40pp)
+
+Pages created (3):
+- `wiki/summaries/fcg3-money-laundering-terrorist-financing.md` — full FCG 3 summary: regulatory architecture, governance, MLRO, risk assessment, CDD, EDD mandatory triggers, ongoing/transaction monitoring, SARs, record keeping, CTF, wire transfers, Travel Rule, enforcement case studies
+- `wiki/concepts/aml-ctf-framework.md` — AML/CTF governance framework: regulatory architecture (MLR/SYSC/POCA/Terrorism Act), senior management obligations, MLRO role and failure modes, risk assessment, SARs and personal liability, record keeping, CTF, relationship to Consumer Duty
+- `wiki/concepts/customer-due-diligence.md` — CDD/EDD operational reference: standard CDD, beneficial ownership (25% threshold), mandatory EDD triggers (PEPs, high-risk third countries, correspondent banking, unusual transactions), source of wealth/funds distinction, ongoing monitoring, transaction monitoring, wire transfers and Travel Rule
+
+Pages updated (1):
+- `wiki/summaries/dear-ceo-letter-wealth-stockbroking-2023.md` — updated stale "FCG not yet ingested" note; added fcg3-money-laundering-terrorist-financing, aml-ctf-framework, customer-due-diligence to frontmatter and Related Articles
+
+Notes:
+- This is the first financial crime content in the wiki. AML/CTF is a distinct regulatory regime from Consumer Duty. Where both apply simultaneously, they impose different but overlapping obligations on the same firm — no contradiction with existing Consumer Duty pages.
+- FCG 3 explicitly addresses the consumer-duty-adjacent fraud/scam scenarios from the implementation review and Dear CEO letter, but from an AML/CTF angle rather than a Consumer Duty angle. Both framings are now in the wiki.
+- The HSBC case study (£63.9m fine for transaction monitoring failures) is the largest financial crime enforcement example in the wiki. The Coutts case (£8.75m for PEP/high-risk CDD failures) is the most directly relevant to the wealth management context.
+- The Travel Rule for cryptoasset transfers (from 1 September 2023) is new to the wiki and sector-specific to FCA-registered cryptoasset businesses.
+- The Economic Crime and Corporate Transparency Act 2023 information-sharing provision is new to the wiki.
+- Pending lint fixes from 2026-04-11 lint pass (5 cross-reference additions across 4 pages) have not yet been applied — awaiting approval.
+
+Flagged for future ingest:
+- FCA Financial Crime Thematic Reviews (FCTR) — referenced in FCG 3.3 as containing additional AML guidance (FCTR 4, 5, 10, 12, 3, 7, 15)
+- JMLSG guidance — key operational reference endorsed by FCG 3.1.7 but not yet in wiki
+
+## 2026-04-12 lint (pass 4)
+
+Scanned all 20 wiki pages (17 Consumer Duty + 3 Financial Crime). No contradictions. No stale claims. No orphan pages.
+
+Issues found and fixed (8 total across 6 pages):
+
+A. Pending fixes carried forward from 2026-04-11 lint pass (5 fixes):
+- vulnerable-customers.md: added dear-ceo-letter-wealth-stockbroking-2023 to frontmatter + body (body explicitly references the Dear CEO letter by name)
+- fca-consumer-duty-implementation-review-2024.md: added dear-ceo-letter-wealth-stockbroking-2023 to frontmatter + body (body explicitly references the Dear CEO letter in the vulnerable customers section)
+- dear-ceo-letter-wealth-stockbroking-2023.md: added fg21-1-guidance to frontmatter + body (letter directs firms to "our guidance" on vulnerability — that is FG21/1)
+- dear-ceo-letter-wealth-stockbroking-2023.md: added vulnerability-drivers-and-taxonomy to frontmatter + body (HLRC taxonomy underpins the vulnerability reassessment direction; 49%/69% stat maps directly to this page)
+- dear-ceo-letter-wealth-stockbroking-2023.md: added consumer-duty-consumer-support to frontmatter + body (letter explicitly directs firms to familiarise themselves with consumer support)
+
+B. New cross-references from FCG 3 ingest (3 fixes):
+- fca-consumer-duty-implementation-review-2024.md: added fcg3-money-laundering-terrorist-financing + aml-ctf-framework to frontmatter + body (review discusses fraud/cyber as consumer support failure; AML framework covers same from a different regulatory angle — useful context for agents navigating both regimes)
+- aml-ctf-framework.md: added consumer-duty-consumer-support to frontmatter + body (relationship-to-Consumer-Duty section discusses fraud victim support as a consumer support obligation without linking to the page)
+- fcg3-money-laundering-terrorist-financing.md: added consumer-duty-consumer-support to frontmatter + body (same rationale as above)
+
+Flagged for future ingest (concepts mentioned but lacking pages):
+- Proliferation financing (PF) — mentioned in FCG 3 pages; no concept page
+- FATF — frequently referenced as source of typologies and risk lists (FATF Call for Action, FATF Increased Monitoring); no page
+- JMLSG guidance — key operational AML reference endorsed by FCG 3.1.7; no page
+- SM&CR / Individual Conduct Rule 6 — pre-existing gap; referenced across multiple Consumer Duty pages
+- FOS/FSCS — pre-existing gap; now more prominent after consumer-understanding update

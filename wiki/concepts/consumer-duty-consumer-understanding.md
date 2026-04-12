@@ -5,11 +5,12 @@ regulator: FCA
 regulation: Consumer Duty (PS22/9)
 status: current
 effective_date: 2023-07-31
-last_updated: 2026-04-10
+last_updated: 2026-04-11
 sources:
   - "FCA PS22/9 §8.1–§8.12"
   - "FCA FG22/5 Ch.8 (Key questions for firms)"
   - "FCA Consumer Duty implementation review (February 2024)"
+  - "FCA Dear CEO letter — wealth management and stockbroking firms (November 2023)"
 tags: [consumer-duty, consumer-understanding, communications, outcomes, UK, FCA]
 related:
   - concepts/consumer-duty-overview.md
@@ -21,6 +22,7 @@ related:
   - derived/fca-supervisory-questions-consumer-duty.md
   - derived/fca-consumer-duty-implementation-review-2024.md
   - derived/consumer-understanding-digital-notifications.md
+  - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
 ---
 
 # FCA Consumer Duty — Consumer Understanding Outcome
@@ -76,6 +78,17 @@ The FCA acknowledged that some EU-legacy disclosure requirements can be prescrip
 
 This outcome does not alter the **advice/guidance boundary**. Non-advisory firms must equip customers with information to make effective decisions — but must do so within the scope of what they are authorised to do. **(PS22/9 §8.8)**
 
+## Disclosure of Consumer Protection Limitations
+
+Consumers must understand the limits of their regulatory protections. **(FCA Dear CEO letter, November 2023)**
+
+In the wealth management and stockbroking sector specifically, this includes:
+- The scope and limits of **Financial Ombudsman Service (FOS)** coverage for their products and relationship type.
+- The scope and limits of **FSCS** protection — including any investments that fall outside FSCS protection entirely (e.g. certain unregulated or complex instruments).
+- The associated risks of investments for which consumer protection is limited or absent.
+
+This sits within the Consumer Understanding outcome rather than the disclosure rules framework: the operative question is whether the consumer actually understands their protection position, not whether a disclosure was technically made.
+
 ## FCA Supervisory Questions — Consumer Understanding
 
 The FCA has indicated it will ask the following questions in supervisory interactions on this outcome. **(FG22/5 Ch.8 — Key questions for firms)**
@@ -114,6 +127,7 @@ See [[fca-supervisory-questions-consumer-duty]] for the full set across all outc
 - Existing mandatory disclosure requirements must still be met; this outcome applies on top of and around them.
 - The FCA explicitly applies this outcome to financial promotion approvers — the Duty must be considered at the point of approval, not only at point of issue.
 - Execution-only firms have no carve-out: the obligation to promote products in a way that supports good outcomes applies regardless of whether advice is given.
+- Consumers must understand the limits of their FOS and FSCS protection — effective disclosure of protection limitations is a Consumer Understanding obligation, not merely a disclosure rules obligation.
 
 ## Related Articles
 
@@ -126,3 +140,4 @@ See [[fca-supervisory-questions-consumer-duty]] for the full set across all outc
 - [[fca-supervisory-questions-consumer-duty]]
 - [[fca-consumer-duty-implementation-review-2024]]
 - [[consumer-understanding-digital-notifications]]
+- [[dear-ceo-letter-wealth-stockbroking-2023]]

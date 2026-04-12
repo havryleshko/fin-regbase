@@ -1,0 +1,245 @@
+---
+title: "Customer Due Diligence — CDD, EDD, Ongoing Monitoring, and Transaction Monitoring"
+jurisdiction: UK
+regulator: FCA
+regulation: Money Laundering Regulations 2017; SYSC 6.3
+status: current
+effective_date: 2017-06-26
+last_updated: 2026-04-12
+sources:
+  - "FCA Financial Crime Guide (FCG), Chapter 3 (April 2026 version) — FCG 3.2.4–3.2.9, 3.2.5A, 3.2.13"
+tags: [financial-crime, AML, CDD, EDD, KYC, PEP, beneficial-ownership, transaction-monitoring, travel-rule, UK, FCA]
+related:
+  - concepts/aml-ctf-framework.md
+  - summaries/fcg3-money-laundering-terrorist-financing.md
+  - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
+---
+
+# Customer Due Diligence — CDD, EDD, Ongoing Monitoring, and Transaction Monitoring
+
+## Standard CDD — What Firms Must Do
+
+Customer due diligence (CDD) requires firms to: **(MLR Regs 27–28; FCG 3.2.4)**
+
+1. **Identify the customer** and verify their identity using documents, data or information from a reliable and independent source.
+2. **Identify the beneficial owner** (where applicable) and take risk-based steps to verify their identity.
+3. **Understand the purpose and intended nature** of the business relationship — to obtain a complete picture of ML risk and provide a meaningful basis for ongoing monitoring.
+4. **Understand the ownership and control structure** of any legal person, trust, company, foundation or similar legal arrangement.
+
+CDD must also be applied when contacting an existing customer as part of any legal duty to review information relevant to their risk assessment, or when required by the International Tax Compliance Regulations 2015. **(FCG 3.2.4)**
+
+### Beneficial Ownership — The 25% Threshold
+
+For corporate customers, firms must identify and verify individuals who: **(MLR Reg 5; FCG 3.2.4)**
+
+- Ultimately control **more than 25% of shares or voting rights**
+- Exercise control over the management of the corporate customer
+- Control the body corporate through other means
+
+Where the beneficial owner of a body corporate **cannot be identified**: firms must keep written records of all steps taken and all difficulties encountered, and take reasonable measures to verify the identity of the senior person responsible for managing the body corporate. **(FCG 3.2.4)**
+
+**Company registration requirement:** Before establishing a business relationship with a company subject to Companies Act 2006 Part 21A requirements, a limited liability partnership, or an eligible Scottish partnership, firms must collect proof of company registration. Discrepancies between this and other information obtained must be reported to Companies House. **(FCG 3.2.4)**
+
+### If CDD Cannot Be Completed
+
+Where a firm **cannot apply CDD measures** — including where it cannot be satisfied it knows who the beneficial owner is — it **must not enter into or continue the business relationship**. **(FCG 3.2.4)**
+
+### Good vs Poor CDD Practice
+
+| Good practice | Poor practice |
+|---------------|--------------|
+| Firms using e-verification or PEP databases understand the capabilities and limitations of those tools | Procedures are not risk-based — same CDD measures applied to all customers regardless of risk level |
+| Firm can accommodate customers who lack common forms of ID (e.g. socially excluded, those in care) | No method for tracking whether CDD checks on customers are complete |
+| Firm understands and documents ownership and control structures, including reasons for complex or opaque structures | Staff reduce CDD rigour because a customer is referred by senior executives or influential people |
+| Firm obtains information about purpose and nature of the business relationship before approval | Language difficulties or customer objections allowed to prevent proper CDD questioning |
+| Staff who approve new/ongoing relationships satisfy themselves that adequate CDD has been obtained | No procedures for enhanced due diligence — this breaches the Money Laundering Regulations |
+
+**(FCG 3.2.4)**
+
+## Electronic Identification
+
+An electronic identification process may be regarded as a reliable source for CDD verification purposes if it is: independent of the person whose identity is being verified; secure from fraud and misuse; and capable of providing appropriate assurance that the person claiming an identity is that person. **(FCG 3.2.4)**
+
+## Source of Wealth and Source of Funds
+
+Two distinct concepts that serve different CDD purposes: **(FCG 3.2.6)**
+
+| Concept | Definition | When required |
+|---------|-----------|--------------|
+| **Source of wealth** | How the customer or beneficial owner acquired their total wealth | Always for PEPs; and where relevant to risk |
+| **Source of funds** | The origin of funds involved in this specific business relationship or transaction — the activity that generated the funds (e.g. salary, sale proceeds) and the means of transfer | Always for PEPs; and for high-risk relationships |
+
+**Common failure:** Firms that do not distinguish between source of funds and source of wealth, conflating the two. They address different ML risks and must be established separately for PEPs and high-risk relationships. **(FCG 3.2.6; FCG 3.2.8)**
+
+Where the ML risk is very low and specific conditions are met, JMLSG guidance allows firms to assume that a payment drawn on a UK/EU-regulated credit institution satisfies standard CDD — "source of funds as evidence." This is distinct from the source of funds requirement in Regs 28(11) and 33/35. **(FCG 3.2.6)**
+
+## Enhanced Due Diligence (EDD) — The Framework
+
+EDD applies in higher-risk situations and must provide greater certainty about the customer's identity and the legitimacy of the business relationship than standard CDD. The extent of EDD must be commensurate to the risk. **(FCG 3.2.7, 3.2.8)**
+
+### Mandatory EDD Triggers
+
+The Money Laundering Regulations mandate EDD (and in some cases senior management approval) in the following situations:
+
+#### 1. Politically Exposed Persons (PEPs)
+
+A PEP is a person entrusted with a prominent public function, other than as a middle-ranking or more junior official. PEPs, their **family members**, and their **known close associates** are all subject to mandatory EDD. **(MLR Reg 35; FCG 3.2.7)**
+
+EDD for PEPs requires:
+- **Senior management approval** before initiating or continuing the business relationship (including where an existing customer becomes a PEP after the relationship was established)
+- Establishing the **source of wealth and source of funds**
+- Conducting enhanced ongoing monitoring
+
+**Good practice:** MLRO and their team have adequate oversight of all PEP relationships; firm seeks to identify PEPs associated with respondent banks. **(FCG 3.2.8)**
+
+**Poor practice:** Senior management not giving approval for PEP relationships — this **breaches the Money Laundering Regulations**. **(FCG 3.2.8)**
+
+#### 2. High-Risk Third Countries
+
+Where either party to a business relationship or relevant transaction is established in a **high-risk third country** (defined by reference to FATF's published lists: High-Risk Jurisdictions subject to a Call for Action, and Jurisdictions under Increased Monitoring), firms must apply EDD including: **(MLR Reg 33; FCG 3.2.7)**
+
+- Obtaining additional information on the customer and beneficial owner
+- Establishing intended nature of the business relationship
+- Establishing source of funds and source of wealth
+- Obtaining reasons for the transaction(s)
+- **Senior management approval** for the business relationship
+- Conducting enhanced ongoing monitoring
+
+**Poor practice:** Higher-risk countries allocated low-risk scores specifically to avoid EDD obligations. **(FCG 3.2.3)**
+
+#### 3. Correspondent Banking Relationships
+
+Where a correspondent relationship involves execution of payment from a third-country credit or financial institution, the UK institution must apply EDD measures commensurate with risk, including in higher-risk situations: **(MLR Reg 34; FCG 3.2.7)**
+
+- Thoroughly understanding the correspondent's business, reputation, and AML defence quality
+- **Senior management approval** before establishing any new correspondent relationship
+- Gathering information on the respondent's procedures for sanctions screening, PEP identification and management, account monitoring, and SAR filing
+
+**Good practice:** Correspondent bank draws on discussions with the respondent, overseas regulators, and other relevant bodies to assess AML regime quality. **(FCG 3.2.8)**
+
+**Poor practice:** Correspondent bank relies exclusively on the Wolfsberg Group AML questionnaire; conducts inadequate due diligence on parents and affiliates of respondents. **(FCG 3.2.8)**
+
+#### 4. Complex, Large, or Unusual Transactions
+
+EDD is also required for: **(MLR Reg 33; FCG 3.2.7)**
+
+- Transactions that are **complex, unusually large, show an unusual pattern, or have no apparent economic or legal purpose** — EDD must examine the background and purpose of the transaction and increase the degree of monitoring
+- Any situation that by its nature presents a higher ML/TF risk
+- **Cryptoasset-specific:** transactions involving privacy-enhancing techniques (mixers/tumblers, privacy coins, self-hosted addresses, ring signatures, atomic swaps, zero-knowledge proofs), or where blockchain analysis indicates exposure to criminal or sanctioned activities
+
+#### 5. Life Insurance Beneficiaries
+
+Where the beneficiary of a life insurance policy is a legal person or legal arrangement presenting high ML risk, firms must take reasonable measures to identify and verify beneficial owners of that beneficiary **before making payment**. **(FCG 3.2.7)**
+
+### EDD Methods
+
+EDD measures can include (as appropriate to the risk): **(FCG 3.2.8)**
+
+1. Obtaining more information about the customer's or beneficial owner's business
+2. More robust verification of beneficial owner identity from a reliable, independent source
+3. Understanding the customer's reputation and role in public life
+4. Searching a corporate customer's directors or controlling individuals
+5. Establishing source of wealth
+6. Establishing source of funds
+
+## Ongoing Monitoring
+
+Firms must conduct ongoing monitoring of all business relationships on a risk-sensitive basis. This means: **(MLR Regs 27, 28(11), 33, 34; FCG 3.2.5)**
+
+- Scrutinising transactions for consistency with the firm's knowledge of the customer
+- Keeping CDD documents, data and information up to date
+- Applying CDD measures where the firm doubts the truth or adequacy of previously obtained information
+- Conducting **enhanced ongoing monitoring** in higher-risk relationships
+
+### Enhanced Ongoing Monitoring
+
+Higher-risk relationships must be more closely monitored. This differs from standard monitoring by: **(FCG 3.2.9)**
+
+- More frequent reviews of the relationship
+- Lower alert thresholds on automated monitoring systems for PEPs and other high-risk customers
+- Exceptions escalated to more senior staff
+- Reviews conducted **independently of relationship managers** (a named good practice)
+- Decisions on whether to continue high-risk relationships must be consistent with the firm's overall risk appetite — not dominated by reputational or business considerations
+
+**Named failure:** Annual reviews treated as tick-box exercise — copying information from previous reviews without thought. **(FCG 3.2.9)**
+
+**Named failure:** Insufficient challenge to explanations from relationship managers and customers about unusual transactions. **(FCG 3.2.9)**
+
+**Named failure:** Accounts used for purposes inconsistent with expected activity (e.g. personal accounts used for business) receive no enquiry. **(FCG 3.2.9)**
+
+## Transaction Monitoring
+
+### System Requirements
+
+Transaction monitoring systems (automated or manual) must: **(FCG 3.2.5A)**
+
+- Take a **holistic view of customer behaviour** — not merely transaction-by-transaction analysis
+- Be applied at multiple levels of aggregation: transaction level, account level, customer level, and linked-entity level (across a group of linked customers)
+- Have **calibrated rules and thresholds** tailored to the firm's business, risk profile, and relevant typologies
+- Be tested and reviewed regularly for effectiveness and right outcomes
+- Be understood by relevant staff — the rationale for rules and thresholds must be documented
+
+**New approaches:** Machine learning and AI tools show potential for more sophisticated monitoring (network analysis, holistic customer behaviour modelling) but introduce specific risks: operators of more free-form ML systems may not understand why the software made its recommendations, creating ethical and audit challenges. Firms exploring new approaches should pilot them with appropriate testing and understand their limitations. **(FCG 3.2.5A)**
+
+### Control Framework Failures — Transaction Monitoring
+
+- Senior management have unrealistic expectations of what automated monitoring can achieve; manual scrutiny is under-resourced
+- Threshold-based approaches used in situations where they are not suitable, while relationship manager oversight is neglected
+- Systems poorly calibrated — firm cannot articulate the rationale for particular rules and scenarios
+- Data not migrated smoothly when feeder systems are upgraded — transactions erroneously omitted
+- Firm lacks understanding of what its automated system is detecting and why (due to staff turnover, poor documentation, or weak vendor communication)
+- Off-the-shelf systems used without calibration to the firm's individual needs
+
+**(FCG 3.2.5A)**
+
+### HSBC Enforcement Case — Transaction Monitoring
+
+The FCA imposed a **£63,946,800 penalty** on HSBC for transaction monitoring system failures sustained over an extended period. Specific failures: **(FCG 3.2.5B)**
+
+1. Failed to consider whether monitoring scenarios covered relevant ML/TF risks
+2. Failed to carry out timely risk assessments for new scenarios
+3. Failed to appropriately test and update monitoring parameters — certain thresholds were set so high it was almost impossible for scenarios to flag suspicious activity
+4. Failed to check the accuracy and completeness of data fed into monitoring systems — resulting in **millions of transactions worth billions of pounds** that were either monitored incorrectly or not at all
+
+## Wire Transfers and the Travel Rule
+
+### Wire Transfer Obligations (Banks)
+
+Banks must collect and attach **payer and payee information** to wire transfer payment messages. On inbound payments, banks must check that information is complete and chase missing data. **(FCG 3.2.13)**
+
+**Breaches (explicitly named):**
+- Sending international payment instructions without meaningful payer and payee information
+- Intermediary banks stripping payer or payee information from payment instructions before passing the payment on
+- Payee banks not checking incoming payments for complete data
+- Using incorrect SWIFT message types for cover payments
+
+**(FCG 3.2.13)**
+
+### The Travel Rule — Cryptoassets
+
+From **1 September 2023**, FCA-registered cryptoasset businesses are subject to equivalent wire transfer obligations for cryptoasset transfers. Payer and payee information must accompany cryptoasset transfers. **(FCG 3.2.13)**
+
+### Wire Transfer Enforcement Cases
+
+**Lloyds TSB:** Agreed to pay **US$350m** to US authorities after offices in the UK and Dubai deliberately removed customer names and addresses from US wire transfers to ensure payments would pass undetected through sanctions filters at US financial institutions. **(FCG 3.2.15)**
+
+**Barclays Bank PLC:** Agreed to pay **US$298m** to US authorities for implementing practices to evade US sanctions — including stripping information from payment messages — over a **decade-long period** from the mid-1990s to September 2006. The bank self-reported the breaches. **(FCG 3.2.15)**
+
+These cases illustrate that wire transfer failures can attract criminal sanctions from **foreign jurisdictions** as well as FCA enforcement action. **(FCG 3.2.15)**
+
+## Key Points for Agents
+
+- CDD must cover: customer identity verification; beneficial owner identification and verification (25% control threshold for corporates); and understanding the purpose and nature of the business relationship. All three are required — meeting two is not sufficient.
+- Where CDD cannot be completed — including where the beneficial owner cannot be identified — the relationship **must not proceed**.
+- Source of wealth (total wealth acquisition) and source of funds (origin of funds in this relationship) are distinct concepts. Both are required for PEPs and high-risk relationships. Conflating them is a named failure.
+- EDD with mandatory senior management approval is required for: PEPs (and family/associates); high-risk third countries (FATF lists); and correspondent banking from third countries.
+- Ongoing monitoring must be risk-sensitive — enhanced for high-risk relationships, with lower alert thresholds and independent review.
+- Transaction monitoring systems must be calibrated to the firm's actual risk profile and typologies, tested for effectiveness, and understood by staff. Off-the-shelf uncalibrated systems are a named failure.
+- The Travel Rule applies to cryptoasset transfers from 1 September 2023 — FCA-registered cryptoasset businesses must attach payer/payee information to transfers.
+- Wire transfer sanctions stripping can attract enforcement from foreign jurisdictions (US DOJ), not only the FCA.
+
+## Related Articles
+
+- [[aml-ctf-framework]]
+- [[fcg3-money-laundering-terrorist-financing]]
+- [[dear-ceo-letter-wealth-stockbroking-2023]]

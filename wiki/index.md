@@ -15,6 +15,7 @@ Claude Code reads this file first on every query to identify relevant pages.
 | [summaries/ps22-9-policy-statement.md](summaries/ps22-9-policy-statement.md) | PS22/9 policy statement: introduces Principle 12, 3 cross-cutting rules, 4 outcomes; implementation timeline; scope; governance requirements | 1 |
 | [summaries/fg22-5-guidance.md](summaries/fg22-5-guidance.md) | FG22/5 operational guidance companion to PS22/9: good/poor practice examples, sludge, supervisory questions, sector scope table, four-driver culture model | 1 |
 | [summaries/fg21-1-guidance.md](summaries/fg21-1-guidance.md) | FG21/1 vulnerability guidance (Feb 2021): HLRC taxonomy, TEXAS model, policy/practice gap, vulnerability MI catalogue; pre-Duty but cross-referenced by FG22/5 and remains in force | 1 |
+| [summaries/dear-ceo-letter-wealth-stockbroking-2023.md](summaries/dear-ceo-letter-wealth-stockbroking-2023.md) | FCA Dear CEO letter (Nov 2023): wealth management/stockbroking sector; dual priority of financial crime prevention and Consumer Duty; named sector-specific failures; supervisory posture shift | 1 |
 
 ### Concepts
 
@@ -38,3 +39,20 @@ Claude Code reads this file first on every query to identify relevant pages.
 | [derived/fca-supervisory-questions-consumer-duty.md](derived/fca-supervisory-questions-consumer-duty.md) | All FCA supervisory questions for Consumer Duty, per outcome (Products & Services, Price & Value, Consumer Understanding, Consumer Support, Culture & Governance) | 1 |
 | [derived/fca-consumer-duty-implementation-review-2024.md](derived/fca-consumer-duty-implementation-review-2024.md) | FCA's February 2024 post-go-live review: good and poor practice observed across all five areas; includes gamification, fraud victim support, vulnerability red lines, and "wait and see" failure mode | 1 |
 | [derived/consumer-understanding-digital-notifications.md](derived/consumer-understanding-digital-notifications.md) | Compliance assessment: digital investment platform in-app notifications against the Consumer Understanding outcome; covers gamification, behavioural bias, timing, testing, execution-only carve-out | 6 |
+
+---
+
+## UK — FCA Financial Crime
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/fcg3-money-laundering-terrorist-financing.md](summaries/fcg3-money-laundering-terrorist-financing.md) | FCG 3: full AML/CTF regulatory architecture; governance, MLRO, risk assessment, CDD, EDD triggers, SARs, record keeping, wire transfers, Travel Rule, enforcement case studies | 1 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/aml-ctf-framework.md](concepts/aml-ctf-framework.md) | AML/CTF framework: regulatory architecture (MLR, SYSC, POCA, Terrorism Act), senior management governance, MLRO role and failure modes, risk assessment, SARs and personal liability, record keeping, CTF | 1 |
+| [concepts/customer-due-diligence.md](concepts/customer-due-diligence.md) | CDD, EDD, and monitoring: beneficial ownership (25% threshold), mandatory EDD triggers (PEPs, high-risk countries, correspondent banking), source of wealth/funds, transaction monitoring, Travel Rule | 1 |

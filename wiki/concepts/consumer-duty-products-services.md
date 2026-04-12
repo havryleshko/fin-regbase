@@ -5,12 +5,13 @@ regulator: FCA
 regulation: Consumer Duty (PS22/9)
 status: current
 effective_date: 2023-07-31
-last_updated: 2026-04-10
+last_updated: 2026-04-11
 sources:
   - "FCA PS22/9 §6.1–§6.11"
   - "FCA PS22/9 §1.15–§1.16"
   - "FCA FG22/5 Ch.6 (Key questions for firms)"
   - "FCA Consumer Duty implementation review (February 2024)"
+  - "FCA Dear CEO letter — wealth management and stockbroking firms (November 2023)"
 tags: [consumer-duty, products-services, outcomes, target-market, UK, FCA]
 related:
   - concepts/consumer-duty-overview.md
@@ -21,6 +22,7 @@ related:
   - summaries/fg22-5-guidance.md
   - derived/fca-supervisory-questions-consumer-duty.md
   - derived/fca-consumer-duty-implementation-review-2024.md
+  - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
 ---
 
 # FCA Consumer Duty — Products and Services Outcome
@@ -106,6 +108,15 @@ See [[fca-supervisory-questions-consumer-duty]] for the full set across all outc
 - **Passive distribution strategy monitoring.** Where a manufacturer finds third-party brokers distributing its product outside the intended target market, it must consider appropriate remedial action — such as providing additional information to brokers — even though it is not responsible for the broker's activities. Manufacturers must actively monitor, not merely define, their distribution strategy. **(FCA implementation review, February 2024)**
 - **Failure to recognise distribution chain role.** Firms that have material influence over retail customer outcomes but lack a direct customer relationship failing to recognise that they are nonetheless in scope of the Duty. **(FCA implementation review, February 2024)**
 
+## Supervisory Findings — Wealth Management & Stockbroking Sector (November 2023 Dear CEO Letter)
+
+The FCA identified the following products and services failures specific to this sector, beyond the cross-sector findings from the February 2024 implementation review.
+
+- **Unsuitable portfolios obscured through relationship leverage.** Portfolio managers using established long-term client relationships to obscure the risks of portfolios not aligned to the client's risk profile. Named as a deliberate trust exploitation, not oversight. **(FCA Dear CEO letter, November 2023)**
+- **Execution-only complexity failures.** Execution-only stockbrokers promoting products too complex for their customers to understand. The execution-only model provides no carve-out from obligations to distribute only to appropriate target markets. **(FCA Dear CEO letter, November 2023)**
+- **Retail-to-professional uprating.** The FCA is actively challenging uprating of retail consumers to professional client status. **14% of firms uprated consumers in the last 12 months.** Uprating must be supported by robust systems and controls given the significant loss of regulatory protections. **(FCA Dear CEO letter, November 2023)**
+- **Unjustified complex and unregulated investments.** Firms offering complex or unregulated investments must fully justify this with a clear view of suitability or appropriateness for the consumer. The burden of justification is on the firm. **(FCA Dear CEO letter, November 2023)**
+
 ## Key Points for Agents
 
 - Products and services must be designed for a defined target market and confirmed fit for purpose throughout the lifecycle — not only at launch.
@@ -115,6 +126,7 @@ See [[fca-supervisory-questions-consumer-duty]] for the full set across all outc
 - Existing PROD compliance satisfies this outcome — firms already meeting PROD do not face additional obligations on this outcome.
 - Information must flow in both directions in the chain: manufacturers to distributors (target market, value) and distributors back to manufacturers (sales data, outcomes).
 - A firm with material influence over retail outcomes but no direct customer relationship is still in scope — chain position does not determine Duty applicability.
+- Retail-to-professional uprating is an active FCA supervisory concern: 14% of firms did this in the last 12 months; uprating must be supported by robust systems and controls or it is a Duty breach.
 
 ## Related Articles
 
@@ -126,3 +138,4 @@ See [[fca-supervisory-questions-consumer-duty]] for the full set across all outc
 - [[fg22-5-guidance]]
 - [[fca-supervisory-questions-consumer-duty]]
 - [[fca-consumer-duty-implementation-review-2024]]
+- [[dear-ceo-letter-wealth-stockbroking-2023]]
