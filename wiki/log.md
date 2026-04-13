@@ -248,3 +248,52 @@ Flagged for future ingest (concepts mentioned but lacking pages):
 - JMLSG guidance — key operational AML reference endorsed by FCG 3.1.7; no page
 - SM&CR / Individual Conduct Rule 6 — pre-existing gap; referenced across multiple Consumer Duty pages
 - FOS/FSCS — pre-existing gap; now more prominent after consumer-understanding update
+
+## 2026-04-12 ingest | JMLSG Guidance Part I — Prevention of Money Laundering/Combating Terrorist Financing (June 2023, updated August 2025)
+
+Source: `raw/fca-financial-crime/JMLSG-Guidance-Part-I_June-2023-updated-Aug-2025.pdf` (216 pages, Treasury-approved industry guidance)
+
+Pages created (3):
+- `wiki/summaries/jmlsg-part-i-guidance.md` — full Part I summary: legal status, eight-chapter overview, relationship to FCG, five key additions vs existing wiki content (SDD, DAML consent, suspicion definitions, tipping off, third-party reliance), PEP continuum, risk factor weighting, Annual Financial Crime Report
+- `wiki/concepts/simplified-due-diligence.md` — SDD framework: third CDD tier; six qualifying scenarios; permitted adjustments (timing/quantity/quality/monitoring); when SDD must stop; limits vs third-party reliance
+- `wiki/concepts/sar-consent-tipping-off.md` — SARs operational framework: legal definitions of knowledge/suspicion/reasonable grounds (K v NatWest [2006]); DAML consent procedure (7-day/31-day/186-day periods); tipping-off offences (two variants); permitted disclosures (within-firm, within-group, inter-institution); deposit-taker £3k threshold
+
+Pages updated (2):
+- `wiki/concepts/customer-due-diligence.md` — added SDD section (pointer to new page); added full third-party reliance section (MLR Reg 39 conditions, what must be obtained immediately, limits on reliance, group introductions, pro-forma confirmations); updated title, frontmatter, Key Points for Agents, Related Articles
+- `wiki/concepts/aml-ctf-framework.md` — added operational note on DAML consent and tipping off under SARs section; updated frontmatter sources and tags; updated Key Points for Agents; updated Related Articles
+
+Notes:
+- JMLSG Part I is Treasury-approved — courts must take account of it under POCA, Terrorism Act, and MLR. The FCA will have regard to it in enforcement. This is a distinct legal status from FCG (FCA sourcebook guidance) and from FCA rules.
+- The DAML consent regime (§6.46–6.59) is entirely new to the wiki. It is the mechanism by which firms may lawfully proceed with a suspicious transaction without committing a money laundering offence. The 7-day/31-day/186-day periods and the deposit-taker £3k threshold are operationally critical and were absent.
+- Suspicion definitions (§6.10–6.17) are new. K v NatWest [2006] confirmed that suspicion is purely subjective — no need for reasonable grounds to trigger the subjective obligation. The objective "reasonable grounds" test is a parallel and additional basis for liability.
+- Tipping-off offences (§6.60–6.71) are new to the wiki. Two variants. Permitted disclosures resolve the tension between the tipping-off rule and legitimate intra-firm/group information sharing.
+- SDD (§5.4) fills a gap in customer-due-diligence.md — that page covered only CDD and EDD.
+- Third-party reliance (§5.6) adds operational depth absent from the existing customer-due-diligence.md; the key limit (SDD-verified identity cannot be relied on; chain reliance not permitted) is now documented.
+- No contradictions with existing wiki pages. JMLSG Part I is operationally consistent with FCG 3 and adds depth to it.
+- JMLSG Parts II (sector-specific) and III (specialist areas) not yet ingested.
+
+Flagged for future ingest (concepts mentioned but lacking pages):
+- ~~JMLSG guidance~~ — ingested 2026-04-12
+- Proliferation financing (PF) — mentioned in JMLSG Part I and FCG 3; no concept page
+- FATF — referenced as source of risk lists and typologies; no page
+- SM&CR / Individual Conduct Rule 6 — pre-existing gap
+- FOS/FSCS — pre-existing gap
+
+## 2026-04-12 lint (pass 5)
+
+Scanned all 25 wiki pages (17 Consumer Duty + 8 Financial Crime). No contradictions. No stale claims. No orphan pages.
+
+Issues found and fixed (3 total across 2 pages):
+
+A. Frontmatter/body inconsistency (1 fix):
+- aml-ctf-framework.md: frontmatter `related:` was missing `simplified-due-diligence` and `fca-consumer-duty-implementation-review-2024`, both of which appeared in the body Related Articles — added to frontmatter
+
+B. Missing cross-references from new JMLSG ingest (2 fixes):
+- fcg3-money-laundering-terrorist-financing.md: added `jmlsg-part-i-guidance` to frontmatter + body (FCG 3.1.7 explicitly states JMLSG is the operational complement; reverse link was absent)
+- fcg3-money-laundering-terrorist-financing.md: added `sar-consent-tipping-off` to frontmatter + body (FCG 3.2.10 covers SARs; sar-consent-tipping-off provides the DAML consent and tipping-off operational detail FCG 3 points to JMLSG for)
+
+Flagged for future ingest (concepts mentioned but lacking pages):
+- Proliferation financing (PF) — now referenced in 3 financial crime pages
+- FATF — referenced as authoritative source throughout financial crime section
+- SM&CR / Individual Conduct Rule 6 — pre-existing gap
+- FOS/FSCS — pre-existing gap

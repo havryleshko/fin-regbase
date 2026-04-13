@@ -49,10 +49,13 @@ Claude Code reads this file first on every query to identify relevant pages.
 | Page | Summary | Sources |
 |------|---------|---------|
 | [summaries/fcg3-money-laundering-terrorist-financing.md](summaries/fcg3-money-laundering-terrorist-financing.md) | FCG 3: full AML/CTF regulatory architecture; governance, MLRO, risk assessment, CDD, EDD triggers, SARs, record keeping, wire transfers, Travel Rule, enforcement case studies | 1 |
+| [summaries/jmlsg-part-i-guidance.md](summaries/jmlsg-part-i-guidance.md) | JMLSG Part I (June 2023, Aug 2025 update): Treasury-approved AML/CTF guidance; SDD, DAML consent regime, tipping off, third-party reliance, risk factor weighting, PEP continuum, Annual Financial Crime Report | 1 |
 
 ### Concepts
 
 | Page | Summary | Sources |
 |------|---------|---------|
-| [concepts/aml-ctf-framework.md](concepts/aml-ctf-framework.md) | AML/CTF framework: regulatory architecture (MLR, SYSC, POCA, Terrorism Act), senior management governance, MLRO role and failure modes, risk assessment, SARs and personal liability, record keeping, CTF | 1 |
-| [concepts/customer-due-diligence.md](concepts/customer-due-diligence.md) | CDD, EDD, and monitoring: beneficial ownership (25% threshold), mandatory EDD triggers (PEPs, high-risk countries, correspondent banking), source of wealth/funds, transaction monitoring, Travel Rule | 1 |
+| [concepts/aml-ctf-framework.md](concepts/aml-ctf-framework.md) | AML/CTF framework: regulatory architecture (MLR, SYSC, POCA, Terrorism Act), senior management governance, MLRO role and failure modes, risk assessment, SARs and personal liability, record keeping, CTF | 2 |
+| [concepts/customer-due-diligence.md](concepts/customer-due-diligence.md) | CDD, EDD, SDD, third-party reliance, and monitoring: beneficial ownership (25% threshold), mandatory EDD triggers, source of wealth/funds, reliance conditions and pro-formas, transaction monitoring, Travel Rule | 2 |
+| [concepts/simplified-due-diligence.md](concepts/simplified-due-diligence.md) | SDD: third CDD tier for low-risk situations; qualifying categories; permitted adjustments to timing/quantity/quality/monitoring; when SDD must stop; reliance limit | 1 |
+| [concepts/sar-consent-tipping-off.md](concepts/sar-consent-tipping-off.md) | SARs operational framework: legal definitions of suspicion and reasonable grounds; DAML consent procedure (7-day/31-day/186-day); tipping-off criminal offences; permitted disclosure carve-outs; deposit-taker £3k threshold | 1 |

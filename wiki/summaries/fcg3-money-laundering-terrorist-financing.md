@@ -12,6 +12,8 @@ tags: [financial-crime, AML, CTF, money-laundering, KYC, CDD, MLRO, SAR, UK, FCA
 related:
   - concepts/aml-ctf-framework.md
   - concepts/customer-due-diligence.md
+  - concepts/sar-consent-tipping-off.md
+  - summaries/jmlsg-part-i-guidance.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - concepts/consumer-duty-cross-cutting-rules.md
   - derived/fca-consumer-duty-implementation-review-2024.md
@@ -178,6 +180,8 @@ AML/CTF and Consumer Duty are distinct regulatory regimes that operate in parall
 
 - [[aml-ctf-framework]]
 - [[customer-due-diligence]]
+- [[sar-consent-tipping-off]]
+- [[jmlsg-part-i-guidance]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[consumer-duty-cross-cutting-rules]]
 - [[fca-consumer-duty-implementation-review-2024]]

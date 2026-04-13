@@ -178,6 +178,9 @@
   },
   "active": "26e0ba47039ff414",
   "lastOpenFiles": [
+    "concepts/sar-consent-tipping-off.md",
+    "concepts/simplified-due-diligence.md",
+    "summaries/jmlsg-part-i-guidance.md",
     "concepts/customer-due-diligence.md",
     "concepts/aml-ctf-framework.md",
     "summaries/fcg3-money-laundering-terrorist-financing.md",
@@ -207,7 +210,6 @@
     "summaries/fg22-5-guidance.md",
     "concepts/vulnerable-customers.md",
     "concepts/consumer-duty-price-value.md",
-    "concepts/consumer-duty-cross-cutting-rules.md",
-    "concepts/consumer-principle.md"
+    "concepts/consumer-duty-cross-cutting-rules.md"
   ]
 }

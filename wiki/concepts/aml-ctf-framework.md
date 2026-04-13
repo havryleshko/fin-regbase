@@ -8,12 +8,17 @@ effective_date: 2017-06-26
 last_updated: 2026-04-12
 sources:
   - "FCA Financial Crime Guide (FCG), Chapter 3 (April 2026 version) — FCG 3.2.1–3.2.3, 3.2.10–3.2.12"
-tags: [financial-crime, AML, CTF, MLRO, SAR, governance, risk-assessment, UK, FCA]
+  - "JMLSG Guidance Part I (June 2023, updated August 2025) — §3.1–3.49, §6.1–6.99"
+tags: [financial-crime, AML, CTF, MLRO, SAR, governance, risk-assessment, UK, FCA, JMLSG]
 related:
   - concepts/customer-due-diligence.md
+  - concepts/sar-consent-tipping-off.md
+  - concepts/simplified-due-diligence.md
   - summaries/fcg3-money-laundering-terrorist-financing.md
+  - summaries/jmlsg-part-i-guidance.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - concepts/consumer-duty-cross-cutting-rules.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
   - concepts/consumer-duty-consumer-support.md
 ---
 
@@ -167,6 +172,8 @@ Law enforcement may also seek information from firms through **Production Orders
 
 **Alpari enforcement case:** Alpari (UK) Ltd fined £140,000 for poor AML controls including inadequate CDD and monitoring. The former MLRO was personally fined £14,000 for failing to fulfil their duties — demonstrating the personal accountability that the SAR framework creates. **(FCG 3.2.14)**
 
+**Operational detail — suspicion threshold, consent regime, and tipping off:** JMLSG Chapter 6 provides legal definitions of "knowledge," "suspicion" (subjective — beyond mere speculation, with some factual foundation), and "reasonable grounds to know or suspect" (an objective criminal test that applies even without personal suspicion). When suspicion arises before a transaction, the nominated officer must seek **DAML consent** from the NCA — not merely file a SAR. NCA has 7 working days to refuse; 31-day moratorium if refused (extendable to 186 days). Tipping off is a separate criminal offence. See [[sar-consent-tipping-off]] for the full framework. **(JMLSG §6.10–6.71)**
+
 ## Record Keeping
 
 Firms must retain CDD documents, data and information for: **(MLR Reg 40; FCG 3.2.11)**
@@ -210,13 +217,18 @@ These are complementary obligations, not contradictory frameworks.
 - Firms must appoint a senior management/board-level MLR compliance officer and notify the FCA within 14 days.
 - Risk assessments must be documented, comprehensive, and must demonstrably inform AML control design and customer acceptance decisions. Profitability must not influence risk classification.
 - The nominated officer has a personal legal obligation to report ML suspicions to NCA — a "defensive" approach (passing everything through) or turning a blind eye are both failures; the latter is potentially criminal.
+- When suspicion arises before a transaction, the nominated officer must seek DAML consent from the NCA — not merely file a SAR. See [[sar-consent-tipping-off]].
+- Tipping off is a separate criminal offence — two variants (disclosing a SAR was made; disclosing an investigation is underway). Permitted disclosures (within-firm, within-group, common-customer inter-institution) do not trigger the offence.
 - CDD records: five years post-relationship end; ten-year maximum; delete after retention period expires.
 - CTF training must explicitly cover terrorist financing — not only money laundering.
 
 ## Related Articles
 
 - [[customer-due-diligence]]
+- [[sar-consent-tipping-off]]
+- [[simplified-due-diligence]]
 - [[fcg3-money-laundering-terrorist-financing]]
+- [[jmlsg-part-i-guidance]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[consumer-duty-cross-cutting-rules]]
 - [[fca-consumer-duty-implementation-review-2024]]

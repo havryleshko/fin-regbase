@@ -1,21 +1,25 @@
 ---
-title: "Customer Due Diligence — CDD, EDD, Ongoing Monitoring, and Transaction Monitoring"
+title: "Customer Due Diligence — CDD, EDD, SDD, Third-Party Reliance, Ongoing Monitoring, and Transaction Monitoring"
 jurisdiction: UK
-regulator: FCA
+regulator: FCA / JMLSG
 regulation: Money Laundering Regulations 2017; SYSC 6.3
 status: current
 effective_date: 2017-06-26
 last_updated: 2026-04-12
 sources:
   - "FCA Financial Crime Guide (FCG), Chapter 3 (April 2026 version) — FCG 3.2.4–3.2.9, 3.2.5A, 3.2.13"
-tags: [financial-crime, AML, CDD, EDD, KYC, PEP, beneficial-ownership, transaction-monitoring, travel-rule, UK, FCA]
+  - "JMLSG Guidance Part I (June 2023, updated August 2025) — §5.4, §5.5, §5.6"
+tags: [financial-crime, AML, CDD, EDD, SDD, KYC, PEP, beneficial-ownership, transaction-monitoring, travel-rule, reliance, UK, FCA, JMLSG]
 related:
   - concepts/aml-ctf-framework.md
+  - concepts/simplified-due-diligence.md
+  - concepts/sar-consent-tipping-off.md
   - summaries/fcg3-money-laundering-terrorist-financing.md
+  - summaries/jmlsg-part-i-guidance.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
 ---
 
-# Customer Due Diligence — CDD, EDD, Ongoing Monitoring, and Transaction Monitoring
+# Customer Due Diligence — CDD, EDD, SDD, Third-Party Reliance, Ongoing Monitoring, and Transaction Monitoring
 
 ## Standard CDD — What Firms Must Do
 
@@ -227,12 +231,56 @@ From **1 September 2023**, FCA-registered cryptoasset businesses are subject to 
 
 These cases illustrate that wire transfer failures can attract criminal sanctions from **foreign jurisdictions** as well as FCA enforcement action. **(FCG 3.2.15)**
 
+## Simplified Due Diligence (SDD)
+
+SDD is a third CDD tier that permits adjustment (not elimination) of CDD obligations in genuinely low-risk situations. It is not an exemption. The firm must still apply all CDD measures; SDD permits adjustment of their timing, quantity, quality, or monitoring frequency. Qualifying scenarios include: public administrations; listed companies; regulated firms subject to equivalent MLR requirements; employer-contribution pension schemes; Child Trust Funds and Junior ISAs.
+
+See [[simplified-due-diligence]] for the full framework including qualifying criteria, what adjustments are permitted, and when SDD must be suspended.
+
+## Third-Party Reliance
+
+### What Reliance Permits
+
+MLR Reg 39 expressly permits a firm to rely on another person to apply any or all CDD measures. The **relying firm retains full legal responsibility** for compliance — responsibility cannot be delegated. **(MLR Reg 39; JMLSG §5.6.4)**
+
+Examples: Firm A enters into a business relationship with the underlying customer of Firm B (accepting instructions through Firm B); or Firm A and Firm B both act for the same customer in a transaction (e.g. executing and clearing brokers). In both cases, Firm A may rely on Firm B to carry out CDD. **(JMLSG §5.6.5)**
+
+### Who Can Be Relied On
+
+The firm being relied on must be: **(MLR Reg 39(3); JMLSG §5.6.6)**
+- A person carrying on business in the UK subject to the ML Regulations; **or**
+- A person in a third country subject to, and supervised for compliance with, CDD and record-keeping requirements equivalent to those in the Fourth Money Laundering Directive; **or**
+- An organisation whose members consist of persons in the above categories.
+
+### What the Relying Firm Must Obtain
+
+Where a firm relies on a third party, it must **immediately** obtain from that third party all information needed to identify the customer or beneficial owner. **(MLR Reg 39(2)(a); JMLSG §5.6.7)**
+
+The firm must also enter into arrangements enabling it to obtain, on request, copies of identification and verification data and other documentation on customer or beneficial owner identity. The third party must retain those documents for the MLR record-keeping periods (five years post-relationship end). **(MLR Reg 39(2)(b); JMLSG §5.6.8)**
+
+### Limits of Reliance
+
+- Reliance on **SDD-verified identity is not permitted** — standard CDD or above is required. **(JMLSG §5.6.10)**
+- **Chain reliance is not permitted** — a firm that was itself relied on to verify identity cannot pass that verification further. **(JMLSG §5.6.11)**
+- The firm relying on a confirmation must document the steps taken to confirm that the third party satisfies MLR Reg 39(3). **(JMLSG §5.6.22)**
+- A confirmation must not be given on the basis of a generalised assumption that the firm's systems operated correctly — there must be actual awareness that the steps were taken for that specific customer. **(JMLSG §5.6.17)**
+
+### Group Introductions
+
+Where a customer is introduced between entities within the same financial sector group, identity need not be re-verified provided: the introducing part of the group verified identity to UK, EU, or assessed low-risk jurisdiction AML standards; and the introducing entity can be relied on as a third party under MLR Reg 39(3). Where UK firms have day-to-day access to group customer information, a formal confirmation is not required if the identity was already verified to required standards. **(MLR Reg 39(5)–(6); JMLSG §5.6.24–5.6.27)**
+
+### Pro-Forma Confirmations
+
+JMLSG provides pro-forma confirmation templates (Annex 5-I and 5-II) for: UK-regulated firm introductions; equivalently regulated third-country firm introductions; and group introductions. These pro-formas are particularly helpful when dealing with third parties outside the UK to confirm that records will be available on request. Confirmations cannot be used for SDD-verified, source-of-funds-verified, or pre-regulation-exempt identities. **(JMLSG §5.6.28–5.6.30)**
+
 ## Key Points for Agents
 
 - CDD must cover: customer identity verification; beneficial owner identification and verification (25% control threshold for corporates); and understanding the purpose and nature of the business relationship. All three are required — meeting two is not sufficient.
 - Where CDD cannot be completed — including where the beneficial owner cannot be identified — the relationship **must not proceed**.
 - Source of wealth (total wealth acquisition) and source of funds (origin of funds in this relationship) are distinct concepts. Both are required for PEPs and high-risk relationships. Conflating them is a named failure.
 - EDD with mandatory senior management approval is required for: PEPs (and family/associates); high-risk third countries (FATF lists); and correspondent banking from third countries.
+- SDD (third tier) may be applied in low-risk situations — it adjusts CDD, it does not exempt from it. See [[simplified-due-diligence]].
+- Third-party reliance is permitted under MLR Reg 39 but the relying firm retains full legal responsibility. Reliance on SDD-verified identity is not permissible. Chain reliance is not permitted.
 - Ongoing monitoring must be risk-sensitive — enhanced for high-risk relationships, with lower alert thresholds and independent review.
 - Transaction monitoring systems must be calibrated to the firm's actual risk profile and typologies, tested for effectiveness, and understood by staff. Off-the-shelf uncalibrated systems are a named failure.
 - The Travel Rule applies to cryptoasset transfers from 1 September 2023 — FCA-registered cryptoasset businesses must attach payer/payee information to transfers.
@@ -241,5 +289,8 @@ These cases illustrate that wire transfer failures can attract criminal sanction
 ## Related Articles
 
 - [[aml-ctf-framework]]
+- [[simplified-due-diligence]]
+- [[sar-consent-tipping-off]]
 - [[fcg3-money-laundering-terrorist-financing]]
+- [[jmlsg-part-i-guidance]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
