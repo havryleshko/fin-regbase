@@ -18,6 +18,9 @@ related:
   - concepts/consumer-duty-cross-cutting-rules.md
   - derived/fca-consumer-duty-implementation-review-2024.md
   - concepts/consumer-duty-consumer-support.md
+  - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
+  - concepts/uk-financial-sanctions-framework.md
+  - concepts/proliferation-financing.md
 ---
 
 # FCA Financial Crime Guide — FCG 3: Money Laundering and Terrorist Financing
@@ -186,3 +189,6 @@ AML/CTF and Consumer Duty are distinct regulatory regimes that operate in parall
 - [[consumer-duty-cross-cutting-rules]]
 - [[fca-consumer-duty-implementation-review-2024]]
 - [[consumer-duty-consumer-support]]
+- [[fcg7-sanctions-asset-freezes-proliferation-financing]]
+- [[uk-financial-sanctions-framework]]
+- [[proliferation-financing]]

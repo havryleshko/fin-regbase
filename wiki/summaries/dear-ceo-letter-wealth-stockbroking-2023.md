@@ -24,6 +24,7 @@ related:
   - summaries/fg21-1-guidance.md
   - concepts/vulnerability-drivers-and-taxonomy.md
   - concepts/consumer-duty-consumer-support.md
+  - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
 ---
 
 # FCA Dear CEO Letter — Expectations for Wealth Management and Stockbroking Firms (November 2023)
@@ -124,3 +125,4 @@ Firms are reminded of their **Principle 11** obligation to proactively notify th
 - [[fg21-1-guidance]]
 - [[vulnerability-drivers-and-taxonomy]]
 - [[consumer-duty-consumer-support]]
+- [[fcg7-sanctions-asset-freezes-proliferation-financing]]

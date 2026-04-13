@@ -50,6 +50,13 @@ Claude Code reads this file first on every query to identify relevant pages.
 |------|---------|---------|
 | [summaries/fcg3-money-laundering-terrorist-financing.md](summaries/fcg3-money-laundering-terrorist-financing.md) | FCG 3: full AML/CTF regulatory architecture; governance, MLRO, risk assessment, CDD, EDD triggers, SARs, record keeping, wire transfers, Travel Rule, enforcement case studies | 1 |
 | [summaries/jmlsg-part-i-guidance.md](summaries/jmlsg-part-i-guidance.md) | JMLSG Part I (June 2023, Aug 2025 update): Treasury-approved AML/CTF guidance; SDD, DAML consent regime, tipping off, third-party reliance, risk factor weighting, PEP continuum, Annual Financial Crime Report | 1 |
+| [summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md](summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md) | FCG 7 (April 2026): UK financial sanctions; OFSI; Consolidated List screening; asset freeze obligation; dual OFSI+FCA breach reporting; evasion detection; proliferation financing (MLR Reg 18A); RBS £5.6m case study | 1 |
+
+### Derived
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [derived/pi-emi-consumer-duty-and-sanctions-obligations.md](derived/pi-emi-consumer-duty-and-sanctions-obligations.md) | Derived comparison: Consumer Duty (retail scope only, per PSRs/EMRs) vs UK sanctions (all customers/transactions) for PIs and EMIs; three genuine tensions (freeze vs. support, tipping-off vs. transparency, screening friction vs. no unreasonable barriers); scope asymmetry table; PI AML gap (HMRC-supervised, FCG 3 doesn't apply, but FCG 7 does) | 6 |
 
 ### Concepts
 
@@ -59,3 +66,7 @@ Claude Code reads this file first on every query to identify relevant pages.
 | [concepts/customer-due-diligence.md](concepts/customer-due-diligence.md) | CDD, EDD, SDD, third-party reliance, and monitoring: beneficial ownership (25% threshold), mandatory EDD triggers, source of wealth/funds, reliance conditions and pro-formas, transaction monitoring, Travel Rule | 2 |
 | [concepts/simplified-due-diligence.md](concepts/simplified-due-diligence.md) | SDD: third CDD tier for low-risk situations; qualifying categories; permitted adjustments to timing/quantity/quality/monitoring; when SDD must stop; reliance limit | 1 |
 | [concepts/sar-consent-tipping-off.md](concepts/sar-consent-tipping-off.md) | SARs operational framework: legal definitions of suspicion and reasonable grounds; DAML consent procedure (7-day/31-day/186-day); tipping-off criminal offences; permitted disclosure carve-outs; deposit-taker £3k threshold | 1 |
+| [concepts/uk-financial-sanctions-framework.md](concepts/uk-financial-sanctions-framework.md) | UK financial sanctions regime: SAMLA, OFSI, Consolidated List, scope (all FCA-supervised firms incl. EMIs, PIs, cryptoassets), Principle 11 notification, contrast with AML scope | 1 |
+| [concepts/sanctions-screening.md](concepts/sanctions-screening.md) | Sanctions screening: Consolidated List screening obligations, timing (onboarding + list updates), screening of directors/BOs, automated tool calibration and fuzzy matching, evasion detection, NECC alerts, RBS enforcement case | 1 |
+| [concepts/asset-freezes-and-ofsi-licences.md](concepts/asset-freezes-and-ofsi-licences.md) | Asset freezes: immediate freeze obligation on designation; OFSI licence regime; dual breach reporting (OFSI mandatory + FCA under SUP 15.3); false positive escalation and audit trail; distinction from DAML consent | 1 |
+| [concepts/proliferation-financing.md](concepts/proliferation-financing.md) | Proliferation financing: standalone MLR Reg 18A PF risk assessment; dual-use goods; trade finance EDD; Counter-Terrorism Act 2008 direction powers; JMLSG Part III as primary operational source | 1 |

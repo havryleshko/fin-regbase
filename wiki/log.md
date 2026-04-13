@@ -297,3 +297,71 @@ Flagged for future ingest (concepts mentioned but lacking pages):
 - FATF — referenced as authoritative source throughout financial crime section
 - SM&CR / Individual Conduct Rule 6 — pre-existing gap
 - FOS/FSCS — pre-existing gap
+
+## 2026-04-13 ingest | FCA Financial Crime Guide — FCG 7: Sanctions, Asset Freezes and Proliferation Financing
+
+Source: `raw/fca-financial-crime/FCG 7 Sanctions, asset freezes and proliferation financing.pdf` (FCA FCG Chapter 7, April 2026 version, 16pp)
+
+Pages created (5):
+- `wiki/summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md` — full FCG 7 summary: scope (all FCA-supervised firms incl. EMIs/PIs/crypto), OFSI, governance, MI, risk assessment, CDD, screening, evasion detection, asset freezing, breach reporting, matches/escalation, weapons proliferation, RBS case study, FCTR 8/15 cross-references
+- `wiki/concepts/uk-financial-sanctions-framework.md` — UK sanctions regime: SAMLA legislative basis, OFSI, Consolidated List, scope contrast with AML (broader — EMIs, PIs, cryptoassets in scope), Principle 11 notification, structural contrast with AML/CTF
+- `wiki/concepts/sanctions-screening.md` — screening obligations: what/when/whom to screen, automated tool calibration and fuzzy matching, outsourcing oversight, blockchain analytics, NECC evasion typology alerts, RBS £5.6m enforcement case (2010)
+- `wiki/concepts/asset-freezes-and-ofsi-licences.md` — asset freeze mechanics: immediate freeze obligation, OFSI licence regime, dual breach reporting (OFSI mandatory + FCA under Principle 11/SUP 15.3.11R(1)), false positive escalation, audit trail requirement, distinction from DAML consent
+- `wiki/concepts/proliferation-financing.md` — PF framework: standalone MLR Reg 18A obligation, Anti-Terrorism Crime and Security Act 2001, Counter-Terrorism Act 2008 Treasury direction powers, dual-use goods, trade finance EDD, JMLSG Part III as primary operational source
+
+Pages updated (2):
+- `wiki/concepts/aml-ctf-framework.md` — added clarification that PF risk assessment is a standalone MLR Reg 18A obligation; added cross-references to uk-financial-sanctions-framework, proliferation-financing, fcg7-sanctions-asset-freezes-proliferation-financing
+- `wiki/concepts/customer-due-diligence.md` — added new "CDD and Sanctions Screening" section (FCG 7.2.2A/7.2.2B): CDD quality as foundational to sanctions screening; sanctions scope note (EMIs/PIs in scope); cross-references to sanctions-screening, fcg7-sanctions-asset-freezes-proliferation-financing
+
+Notes:
+- This is the first sanctions content in the wiki. Sanctions are a legally distinct regime from AML/CTF: the trigger is dealing with a designated person (absolute), not suspicion (threshold-based); the response is immediate freeze, not DAML consent; reporting goes to OFSI (mandatory) and the FCA (conditional), not the NCA.
+- **Scope distinction noted:** FCG 7 applies to e-money institutions and payment institutions that are out of scope for FCG 3 AML obligations. This is not a contradiction — it reflects the different legal bases. Noted in uk-financial-sanctions-framework.md.
+- **PF gap resolved:** The proliferation-financing concept page fills the gap flagged in the 2026-04-12 lint passes (referenced in 3 prior pages but lacking its own page).
+- The RBS enforcement case (FSA, August 2010, £5.6m) is the primary sanctions systems-and-controls enforcement benchmark in FCG 7 — comparable in role to the HSBC and Coutts cases for AML.
+- FCG 7 explicitly designates JMLSG Part III (not yet ingested) as the chief operational source for proliferation financing guidance. The proliferation-financing.md page cross-references this.
+- FCTR 8 and FCTR 15 (financial crime thematic reviews on sanctions and trade finance respectively) are referenced in FCG 7.3.1 but not yet ingested.
+
+Flagged for future ingest:
+- ~~Proliferation financing~~ — concept page created 2026-04-13
+- JMLSG Part III — chief operational source for PF guidance per FCG 7.4.2; not yet ingested
+- FCTR 8 — FCA thematic review on UK financial sanctions systems and controls
+- FCTR 15 — FCA thematic review on trade finance and financial crime risk
+- FATF — referenced throughout; no page
+- SM&CR / Individual Conduct Rule 6 — pre-existing gap
+- FOS/FSCS — pre-existing gap
+
+## 2026-04-13 lint (pass 6)
+
+Scanned all 30 wiki pages (17 Consumer Duty + 13 Financial Crime). No contradictions. No stale claims. No orphan pages. No frontmatter/body inconsistencies.
+
+Issues found and fixed (5 total across 3 pages):
+
+B. Missing cross-references (5 fixes):
+- fcg3-money-laundering-terrorist-financing.md: added fcg7-sanctions-asset-freezes-proliferation-financing + uk-financial-sanctions-framework + proliferation-financing to frontmatter + body (FCG 3 and FCG 7 are sibling chapters; FCG 3 body cites PF/MLR 18A; FCG 7 scope is broader than FCG 3)
+- sar-consent-tipping-off.md: added asset-freezes-and-ofsi-licences to frontmatter + body (asset-freezes page explicitly contrasts immediate freeze obligation with DAML consent regime; reverse link was absent)
+- dear-ceo-letter-wealth-stockbroking-2023.md: added fcg7-sanctions-asset-freezes-proliferation-financing to frontmatter + body (letter explicitly directs firms to implement the full FCG; FCG 7 now in wiki and relevant to the high-sanctions-risk sector the letter addresses)
+
+Flagged for future ingest (no new gaps; pre-existing gaps restated):
+- JMLSG Part III — primary PF operational source (FCG 7.4.2)
+- FCTR 8 — sanctions thematic review (FCG 7.3.1)
+- FCTR 15 — trade finance thematic review (FCG 7.3.1)
+- FATF — authoritative source for risk lists and typologies
+- SM&CR / Individual Conduct Rule 6 — pre-existing gap
+- FOS/FSCS — pre-existing gap
+
+## 2026-04-13 query filed | PI/EMI — Consumer Duty and UK Sanctions Overlapping Obligations
+
+Page: `wiki/derived/pi-emi-consumer-duty-and-sanctions-obligations.md`
+
+Query: What are the overlapping obligations on a payment institution or EMI under both FCA Consumer Duty and UK sanctions?
+
+Sources synthesised (6): PS22/9, FG22/5, FCG 7 (April 2026 version), POCA 2002 ss.327–340, FCA Consumer Duty implementation review (February 2024), FCA Dear CEO letter (November 2023).
+
+Key findings:
+- Scope asymmetry is the defining structural difference: Consumer Duty applies to retail customers only (consumers, micro-enterprises, small charities per PSRs 2017 / EMRs 2011); sanctions apply to all customers and all transactions with no retail limitation.
+- PI AML gap: PIs are supervised for AML by HMRC (FCG 3 does not directly apply to them), but FCG 7 sanctions obligations apply directly as they are FCA-supervised firms. A PI therefore has sanctions governance obligations without the FCG 3 MLRO framework.
+- Three genuine operational tensions mapped: (1) immediate asset freeze obligation vs. Consumer Support outcome; (2) tipping-off prohibitions (POCA s.333A) vs. Consumer Understanding transparency obligation; (3) sanctions screening friction vs. no-unreasonable-barriers standard. In each case the statutory obligation takes precedence; Consumer Duty requires post-constraint harm assessment.
+- Confirmation of Payee identified as the clearest dual-regime alignment: positive friction under FG22/5 §9.24 and a sanctions/fraud evasion detection control under FCG 7.2.3.
+- Alert backlogs and under-resourced screening teams constitute both a Consumer Support failure (legally unjustified delays) and a sanctions compliance risk simultaneously.
+
+Index updated: entry added to wiki/index.md under UK — FCA Financial Crime → Derived.

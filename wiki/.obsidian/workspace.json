@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c8e0d0b131181e4a",
@@ -178,6 +179,12 @@
   },
   "active": "26e0ba47039ff414",
   "lastOpenFiles": [
+    "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+    "concepts/proliferation-financing.md",
+    "concepts/asset-freezes-and-ofsi-licences.md",
+    "concepts/sanctions-screening.md",
+    "concepts/uk-financial-sanctions-framework.md",
+    "summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md",
     "concepts/sar-consent-tipping-off.md",
     "concepts/simplified-due-diligence.md",
     "summaries/jmlsg-part-i-guidance.md",
@@ -199,17 +206,11 @@
     "index.md",
     "derived/consumer-understanding-digital-notifications.md",
     "~/Documents/GitHub/fin-regbase/raw/fca-consumer-duty/Consumer Duty implementation good practice and areas for improvement.md",
-    "~/Documents/Consumer Duty implementation good practice and areas for improvement.md",
     "~/Documents/GitHub/fin-regbase/raw/fca-consumer-duty",
     "~/Documents/GitHub/fin-regbase/raw",
     "~/Documents/GitHub/fin-regbase",
     "~/Documents/GitHub",
     "~/Documents",
-    "~",
-    "derived/fca-supervisory-questions-consumer-duty.md",
-    "summaries/fg22-5-guidance.md",
-    "concepts/vulnerable-customers.md",
-    "concepts/consumer-duty-price-value.md",
-    "concepts/consumer-duty-cross-cutting-rules.md"
+    "~"
   ]
 }

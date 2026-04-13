@@ -5,7 +5,7 @@ regulator: FCA
 regulation: Money Laundering Regulations 2017; SYSC 3.2.6R–J; SYSC 6.3; POCA 2002; Terrorism Act 2000
 status: current
 effective_date: 2017-06-26
-last_updated: 2026-04-12
+last_updated: 2026-04-13
 sources:
   - "FCA Financial Crime Guide (FCG), Chapter 3 (April 2026 version) — FCG 3.2.1–3.2.3, 3.2.10–3.2.12"
   - "JMLSG Guidance Part I (June 2023, updated August 2025) — §3.1–3.49, §6.1–6.99"
@@ -20,6 +20,9 @@ related:
   - concepts/consumer-duty-cross-cutting-rules.md
   - derived/fca-consumer-duty-implementation-review-2024.md
   - concepts/consumer-duty-consumer-support.md
+  - concepts/uk-financial-sanctions-framework.md
+  - concepts/proliferation-financing.md
+  - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
 ---
 
 # AML/CTF Regulatory Framework — Governance, MLRO, Risk Assessment, and SARs
@@ -106,6 +109,8 @@ The Dear CEO letter to wealth management and stockbroking firms (November 2023) 
 ## Risk Assessment
 
 Firms must undertake a documented risk assessment of their exposure to ML, TF, and **proliferation financing (PF)** risk. **(MLR Reg 18, 18A; FCG 3.2.3)**
+
+**PF risk assessment is a standalone MLR Reg 18A obligation** — it can be integrated into the practice-wide risk assessment document but is a separate legal requirement from the AML/CTF risk assessment under Reg 18. See [[proliferation-financing]] for the full PF framework, including trade controls and dual-use goods.
 
 The assessment must be:
 - **Comprehensive** — covering all material risk factors
@@ -233,3 +238,6 @@ These are complementary obligations, not contradictory frameworks.
 - [[consumer-duty-cross-cutting-rules]]
 - [[fca-consumer-duty-implementation-review-2024]]
 - [[consumer-duty-consumer-support]]
+- [[uk-financial-sanctions-framework]]
+- [[proliferation-financing]]
+- [[fcg7-sanctions-asset-freezes-proliferation-financing]]

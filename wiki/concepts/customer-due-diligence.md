@@ -5,7 +5,7 @@ regulator: FCA / JMLSG
 regulation: Money Laundering Regulations 2017; SYSC 6.3
 status: current
 effective_date: 2017-06-26
-last_updated: 2026-04-12
+last_updated: 2026-04-13
 sources:
   - "FCA Financial Crime Guide (FCG), Chapter 3 (April 2026 version) — FCG 3.2.4–3.2.9, 3.2.5A, 3.2.13"
   - "JMLSG Guidance Part I (June 2023, updated August 2025) — §5.4, §5.5, §5.6"
@@ -17,6 +17,8 @@ related:
   - summaries/fcg3-money-laundering-terrorist-financing.md
   - summaries/jmlsg-part-i-guidance.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
+  - concepts/sanctions-screening.md
+  - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
 ---
 
 # Customer Due Diligence — CDD, EDD, SDD, Third-Party Reliance, Ongoing Monitoring, and Transaction Monitoring
@@ -231,6 +233,18 @@ From **1 September 2023**, FCA-registered cryptoasset businesses are subject to 
 
 These cases illustrate that wire transfer failures can attract criminal sanctions from **foreign jurisdictions** as well as FCA enforcement action. **(FCG 3.2.15)**
 
+## CDD and Sanctions Screening
+
+Effective CDD is foundational to sanctions compliance as well as AML. FCG 7 treats CDD quality as a direct input to the firm's ability to screen comprehensively for sanctions purposes: **(FCG 7.2.2A; FCG 7.2.2B)**
+
+- CDD must identify **all parties relevant for sanctions screening** — including connected parties, corporate ownership structures, directors and beneficial owners
+- Low-quality CDD with review backlogs creates a direct risk of failing to identify sanctioned individuals and entities
+- Inability to identify and articulate full ownership structures means the firm cannot demonstrate it is screening all relevant parties
+
+**Note on scope:** Sanctions CDD obligations apply more broadly than AML CDD — e-money institutions and payment institutions that are outside FCG 3 AML scope are still required to maintain CDD adequate for sanctions compliance under FCG 7. **(FCG 7.1.1)**
+
+See [[sanctions-screening]] for the full operational framework for sanctions-specific screening obligations.
+
 ## Simplified Due Diligence (SDD)
 
 SDD is a third CDD tier that permits adjustment (not elimination) of CDD obligations in genuinely low-risk situations. It is not an exemption. The firm must still apply all CDD measures; SDD permits adjustment of their timing, quantity, quality, or monitoring frequency. Qualifying scenarios include: public administrations; listed companies; regulated firms subject to equivalent MLR requirements; employer-contribution pension schemes; Child Trust Funds and Junior ISAs.
@@ -294,3 +308,5 @@ JMLSG provides pro-forma confirmation templates (Annex 5-I and 5-II) for: UK-reg
 - [[fcg3-money-laundering-terrorist-financing]]
 - [[jmlsg-part-i-guidance]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
+- [[sanctions-screening]]
+- [[fcg7-sanctions-asset-freezes-proliferation-financing]]

@@ -16,6 +16,7 @@ related:
   - concepts/customer-due-diligence.md
   - summaries/jmlsg-part-i-guidance.md
   - summaries/fcg3-money-laundering-terrorist-financing.md
+  - concepts/asset-freezes-and-ofsi-licences.md
 ---
 
 # SARs — Suspicion, the DAML Consent Regime, and Tipping Off
@@ -157,3 +158,4 @@ The firm must permit the nominated officer access to all information in the firm
 - [[customer-due-diligence]]
 - [[jmlsg-part-i-guidance]]
 - [[fcg3-money-laundering-terrorist-financing]]
+- [[asset-freezes-and-ofsi-licences]]
