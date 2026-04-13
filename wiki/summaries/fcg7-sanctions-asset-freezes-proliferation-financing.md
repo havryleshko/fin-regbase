@@ -20,6 +20,7 @@ related:
   - concepts/aml-ctf-framework.md
   - concepts/customer-due-diligence.md
   - summaries/fcg3-money-laundering-terrorist-financing.md
+  - summaries/fctr8-sanctions-systems-controls-russia.md
 ---
 
 # FCG 7 — Sanctions, Asset Freezes and Proliferation Financing
@@ -154,8 +155,8 @@ For firms with trade finance exposure, this includes: enhanced due diligence on 
 
 FCTR (Financial Crime Thematic Reviews) contains additional material: **(FCG 7.3.1)**
 
-- **FCTR 8** — thematic review of firms' approach to UK financial sanctions: governance, risk assessment, policies/procedures, training, screening at take-on, ongoing screening, treatment of target matches
-- **FCTR 15** — thematic review of banks' management of financial crime risk in trade finance: sanctions procedures, dual-use goods
+- **FCTR 8** — thematic review of firms' approach to UK financial sanctions: governance, risk assessment, policies/procedures, training, screening at take-on, ongoing screening, treatment of target matches. **Ingested** — see [[fctr8-sanctions-systems-controls-russia]]. Key additions: FCA Sanctions Screening Tool (SST); UK vs. OFAC divergence failure pattern; breach reporting timeliness failures; horizon scanning as a positive obligation; specific MI content requirements.
+- **FCTR 15** — thematic review of banks' management of financial crime risk in trade finance: sanctions procedures, dual-use goods. Not yet ingested.
 
 ---
 

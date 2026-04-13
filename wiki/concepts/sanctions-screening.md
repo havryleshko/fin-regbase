@@ -2,7 +2,7 @@
 title: "Sanctions Screening — Consolidated List Screening, Calibration, and Evasion Detection"
 jurisdiction: UK
 regulator: FCA / OFSI
-regulation: FCG 7.2.3–7.2.3A (April 2026 version)
+regulation: FCG 7.2.3–7.2.3A (April 2026 version); FCTR 8 (June 2023)
 status: current
 effective_date: 2026-04-01
 last_updated: 2026-04-13
@@ -11,12 +11,14 @@ sources:
   - "FCG 7.2.3A — Evasion detection and investigation"
   - "FCG 7.2.2A — Customer due diligence checks"
   - "FCG 7.2.6 — RBS case study"
-tags: [financial-crime, sanctions, screening, Consolidated-List, fuzzy-matching, evasion, NECC, cryptoassets, UK, FCA]
+  - "FCA FCTR 8: Sanctions systems and controls: firms' response to increased sanctions due to Russia's invasion of Ukraine (June 2023) — Screening capabilities, Governance and oversight, Skills and resources"
+tags: [financial-crime, sanctions, screening, Consolidated-List, fuzzy-matching, evasion, NECC, cryptoassets, SST, UK, FCA]
 related:
   - concepts/uk-financial-sanctions-framework.md
   - concepts/asset-freezes-and-ofsi-licences.md
   - concepts/customer-due-diligence.md
   - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
+  - summaries/fctr8-sanctions-systems-controls-russia.md
 ---
 
 # Sanctions Screening — Consolidated List Screening, Calibration, and Evasion Detection
@@ -55,7 +57,7 @@ Firms must screen: **(FCG 7.2.3)**
 
 ## Calibrating Automated Screening Tools
 
-Automated screening tools require active management. The FCA's good/poor practice findings are specific: **(FCG 7.2.3)**
+Automated screening tools require active management. The FCA's good/poor practice findings are specific: **(FCG 7.2.3; FCTR 8)**
 
 | Good practice | Poor practice |
 |---------------|--------------|
@@ -63,23 +65,32 @@ Automated screening tools require active management. The FCA's good/poor practic
 | Regular sample testing and parameter tuning | Calibration not adequately tailored — system either too sensitive or not sensitive enough |
 | Quality control checks over manual screening | Name variations not detected (e.g. transliterations, reversals, digit rotation) |
 | Tool can make fuzzy matches (name variations, character manipulation, digit rotation) | Firm overly reliant on third-party provider with no oversight or monitoring |
-| Firm has controls to measure effectiveness of its automated system, thresholds and parameters | — |
+| Firm has controls to measure effectiveness of its automated system, thresholds and parameters | Tool calibrated for US OFAC / other regimes but not verified against OFSI Consolidated List |
 
 **Fuzzy matching** is an explicit expectation for automated systems — the tool must handle: similar or variant spellings, name reversal, digit rotation, character manipulation, and other evasion techniques.
 
-**Resource adequacy:** Sanctions screening teams must be adequately resourced to avoid backlogs in alert review and to react to true positives at pace. Alert backlogs and a lack of prioritisation governance are named poor practices. **(FCG 7.2.3)**
+**Calibration balance:** Miscalibration runs in both directions. A tool that is too sensitive generates excessive false positives — stretching already under-resourced teams and increasing the risk of errors. A tool that is not sensitive enough misses sanctioned individuals when names vary even slightly. Firms must understand where their tool sits and tune accordingly. **(FCTR 8)**
+
+**FCA Sanctions Screening Tool (SST):** The FCA has developed an in-house analytics-based tool that it uses to proactively test firms' screening systems against test data, objectively assessing how effective a firm is at identifying sanctioned individuals and entities. FCTR 8 testing found that some firms' systems were unable to generate alerts against certain names on OFSI's Consolidated List, and some firms were unable to provide reasonable justification for the omissions. Firms should expect to be tested using the SST. **(FCTR 8)**
+
+**List update SLAs:** Updating of screening lists following new designations must be subject to SLAs. Firms must also monitor compliance with those SLAs — tracking how quickly lists are actually updated in practice. Absence of list-update SLAs is a named poor practice. **(FCTR 8)**
+
+**Resource adequacy:** Sanctions screening teams must be adequately resourced to avoid backlogs in alert review and to react to true positives at pace. Alert backlogs and a lack of prioritisation governance are named poor practices. **(FCG 7.2.3; FCTR 8)**
 
 ---
 
 ## Outsourcing Sanctions Screening
 
-Firms that use outsourced screening providers must: **(FCG 7.2.3)**
+Firms that use outsourced screening providers must: **(FCG 7.2.3; FCTR 8)**
 
 - Maintain appropriate control and oversight of the outsourced screening controls
 - Not assume that an intermediary or outsourcer has screened a customer without verifying this is the case
 - Understand how the third-party tool is calibrated and when its lists are updated
+- Have agreed SLAs covering the time taken for lists to be updated following a new designation, and monitor compliance with those SLAs
 
-Overreliance on a third-party provider with no oversight — where the firm has no means of monitoring screening performance — is a named poor practice.
+Overreliance on a third-party provider with no oversight — where the firm cannot explain whether it is screening the correct lists, whether names are being missed, or whether false positive rates are appropriate — is a named poor practice. **(FCTR 8)**
+
+**UK vs. OFAC calibration:** A specific failure identified in FCTR 8 is global firms relying on screening tools calibrated for US OFAC sanctions that have not been verified against OFSI's Consolidated List. Since UK sanctions diverge from US sanctions post-Brexit, OFAC-calibrated tools may miss OFSI-designated persons. Firms must confirm that third-party tools are calibrated to the UK regime, not just to OFAC or other non-UK regimes.
 
 ---
 
@@ -132,6 +143,9 @@ See [[customer-due-diligence]] for CDD operational requirements.
 - Existing customer databases must be rescreened when the Consolidated List is updated — one-off onboarding screening is insufficient.
 - The NECC publishes evasion typology alerts that firms must monitor; simple name-matching does not detect complex evasion structures.
 - Alert backlogs are a sanctions compliance risk in their own right — teams must be adequately resourced.
+- The FCA operates an in-house **Sanctions Screening Tool (SST)** that it uses to proactively test firms against the Consolidated List using test data. Some firms tested were unable to generate alerts for Consolidated List names and unable to justify the omissions. **(FCTR 8)**
+- List update SLAs are required — firms must know how quickly their screening lists are updated following designations and monitor compliance with agreed timelines.
+- Tools calibrated for US OFAC are not a substitute for UK Consolidated List screening. UK sanctions diverge from OFAC post-Brexit. **(FCTR 8)**
 
 ## Related Articles
 
@@ -139,3 +153,4 @@ See [[customer-due-diligence]] for CDD operational requirements.
 - [[asset-freezes-and-ofsi-licences]]
 - [[customer-due-diligence]]
 - [[fcg7-sanctions-asset-freezes-proliferation-financing]]
+- [[fctr8-sanctions-systems-controls-russia]]

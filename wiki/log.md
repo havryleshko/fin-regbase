@@ -349,6 +349,53 @@ Flagged for future ingest (no new gaps; pre-existing gaps restated):
 - SM&CR / Individual Conduct Rule 6 — pre-existing gap
 - FOS/FSCS — pre-existing gap
 
+## 2026-04-13 ingest | FCA FCTR 8 — Sanctions Systems and Controls: Firms' Response to Increased Sanctions (Russia)
+
+Source: `raw/fca-financial-crime/Sanctions systems and controls firms' response to increased sanctions due to Russia's invasion of Ukraine.md`
+Document: FCA thematic review (FCTR 8), published 2023-06-09
+Scope: 90+ firms across retail banking, wholesale banking, wealth management, insurance, electronic money, payments
+
+Pages created (1):
+- `wiki/summaries/fctr8-sanctions-systems-controls-russia.md` — FCTR 8 in full: 5 themes (governance/MI, skills/resources, screening capabilities, CDD/KYC, breach reporting), FCA Sanctions Screening Tool (SST), horizon scanning obligation, UK vs. OFAC divergence risk, breach reporting timeliness failures, SST testing results (some firms unable to generate alerts for Consolidated List names)
+
+Pages updated (4):
+- `wiki/concepts/sanctions-screening.md` — added SST section; calibration balance (too sensitive vs. not sensitive enough); list update SLAs as a named requirement; UK vs. OFAC calibration failure pattern; updated outsourcing section with SLA and UK-regime verification obligations
+- `wiki/concepts/asset-freezes-and-ofsi-licences.md` — added breach reporting timeliness section: weeks/months delays named; investigation completion NOT a precondition for FCA notification; failure to report at all is a distinct named failure
+- `wiki/concepts/uk-financial-sanctions-framework.md` — added new section "UK Sanctions vs. OFAC — Divergence Risk for Global Firms": OFAC-calibrated policies are not a substitute for UK compliance; post-Brexit divergence; global centres of excellence must have adequate UK oversight
+- `wiki/summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md` — updated FCG 7.3 section to mark FCTR 8 as ingested; added summary of key additions; added fctr8 to related
+
+Notes:
+- This is FCTR 8, the thematic review cross-referenced in FCG 7.3.1 and flagged as "not yet ingested" since the FCG 7 ingest.
+- The FCA's Sanctions Screening Tool (SST) is a material supervisory fact not documented anywhere else in the wiki. Firms can be tested against it without notice.
+- Breach reporting timeliness: the FCA's position (investigation is not a precondition for notification; weeks/months is unacceptable) is now explicit in asset-freezes-and-ofsi-licences.md.
+- UK vs. OFAC divergence is a structural risk for global firms that was not previously documented. Added to uk-financial-sanctions-framework.md and sanctions-screening.md.
+- Horizon scanning and lessons learned exercises are now documented as a positive obligation in fctr8 summary.
+
+Flagged for future ingest (updated):
+- ~~FCTR 8~~ — ingested 2026-04-13
+- FCTR 15 — FCA thematic review on trade finance and financial crime risk (FCG 7.3.1)
+- JMLSG Part III — chief operational source for PF guidance (FCG 7.4.2)
+- FATF — referenced throughout; no page
+- SM&CR / Individual Conduct Rule 6 — pre-existing gap
+- FOS/FSCS — pre-existing gap
+
+## 2026-04-13 lint (pass 7)
+
+Scanned all 32 wiki pages (17 Consumer Duty + 15 Financial Crime, including 2 pages added this session). No contradictions. No stale claims. No orphan pages. No frontmatter/body inconsistencies.
+
+Issues found and fixed (3 total — missing cross-references only):
+
+- `customer-due-diligence.md`: added fctr8-sanctions-systems-controls-russia to frontmatter + Related Articles (FCTR 8's CDD findings — ownership structure failures, CDD backlogs as sanctions risk — are directly substantive for the page's CDD-and-sanctions-screening section)
+- `consumer-duty-overview.md`: added fca-consumer-duty-implementation-review-2024 to frontmatter + Related Articles (overview is primary Consumer Duty entry point; all other CD pages link to the review; the overview did not)
+- `fg22-5-guidance.md`: added fca-consumer-duty-implementation-review-2024 to frontmatter + Related Articles (FG22/5 is the pre-go-live guidance; the implementation review is its post-go-live companion; reverse link was absent)
+
+Flagged for future ingest (no new gaps; pre-existing gaps restated):
+- FCTR 15 — FCA thematic review on trade finance and financial crime risk (FCG 7.3.1)
+- JMLSG Part III — primary PF operational source (FCG 7.4.2)
+- FATF — referenced throughout; no page
+- SM&CR / Individual Conduct Rule 6 — pre-existing gap
+- FOS/FSCS — pre-existing gap
+
 ## 2026-04-13 query filed | PI/EMI — Consumer Duty and UK Sanctions Overlapping Obligations
 
 Page: `wiki/derived/pi-emi-consumer-duty-and-sanctions-obligations.md`
@@ -365,3 +412,25 @@ Key findings:
 - Alert backlogs and under-resourced screening teams constitute both a Consumer Support failure (legally unjustified delays) and a sanctions compliance risk simultaneously.
 
 Index updated: entry added to wiki/index.md under UK — FCA Financial Crime → Derived.
+
+## 2026-04-13 ingest | FCA Multi-Firm Review — Firms' CDD Processes and Controls: Our Findings (2026)
+
+Document: FCA multi-firm review of CDD, EDD and ongoing due diligence controls (2025 work; published 2026-08-04)
+Scope: Asset management, crowdfunding, wholesale banking, contracts for difference, non-bank lenders — findings apply to all firms undertaking CDD
+
+Pages created (1):
+- `wiki/summaries/fca-cdd-findings-multi-firm-2026.md` — full review summary: Theme 1 (policies and procedures: alternative ID gap, periodic review timing, senior management approval matrix, January 2024 domestic PEP note); Theme 2 (CDD/EDD: purpose/nature recording failure, EDD documentation differentiation failure); Theme 3 (compliance monitoring: three-lines independence requirement, same-staff failure mode, external/internal audit as good practice); two related documents flagged for future ingest
+
+Pages updated (2):
+- `wiki/concepts/customer-due-diligence.md` — added: CDD policy content requirements section (alternative ID procedures, periodic review timing, event-driven triggers, approval matrix, January 2024 domestic PEP note); EDD documentation requirement section (four evidence elements required, purpose/nature recording failure); CDD compliance monitoring section (three-lines model table, independence gap as named failure); four new Key Points bullets; fca-cdd-findings-multi-firm-2026 added to frontmatter sources, related, and Related Articles
+- `wiki/index.md` — added fca-cdd-findings-multi-firm-2026 entry under UK — FCA Financial Crime → Summaries; updated customer-due-diligence source count from 2 to 3 with expanded summary
+
+Notes:
+- The January 2024 domestic PEP change is referenced but not substantively documented — source is the FCA PEP treatment review (July 2024, flagged below).
+- EDD documentation differentiation failure is a distinct named finding beyond the existing EDD methods framework in the wiki.
+- The three-lines independence requirement for CDD monitoring is not covered in aml-ctf-framework.md or fcg3 — this review is the primary source.
+- Publication date (2026-08-04) is in the future as of ingest date (2026-04-13). Flagged in summary frontmatter.
+
+Flagged for future ingest:
+- **FCA, "The treatment of politically exposed persons"** (July 2024) — multi-firm review; covers the January 2024 domestic PEP regime change; directly substantive for customer-due-diligence.md. URL: https://www.fca.org.uk/publications/multi-firm-reviews/treatment-politically-exposed-persons
+- **FCA, "Annex 1 Dear CEO letter"** (March 2024) — FCA warning on AML failings; sector-specific CDD governance findings. URL: https://www.fca.org.uk/news/news-stories/fca-warns-firms-over-anti-money-laundering-failings

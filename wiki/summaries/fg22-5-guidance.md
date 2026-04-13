@@ -21,6 +21,7 @@ related:
   - concepts/vulnerable-customers.md
   - concepts/sludge-and-friction.md
   - derived/fca-supervisory-questions-consumer-duty.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
 ---
 
 # FCA FG22/5 — Final Non-Handbook Guidance for Firms on the Consumer Duty
@@ -110,3 +111,4 @@ This clarification matters for closed-book reviews: a firm assessing whether it 
 - [[sludge-and-friction]]
 - [[fca-supervisory-questions-consumer-duty]]
 - [[vulnerable-customers]]
+- [[fca-consumer-duty-implementation-review-2024]]

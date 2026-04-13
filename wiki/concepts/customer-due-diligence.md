@@ -9,7 +9,8 @@ last_updated: 2026-04-13
 sources:
   - "FCA Financial Crime Guide (FCG), Chapter 3 (April 2026 version) — FCG 3.2.4–3.2.9, 3.2.5A, 3.2.13"
   - "JMLSG Guidance Part I (June 2023, updated August 2025) — §5.4, §5.5, §5.6"
-tags: [financial-crime, AML, CDD, EDD, SDD, KYC, PEP, beneficial-ownership, transaction-monitoring, travel-rule, reliance, UK, FCA, JMLSG]
+  - "FCA, 'Firms' customer due diligence processes and controls: our findings' (2026)"
+tags: [financial-crime, AML, CDD, EDD, SDD, KYC, PEP, beneficial-ownership, transaction-monitoring, travel-rule, reliance, three-lines, UK, FCA, JMLSG]
 related:
   - concepts/aml-ctf-framework.md
   - concepts/simplified-due-diligence.md
@@ -19,6 +20,8 @@ related:
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - concepts/sanctions-screening.md
   - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
+  - summaries/fctr8-sanctions-systems-controls-russia.md
+  - summaries/fca-cdd-findings-multi-firm-2026.md
 ---
 
 # Customer Due Diligence — CDD, EDD, SDD, Third-Party Reliance, Ongoing Monitoring, and Transaction Monitoring
@@ -61,6 +64,16 @@ Where a firm **cannot apply CDD measures** — including where it cannot be sati
 | Staff who approve new/ongoing relationships satisfy themselves that adequate CDD has been obtained | No procedures for enhanced due diligence — this breaches the Money Laundering Regulations |
 
 **(FCG 3.2.4)**
+
+### CDD Policy Content Requirements (FCA Multi-Firm Review)
+
+The FCA's 2026 multi-firm CDD review identified specific gaps in firms' written policies. Effective CDD policies must include: **(FCA CDD Findings 2026)**
+
+- **Alternative identification procedures:** Policies must specify what alternative evidence can be obtained when customers lack standard forms of ID. Absence of this guidance is a named gap. This is particularly relevant for socially excluded customers, those in care, or customers from jurisdictions where standard document types are uncommon.
+- **Periodic review timing:** Policies must state how often periodic reviews should take place for each risk tier — vague or absent language is a named failure. Policies must also specify what steps staff should take when an event-driven review is triggered (e.g. change in customer risk profile, adverse media, change in beneficial ownership).
+- **Senior management approval matrix:** Policies must be clear on when senior management sign-off is required. Approval matrices should be maintained with document version control.
+
+**Note on domestic PEPs — January 2024 change:** On 10 January 2024, changes to the treatment of domestic PEPs came into effect. The FCA's multi-firm review found that firms which had not incorporated this change into their CDD policies were operating to an outdated framework. See the FCA's PEP treatment review (July 2024, not yet ingested) for the substantive content of this change. **(FCA CDD Findings 2026)**
 
 ## Electronic Identification
 
@@ -136,6 +149,17 @@ EDD is also required for: **(MLR Reg 33; FCG 3.2.7)**
 #### 5. Life Insurance Beneficiaries
 
 Where the beneficiary of a life insurance policy is a legal person or legal arrangement presenting high ML risk, firms must take reasonable measures to identify and verify beneficial owners of that beneficiary **before making payment**. **(FCG 3.2.7)**
+
+### EDD Documentation Requirement (FCA Multi-Firm Review)
+
+The FCA's 2026 multi-firm review identified a distinct failure mode beyond the obligation to conduct EDD: **firms that conducted EDD but could not demonstrate how their approach differed from standard CDD**. The FCA's expectation is that EDD files must evidence: **(FCA CDD Findings 2026)**
+
+1. What **additional** information was obtained beyond standard CDD
+2. Why the level of EDD was proportionate to the specific risk presented
+3. That **senior management approval** was obtained where required
+4. That the **purpose and intended nature of the business relationship** was recorded
+
+**Named failure:** Some firms did not gather or record the purpose and intended nature of the business relationship at all — a breach of the standard CDD obligation in MLR Reg 27. This failure was observed in EDD contexts where the enhanced steps were applied, but foundational CDD fields remained incomplete.
 
 ### EDD Methods
 
@@ -233,6 +257,23 @@ From **1 September 2023**, FCA-registered cryptoasset businesses are subject to 
 
 These cases illustrate that wire transfer failures can attract criminal sanctions from **foreign jurisdictions** as well as FCA enforcement action. **(FCG 3.2.15)**
 
+## CDD Compliance Monitoring — Three-Lines Independence
+
+The FCA's 2026 multi-firm review found that firms' compliance monitoring and audit arrangements for CDD varied significantly in depth and independence. **(FCA CDD Findings 2026)**
+
+**Good practice:**
+- Firms that conducted regular thematic reviews of their CDD framework, including external party reviews or internal audit, with clear cycles for ongoing assessment.
+- Sample-based compliance monitoring with proportionate review cycles.
+- **Independent third-line testing** assessing controls across the full customer onboarding and due diligence lifecycle, with findings documented and acted upon.
+
+**Named failure — independence gap:** In some firms there was **no independent second-line assurance**: the same staff responsible for onboarding customers were also responsible for reviewing those customers. The FCA stated explicitly that this arrangement "raises questions about impartiality and effectiveness of testing."
+
+| Line | Role | Failure Mode |
+|------|------|-------------|
+| First line (onboarding) | Applies CDD controls during onboarding and relationship management | Reduces CDD rigour under commercial pressure |
+| Second line (compliance) | Independent assurance of onboarding controls; must be separate from onboarding staff | Same staff performing onboarding and second-line review — named FCA failure |
+| Third line (internal audit / external review) | Independent testing of CDD framework; documents and tracks findings | Absent, or findings not documented or acted upon |
+
 ## CDD and Sanctions Screening
 
 Effective CDD is foundational to sanctions compliance as well as AML. FCG 7 treats CDD quality as a direct input to the firm's ability to screen comprehensively for sanctions purposes: **(FCG 7.2.2A; FCG 7.2.2B)**
@@ -293,6 +334,10 @@ JMLSG provides pro-forma confirmation templates (Annex 5-I and 5-II) for: UK-reg
 - Where CDD cannot be completed — including where the beneficial owner cannot be identified — the relationship **must not proceed**.
 - Source of wealth (total wealth acquisition) and source of funds (origin of funds in this relationship) are distinct concepts. Both are required for PEPs and high-risk relationships. Conflating them is a named failure.
 - EDD with mandatory senior management approval is required for: PEPs (and family/associates); high-risk third countries (FATF lists); and correspondent banking from third countries.
+- **EDD documentation must evidence how the approach differed from standard CDD** — not merely that EDD was conducted. The FCA has observed firms that completed EDD steps but could not demonstrate the differentiation. **(FCA CDD Findings 2026)**
+- CDD policies must include **alternative identification procedures** for customers lacking standard documents, **explicit periodic review frequencies**, and **event-driven review triggers**. Absence of these is a named FCA gap. **(FCA CDD Findings 2026)**
+- The **January 2024 domestic PEP regime change** must be reflected in CDD policies. Firms that had not incorporated this at time of review were flagged as operating to an outdated framework.
+- **Second-line compliance monitoring must be independent of first-line onboarding staff.** Same-staff review is a named FCA failure mode. Third-line testing (internal audit or external review) should document and act on findings. **(FCA CDD Findings 2026)**
 - SDD (third tier) may be applied in low-risk situations — it adjusts CDD, it does not exempt from it. See [[simplified-due-diligence]].
 - Third-party reliance is permitted under MLR Reg 39 but the relying firm retains full legal responsibility. Reliance on SDD-verified identity is not permissible. Chain reliance is not permitted.
 - Ongoing monitoring must be risk-sensitive — enhanced for high-risk relationships, with lower alert thresholds and independent review.
@@ -310,3 +355,5 @@ JMLSG provides pro-forma confirmation templates (Annex 5-I and 5-II) for: UK-reg
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[sanctions-screening]]
 - [[fcg7-sanctions-asset-freezes-proliferation-financing]]
+- [[fctr8-sanctions-systems-controls-russia]]
+- [[fca-cdd-findings-multi-firm-2026]]

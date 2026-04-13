@@ -2,7 +2,7 @@
 title: "Asset Freezes, OFSI Licences, and Sanctions Breach Reporting"
 jurisdiction: UK
 regulator: FCA / OFSI (HM Treasury)
-regulation: FCG 7.2.3B–7.2.4 (April 2026 version); Principle 11 (PRIN 2.1.1R); SUP 15.3
+regulation: FCG 7.2.3B–7.2.4 (April 2026 version); Principle 11 (PRIN 2.1.1R); SUP 15.3; FCTR 8 (June 2023)
 status: current
 effective_date: 2026-04-01
 last_updated: 2026-04-13
@@ -10,12 +10,14 @@ sources:
   - "FCG 7.2.3B — Asset freezing and licences"
   - "FCG 7.2.3C — Reporting and assessing potential sanctions breaches"
   - "FCG 7.2.4 — Matches and escalation"
+  - "FCA FCTR 8: Sanctions systems and controls: firms' response to increased sanctions due to Russia's invasion of Ukraine (June 2023) — Breach reporting to the FCA"
 tags: [financial-crime, sanctions, asset-freeze, OFSI, licence, breach-reporting, FCA, UK]
 related:
   - concepts/uk-financial-sanctions-framework.md
   - concepts/sanctions-screening.md
   - concepts/sar-consent-tipping-off.md
   - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
+  - summaries/fctr8-sanctions-systems-controls-russia.md
 ---
 
 # Asset Freezes, OFSI Licences, and Sanctions Breach Reporting
@@ -76,6 +78,20 @@ Good practice includes: after a breach, as well as meeting the OFSI obligation, 
 | Principle 11 notification | FCA | If breach reflects significant systems and controls failure (SUP 15.3.11R(1)) |
 | SAR consideration | NCA | If the circumstances also give rise to money laundering suspicion |
 
+### Breach Reporting Timeliness
+
+The FCA expects **timely and accurate** reporting. FCTR 8 identified the following failure patterns across the 90+ firm assessment programme: **(FCTR 8)**
+
+| Failure pattern | FCA position |
+|----------------|-------------|
+| Firms taking weeks or months from identifying a breach to reporting it to the FCA | Unacceptable — timeliness is a compliance requirement, not a discretionary choice |
+| Firms completing a full internal investigation before notifying the FCA | Wrong — investigation completion is **not** a precondition for notification |
+| Firms that failed to report to the FCA at all | A distinct named failure |
+
+**The FCA's rationale:** "Firms delaying breach reporting, or not reporting at all, undermines our ability to understand systems and controls issues as they occur and to work with firms to establish that those issues are being correctly remedied."
+
+The moment a firm has reasonable cause to suspect a breach, both the OFSI obligation and the consideration of FCA notification under Principle 11 / SUP 15.3 are triggered. The firm should not wait for the outcome of its internal investigation before notifying.
+
 ### Root Cause Analysis
 
 Firms should undertake root cause analysis of potential sanctions breaches and use findings to update sanctions controls. This is good practice and demonstrates the governance engagement the FCA expects. **(FCG 7.2.3C)**
@@ -118,6 +134,8 @@ The clear procedure for sanctions breaches should explicitly consider whether a 
 - On identifying a designated person, **freeze assets immediately** — the obligation is absolute, with no de minimis and no provisional-proceed mechanism. The only exception is a statutory exception or an OFSI licence obtained in advance.
 - Failing to freeze, or failing to report a confirmed breach to OFSI, is a potential criminal offence.
 - Breach reporting is a dual obligation: **OFSI** (mandatory on reasonable cause to suspect) **and FCA** (required where the breach reflects a significant systems and controls failure under SUP 15.3.11R(1)).
+- **Investigation completion is not a precondition for FCA notification.** Firms that fully investigate before notifying are getting this wrong. The obligation is triggered at the point of reasonable suspicion. **(FCTR 8)**
+- Weeks- or months-long delays between identifying a breach and reporting to the FCA are a named failure. Failure to report at all is a separate named failure. **(FCTR 8)**
 - False positive decisions — judging a name match is not a real match — must have a documented audit trail.
 - Asset freezes under sanctions law are legally distinct from the DAML consent regime under AML law. Do not conflate them.
 - Root cause analysis of breaches is good practice and expected governance behaviour.
@@ -128,3 +146,4 @@ The clear procedure for sanctions breaches should explicitly consider whether a 
 - [[sanctions-screening]]
 - [[sar-consent-tipping-off]]
 - [[fcg7-sanctions-asset-freezes-proliferation-financing]]
+- [[fctr8-sanctions-systems-controls-russia]]
