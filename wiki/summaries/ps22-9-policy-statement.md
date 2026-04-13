@@ -21,6 +21,7 @@ related:
   - summaries/fg22-5-guidance.md
   - summaries/fg21-1-guidance.md
   - derived/fca-consumer-duty-implementation-review-2024.md
+  - concepts/prod-product-governance.md
 ---
 
 # FCA PS22/9 — A New Consumer Duty: Feedback to CP21/36 and Final Rules
@@ -100,3 +101,4 @@ The FCA chose **not to attach a private right of action** to any part of the Dut
 - [[fg22-5-guidance]]
 - [[fg21-1-guidance]]
 - [[fca-consumer-duty-implementation-review-2024]]
+- [[prod-product-governance]]

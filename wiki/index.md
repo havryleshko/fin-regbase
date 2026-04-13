@@ -92,3 +92,21 @@ Claude Code reads this file first on every query to identify relevant pages.
 | [concepts/psr-emi-prudential.md](concepts/psr-emi-prudential.md) | Prudential risk management for PIs/EMIs: capital requirement methods (Method A/B/C for PIs, e-money basis for EMIs), holding capital above minimum, liquidity risk identification, scenario planning, stress testing, risk appetite, FG20/1 reference | 3 |
 | [concepts/agent-distributor-oversight.md](concepts/agent-distributor-oversight.md) | Agent and distributor oversight: agents (FCA registration mandatory, PI/EMI responsibility), distributors (EMI notification only, no payment services), due diligence and ongoing monitoring obligations, communications obligations through agents/distributors | 2 |
 | [concepts/operational-resilience.md](concepts/operational-resilience.md) | SYSC 15A operational resilience (in force 31 March 2022): important business services, impact tolerances, 31 March 2025 mapping and testing deadline, third-party dependency management, FCA Register accuracy | 2 |
+
+---
+
+## UK — MiFID II / PROD
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/mifid-ii-product-governance-review-2021.md](summaries/mifid-ii-product-governance-review-2021.md) | FCA multi-firm review (Feb 2021): product governance at 8 asset managers; negative target market near-universal failure; distributor information flow breakdown; product-level scenario testing gaps; AFM Board NED challenge failures; record keeping SM&CR risk | 1 |
+| [summaries/fca-costs-charges-disclosure-review-2019.md](summaries/fca-costs-charges-disclosure-review-2019.md) | FCA multi-firm review (Feb 2019): transaction cost calculation failures (arrival price misuse, anti-dilution levy misuse, outsourcing oversight, underlying fund classification); PRIIPs KID vs. marketing material non-contradiction rule; UCITS KIID material transaction cost obligation; disclosure accessibility; AMC prohibition (TR 14-07) | 1 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/prod-product-governance.md](concepts/prod-product-governance.md) | PROD 3 product governance framework for investment manufacturers: positive and negative target market (PROD 3.2.10R), conflicts of interest, product scenario testing (PROD 3.2.13R), costs disclosure, distributor due diligence and information flow, AFM board/NED obligations, record keeping and SM&CR personal liability | 1 |
+| [concepts/costs-charges-disclosure.md](concepts/costs-charges-disclosure.md) | Costs and charges disclosure framework: PRIIPs KID non-contradiction rule, UCITS KIID material transaction cost obligation, four transaction cost calculation failure modes (arrival price, anti-dilution levy, outsourcing, underlying fund classification), disclosure accessibility as standalone breach, AMC vs OCF terminology | 1 |

@@ -21,6 +21,9 @@ related:
   - derived/fca-supervisory-questions-consumer-duty.md
   - derived/fca-consumer-duty-implementation-review-2024.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
+  - concepts/prod-product-governance.md
+  - concepts/costs-charges-disclosure.md
+  - summaries/fca-costs-charges-disclosure-review-2019.md
 ---
 
 # FCA Consumer Duty — Price and Value Outcome
@@ -121,3 +124,6 @@ The FCA identified the following price and value failures specific to wealth man
 - [[fca-supervisory-questions-consumer-duty]]
 - [[fca-consumer-duty-implementation-review-2024]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
+- [[prod-product-governance]]
+- [[costs-charges-disclosure]]
+- [[fca-costs-charges-disclosure-review-2019]]

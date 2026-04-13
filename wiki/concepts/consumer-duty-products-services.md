@@ -23,6 +23,8 @@ related:
   - derived/fca-supervisory-questions-consumer-duty.md
   - derived/fca-consumer-duty-implementation-review-2024.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
+  - concepts/prod-product-governance.md
+  - summaries/mifid-ii-product-governance-review-2021.md
 ---
 
 # FCA Consumer Duty — Products and Services Outcome
@@ -139,3 +141,5 @@ The FCA identified the following products and services failures specific to this
 - [[fca-supervisory-questions-consumer-duty]]
 - [[fca-consumer-duty-implementation-review-2024]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
+- [[prod-product-governance]]
+- [[mifid-ii-product-governance-review-2021]]

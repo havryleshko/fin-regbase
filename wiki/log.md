@@ -494,3 +494,85 @@ No contradictions found. No stale claims. No orphan pages. Four structural/cross
 **Fix 4 — `wiki/concepts/operational-resilience.md`:** Added `concepts/psr-emi-prudential.md` to frontmatter `related` and `[[psr-emi-prudential]]` to Related Articles. Reciprocal link for Fix 3.
 
 Pages modified (4): `wiki/index.md`, `wiki/concepts/consumer-duty-consumer-support.md`, `wiki/concepts/psr-emi-prudential.md`, `wiki/concepts/operational-resilience.md`
+
+
+## 2026-04-13 ingest | FCA MiFID II: Product Governance Review (February 2021)
+
+Source: `raw/mifid/MiFID II_ product governance review.md`
+Published: 26 February 2021. Multi-firm review of 8 asset managers/manufacturers. Products: UK-authorised collective investment schemes (UCITS and NURS), retail investors, platform distribution (advised + execution-only). Total fund value: ~£7bn.
+
+New pages created (2):
+
+- `wiki/summaries/mifid-ii-product-governance-review-2021.md` — full summary of the review; four areas (product design, product testing, distributors, governance & oversight); key findings including negative target market near-universal failure, systemic distributor information flow breakdown, product-level stress testing gaps, AFM Board NED challenge failures, record keeping SM&CR liability link
+- `wiki/concepts/prod-product-governance.md` — new concept; PROD 3 framework for investment manufacturers including: positive and negative target market (PROD 3.2.10R), conflicts of interest in product design (SYSC 10/PRIN 8), product scenario testing (PROD 3.2.13R), costs disclosure, distributor due diligence and information flow, AFM board/NED obligations, record keeping and SM&CR individual liability (SYSC 9.1.1R)
+
+Pages updated:
+
+- `wiki/concepts/consumer-duty-products-services.md` — added cross-links to new PROD concept page and summary
+- `wiki/index.md` — added new section "UK — MiFID II / PROD" (1 summary, 1 concept page)
+
+New wiki section created: UK — MiFID II / PROD.
+
+No contradictions with existing wiki content. The Consumer Duty pages already note that PROD compliance satisfies the Products & Services outcome (PS22/9 §6.5–6.7); the new PROD concept page reinforces this equivalence and adds the granular PROD 3 obligations not previously covered.
+
+Key additions not previously in the wiki: negative target market as a mandatory distinct obligation; product-level (instrument-level) scenario testing under PROD 3.2.13R; SM&CR individual accountability for undocumented product governance challenge; AFM board NED challenge quality as a named FCA finding; manufacturer obligation to document distributor data challenges even when distributors do not cooperate.
+
+Flagged for future ingest:
+- FCA review of costs and charges disclosures (February 2019) — referenced in the 2021 review as identifying the same portfolio transaction costs disclosure failures; would complete the costs disclosure picture
+- PROD 3 and PROD 4 sourcebook text — formal rule text behind the guidance in this review
+
+
+## 2026-04-13 lint | Lint pass 10 — full wiki scan (41 pages)
+
+Scope: all pages across Consumer Duty, Financial Crime, Payment Services, and MiFID II / PROD sections.
+
+No contradictions found. No orphan pages. Four issues identified and fixed.
+
+**Fix 1 — `wiki/concepts/operational-resilience.md` stale claim:** The 31 March 2025 mapping/testing deadline was written in present-future tense throughout, implying it was upcoming. The deadline has now passed (today: 2026-04-13). Updated to past tense in both the body section and the Key Points bullet. Added a note that firms that did not meet the deadline remain in breach and deficiencies identified after the deadline are treated as current failures.
+
+**Fix 2 — `wiki/concepts/consumer-duty-overview.md` missing cross-reference:** The overview's relationship table references PROD 3/4 compliance satisfying the Products & Services outcome but had no link to `prod-product-governance.md`. Added to frontmatter `related` and `Related Articles`.
+
+**Fix 3 — Bidirectional links: Dear CEO letter (wealth/stockbroking) ↔ MiFID/PROD pages:** `dear-ceo-letter-wealth-stockbroking-2023.md`, `prod-product-governance.md`, and `mifid-ii-product-governance-review-2021.md` all cover the same sector (asset management) and PROD-relevant failures (execution-only complexity, unsuitable portfolios, retail-to-professional uprating). Three missing links added across the three pages.
+
+**Fix 4 — `wiki/concepts/consumer-duty-price-value.md` missing cross-reference:** The PROD concept page covers costs and charges disclosure failures (portfolio transaction costs, KIID inconsistency) directly relevant to the Price & Value outcome. Added `prod-product-governance.md` to frontmatter `related` and `Related Articles`.
+
+Pages modified (6): `wiki/concepts/operational-resilience.md`, `wiki/concepts/consumer-duty-overview.md`, `wiki/concepts/consumer-duty-price-value.md`, `wiki/summaries/dear-ceo-letter-wealth-stockbroking-2023.md`, `wiki/concepts/prod-product-governance.md`, `wiki/summaries/mifid-ii-product-governance-review-2021.md`
+
+
+## 2026-04-13 ingest | FCA Review on Disclosure of Costs by Asset Managers (February 2019)
+
+Source: `raw/mifid/Review on disclosure of costs by asset managers.md`
+Published: 28 February 2019. Two workstreams: (1) transaction cost calculation — 16 firms; (2) effectiveness and consistency of disclosures — 26 products reviewed across KIIDs, PRIIPs KIDs, factsheets, and websites.
+
+New pages created (2):
+
+- `wiki/summaries/fca-costs-charges-disclosure-review-2019.md` — full summary of both workstreams; four transaction cost calculation failure modes; PRIIPs KID non-contradiction rule with named example (3% KID vs 1.2% AMC factsheet); UCITS KIID material transaction cost obligation (4% p.a. omitted case); disclosure accessibility as standalone regulatory concern; AMC terminology prohibition (TR 14-07 2014)
+- `wiki/concepts/costs-charges-disclosure.md` — new concept; full costs disclosure framework: PRIIPs/UCITS/MiFID II regulatory landscape; four calculation failure modes with analysis of each; non-contradiction rule; UCITS KIID material obligation; accessibility failure mode; AMC vs OCF; relationship to Consumer Duty Price & Value and Consumer Understanding outcomes
+
+Pages updated:
+
+- `wiki/concepts/prod-product-governance.md` — expanded costs section to reference all four calculation failure modes and link to new concept page; added two new related links
+- `wiki/concepts/consumer-duty-price-value.md` — added links to new costs pages
+- `wiki/concepts/consumer-duty-consumer-understanding.md` — added link to costs-charges-disclosure (disclosure accessibility maps to Consumer Understanding)
+- `wiki/index.md` — added new summary and concept page to "UK — MiFID II / PROD" section
+
+No contradictions with existing wiki content. The existing `prod-product-governance.md` noted portfolio transaction cost omission as a problem; this ingest adds the four specific calculation failure mechanisms and the full disclosure consistency framework that were absent.
+
+Flagged for future ingest:
+- MiFID II costs and charges disclosures review — distributor findings (a companion review referenced in the 2019 review covering how distributor firms disclose costs; the 2019 review only covered manufacturers)
+- FCA TR 14-07 (2014) — thematic review on clarity of fund charges; established the AMC-as-misleading finding; would complete the historical picture
+
+
+## 2026-04-13 lint | Lint pass 11 — full wiki scan (43 pages)
+
+Scope: all pages across Consumer Duty, Financial Crime, Payment Services, and MiFID II / PROD sections.
+
+No contradictions found. No stale claims. No orphan pages. Three missing cross-references identified and fixed.
+
+**Fix 1 — `wiki/summaries/mifid-ii-product-governance-review-2021.md` missing links to costs pages:** The 2021 review body text already references the 2019 costs review ("also identified in the FCA's February 2019 costs disclosure review") but had no links to `fca-costs-charges-disclosure-review-2019.md` or `costs-charges-disclosure.md`. Gap introduced when costs pages were added after the MiFID pages. Added to frontmatter `related` and Related Articles.
+
+**Fix 2 — `wiki/summaries/ps22-9-policy-statement.md` missing link to PROD concept page:** Line 80 states "Firms complying with existing PROD... meet the corresponding Duty outcomes" but the page had no link to `prod-product-governance.md`. Every other Consumer Duty page that discusses PROD equivalence now links to the PROD concept page; the primary source summary did not. Added to frontmatter `related` and Related Articles.
+
+**Fix 3 — `wiki/summaries/dear-ceo-letter-wealth-stockbroking-2023.md` missing link to costs-charges-disclosure:** The wealth stockbroking letter contains named failures around opaque fee disclosures and incomplete value chain cost assessment that map directly onto the costs-charges-disclosure framework. Added `costs-charges-disclosure.md` to frontmatter `related` and Related Articles.
+
+Pages modified (3): `wiki/summaries/mifid-ii-product-governance-review-2021.md`, `wiki/summaries/ps22-9-policy-statement.md`, `wiki/summaries/dear-ceo-letter-wealth-stockbroking-2023.md`

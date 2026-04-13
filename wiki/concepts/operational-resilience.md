@@ -56,14 +56,14 @@ Impact tolerances must be:
 
 ## The Mapping and Testing Deadline
 
-**By no later than 31 March 2025**, firms must have:
+**By 31 March 2025** (now passed), firms were required to have:
 1. **Mapped** the people, processes, technology, facilities, and information that support each important business service and their interdependencies
 2. **Tested** their ability to remain within impact tolerances under a range of severe but plausible disruption scenarios
 3. Made the necessary **investments** to enable consistent operation within impact tolerances
 
 **(Portfolio letter, March 2023)**
 
-The 31 March 2025 deadline is hard — it is not a best-efforts target. The FCA states it is proactively monitoring firms' progress and will take action where deficiencies are identified.
+The 31 March 2025 deadline was hard — it was not a best-efforts target. The FCA stated it was proactively monitoring firms' progress and would take action where deficiencies were identified. Firms that did not meet the deadline remain in breach and the FCA's ongoing supervisory focus on operational resilience means deficiencies identified after the deadline will be treated as current failures.
 
 ---
 
@@ -126,7 +126,7 @@ Both require mapping of the firm's operational dependencies. Scenario testing fo
 
 - SYSC 15A applies to all FCA-supervised firms including PIs and EMIs — no carve-out for payment firms.
 - Firms must identify important business services, set impact tolerances for each, and review both at least annually.
-- The hard deadline of 31 March 2025 requires mapping and testing to be complete and investments made.
+- The 31 March 2025 deadline for mapping, testing, and investments has now passed — firms that did not meet it remain in breach; deficiencies identified after the deadline are treated as current failures.
 - Impact tolerances must be expressed in terms of customer and market outcomes, not just technical recovery metrics.
 - Third-party dependency management is a separate but related obligation: firms must have contingency plans to move critical providers and must keep FCA Register contact details current.
 
