@@ -17,6 +17,7 @@ related:
   - concepts/aml-ctf-framework.md
   - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
   - summaries/fctr8-sanctions-systems-controls-russia.md
+  - derived/pi-emi-consumer-duty-and-sanctions-obligations.md
 ---
 
 # UK Financial Sanctions Framework — SAMLA, OFSI, and the Consolidated List
@@ -147,3 +148,4 @@ FCTR 8 (thematic review on UK financial sanctions) and FCTR 15 (trade finance an
 - [[aml-ctf-framework]]
 - [[fcg7-sanctions-asset-freezes-proliferation-financing]]
 - [[fctr8-sanctions-systems-controls-russia]]
+- [[pi-emi-consumer-duty-and-sanctions-obligations]]

@@ -20,6 +20,7 @@ related:
   - concepts/vulnerable-customers.md
   - concepts/sludge-and-friction.md
   - summaries/ps22-9-policy-statement.md
+  - summaries/fg22-5-guidance.md
   - derived/fca-supervisory-questions-consumer-duty.md
   - derived/fca-consumer-duty-implementation-review-2024.md
 ---
@@ -134,5 +135,6 @@ The notification system is consistent with the Consumer Understanding outcome if
 - [[vulnerable-customers]]
 - [[sludge-and-friction]]
 - [[ps22-9-policy-statement]]
+- [[fg22-5-guidance]]
 - [[fca-supervisory-questions-consumer-duty]]
 - [[fca-consumer-duty-implementation-review-2024]]

@@ -22,6 +22,7 @@ related:
   - summaries/fg22-5-guidance.md
   - derived/fca-supervisory-questions-consumer-duty.md
   - derived/fca-consumer-duty-implementation-review-2024.md
+  - concepts/operational-resilience.md
 ---
 
 # FCA Consumer Duty — Consumer Support Outcome
@@ -134,3 +135,4 @@ See [[fca-supervisory-questions-consumer-duty]] for the full set across all outc
 - [[fg22-5-guidance]]
 - [[fca-supervisory-questions-consumer-duty]]
 - [[fca-consumer-duty-implementation-review-2024]]
+- [[operational-resilience]]

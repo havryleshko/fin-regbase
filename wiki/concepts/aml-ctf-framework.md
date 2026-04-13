@@ -23,6 +23,7 @@ related:
   - concepts/uk-financial-sanctions-framework.md
   - concepts/proliferation-financing.md
   - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
+  - summaries/fca-cdd-findings-multi-firm-2026.md
 ---
 
 # AML/CTF Regulatory Framework — Governance, MLRO, Risk Assessment, and SARs
@@ -241,3 +242,4 @@ These are complementary obligations, not contradictory frameworks.
 - [[uk-financial-sanctions-framework]]
 - [[proliferation-financing]]
 - [[fcg7-sanctions-asset-freezes-proliferation-financing]]
+- [[fca-cdd-findings-multi-firm-2026]]

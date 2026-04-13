@@ -24,6 +24,12 @@ related:
   - concepts/aml-ctf-framework.md
   - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
   - summaries/fcg3-money-laundering-terrorist-financing.md
+  - summaries/dear-ceo-letter-payments-portfolio-2023.md
+  - concepts/safeguarding-pis-emis.md
+  - concepts/wind-down-planning.md
+  - concepts/psr-emi-prudential.md
+  - concepts/agent-distributor-oversight.md
+  - concepts/operational-resilience.md
 ---
 
 # Payment Institutions and EMIs — Overlapping Consumer Duty and UK Sanctions Obligations
@@ -182,3 +188,9 @@ This means the firm's compliance architecture must be designed so that:
 - [[aml-ctf-framework]]
 - [[fcg7-sanctions-asset-freezes-proliferation-financing]]
 - [[fcg3-money-laundering-terrorist-financing]]
+- [[dear-ceo-letter-payments-portfolio-2023]]
+- [[safeguarding-pis-emis]]
+- [[wind-down-planning]]
+- [[psr-emi-prudential]]
+- [[agent-distributor-oversight]]
+- [[operational-resilience]]

@@ -21,6 +21,7 @@ related:
   - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
   - concepts/uk-financial-sanctions-framework.md
   - concepts/proliferation-financing.md
+  - summaries/fca-cdd-findings-multi-firm-2026.md
 ---
 
 # FCA Financial Crime Guide — FCG 3: Money Laundering and Terrorist Financing
@@ -192,3 +193,4 @@ AML/CTF and Consumer Duty are distinct regulatory regimes that operate in parall
 - [[fcg7-sanctions-asset-freezes-proliferation-financing]]
 - [[uk-financial-sanctions-framework]]
 - [[proliferation-financing]]
+- [[fca-cdd-findings-multi-firm-2026]]

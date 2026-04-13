@@ -15,6 +15,7 @@ related:
   - concepts/consumer-duty-cross-cutting-rules.md
   - concepts/vulnerable-customers.md
   - summaries/ps22-9-policy-statement.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
 ---
 
 # FCA Consumer Duty — Consumer Principle (Principle 12)
@@ -84,3 +85,4 @@ Under SM&CR, a new **Individual Conduct Rule 6** requires individuals at all lev
 - [[consumer-duty-cross-cutting-rules]]
 - [[vulnerable-customers]]
 - [[ps22-9-policy-statement]]
+- [[fca-consumer-duty-implementation-review-2024]]

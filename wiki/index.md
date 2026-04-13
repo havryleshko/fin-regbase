@@ -72,3 +72,23 @@ Claude Code reads this file first on every query to identify relevant pages.
 | [concepts/sanctions-screening.md](concepts/sanctions-screening.md) | Sanctions screening: Consolidated List screening obligations, timing (onboarding + list updates), screening of directors/BOs, automated tool calibration and fuzzy matching, evasion detection, NECC alerts, RBS enforcement case | 1 |
 | [concepts/asset-freezes-and-ofsi-licences.md](concepts/asset-freezes-and-ofsi-licences.md) | Asset freezes: immediate freeze obligation on designation; OFSI licence regime; dual breach reporting (OFSI mandatory + FCA under SUP 15.3); false positive escalation and audit trail; distinction from DAML consent | 1 |
 | [concepts/proliferation-financing.md](concepts/proliferation-financing.md) | Proliferation financing: standalone MLR Reg 18A PF risk assessment; dual-use goods; trade finance EDD; Counter-Terrorism Act 2008 direction powers; JMLSG Part III as primary operational source | 1 |
+
+---
+
+## UK — FCA Payment Services
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/dear-ceo-letter-payments-portfolio-2023.md](summaries/dear-ceo-letter-payments-portfolio-2023.md) | FCA portfolio letter (March 2023): three outcomes (customers' money safe — safeguarding/prudential/wind-down; financial system integrity — AML/sanctions/fraud; customers' needs — Consumer Duty); three cross-cutting priorities (governance/agent oversight, SYSC 15A operational resilience, regulatory reporting); supervisory escalation warning | 1 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/safeguarding-pis-emis.md](concepts/safeguarding-pis-emis.md) | Safeguarding under PSRs/EMRs: relevant funds identification, segregation method and acknowledgement requirement, insurance/comparable guarantee method, daily reconciliation obligation, annual safeguarding audit, insolvency return records | 2 |
+| [concepts/wind-down-planning.md](concepts/wind-down-planning.md) | Wind-down planning obligation (Approach Document §3.73–3.76): triggers, step-by-step procedure, realistic timelines, cost/cash analysis; TR22/1 thematic review reference; four named common plan failures | 2 |
+| [concepts/psr-emi-prudential.md](concepts/psr-emi-prudential.md) | Prudential risk management for PIs/EMIs: capital requirement methods (Method A/B/C for PIs, e-money basis for EMIs), holding capital above minimum, liquidity risk identification, scenario planning, stress testing, risk appetite, FG20/1 reference | 3 |
+| [concepts/agent-distributor-oversight.md](concepts/agent-distributor-oversight.md) | Agent and distributor oversight: agents (FCA registration mandatory, PI/EMI responsibility), distributors (EMI notification only, no payment services), due diligence and ongoing monitoring obligations, communications obligations through agents/distributors | 2 |
+| [concepts/operational-resilience.md](concepts/operational-resilience.md) | SYSC 15A operational resilience (in force 31 March 2022): important business services, impact tolerances, 31 March 2025 mapping and testing deadline, third-party dependency management, FCA Register accuracy | 2 |

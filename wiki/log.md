@@ -434,3 +434,63 @@ Notes:
 Flagged for future ingest:
 - **FCA, "The treatment of politically exposed persons"** (July 2024) — multi-firm review; covers the January 2024 domestic PEP regime change; directly substantive for customer-due-diligence.md. URL: https://www.fca.org.uk/publications/multi-firm-reviews/treatment-politically-exposed-persons
 - **FCA, "Annex 1 Dear CEO letter"** (March 2024) — FCA warning on AML failings; sector-specific CDD governance findings. URL: https://www.fca.org.uk/news/news-stories/fca-warns-firms-over-anti-money-laundering-failings
+
+
+## 2026-04-13 lint (pass 8)
+
+Scanned all 34 wiki pages (17 Consumer Duty + 17 Financial Crime, including fca-cdd-findings-multi-firm-2026 added this session). No contradictions. No stale claims. No concepts lacking pages beyond pre-existing gaps.
+
+Issues found and fixed (5 total — 1 orphan resolved, 4 missing cross-references):
+
+- `derived/pi-emi-consumer-duty-and-sanctions-obligations.md` (orphan — no inbound wikilinks): Added [[pi-emi-consumer-duty-and-sanctions-obligations]] to frontmatter + Related Articles of `concepts/uk-financial-sanctions-framework.md` (scope asymmetry and OFAC divergence content is directly related) and `concepts/consumer-duty-overview.md` (primary Consumer Duty entry point; PI/EMI scope is a natural downstream reference)
+- `concepts/aml-ctf-framework.md`: added fca-cdd-findings-multi-firm-2026 to frontmatter + Related Articles (three-lines independence for CDD monitoring is an AML governance topic)
+- `summaries/fcg3-money-laundering-terrorist-financing.md`: added fca-cdd-findings-multi-firm-2026 to frontmatter + Related Articles (CDD findings review evaluates FCG 3 compliance; FCG 3 summary had no link to it)
+- `derived/consumer-understanding-digital-notifications.md`: added fg22-5-guidance to frontmatter + Related Articles (page cites FG22/5 §5.9, §5.13, §9.24 as sources but did not include the FG22/5 summary in Related Articles — the only derived page sourcing FG22/5 without that link)
+- `concepts/consumer-principle.md`: added fca-consumer-duty-implementation-review-2024 to frontmatter + Related Articles (the review's named failure "Duty siloed in compliance" maps directly onto Individual Conduct Rule 6 and the prudent-firm test; consumer-principle was the only Consumer Duty concept page without a link to the implementation review)
+
+Flagged for future ingest (pre-existing gaps, no new additions):
+- FCTR 15, JMLSG Part III, FCA PEP treatment review (July 2024), Dear CEO letter AML failings (March 2024), FATF, SM&CR/Conduct Rule 6, FOS/FSCS
+
+
+## 2026-04-13 ingest | FCA Priorities for Payments Firms — Portfolio Letter (March 2023)
+
+Source: `raw/psr-payment-services/priorities-payments-firms-portfolio-letter-2023.pdf`
+Issued: 16 March 2023. Author: Matthew Long, Director, Payments & Digital Assets. Addressed to CEOs of all PIs, EMIs, and RAISPs supervised by the FCA.
+
+New pages created (6):
+
+- `wiki/summaries/dear-ceo-letter-payments-portfolio-2023.md` — full summary of the portfolio letter; three outcomes, three cross-cutting priorities, Changes in Control, ESG/diversity
+- `wiki/concepts/safeguarding-pis-emis.md` — new concept; relevant funds, segregation method (incl. written acknowledgement requirement), daily reconciliation, annual safeguarding audit, insolvency return records
+- `wiki/concepts/wind-down-planning.md` — new concept; Approach Document §3.73–3.76 obligation, four named plan failures, TR22/1 and Wind-down Planning Guide as reference materials
+- `wiki/concepts/psr-emi-prudential.md` — new concept; PI capital methods (A/B/C), EMI capital basis, liquidity risk identification, stress testing, risk appetite, FG20/1 reference
+- `wiki/concepts/agent-distributor-oversight.md` — new concept; agent FCA registration (PI/EMI responsibility), EMI distributor notification (no individual registration), distributor payment services prohibition, ongoing monitoring obligation
+- `wiki/concepts/operational-resilience.md` — new concept; SYSC 15A (in force 31 March 2022), important business services, impact tolerances, 31 March 2025 mapping/testing deadline
+
+Pages updated:
+
+- `wiki/derived/pi-emi-consumer-duty-and-sanctions-obligations.md` — added 5 new related pages to frontmatter and Related Articles
+- `wiki/index.md` — added new section "UK — FCA Payment Services" (1 summary, 5 concept pages)
+
+New wiki section created: UK — FCA Payment Services (previously absent — payments regulatory obligations were scattered under Financial Crime derived pages only).
+
+No contradictions with existing wiki content. AML and sanctions obligations for PIs and EMIs were already covered in the existing derived page; this ingest adds the PSR/EMR-specific obligations (safeguarding, prudential, wind-down, operational resilience, agent oversight) that were entirely absent.
+
+Flagged for future ingest:
+- **FCA Approach Document (Payment Services and Electronic Money)** — `raw/psr-payment-services/payment-services-electronic-money-approach.pdf` is already present in the raw directory. This is the primary operational source referenced throughout the portfolio letter (Chapter 10 safeguarding, §3.73–3.76 wind-down, Chapter 13 regulatory reporting). Should be ingested as the next priority in the PSR/EMI section.
+
+
+## 2026-04-13 lint | Lint pass 9 — full wiki scan (39 pages)
+
+Scope: all pages across Consumer Duty, Financial Crime, and Payment Services sections.
+
+No contradictions found. No stale claims. No orphan pages. Four structural/cross-reference issues identified and fixed.
+
+**Fix 1 — `wiki/index.md` structural corruption:** The Payment Services ingest had accidentally orphaned the Financial Crime `### Concepts` subsection (8 pages) by inserting the new Payment Services section between the Financial Crime Derived and Financial Crime Concepts subsections. Fixed by replacing the broken block with the correct structure: Financial Crime Concepts heading reinstated under the Financial Crime section; Payment Services section contains its own Summaries and Concepts headings only.
+
+**Fix 2 — `wiki/concepts/consumer-duty-consumer-support.md`:** Added `concepts/operational-resilience.md` to frontmatter `related` and `[[operational-resilience]]` to Related Articles. The page's digital-only product requirements at §9.7(4) explicitly reference operational resilience obligations but lacked a cross-link to the new concept page.
+
+**Fix 3 — `wiki/concepts/psr-emi-prudential.md`:** Added `concepts/operational-resilience.md` to frontmatter `related` and `[[operational-resilience]]` to Related Articles. Both pages cover PSR/EMI obligations and are referenced together in the portfolio letter.
+
+**Fix 4 — `wiki/concepts/operational-resilience.md`:** Added `concepts/psr-emi-prudential.md` to frontmatter `related` and `[[psr-emi-prudential]]` to Related Articles. Reciprocal link for Fix 3.
+
+Pages modified (4): `wiki/index.md`, `wiki/concepts/consumer-duty-consumer-support.md`, `wiki/concepts/psr-emi-prudential.md`, `wiki/concepts/operational-resilience.md`

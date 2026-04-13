@@ -25,6 +25,7 @@ related:
   - summaries/ps22-9-policy-statement.md
   - summaries/fg22-5-guidance.md
   - derived/fca-consumer-duty-implementation-review-2024.md
+  - derived/pi-emi-consumer-duty-and-sanctions-obligations.md
 ---
 
 # FCA Consumer Duty — Overview
@@ -142,3 +143,4 @@ No **private right of action** attaches to the Duty. Consumer redress routes are
 - [[ps22-9-policy-statement]]
 - [[fg22-5-guidance]]
 - [[fca-consumer-duty-implementation-review-2024]]
+- [[pi-emi-consumer-duty-and-sanctions-obligations]]
