@@ -133,6 +133,7 @@ The FCA identified the following products and services failures specific to this
 ## Related Articles
 
 - [[consumer-duty-overview]]
+- [[consumer-principle]]
 - [[consumer-duty-cross-cutting-rules]]
 - [[consumer-duty-price-value]]
 - [[vulnerable-customers]]
@@ -143,3 +144,5 @@ The FCA identified the following products and services failures specific to this
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[prod-product-governance]]
 - [[mifid-ii-product-governance-review-2021]]
+- [[advice-suitability-cobs9]]
+- [[fca-assessing-suitability-review-2017]]

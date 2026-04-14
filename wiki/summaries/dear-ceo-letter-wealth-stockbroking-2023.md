@@ -28,6 +28,7 @@ related:
   - concepts/prod-product-governance.md
   - summaries/mifid-ii-product-governance-review-2021.md
   - concepts/costs-charges-disclosure.md
+  - concepts/payment-for-order-flow.md
 ---
 
 # FCA Dear CEO Letter — Expectations for Wealth Management and Stockbroking Firms (November 2023)
@@ -132,3 +133,6 @@ Firms are reminded of their **Principle 11** obligation to proactively notify th
 - [[prod-product-governance]]
 - [[mifid-ii-product-governance-review-2021]]
 - [[costs-charges-disclosure]]
+- [[payment-for-order-flow]]
+- [[advice-suitability-cobs9]]
+- [[fca-assessing-suitability-review-2017]]

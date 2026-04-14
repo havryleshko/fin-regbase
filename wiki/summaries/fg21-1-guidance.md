@@ -5,7 +5,7 @@ regulator: FCA
 regulation: Consumer Duty (PS22/9) / Principles for Businesses (PRIN)
 status: current
 effective_date: 2021-02-23
-last_updated: 2026-04-10
+last_updated: 2026-04-14
 sources:
   - "FCA FG21/1 Ch.1–Ch.5"
   - "FCA FG21/1 Appendix 1 (GDPR)"
@@ -124,6 +124,8 @@ The Guidance may also be relevant to enforcement proceedings. The FCA may use FG
 
 - [[vulnerable-customers]]
 - [[vulnerability-drivers-and-taxonomy]]
+- [[uk-gdpr-lawful-basis]]
+- [[ico-guide-lawful-basis-2026]]
 - [[consumer-duty-overview]]
 - [[consumer-duty-cross-cutting-rules]]
 - [[fg22-5-guidance]]

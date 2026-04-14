@@ -225,6 +225,7 @@ The FCA's wealth data survey found 49% of portfolio managers and 69% of stockbro
 - [[consumer-duty-consumer-understanding]]
 - [[consumer-duty-consumer-support]]
 - [[vulnerability-drivers-and-taxonomy]]
+- [[uk-gdpr-lawful-basis]]
 - [[ps22-9-policy-statement]]
 - [[fg22-5-guidance]]
 - [[fg21-1-guidance]]

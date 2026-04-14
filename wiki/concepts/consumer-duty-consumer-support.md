@@ -127,6 +127,7 @@ See [[fca-supervisory-questions-consumer-duty]] for the full set across all outc
 ## Related Articles
 
 - [[consumer-duty-overview]]
+- [[consumer-principle]]
 - [[consumer-duty-cross-cutting-rules]]
 - [[consumer-duty-consumer-understanding]]
 - [[vulnerable-customers]]

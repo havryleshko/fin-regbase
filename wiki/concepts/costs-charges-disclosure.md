@@ -147,3 +147,5 @@ The FCA's 2019 review found firms still using AMC as a prominent headline figure
 - [[mifid-ii-product-governance-review-2021]]
 - [[consumer-duty-price-value]]
 - [[consumer-duty-consumer-understanding]]
+- [[fca-assessing-suitability-review-2017]]
+- [[advice-suitability-cobs9]]

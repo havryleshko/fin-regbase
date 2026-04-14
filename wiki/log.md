@@ -576,3 +576,139 @@ No contradictions found. No stale claims. No orphan pages. Three missing cross-r
 **Fix 3 — `wiki/summaries/dear-ceo-letter-wealth-stockbroking-2023.md` missing link to costs-charges-disclosure:** The wealth stockbroking letter contains named failures around opaque fee disclosures and incomplete value chain cost assessment that map directly onto the costs-charges-disclosure framework. Added `costs-charges-disclosure.md` to frontmatter `related` and Related Articles.
 
 Pages modified (3): `wiki/summaries/mifid-ii-product-governance-review-2021.md`, `wiki/summaries/ps22-9-policy-statement.md`, `wiki/summaries/dear-ceo-letter-wealth-stockbroking-2023.md`
+
+
+## 2026-04-13 ingest | FCA Payment for Order Flow (PFOF) Supervisory Report (April 2019)
+
+Source: `raw/mifid/payment-for-order-flow-pfof.pdf`
+Published: April 2019. Supervisory work: information requested from 15 firms; 12 firms visited. Focus: listed derivatives (formerly LIFFE, now Eurex/ICE Futures Europe). Updates Market Watch 56 (September 2018) preliminary findings.
+
+New pages created (2):
+
+- `wiki/summaries/fca-pfof-supervisory-report-2019.md` — full summary: key findings on capacity identification failures, non-exclusive liquidity protocol deficiencies, systems and controls (sub-1% sampling failure), overseas affiliate routing; conclusions and next steps
+- `wiki/concepts/payment-for-order-flow.md` — new concept; complete PFOF framework: definition and conflict mechanism; broker transaction lifecycle (Steps 1–8); exclusive vs. non-exclusive liquidity legal distinction; Right of First Refusal as the key marker; four cumulative conditions for dual-sided charging; five named pretextual PFOF structures; overseas affiliate routing as circumvention; SYSC 10 systems and controls obligations
+
+Pages updated:
+
+- `wiki/concepts/prod-product-governance.md` — added link to payment-for-order-flow (SYSC 10 conflicts of interest overlap)
+- `wiki/summaries/dear-ceo-letter-wealth-stockbroking-2023.md` — added link to payment-for-order-flow (overtrading/conflicts context)
+- `wiki/index.md` — added new summary and concept page to "UK — MiFID II / PROD" section
+
+New topic area introduced: wholesale/ECP broker conduct and order execution conflicts. All prior MiFID II wiki content covered retail investor product governance (PROD 3). This ingest adds the wholesale execution side: PFOF, best execution, inducements, and conflicts in order handling — a distinct area of MiFID II with different regulatory tests.
+
+No contradictions with existing wiki content. SYSC 10 conflicts of interest was mentioned in the 2021 product governance review in the context of product design; this ingest adds the transaction-execution context which is substantively different.
+
+Flagged for future ingest:
+- FCA TR 14/13 ("Best execution and payment for order flow", 2013) — the foundational thematic review establishing PFOF incompatibility with retail/professional client business; referenced in §1.5 as the basis from which the 2019 review extends to ECP business
+- FCA Market Watch 51 and Market Watch 56 — referenced in the PFOF report as interim communications; would complete the supervisory history
+
+
+## 2026-04-14 lint | Lint pass 12 — full wiki scan (45 pages)
+
+Scope: all pages across Consumer Duty, Financial Crime, Payment Services, and MiFID II / PROD sections.
+
+No contradictions found. No stale claims. No orphan pages. No missing cross-references.
+
+One category of issue: **stale source counts in `wiki/index.md`** for four Consumer Duty concept pages. Sources were added to these pages during the Consumer Duty implementation review and Dear CEO letter ingests; the index counts were not updated at the time.
+
+**Fix — `wiki/index.md` source count corrections (4 cells):**
+
+| Page | Was | Now | Additional sources |
+|------|-----|-----|--------------------|
+| `consumer-duty-cross-cutting-rules.md` | 2 | 3 | + Consumer Duty implementation review (February 2024) |
+| `consumer-duty-products-services.md` | 3 | 4 | + Consumer Duty implementation review + Dear CEO letter (November 2023) |
+| `consumer-duty-consumer-understanding.md` | 3 | 4 | + Consumer Duty implementation review + Dear CEO letter (November 2023) |
+| `consumer-duty-consumer-support.md` | 2 | 3 | + Consumer Duty implementation review (February 2024) |
+
+Pages modified (1): `wiki/index.md`
+
+
+## 2026-04-14 ingest | FCA Assessing Suitability Review — Results (May 2017)
+
+Source: `raw/mifid/assessing-suitability-review.pdf`
+Published: May 2017. Assessed 1,142 advice files from 656 firms against COBS suitability and disclosure rules. Advice delivered during 2015 (pre-MiFID II). FCA marked as historical August 2025.
+
+New pages created (2):
+
+- `wiki/summaries/fca-assessing-suitability-review-2017.md` — full summary with prominent pre-MiFID II caveat; sector-wide suitability stats (93.1% suitable, 4.3% unsuitable); two root causes (risk profiling, replacement business); three-part disclosure framework (COBS 6.1A generic/customer-specific, COBS 14 product disclosure, COBS 9.4 suitability report); specific initial disclosure failure modes (hourly rates without time estimates; uninformatively wide ranges); firm-type and size differentials; status: superseded
+- `wiki/concepts/advice-suitability-cobs9.md` — new concept page; COBS 9 three-dimension suitability test; risk profiling failure modes; replacement business failure modes; full three-part advisory disclosure framework; sector risk segmentation table; pre-MiFID II caveat throughout
+
+Pages updated (1):
+
+- `wiki/index.md` — added new summary (with [HISTORICAL] flag) and concept page (with [pre-MiFID II baseline] flag) to "UK — MiFID II / PROD" section
+
+No contradictions with existing wiki content. Existing wiki had no coverage of personal advice suitability under COBS 9 — this is an entirely new domain. References to "suitability" in existing pages were in product governance (PROD), Consumer Duty, and CDD contexts; none addressed the COBS 9 personal recommendation framework.
+
+Notable gap flagged: the three-part disclosure framework assessed here (COBS 6.1A / COBS 6.2A / COBS 14 / COBS 9.4) predates MiFID II. Current COBS versions must be verified before operational use.
+
+
+## 2026-04-14 lint
+
+Scanned all 45 wiki pages (27 concepts, 13 summaries, 4 derived, index, log).
+
+**No broken links.** All 47 unique wikilink targets resolve to existing files.
+
+**No contradictions.** Consumer Duty dates, PROD/Duty equivalence, vulnerability scale data (46%/53%), retail-to-professional uprating (14%), 25% beneficial ownership threshold, DAML consent timelines (7/31/186 days) — all consistent across relevant pages.
+
+**Findings and actions:**
+
+| # | Type | Finding | Action |
+|---|------|---------|--------|
+| 1 | Near-orphan | `fca-assessing-suitability-review-2017` had 1 inbound link | Fixed — C1–C4 |
+| 2 | Near-orphan | `advice-suitability-cobs9` had 1 inbound link | Fixed — C1–C4 |
+| 3 | Missing cross-ref | `dear-ceo-letter-wealth-stockbroking-2023` did not link to new suitability pages despite discussing suitability explicitly | Fixed: added both links |
+| 4 | Missing cross-ref | `consumer-duty-products-services` did not link to new suitability pages | Fixed: added both links |
+| 5 | Missing cross-ref | `prod-product-governance` did not link to new suitability pages | Fixed: added both links |
+| 6 | Missing cross-ref | `costs-charges-disclosure` did not link to new suitability pages (advisory disclosure framework) | Fixed: added both links |
+| 7 | Missing cross-ref | `consumer-principle` absent from Related Articles of 4 outcome pages | Fixed: added to products-services, price-value, consumer-understanding, consumer-support |
+| 8 | Stale metadata | `advice-suitability-cobs9` `effective_date: 2018-01-03` misleadingly implies COBS 9 started with MiFID II | Deferred — user approval pending |
+| 9 | Known gap | FCA PEP Treatment Review (July 2024) not yet ingested; flagged inline in `customer-due-diligence` | No action — acknowledged gap |
+| 10 | Known gap | FCTR Financial Crime Thematic Reviews not yet ingested; flagged inline in `dear-ceo-letter-wealth-stockbroking-2023` | No action — acknowledged gap |
+| 11 | Near-orphan | `fca-pfof-supervisory-report-2019` has 1 inbound link | No action — acceptable for niche summary |
+| 12 | Near-orphan | `consumer-understanding-digital-notifications` has 1 inbound link | No action — acceptable for derived page |
+
+
+## 2026-04-14 ingest | ICO Guide to Lawful Basis (Updated April 2026)
+
+Source: `raw/uk-gdpr/A guide to lawful basis.md` (ICO guidance, updated 02 April 2026 to reflect the Data (Use and Access) Act 2026)
+
+New pages created (2):
+
+- `wiki/summaries/ico-guide-lawful-basis-2026.md` — full summary with prominent ICO guidance citation type caveat (ICO = supervisory authority interpretation, not primary legislation or FCA sourcebook rules); seven Article 6 bases post-DUA Act 2026; recognised legitimate interest (Art. 6(ea)) five pre-approved purposes; necessity test; rights linkage table (erasure/portability/object per basis); basis selection guidance; consent trap prohibition; new purpose compatibility (consent vs. non-consent original basis); documentation and transparency obligations (Art. 13/14, 5(2), 24, 30); dual condition for special category (Art. 9) and criminal offence data (Art. 10)
+- `wiki/concepts/uk-gdpr-lawful-basis.md` — new concept page; full treatment of all seven bases; Article 6(ea) recognised legitimate interest detailed with financial services applicability; necessity test; rights matrix; consent trap; new purpose compatibility; Art. 9/10 dual conditions; source note re ICO guidance vs FCA rules throughout
+
+Pages updated (4):
+
+- `wiki/index.md` — added new "UK — Data Protection / ICO" section with entries for both new pages
+- `wiki/concepts/vulnerable-customers.md` — added `[[uk-gdpr-lawful-basis]]` to Related Articles
+- `wiki/concepts/vulnerability-drivers-and-taxonomy.md` — added `[[uk-gdpr-lawful-basis]]` to Related Articles
+- `wiki/concepts/aml-ctf-framework.md` — added `[[uk-gdpr-lawful-basis]]` to Related Articles
+
+No contradictions with existing wiki content. The Article 6/9 references in `vulnerable-customers.md` (TEXAS model, GDPR special category data basis) are fully consistent with the new concept page. The AML/CTF pages reference legal obligation as the basis for AML processing — confirmed correct.
+
+Notable additions to existing wiki coverage:
+- **New domain:** First standalone UK GDPR / data protection coverage.
+- **DUA Act 2026:** Article 6(ea) recognised legitimate interest — five pre-approved purposes with no balancing test required. Most relevant for financial services: safeguarding (Art. 6(ea)(1)), crime prevention (Art. 6(ea)(3)), sharing with public task organisations incl. FCA/NCA/OFSI (Art. 6(ea)(5)).
+- **Consent trap rule:** Explicit ICO prohibition on switching from consent to legitimate interests after withdrawal — operationally significant for firms that default to consent at onboarding.
+- **DUA Act not separately ingested:** Act flagged in frontmatter and citation notes; only the ICO's April 2026 guidance update has been ingested. A future ingest of the DUA Act primary legislation would be required for direct statutory citations.
+
+
+## 2026-04-14 lint
+
+Scanned all 47 wiki pages (28 concepts, 13 summaries, 4 derived, index, log).
+
+**No broken links.** All 47 unique wikilink targets resolve to existing files.
+
+**No contradictions.** DAML consent timelines, beneficial ownership threshold, Consumer Duty dates, vulnerability scale data, Art. 6/9 dual-condition requirement — all consistent across pages.
+
+**Findings and actions:**
+
+| # | Priority | Type | Finding | Action |
+|---|----------|------|---------|--------|
+| C1 | High | Missing cross-ref | `fg21-1-guidance` has full GDPR/DPA 2018 table row and TEXAS/special category paragraph; no link to new GDPR pages | Fixed: added `[[uk-gdpr-lawful-basis]]` + `[[ico-guide-lawful-basis-2026]]`; updated `last_updated` to 2026-04-14 |
+| C2 | Medium | Missing cross-ref | `jmlsg-part-i-guidance` references "GDPR compliance" for record-retention deletion; no link to GDPR pages | Fixed: added `[[uk-gdpr-lawful-basis]]` |
+| C3 | Low | Missing cross-ref | `sar-consent-tipping-off` mentions "equivalent data protection duties" (POCA s.333C); `uk-gdpr-lawful-basis` links to it but not vice versa | Fixed: added `[[uk-gdpr-lawful-basis]]` |
+| E1 | Low | Near-orphan | `ico-guide-lawful-basis-2026` had 1 inbound link | Resolved by C1 (now 2 inbound links) |
+| — | Info | Near-orphan | `fca-pfof-supervisory-report-2019`: 1 inbound; `consumer-understanding-digital-notifications`: 1 inbound | No action — acceptable for niche/derived pages |
+| — | Info | Known gap | `Legitimate Interests Assessment (LIA)` — described in `uk-gdpr-lawful-basis` but no standalone concept page | Acknowledged gap |
+| — | Info | Known gap | DUA Act 2026 primary legislation, FCA PEP Treatment Review (July 2024), FCTR thematic reviews, MiFID II current handbook | No action — previously flagged |

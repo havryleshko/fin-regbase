@@ -117,6 +117,7 @@ The FCA identified the following price and value failures specific to wealth man
 ## Related Articles
 
 - [[consumer-duty-overview]]
+- [[consumer-principle]]
 - [[consumer-duty-cross-cutting-rules]]
 - [[consumer-duty-products-services]]
 - [[ps22-9-policy-statement]]

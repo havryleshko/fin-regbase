@@ -123,5 +123,6 @@ CDD documents and information: five years after the business relationship ends (
 - [[customer-due-diligence]]
 - [[simplified-due-diligence]]
 - [[sar-consent-tipping-off]]
+- [[uk-gdpr-lawful-basis]]
 - [[fcg3-money-laundering-terrorist-financing]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]

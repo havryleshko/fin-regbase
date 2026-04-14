@@ -233,6 +233,7 @@ These are complementary obligations, not contradictory frameworks.
 - [[customer-due-diligence]]
 - [[sar-consent-tipping-off]]
 - [[simplified-due-diligence]]
+- [[uk-gdpr-lawful-basis]]
 - [[fcg3-money-laundering-terrorist-financing]]
 - [[jmlsg-part-i-guidance]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]

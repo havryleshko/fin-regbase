@@ -23,11 +23,11 @@ Claude Code reads this file first on every query to identify relevant pages.
 |------|---------|---------|
 | [concepts/consumer-duty-overview.md](concepts/consumer-duty-overview.md) | High-level overview of the Duty's three-layer structure, scope, sector-specific retail customer definitions, evidence requirement, and implementation dates | 2 |
 | [concepts/consumer-principle.md](concepts/consumer-principle.md) | Principle 12 ("act to deliver good outcomes"): replaces Principles 6 & 7, proportionality, SM&CR Individual Conduct Rule 6 | 1 |
-| [concepts/consumer-duty-cross-cutting-rules.md](concepts/consumer-duty-cross-cutting-rules.md) | Three cross-cutting rules: good faith (incl. bad-faith pattern catalogue), avoid foreseeable harm (incl. examples list), enable financial objectives (incl. signposting for declined customers) | 2 |
-| [concepts/consumer-duty-products-services.md](concepts/consumer-duty-products-services.md) | Products & Services outcome: target market, lifecycle obligations, manufacturer/distributor split, PROD equivalence; supervisory questions; distribution chain information-flow failures | 3 |
+| [concepts/consumer-duty-cross-cutting-rules.md](concepts/consumer-duty-cross-cutting-rules.md) | Three cross-cutting rules: good faith (incl. bad-faith pattern catalogue), avoid foreseeable harm (incl. examples list), enable financial objectives (incl. signposting for declined customers) | 3 |
+| [concepts/consumer-duty-products-services.md](concepts/consumer-duty-products-services.md) | Products & Services outcome: target market, lifecycle obligations, manufacturer/distributor split, PROD equivalence; supervisory questions; distribution chain information-flow failures | 4 |
 | [concepts/consumer-duty-price-value.md](concepts/consumer-duty-price-value.md) | Price & Value outcome: fair value assessment, distribution chain responsibilities, closed book application, COLL/PROD equivalence; named poor practices incl. charging for undelivered services | 3 |
-| [concepts/consumer-duty-consumer-understanding.md](concepts/consumer-duty-consumer-understanding.md) | Consumer Understanding outcome: communications must demonstrably support effective decisions; testing obligation; supervisory questions; financial promotions approvers; execution-only carve-out | 3 |
-| [concepts/consumer-duty-consumer-support.md](concepts/consumer-duty-consumer-support.md) | Consumer Support outcome: no unreasonable barriers; sludge/positive friction; at-least-as-easy-to-exit rule; channel obligations; digital-only rules; outsourcing | 2 |
+| [concepts/consumer-duty-consumer-understanding.md](concepts/consumer-duty-consumer-understanding.md) | Consumer Understanding outcome: communications must demonstrably support effective decisions; testing obligation; supervisory questions; financial promotions approvers; execution-only carve-out | 4 |
+| [concepts/consumer-duty-consumer-support.md](concepts/consumer-duty-consumer-support.md) | Consumer Support outcome: no unreasonable barriers; sludge/positive friction; at-least-as-easy-to-exit rule; channel obligations; digital-only rules; outsourcing | 3 |
 | [concepts/vulnerable-customers.md](concepts/vulnerable-customers.md) | Vulnerability as a cross-cutting lens: HLRC taxonomy; TEXAS model; policy/practice gap; vulnerability MI catalogue; four-driver culture model; GDPR special category basis; supervisory red lines | 4 |
 | [concepts/vulnerability-drivers-and-taxonomy.md](concepts/vulnerability-drivers-and-taxonomy.md) | HLRC four-driver taxonomy (FG21/1 Table 1); vulnerability spectrum; scale data (46%/53%); "do not use the label"; TEXAS model; policy/practice gap; inclusive design; MI catalogue | 1 |
 | [concepts/sludge-and-friction.md](concepts/sludge-and-friction.md) | Sludge (harmful friction) vs positive friction (beneficial friction): definitions, named examples, the at-least-as-easy-to-exit rule, what does not constitute an unreasonable barrier | 1 |
@@ -39,6 +39,22 @@ Claude Code reads this file first on every query to identify relevant pages.
 | [derived/fca-supervisory-questions-consumer-duty.md](derived/fca-supervisory-questions-consumer-duty.md) | All FCA supervisory questions for Consumer Duty, per outcome (Products & Services, Price & Value, Consumer Understanding, Consumer Support, Culture & Governance) | 1 |
 | [derived/fca-consumer-duty-implementation-review-2024.md](derived/fca-consumer-duty-implementation-review-2024.md) | FCA's February 2024 post-go-live review: good and poor practice observed across all five areas; includes gamification, fraud victim support, vulnerability red lines, and "wait and see" failure mode | 1 |
 | [derived/consumer-understanding-digital-notifications.md](derived/consumer-understanding-digital-notifications.md) | Compliance assessment: digital investment platform in-app notifications against the Consumer Understanding outcome; covers gamification, behavioural bias, timing, testing, execution-only carve-out | 6 |
+
+---
+
+## UK — Data Protection / ICO
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/ico-guide-lawful-basis-2026.md](summaries/ico-guide-lawful-basis-2026.md) | ICO Guide to Lawful Basis (April 2026 update): seven Article 6 bases post-DUA Act; recognised legitimate interest (Art. 6(ea)) five pre-approved purposes; rights linkage table; consent trap; new purpose compatibility; dual condition for special category/criminal offence data; ICO guidance citation type noted | 1 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/uk-gdpr-lawful-basis.md](concepts/uk-gdpr-lawful-basis.md) | UK GDPR Article 6 lawful bases: all seven bases including recognised legitimate interest (DUA Act 2026); necessity test; rights matrix (erasure/portability/object per basis); consent trap prohibition; new purpose compatibility assessment; Article 9 special category dual condition; Article 10 criminal offence data dual condition | 1 |
 
 ---
 
@@ -103,6 +119,8 @@ Claude Code reads this file first on every query to identify relevant pages.
 |------|---------|---------|
 | [summaries/mifid-ii-product-governance-review-2021.md](summaries/mifid-ii-product-governance-review-2021.md) | FCA multi-firm review (Feb 2021): product governance at 8 asset managers; negative target market near-universal failure; distributor information flow breakdown; product-level scenario testing gaps; AFM Board NED challenge failures; record keeping SM&CR risk | 1 |
 | [summaries/fca-costs-charges-disclosure-review-2019.md](summaries/fca-costs-charges-disclosure-review-2019.md) | FCA multi-firm review (Feb 2019): transaction cost calculation failures (arrival price misuse, anti-dilution levy misuse, outsourcing oversight, underlying fund classification); PRIIPs KID vs. marketing material non-contradiction rule; UCITS KIID material transaction cost obligation; disclosure accessibility; AMC prohibition (TR 14-07) | 1 |
+| [summaries/fca-pfof-supervisory-report-2019.md](summaries/fca-pfof-supervisory-report-2019.md) | FCA PFOF supervisory report (Apr 2019): 15 firms reviewed; exclusive vs. non-exclusive liquidity framework; four conditions for dual-sided charging; five named pretextual PFOF structures; overseas affiliate routing as circumvention; systems and controls deficiencies including sub-1% sampling | 1 |
+| [summaries/fca-assessing-suitability-review-2017.md](summaries/fca-assessing-suitability-review-2017.md) | **[HISTORICAL — pre-MiFID II]** FCA suitability review (May 2017): 1,142 files, 656 firms; 93.1% suitable sector-wide; two root causes (risk profiling, replacement business); 41.7% unacceptable disclosure concentrated in initial charges disclosure; three-part framework (COBS 6.1A, COBS 14, COBS 9.4); firm-type differentials | 1 |
 
 ### Concepts
 
@@ -110,3 +128,5 @@ Claude Code reads this file first on every query to identify relevant pages.
 |------|---------|---------|
 | [concepts/prod-product-governance.md](concepts/prod-product-governance.md) | PROD 3 product governance framework for investment manufacturers: positive and negative target market (PROD 3.2.10R), conflicts of interest, product scenario testing (PROD 3.2.13R), costs disclosure, distributor due diligence and information flow, AFM board/NED obligations, record keeping and SM&CR personal liability | 1 |
 | [concepts/costs-charges-disclosure.md](concepts/costs-charges-disclosure.md) | Costs and charges disclosure framework: PRIIPs KID non-contradiction rule, UCITS KIID material transaction cost obligation, four transaction cost calculation failure modes (arrival price, anti-dilution levy, outsourcing, underlying fund classification), disclosure accessibility as standalone breach, AMC vs OCF terminology | 1 |
+| [concepts/payment-for-order-flow.md](concepts/payment-for-order-flow.md) | PFOF framework: definition and harm mechanism; exclusive vs. non-exclusive liquidity legal distinction; ROFR as the key marker; four cumulative conditions for dual-sided charging; five named pretextual structures; overseas affiliate routing circumvention; SYSC 10 systems and controls requirements | 1 |
+| [concepts/advice-suitability-cobs9.md](concepts/advice-suitability-cobs9.md) | **[pre-MiFID II baseline]** COBS 9 suitability for personal recommendations: three-dimension test; two root causes of unsuitable advice (risk profiling, replacement business); three-part advisory disclosure framework (COBS 6.1A initial charges, COBS 14 product, COBS 9.4 suitability report); specific initial disclosure failure modes; sector risk segmentation | 1 |

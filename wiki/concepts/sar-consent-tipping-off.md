@@ -157,5 +157,6 @@ The firm must permit the nominated officer access to all information in the firm
 - [[aml-ctf-framework]]
 - [[customer-due-diligence]]
 - [[jmlsg-part-i-guidance]]
+- [[uk-gdpr-lawful-basis]]
 - [[fcg3-money-laundering-terrorist-financing]]
 - [[asset-freezes-and-ofsi-licences]]

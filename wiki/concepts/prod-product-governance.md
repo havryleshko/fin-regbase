@@ -17,6 +17,7 @@ related:
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - concepts/costs-charges-disclosure.md
   - summaries/fca-costs-charges-disclosure-review-2019.md
+  - concepts/payment-for-order-flow.md
 ---
 
 # PROD 3 — Product Governance for Investment Manufacturers
@@ -185,3 +186,6 @@ Training that does not adequately cover end-investor needs and outcomes is insuf
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[costs-charges-disclosure]]
 - [[fca-costs-charges-disclosure-review-2019]]
+- [[payment-for-order-flow]]
+- [[advice-suitability-cobs9]]
+- [[fca-assessing-suitability-review-2017]]
