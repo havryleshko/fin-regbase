@@ -4,7 +4,7 @@
 
 Fintech AI agents that touch compliance — Consumer Duty outcome testing, AML/KYC, credit decisioning — have to reason over regulations they don't reliably know. The default is RAG: retrieve chunks at query time, re-derive the same synthesis on every call.
 
-In `fin-regbase` regulations are compiled **once** into structured, citation-backed, interlinked Markdown articles and kept current (using obsidian). Agents read from the wiki at runtime. The LLM maintains it. The human curator quality-gates it.
+In `fin-regbase` regulations are compiled **once** into structured, citation-backed, interlinked Markdown articles and kept current (using obsidian). Agents read from the wiki at runtime. The LLM maintains it. The human curator reviews, essentially quality-gates
 
 Inspired by [Andrej Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
 
@@ -29,7 +29,7 @@ Three operations defined in `CLAUDE.md`:
 
 ## What's in the Wiki
 
-**47 pages** across five regulatory domains. Current as of April 2026.
+**55 pages** across five regulatory domains. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -50,7 +50,9 @@ Source-level overviews with full citation trails.
 | `summaries/fca-assessing-suitability-review-2017.md` | FCA suitability review — risk profiling, know your client, adviser process |
 | `summaries/dear-ceo-letter-wealth-stockbroking-2023.md` | Dear CEO — FCA expectations for wealth management and stockbroking firms |
 | `summaries/dear-ceo-letter-payments-portfolio-2023.md` | Dear CEO — FCA priorities for payments portfolio firms (safeguarding, wind-down, Consumer Duty) |
-| `summaries/ico-guide-lawful-basis-2026.md` | ICO Guide to Lawful Basis — all six Article 6 bases, legitimate interests, special category data |
+| `summaries/ico-guide-lawful-basis-2026.md` | ICO Guide to Lawful Basis — seven Article 6 bases post-DUA Act 2026, recognised legitimate interest |
+| `summaries/ico-guide-data-protection-principles.md` | ICO Guide to Data Protection Principles — all seven Art. 5 principles, DUA Act purpose limitation update |
+| `summaries/ico-guide-individual-rights.md` | ICO Guide to Individual Rights — all eight rights, Art. 12 request framework, Art. 22 automated decisions |
 
 ### Concepts
 One page per regulatory concept, built from primary sources.
@@ -88,7 +90,6 @@ One page per regulatory concept, built from primary sources.
 | Page | What it covers |
 |------|----------------|
 | `concepts/prod-product-governance.md` | PROD rules — target market, product testing, distribution strategy, annual review |
-| `concepts/agent-distributor-oversight.md` | Manufacturer obligations over distributor chains; information flow requirements |
 | `concepts/costs-charges-disclosure.md` | Ex-ante and ex-post disclosure; aggregated vs. itemised; PRIIPs overlap |
 | `concepts/payment-for-order-flow.md` | PFOF prohibition (UK post-Brexit), conflicts of interest, best execution |
 | `concepts/advice-suitability-cobs9.md` | Suitability assessment, risk profiling, KYC, ongoing suitability |
@@ -100,13 +101,20 @@ One page per regulatory concept, built from primary sources.
 | `concepts/safeguarding-pis-emis.md` | Safeguarding obligation, segregation methods, reconciliation, insolvency waterfall |
 | `concepts/psr-emi-prudential.md` | Own funds requirements, initial capital, stress-testing, wind-down buffers |
 | `concepts/wind-down-planning.md` | Wind-down plan obligations, trigger events, run-off costs, FCA expectations |
+| `concepts/agent-distributor-oversight.md` | Agent FCA registration obligations; distributor oversight; ongoing monitoring |
 | `concepts/operational-resilience.md` | Important business services, impact tolerances, self-assessment, Annex A |
 
-**UK GDPR**
+**UK GDPR / Data Protection**
 
 | Page | What it covers |
 |------|----------------|
-| `concepts/uk-gdpr-lawful-basis.md` | Six lawful bases, legitimate interests assessment, special category data |
+| `concepts/uk-gdpr-lawful-basis.md` | Seven Article 6 bases post-DUA Act; recognised legitimate interest; rights matrix; consent trap |
+| `concepts/uk-gdpr-data-protection-principles.md` | All seven Art. 5 principles; purpose limitation Annex 2 compatible purposes; storage limitation |
+| `concepts/uk-gdpr-individual-rights-overview.md` | All eight rights; Art. 12 request framework; restriction; portability |
+| `concepts/uk-gdpr-automated-decision-making.md` | Art. 22 — solely automated decisions; three permitted grounds; DPIA; human review obligation |
+| `concepts/uk-gdpr-right-to-object.md` | Art. 21 — absolute direct marketing right; compelling legitimate grounds test |
+| `concepts/uk-gdpr-right-to-erasure.md` | Art. 17 — six triggers; five exemptions; legal obligation protects CDD/AML records |
+| `concepts/uk-gdpr-right-to-be-informed.md` | Art. 13/14 — mandatory privacy notice content; timing rules; automated decision-making disclosure |
 
 ### Derived
 Synthesised answers, assessments, and reference tables filed from query sessions.
@@ -134,15 +142,15 @@ fin-regbase/
 ├── wiki/
 │   ├── index.md            # Master index — start here for any query
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (28 pages)
-│   ├── summaries/          # Per-document summaries (15 pages)
+│   ├── concepts/           # Core regulatory concepts (34 pages)
+│   ├── summaries/          # Per-document summaries (17 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
 ├── agents/                 # Runtime query wrappers (v1: index.md reader)
 ├── design.md               # Architecture, philosophy, rollout plan
 └── README.md
 ```
 
-**Rule:** `raw/` is immutable. Claude Code reads from it; nothing writes to it. Errors in source documents are noted in `wiki/log.md` and corrected in derived articles.
+**Rule:** `raw/` is immutable. The LLM reads from it; nothing writes to it. Errors in source documents are noted in `wiki/log.md` and corrected in derived articles.
 
 ---
 
@@ -152,7 +160,7 @@ fin-regbase/
 
 **For humans:** Open `wiki/` in Obsidian. Install the Dataview plugin to run live queries over the YAML frontmatter (jurisdiction, status, tags, effective_date). Use Graph view to inspect cross-reference health after each lint pass.
 
-**Adding a source:** Drop a document into `raw/fca-consumer-duty/` and tell Claude Code to ingest it. Discuss key takeaways before any pages are written. One source at a time.
+**Adding a source:** Drop a document into the appropriate `raw/` subdirectory and say "ingest [filename]". Discuss key takeaways before any pages are written. One source at a time.
 
 ---
 

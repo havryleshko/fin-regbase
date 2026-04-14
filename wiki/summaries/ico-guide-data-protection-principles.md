@@ -22,6 +22,7 @@ related:
   - summaries/ico-guide-lawful-basis-2026.md
   - concepts/vulnerable-customers.md
   - concepts/aml-ctf-framework.md
+  - summaries/ico-guide-individual-rights.md
 ---
 
 # ICO Guide to the Data Protection Principles
@@ -244,3 +245,4 @@ The accountability principle underpins all other principles — documentation, p
 - [[ico-guide-lawful-basis-2026]]
 - [[vulnerable-customers]]
 - [[aml-ctf-framework]]
+- [[ico-guide-individual-rights]]

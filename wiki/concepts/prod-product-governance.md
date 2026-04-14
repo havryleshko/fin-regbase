@@ -18,6 +18,7 @@ related:
   - concepts/costs-charges-disclosure.md
   - summaries/fca-costs-charges-disclosure-review-2019.md
   - concepts/payment-for-order-flow.md
+  - summaries/fca-pfof-supervisory-report-2019.md
 ---
 
 # PROD 3 — Product Governance for Investment Manufacturers
@@ -187,5 +188,6 @@ Training that does not adequately cover end-investor needs and outcomes is insuf
 - [[costs-charges-disclosure]]
 - [[fca-costs-charges-disclosure-review-2019]]
 - [[payment-for-order-flow]]
+- [[fca-pfof-supervisory-report-2019]]
 - [[advice-suitability-cobs9]]
 - [[fca-assessing-suitability-review-2017]]

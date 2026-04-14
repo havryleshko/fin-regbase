@@ -16,6 +16,9 @@ related:
   - concepts/vulnerability-drivers-and-taxonomy.md
   - concepts/aml-ctf-framework.md
   - concepts/sar-consent-tipping-off.md
+  - concepts/uk-gdpr-individual-rights-overview.md
+  - concepts/uk-gdpr-right-to-object.md
+  - concepts/uk-gdpr-automated-decision-making.md
 ---
 
 # UK GDPR — Lawful Basis for Processing (Article 6)
@@ -219,3 +222,6 @@ Both must be documented. AML/CTF processing of PEP data or adverse criminal medi
 - [[vulnerability-drivers-and-taxonomy]]
 - [[aml-ctf-framework]]
 - [[sar-consent-tipping-off]]
+- [[uk-gdpr-individual-rights-overview]]
+- [[uk-gdpr-right-to-object]]
+- [[uk-gdpr-automated-decision-making]]

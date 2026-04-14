@@ -21,6 +21,7 @@ related:
   - derived/fca-consumer-duty-implementation-review-2024.md
   - concepts/uk-gdpr-data-protection-principles.md
   - summaries/ico-guide-data-protection-principles.md
+  - concepts/uk-gdpr-individual-rights-overview.md
 ---
 
 # FCA FG21/1 — Guidance for Firms on the Fair Treatment of Vulnerable Customers
@@ -130,6 +131,7 @@ The Guidance may also be relevant to enforcement proceedings. The FCA may use FG
 - [[ico-guide-lawful-basis-2026]]
 - [[uk-gdpr-data-protection-principles]]
 - [[ico-guide-data-protection-principles]]
+- [[uk-gdpr-individual-rights-overview]]
 - [[consumer-duty-overview]]
 - [[consumer-duty-cross-cutting-rules]]
 - [[fg22-5-guidance]]

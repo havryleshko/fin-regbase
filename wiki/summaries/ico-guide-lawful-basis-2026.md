@@ -15,6 +15,7 @@ related:
   - concepts/vulnerable-customers.md
   - concepts/vulnerability-drivers-and-taxonomy.md
   - concepts/aml-ctf-framework.md
+  - summaries/ico-guide-individual-rights.md
 ---
 
 # ICO Guide to Lawful Basis (Updated April 2026)
@@ -197,3 +198,4 @@ Both must be documented. The wiki's `vulnerable-customers.md` contains the most 
 - [[vulnerable-customers]]
 - [[vulnerability-drivers-and-taxonomy]]
 - [[aml-ctf-framework]]
+- [[ico-guide-individual-rights]]

@@ -771,3 +771,71 @@ Flagged for future ingest (pre-existing + new):
 - FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III, FATF, SM&CR/Conduct Rule 6 — pre-existing gaps
 
 
+
+## 2026-04-14 ingest | ICO Guide to Individual Rights
+
+Source: `raw/uk-gdpr/A guide to individual rights.pdf` (v0.0.2, 19 May 2023, 87pp)
+
+Pages created (6):
+- `wiki/summaries/ico-guide-individual-rights.md`
+- `wiki/concepts/uk-gdpr-individual-rights-overview.md`
+- `wiki/concepts/uk-gdpr-automated-decision-making.md`
+- `wiki/concepts/uk-gdpr-right-to-object.md`
+- `wiki/concepts/uk-gdpr-right-to-erasure.md`
+- `wiki/concepts/uk-gdpr-right-to-be-informed.md`
+
+Pages updated (1):
+- `wiki/index.md` — added 1 summary + 5 concepts under UK — Data Protection / ICO
+
+Key additions to wiki:
+1. Art. 22 automated decision-making and profiling framework (entirely absent previously): solely automated + legal/similarly significant effects restriction; 3 permitted grounds; special category data extra restriction; DPIA mandatory; meaningful logic/human review obligations; general profiling rules
+2. Art. 12 cross-cutting request-handling framework: 1-month calendar month deadline; 28-day operational target; verbal requests valid; manifestly unfounded (two tests) and excessive (substance/overlap) definitions; proportionate ID verification
+3. Art. 21 right to object: absolute direct marketing right (suppression not erasure); compelling legitimate grounds test for LI/public task; Art. 21(6) research restriction; proactive first-communication notification obligation
+4. Art. 13/14 mandatory privacy notice content: 13 items (Art. 13); Art. 14 adds categories + source; timing rules; meaningful automated decision-making disclosure mandatory for all profiling not just Art. 22; delivery methods (layered, just-in-time, dashboards)
+5. Art. 17 right to erasure: 6 triggers; 5 exemptions — legal obligation (17(3)(b)) and legal claims (17(3)(e)) directly protect CDD/AML records; third-party and backup/processor notification obligations
+
+Coverage note: Right of access (Art. 15/SAR) is a stub in this document — dedicated ICO SAR guidance needed.
+
+Contradictions with existing wiki: None. Art. 17(3)(b) legal obligation exemption is fully consistent with the 5-year/10-year MLR retention periods already documented in `aml-ctf-framework` and `customer-due-diligence`.
+
+## 2026-04-14 lint (pass 14)
+
+Scanned all 55 wiki pages (34 concepts, 17 summaries, 4 derived, index, log) including 6 pages added this session.
+
+**No broken links.** All wikilink targets resolve to existing files.
+
+**No contradictions.** Art. 17(3)(b) erasure exemption (legal obligation) is fully consistent with MLR Reg 40 retention periods in `aml-ctf-framework` and `customer-due-diligence`. Art. 22 DPIA requirement is consistent with accountability principle in `uk-gdpr-data-protection-principles`.
+
+**Findings and actions:**
+
+| # | Priority | Type | Finding | Action |
+|---|----------|------|---------|--------|
+| C1 | High | Missing cross-ref | `uk-gdpr-lawful-basis` has a rights matrix but no links to the individual rights concept pages it describes | Fixed: added `[[uk-gdpr-individual-rights-overview]]`, `[[uk-gdpr-right-to-object]]`, `[[uk-gdpr-automated-decision-making]]` to frontmatter + Related Articles |
+| C2 | High | Missing cross-ref | `uk-gdpr-data-protection-principles` storage limitation principle directly links to erasure right; no cross-ref | Fixed: added `[[uk-gdpr-individual-rights-overview]]`, `[[uk-gdpr-right-to-erasure]]` |
+| C3 | Medium | Missing cross-ref | `aml-ctf-framework` documents MLR Reg 40 retention periods; Art. 17(3)(b) erasure exemption directly protects these | Fixed: added `[[uk-gdpr-right-to-erasure]]` |
+| C4 | Medium | Missing cross-ref | `customer-due-diligence` documents CDD record retention; same Art. 17(3)(b) connection | Fixed: added `[[uk-gdpr-right-to-erasure]]` |
+| C5 | Medium | Missing cross-ref | `vulnerable-customers` covers Art. 22 vulnerable group checks; no link to new Art. 22 page | Fixed: added `[[uk-gdpr-automated-decision-making]]` |
+| C6 | Low | Missing cross-ref | `fg21-1-guidance` Appendix 1 covers GDPR obligations; rights handling framework connects | Fixed: added `[[uk-gdpr-individual-rights-overview]]` |
+
+Flagged for future ingest (updated list):
+- ICO SAR guidance — right of access (Art. 15) is a stub in the individual rights guide; dedicated guidance needed
+- ICO Security guidance — principle (f) stub points to this
+- ICO Accountability and Governance guidance — accountability principle stub points to this
+- DUA Act 2026 primary legislation — cited across multiple pages but not ingested as primary source
+- FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III, FATF, SM&CR/Conduct Rule 6 — pre-existing gaps
+
+## 2026-04-14 lint (pass 15)
+
+Scanned all 55 wiki pages (34 concepts, 17 summaries, 4 derived, index, log).
+
+**No broken links. No orphan pages. No contradictions.**
+
+**Findings and actions:**
+
+| # | Priority | Type | Finding | Action |
+|---|----------|------|---------|--------|
+| C1 | High | Missing cross-ref | `ico-guide-lawful-basis-2026` and `ico-guide-data-protection-principles` — sibling ICO guides — do not link to `ico-guide-individual-rights` despite covering the same regulatory framework; lawful basis directly determines which rights apply | Fixed: added `[[ico-guide-individual-rights]]` to frontmatter + Related Articles of both sibling guides |
+| C2 | Medium | Missing cross-ref / near-orphan | `fca-pfof-supervisory-report-2019` had only 1 inbound link (from `payment-for-order-flow` concept); `prod-product-governance.md` links to the concept but not to the enforcement report directly | Fixed: added `[[fca-pfof-supervisory-report-2019]]` to `prod-product-governance.md` frontmatter + Related Articles; resolves E1 near-orphan |
+| E2 | N/A | Near-orphan (no action) | `consumer-understanding-digital-notifications` — 1 inbound link from parent concept page; derived page, acceptable |
+
+Post-fix inbound counts: `fca-pfof-supervisory-report-2019` = 2; `ico-guide-individual-rights` = 7.

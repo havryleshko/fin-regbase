@@ -23,6 +23,8 @@ related:
   - concepts/vulnerable-customers.md
   - concepts/aml-ctf-framework.md
   - concepts/customer-due-diligence.md
+  - concepts/uk-gdpr-individual-rights-overview.md
+  - concepts/uk-gdpr-right-to-erasure.md
 ---
 
 # UK GDPR — Data Protection Principles (Article 5)
@@ -294,3 +296,5 @@ The accountability principle also means that the other principles are not merely
 - [[vulnerable-customers]]
 - [[aml-ctf-framework]]
 - [[customer-due-diligence]]
+- [[uk-gdpr-individual-rights-overview]]
+- [[uk-gdpr-right-to-erasure]]
