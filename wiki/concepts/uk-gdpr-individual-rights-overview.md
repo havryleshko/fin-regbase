@@ -17,7 +17,9 @@ related:
   - concepts/uk-gdpr-right-to-object.md
   - concepts/uk-gdpr-right-to-erasure.md
   - concepts/uk-gdpr-right-to-be-informed.md
+  - concepts/uk-gdpr-subject-access.md
   - summaries/ico-guide-individual-rights.md
+  - summaries/ico-guide-subject-access.md
   - summaries/ico-guide-lawful-basis-2026.md
 ---
 
@@ -38,7 +40,7 @@ related:
 
 **Basis dependency:** The lawful basis used for a specific processing activity determines which rights are available. See [[uk-gdpr-lawful-basis]] for the full rights matrix per basis.
 
-**Right of access (SAR):** Not covered operationally in the ICO's individual rights guide — a dedicated ICO SAR guidance document exists. Requires separate ingest.
+**Right of access (SAR):** Not covered operationally in the ICO's individual rights guide. See [[uk-gdpr-subject-access]] for the full SAR framework including third-party authority, child competence, clarification pause, DPA 2018 exemptions, and the enforced SAR criminal offence.
 
 ## Cross-Cutting Request-Handling Framework (Article 12)
 
@@ -195,5 +197,7 @@ The right to receive personal data in a portable, reusable format and, where tec
 - [[uk-gdpr-right-to-object]]
 - [[uk-gdpr-right-to-erasure]]
 - [[uk-gdpr-right-to-be-informed]]
+- [[uk-gdpr-subject-access]]
 - [[ico-guide-individual-rights]]
+- [[ico-guide-subject-access]]
 - [[ico-guide-lawful-basis-2026]]

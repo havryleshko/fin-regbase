@@ -29,7 +29,7 @@ Three operations defined in `CLAUDE.md`:
 
 ## What's in the Wiki
 
-**55 pages** across five regulatory domains. Current as of April 2026.
+**57 pages** across five regulatory domains. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -53,6 +53,7 @@ Source-level overviews with full citation trails.
 | `summaries/ico-guide-lawful-basis-2026.md` | ICO Guide to Lawful Basis — seven Article 6 bases post-DUA Act 2026, recognised legitimate interest |
 | `summaries/ico-guide-data-protection-principles.md` | ICO Guide to Data Protection Principles — all seven Art. 5 principles, DUA Act purpose limitation update |
 | `summaries/ico-guide-individual-rights.md` | ICO Guide to Individual Rights — all eight rights, Art. 12 request framework, Art. 22 automated decisions |
+| `summaries/ico-guide-subject-access.md` | ICO Guide to Subject Access — Art. 15 SAR; exemptions; excessive/manifestly unfounded requests; mixed data |
 
 ### Concepts
 One page per regulatory concept, built from primary sources.
@@ -115,6 +116,7 @@ One page per regulatory concept, built from primary sources.
 | `concepts/uk-gdpr-right-to-object.md` | Art. 21 — absolute direct marketing right; compelling legitimate grounds test |
 | `concepts/uk-gdpr-right-to-erasure.md` | Art. 17 — six triggers; five exemptions; legal obligation protects CDD/AML records |
 | `concepts/uk-gdpr-right-to-be-informed.md` | Art. 13/14 — mandatory privacy notice content; timing rules; automated decision-making disclosure |
+| `concepts/uk-gdpr-subject-access.md` | Art. 15 SAR — scope; exemptions; mixed data; disproportionate effort; interaction with AML record retention |
 
 ### Derived
 Synthesised answers, assessments, and reference tables filed from query sessions.
@@ -142,8 +144,8 @@ fin-regbase/
 ├── wiki/
 │   ├── index.md            # Master index — start here for any query
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (34 pages)
-│   ├── summaries/          # Per-document summaries (17 pages)
+│   ├── concepts/           # Core regulatory concepts (35 pages)
+│   ├── summaries/          # Per-document summaries (18 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
 ├── agents/                 # Runtime query wrappers (v1: index.md reader)
 ├── design.md               # Architecture, philosophy, rollout plan

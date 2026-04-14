@@ -24,6 +24,7 @@ related:
   - summaries/fca-cdd-findings-multi-firm-2026.md
   - concepts/uk-gdpr-data-protection-principles.md
   - concepts/uk-gdpr-right-to-erasure.md
+  - concepts/uk-gdpr-subject-access.md
 ---
 
 # Customer Due Diligence — CDD, EDD, SDD, Third-Party Reliance, Ongoing Monitoring, and Transaction Monitoring
@@ -361,3 +362,4 @@ JMLSG provides pro-forma confirmation templates (Annex 5-I and 5-II) for: UK-reg
 - [[fca-cdd-findings-multi-firm-2026]]
 - [[uk-gdpr-data-protection-principles]]
 - [[uk-gdpr-right-to-erasure]]
+- [[uk-gdpr-subject-access]]

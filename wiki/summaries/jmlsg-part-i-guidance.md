@@ -15,6 +15,7 @@ related:
   - concepts/simplified-due-diligence.md
   - concepts/sar-consent-tipping-off.md
   - summaries/fcg3-money-laundering-terrorist-financing.md
+  - summaries/fca-cdd-findings-multi-firm-2026.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
 ---
 
@@ -125,4 +126,5 @@ CDD documents and information: five years after the business relationship ends (
 - [[sar-consent-tipping-off]]
 - [[uk-gdpr-lawful-basis]]
 - [[fcg3-money-laundering-terrorist-financing]]
+- [[fca-cdd-findings-multi-firm-2026]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]

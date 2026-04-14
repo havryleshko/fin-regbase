@@ -17,6 +17,8 @@ related:
   - concepts/uk-gdpr-right-to-be-informed.md
   - concepts/uk-gdpr-lawful-basis.md
   - concepts/uk-gdpr-data-protection-principles.md
+  - concepts/uk-gdpr-subject-access.md
+  - summaries/ico-guide-subject-access.md
   - summaries/ico-guide-lawful-basis-2026.md
   - summaries/ico-guide-data-protection-principles.md
 ---
@@ -33,14 +35,14 @@ ICO guidance is not primary legislation but carries significant enforcement weig
 
 ## Coverage Note — Right of Access (SAR)
 
-The Guide's chapter on the right of access (Art. 15) is a stub — it provides a brief "at a glance" and refers readers to the ICO's dedicated Subject Access guidance. SAR operational detail is not covered here or in the wiki. This requires a separate ingest of the ICO's SAR guidance.
+The Guide's chapter on the right of access (Art. 15) is a stub — it provides a brief "at a glance" and refers readers to the ICO's dedicated Subject Access guidance. See [[uk-gdpr-subject-access]] and [[ico-guide-subject-access]] for the full SAR framework.
 
 ## Document Structure
 
 | Chapter | Article | Content |
 |---------|---------|---------|
 | Right to be informed | Art. 13–14 | Mandatory privacy notice content; timing rules; layered notices; AI/profiling transparency |
-| Right of access | Art. 15 | Stub — see dedicated ICO SAR guidance |
+| Right of access | Art. 15 | Stub in this document — see [[ico-guide-subject-access]] and [[uk-gdpr-subject-access]] |
 | Right to rectification | Art. 16 | 1-month deadline; verbal requests; third-party notification; restriction during accuracy check |
 | Right to erasure | Art. 17 | 6 triggers; 5 exemptions; third-party and processor notification; children's online services |
 | Right to restrict processing | Art. 18 | 4 triggers; storage-only default with 4 exceptions; technical methods; notification before lifting |
@@ -147,5 +149,7 @@ Controller-to-controller transmission: required where technically feasible. Rece
 - [[uk-gdpr-right-to-be-informed]]
 - [[uk-gdpr-lawful-basis]]
 - [[uk-gdpr-data-protection-principles]]
+- [[uk-gdpr-subject-access]]
+- [[ico-guide-subject-access]]
 - [[ico-guide-lawful-basis-2026]]
 - [[ico-guide-data-protection-principles]]

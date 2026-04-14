@@ -15,6 +15,7 @@ related:
   - concepts/uk-gdpr-lawful-basis.md
   - concepts/uk-gdpr-data-protection-principles.md
   - concepts/uk-gdpr-automated-decision-making.md
+  - concepts/uk-gdpr-subject-access.md
   - summaries/ico-guide-individual-rights.md
 ---
 
@@ -128,4 +129,5 @@ No single method satisfies all scenarios. A combination of approaches is typical
 - [[uk-gdpr-lawful-basis]]
 - [[uk-gdpr-data-protection-principles]]
 - [[uk-gdpr-automated-decision-making]]
+- [[uk-gdpr-subject-access]]
 - [[ico-guide-individual-rights]]

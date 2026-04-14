@@ -839,3 +839,83 @@ Scanned all 55 wiki pages (34 concepts, 17 summaries, 4 derived, index, log).
 | E2 | N/A | Near-orphan (no action) | `consumer-understanding-digital-notifications` — 1 inbound link from parent concept page; derived page, acceptable |
 
 Post-fix inbound counts: `fca-pfof-supervisory-report-2019` = 2; `ico-guide-individual-rights` = 7.
+
+
+## 2026-04-14 ingest | ICO Guide to Subject Access
+
+Source: `raw/uk-gdpr/A guide to subject access.md` (ICO Guide to Subject Access, ico.org.uk, clipped 2026-04-14)
+
+Pages created (2):
+- `wiki/summaries/ico-guide-subject-access.md`
+- `wiki/concepts/uk-gdpr-subject-access.md`
+
+Pages updated (3):
+- `wiki/index.md` — added ico-guide-subject-access summary row; added uk-gdpr-subject-access concept row; updated ico-guide-individual-rights summary row (SAR stub note updated to link to new pages)
+- `wiki/concepts/uk-gdpr-individual-rights-overview.md` — SAR stub note updated from "requires separate ingest" to link to `[[uk-gdpr-subject-access]]`
+- `wiki/summaries/ico-guide-individual-rights.md` — coverage note (line 36) and right-of-access table row (line 43) updated to link to new SAR pages
+
+Key additions to wiki:
+1. **Enforced SAR = criminal offence (DPA 2018):** Requiring an individual to make a SAR to obtain their criminal record, health data, or other personal data as a condition of employment or contract is a criminal offence. Operationally significant for pre-employment screening, underwriting, and credit decisions.
+2. **Clarification pause:** Where large volumes of data make the scope unclear, the response clock can be paused (not merely extended) while the controller seeks clarification. Supplementary information must still be provided within 1 month regardless.
+3. **DPA 2018 Schedules 2–3 SAR-specific exemptions:** A dedicated exemption regime applies only to SARs, distinct from the general UK GDPR framework. Most financially relevant: crime/taxation (general and risk assessment), legal professional privilege, regulatory functions, management information, negotiations with requester, confidential references.
+4. **Third-party SAR authority:** Burden of providing evidence of authority sits with the third party, not the controller. No response before satisfactory authority evidence received.
+5. **Child SAR competence framework:** Competence-based — respond directly to a child if they understand their rights; parent/guardian can only act with child's authorisation or where evidently in the child's best interests.
+
+Coverage note: ICO sub-pages on each exemption, identity verification mechanics, reasonable search methodology, format/security of delivery, and special cases (credit, health, educational, social work data) have not been ingested. Primary ICO source should be consulted for those details.
+
+Contradictions with existing wiki: None. DPA 2018 crime/taxation SAR exemption is fully consistent with the existing CDD/AML/fraud processing rationale in `aml-ctf-framework` and `customer-due-diligence`.
+
+
+## 2026-04-14 lint (pass 16)
+
+Scanned all 57 wiki pages (34 concepts, 15 summaries, 4 derived, index, log) including 2 pages added this session.
+
+**No broken links.** All wikilink targets resolve to existing files.
+
+**No contradictions.** DPA 2018 crime/taxation SAR exemption is fully consistent with MLR Reg 40 record retention in `aml-ctf-framework` and `customer-due-diligence`. Enforced SAR criminal offence is consistent with the DAML consent framing in `sar-consent-tipping-off` (distinct regimes — no conflict).
+
+**Findings and actions:**
+
+| # | Priority | Type | Finding | Action |
+|---|----------|------|---------|--------|
+| C1 | High | Frontmatter gap | `uk-gdpr-individual-rights-overview` body references `[[uk-gdpr-subject-access]]` but frontmatter `related` was missing both SAR pages | Fixed: added `concepts/uk-gdpr-subject-access.md` + `summaries/ico-guide-subject-access.md` to frontmatter; added `[[uk-gdpr-subject-access]]` + `[[ico-guide-subject-access]]` to Related Articles |
+| C2 | High | Missing cross-ref | `ico-guide-individual-rights` body links to both SAR pages in text but frontmatter + Related Articles were absent | Fixed: added both SAR pages to frontmatter + Related Articles |
+| C3 | Medium | Missing cross-ref | `aml-ctf-framework` already links to `uk-gdpr-right-to-erasure` for AML record protection; DPA 2018 crime/taxation SAR exemption is the parallel protection from subject access requests | Fixed: added `uk-gdpr-subject-access` to frontmatter + Related Articles |
+| C4 | Medium | Missing cross-ref | `customer-due-diligence` same rationale — CDD/KYC records are the primary target of the crime/taxation SAR exemption | Fixed: added `uk-gdpr-subject-access` to frontmatter + Related Articles |
+
+Post-fix inbound link counts: `uk-gdpr-subject-access` = 9; `ico-guide-subject-access` = 5. No near-orphans. No orphan pages.
+
+Flagged for future ingest (pre-existing + new):
+- ICO SAR sub-pages — identity verification mechanics, reasonable search methodology, each DPA 2018 exemption in detail, format/security of delivery, special cases (credit, health, educational, social work data) not yet ingested
+- ICO Security guidance — principle (f) stub
+- ICO Accountability and Governance guidance — accountability principle stub
+- DUA Act 2026 primary legislation — cited across multiple pages
+- FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III, FATF, SM&CR/Conduct Rule 6 — pre-existing gaps
+
+
+## 2026-04-14 lint (pass 17)
+
+Scanned all 57 wiki pages (35 concepts, 15 summaries, 4 derived, index, log).
+
+**No broken links.** All wikilink targets resolve to existing files.
+
+**No contradictions.** DAML 7/31/186-day periods, Art. 22 solely-automated restriction, 1-month calendar month deadline, 25% beneficial ownership threshold, consent trap prohibition, Art. 17(3)(b) erasure exemption — all consistent across pages.
+
+**No orphan pages.** Minimum inbound link count: 3.
+
+**1 near-orphan (no action):** `consumer-understanding-digital-notifications` — 1 inbound link; derived page, documented as acceptable in prior passes.
+
+**Findings and actions:**
+
+| # | Priority | Type | Finding | Action |
+|---|----------|------|---------|--------|
+| C1 | High | Missing cross-ref | `uk-gdpr-right-to-be-informed` missing link to `uk-gdpr-subject-access` — SAR response requires supplementary information equivalent to Art. 13/14 content; subject access page cites this page for that purpose; reverse absent | Fixed: added `concepts/uk-gdpr-subject-access.md` to frontmatter + `[[uk-gdpr-subject-access]]` to Related Articles |
+| C2 | Medium | Missing cross-ref | `jmlsg-part-i-guidance` missing link to `fca-cdd-findings-multi-firm-2026` — review evaluates compliance against JMLSG guidance; `fcg3-money-laundering-terrorist-financing` already links to the review; JMLSG summary did not | Fixed: added `summaries/fca-cdd-findings-multi-firm-2026.md` to frontmatter + `[[fca-cdd-findings-multi-firm-2026]]` to Related Articles |
+
+Pages modified (2): `wiki/concepts/uk-gdpr-right-to-be-informed.md`, `wiki/summaries/jmlsg-part-i-guidance.md`
+
+Flagged for future ingest (pre-existing gaps, no new additions):
+- ICO SAR sub-pages (identity verification, reasonable search, each DPA 2018 exemption, delivery security, special cases)
+- ICO Security guidance, ICO Accountability and Governance guidance
+- DUA Act 2026 primary legislation
+- FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III, FATF, SM&CR/Conduct Rule 6
