@@ -1,4 +1,4 @@
-# fin-regbase
+# Agentic knowledge base for financial regulations
 
 **A persistent, agent-readable knowledge base for financial regulations.**
 
