@@ -49,12 +49,14 @@ Claude Code reads this file first on every query to identify relevant pages.
 | Page | Summary | Sources |
 |------|---------|---------|
 | [summaries/ico-guide-lawful-basis-2026.md](summaries/ico-guide-lawful-basis-2026.md) | ICO Guide to Lawful Basis (April 2026 update): seven Article 6 bases post-DUA Act; recognised legitimate interest (Art. 6(ea)) five pre-approved purposes; rights linkage table; consent trap; new purpose compatibility; dual condition for special category/criminal offence data; ICO guidance citation type noted | 1 |
+| [summaries/ico-guide-data-protection-principles.md](summaries/ico-guide-data-protection-principles.md) | ICO Guide to Data Protection Principles (Art. 5): all seven principles; Art.83(5)(a) highest-tier fines; principle (b) updated March 2026 for DUA Act (Annex 2 nine compatible purposes, two-track reuse); invisible processing; accuracy nuances (historical records, mistakes, opinions, credit scores); storage limitation (no prescribed periods, pseudonymisation not exempt, archiving exception); DUA Act review status noted | 8 |
 
 ### Concepts
 
 | Page | Summary | Sources |
 |------|---------|---------|
 | [concepts/uk-gdpr-lawful-basis.md](concepts/uk-gdpr-lawful-basis.md) | UK GDPR Article 6 lawful bases: all seven bases including recognised legitimate interest (DUA Act 2026); necessity test; rights matrix (erasure/portability/object per basis); consent trap prohibition; new purpose compatibility assessment; Article 9 special category dual condition; Article 10 criminal offence data dual condition | 1 |
+| [concepts/uk-gdpr-data-protection-principles.md](concepts/uk-gdpr-data-protection-principles.md) | UK GDPR Article 5 — all seven principles: lawfulness/fairness/transparency (three sub-obligations, invisible processing); purpose limitation (Annex 2 nine compatible purposes, two-track reuse, five-factor assessment); data minimisation (ceiling and floor); accuracy (historical records, mistakes, opinions, credit scores); storage limitation (no prescribed periods, pseudonymisation not exempt, archiving exception); integrity and confidentiality; accountability | 8 |
 
 ---
 

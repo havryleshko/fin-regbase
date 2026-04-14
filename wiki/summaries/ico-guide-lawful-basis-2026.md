@@ -11,6 +11,7 @@ sources:
 tags: [UK-GDPR, lawful-basis, Article-6, consent, legitimate-interests, recognised-legitimate-interest, legal-obligation, special-category, DUA-Act, ICO, data-protection, UK]
 related:
   - concepts/uk-gdpr-lawful-basis.md
+  - summaries/ico-guide-data-protection-principles.md
   - concepts/vulnerable-customers.md
   - concepts/vulnerability-drivers-and-taxonomy.md
   - concepts/aml-ctf-framework.md
@@ -192,6 +193,7 @@ Both must be documented. The wiki's `vulnerable-customers.md` contains the most 
 ## Related Articles
 
 - [[uk-gdpr-lawful-basis]]
+- [[ico-guide-data-protection-principles]]
 - [[vulnerable-customers]]
 - [[vulnerability-drivers-and-taxonomy]]
 - [[aml-ctf-framework]]

@@ -23,6 +23,7 @@ related:
   - concepts/uk-financial-sanctions-framework.md
   - concepts/proliferation-financing.md
   - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
+  - concepts/uk-gdpr-data-protection-principles.md
   - summaries/fca-cdd-findings-multi-firm-2026.md
 ---
 
@@ -244,3 +245,4 @@ These are complementary obligations, not contradictory frameworks.
 - [[proliferation-financing]]
 - [[fcg7-sanctions-asset-freezes-proliferation-financing]]
 - [[fca-cdd-findings-multi-firm-2026]]
+- [[uk-gdpr-data-protection-principles]]

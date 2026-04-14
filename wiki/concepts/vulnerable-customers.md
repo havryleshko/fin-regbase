@@ -26,6 +26,7 @@ related:
   - concepts/consumer-duty-consumer-support.md
   - concepts/consumer-duty-products-services.md
   - concepts/vulnerability-drivers-and-taxonomy.md
+  - concepts/uk-gdpr-data-protection-principles.md
   - summaries/ps22-9-policy-statement.md
   - summaries/fg22-5-guidance.md
   - summaries/fg21-1-guidance.md
@@ -226,6 +227,7 @@ The FCA's wealth data survey found 49% of portfolio managers and 69% of stockbro
 - [[consumer-duty-consumer-support]]
 - [[vulnerability-drivers-and-taxonomy]]
 - [[uk-gdpr-lawful-basis]]
+- [[uk-gdpr-data-protection-principles]]
 - [[ps22-9-policy-statement]]
 - [[fg22-5-guidance]]
 - [[fg21-1-guidance]]

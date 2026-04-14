@@ -712,3 +712,62 @@ Scanned all 47 wiki pages (28 concepts, 13 summaries, 4 derived, index, log).
 | — | Info | Near-orphan | `fca-pfof-supervisory-report-2019`: 1 inbound; `consumer-understanding-digital-notifications`: 1 inbound | No action — acceptable for niche/derived pages |
 | — | Info | Known gap | `Legitimate Interests Assessment (LIA)` — described in `uk-gdpr-lawful-basis` but no standalone concept page | Acknowledged gap |
 | — | Info | Known gap | DUA Act 2026 primary legislation, FCA PEP Treatment Review (July 2024), FCTR thematic reviews, MiFID II current handbook | No action — previously flagged |
+
+
+## 2026-04-14 ingest | ICO Guide to the Data Protection Principles (all seven principles, Art. 5 UK GDPR)
+
+Sources: 8 markdown files in `raw/uk-gdpr/` (overview + one page per principle + accountability principle). Principle (b) updated 23 March 2026 for DUA Act; all other principle pages under ICO review pending DUA Act update.
+
+New pages created (2):
+
+- `wiki/summaries/ico-guide-data-protection-principles.md` — full cluster summary covering all 8 source files; Art. 83(5)(a) highest-tier fines; DUA Act review status noted; principle (b) update highlighted (Annex 2 nine compatible purposes, two-track reuse, five-factor compatibility assessment, Art. 8A); principle (a) three-part structure (lawfulness/fairness/transparency) incl. invisible processing and Jan 2025 Upper Tribunal update; accuracy nuances (historical records, records of mistakes, opinions not inaccurate, credit scores = statistical); storage limitation (no prescribed periods, pseudonymisation not exempt, five justification factors, archiving exception requirements, data sharing deletion/return); principles (f) and accountability noted as stubs pointing to separate ICO guidance; ICO guidance citation type caveat throughout
+- `wiki/concepts/uk-gdpr-data-protection-principles.md` — concept page for all seven principles; principle (b) most detailed (Annex 2 table, two-track framework, compatibility assessment factors, new lawful basis requirement); data minimisation ceiling and floor; accuracy definition (DPA 2018 s.205), historical records, error records, opinions, credit scores, proportionality, right to rectification absolute; storage limitation framework (five factors, pseudonymisation, archiving exception, data sharing); integrity and confidentiality and accountability stubs cross-referencing dedicated ICO guidance; financial services examples throughout (CDD/KYC, CCTV retention, debt collection, recruitment)
+
+Pages updated (1):
+
+- `wiki/index.md` — added entries for both new pages under "UK — Data Protection / ICO" (Summaries and Concepts subsections)
+
+No contradictions with existing wiki content. The purpose limitation compatibility framework in principle (b) (Annex 2 compatible purposes) is consistent with the recognised legitimate interest basis in `uk-gdpr-lawful-basis.md` — both introduced by the same DUA Act, complementary frameworks. AML/CTF pages remain correctly citing legal obligation as the Art. 6 basis for AML processing.
+
+Notable additions not previously in the wiki:
+- **Principle (a) fairness test** — reasonable expectations analysis; specific consideration for vulnerable groups
+- **Invisible processing concept** — when third-party data collection means individuals have no knowledge processing is occurring; proportionate additional transparency steps required
+- **Purpose limitation — DUA Act Annex 2** — nine pre-approved compatible purposes; two-track reuse framework distinguishing consent from non-consent original basis; five-factor compatibility assessment; Art. 8A reference
+- **Accuracy definition (DPA 2018 s.205)** — incorrect or misleading as to matter of fact; historical records and error records permissible; opinions standard; credit scores are statistical not opinion
+- **Storage limitation — no prescribed periods** — five-factor justification framework; pseudonymisation not exempt; archiving/research/statistics exception requires sole purpose + appropriate safeguards
+- **Principle (f) / Accountability stubs** — both are one-paragraph ICO pages pointing to separate guidance; separately flagged in both new pages to avoid agent confusion
+
+Flagged for future ingest:
+- ICO Security guidance — principle (f) stub points to this as the detailed source
+- ICO Accountability and Governance guidance — accountability principle stub points to this
+- DUA Act 2026 primary legislation — cited in principles but not yet ingested
+
+
+## 2026-04-14 lint (pass 13)
+
+Scanned all 49 wiki pages (29 concepts, 14 summaries, 4 derived, index, log) including 2 pages added this session.
+
+**No broken links.** All wikilink targets resolve to existing files.
+
+**No contradictions.** Purpose limitation Annex 2 compatible purposes and recognised legitimate interest Art. 6(ea) pre-approved purposes (from `uk-gdpr-lawful-basis`) are complementary DUA Act frameworks — consistent across pages.
+
+**Findings and actions:**
+
+| # | Priority | Type | Finding | Action |
+|---|----------|------|---------|--------|
+| C1 | High | Near-orphan / missing cross-ref | `uk-gdpr-data-protection-principles` had 1 inbound link; `uk-gdpr-lawful-basis` is sibling concept (Art. 6 within Art. 5 framework) with no link to it | Fixed: added `[[uk-gdpr-data-protection-principles]]` to frontmatter + Related Articles of `uk-gdpr-lawful-basis` |
+| C2 | High | Near-orphan / missing cross-ref | `ico-guide-data-protection-principles` had 1 inbound link; `ico-guide-lawful-basis-2026` is sibling summary with no link to it | Fixed: added `[[ico-guide-data-protection-principles]]` to frontmatter + Related Articles of `ico-guide-lawful-basis-2026` |
+| C3 | Medium | Missing cross-ref | `fg21-1-guidance` links to lawful basis pages but not to principles pages (FG21/1 Appendix 1 is a GDPR appendix; accuracy and data minimisation apply to vulnerability data) | Fixed: added `[[uk-gdpr-data-protection-principles]]` + `[[ico-guide-data-protection-principles]]` to frontmatter + Related Articles |
+| C4 | Medium | Missing cross-ref | `vulnerable-customers` mentions Art. 6/Art. 9 obligations but not the broader Art. 5 principles framework | Fixed: added `[[uk-gdpr-data-protection-principles]]` to frontmatter + Related Articles |
+| C5 | Low | Missing cross-ref | `aml-ctf-framework` already links to `uk-gdpr-lawful-basis`; storage limitation principle (Art. 5(1)(e)) directly governs AML record retention (five-year/ten-year periods) | Fixed: added `[[uk-gdpr-data-protection-principles]]` to frontmatter + Related Articles |
+| C6 | Low | Missing cross-ref | `customer-due-diligence` linked from `uk-gdpr-data-protection-principles` (CDD as data minimisation example); reverse link absent | Fixed: added `[[uk-gdpr-data-protection-principles]]` to frontmatter + Related Articles |
+
+Final inbound link counts: `uk-gdpr-data-protection-principles` = 6; `ico-guide-data-protection-principles` = 3. No orphan pages.
+
+Flagged for future ingest (pre-existing + new):
+- ICO Security guidance — principle (f) stub points to this
+- ICO Accountability and Governance guidance — accountability principle stub points to this
+- DUA Act 2026 primary legislation — cited in principles guidance but not yet ingested as primary source
+- FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III, FATF, SM&CR/Conduct Rule 6 — pre-existing gaps
+
+

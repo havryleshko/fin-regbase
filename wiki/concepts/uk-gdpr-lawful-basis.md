@@ -11,6 +11,7 @@ sources:
 tags: [UK-GDPR, lawful-basis, Article-6, Article-9, Article-10, consent, legitimate-interests, recognised-legitimate-interest, legal-obligation, special-category, criminal-offence-data, DUA-Act, ICO, data-protection, UK]
 related:
   - summaries/ico-guide-lawful-basis-2026.md
+  - concepts/uk-gdpr-data-protection-principles.md
   - concepts/vulnerable-customers.md
   - concepts/vulnerability-drivers-and-taxonomy.md
   - concepts/aml-ctf-framework.md
@@ -213,6 +214,7 @@ Both must be documented. AML/CTF processing of PEP data or adverse criminal medi
 ## Related Articles
 
 - [[ico-guide-lawful-basis-2026]]
+- [[uk-gdpr-data-protection-principles]]
 - [[vulnerable-customers]]
 - [[vulnerability-drivers-and-taxonomy]]
 - [[aml-ctf-framework]]
