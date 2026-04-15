@@ -21,6 +21,8 @@ related:
   - summaries/ico-guide-subject-access.md
   - summaries/ico-guide-lawful-basis-2026.md
   - summaries/ico-guide-data-protection-principles.md
+  - concepts/uk-gdpr-security.md
+  - summaries/ico-guide-data-security.md
 ---
 
 # ICO Guide to Individual Rights
@@ -153,3 +155,5 @@ Controller-to-controller transmission: required where technically feasible. Rece
 - [[ico-guide-subject-access]]
 - [[ico-guide-lawful-basis-2026]]
 - [[ico-guide-data-protection-principles]]
+- [[uk-gdpr-security]]
+- [[ico-guide-data-security]]

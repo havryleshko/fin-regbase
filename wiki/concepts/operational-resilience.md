@@ -17,6 +17,7 @@ related:
   - summaries/dear-ceo-letter-payments-portfolio-2023.md
   - derived/pi-emi-consumer-duty-and-sanctions-obligations.md
   - concepts/psr-emi-prudential.md
+  - concepts/uk-gdpr-security.md
 ---
 
 # Operational Resilience — SYSC 15A
@@ -138,3 +139,4 @@ Both require mapping of the firm's operational dependencies. Scenario testing fo
 - [[dear-ceo-letter-payments-portfolio-2023]]
 - [[pi-emi-consumer-duty-and-sanctions-obligations]]
 - [[psr-emi-prudential]]
+- [[uk-gdpr-security]] *(SYSC 15A and Art. 32 are distinct regimes but impose parallel resilience and testing obligations on the same firm)*

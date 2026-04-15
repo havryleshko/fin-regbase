@@ -919,3 +919,117 @@ Flagged for future ingest (pre-existing gaps, no new additions):
 - ICO Security guidance, ICO Accountability and Governance guidance
 - DUA Act 2026 primary legislation
 - FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III, FATF, SM&CR/Conduct Rule 6
+
+
+## 2026-04-15 ingest | ICO, A Guide to Data Security
+
+Source: `raw/uk-gdpr/A guide to data security.md` (ICO guidance, ico.org.uk; under review following DUA Act 2026)
+Scope: Article 5(1)(f) security principle + Article 32 (security of processing). Does NOT cover breach notification Arts. 33–34.
+
+Pages created (2):
+- `wiki/summaries/ico-guide-data-security.md` — full summary: Art. 32 four-part framework; risk-based standard; organisational and technical measures; PCI-DSS sector interaction; processor security obligations; mandatory testing; staff training and DPA 2018 criminal liability; DUA Act under-review status; scope boundary (Arts. 33–34 not covered)
+- `wiki/concepts/uk-gdpr-security.md` — new concept page; full Art. 32 operational framework; CIA triad and resilience detailed; pseudonymisation/encryption as examples not requirements; mandatory testing obligation; PCI-DSS as mitigating factor in enforcement; processor security — first Art. 28 content in wiki (sufficient guarantees, Art. 32 contractual requirement, audit rights); Art. 32(4) staff training with criminal liability note; explicit breach notification scope boundary
+
+Pages updated (2):
+- `wiki/concepts/uk-gdpr-data-protection-principles.md` — principle (f) stub replaced with substantive summary (Art. 32 sub-obligations, risk-based standard, PCI-DSS, processor security, testing, breach notification gap noted); new source added (9 sources total); uk-gdpr-security + ico-guide-data-security added to frontmatter and Related Articles; Key Points for Agents updated for principle (f) and accountability
+- `wiki/index.md` — new summary row (ico-guide-data-security) and concept row (uk-gdpr-security) added under UK — Data Protection / ICO; uk-gdpr-data-protection-principles source count updated 8 → 9
+
+Notes:
+- **No contradictions with existing wiki pages.** Principle (f) and Art. 32 content are entirely consistent with uk-gdpr-data-protection-principles and uk-gdpr-lawful-basis.
+- **First Art. 28 content in wiki:** The processor security obligations section (sufficient guarantees, contractual Art. 32 requirement, audit/inspection rights) introduces Art. 28 material. A dedicated controller/processor concept page should be created when the ICO's Controllers and Processors guidance is ingested.
+- **PCI-DSS interaction** is new to the wiki. Directly applicable to fintech firms processing card data. Not present in any prior source.
+- **Mandatory testing obligation (Art. 32(1)(d))** is entirely new to the wiki and applies to all organisations.
+- **Staff criminal liability (DPA 2018)** for deliberate unauthorised access/disclosure is new to the wiki.
+- **Breach notification (Arts. 33–34) is explicitly out of scope** — 72-hour ICO reporting clock and individual notification threshold have no wiki coverage. Next ICO source to ingest in this series.
+- DUA Act review status noted: guidance under review since 19 June 2025; content may be updated.
+
+Flagged for future ingest (updated list):
+- **ICO personal data breach notification guidance** — Arts. 33–34; 72-hour ICO reporting obligation; individual notification threshold; high-priority gap
+- ICO Accountability and Governance guidance — DPO, DPIA, RoPA, data protection by design (Art. 25)
+- ICO Controllers and Processors guidance — Art. 28 in full
+- DUA Act 2026 primary legislation
+- FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III, FATF, SM&CR/Conduct Rule 6 — pre-existing gaps
+
+
+## 2026-04-15 lint (pass 18)
+
+Scanned all 59 wiki pages (37 concepts, 16 summaries, 4 derived, index, log) including 2 pages added in the preceding ingest session.
+
+**No broken links.** All wikilink targets resolve to existing files.
+
+**No contradictions.** Art. 32 sub-obligations, pseudonymisation/storage limitation distinction, Art. 22 DPIA requirement, CIA triad — all consistent across pages.
+
+**No stale claims.** DUA Act under-review status explicitly flagged in both new security pages.
+
+**No orphan pages.** New pages: `uk-gdpr-security` = 3 inbound links; `ico-guide-data-security` = 3 inbound links.
+
+Issues found and fixed (4 total across 4 pages):
+
+| # | Priority | Type | Finding | Fix |
+|---|----------|------|---------|-----|
+| C1 | High | Missing cross-ref | `ico-guide-data-protection-principles` — principle (f) stub section had no link to the security pages now ingested; all sibling ICO summaries link to each other's counterparts | Added `[[uk-gdpr-security]]` + `[[ico-guide-data-security]]` to frontmatter + Related Articles |
+| C2 | Medium | Missing cross-ref | `uk-gdpr-automated-decision-making` — "Data security" row in Art. 22 mandatory requirements table; `uk-gdpr-security` listed this page in its related; reverse was absent | Added `[[uk-gdpr-security]]` to frontmatter + Related Articles |
+| C3 | Medium | Missing cross-ref | `ico-guide-individual-rights` — mentions "risk-proportionate data security" as Art. 22 mandatory obligation; `ico-guide-data-security` is the sibling ICO guide covering that obligation | Added `[[uk-gdpr-security]]` + `[[ico-guide-data-security]]` to frontmatter + Related Articles |
+| E1 | Low | Informational cross-ref | `operational-resilience` (SYSC 15A) — cyber incident testing scenarios overlap conceptually with Art. 32(1)(b)–(c) CIA+resilience and Art. 32(1)(d) mandatory testing; same firm subject to both regimes | Added `[[uk-gdpr-security]]` to frontmatter + Related Articles with note distinguishing SYSC 15A from Art. 32 |
+
+Post-fix inbound link counts: `uk-gdpr-security` = 7; `ico-guide-data-security` = 5. No near-orphans.
+
+Known gaps (no new action — previously flagged):
+- ICO personal data breach notification (Arts. 33–34) — highest priority next source
+- ICO Accountability and Governance guidance — DPO, DPIA, RoPA, Art. 25
+- ICO Controllers and Processors guidance — Art. 28 in full
+- DUA Act 2026 primary legislation
+- FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III, FATF, SM&CR/Conduct Rule 6
+
+
+## 2026-04-15 ingest | ICO Personal Data Breaches: A Guide (Arts. 33–34)
+
+Source: `raw/uk-gdpr/Personal data breaches_ a guide.md` (ICO guidance, ico.org.uk; DUA Act update noted: PECR timescale changed from 24h to 72h on 20 August 2025)
+
+Pages created (2):
+- `wiki/summaries/ico-guide-personal-data-breaches.md` — full summary: breach definition (availability/integrity/confidentiality); two-tier risk assessment; Art. 33 mechanics (72-hour clock, 4 content elements, phased notification, processor obligation); Art. 34 (high risk threshold, no fixed clock, protective advice, ICO power to compel); Art. 33(5) mandatory breach register (all breaches, no threshold); Art. 83(4) fine tier £8.7m/2%; parallel obligations table (PECR/eIDAS/NIS); post-breach SAR surge
+- `wiki/concepts/uk-gdpr-personal-data-breaches.md` — new concept page; full operational framework for Arts. 33–34; step-by-step decision tree; phased notification mechanics; processor Art. 33(2) obligations; AML/regulatory intersection (FCA Principle 11 / OFSI); Art. 83(4) vs Art. 83(5)(a) fine tier distinction; PECR/eIDAS/NIS parallel obligations; post-breach SAR surge contingency
+
+Pages updated (4):
+- `wiki/concepts/uk-gdpr-security.md` — scope boundary note updated to link to new page; frontmatter + Related Articles updated; body "What This Page Does Not Cover" section updated with link and full summary of what breach notification covers
+- `wiki/summaries/ico-guide-data-security.md` — scope boundary note updated to link; frontmatter + Related Articles updated
+- `wiki/concepts/uk-gdpr-data-protection-principles.md` — principle (f) scope boundary updated; frontmatter + Key Points + Related Articles updated
+- `wiki/index.md` — new summary row (ico-guide-personal-data-breaches) and concept row (uk-gdpr-personal-data-breaches) added; ico-guide-data-security and uk-gdpr-security rows updated to remove "NOT covered" note
+
+Notes:
+- **No contradictions with existing wiki pages.** Breach definition (availability/integrity/confidentiality) is fully consistent with Art. 32 CIA triad in uk-gdpr-security.
+- **Art. 83(4) fine tier is new to the wiki.** Existing wiki documented only Art. 83(5)(a) (£17.5m/4% for principles breaches). Art. 83(4) (£8.7m/2% for notification failures) is distinct and lower. Both can apply to the same incident simultaneously.
+- **PECR 72-hour obligation is the first PECR content in the wiki.** Updated by DUA Act on 20 August 2025 from 24 hours. Relevant to fintech firms operating as communications service providers.
+- **Art. 33(5) mandatory breach register** has no risk threshold — applies to all breaches including non-reportable ones. Primary ICO audit target. Not previously covered in the wiki.
+- **Processor Art. 33(2) obligation** extends the Art. 28 processor content introduced in uk-gdpr-security. The controller's 72-hour clock runs from when the controller becomes aware, which may be when the processor notifies them.
+- **AML/regulatory intersection flagged in concept page:** A breach affecting CDD records or SAR-related data may simultaneously trigger FCA Principle 11 / SUP 15.3 and OFSI notifications — separate from ICO notification.
+
+Flagged for future ingest (updated list):
+- ICO Accountability and Governance guidance — DPO, DPIA (Art. 35), RoPA (Art. 30), data protection by design (Art. 25) — now the highest-priority remaining UK GDPR gap
+- ICO Controllers and Processors guidance — Art. 28 in full
+- DUA Act 2026 primary legislation
+- FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III, FATF, SM&CR/Conduct Rule 6 — pre-existing gaps
+
+
+## 2026-04-15 lint (pass 19)
+
+Scanned all 61 wiki pages (37 concepts, 17 summaries, 4 derived, index, log) including 2 pages added in the preceding ingest session.
+
+**No contradictions.** No stale claims. No broken wikilinks. No orphan pages.
+
+Issues found and fixed (4 total across 5 pages):
+
+| # | Priority | Type | Finding | Fix |
+|---|----------|------|---------|-----|
+| C1 | Medium | Incomplete cross-ref | `ico-guide-data-protection-principles` — Art. 83(5)(a) referenced as "highest tier" in Key Points with no mention of Art. 83(4) lower tier now documented in the wiki | Added Art. 83(4) note to Key Points; added `concepts/uk-gdpr-personal-data-breaches.md` to frontmatter + `[[uk-gdpr-personal-data-breaches]]` to Related Articles |
+| C2 | Medium | Incomplete Key Point | `uk-gdpr-data-protection-principles` — "Breach of Art. 5 = highest fine tier" Key Point made no reference to Art. 83(4) lower tier now documented | Added Art. 83(4) parenthetical to Key Points bullet |
+| C3 | Medium | Missing reverse cross-ref | `aml-ctf-framework` — listed in `uk-gdpr-personal-data-breaches` related (breach affecting SAR/CDD data triggers dual ICO + FCA/OFSI notifications) but no reverse link | Added `concepts/uk-gdpr-personal-data-breaches.md` to frontmatter + `[[uk-gdpr-personal-data-breaches]]` to Related Articles |
+| C4 | Medium | Missing reverse cross-ref | `customer-due-diligence` — same rationale as C3; CDD records and SAR-related data are the most common AML-intersecting breach data types | Added `concepts/uk-gdpr-personal-data-breaches.md` to frontmatter + `[[uk-gdpr-personal-data-breaches]]` to Related Articles |
+
+Post-fix inbound link counts: `uk-gdpr-personal-data-breaches` = 9; `ico-guide-personal-data-breaches` = 4. No near-orphans.
+
+Known gaps (no new action — previously flagged):
+- ICO Accountability and Governance guidance — DPO, DPIA (Art. 35), RoPA (Art. 30), Art. 25 — highest-priority remaining UK GDPR gap
+- ICO Controllers and Processors guidance — Art. 28 in full
+- DUA Act 2026 primary legislation
+- FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III, FATF, SM&CR/Conduct Rule 6 — pre-existing gaps

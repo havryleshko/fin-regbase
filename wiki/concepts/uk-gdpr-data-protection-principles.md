@@ -15,6 +15,7 @@ sources:
   - "ICO, 'Principle (e): Storage limitation', ico.org.uk"
   - "ICO, 'Principle (f): Integrity and confidentiality (security)', ico.org.uk"
   - "ICO, 'Accountability principle', ico.org.uk"
+  - "ICO, 'A guide to data security', ico.org.uk"
 tags: [UK-GDPR, Article-5, data-protection-principles, lawfulness, fairness, transparency, purpose-limitation, data-minimisation, accuracy, storage-limitation, security, accountability, DUA-Act, ICO, data-protection, UK]
 related:
   - summaries/ico-guide-data-protection-principles.md
@@ -25,6 +26,9 @@ related:
   - concepts/customer-due-diligence.md
   - concepts/uk-gdpr-individual-rights-overview.md
   - concepts/uk-gdpr-right-to-erasure.md
+  - concepts/uk-gdpr-security.md
+  - summaries/ico-guide-data-security.md
+  - concepts/uk-gdpr-personal-data-breaches.md
 ---
 
 # UK GDPR — Data Protection Principles (Article 5)
@@ -254,9 +258,17 @@ Each party in a sharing arrangement may set different retention periods if their
 
 Firms must implement **appropriate technical and organisational measures** to protect personal data against accidental loss, destruction, damage, unauthorised access, and unauthorised disclosure (Art. 5(1)(f)).
 
-> The ICO's principles guide is a stub for this principle, pointing to the ICO's dedicated security guidance. Detailed controls (encryption, access management, incident response, etc.) are set out there, not in the principles guide.
+The security principle is operationalised by **Article 32**, which sets out four specific sub-obligations:
+- **(a)** Use of pseudonymisation and encryption where appropriate (named examples, not mandatory)
+- **(b)** Ensuring ongoing confidentiality, integrity, availability, and resilience of processing systems
+- **(c)** Ability to restore availability and access to personal data in a timely manner following an incident
+- **(d)** A process for regularly testing, assessing, and evaluating the effectiveness of security measures — a **mandatory legal obligation for all organisations**
 
-The security principle is directly linked to **Article 32** (security of processing), which requires a risk-based approach to security measures — the appropriate level of security depends on the risks to individuals from the processing.
+The standard is risk-based ("appropriate to the risk") — there are no prescribed measures. An information risk assessment is the mandatory first step. The ICO will take sector-specific compliance (e.g. PCI-DSS for card data) into account in enforcement, but it does not equal UK GDPR compliance. Processor contracts must require Art. 32 compliance and include audit rights. Staff training must cover criminal liability for deliberate unauthorised access or disclosure (DPA 2018 criminal offence).
+
+> **Scope boundary:** Breach notification obligations (Arts. 33–34) are covered in `[[uk-gdpr-personal-data-breaches]]`.
+
+See `[[uk-gdpr-security]]` for the full operational framework.
 
 ---
 
@@ -280,13 +292,14 @@ The accountability principle also means that the other principles are not merely
 ## Key Points for Agents
 
 - **All seven principles must be satisfied simultaneously.** No trade-off between them is permitted.
-- **Breach of Art. 5 = highest fine tier** (Art. 83(5)(a)): up to £17.5m or 4% annual worldwide turnover.
+- **Breach of Art. 5 = highest fine tier** (Art. 83(5)(a)): up to £17.5m or 4% annual worldwide turnover. The lower tier, Art. 83(4) (up to £8.7m/2%), applies to breach notification and processor obligation failures — see `[[uk-gdpr-personal-data-breaches]]`.
 - Principle (a) has **three separate sub-obligations**: lawfulness requires both a lawful basis (Art. 6) and general legality; fairness requires reasonable expectations analysis; transparency may require steps beyond Art. 13/14 minimum for invisible processing.
 - Principle (b) was **updated March 2026** for the DUA Act. Nine Annex 2 purposes are now automatically compatible with any original collection purpose. Reuse under consent is subject to a more restricted two-track framework than under other bases.
 - Principle (c): **both inadequate and excessive** data breach the principle. The firm must hold the right amount — enough, but not more.
 - Principle (d): "inaccurate" = incorrect or misleading **as to a matter of fact**. Historical records, error records, and opinions can all be accurate. Credit scores are statistical analysis, not opinion. Right to rectification is absolute for factually incorrect data.
 - Principle (e): **no prescribed periods**; firms justify their own. Pseudonymisation does not satisfy storage limitation. Archiving/research/statistics exception requires it to be the **sole** purpose.
-- Principle (f) and Accountability: both stub pages in ICO guidance — see ICO security guidance and ICO accountability and governance guidance for operational detail.
+- Principle (f): Art. 32 four-part framework — (a) encryption/pseudonymisation as examples not requirements; (b) CIA triad + resilience; (c) restore availability in timely manner; (d) **mandatory testing obligation** for all organisations. Risk-based standard — information risk assessment is the mandatory first step. See `[[uk-gdpr-security]]`. Breach notification (Arts. 33–34) in `[[uk-gdpr-personal-data-breaches]]`.
+- Accountability: stub page in ICO guidance — see ICO Accountability and Governance guidance (not yet ingested) for DPO, DPIA, RoPA, and data protection by design obligations.
 
 ## Related Articles
 
@@ -298,3 +311,6 @@ The accountability principle also means that the other principles are not merely
 - [[customer-due-diligence]]
 - [[uk-gdpr-individual-rights-overview]]
 - [[uk-gdpr-right-to-erasure]]
+- [[uk-gdpr-security]]
+- [[ico-guide-data-security]]
+- [[uk-gdpr-personal-data-breaches]]

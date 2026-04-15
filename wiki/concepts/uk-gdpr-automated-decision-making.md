@@ -18,6 +18,7 @@ related:
   - concepts/uk-gdpr-right-to-be-informed.md
   - concepts/vulnerable-customers.md
   - summaries/ico-guide-individual-rights.md
+  - concepts/uk-gdpr-security.md
 ---
 
 # UK GDPR — Automated Decision-Making and Profiling (Article 22)
@@ -148,3 +149,4 @@ As a model of best practice, the ICO recommends carrying out a DPIA before comme
 - [[uk-gdpr-right-to-be-informed]]
 - [[vulnerable-customers]]
 - [[ico-guide-individual-rights]]
+- [[uk-gdpr-security]]

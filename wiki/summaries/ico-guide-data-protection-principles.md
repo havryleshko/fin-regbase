@@ -23,6 +23,9 @@ related:
   - concepts/vulnerable-customers.md
   - concepts/aml-ctf-framework.md
   - summaries/ico-guide-individual-rights.md
+  - concepts/uk-gdpr-security.md
+  - summaries/ico-guide-data-security.md
+  - concepts/uk-gdpr-personal-data-breaches.md
 ---
 
 # ICO Guide to the Data Protection Principles
@@ -230,7 +233,7 @@ The accountability principle underpins all other principles — documentation, p
 
 ## Key Points for Agents
 
-- **Art. 83(5)(a) fines** apply to breaches of Art. 5 principles — up to £17.5m or 4% annual worldwide turnover, the highest tier.
+- **Art. 83(5)(a) fines** apply to breaches of Art. 5 principles — up to £17.5m or 4% annual worldwide turnover, the highest tier. The lower tier, Art. 83(4) (up to £8.7m/2%), applies to breach notification and processor obligation failures — see `[[uk-gdpr-personal-data-breaches]]`.
 - Principle (a) has **three separate obligations**: lawfulness (lawful basis + general legality), fairness (reasonable expectations, no unjustified adverse effects), and transparency (Art. 13/14 minimum + proportionate further steps for invisible processing).
 - Principle (b) was **updated 23 March 2026** to reflect DUA Act amendments. Nine Annex 2 purposes are now automatically compatible with any original collection purpose. The two-track reuse framework (consent vs. non-consent) governs when the firm may rely on these.
 - Principle (c) has a **ceiling and a floor**: data must be adequate (enough) but also limited (not too much). Both inadequacy and excess breach the principle.
@@ -246,3 +249,6 @@ The accountability principle underpins all other principles — documentation, p
 - [[vulnerable-customers]]
 - [[aml-ctf-framework]]
 - [[ico-guide-individual-rights]]
+- [[uk-gdpr-security]]
+- [[ico-guide-data-security]]
+- [[uk-gdpr-personal-data-breaches]]

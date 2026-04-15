@@ -27,6 +27,7 @@ related:
   - summaries/fca-cdd-findings-multi-firm-2026.md
   - concepts/uk-gdpr-right-to-erasure.md
   - concepts/uk-gdpr-subject-access.md
+  - concepts/uk-gdpr-personal-data-breaches.md
 ---
 
 # AML/CTF Regulatory Framework — Governance, MLRO, Risk Assessment, and SARs
@@ -250,3 +251,4 @@ These are complementary obligations, not contradictory frameworks.
 - [[uk-gdpr-data-protection-principles]]
 - [[uk-gdpr-right-to-erasure]]
 - [[uk-gdpr-subject-access]]
+- [[uk-gdpr-personal-data-breaches]]

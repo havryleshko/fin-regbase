@@ -77,9 +77,7 @@ Below is the starter schema. Evolve it as you develop the workflow.
 # fin-regbase Schema
 
 ## What this wiki is
-A knowledge base for financial regulations, structured for consumption by AI agents
-operating in fintech. Every article must be accurate, citation-backed, and structured
-for machine readability. Human curator: Alex Havryleshko. Quality standard: CISI-level
+A knowledge base for financial regulations, structured for consumption by AI agents operating in fintech. Every article must be accurate, citation-backed, and structured for machine readability. Human curator: Alex Havryleshko. Quality standard: CISI-level
 accuracy, FCA-grade citation discipline.
 
 ## Article format
