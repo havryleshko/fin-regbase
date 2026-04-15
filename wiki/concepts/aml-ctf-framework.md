@@ -28,6 +28,8 @@ related:
   - concepts/uk-gdpr-right-to-erasure.md
   - concepts/uk-gdpr-subject-access.md
   - concepts/uk-gdpr-personal-data-breaches.md
+  - concepts/smcr-senior-managers-regime.md
+  - concepts/smcr-conduct-rules.md
 ---
 
 # AML/CTF Regulatory Framework — Governance, MLRO, Risk Assessment, and SARs
@@ -234,6 +236,8 @@ These are complementary obligations, not contradictory frameworks.
 
 ## Related Articles
 
+- [[smcr-senior-managers-regime]]
+- [[smcr-conduct-rules]]
 - [[customer-due-diligence]]
 - [[sar-consent-tipping-off]]
 - [[simplified-due-diligence]]

@@ -16,6 +16,8 @@ related:
   - concepts/vulnerable-customers.md
   - summaries/ps22-9-policy-statement.md
   - derived/fca-consumer-duty-implementation-review-2024.md
+  - concepts/smcr-conduct-rules.md
+  - concepts/smcr-senior-managers-regime.md
 ---
 
 # FCA Consumer Duty — Consumer Principle (Principle 12)
@@ -71,6 +73,8 @@ This is a useful framing for compliance assessments and audit purposes.
 
 Under SM&CR, a new **Individual Conduct Rule 6** requires individuals at all levels to act to deliver good outcomes for retail customers where they carry out activities within scope of the Duty. **(PS22/9 §13.16–§13.22)** Senior managers are accountable for good consumer outcomes within their areas of responsibility.
 
+**Scope note:** SM&CR applies only to FSMA-authorised firms. Payment institutions and e-money institutions that are not otherwise FSMA-authorised are outside SM&CR scope — Conduct Rule 6 does not apply to their employees as a personal obligation. Those firms' Consumer Duty accountability operates at the firm and board level only. See [[smcr-conduct-rules]] and [[smcr-senior-managers-regime]].
+
 ## Key Points for Agents
 
 - Principle 12 states: firms must act to deliver good outcomes for retail customers. This is the single apex rule.
@@ -86,3 +90,5 @@ Under SM&CR, a new **Individual Conduct Rule 6** requires individuals at all lev
 - [[vulnerable-customers]]
 - [[ps22-9-policy-statement]]
 - [[fca-consumer-duty-implementation-review-2024]]
+- [[smcr-conduct-rules]]
+- [[smcr-senior-managers-regime]]

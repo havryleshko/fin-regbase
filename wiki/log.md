@@ -1033,3 +1033,65 @@ Known gaps (no new action — previously flagged):
 - ICO Controllers and Processors guidance — Art. 28 in full
 - DUA Act 2026 primary legislation
 - FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III, FATF, SM&CR/Conduct Rule 6 — pre-existing gaps
+
+## 2026-04-15 ingest | FCA Guide for Solo-Regulated Firms — SM&CR (Part One)
+
+Source: `raw/smcr/guide-for-fca-solo-regulated-firms.pdf` (FCA, July 2019, Part One §§1–12, pp. 5–52)
+Part Two (pp. 53–74) not ingested — historical APR conversion content with no current operational relevance.
+SM&CR replaced the APR for solo-regulated firms on **9 December 2019**.
+
+Pages created (4):
+- `wiki/summaries/fca-guide-solo-regulated-firms.md`
+- `wiki/concepts/smcr-senior-managers-regime.md`
+- `wiki/concepts/smcr-certification-regime.md`
+- `wiki/concepts/smcr-conduct-rules.md`
+
+Pages updated (5):
+- `wiki/derived/pi-emi-consumer-duty-and-sanctions-obligations.md` — corrected §2.3: removed incorrect statement that SM&CR Conduct Rule 6 applies to PI/EMI individuals; added explicit SM&CR scope note (FSMA-only; PIs/EMIs outside scope); added [[smcr-senior-managers-regime]] cross-ref
+- `wiki/concepts/consumer-principle.md` — added SM&CR PI/EMI scope note to Conduct Rule 6 section; added [[smcr-conduct-rules]] and [[smcr-senior-managers-regime]] to Related Articles
+- `wiki/concepts/aml-ctf-framework.md` — added [[smcr-senior-managers-regime]] and [[smcr-conduct-rules]] to Related Articles (MLRO = SMF17; PR(d) financial crime is a Core PR)
+- `wiki/concepts/prod-product-governance.md` — added [[smcr-senior-managers-regime]] to Related Articles (SM&CR personal liability referenced in Key Points)
+- `wiki/index.md` — added new UK — SM&CR section with 1 summary and 3 concept entries
+
+Notes:
+- **PI/EMI exclusion correction:** The `pi-emi-consumer-duty-and-sanctions-obligations.md` page incorrectly stated that SM&CR Conduct Rule 6 applies to PI/EMI staff. This has been corrected. SM&CR is FSMA-only — PIs and EMIs not otherwise FSMA-authorised have no SM&CR obligations. Consumer Duty governance obligations (PS22/9 §13) still apply to those firms at the firm/board level.
+- The SM&CR guide (July 2019) predates Consumer Duty (July 2022) — Conduct Rule 6 is not in the source document. It is documented in the concepts page with a clear post-publication note citing PS22/9 §§13.16–13.22.
+- No contradictions with existing wiki pages beyond the PI/EMI correction above. SM&CR was referenced in 10+ existing pages without backing content — all now have a target to link to.
+- The source guide does not cover the PRA's application of SM&CR to dual-regulated firms (banks, insurers) — that is a separate PRA Rulebook topic not ingested.
+
+Flagged for future ingest (updated list):
+- ICO Accountability and Governance guidance — DPO, DPIA (Art. 35), RoPA (Art. 30), Art. 25 — highest-priority remaining UK GDPR gap
+- ICO Controllers and Processors guidance — Art. 28 in full
+- DUA Act 2026 primary legislation
+- FCA Approach Document for Payment Services (already in raw/) — completes payment services section
+- FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III — pre-existing gaps
+
+## 2026-04-15 lint (pass 20)
+
+Scanned all 65 wiki pages (41 concepts, 18 summaries, 4 derived, index, log) including 4 SM&CR pages added earlier this session.
+
+**No contradictions.** No stale claims. No orphan pages. No PI/EMI SM&CR scope errors remaining.
+
+Issues found and fixed (6 total across 7 pages):
+
+| # | Priority | Type | Finding | Fix |
+|---|----------|------|---------|-----|
+| F1 | High | Frontmatter/body mismatch | `consumer-principle.md` — body Related Articles added [[smcr-conduct-rules]] and [[smcr-senior-managers-regime]] this session but frontmatter `related:` not updated to match | Added both to frontmatter `related:` |
+| F2 | High | Frontmatter/body mismatch | `aml-ctf-framework.md` — body Related Articles added [[smcr-senior-managers-regime]] and [[smcr-conduct-rules]] this session but frontmatter `related:` not updated | Added both to frontmatter `related:` |
+| F3 | High | Frontmatter/body mismatch | `prod-product-governance.md` — body Related Articles added [[smcr-senior-managers-regime]] this session but frontmatter `related:` not updated | Added to frontmatter `related:` |
+| F4 | High | Missing cross-reference | `ps22-9-policy-statement.md` — cites SM&CR Conduct Rule 6 (§13.12–§13.22) but had no SM&CR pages in frontmatter or Related Articles | Added `concepts/smcr-conduct-rules.md` and `concepts/smcr-senior-managers-regime.md` to both frontmatter and Related Articles |
+| F5 | High | Missing cross-reference | `mifid-ii-product-governance-review-2021.md` — cites SM&CR individual liability risk (SYSC 9.1.1R) but had no SM&CR pages in frontmatter or Related Articles | Added `concepts/smcr-senior-managers-regime.md` to both frontmatter and Related Articles |
+| F6 | Low | Ambiguous reference | `prod-product-governance.md` — RPPD referenced without clarifying its nature | Added parenthetical: "supplementary COBS-based guidance, not primary binding rules" |
+
+Post-fix inbound link counts for new SM&CR pages:
+- `smcr-senior-managers-regime`: 8 inbound links
+- `smcr-certification-regime`: 5 inbound links
+- `smcr-conduct-rules`: 6 inbound links
+- `fca-guide-solo-regulated-firms`: 6 inbound links
+
+Known gaps (no new action — previously flagged):
+- ICO Accountability and Governance guidance — DPO, DPIA (Art. 35), RoPA (Art. 30), Art. 25 — highest-priority remaining UK GDPR gap
+- ICO Controllers and Processors guidance — Art. 28 in full
+- DUA Act 2026 primary legislation
+- FCA Approach Document for Payment Services (already in raw/) — completes payment services section
+- FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III — pre-existing gaps

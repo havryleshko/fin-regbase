@@ -125,6 +125,24 @@ Claude Code reads this file first on every query to identify relevant pages.
 
 ---
 
+## UK — SM&CR (Senior Managers and Certification Regime)
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/fca-guide-solo-regulated-firms.md](summaries/fca-guide-solo-regulated-firms.md) | FCA guide for solo-regulated firms (July 2019, Part One): three tiers (Limited Scope/Core/Enhanced); SMFs by tier; Core and Enhanced PRs (tables); SoRs; Duty of Responsibility; 12-week rule; outsourcing accountability; Certification Functions (8); FIT test; criminal records check rules; regulatory references (6-year lookback, NDA prohibition, no time limit for serious misconduct); Conduct Rules (Individual 1–6; SC1–SC4); breach reporting (7-day SM; annual REP008); PI/EMI exclusion | 1 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/smcr-senior-managers-regime.md](concepts/smcr-senior-managers-regime.md) | SM&CR Senior Managers Regime: PI/EMI exclusion (FSMA-only scope); three tiers; SMFs by tier (6 Core, 3 Limited Scope, 17 Enhanced); SoRs; Duty of Responsibility (FSMA s.66A statutory defence); Core PRs (a/b/b-1/d/z); Enhanced PRs (12); Enhanced-only obligations (Overall Responsibility, Responsibilities Map SYSC 25, Handover Procedures); 12-week rule; outsourcing accountability; Head of Legal exclusion | 1 |
+| [concepts/smcr-certification-regime.md](concepts/smcr-certification-regime.md) | SM&CR Certification Regime: firm-issued annual certification (not FCA approval); 8 Certification Functions (CF29, proprietary traders, CASS Operational Oversight, qualification functions, client dealing, supervisors, Material Risk Takers, algorithmic trading); FIT test (honesty/integrity, competence, financial soundness); criminal records checks (mandatory SMs/NEDs, discretionary for Certification staff); regulatory references (6-year lookback; NDA prohibition; no time limit for serious misconduct) | 1 |
+| [concepts/smcr-conduct-rules.md](concepts/smcr-conduct-rules.md) | SM&CR Conduct Rules: Individual Rules 1–5 (integrity; due care; openness with regulators; customer interests; market conduct) + Rule 6 (Consumer Duty addition); Senior Manager Rules SC1–SC4 (effective control, regulatory compliance, appropriate delegation, FCA/PRA disclosure); ancillary staff exclusion; breach reporting (7 business days for SM; annual REP008 for all others) | 1 |
+
+---
+
 ## UK — MiFID II / PROD
 
 ### Summaries

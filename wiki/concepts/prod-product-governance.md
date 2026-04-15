@@ -19,6 +19,7 @@ related:
   - summaries/fca-costs-charges-disclosure-review-2019.md
   - concepts/payment-for-order-flow.md
   - summaries/fca-pfof-supervisory-report-2019.md
+  - concepts/smcr-senior-managers-regime.md
 ---
 
 # PROD 3 — Product Governance for Investment Manufacturers
@@ -32,7 +33,7 @@ For **Authorised Fund Managers (AFMs)**, PROD 3 applies as **guidance** rather t
 - **COLL** (Collective Investment Schemes Sourcebook) — fund management obligations
 - **The Principles** — particularly PRIN 6 (customer best interests), PRIN 7 (fair communications), PRIN 8 (conflicts of interest)
 
-Acting in line with PROD 3 enables AFMs to demonstrate compliance with these binding obligations. AFMs should also consider the **RPPD** (Responsibilities of Providers and Distributors for the Fair Treatment of Customers).
+Acting in line with PROD 3 enables AFMs to demonstrate compliance with these binding obligations. AFMs should also consider the **RPPD** (Responsibilities of Providers and Distributors for the Fair Treatment of Customers) — supplementary COBS-based guidance, not primary binding rules.
 
 **Consumer Duty interaction:** Firms that comply with PROD 3 satisfy the Consumer Duty Products & Services outcome — they are not subject to both regimes simultaneously. **(PS22/9 §6.5, §6.7)**
 
@@ -180,6 +181,7 @@ Training that does not adequately cover end-investor needs and outcomes is insuf
 
 ## Related Articles
 
+- [[smcr-senior-managers-regime]]
 - [[mifid-ii-product-governance-review-2021]]
 - [[consumer-duty-products-services]]
 - [[consumer-duty-price-value]]

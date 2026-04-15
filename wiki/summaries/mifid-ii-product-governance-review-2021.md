@@ -17,6 +17,7 @@ related:
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - summaries/fca-costs-charges-disclosure-review-2019.md
   - concepts/costs-charges-disclosure.md
+  - concepts/smcr-senior-managers-regime.md
 ---
 
 # MiFID II: Product Governance Review (February 2021)
@@ -89,3 +90,4 @@ Under Consumer Duty, firms complying with PROD 3 for investments satisfy the Pro
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[fca-costs-charges-disclosure-review-2019]]
 - [[costs-charges-disclosure]]
+- [[smcr-senior-managers-regime]]

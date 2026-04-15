@@ -102,7 +102,7 @@ PIs are supervised for AML/CTF by **HMRC**, not the FCA. FCG 3 (AML/CTF) is FCA 
 
 ### 2.3 Governance and Senior Management
 
-**Consumer Duty obligation (Governance):** Boards must assess and report annually on whether the firm is delivering good outcomes. A board-level Consumer Duty champion is expected. Under SM&CR Individual Conduct Rule 6, individuals must act to deliver good outcomes for retail customers. **(PS22/9 §13.12–§13.22)**
+**Consumer Duty obligation (Governance):** Boards must assess and report annually on whether the firm is delivering good outcomes. A board-level Consumer Duty champion is expected. **(PS22/9 §13.12–§13.22)** These are firm-level and board-level obligations that apply to PIs/EMIs directly. **Important scope note:** SM&CR applies only to FSMA-authorised firms. PIs and EMIs that are not otherwise FSMA-authorised are entirely outside SM&CR scope — the SM&CR Individual Conduct Rule 6 personal accountability mechanism (which makes Consumer Duty delivery a personal obligation on individuals at FSMA-authorised firms) does not apply to PI/EMI staff. Consumer Duty accountability for PIs/EMIs rests at the firm and board level under PS22/9 §13, not at individual employee level through Conduct Rules. See [[smcr-senior-managers-regime]] for the FSMA-only scope of SM&CR.
 
 **Sanctions obligation:** Senior management must take clear responsibility for sanctions risk, treated in the same manner as other business risks. A named individual of sufficient authority must be responsible for sanctions compliance. Evidence of senior management active engagement is required. **(FCG 7.2.1)**
 
@@ -177,6 +177,7 @@ This means the firm's compliance architecture must be designed so that:
 
 ## Related Articles
 
+- [[smcr-senior-managers-regime]]
 - [[uk-financial-sanctions-framework]]
 - [[sanctions-screening]]
 - [[asset-freezes-and-ofsi-licences]]
