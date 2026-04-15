@@ -29,7 +29,7 @@ Three operations defined in `CLAUDE.md`:
 
 ## What's in the Wiki
 
-**61 pages** across five regulatory domains. Current as of April 2026.
+**65 pages** across six regulatory domains. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -44,6 +44,7 @@ Source-level overviews with full citation trails.
 | `summaries/fctr8-sanctions-systems-controls-russia.md` | FCA thematic review: sanctions systems and controls post-Russia invasion |
 | `summaries/jmlsg-part-i-guidance.md` | JMLSG Part I (June 2023, updated Aug 2025) — risk-based approach, CDD, EDD, SDD, PEPs, SARs |
 | `summaries/fca-cdd-findings-multi-firm-2026.md` | FCA multi-firm CDD review 2026 — good/poor practice across onboarding, monitoring, and exit |
+| `summaries/fca-guide-solo-regulated-firms.md` | FCA SM&CR guide (Part One) — Core/Limited/Enhanced tiers, SMFs, prescribed responsibilities, PI/EMI scope exclusion |
 | `summaries/mifid-ii-product-governance-review-2021.md` | FCA PROD review 2021 — target market failures, distributor chain weaknesses |
 | `summaries/fca-costs-charges-disclosure-review-2019.md` | FCA asset manager costs/charges disclosure review — PRIIPs, MiFID II, RTS 28 |
 | `summaries/fca-pfof-supervisory-report-2019.md` | FCA PFOF supervisory report — conflicts of interest, best execution |
@@ -87,6 +88,14 @@ One page per regulatory concept, built from primary sources.
 | `concepts/sanctions-screening.md` | Name-matching logic, fuzzy matching thresholds, false positive management |
 | `concepts/asset-freezes-and-ofsi-licences.md` | Asset freeze obligations, OFSI licence categories, reporting obligations |
 | `concepts/proliferation-financing.md` | PF risk assessment requirements, FATF R.1 and R.15, UK MLRs 2017 reg. 33A |
+
+**SM&CR (FCA solo-regulated firms)**
+
+| Page | What it covers |
+|------|----------------|
+| `concepts/smcr-senior-managers-regime.md` | SMFs, Statement of Responsibilities, duty of responsibility, Core/Limited/Enhanced prescribed responsibilities |
+| `concepts/smcr-certification-regime.md` | Certification functions, annual FIT assessments, regulatory references, material risk-takers |
+| `concepts/smcr-conduct-rules.md` | COCON Individual and Senior Manager Conduct Rules, scope (incl. ancillary staff), breach reporting |
 
 **MiFID II / Investment Services**
 
@@ -144,12 +153,13 @@ fin-regbase/
 │   ├── fca-financial-crime/ # FCG 3, FCG 7, JMLSG Part I, thematic reviews
 │   ├── mifid/              # PROD review, costs/charges review, PFOF, suitability review
 │   ├── psr-payment-services/ # PSR approach document, payments portfolio Dear CEO
-│   └── uk-gdpr/            # ICO lawful basis guide, data protection principles
+│   ├── smcr/               # FCA SM&CR guide for solo-regulated firms
+│   └── uk-gdpr/            # ICO guides, data protection principles, security, breaches
 ├── wiki/
 │   ├── index.md            # Master index — start here for any query
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (37 pages)
-│   ├── summaries/          # Per-document summaries (20 pages)
+│   ├── concepts/           # Core regulatory concepts (40 pages)
+│   ├── summaries/          # Per-document summaries (21 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
 ├── agents/                 # Runtime query wrappers (v1: index.md reader)
 ├── design.md               # Architecture, philosophy, rollout plan
@@ -175,8 +185,8 @@ fin-regbase/
 | Phase | Scope |
 |-------|-------|
 | **v1 — done** | UK FCA Consumer Duty — fully linted, citation-accurate |
-| **v2 — done** | FCA Financial Crime (FCG, JMLSG, sanctions), MiFID II, PSR/E-Money, UK GDPR |
-| **v3 — current** | MCP server for native agent tool calls; FCA Handbook SYSC; FATF 40 Recommendations |
+| **v2 — done** | FCA Financial Crime (FCG, JMLSG, sanctions), MiFID II, PSR/E-Money, UK GDPR, SM&CR (solo-regulated guide) |
+| **v3 — current** | MCP server for native agent tool calls; deeper FCA Handbook (e.g. full SYSC); FATF 40 Recommendations |
 | **v4** | SEC Reg BI, FINRA rules, FinCEN AML programme requirements |
 
 ---
