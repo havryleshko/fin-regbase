@@ -29,7 +29,7 @@ Three operations defined in `CLAUDE.md`:
 
 ## What's in the Wiki
 
-**57 pages** across five regulatory domains. Current as of April 2026.
+**61 pages** across five regulatory domains. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -54,6 +54,8 @@ Source-level overviews with full citation trails.
 | `summaries/ico-guide-data-protection-principles.md` | ICO Guide to Data Protection Principles — all seven Art. 5 principles, DUA Act purpose limitation update |
 | `summaries/ico-guide-individual-rights.md` | ICO Guide to Individual Rights — all eight rights, Art. 12 request framework, Art. 22 automated decisions |
 | `summaries/ico-guide-subject-access.md` | ICO Guide to Subject Access — Art. 15 SAR; exemptions; excessive/manifestly unfounded requests; mixed data |
+| `summaries/ico-guide-data-security.md` | ICO Guide to Data Security — integrity/confidentiality controls, governance, technical and organisational measures |
+| `summaries/ico-guide-personal-data-breaches.md` | ICO Guide to Personal Data Breaches — breach definition, risk test, 72-hour reporting, affected individual notification |
 
 ### Concepts
 One page per regulatory concept, built from primary sources.
@@ -117,6 +119,8 @@ One page per regulatory concept, built from primary sources.
 | `concepts/uk-gdpr-right-to-erasure.md` | Art. 17 — six triggers; five exemptions; legal obligation protects CDD/AML records |
 | `concepts/uk-gdpr-right-to-be-informed.md` | Art. 13/14 — mandatory privacy notice content; timing rules; automated decision-making disclosure |
 | `concepts/uk-gdpr-subject-access.md` | Art. 15 SAR — scope; exemptions; mixed data; disproportionate effort; interaction with AML record retention |
+| `concepts/uk-gdpr-security.md` | Art. 5(1)(f) and Art. 32 — security controls, appropriate technical/organisational measures, accountability |
+| `concepts/uk-gdpr-personal-data-breaches.md` | Arts. 33/34 — personal data breach lifecycle, ICO notification threshold, data subject communication duties |
 
 ### Derived
 Synthesised answers, assessments, and reference tables filed from query sessions.
@@ -144,8 +148,8 @@ fin-regbase/
 ├── wiki/
 │   ├── index.md            # Master index — start here for any query
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (35 pages)
-│   ├── summaries/          # Per-document summaries (18 pages)
+│   ├── concepts/           # Core regulatory concepts (37 pages)
+│   ├── summaries/          # Per-document summaries (20 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
 ├── agents/                 # Runtime query wrappers (v1: index.md reader)
 ├── design.md               # Architecture, philosophy, rollout plan
