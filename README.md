@@ -29,7 +29,7 @@ Three operations defined in `CLAUDE.md`:
 
 ## What's in the Wiki
 
-**65 pages** across six regulatory domains. Current as of April 2026.
+**71 pages** across six regulatory domains. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -57,6 +57,7 @@ Source-level overviews with full citation trails.
 | `summaries/ico-guide-subject-access.md` | ICO Guide to Subject Access — Art. 15 SAR; exemptions; excessive/manifestly unfounded requests; mixed data |
 | `summaries/ico-guide-data-security.md` | ICO Guide to Data Security — integrity/confidentiality controls, governance, technical and organisational measures |
 | `summaries/ico-guide-personal-data-breaches.md` | ICO Guide to Personal Data Breaches — breach definition, risk test, 72-hour reporting, affected individual notification |
+| `summaries/ico-guide-accountability-governance.md` | ICO Guide to Accountability and Governance — Art. 5(2) accountability, governance controls, DPIAs, DPOs, records |
 
 ### Concepts
 One page per regulatory concept, built from primary sources.
@@ -130,6 +131,11 @@ One page per regulatory concept, built from primary sources.
 | `concepts/uk-gdpr-subject-access.md` | Art. 15 SAR — scope; exemptions; mixed data; disproportionate effort; interaction with AML record retention |
 | `concepts/uk-gdpr-security.md` | Art. 5(1)(f) and Art. 32 — security controls, appropriate technical/organisational measures, accountability |
 | `concepts/uk-gdpr-personal-data-breaches.md` | Arts. 33/34 — personal data breach lifecycle, ICO notification threshold, data subject communication duties |
+| `concepts/uk-gdpr-records-of-processing.md` | Art. 30 records of processing (ROPA) — minimum content, controller vs processor, group records |
+| `concepts/uk-gdpr-processor-contracts.md` | Art. 28 processor terms — mandatory clauses, sub-processors, audit rights, international transfers |
+| `concepts/uk-gdpr-data-protection-by-design.md` | Art. 25 data protection by design/default — minimisation defaults, access controls, lifecycle design |
+| `concepts/uk-gdpr-dpia.md` | Art. 35 DPIA — triggers, required content, risk mitigation, consultation where residual high risk |
+| `concepts/uk-gdpr-dpo.md` | Arts. 37–39 DPO — appointment triggers, independence, tasks, conflicts of interest |
 
 ### Derived
 Synthesised answers, assessments, and reference tables filed from query sessions.
@@ -158,8 +164,8 @@ fin-regbase/
 ├── wiki/
 │   ├── index.md            # Master index — start here for any query
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (40 pages)
-│   ├── summaries/          # Per-document summaries (21 pages)
+│   ├── concepts/           # Core regulatory concepts (45 pages)
+│   ├── summaries/          # Per-document summaries (22 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
 ├── agents/                 # Runtime query wrappers (v1: index.md reader)
 ├── design.md               # Architecture, philosophy, rollout plan
