@@ -147,6 +147,7 @@ As a model of best practice, the ICO recommends carrying out a DPIA before comme
 - [[uk-gdpr-data-protection-principles]]
 - [[uk-gdpr-right-to-object]]
 - [[uk-gdpr-right-to-be-informed]]
+- [[uk-gdpr-dpia]]
 - [[vulnerable-customers]]
 - [[ico-guide-individual-rights]]
 - [[uk-gdpr-security]]

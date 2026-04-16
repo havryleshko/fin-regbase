@@ -220,6 +220,7 @@ The following are not strict UK GDPR requirements but are operationally importan
 - [[uk-gdpr-security]]
 - [[ico-guide-data-security]]
 - [[uk-gdpr-data-protection-principles]]
+- [[uk-gdpr-processor-contracts]]
 - [[uk-gdpr-individual-rights-overview]]
 - [[uk-gdpr-subject-access]]
 - [[uk-gdpr-automated-decision-making]]

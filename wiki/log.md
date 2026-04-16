@@ -1095,3 +1095,51 @@ Known gaps (no new action — previously flagged):
 - DUA Act 2026 primary legislation
 - FCA Approach Document for Payment Services (already in raw/) — completes payment services section
 - FCA PEP Treatment Review (July 2024), FCTR 15, JMLSG Part III — pre-existing gaps
+
+## 2026-04-16 ingest | ICO Guide to Accountability and Governance
+
+Source: `raw/uk-gdpr/Guide to accountability and governance.md` (ICO guidance, top-level overview page; dedicated sub-pages not ingested)
+
+Note: This guidance is under review following the Data (Use and Access) Act 2025 (in force 19 June 2025). The DPbD sub-section was updated 5 February 2026; all other sections remain pending ICO update.
+
+Pages created (6):
+- `wiki/summaries/ico-guide-accountability-governance.md`
+- `wiki/concepts/uk-gdpr-data-protection-by-design.md` (Art. 25 — DPbD as legal requirement; updated Feb 2026 for DUAA)
+- `wiki/concepts/uk-gdpr-dpia.md` (Arts. 35–36 — when mandatory, minimum content, prior ICO consultation, dual function)
+- `wiki/concepts/uk-gdpr-dpo.md` (Arts. 37–39 — mandatory conditions, tasks, governance requirements, conflict of interest)
+- `wiki/concepts/uk-gdpr-records-of-processing.md` (Art. 30 RoPA — who must maintain, content, plus consent/breach/DPIA documentation obligations)
+- `wiki/concepts/uk-gdpr-processor-contracts.md` (Art. 28 — mandatory written contracts, eight minimum terms, sufficient guarantees, sub-processor rules)
+
+Pages updated (2):
+- `wiki/concepts/uk-gdpr-data-protection-principles.md` — accountability section expanded from stub to full cross-references; "not yet ingested" note removed
+- `wiki/summaries/ico-guide-data-protection-principles.md` — accountability section updated; cross-references to new pages added
+
+Contradictions with existing wiki:
+- No contradictions. `[[uk-gdpr-security]]` already covers Art. 28 processor security from a security angle; `[[uk-gdpr-processor-contracts]]` covers Art. 28 from a broader contractual/accountability angle. The two pages are complementary.
+- Art. 28 was previously described as "first Art. 28 content in wiki" in the security page index entry — that note remains accurate for security-angle content; this ingest adds the broader Art. 28 governance framework.
+
+Gaps remaining (sub-pages not ingested):
+- ICO DPbD detailed guidance (updated Feb 2026 for DUAA — highest priority)
+- ICO Documentation sub-page (exact Art. 30 RoPA content requirements)
+- ICO Contracts sub-page (full mandatory Art. 28 contractual terms)
+- ICO DPIAs sub-page (ICO's published list of always-require-DPIA processing operations)
+- ICO DPO sub-page (granular DPO obligations)
+- ICO Codes of Conduct and Certification sub-pages (not yet ingested)
+
+## 2026-04-16 lint
+
+Scope: all wiki pages (69 pages: 45 concepts, 17 summaries, 4 derived, index, log)
+
+Findings and fixes applied:
+
+| # | Type | Location | Finding | Fix |
+|---|------|----------|---------|-----|
+| 1 | Contradiction | 6 pages | "Data (Use and Access) Act 2026" — ICO source confirms correct name is "Data (Use and Access) Act 2025" (Royal Assent 19 June 2025) | Global replace across `uk-gdpr-lawful-basis.md`, `uk-gdpr-data-protection-principles.md`, `uk-gdpr-security.md`, `ico-guide-lawful-basis-2026.md`, `ico-guide-data-security.md`, `ico-guide-data-protection-principles.md` |
+| 2 | Stale claim | `summaries/ico-guide-data-security.md` line 27 | "covered in a separate ICO guide not yet ingested" — `ico-guide-personal-data-breaches.md` was ingested | Updated to `[[ico-guide-personal-data-breaches]]` |
+| 3 | Stale claim | `concepts/uk-gdpr-security.md` line 158 | "dedicated controller/processor concept page should be created" — `uk-gdpr-processor-contracts.md` now exists | Updated to cross-reference `[[uk-gdpr-processor-contracts]]` |
+| 4 | Missing cross-ref | `concepts/uk-gdpr-automated-decision-making.md` | DPIA mentioned as mandatory for Art. 22 with no `[[uk-gdpr-dpia]]` wikilink | Added to Related Articles |
+| 5 | Missing cross-ref | `concepts/uk-gdpr-security.md` | Art. 28 processor security covered, no `[[uk-gdpr-processor-contracts]]` link | Added to Related Articles |
+| 6 | Missing cross-ref | `concepts/uk-gdpr-personal-data-breaches.md` | Art. 28 written contract mentioned, no `[[uk-gdpr-processor-contracts]]` link | Added to Related Articles |
+| 7 | Missing cross-ref | `concepts/uk-gdpr-lawful-basis.md` | Consent records and documentation obligations mentioned, no `[[uk-gdpr-records-of-processing]]` link | Added to Related Articles |
+
+No orphan pages. No concepts mentioned without a dedicated page.

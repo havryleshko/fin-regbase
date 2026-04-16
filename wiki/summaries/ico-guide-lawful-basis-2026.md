@@ -2,7 +2,7 @@
 title: "ICO Guide to Lawful Basis (Updated April 2026)"
 jurisdiction: UK
 regulator: ICO
-regulation: UK GDPR Art. 6; DPA 2018 s.7; Data (Use and Access) Act 2026
+regulation: UK GDPR Art. 6; DPA 2018 s.7; Data (Use and Access) Act 2025
 status: current
 effective_date: 2026-04-02
 last_updated: 2026-04-14
@@ -24,7 +24,7 @@ related:
 >
 > This source is **ICO guidance** — an authoritative interpretation of the UK GDPR and DPA 2018 published by the supervisory authority, not primary legislation or a court ruling. The ICO's guidance represents the ICO's view of how the law should be applied and is accorded significant weight in enforcement and litigation. However, it is not itself law. Where this page cites "the ICO's position," this means the ICO's stated interpretation, which courts may accept or may develop further. This differs from citations to FCA sourcebook rules (binding on FCA-authorised firms), primary legislation (UK GDPR, DPA 2018, DUA Act), and FCA Dear CEO letters in the rest of this wiki.
 >
-> The April 2026 update incorporated amendments introduced by the **Data (Use and Access) Act 2026 (DUA Act)**, which added a seventh lawful basis — **recognised legitimate interest (Article 6(ea))** — and made other amendments to the UK GDPR. The DUA Act has not yet been separately ingested into this wiki.
+> The April 2026 update incorporated amendments introduced by the **Data (Use and Access) Act 2025 (DUA Act)**, which added a seventh lawful basis — **recognised legitimate interest (Article 6(ea))** — and made other amendments to the UK GDPR. The DUA Act has not yet been separately ingested into this wiki.
 
 ---
 

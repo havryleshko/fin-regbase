@@ -25,7 +25,7 @@ related:
 
 The UK GDPR's security obligations are set out across two articles. **Article 5(1)(f)** states the high-level security principle: personal data must be processed using appropriate technical and organisational measures to ensure security, including protection against unauthorised or unlawful processing and against accidental loss, destruction, or damage. **Article 32** provides the operational framework — four specific sub-obligations, a risk-based standard for determining what is "appropriate," and additional obligations for processors.
 
-> **DUA Act note:** The ICO's security guidance was under review following the Data (Use and Access) Act 2026 coming into force on 19 June 2025. Substantive changes are possible; verify against current ICO guidance before operational use.
+> **DUA Act note:** The ICO's security guidance was under review following the Data (Use and Access) Act 2025 coming into force on 19 June 2025. Substantive changes are possible; verify against current ICO guidance before operational use.
 
 > **Scope boundary:** This page covers security obligations under Arts. 5(1)(f) and 32. Personal data breach notification (Arts. 33–34) is covered in `[[uk-gdpr-personal-data-breaches]]`.
 
@@ -155,7 +155,7 @@ The controller must:
 
 **Processors can assist controllers in meeting security obligations:** Engaging a processor with specialist security capabilities can contribute to the controller's own Art. 32 compliance — provided the contractual arrangements are appropriate.
 
-**Note:** This is the first Art. 28 (controller/processor) substantive content in the wiki. A dedicated controller/processor concept page should be created when the ICO's "Controllers and Processors" guidance is ingested.
+**Note:** This section covers Art. 28 from a security angle only. The full Art. 28 contractual framework — mandatory minimum terms, sufficient guarantees, sub-processor rules — is covered in `[[uk-gdpr-processor-contracts]]`.
 
 ---
 
@@ -198,6 +198,7 @@ Training is only effective if those delivering it are themselves reliable and kn
 - [[ico-guide-personal-data-breaches]]
 - [[uk-gdpr-data-protection-principles]]
 - [[ico-guide-data-protection-principles]]
+- [[uk-gdpr-processor-contracts]]
 - [[uk-gdpr-lawful-basis]]
 - [[uk-gdpr-automated-decision-making]]
 - [[customer-due-diligence]]

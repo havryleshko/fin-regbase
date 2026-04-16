@@ -2,7 +2,7 @@
 title: "ICO Guide to the Data Protection Principles"
 jurisdiction: UK
 regulator: ICO
-regulation: UK GDPR Art. 5; DPA 2018; Data (Use and Access) Act 2026
+regulation: UK GDPR Art. 5; DPA 2018; Data (Use and Access) Act 2025
 status: current
 effective_date: 2018-05-25
 last_updated: 2026-04-14
@@ -34,7 +34,7 @@ related:
 >
 > This source is **ICO guidance** — the supervisory authority's authoritative interpretation of UK GDPR Article 5, not primary legislation or a court ruling. It carries significant weight in enforcement and litigation but is not itself law. This differs from citations to FCA sourcebook rules (binding on FCA-authorised firms) elsewhere in this wiki.
 >
-> **DUA Act review status:** All principle pages were marked "under review and may be subject to change" as of April 2026 following the Data (Use and Access) Act 2026 coming into law on 19 June 2025. The **Principle (b): Purpose limitation** page has been substantively updated (23 March 2026) to reflect DUA Act amendments; all other principle pages remain pending update.
+> **DUA Act review status:** All principle pages were marked "under review and may be subject to change" as of April 2026 following the Data (Use and Access) Act 2025 coming into law on 19 June 2025. The **Principle (b): Purpose limitation** page has been substantively updated (23 March 2026) to reflect DUA Act amendments; all other principle pages remain pending update.
 
 ---
 
@@ -225,7 +225,7 @@ Firms must ensure **appropriate security measures** are in place to protect pers
 
 Firms must **take responsibility** for what they do with personal data and how they comply with the other principles. Appropriate measures and records must be in place to **demonstrate** compliance.
 
-> This ICO page is a one-paragraph stub pointing to the ICO's separate Accountability and Governance guidance.
+The ICO's principles page is a stub pointing to the dedicated Accountability and Governance guidance, now ingested. The eight accountability measures are: data protection policies, DPbD (Art. 25), processor contracts (Art. 28), RoPA (Art. 30), security (Art. 32), breach documentation (Arts. 33–34), DPIAs (Arts. 35–36), and DPO (Arts. 37–39). See `[[ico-guide-accountability-governance]]` and the linked concept pages.
 
 The accountability principle underpins all other principles — documentation, policies, processes, and evidence of compliance are required not merely as a side effect but as a standalone obligation.
 
@@ -244,6 +244,7 @@ The accountability principle underpins all other principles — documentation, p
 ## Related Articles
 
 - [[uk-gdpr-data-protection-principles]]
+- [[ico-guide-accountability-governance]]
 - [[uk-gdpr-lawful-basis]]
 - [[ico-guide-lawful-basis-2026]]
 - [[vulnerable-customers]]
@@ -252,3 +253,8 @@ The accountability principle underpins all other principles — documentation, p
 - [[uk-gdpr-security]]
 - [[ico-guide-data-security]]
 - [[uk-gdpr-personal-data-breaches]]
+- [[uk-gdpr-data-protection-by-design]]
+- [[uk-gdpr-dpia]]
+- [[uk-gdpr-dpo]]
+- [[uk-gdpr-records-of-processing]]
+- [[uk-gdpr-processor-contracts]]

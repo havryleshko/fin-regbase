@@ -2,7 +2,7 @@
 title: "UK GDPR — Lawful Basis for Processing (Article 6)"
 jurisdiction: UK
 regulator: ICO
-regulation: UK GDPR Art. 6; Art. 9; Art. 10; DPA 2018; Data (Use and Access) Act 2026
+regulation: UK GDPR Art. 6; Art. 9; Art. 10; DPA 2018; Data (Use and Access) Act 2025
 status: current
 effective_date: 2018-05-25
 last_updated: 2026-04-14
@@ -40,7 +40,7 @@ The basis must be:
 
 ## The Seven Lawful Bases
 
-Article 6 provides seven bases (as amended by the Data (Use and Access) Act 2026, which added Article 6(ea)):
+Article 6 provides seven bases (as amended by the Data (Use and Access) Act 2025, which added Article 6(ea)):
 
 ### (a) Consent
 The data subject has given clear, specific, informed and unambiguous consent for processing for a specific purpose.
@@ -65,7 +65,7 @@ Processing is necessary to protect someone's life — typically emergency medica
 ### (e) Public task
 Processing is necessary for a task in the public interest or for official functions, with a clear basis in law. Primary basis for public authorities.
 
-### (ea) Recognised legitimate interest *(introduced by the Data (Use and Access) Act 2026)*
+### (ea) Recognised legitimate interest *(introduced by the Data (Use and Access) Act 2025)*
 Processing is necessary for one of five pre-approved purposes. Unlike legitimate interests (f), **no balancing test is required** — the ICO considers the balance has been struck in advance by Parliament.
 
 The five pre-approved purposes:
@@ -218,6 +218,7 @@ Both must be documented. AML/CTF processing of PEP data or adverse criminal medi
 
 - [[ico-guide-lawful-basis-2026]]
 - [[uk-gdpr-data-protection-principles]]
+- [[uk-gdpr-records-of-processing]]
 - [[vulnerable-customers]]
 - [[vulnerability-drivers-and-taxonomy]]
 - [[aml-ctf-framework]]
