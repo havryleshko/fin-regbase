@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "fin-regbase": {
+      "command": "/Users/ohavryleshko/.local/bin/uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/ohavryleshko/Documents/GitHub/fin-regbase/mcp-server",
+        "/Users/ohavryleshko/Documents/GitHub/fin-regbase/mcp-server/server.py"
+      ]
+    }
+  }
+}

@@ -52,11 +52,20 @@ A single source may touch 5–15 wiki pages. That is expected and correct.
 
 ### Query
 When I ask a compliance question:
-1. Read wiki/index.md to find relevant pages.
-2. Read those pages in full.
-3. Synthesise an answer with inline citations.
-4. Ask me: "Should I file this answer as a wiki page in wiki/derived/?"
+1. Call `search_regulations` (MCP) with relevant keywords and tag filters to find candidate pages.
+2. Call `get_page` (MCP) on the top results to retrieve full content and key points.
+3. If a result has useful related pages, call `get_related` (MCP) to traverse the wiki graph.
+4. Synthesise an answer with inline citations.
+5. Ask me: "Should I file this answer as a wiki page in wiki/derived/?"
 Good answers about complex questions should almost always be filed.
+
+**MCP tools available (fin-regbase server):**
+- `search_regulations(query, tags, jurisdiction, limit)` — BM25 search, returns key points + metadata
+- `get_page(path)` — full content of a specific page
+- `list_pages(tags, regulator, jurisdiction, status)` — filtered catalogue
+- `get_related(path)` — related pages from frontmatter graph
+
+Direct file reads (`wiki/index.md`, individual pages) are the fallback if the MCP server is unavailable.
 
 ### Lint
 When I say "run lint":

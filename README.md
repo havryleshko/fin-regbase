@@ -160,6 +160,7 @@ Synthesised answers, assessments, and reference tables filed from query sessions
 ```
 fin-regbase/
 ├── CLAUDE.md               # Schema + workflow for the AI curator (the critical file)
+├── .mcp.json               # Local MCP server config (Cursor)
 ├── raw/                    # Immutable source documents — never edit manually
 │   ├── fca-consumer-duty/  # PS22/9, FG22/5, FG21/1, Dear CEO letter
 │   ├── fca-financial-crime/ # FCG 3, FCG 7, JMLSG Part I, thematic reviews
@@ -173,8 +174,10 @@ fin-regbase/
 │   ├── concepts/           # Core regulatory concepts (50 pages)
 │   ├── summaries/          # Per-document summaries (23 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
-├── agents/                 # Runtime query wrappers (v1: index.md reader)
+├── agents/                 # Runtime query wrappers/clients
+├── mcp-server/             # MCP server implementation (tooling for wiki access)
 ├── design.md               # Architecture, philosophy, rollout plan
+├── mcp-design.md           # MCP architecture and rollout notes
 └── README.md
 ```
 
@@ -198,7 +201,7 @@ fin-regbase/
 |-------|-------|
 | **v1 — done** | UK FCA Consumer Duty — fully linted, citation-accurate |
 | **v2 — done** | FCA Financial Crime (FCG, JMLSG, sanctions), MiFID II, PSR/E-Money, UK GDPR, SM&CR (solo-regulated guide) |
-| **v3 — current** | MCP server for native agent tool calls; deeper FCA Handbook (e.g. full SYSC); FATF 40 Recommendations |
+| **v3 — current** | MCP server for native agent tool calls (implemented); deeper FCA Handbook (e.g. full SYSC); FATF 40 Recommendations |
 | **v4** | SEC Reg BI, FINRA rules, FinCEN AML programme requirements |
 
 ---
