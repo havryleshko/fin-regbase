@@ -1143,3 +1143,52 @@ Findings and fixes applied:
 | 7 | Missing cross-ref | `concepts/uk-gdpr-lawful-basis.md` | Consent records and documentation obligations mentioned, no `[[uk-gdpr-records-of-processing]]` link | Added to Related Articles |
 
 No orphan pages. No concepts mentioned without a dedicated page.
+
+## 2026-04-16 ingest | FCA Approach Document — Payment Services and Electronic Money (v7, March 2026)
+
+Source: `raw/psr-payment-services/payment-services-electronic-money-approach.pdf` (FCA guidance, version 7, March 2026, 296 pages)
+
+Chapters read: 3 (authorisation — context only), 8 (conduct), 9 (capital), 10 (safeguarding), 13 (reporting), 17 (PISP/AISP/open banking), 18 (operational and security risk), 20 (SCA/authentication). Chapters skipped: 6, 7, 11, 12, 14, 15, 16, 19 (financial crime — already in wiki).
+
+Pages created (6):
+- `wiki/summaries/fca-approach-payment-services-electronic-money.md` — master summary across all chapters
+- `wiki/concepts/psr-sca-authentication.md` — SCA three-factor requirement, dynamic linking, 9 SCA-RTS exemptions (Arts. 10–18), TRA fraud rate thresholds, monitoring obligations
+- `wiki/concepts/psr-regulatory-reporting.md` — 10+ mandatory forms (FSA056, REP017, REP018, REP020, DISP 1AD, REP-CRIM); event notifications NOT002–005; major incident 4-hour rule
+- `wiki/concepts/psr-open-banking-pisp-aisp.md` — ASPSP non-discrimination, dedicated interface, contingency mechanism, exemption criteria (Art. 33(6)), AISP 90-day consent, PISP restrictions, sensitive payment data, NOT003/NOT005
+- `wiki/concepts/psr-unauthorised-transaction-liability.md` — immediate refund, £35 cap, fraud delay mechanism (reg 86(2A)–(2D)), burden of proof, PISP liability chain, SCA liability shift
+- `wiki/concepts/psr-capital-requirements.md` — initial capital (PI €20k/€50k/€125k; EMI €350k); Methods A/B/C (PIs), Method D (EMIs); FCA ±20% adjustment; CET1/AT1/T2
+
+Pages updated (2):
+- `wiki/concepts/safeguarding-pis-emis.md` — added: obligation on receipt, named segregation account requirements (no competing interests, no sharing, acknowledgement letter full terms), secure liquid assets, PESAR, asset pool insolvency priority, FCA NOT002 notification obligation
+- `wiki/concepts/psr-emi-prudential.md` — added cross-reference to new `psr-capital-requirements` page; updated related articles
+
+Contradictions with existing wiki:
+- None. The existing `safeguarding-pis-emis.md` was consistent with Ch 10 — this ingest adds detail not previously captured. The existing `psr-emi-prudential.md` referenced capital methods without specifics — this ingest adds the dedicated `psr-capital-requirements.md` page and cross-links.
+
+Known gaps not yet ingested:
+- FCA PEP Treatment Review (July 2024) — PEP-specific guidance
+- JMLSG Part III — sector-specific guidance for payment institutions
+- FCTR 15 — thematic review referenced in financial crime materials
+- SCA-RTS primary text — Approach Document Ch. 20 is interpretive guidance; the SCA-RTS itself is not yet ingested as a source
+
+## 2026-04-17 lint
+
+Scope: full wiki — all 76 pages (50 concepts, 22 summaries, 4 derived).
+
+Findings summary:
+
+| # | Priority | Issue | File(s) | Action |
+|---|----------|-------|---------|--------|
+| 1 | HIGH | Stale claim: DUA Act described as "currently progressing through Parliament" — in force since 19 June 2025 | `summaries/ico-guide-individual-rights.md` | Fixed — updated to reflect Royal Assent date and ICO review status |
+| 2 | HIGH | 6 UK GDPR concept pages cite Article numbers only — no ICO guidance section citations in `(Source §X.Y)` format | `concepts/uk-gdpr-security.md` and 5 others (uk-gdpr-data-protection-by-design, uk-gdpr-dpo, uk-gdpr-dpia, uk-gdpr-processor-contracts, uk-gdpr-records-of-processing) | Deferred — root cause is ICO accountability/governance sub-pages not yet individually ingested. Fix requires ingest of ICO sub-pages to obtain section-level citations |
+| 3 | MEDIUM | Frontmatter/body mismatch: `[[uk-gdpr-processor-contracts]]` in body but absent from `related:` frontmatter | `concepts/uk-gdpr-security.md` | Fixed — added to `related:` frontmatter |
+| 4 | MEDIUM | `status: current` with `effective_date: 2026-08-04` (future) — document not yet published | `summaries/fca-cdd-findings-multi-firm-2026.md` | Fixed — changed to `status: pending` |
+| 5 | MEDIUM | Consumer Duty discussed at length but no links to Consumer Duty concept pages | `concepts/psr-sca-authentication.md` | Fixed — added `consumer-duty-overview` and `consumer-duty-consumer-support` to `related:` and Related Articles |
+| 6 | LOW | Consumer Duty "Relationship to Consumer Duty" section but no direct links to Consumer Duty concept pages | `concepts/agent-distributor-oversight.md` | Fixed — added `consumer-duty-overview` and `consumer-duty-products-services` to `related:` and Related Articles |
+| 7 | LOW | PEPs lack a dedicated concept page (discussed across 6 pages; domestic PEP regime change Jan 2024; FCA PEP review not yet ingested) | Wiki-wide | Deferred — requires ingest of FCA PEP Treatment Review (July 2024) |
+| 8 | LOW | Financial Promotions, AML Record Keeping, International Data Transfers, Best Execution lack dedicated pages | Wiki-wide | Deferred — noted for future ingest planning |
+| 9 | LOW | ICO "under review" notices (4 pages) pending DUA Act guidance updates | Multiple ICO pages | Monitor — no action until ICO publishes updates |
+
+All clear: no broken wikilinks, no orphan pages, no contradictions, no index coverage gaps, all pages have Key Points for Agents and Related Articles.
+
+Fixes applied: 5 pages updated (items 1, 3, 4, 5, 6). 4 items deferred (items 2, 7, 8, 9).

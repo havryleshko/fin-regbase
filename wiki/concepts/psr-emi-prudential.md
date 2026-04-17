@@ -13,7 +13,9 @@ sources:
 tags: [prudential, capital, liquidity, stress-testing, payment-institutions, EMI, PSR, financial-resilience, UK, FCA]
 related:
   - concepts/safeguarding-pis-emis.md
+  - concepts/psr-capital-requirements.md
   - concepts/wind-down-planning.md
+  - summaries/fca-approach-payment-services-electronic-money.md
   - summaries/dear-ceo-letter-payments-portfolio-2023.md
   - derived/pi-emi-consumer-duty-and-sanctions-obligations.md
   - concepts/operational-resilience.md
@@ -33,12 +35,14 @@ Guidance is available in:
 
 ## Capital Requirements
 
+> **Detailed capital framework:** Initial capital thresholds, Method A/B/C/D calculations, FCA ±20% adjustment power, and own funds (CET1/AT1/T2) composition are covered in full in [[psr-capital-requirements]]. This section addresses the prudential risk management perspective — the obligation to assess whether minimum capital is *adequate*, not merely met.
+
 ### Regulatory Capital Minimum
 
 PIs and EMIs must meet their regulatory capital requirement at all times. The method and amount depend on the type of firm and the payment services or e-money activities it carries out:
 
 - **PIs:** Capital requirements are calculated under one of three methods set out in the PSRs (Method A, B, or C) based on fixed amounts, overheads, or payment volumes. The applicable method depends on the payment services the firm is authorised to provide.
-- **EMIs:** Capital requirements are calculated on the basis of average outstanding e-money and fixed minimum requirements under the EMRs.
+- **EMIs:** Capital requirements are calculated on the basis of average outstanding e-money and fixed minimum requirements under the EMRs (Method D: 2% of average outstanding e-money).
 
 Meeting the **minimum** regulatory capital requirement is necessary but not sufficient.
 
@@ -134,7 +138,9 @@ FCA Finalised Guidance FG20/1 ("Assessing the adequacy of financial resources") 
 ## Related Articles
 
 - [[safeguarding-pis-emis]]
+- [[psr-capital-requirements]]
 - [[wind-down-planning]]
+- [[fca-approach-payment-services-electronic-money]]
 - [[dear-ceo-letter-payments-portfolio-2023]]
 - [[pi-emi-consumer-duty-and-sanctions-obligations]]
 - [[operational-resilience]]

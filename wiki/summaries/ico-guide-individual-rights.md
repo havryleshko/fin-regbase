@@ -31,7 +31,7 @@ related:
 
 The ICO Guide to Individual Rights (v0.0.2, 19 May 2023) is the ICO's operational guidance covering all eight data subject rights under UK GDPR Articles 12–22. Each right is covered in a separate chapter containing an "at a glance" summary, compliance checklists, and narrative guidance.
 
-The guidance predates the Data Use and Access Act (DUA Act), which is currently progressing through Parliament. It will be updated when the DUA Act receives Royal Assent.
+The guidance predates the Data Use and Access Act (DUA Act 2025), which received Royal Assent and came into force on **19 June 2025**. The ICO has not yet updated this guidance to reflect DUA Act changes. Treat this summary as reflecting the pre-DUA Act position; verify against current ICO guidance for any DUA Act amendments.
 
 ICO guidance is not primary legislation but carries significant enforcement weight. The ICO may use it to assess whether a firm reasonably understood its obligations when deciding whether to take regulatory action.
 

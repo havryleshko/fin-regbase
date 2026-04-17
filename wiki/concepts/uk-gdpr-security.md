@@ -17,6 +17,7 @@ related:
   - summaries/ico-guide-data-protection-principles.md
   - concepts/uk-gdpr-lawful-basis.md
   - concepts/uk-gdpr-automated-decision-making.md
+  - concepts/uk-gdpr-processor-contracts.md
   - concepts/customer-due-diligence.md
   - concepts/aml-ctf-framework.md
 ---

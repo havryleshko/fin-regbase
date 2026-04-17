@@ -3,7 +3,7 @@ title: "FCA Multi-Firm Review — Firms' CDD Processes and Controls: Our Finding
 jurisdiction: UK
 regulator: FCA
 regulation: Money Laundering Regulations 2017; SYSC 6.3
-status: current
+status: pending
 effective_date: 2026-08-04
 last_updated: 2026-04-13
 sources:

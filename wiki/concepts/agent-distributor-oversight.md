@@ -16,6 +16,8 @@ related:
   - concepts/operational-resilience.md
   - summaries/dear-ceo-letter-payments-portfolio-2023.md
   - derived/pi-emi-consumer-duty-and-sanctions-obligations.md
+  - concepts/consumer-duty-overview.md
+  - concepts/consumer-duty-products-services.md
 ---
 
 # Agent and Distributor Oversight — Payment Institutions and E-Money Institutions
@@ -135,3 +137,5 @@ Where agents or distributors interact with retail customers, those interactions 
 - [[operational-resilience]]
 - [[dear-ceo-letter-payments-portfolio-2023]]
 - [[pi-emi-consumer-duty-and-sanctions-obligations]]
+- [[consumer-duty-overview]]
+- [[consumer-duty-products-services]]

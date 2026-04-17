@@ -29,7 +29,7 @@ Three operations defined in `CLAUDE.md`:
 
 ## What's in the Wiki
 
-**71 pages** across six regulatory domains. Current as of April 2026.
+**77 pages** across six regulatory domains. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -51,6 +51,7 @@ Source-level overviews with full citation trails.
 | `summaries/fca-assessing-suitability-review-2017.md` | FCA suitability review — risk profiling, know your client, adviser process |
 | `summaries/dear-ceo-letter-wealth-stockbroking-2023.md` | Dear CEO — FCA expectations for wealth management and stockbroking firms |
 | `summaries/dear-ceo-letter-payments-portfolio-2023.md` | Dear CEO — FCA priorities for payments portfolio firms (safeguarding, wind-down, Consumer Duty) |
+| `summaries/fca-approach-payment-services-electronic-money.md` | FCA Approach Document for payment services/e-money — safeguarding, SCA, reporting, open banking and liability framework |
 | `summaries/ico-guide-lawful-basis-2026.md` | ICO Guide to Lawful Basis — seven Article 6 bases post-DUA Act 2026, recognised legitimate interest |
 | `summaries/ico-guide-data-protection-principles.md` | ICO Guide to Data Protection Principles — all seven Art. 5 principles, DUA Act purpose limitation update |
 | `summaries/ico-guide-individual-rights.md` | ICO Guide to Individual Rights — all eight rights, Art. 12 request framework, Art. 22 automated decisions |
@@ -116,6 +117,11 @@ One page per regulatory concept, built from primary sources.
 | `concepts/wind-down-planning.md` | Wind-down plan obligations, trigger events, run-off costs, FCA expectations |
 | `concepts/agent-distributor-oversight.md` | Agent FCA registration obligations; distributor oversight; ongoing monitoring |
 | `concepts/operational-resilience.md` | Important business services, impact tolerances, self-assessment, Annex A |
+| `concepts/psr-capital-requirements.md` | PSR/EMR capital framework — initial and ongoing own funds methods, monitoring and governance |
+| `concepts/psr-sca-authentication.md` | Strong customer authentication — exemptions, dynamic linking, liability implications |
+| `concepts/psr-open-banking-pisp-aisp.md` | Open banking roles and obligations for ASPSPs, PISPs and AISPs |
+| `concepts/psr-unauthorised-transaction-liability.md` | Liability allocation and refund timelines for unauthorised or incorrectly executed transactions |
+| `concepts/psr-regulatory-reporting.md` | PSR/EMR reporting and notifications — periodic returns, incident and prudential reporting |
 
 **UK GDPR / Data Protection**
 
@@ -164,8 +170,8 @@ fin-regbase/
 ├── wiki/
 │   ├── index.md            # Master index — start here for any query
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (45 pages)
-│   ├── summaries/          # Per-document summaries (22 pages)
+│   ├── concepts/           # Core regulatory concepts (50 pages)
+│   ├── summaries/          # Per-document summaries (23 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
 ├── agents/                 # Runtime query wrappers (v1: index.md reader)
 ├── design.md               # Architecture, philosophy, rollout plan
