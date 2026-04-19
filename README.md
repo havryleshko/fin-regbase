@@ -4,7 +4,7 @@
 
 Fintech AI agents that touch compliance — Consumer Duty outcome testing, AML/KYC, credit decisioning — have to reason over regulations they don't reliably know. The default is RAG: retrieve chunks at query time, re-derive the same synthesis on every call.
 
-In `fin-regbase` regulations are compiled **once** into structured, citation-backed, interlinked Markdown articles and kept current (using obsidian). Agents read from the wiki at runtime. The LLM maintains it. The human curator reviews, essentially quality-gates
+In `fin-regbase` regulations are compiled **once** into structured, citation-backed, interlinked Markdown articles and kept current in Obsidian. Agents read from the wiki at runtime. The LLM maintains it; the human curator reviews and quality-gates accuracy.
 
 Inspired by [Andrej Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
 
@@ -22,14 +22,14 @@ Inspired by [Andrej Karpathy's LLM Wiki pattern](https://gist.github.com/karpath
 Three operations defined in `CLAUDE.md`:
 
 - **Ingest** — drop a source into `raw/`, discuss key takeaways, produce summary + concept pages
-- **Query** — ask a compliance question, get a cited answer, file it to `wiki/derived/`
+- **Query** — ask a compliance question, get a cited answer (prefer MCP `search_regulations` / `get_page` per `CLAUDE.md`), optionally file it to `wiki/derived/`
 - **Lint** — scan for contradictions, stale claims, orphan pages, missing cross-references
 
 ---
 
 ## What's in the Wiki
 
-**77 pages** across six regulatory domains. Current as of April 2026.
+**88 articles** (56 concepts, 28 summaries, 4 derived) across seven regulatory domains, plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -59,6 +59,11 @@ Source-level overviews with full citation trails.
 | `summaries/ico-guide-data-security.md` | ICO Guide to Data Security — integrity/confidentiality controls, governance, technical and organisational measures |
 | `summaries/ico-guide-personal-data-breaches.md` | ICO Guide to Personal Data Breaches — breach definition, risk test, 72-hour reporting, affected individual notification |
 | `summaries/ico-guide-accountability-governance.md` | ICO Guide to Accountability and Governance — Art. 5(2) accountability, governance controls, DPIAs, DPOs, records |
+| `summaries/conc1-application-purpose.md` | CONC 1 — scope (10 credit activity types), habitual residence / extraterritorial reach, MCOB boundary, AR liability, Consumer Duty confirmation, seven financial difficulty indicators |
+| `summaries/conc4-pre-contractual-requirements.md` | CONC 4 — adequate explanation (CONC 4.2.5R), broker payment-detail gate, DCA prohibition, pre-contract CPA-style disclosure, unfair pressure |
+| `summaries/conc5-responsible-lending.md` | CONC 5 — creditworthiness assessment (lenders and P2P), triggers, affordability vs credit risk, broker suitability |
+| `summaries/conc6-post-contractual-requirements.md` | CONC 6 — pre-arrears monitoring, minimum repayment rules, limit/rate freezes when at risk, BNPL promotional reminders, HCSTC refinancing cap |
+| `summaries/conc7-arrears-default-recovery.md` | CONC 7 — arrears/default policies, forbearance, interest freeze on arrangements, CPA rules, mental capacity and disputed-debt suspensions, statute-barred debt, P2P notices |
 
 ### Concepts
 One page per regulatory concept, built from primary sources.
@@ -143,6 +148,17 @@ One page per regulatory concept, built from primary sources.
 | `concepts/uk-gdpr-dpia.md` | Art. 35 DPIA — triggers, required content, risk mitigation, consultation where residual high risk |
 | `concepts/uk-gdpr-dpo.md` | Arts. 37–39 DPO — appointment triggers, independence, tasks, conflicts of interest |
 
+**FCA Consumer Credit (CONC)**
+
+| Page | What it covers |
+|------|----------------|
+| `concepts/conc-scope-and-application.md` | CONC scope and application — activity types, habitual residence, MCOB boundary, AR treatment, Consumer Duty via CONC 1.1.4G |
+| `concepts/conc-financial-difficulty-indicators.md` | CONC 1.3.1G seven indicators, constructive knowledge, link to CONC 6/7 and vulnerability guidance |
+| `concepts/conc-creditworthiness-assessment.md` | CONC 5.2A / 5.5A / 5.4 — triggers, two-track credit and affordability risk, policies, P2P and broker angles |
+| `concepts/conc-discretionary-commission-arrangements.md` | CONC 4.5.6R DCA prohibition, disclosure of commission and cost impact |
+| `concepts/conc-cpa-rules.md` | CONC 7.6 continuous payment authority — pre-conditions, two-strike rules, HCSTC restrictions, cancellation |
+| `concepts/conc-debt-recovery-treatment.md` | CONC 7 — forbearance, charges, vulnerable customers, assignment, disputes, statute-barred debt, data accuracy |
+
 ### Derived
 Synthesised answers, assessments, and reference tables filed from query sessions.
 
@@ -163,6 +179,7 @@ fin-regbase/
 ├── .mcp.json               # Local MCP server config (Cursor)
 ├── raw/                    # Immutable source documents — never edit manually
 │   ├── fca-consumer-duty/  # PS22/9, FG22/5, FG21/1, Dear CEO letter
+│   ├── fca-conc/           # FCA Handbook CONC (consumer credit) source PDFs
 │   ├── fca-financial-crime/ # FCG 3, FCG 7, JMLSG Part I, thematic reviews
 │   ├── mifid/              # PROD review, costs/charges review, PFOF, suitability review
 │   ├── psr-payment-services/ # PSR approach document, payments portfolio Dear CEO
@@ -171,8 +188,8 @@ fin-regbase/
 ├── wiki/
 │   ├── index.md            # Master index — start here for any query
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (50 pages)
-│   ├── summaries/          # Per-document summaries (23 pages)
+│   ├── concepts/           # Core regulatory concepts (56 pages)
+│   ├── summaries/          # Per-document summaries (28 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
 ├── agents/                 # Runtime query wrappers/clients
 ├── mcp-server/             # MCP server implementation (tooling for wiki access)
@@ -201,11 +218,11 @@ fin-regbase/
 |-------|-------|
 | **v1 — done** | UK FCA Consumer Duty — fully linted, citation-accurate |
 | **v2 — done** | FCA Financial Crime (FCG, JMLSG, sanctions), MiFID II, PSR/E-Money, UK GDPR, SM&CR (solo-regulated guide) |
-| **v3 — current** | MCP server for native agent tool calls (implemented); deeper FCA Handbook (e.g. full SYSC); FATF 40 Recommendations |
+| **v3 — current** | MCP server for native agent tool calls (`mcp-server/`); CONC consumer-credit layer ingested; deeper FCA Handbook (e.g. full SYSC); FATF 40 Recommendations |
 | **v4** | SEC Reg BI, FINRA rules, FinCEN AML programme requirements |
 
 ---
 
 ## Citation Standard
 
-Every factual claim in the wiki carries an inline citation to the specific document, section, and paragraph — e.g. **(PS22/9 §7.4)**. Quality standard: CISI-level accuracy, FCA-grade citation discipline. Vague citations like "(FCA Consumer Duty)" are not permitted.
+Every factual claim in the wiki carries an inline citation to the specific document, section, and paragraph — e.g. **(PS22/9 section 7.4)**. Quality standard: CISI-level accuracy, FCA-grade citation discipline. Vague citations like "(FCA Consumer Duty)" are not permitted.
