@@ -15,6 +15,7 @@ related:
   - concepts/uk-gdpr-dpo.md
   - concepts/uk-gdpr-data-protection-principles.md
   - concepts/uk-gdpr-automated-decision-making.md
+  - concepts/uk-gdpr-security.md
 ---
 
 # UK GDPR — Data Protection Impact Assessments (Arts. 35–36)

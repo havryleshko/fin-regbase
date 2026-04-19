@@ -15,6 +15,8 @@ related:
   - summaries/mifid-ii-product-governance-review-2021.md
   - concepts/consumer-duty-price-value.md
   - concepts/consumer-duty-consumer-understanding.md
+  - concepts/advice-suitability-cobs9.md
+  - summaries/fca-assessing-suitability-review-2017.md
 ---
 
 # Costs and Charges Disclosure — Investment Products

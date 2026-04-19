@@ -28,6 +28,7 @@ related:
   - concepts/uk-gdpr-right-to-erasure.md
   - concepts/uk-gdpr-subject-access.md
   - concepts/uk-gdpr-personal-data-breaches.md
+  - concepts/uk-gdpr-lawful-basis.md
   - concepts/smcr-senior-managers-regime.md
   - concepts/smcr-conduct-rules.md
 ---

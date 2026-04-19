@@ -18,6 +18,7 @@ related:
   - concepts/uk-gdpr-processor-contracts.md
   - concepts/uk-gdpr-personal-data-breaches.md
   - concepts/uk-gdpr-security.md
+  - summaries/ico-guide-data-protection-principles.md
 ---
 
 # ICO Guide to Accountability and Governance

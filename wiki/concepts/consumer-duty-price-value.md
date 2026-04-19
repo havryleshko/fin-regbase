@@ -14,6 +14,7 @@ sources:
 tags: [consumer-duty, price-value, fair-value, outcomes, UK, FCA]
 related:
   - concepts/consumer-duty-overview.md
+  - concepts/consumer-principle.md
   - concepts/consumer-duty-cross-cutting-rules.md
   - concepts/consumer-duty-products-services.md
   - summaries/ps22-9-policy-statement.md

@@ -22,6 +22,8 @@ related:
   - concepts/uk-gdpr-data-protection-principles.md
   - summaries/ico-guide-data-protection-principles.md
   - concepts/uk-gdpr-individual-rights-overview.md
+  - summaries/ico-guide-lawful-basis-2026.md
+  - concepts/uk-gdpr-lawful-basis.md
 ---
 
 # FCA FG21/1 — Guidance for Firms on the Fair Treatment of Vulnerable Customers

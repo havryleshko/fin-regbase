@@ -20,6 +20,8 @@ related:
   - concepts/payment-for-order-flow.md
   - summaries/fca-pfof-supervisory-report-2019.md
   - concepts/smcr-senior-managers-regime.md
+  - concepts/advice-suitability-cobs9.md
+  - summaries/fca-assessing-suitability-review-2017.md
 ---
 
 # PROD 3 — Product Governance for Investment Manufacturers

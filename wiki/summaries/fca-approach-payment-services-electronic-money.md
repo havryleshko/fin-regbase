@@ -20,6 +20,7 @@ related:
   - concepts/operational-resilience.md
   - concepts/wind-down-planning.md
   - concepts/agent-distributor-oversight.md
+  - concepts/aml-ctf-framework.md
 ---
 
 # FCA Approach Document — Payment Services and Electronic Money (v7, March 2026)
@@ -113,6 +114,7 @@ See [[psr-sca-authentication]] for the full framework.
 ## Related Articles
 
 - [[safeguarding-pis-emis]]
+- [[psr-emi-prudential]]
 - [[psr-capital-requirements]]
 - [[psr-sca-authentication]]
 - [[psr-regulatory-reporting]]

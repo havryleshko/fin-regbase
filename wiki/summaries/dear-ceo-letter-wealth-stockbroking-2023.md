@@ -28,6 +28,8 @@ related:
   - concepts/prod-product-governance.md
   - summaries/mifid-ii-product-governance-review-2021.md
   - concepts/costs-charges-disclosure.md
+  - concepts/advice-suitability-cobs9.md
+  - summaries/fca-assessing-suitability-review-2017.md
   - concepts/payment-for-order-flow.md
 ---
 

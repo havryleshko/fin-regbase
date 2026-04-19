@@ -28,6 +28,12 @@ related:
   - concepts/uk-gdpr-right-to-erasure.md
   - concepts/uk-gdpr-security.md
   - summaries/ico-guide-data-security.md
+  - concepts/uk-gdpr-data-protection-by-design.md
+  - concepts/uk-gdpr-dpo.md
+  - concepts/uk-gdpr-processor-contracts.md
+  - concepts/uk-gdpr-records-of-processing.md
+  - concepts/uk-gdpr-dpia.md
+  - summaries/ico-guide-accountability-governance.md
   - concepts/uk-gdpr-personal-data-breaches.md
 ---
 

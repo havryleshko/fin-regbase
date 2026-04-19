@@ -17,6 +17,7 @@ related:
   - summaries/fcg3-money-laundering-terrorist-financing.md
   - summaries/fca-cdd-findings-multi-firm-2026.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
+  - concepts/uk-gdpr-lawful-basis.md
 ---
 
 # JMLSG Guidance Part I — Generic AML/CTF Guidance for the UK Financial Sector

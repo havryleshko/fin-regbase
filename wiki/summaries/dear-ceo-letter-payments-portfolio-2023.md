@@ -81,9 +81,9 @@ Named governance failings: lack of knowledgeable and experienced personnel in ke
 
 SYSC 15A (in force 31 March 2022) requires all firms, including payment firms, to identify important business services and set impact tolerances. Firms must review important business services at least annually or on material change.
 
-**Hard deadline:** By 31 March 2025, firms must have completed mapping and testing so they can remain within impact tolerances for each important business service, and made necessary investments to operate consistently within those tolerances.
+**Deadline (now passed):** By 31 March 2025, firms were required to have completed mapping and testing so they can remain within impact tolerances for each important business service, and made necessary investments to operate consistently within those tolerances. This deadline has now passed. Firms that did not meet it remain in breach; deficiencies identified after the deadline are treated as current failures.
 
-The FCA states it is proactively monitoring compliance and will take action where deficiencies are identified. Firms must also monitor dependency on critical service providers (technology, banking services) and maintain contingency plans to move providers if necessary. *(Portfolio letter, Cross-Cutting Priority 2)*
+The FCA stated it is proactively monitoring compliance and will take action where deficiencies are identified. Firms must also monitor dependency on critical service providers (technology, banking services) and maintain contingency plans to move providers if necessary. *(Portfolio letter, Cross-Cutting Priority 2)*
 
 ---
 
@@ -117,7 +117,7 @@ Boards or Executive Committees are expected to consider which highlighted risks 
 
 - This letter is addressed to all PIs, EMIs, and RAISPs — it reflects the FCA's supervisory posture for the entire payments portfolio as of March 2023.
 - Three outcomes: customers' money safe (safeguarding, prudential, wind-down); financial system integrity (AML/sanctions, fraud); customers' needs met (Consumer Duty).
-- Three cross-cutting priorities: governance/leadership/agent oversight; operational resilience (SYSC 15A, mapping/testing by 31 March 2025); regulatory reporting (PS 21/4 annual financial crime report).
+- Three cross-cutting priorities: governance/leadership/agent oversight; operational resilience (SYSC 15A, mapping/testing deadline 31 March 2025 — now passed, firms that missed it remain in breach); regulatory reporting (PS 21/4 annual financial crime report).
 - Agent registration is the PI/EMI's responsibility; EMI distributors cannot provide payment services; communications through agents/distributors must be fair, clear, not misleading, and identify the authorised firm.
 - The FCA has stated explicitly it will use cancellation powers against firms that fail to meet authorisation conditions — this is a stronger supervisory posture than typical "Dear CEO" letters.
 

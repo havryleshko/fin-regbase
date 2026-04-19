@@ -15,6 +15,7 @@ related:
   - concepts/uk-gdpr-personal-data-breaches.md
   - concepts/uk-gdpr-lawful-basis.md
   - concepts/uk-gdpr-dpia.md
+  - concepts/uk-gdpr-security.md
 ---
 
 # UK GDPR — Records of Processing Activities and Documentation (Art. 30)

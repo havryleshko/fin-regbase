@@ -33,6 +33,8 @@ related:
   - derived/fca-consumer-duty-implementation-review-2024.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - concepts/uk-gdpr-automated-decision-making.md
+  - concepts/uk-gdpr-lawful-basis.md
+  - concepts/conc-debt-recovery-treatment.md
 ---
 
 # FCA Consumer Duty — Vulnerable Customers
@@ -235,3 +237,4 @@ The FCA's wealth data survey found 49% of portfolio managers and 69% of stockbro
 - [[fca-consumer-duty-implementation-review-2024]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[uk-gdpr-automated-decision-making]]
+- [[conc-debt-recovery-treatment]]

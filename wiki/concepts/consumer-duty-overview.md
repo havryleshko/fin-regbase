@@ -27,6 +27,7 @@ related:
   - derived/fca-consumer-duty-implementation-review-2024.md
   - derived/pi-emi-consumer-duty-and-sanctions-obligations.md
   - concepts/prod-product-governance.md
+  - concepts/conc-scope-and-application.md
 ---
 
 # FCA Consumer Duty — Overview
@@ -146,3 +147,4 @@ No **private right of action** attaches to the Duty. Consumer redress routes are
 - [[fca-consumer-duty-implementation-review-2024]]
 - [[pi-emi-consumer-duty-and-sanctions-obligations]]
 - [[prod-product-governance]]
+- [[conc-scope-and-application]]

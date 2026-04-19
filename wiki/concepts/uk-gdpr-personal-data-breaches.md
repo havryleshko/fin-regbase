@@ -19,6 +19,7 @@ related:
   - concepts/uk-gdpr-automated-decision-making.md
   - concepts/aml-ctf-framework.md
   - concepts/customer-due-diligence.md
+  - concepts/uk-gdpr-processor-contracts.md
 ---
 
 # UK GDPR — Personal Data Breach Notification (Articles 33–34)

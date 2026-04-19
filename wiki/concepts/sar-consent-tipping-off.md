@@ -17,6 +17,7 @@ related:
   - summaries/jmlsg-part-i-guidance.md
   - summaries/fcg3-money-laundering-terrorist-financing.md
   - concepts/asset-freezes-and-ofsi-licences.md
+  - concepts/uk-gdpr-lawful-basis.md
 ---
 
 # SARs — Suspicion, the DAML Consent Regime, and Tipping Off

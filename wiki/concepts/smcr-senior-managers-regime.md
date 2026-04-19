@@ -17,6 +17,7 @@ related:
   - concepts/consumer-principle.md
   - concepts/prod-product-governance.md
   - summaries/mifid-ii-product-governance-review-2021.md
+  - concepts/conc-debt-recovery-treatment.md
 ---
 
 # SM&CR — Senior Managers Regime
@@ -219,3 +220,4 @@ No territorial limitation. An individual performing an SMF is subject to SM&CR o
 - [[consumer-principle]]
 - [[prod-product-governance]]
 - [[mifid-ii-product-governance-review-2021]]
+- [[conc-debt-recovery-treatment]]

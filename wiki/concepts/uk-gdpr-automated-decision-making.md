@@ -19,6 +19,7 @@ related:
   - concepts/vulnerable-customers.md
   - summaries/ico-guide-individual-rights.md
   - concepts/uk-gdpr-security.md
+  - concepts/uk-gdpr-dpia.md
 ---
 
 # UK GDPR — Automated Decision-Making and Profiling (Article 22)

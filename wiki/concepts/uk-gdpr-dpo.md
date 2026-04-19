@@ -14,6 +14,7 @@ related:
   - concepts/uk-gdpr-dpia.md
   - concepts/uk-gdpr-data-protection-by-design.md
   - concepts/uk-gdpr-data-protection-principles.md
+  - concepts/uk-gdpr-personal-data-breaches.md
 ---
 
 # UK GDPR — Data Protection Officer (Arts. 37–39)

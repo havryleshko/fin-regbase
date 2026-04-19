@@ -28,6 +28,7 @@ related:
   - concepts/safeguarding-pis-emis.md
   - concepts/wind-down-planning.md
   - concepts/psr-emi-prudential.md
+  - concepts/smcr-senior-managers-regime.md
   - concepts/agent-distributor-oversight.md
   - concepts/operational-resilience.md
 ---

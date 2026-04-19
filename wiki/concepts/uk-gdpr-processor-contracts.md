@@ -15,6 +15,7 @@ related:
   - concepts/uk-gdpr-data-protection-principles.md
   - concepts/uk-gdpr-records-of-processing.md
   - concepts/uk-gdpr-individual-rights-overview.md
+  - concepts/uk-gdpr-dpia.md
 ---
 
 # UK GDPR — Controller–Processor Contracts (Art. 28)

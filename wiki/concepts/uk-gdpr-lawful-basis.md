@@ -19,6 +19,7 @@ related:
   - concepts/uk-gdpr-individual-rights-overview.md
   - concepts/uk-gdpr-right-to-object.md
   - concepts/uk-gdpr-automated-decision-making.md
+  - concepts/uk-gdpr-records-of-processing.md
 ---
 
 # UK GDPR — Lawful Basis for Processing (Article 6)

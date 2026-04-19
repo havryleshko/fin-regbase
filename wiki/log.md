@@ -1192,3 +1192,120 @@ Findings summary:
 All clear: no broken wikilinks, no orphan pages, no contradictions, no index coverage gaps, all pages have Key Points for Agents and Related Articles.
 
 Fixes applied: 5 pages updated (items 1, 3, 4, 5, 6). 4 items deferred (items 2, 7, 8, 9).
+
+## 2026-04-18 ingest | CONC 1 — Application and Purpose and Guidance on Financial Difficulties
+
+Source: `raw/fca-conc/CONC 1 Application and purpose and guidance on financial difficulties.pdf` (FCA Handbook, April 2026 version, 10pp)
+
+Pages created (3):
+- `wiki/summaries/conc1-application-purpose.md`
+- `wiki/concepts/conc-scope-and-application.md`
+- `wiki/concepts/conc-financial-difficulty-indicators.md`
+
+Index updated: new section "UK — FCA Consumer Credit (CONC)" added to `wiki/index.md`.
+
+Notes:
+- No factual contradictions with existing wiki pages.
+- Potential gap resolved: `consumer-duty-overview.md` already listed CONC in its sector scope table (FG22/5 §2.3). The missing element was the CONC-side cross-link. New pages carry `consumer-duty-overview.md` in their `related` fields and explicitly cite CONC 1.1.4G as the CONC-internal Consumer Duty confirmation. No edit to `consumer-duty-overview.md` required.
+- MCD article 3(1)(b) provisions (CONC 1.2.8R–1.2.11G) summarised but not given a dedicated concept page — complexity is low-frequency; captured in the summary page for reference.
+- CONC 1.3.1G financial difficulty indicators will gain additional context when CONC 6 and 7 are ingested; pages structured to receive those links.
+
+## 2026-04-18 lint
+
+3 findings. 2 fixes applied. 1 deferred.
+
+| # | Severity | Finding | Fix |
+|---|---|---|---|
+| 1 | MEDIUM | Stale forward-tense deadline in `summaries/dear-ceo-letter-payments-portfolio-2023.md:84` — "firms must have completed" re 31 March 2025 deadline (now passed) | Updated to past tense; added note that deadline passed and post-deadline deficiencies are treated as current failures |
+| 2 | LOW | `concepts/consumer-duty-overview.md` did not reference new CONC pages — one-directional link only | Added `concepts/conc-scope-and-application.md` to `related` field and Related Articles section |
+| 3 | LOW | 4 ICO pages flagged "under review" pending DUA Act guidance updates | Deferred — no ICO update published |
+
+Structural checks all clear: no broken wikilinks, no orphan pages, no broken related-field paths, no contradictions, all pages structurally complete.
+
+## 2026-04-18 ingest | CONC 5 — Responsible Lending
+
+Source: `raw/fca-conc/CONC 5 Responsible lending.pdf` (FCA Handbook, April 2026 version, 28pp)
+
+Sections covered: CONC 5.2A (creditworthiness assessment — consumer credit lenders), CONC 5.4 (conduct of business: credit brokers), CONC 5.5A (creditworthiness assessment: P2P agreements). CONC 5.1 and 5.3 were deleted in prior amendments; CONC 5.2 was replaced by 5.2A.
+
+Pages created (2):
+- `wiki/summaries/conc5-responsible-lending.md`
+- `wiki/concepts/conc-creditworthiness-assessment.md`
+
+Index updated: 1 summary row and 1 concept row added to the UK — FCA Consumer Credit (CONC) section.
+
+Notes:
+- No contradictions with existing wiki pages.
+- CONC 5.5A P2P assessment obligations incorporated into the single creditworthiness concept page (not a separate page) as recommended — the frameworks are near-identical with one material difference (CONC 5.5A.37R active lender disclosure vs CONC 5.2A.36R simple refusal).
+- `uk-gdpr-automated-decision-making.md` already notes auto credit refusal as a "similarly significant" Art. 22 effect — this is consistent with the creditworthiness assessment framework. Cross-link added via `related` field in new concept page.
+- Credit broker suitability obligation (CONC 5.4) is brief and captured within the creditworthiness concept page rather than a separate page — it is not substantive enough to warrant standalone treatment.
+
+## 2026-04-18 lint
+
+4 findings. 2 fixes applied. 2 deferred.
+
+| # | Severity | Finding | Fix |
+|---|---|---|---|
+| 1 | LOW | Key Points bullet in `summaries/dear-ceo-letter-payments-portfolio-2023.md:120` still said "mapping/testing by 31 March 2025" in deadline-future framing — body was fixed in prior lint but bullet wasn't | Updated bullet to note deadline has passed and firms that missed it remain in breach |
+| 2 | LOW | `concepts/conc-scope-and-application.md` had no cross-link to `conc-creditworthiness-assessment.md` — predated that page | Added to `related` field and Related Articles section |
+| 3 | LOW | ICO "under review" pages pending DUA Act updates | Deferred — no ICO update published |
+| 4 | INFO | 8 files reference CONC 6, CONC 7, DMP, CPA, pre-contractual requirements without dedicated pages | Deferred to CONC 7 ingest |
+
+Structural checks all clear: no broken paths, no orphans, no broken wikilinks. Consumer Duty implementation dates (31 July 2023/2024) confirmed as correctly stated historical facts — no change required.
+
+## 2026-04-18 ingest | CONC 7 — Arrears, Default and Recovery (including Repossessions)
+
+Source: `raw/fca-conc/CONC 7 Arrears, default and recovery (including repossessions).pdf` (FCA Handbook, April 2026 version, 49pp)
+
+Sections covered: CONC 7.1 (application), 7.2 (arrears/default policies), 7.3 (forbearance — including CONC 7.3.5G R interest freeze rule), 7.4 (debt status information), 7.5 (pursuing repayments), 7.6 (CPA exercise), 7.7 (interest and charges), 7.8 (jurisdictional), 7.9 (contact conduct), 7.10 (mental capacity), 7.11 (authority/status disclosures), 7.12 (lender responsibilities), 7.13 (data accuracy and outsourcing), 7.14 (disputed/deadlocked debt), 7.15 (statute barred debts), 7.16 (data sharing), 7.17–7.19 (P2P arrears and default notices).
+
+Pages created (3):
+- `wiki/summaries/conc7-arrears-default-recovery.md` — full chapter summary across all 19 sections
+- `wiki/concepts/conc-cpa-rules.md` — CONC 7.6 CPA rules in full: pre-conditions, proportionality obligation, financial difficulty suspension, two-strike HCSTC rule, instalment rule, no partial amounts, cancellation
+- `wiki/concepts/conc-debt-recovery-treatment.md` — CONC 7 treatment standards: written policies, forbearance hard rule, interest freeze on active arrangements (7.3.5G R), charges limits, mental capacity mandatory suspension, post-assignment lender responsibility, disputed debt burden-of-proof rule, statute barred debt regime, data accuracy obligations
+
+Index updated: 1 summary row and 2 concept rows added to the UK — FCA Consumer Credit (CONC) section.
+
+Notes:
+- No contradictions with existing wiki pages.
+- **Key structural distinction:** CONC 7.3.5G R (interest/charges freeze on active repayment arrangements) is a hard rule — the 'G' in its paragraph number does not indicate guidance; the 'R' marker does. This was important to capture correctly.
+- **Statute barred debt:** Material jurisdictional difference captured — in Scotland the debt ceases to exist on expiry; in England/Wales/NI it remains recoverable subject to conditions.
+- **CPA two-strike rule scope:** CONC 7.6.12R applies to high-cost short-term credit only. The general proportionality and financial difficulty rules (CONC 7.6.3R, 7.6.7R) apply to all credit types.
+- **CONC 7.1.3A R:** CPA rules (CONC 7.6) apply to certain exempt agreements (article 60C(4A) RAO) — relevant to BNPL products. Captured in conc-cpa-rules.md.
+- The prior lint gap "8 files reference CONC 6, CONC 7, DMP, CPA without dedicated pages" is now partially resolved. CPA and arrears/default treatment are now covered. CONC 6 (post-contractual), DMP standards, and pre-contractual disclosure obligations remain without dedicated pages.
+
+Flagged for future ingest:
+- CONC 3 (Financial promotions — consumer credit) — not yet ingested
+- CONC 4 (Pre-contractual requirements) — pre-contractual disclosure gap remains
+- CONC 6 (Post-contractual obligations, including variation of credit agreements, settlement) — referenced in CONC 7.5.1G but not yet ingested
+
+---
+
+## 2026-04-19 lint
+
+**Scope:** Full wiki — 87 pages (2 root, 55 concepts, 4 derived, 26 summaries)
+
+**Check 1 — Wikilink integrity and orphan detection**
+- Broken wikilinks: 0
+- Orphan pages (0 inbound): 0
+- Near-orphans (1 inbound):
+  - `consumer-understanding-digital-notifications` — derived page, single inbound from parent; previously flagged as acceptable
+  - `conc5-responsible-lending` — resolved during this lint pass by adding inbound from [[conc7-arrears-default-recovery]]
+
+**Check 2 — Frontmatter `related:` ↔ body wikilink consistency**
+- Issues pre-fix: 75 body→FM gaps across ~25 pages; 2 FM→body gaps (psr-emi-prudential in 2 PSR pages)
+- Issues post-fix: 0
+
+**Check 3 — Missing cross-references (new CONC 7 pages)**
+- conc7-arrears-default-recovery: now has 6 inbound links (conc-cpa-rules, conc-creditworthiness-assessment, conc-debt-recovery-treatment, conc-financial-difficulty-indicators, conc-scope-and-application, conc5-responsible-lending)
+- conc-cpa-rules: now has 3 inbound links (conc-debt-recovery-treatment, conc-financial-difficulty-indicators, conc7-arrears-default-recovery)
+- conc-debt-recovery-treatment: now has 5 inbound links (conc-cpa-rules, conc-scope-and-application, conc7-arrears-default-recovery, smcr-senior-managers-regime, vulnerable-customers)
+
+**Files modified (34 total):**
+FM + body: conc-scope-and-application, conc-financial-difficulty-indicators, conc-creditworthiness-assessment, conc5-responsible-lending, vulnerable-customers, smcr-senior-managers-regime, conc7-arrears-default-recovery, psr-regulatory-reporting, fca-approach-payment-services-electronic-money
+FM only: consumer-duty-consumer-support, consumer-duty-consumer-understanding, consumer-duty-products-services, consumer-duty-price-value, prod-product-governance, costs-charges-disclosure, dear-ceo-letter-wealth-stockbroking-2023, pi-emi-consumer-duty-and-sanctions-obligations, psr-sca-authentication, aml-ctf-framework, sar-consent-tipping-off, vulnerability-drivers-and-taxonomy, jmlsg-part-i-guidance, fg21-1-guidance, uk-gdpr-data-protection-principles, uk-gdpr-lawful-basis, uk-gdpr-automated-decision-making, uk-gdpr-processor-contracts, uk-gdpr-dpia, uk-gdpr-personal-data-breaches, uk-gdpr-records-of-processing, uk-gdpr-dpo, uk-gdpr-data-protection-by-design, ico-guide-data-protection-principles, ico-guide-accountability-governance
+
+**Check 4 — Concepts without pages (future ingests)**
+- CONC 2 (pre-contractual disclosure), CONC 3 (financial promotions), CONC 4 (pre-contractual explanations), CONC 6 (post-contractual requirements), DMP standards — no source documents yet ingested; not actioned this pass
+
+**Final state:** 0 broken wikilinks, 0 orphans, 1 acceptable near-orphan (derived page)

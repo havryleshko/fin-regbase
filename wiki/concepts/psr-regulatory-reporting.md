@@ -15,6 +15,7 @@ related:
   - concepts/psr-sca-authentication.md
   - concepts/safeguarding-pis-emis.md
   - concepts/psr-emi-prudential.md
+  - concepts/psr-capital-requirements.md
   - concepts/operational-resilience.md
   - concepts/aml-ctf-framework.md
 ---
@@ -152,6 +153,7 @@ This is distinct from REP018 (which is a periodic data return) — the annual as
 - [[psr-open-banking-pisp-aisp]]
 - [[psr-sca-authentication]]
 - [[safeguarding-pis-emis]]
+- [[psr-emi-prudential]]
 - [[psr-capital-requirements]]
 - [[operational-resilience]]
 - [[aml-ctf-framework]]

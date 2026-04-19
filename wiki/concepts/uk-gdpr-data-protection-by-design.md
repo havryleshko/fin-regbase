@@ -15,6 +15,7 @@ related:
   - concepts/uk-gdpr-dpo.md
   - concepts/uk-gdpr-data-protection-principles.md
   - concepts/uk-gdpr-security.md
+  - concepts/uk-gdpr-lawful-basis.md
 ---
 
 # UK GDPR — Data Protection by Design and by Default (Art. 25)

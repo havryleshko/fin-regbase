@@ -14,6 +14,7 @@ sources:
 tags: [consumer-duty, consumer-understanding, communications, outcomes, UK, FCA]
 related:
   - concepts/consumer-duty-overview.md
+  - concepts/consumer-principle.md
   - concepts/consumer-duty-cross-cutting-rules.md
   - concepts/consumer-duty-consumer-support.md
   - concepts/vulnerable-customers.md

@@ -15,6 +15,7 @@ sources:
 tags: [consumer-duty, products-services, outcomes, target-market, UK, FCA]
 related:
   - concepts/consumer-duty-overview.md
+  - concepts/consumer-principle.md
   - concepts/consumer-duty-cross-cutting-rules.md
   - concepts/consumer-duty-price-value.md
   - concepts/vulnerable-customers.md
@@ -25,6 +26,8 @@ related:
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - concepts/prod-product-governance.md
   - summaries/mifid-ii-product-governance-review-2021.md
+  - concepts/advice-suitability-cobs9.md
+  - summaries/fca-assessing-suitability-review-2017.md
 ---
 
 # FCA Consumer Duty — Products and Services Outcome

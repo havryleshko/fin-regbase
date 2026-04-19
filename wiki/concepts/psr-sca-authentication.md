@@ -17,6 +17,7 @@ related:
   - concepts/operational-resilience.md
   - concepts/consumer-duty-overview.md
   - concepts/consumer-duty-consumer-support.md
+  - concepts/vulnerable-customers.md
 ---
 
 # Strong Customer Authentication (SCA) — PSRs 2017 and SCA-RTS
