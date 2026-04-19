@@ -15,8 +15,10 @@ related:
   - concepts/conc-creditworthiness-assessment.md
   - concepts/conc-scope-and-application.md
   - concepts/conc-financial-difficulty-indicators.md
+  - concepts/conc-discretionary-commission-arrangements.md
   - concepts/vulnerable-customers.md
   - concepts/smcr-senior-managers-regime.md
+  - summaries/conc4-pre-contractual-requirements.md
   - summaries/conc7-arrears-default-recovery.md
 ---
 
@@ -189,6 +191,8 @@ The assessment obligations in CONC 5.5A mirror CONC 5.2A almost exactly: three t
 - [[conc-creditworthiness-assessment]]
 - [[conc-scope-and-application]]
 - [[conc-financial-difficulty-indicators]]
+- [[conc-discretionary-commission-arrangements]]
 - [[vulnerable-customers]]
 - [[smcr-senior-managers-regime]]
+- [[conc4-pre-contractual-requirements]]
 - [[conc7-arrears-default-recovery]]

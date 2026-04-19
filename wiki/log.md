@@ -1309,3 +1309,56 @@ FM only: consumer-duty-consumer-support, consumer-duty-consumer-understanding, c
 - CONC 2 (pre-contractual disclosure), CONC 3 (financial promotions), CONC 4 (pre-contractual explanations), CONC 6 (post-contractual requirements), DMP standards — no source documents yet ingested; not actioned this pass
 
 **Final state:** 0 broken wikilinks, 0 orphans, 1 acceptable near-orphan (derived page)
+
+## 2026-04-19 ingest | CONC 6 — Post Contractual Requirements (April 2026)
+
+Source: `raw/fca-conc/CONC 6 Post contractual requirements.pdf` (FCA, April 2026, 20pp)
+
+Pages written:
+- `summaries/conc6-post-contractual-requirements.md` (new)
+
+Pages updated:
+- `concepts/conc-financial-difficulty-indicators.md` — added CONC 6.7.11G "at risk of financial difficulties" definition as new section; updated sources, related, Key Points, Related Articles
+- `concepts/conc-cpa-rules.md` — added conc6-post-contractual-requirements to FM related and Related Articles
+- `index.md` — added CONC 6 summary row; updated conc-financial-difficulty-indicators summary line
+
+No contradictions with existing wiki pages. The HCSTC two-refinancing cap (6.7.23R) is explicitly complementary to the CPA two-strike rule (7.6.12R) already documented in conc-cpa-rules.md.
+
+Concepts flagged in prior lint as lacking pages — CONC 6 — now resolved.
+Remaining: CONC 2 (pre-contractual disclosure), CONC 3 (financial promotions), CONC 4 (pre-contractual explanations).
+
+## 2026-04-19 lint
+
+**Scope:** 90 pages (88 wiki + index + log)
+
+**Script fix this pass:** orphan/near-orphan detection now counts markdown `[text](path.md)` links (from index.md) in addition to `[[wikilinks]]` and FM `related:` entries. Previously `derived/consumer-understanding-digital-notifications.md` appeared as a near-orphan despite being listed in index.md.
+
+**Results:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM→body gaps · 0 body→FM gaps
+
+**Final state:** clean
+
+## 2026-04-19 ingest | CONC 4 — Pre-Contractual Requirements (April 2026)
+
+Source: `raw/fca-conc/CONC 4 Pre-contractual requirements.pdf` (FCA, April 2026, 32pp)
+
+Pages written:
+- `summaries/conc4-pre-contractual-requirements.md` (new)
+- `concepts/conc-discretionary-commission-arrangements.md` (new)
+
+Pages updated:
+- `concepts/conc-cpa-rules.md` — added conc4-pre-contractual-requirements to FM and body
+- `concepts/conc-creditworthiness-assessment.md` — added conc4-pre-contractual-requirements to FM and body
+- `summaries/conc5-responsible-lending.md` — added conc4-pre-contractual-requirements and conc-discretionary-commission-arrangements to FM and body
+- `index.md` — added CONC 4 summary row and DCA concept row
+
+No contradictions with existing wiki pages. CONC 4.6.2R pre-contract CPA disclosure complements (and precedes) the CONC 7.6 post-contract CPA rules already in conc-cpa-rules.md. CONC 4.2.15R(8) BNPL explanation obligation is the pre-contract counterpart to CONC 6.7.16AR promotional rate reminder already in conc6-post-contractual-requirements.md.
+
+Concepts flagged in prior lint as lacking pages: CONC 6 and CONC 4 now resolved. Remaining: CONC 2 (pre-contractual disclosure), CONC 3 (financial promotions).
+
+## 2026-04-19 lint
+
+**Scope:** 92 pages (90 wiki + index + log)
+
+**Results:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM→body gaps · 0 body→FM gaps
+
+**Final state:** clean

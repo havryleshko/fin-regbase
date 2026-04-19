@@ -8,12 +8,14 @@ effective_date: 2014-04-01
 last_updated: 2026-04-18
 sources:
   - "CONC 1.3.1G"
+  - "CONC 6.7.11G"
 tags: [CONC, consumer-credit, financial-difficulties, arrears, debt, vulnerable-customers, UK, FCA]
 related:
   - concepts/conc-scope-and-application.md
   - concepts/vulnerable-customers.md
   - concepts/vulnerability-drivers-and-taxonomy.md
   - summaries/conc1-application-purpose.md
+  - summaries/conc6-post-contractual-requirements.md
   - summaries/conc7-arrears-default-recovery.md
   - concepts/conc-cpa-rules.md
 ---
@@ -60,6 +62,20 @@ Financial difficulty is distinct from but overlapping with vulnerability. A cust
 
 The CONC 1.3.1G indicators are CONC-specific operational triggers. The FG21/1 vulnerability framework is broader and applies across all FCA-regulated activities.
 
+## "At Risk of Financial Difficulties" — CONC 6.7.11G Definition
+
+CONC 6.7.11G provides a distinct, more precise threshold used specifically for the credit card and retail revolving credit protections in CONC 6.7.7R (credit limit freeze) and CONC 6.7.10R (interest rate freeze).
+
+A customer is **at risk of financial difficulties** where **one or more** of the following applies:
+
+| Condition | Notes |
+|-----------|-------|
+| The customer is **in arrears of two or more consecutive payments** | Consecutive — not cumulative across different periods |
+| The firm has **agreed a repayment arrangement** with the customer | Any formal arrangement, not limited to DMPs |
+| The customer is in **serious discussion** about a debt management plan | Pre-DMP discussions count |
+
+**Relationship to the CONC 1.3.1G indicators:** The 6.7.11G threshold is narrower and more prescriptive than the general CONC 1.3.1G indicators. It is a binary trigger for specific product-level protections (credit limit and interest rate freeze) rather than a broad constructive knowledge standard. A customer may meet one of the CONC 1.3.1G indicators without yet being "at risk of financial difficulties" under CONC 6.7.11G — and vice versa.
+
 ## The "Ought Reasonably to Be Aware" Standard
 
 This phrase sets a constructive knowledge standard. A firm cannot ignore signals in its own data. Relevant sources firms are expected to monitor include:
@@ -77,6 +93,7 @@ This standard will be assessed by the FCA in the context of what data the firm h
 - The standard is "aware or ought reasonably to be aware" — constructive knowledge applies; firms cannot ignore their own data.
 - Consecutive missed minimum repayments on cards and consecutive missed repayments on any credit are distinct indicators (1 and 5).
 - Pre-DMP discussions (indicator 7) count as a financial difficulty signal — firms do not need to wait for a formal debt solution to be in place.
+- CONC 6.7.11G provides a separate, more precise "at risk of financial difficulties" threshold — used only for credit limit and interest rate freeze obligations. Three conditions: 2+ consecutive payments in arrears; repayment arrangement agreed; or in serious DMP discussion.
 - Financial difficulty and vulnerability overlap but are not the same. Financial difficulty indicators should prompt a vulnerability assessment, not just arrears treatment procedures.
 
 ## Related Articles
@@ -85,5 +102,6 @@ This standard will be assessed by the FCA in the context of what data the firm h
 - [[vulnerable-customers]]
 - [[vulnerability-drivers-and-taxonomy]]
 - [[conc1-application-purpose]]
+- [[conc6-post-contractual-requirements]]
 - [[conc7-arrears-default-recovery]]
 - [[conc-cpa-rules]]

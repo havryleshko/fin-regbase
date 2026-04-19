@@ -12,6 +12,8 @@ sources:
 tags: [CONC, consumer-credit, CPA, continuous-payment-authority, HCSTC, payday-loans, debt-recovery, UK, FCA]
 related:
   - summaries/conc7-arrears-default-recovery.md
+  - summaries/conc6-post-contractual-requirements.md
+  - summaries/conc4-pre-contractual-requirements.md
   - concepts/conc-debt-recovery-treatment.md
   - concepts/conc-financial-difficulty-indicators.md
   - concepts/conc-scope-and-application.md
@@ -159,6 +161,8 @@ Firms must keep sufficient records to ascertain that they have complied with all
 ## Related Articles
 
 - [[conc7-arrears-default-recovery]]
+- [[conc6-post-contractual-requirements]]
+- [[conc4-pre-contractual-requirements]]
 - [[conc-debt-recovery-treatment]]
 - [[conc-financial-difficulty-indicators]]
 - [[conc-scope-and-application]]

@@ -12,6 +12,7 @@ sources:
   - "CONC 5.5A.1R–5.5A.38G"
 tags: [CONC, consumer-credit, creditworthiness, affordability, responsible-lending, running-account-credit, P2P, credit-broking, UK, FCA]
 related:
+  - summaries/conc4-pre-contractual-requirements.md
   - summaries/conc5-responsible-lending.md
   - concepts/conc-scope-and-application.md
   - concepts/conc-financial-difficulty-indicators.md
@@ -225,6 +226,7 @@ The worst-case drawdown assumption applies to P2P running-account credit **(CONC
 
 ## Related Articles
 
+- [[conc4-pre-contractual-requirements]]
 - [[conc5-responsible-lending]]
 - [[conc-scope-and-application]]
 - [[conc-financial-difficulty-indicators]]
