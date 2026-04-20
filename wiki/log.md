@@ -1390,3 +1390,42 @@ Remaining CONC ingest: CONC 3 (financial promotions).
 **Results:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM→body gaps · 0 body→FM gaps
 
 **Final state:** clean
+
+## 2026-04-20 ingest | CONC 3 — Financial Promotions and Communications with Customers (April 2026)
+
+Source: `raw/fca-conc/CONC 3 Financial promotions and communications with customers.pdf` (FCA, April 2026, 40pp)
+
+Pages created (3):
+- `wiki/summaries/conc3-financial-promotions.md`
+- `wiki/concepts/conc-financial-promotions-cfnm.md`
+- `wiki/concepts/conc-representative-example-apr.md`
+
+Pages updated (4):
+- `wiki/concepts/conc-scope-and-application.md` — added conc3-financial-promotions + conc-financial-promotions-cfnm to FM related and body wikilinks
+- `wiki/concepts/conc-broker-unfair-practices.md` — added conc3-financial-promotions + conc-financial-promotions-cfnm to FM related and body wikilinks
+- `wiki/index.md` — added CONC 3 summary row + 2 new concept rows
+- `wiki/log.md` — this entry
+
+Key content:
+- CONC 3.3.1R: five-element CFNM standard; comparisons rule (1B); no-credit-regardless (3.3.3R); BNPL promotional rate omission rule (3.3.11AR); overdraft = "borrowing" (3.3.12R); 9 named unfair practice examples (3.3.10G)
+- CONC 3.4.1R: HCSTC mandatory verbatim risk warning (exact text); prominent requirement; no paraphrase
+- CONC 3.5.5R: 8-element representative example; equal prominence; "representative example" label; no less prominence than incentives
+- CONC 3.5.7R: three APR triggers — restricted audience implication; favourable comparison; incentive to apply (incl. speed/ease of application)
+- CONC 3.5.9R: APR formatting ("%APR"; "variable"; "representative"; overdraft comparison statement)
+- CONC 3.5.12R: five restricted expressions (unsecured); CONC 3.6.8R adds three (secured)
+- CONC 3.6.5R: three verbatim land-secured warnings (standard; debt consolidation; equity release/interest roll-up); foreign currency variant
+- CONC 3.7: broker promotions — extent of powers; legal name; broker-not-lender identification; dual-role disclosure
+- CONC 3.8.2R: three lender prohibitions — pre-completed amounts; equity-only implication; known-unsuitable promotion
+- CONC 3.9.3R: debt counsellor 16-item mandatory disclosure; CONC 3.9.5R: five prohibitions; CONC 3.9.7R: look-alike website + SEO manipulation prohibition
+- CONC 3.10.3G: CCA s.49 criminal offence — canvassing borrower-lender agreements off trade premises; umbrella requests invalid
+- CONC 3.11.2R: cannot approve financial promotions for personal visits, telephone conversations, or interactive dialogues
+
+CONC chapter ingest complete. All 7 CONC chapters (1–7) now ingested.
+
+## 2026-04-20 lint
+
+**Scope:** 94 pages
+
+**Results:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM→body gaps · 0 body→FM gaps
+
+**Final state:** clean

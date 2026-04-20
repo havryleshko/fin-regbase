@@ -18,6 +18,8 @@ related:
   - concepts/conc-discretionary-commission-arrangements.md
   - concepts/conc-scope-and-application.md
   - concepts/conc-financial-difficulty-indicators.md
+  - summaries/conc3-financial-promotions.md
+  - concepts/conc-financial-promotions-cfnm.md
 ---
 
 # CONC — Credit Broker Unfair Practices
@@ -118,3 +120,5 @@ Two additional CONC 4 obligations apply specifically to credit brokers:
 - [[conc-discretionary-commission-arrangements]]
 - [[conc-scope-and-application]]
 - [[conc-financial-difficulty-indicators]]
+- [[conc3-financial-promotions]]
+- [[conc-financial-promotions-cfnm]]

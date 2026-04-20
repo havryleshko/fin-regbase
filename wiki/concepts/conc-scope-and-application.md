@@ -19,6 +19,8 @@ related:
   - concepts/conc-creditworthiness-assessment.md
   - summaries/conc7-arrears-default-recovery.md
   - concepts/conc-debt-recovery-treatment.md
+  - summaries/conc3-financial-promotions.md
+  - concepts/conc-financial-promotions-cfnm.md
 ---
 
 # CONC — Scope and Application
@@ -112,3 +114,5 @@ Creditors and credit intermediaries under MCD article 3(1)(b) — primarily non-
 - [[conc-creditworthiness-assessment]]
 - [[conc7-arrears-default-recovery]]
 - [[conc-debt-recovery-treatment]]
+- [[conc3-financial-promotions]]
+- [[conc-financial-promotions-cfnm]]
