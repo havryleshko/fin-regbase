@@ -17,8 +17,10 @@ related:
   - concepts/conc-scope-and-application.md
   - concepts/conc-financial-difficulty-indicators.md
   - concepts/vulnerable-customers.md
+  - concepts/conc-mental-capacity-guidance.md
   - concepts/smcr-senior-managers-regime.md
   - concepts/uk-gdpr-automated-decision-making.md
+  - summaries/conc2-conduct-of-business-general.md
   - summaries/conc7-arrears-default-recovery.md
 ---
 
@@ -231,6 +233,8 @@ The worst-case drawdown assumption applies to P2P running-account credit **(CONC
 - [[conc-scope-and-application]]
 - [[conc-financial-difficulty-indicators]]
 - [[vulnerable-customers]]
+- [[conc-mental-capacity-guidance]]
 - [[smcr-senior-managers-regime]]
 - [[uk-gdpr-automated-decision-making]]
+- [[conc2-conduct-of-business-general]]
 - [[conc7-arrears-default-recovery]]

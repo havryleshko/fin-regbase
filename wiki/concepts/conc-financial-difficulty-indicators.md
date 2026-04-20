@@ -18,6 +18,7 @@ related:
   - summaries/conc6-post-contractual-requirements.md
   - summaries/conc7-arrears-default-recovery.md
   - concepts/conc-cpa-rules.md
+  - summaries/conc2-conduct-of-business-general.md
 ---
 
 # CONC — Financial Difficulty Indicators
@@ -105,3 +106,4 @@ This standard will be assessed by the FCA in the context of what data the firm h
 - [[conc6-post-contractual-requirements]]
 - [[conc7-arrears-default-recovery]]
 - [[conc-cpa-rules]]
+- [[conc2-conduct-of-business-general]]

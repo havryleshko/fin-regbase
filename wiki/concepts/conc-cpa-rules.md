@@ -14,6 +14,7 @@ related:
   - summaries/conc7-arrears-default-recovery.md
   - summaries/conc6-post-contractual-requirements.md
   - summaries/conc4-pre-contractual-requirements.md
+  - summaries/conc2-conduct-of-business-general.md
   - concepts/conc-debt-recovery-treatment.md
   - concepts/conc-financial-difficulty-indicators.md
   - concepts/conc-scope-and-application.md
@@ -163,6 +164,7 @@ Firms must keep sufficient records to ascertain that they have complied with all
 - [[conc7-arrears-default-recovery]]
 - [[conc6-post-contractual-requirements]]
 - [[conc4-pre-contractual-requirements]]
+- [[conc2-conduct-of-business-general]]
 - [[conc-debt-recovery-treatment]]
 - [[conc-financial-difficulty-indicators]]
 - [[conc-scope-and-application]]

@@ -35,6 +35,7 @@ related:
   - concepts/uk-gdpr-automated-decision-making.md
   - concepts/uk-gdpr-lawful-basis.md
   - concepts/conc-debt-recovery-treatment.md
+  - concepts/conc-mental-capacity-guidance.md
 ---
 
 # FCA Consumer Duty — Vulnerable Customers
@@ -238,3 +239,4 @@ The FCA's wealth data survey found 49% of portfolio managers and 69% of stockbro
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[uk-gdpr-automated-decision-making]]
 - [[conc-debt-recovery-treatment]]
+- [[conc-mental-capacity-guidance]]

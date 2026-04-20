@@ -1362,3 +1362,31 @@ Concepts flagged in prior lint as lacking pages: CONC 6 and CONC 4 now resolved.
 **Results:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM→body gaps · 0 body→FM gaps
 
 **Final state:** clean
+
+## 2026-04-20 ingest | CONC 2 — Conduct of Business Standards: General (April 2026)
+
+Source: `raw/fca-conc/CONC 2 Conduct of business standards_ general.pdf` (FCA, April 2026, 40pp)
+
+Pages written:
+- `summaries/conc2-conduct-of-business-general.md` (new)
+- `concepts/conc-mental-capacity-guidance.md` (new)
+- `concepts/conc-broker-unfair-practices.md` (new)
+
+Pages updated:
+- `concepts/conc-creditworthiness-assessment.md` — added conc-mental-capacity-guidance and conc2-conduct-of-business-general to FM and body
+- `concepts/conc-cpa-rules.md` — added conc2-conduct-of-business-general to FM and body
+- `concepts/conc-financial-difficulty-indicators.md` — added conc2-conduct-of-business-general to FM and body
+- `concepts/vulnerable-customers.md` — added conc-mental-capacity-guidance to FM and body
+- `index.md` — added CONC 2 summary row, mental capacity concept row, broker unfair practices concept row
+
+No contradictions with existing wiki pages. CONC 2.10 mental capacity guidance fills a gap referenced in 7 existing pages (creditworthiness assessment, debt recovery treatment, arrears/default recovery, CPA rules, financial difficulty indicators, CONC 5, CONC 7) that all referred to "CONC 2.10" without a concept page to resolve the reference. CONC 2.5.8R broker unfair practices complements (and is distinct from) the DCA prohibition in conc-discretionary-commission-arrangements.md — both concern broker conduct but at different levels of specificity.
+
+Remaining CONC ingest: CONC 3 (financial promotions).
+
+## 2026-04-20 lint
+
+**Scope:** 91 pages
+
+**Results:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM→body gaps · 0 body→FM gaps
+
+**Final state:** clean
