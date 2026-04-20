@@ -93,6 +93,7 @@ This standard will be assessed by the FCA in the context of what data the firm h
 - CONC 1.3.1G lists 7 indicators of financial difficulty — non-exhaustive, but the primary operational trigger list for CONC 6 and 7 obligations.
 - The standard is "aware or ought reasonably to be aware" — constructive knowledge applies; firms cannot ignore their own data.
 - Consecutive missed minimum repayments on cards and consecutive missed repayments on any credit are distinct indicators (1 and 5).
+- A signed debt management plan (DMP) — indicator 6 — is an unambiguous financial difficulty signal. When a firm becomes aware a customer has entered a DMP, it must assess obligations across CONC 6 and 7: CPA suspension (CONC 7.6.7R), forbearance, and the interest freeze on active repayment arrangements (CONC 7.3.5G R).
 - Pre-DMP discussions (indicator 7) count as a financial difficulty signal — firms do not need to wait for a formal debt solution to be in place.
 - CONC 6.7.11G provides a separate, more precise "at risk of financial difficulties" threshold — used only for credit limit and interest rate freeze obligations. Three conditions: 2+ consecutive payments in arrears; repayment arrangement agreed; or in serious DMP discussion.
 - Financial difficulty and vulnerability overlap but are not the same. Financial difficulty indicators should prompt a vulnerability assessment, not just arrears treatment procedures.

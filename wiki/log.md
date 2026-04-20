@@ -1429,3 +1429,24 @@ CONC chapter ingest complete. All 7 CONC chapters (1–7) now ingested.
 **Results:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM→body gaps · 0 body→FM gaps
 
 **Final state:** clean
+
+## 2026-04-20 eval verification | evals/questions.yaml — 8 flagged items
+
+Verified all 8 items flagged in `notes_for_reviewer` via FCA Handbook WebSearch and direct wiki reads.
+
+**CONFIRMED correct (no changes to required_facts):**
+- E006 — CONC 6.7.11G "one or more" confirmed; scope (6.7.7R / 6.7.10R only) confirmed
+- E008 — CONC 6.7.5R formula confirmed: 1% of total outstanding balance (not just principal)
+- H001 — 'pre-approved' for unsecured HCSTC: confirmed via 3.3.3R/3.3.1R, NOT 3.5.12R
+- H003 — article 60C(4A) RAO confirmed by WebSearch
+- E004/H002 — CONC 7.6.12R(5) confirmed: refinancing is a precondition (firm contact + express consent + refinancing all required)
+
+**CORRECTIONS made:**
+- M008 required_facts updated: CONC 2.4.2R mechanism is lender→broker→customer (or lender→customer direct); disclosure includes name + address including email; obligation is proactive on decline (not on request)
+- H005 required_facts and citations updated: 'must engage FCA before withdrawal' claim unverifiable (PS22/9 PDF unreadable); reanchored to PS22/9 §6.9 and §6.10 which are confirmed; 'must engage FCA' removed pending manual verification
+- H005 notes_for_reviewer updated to flag manual check needed for PS22/9 §10.10
+
+**Wiki fix applied:**
+- `concepts/conc-cpa-rules.md` Key Points: corrected internal contradiction — "resets on forbearance but not on refinance" was wrong; updated to reflect that 7.6.12R(5) also allows reset via firm contact + express consent + refinancing
+
+All `notes_for_reviewer` fields updated to VERIFIED status or flagged with residual uncertainty.

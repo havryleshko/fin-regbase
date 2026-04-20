@@ -1,0 +1,1137 @@
+{
+  "run_at": "20260420_150959",
+  "top_k": 5,
+  "total": 25,
+  "results": [
+    {
+      "id": "E001",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What is the exact mandatory risk warning that must appear on all high-cost short-term credit financial promotions?",
+      "expected_pages": [
+        "conc3-financial-promotions"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 30.9273
+        },
+        {
+          "slug": "fca-consumer-duty-implementation-review-2024",
+          "path": "derived/fca-consumer-duty-implementation-review-2024.md",
+          "score": 25.8905
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 25.0445
+        },
+        {
+          "slug": "conc-financial-promotions-cfnm",
+          "path": "concepts/conc-financial-promotions-cfnm.md",
+          "score": 24.2689
+        },
+        {
+          "slug": "consumer-understanding-digital-notifications",
+          "path": "derived/consumer-understanding-digital-notifications.md",
+          "score": 23.7952
+        }
+      ],
+      "found_at_rank": {
+        "conc3-financial-promotions": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E002",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What is the TEXAS model and what does each letter stand for?",
+      "expected_pages": [
+        "vulnerable-customers"
+      ],
+      "retrieved": [
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 20.9776
+        },
+        {
+          "slug": "fg21-1-guidance",
+          "path": "summaries/fg21-1-guidance.md",
+          "score": 20.7204
+        },
+        {
+          "slug": "vulnerability-drivers-and-taxonomy",
+          "path": "concepts/vulnerability-drivers-and-taxonomy.md",
+          "score": 20.3909
+        },
+        {
+          "slug": "consumer-duty-products-services",
+          "path": "concepts/consumer-duty-products-services.md",
+          "score": 16.169
+        },
+        {
+          "slug": "wind-down-planning",
+          "path": "concepts/wind-down-planning.md",
+          "score": 15.3843
+        }
+      ],
+      "found_at_rank": {
+        "vulnerable-customers": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E003",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What are the three cross-cutting rules under the FCA Consumer Duty and which provision contains them?",
+      "expected_pages": [
+        "consumer-duty-cross-cutting-rules"
+      ],
+      "retrieved": [
+        {
+          "slug": "fg22-5-guidance",
+          "path": "summaries/fg22-5-guidance.md",
+          "score": 22.5748
+        },
+        {
+          "slug": "consumer-duty-cross-cutting-rules",
+          "path": "concepts/consumer-duty-cross-cutting-rules.md",
+          "score": 22.2194
+        },
+        {
+          "slug": "consumer-principle",
+          "path": "concepts/consumer-principle.md",
+          "score": 21.5311
+        },
+        {
+          "slug": "pi-emi-consumer-duty-and-sanctions-obligations",
+          "path": "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+          "score": 20.5646
+        },
+        {
+          "slug": "consumer-duty-overview",
+          "path": "concepts/consumer-duty-overview.md",
+          "score": 20.4972
+        }
+      ],
+      "found_at_rank": {
+        "consumer-duty-cross-cutting-rules": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E004",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "Under CONC, how many CPA payment attempts may a firm make under an HCSTC agreement before it is prohibited from making further attempts, and what resets the count?",
+      "expected_pages": [
+        "conc-cpa-rules"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-cpa-rules",
+          "path": "concepts/conc-cpa-rules.md",
+          "score": 62.9508
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 52.3947
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 44.6239
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 36.6044
+        },
+        {
+          "slug": "conc-financial-difficulty-indicators",
+          "path": "concepts/conc-financial-difficulty-indicators.md",
+          "score": 34.8303
+        }
+      ],
+      "found_at_rank": {
+        "conc-cpa-rules": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E005",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What percentage of UK adults had characteristics of vulnerability in February 2020, and how does the FCA use this statistic in supervisory work?",
+      "expected_pages": [
+        "vulnerable-customers",
+        "vulnerability-drivers-and-taxonomy"
+      ],
+      "retrieved": [
+        {
+          "slug": "fg21-1-guidance",
+          "path": "summaries/fg21-1-guidance.md",
+          "score": 42.1586
+        },
+        {
+          "slug": "vulnerability-drivers-and-taxonomy",
+          "path": "concepts/vulnerability-drivers-and-taxonomy.md",
+          "score": 40.7879
+        },
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 40.5298
+        },
+        {
+          "slug": "consumer-understanding-digital-notifications",
+          "path": "derived/consumer-understanding-digital-notifications.md",
+          "score": 31.6003
+        },
+        {
+          "slug": "consumer-duty-consumer-understanding",
+          "path": "concepts/consumer-duty-consumer-understanding.md",
+          "score": 29.5397
+        }
+      ],
+      "found_at_rank": {
+        "vulnerable-customers": 3,
+        "vulnerability-drivers-and-taxonomy": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E006",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What are the three conditions that make a credit card customer 'at risk of financial difficulties' under CONC 6.7.11G, triggering the credit limit and interest rate freeze obligations?",
+      "expected_pages": [
+        "conc-financial-difficulty-indicators",
+        "conc6-post-contractual-requirements"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-financial-difficulty-indicators",
+          "path": "concepts/conc-financial-difficulty-indicators.md",
+          "score": 55.1007
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 51.6159
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 38.5025
+        },
+        {
+          "slug": "conc-debt-recovery-treatment",
+          "path": "concepts/conc-debt-recovery-treatment.md",
+          "score": 36.4301
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 35.7284
+        }
+      ],
+      "found_at_rank": {
+        "conc-financial-difficulty-indicators": 1,
+        "conc6-post-contractual-requirements": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E007",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What eight elements must a representative example in a consumer credit financial promotion contain under CONC, and how must they be presented?",
+      "expected_pages": [
+        "conc-representative-example-apr",
+        "conc3-financial-promotions"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-representative-example-apr",
+          "path": "concepts/conc-representative-example-apr.md",
+          "score": 46.189
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 40.8387
+        },
+        {
+          "slug": "conc-financial-promotions-cfnm",
+          "path": "concepts/conc-financial-promotions-cfnm.md",
+          "score": 38.3841
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 30.1979
+        },
+        {
+          "slug": "ico-guide-accountability-governance",
+          "path": "summaries/ico-guide-accountability-governance.md",
+          "score": 28.8004
+        }
+      ],
+      "found_at_rank": {
+        "conc-representative-example-apr": 1,
+        "conc3-financial-promotions": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E008",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What is the minimum monthly repayment that a credit card lender must ensure a customer makes each month under CONC, and what happens if the lender sets a lower minimum?",
+      "expected_pages": [
+        "conc6-post-contractual-requirements"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 45.1689
+        },
+        {
+          "slug": "conc-creditworthiness-assessment",
+          "path": "concepts/conc-creditworthiness-assessment.md",
+          "score": 44.2207
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 41.6409
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 38.6163
+        },
+        {
+          "slug": "conc-discretionary-commission-arrangements",
+          "path": "concepts/conc-discretionary-commission-arrangements.md",
+          "score": 38.5047
+        }
+      ],
+      "found_at_rank": {
+        "conc6-post-contractual-requirements": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M001",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A lender discovers that a customer has formally entered into a debt management plan. What specific CONC obligations does this trigger and across which chapters?",
+      "expected_pages": [
+        "conc-financial-difficulty-indicators",
+        "conc-debt-recovery-treatment",
+        "conc7-arrears-default-recovery"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-financial-difficulty-indicators",
+          "path": "concepts/conc-financial-difficulty-indicators.md",
+          "score": 39.3164
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 35.4436
+        },
+        {
+          "slug": "conc-debt-recovery-treatment",
+          "path": "concepts/conc-debt-recovery-treatment.md",
+          "score": 35.3325
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 35.1213
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 34.1547
+        }
+      ],
+      "found_at_rank": {
+        "conc-financial-difficulty-indicators": 1,
+        "conc-debt-recovery-treatment": 3,
+        "conc7-arrears-default-recovery": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M002",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "Does a peer-to-peer platform operator have a creditworthiness assessment obligation under CONC? How does it differ from the obligation on the individual lender under the P2P agreement?",
+      "expected_pages": [
+        "conc-creditworthiness-assessment"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-creditworthiness-assessment",
+          "path": "concepts/conc-creditworthiness-assessment.md",
+          "score": 56.5754
+        },
+        {
+          "slug": "conc5-responsible-lending",
+          "path": "summaries/conc5-responsible-lending.md",
+          "score": 55.4604
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 50.998
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 46.4232
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 41.9597
+        }
+      ],
+      "found_at_rank": {
+        "conc-creditworthiness-assessment": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M003",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A BNPL promotion states '0% interest for 12 months \u2014 apply in 60 seconds'. What specific CONC 3 rules does this engage and what additional disclosures are required?",
+      "expected_pages": [
+        "conc-financial-promotions-cfnm",
+        "conc-representative-example-apr"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-representative-example-apr",
+          "path": "concepts/conc-representative-example-apr.md",
+          "score": 40.9864
+        },
+        {
+          "slug": "conc-financial-promotions-cfnm",
+          "path": "concepts/conc-financial-promotions-cfnm.md",
+          "score": 38.8844
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 35.6135
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 35.2425
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 33.8845
+        }
+      ],
+      "found_at_rank": {
+        "conc-financial-promotions-cfnm": 2,
+        "conc-representative-example-apr": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M004",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A for-profit debt management firm wants to run paid search ads that appear when users search for 'free debt advice' and 'charity debt help'. What does CONC say about this?",
+      "expected_pages": [
+        "conc3-financial-promotions"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 58.8971
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 41.3281
+        },
+        {
+          "slug": "conc-financial-difficulty-indicators",
+          "path": "concepts/conc-financial-difficulty-indicators.md",
+          "score": 37.8313
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 36.7651
+        },
+        {
+          "slug": "conc-creditworthiness-assessment",
+          "path": "concepts/conc-creditworthiness-assessment.md",
+          "score": 34.4058
+        }
+      ],
+      "found_at_rank": {
+        "conc3-financial-promotions": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M005",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A firm has a comprehensive written vulnerability policy signed off at board level. When FCA supervisors test frontline call centre staff, they cannot explain what to do when a customer discloses a mental health condition. What FCA concept does this describe, and why is the written policy insufficient?",
+      "expected_pages": [
+        "vulnerable-customers"
+      ],
+      "retrieved": [
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 60.4527
+        },
+        {
+          "slug": "vulnerability-drivers-and-taxonomy",
+          "path": "concepts/vulnerability-drivers-and-taxonomy.md",
+          "score": 58.549
+        },
+        {
+          "slug": "conc-mental-capacity-guidance",
+          "path": "concepts/conc-mental-capacity-guidance.md",
+          "score": 51.4423
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 51.1236
+        },
+        {
+          "slug": "fca-consumer-duty-implementation-review-2024",
+          "path": "derived/fca-consumer-duty-implementation-review-2024.md",
+          "score": 50.3362
+        }
+      ],
+      "found_at_rank": {
+        "vulnerable-customers": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M006",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A Consumer Duty annual board report identifies that customers over 70 consistently receive worse outcomes than average. What must the board do, and what does FCA guidance say about automatic age-based vulnerability classification?",
+      "expected_pages": [
+        "vulnerable-customers"
+      ],
+      "retrieved": [
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 52.1821
+        },
+        {
+          "slug": "fca-consumer-duty-implementation-review-2024",
+          "path": "derived/fca-consumer-duty-implementation-review-2024.md",
+          "score": 45.7248
+        },
+        {
+          "slug": "pi-emi-consumer-duty-and-sanctions-obligations",
+          "path": "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+          "score": 37.8716
+        },
+        {
+          "slug": "aml-ctf-framework",
+          "path": "concepts/aml-ctf-framework.md",
+          "score": 35.0519
+        },
+        {
+          "slug": "consumer-duty-cross-cutting-rules",
+          "path": "concepts/consumer-duty-cross-cutting-rules.md",
+          "score": 34.6668
+        }
+      ],
+      "found_at_rank": {
+        "vulnerable-customers": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M007",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A firm processes health information disclosed by customers as part of its Consumer Duty vulnerability monitoring programme. What two distinct legal bases must it identify before doing so, and under which provisions?",
+      "expected_pages": [
+        "vulnerable-customers",
+        "uk-gdpr-lawful-basis"
+      ],
+      "retrieved": [
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 37.1198
+        },
+        {
+          "slug": "uk-gdpr-lawful-basis",
+          "path": "concepts/uk-gdpr-lawful-basis.md",
+          "score": 34.8846
+        },
+        {
+          "slug": "vulnerability-drivers-and-taxonomy",
+          "path": "concepts/vulnerability-drivers-and-taxonomy.md",
+          "score": 33.8331
+        },
+        {
+          "slug": "consumer-duty-cross-cutting-rules",
+          "path": "concepts/consumer-duty-cross-cutting-rules.md",
+          "score": 33.5722
+        },
+        {
+          "slug": "pi-emi-consumer-duty-and-sanctions-obligations",
+          "path": "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+          "score": 32.4529
+        }
+      ],
+      "found_at_rank": {
+        "vulnerable-customers": 1,
+        "uk-gdpr-lawful-basis": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M008",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A lender uses a credit reference agency report when assessing a credit application and then declines the application. What must the lender tell the customer about the credit reference agency under CONC?",
+      "expected_pages": [
+        "conc2-conduct-of-business-general"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-creditworthiness-assessment",
+          "path": "concepts/conc-creditworthiness-assessment.md",
+          "score": 46.9974
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 46.9072
+        },
+        {
+          "slug": "conc5-responsible-lending",
+          "path": "summaries/conc5-responsible-lending.md",
+          "score": 44.0393
+        },
+        {
+          "slug": "conc-scope-and-application",
+          "path": "concepts/conc-scope-and-application.md",
+          "score": 38.8652
+        },
+        {
+          "slug": "conc-debt-recovery-treatment",
+          "path": "concepts/conc-debt-recovery-treatment.md",
+          "score": 37.8982
+        }
+      ],
+      "found_at_rank": {
+        "conc2-conduct-of-business-general": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M009",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "What happens to a consumer debt after five years in Scotland, and how does this differ from the six-year limitation period in England and Wales?",
+      "expected_pages": [
+        "conc-debt-recovery-treatment",
+        "conc7-arrears-default-recovery"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-debt-recovery-treatment",
+          "path": "concepts/conc-debt-recovery-treatment.md",
+          "score": 46.4058
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 45.5205
+        },
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 35.5294
+        },
+        {
+          "slug": "conc-mental-capacity-guidance",
+          "path": "concepts/conc-mental-capacity-guidance.md",
+          "score": 35.0772
+        },
+        {
+          "slug": "ico-guide-data-protection-principles",
+          "path": "summaries/ico-guide-data-protection-principles.md",
+          "score": 32.2019
+        }
+      ],
+      "found_at_rank": {
+        "conc-debt-recovery-treatment": 1,
+        "conc7-arrears-default-recovery": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M010",
+      "difficulty": "medium",
+      "type": "boundary",
+      "question": "A lender incorporated and authorised in Germany operates a website offering payday loans to UK residents. Is it subject to CONC?",
+      "expected_pages": [
+        "conc-scope-and-application"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 31.4151
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 31.0056
+        },
+        {
+          "slug": "conc-broker-unfair-practices",
+          "path": "concepts/conc-broker-unfair-practices.md",
+          "score": 30.1961
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 29.1708
+        },
+        {
+          "slug": "conc-scope-and-application",
+          "path": "concepts/conc-scope-and-application.md",
+          "score": 28.4603
+        }
+      ],
+      "found_at_rank": {
+        "conc-scope-and-application": 5
+      },
+      "missed": [],
+      "precision_at_3": 0.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": false,
+      "pass_at_5": true
+    },
+    {
+      "id": "H001",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A payday lender runs an online advertisement for an HCSTC product with the headline 'Pre-approved loans \u2014 instant decision, apply now!' No APR is shown, no representative example appears, and no risk warning is included. Enumerate every specific CONC 3 rule this breaches.",
+      "expected_pages": [
+        "conc3-financial-promotions",
+        "conc-financial-promotions-cfnm",
+        "conc-representative-example-apr"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-representative-example-apr",
+          "path": "concepts/conc-representative-example-apr.md",
+          "score": 72.6617
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 71.6233
+        },
+        {
+          "slug": "conc-financial-promotions-cfnm",
+          "path": "concepts/conc-financial-promotions-cfnm.md",
+          "score": 60.8152
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 49.7714
+        },
+        {
+          "slug": "conc-cpa-rules",
+          "path": "concepts/conc-cpa-rules.md",
+          "score": 45.3042
+        }
+      ],
+      "found_at_rank": {
+        "conc3-financial-promotions": 2,
+        "conc-financial-promotions-cfnm": 3,
+        "conc-representative-example-apr": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H002",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A firm makes two CPA payment requests for an HCSTC loan \u2014 both are refused by the payment service provider. The customer then calls the firm and verbally agrees to allow a third CPA attempt. Can the firm make the third attempt?",
+      "expected_pages": [
+        "conc-cpa-rules"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-cpa-rules",
+          "path": "concepts/conc-cpa-rules.md",
+          "score": 68.4151
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 55.4423
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 53.4891
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 51.4891
+        },
+        {
+          "slug": "conc-debt-recovery-treatment",
+          "path": "concepts/conc-debt-recovery-treatment.md",
+          "score": 48.5836
+        }
+      ],
+      "found_at_rank": {
+        "conc-cpa-rules": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H003",
+      "difficulty": "hard",
+      "type": "boundary",
+      "question": "A buy-now-pay-later agreement is an exempt agreement under article 60C(4A) of the Regulated Activities Order. Do the CONC 7.6 continuous payment authority rules apply to it?",
+      "expected_pages": [
+        "conc-cpa-rules"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-cpa-rules",
+          "path": "concepts/conc-cpa-rules.md",
+          "score": 54.1118
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 43.7334
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 41.1647
+        },
+        {
+          "slug": "conc-debt-recovery-treatment",
+          "path": "concepts/conc-debt-recovery-treatment.md",
+          "score": 37.8407
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 36.5842
+        }
+      ],
+      "found_at_rank": {
+        "conc-cpa-rules": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H004",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A payday lender's digital ad says 'Borrow \u00a3200 for 7 days \u2014 only \u00a32 per day'. No APR is shown and no HCSTC risk warning appears. Is this compliant with CONC 3?",
+      "expected_pages": [
+        "conc-representative-example-apr",
+        "conc3-financial-promotions"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 56.2496
+        },
+        {
+          "slug": "conc-representative-example-apr",
+          "path": "concepts/conc-representative-example-apr.md",
+          "score": 46.3389
+        },
+        {
+          "slug": "conc-financial-promotions-cfnm",
+          "path": "concepts/conc-financial-promotions-cfnm.md",
+          "score": 45.4452
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 44.6332
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 40.3202
+        }
+      ],
+      "found_at_rank": {
+        "conc-representative-example-apr": 2,
+        "conc3-financial-promotions": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H005",
+      "difficulty": "hard",
+      "type": "synthesis",
+      "question": "A firm has identified that a legacy product offers poor value and plans to withdraw it. Internal data shows it is held disproportionately by customers with characteristics of vulnerability. What must the firm do before withdrawing the product?",
+      "expected_pages": [
+        "vulnerable-customers",
+        "consumer-duty-products-services"
+      ],
+      "retrieved": [
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 56.1877
+        },
+        {
+          "slug": "consumer-duty-products-services",
+          "path": "concepts/consumer-duty-products-services.md",
+          "score": 48.1792
+        },
+        {
+          "slug": "fca-consumer-duty-implementation-review-2024",
+          "path": "derived/fca-consumer-duty-implementation-review-2024.md",
+          "score": 47.5238
+        },
+        {
+          "slug": "vulnerability-drivers-and-taxonomy",
+          "path": "concepts/vulnerability-drivers-and-taxonomy.md",
+          "score": 46.3876
+        },
+        {
+          "slug": "fca-supervisory-questions-consumer-duty",
+          "path": "derived/fca-supervisory-questions-consumer-duty.md",
+          "score": 44.0426
+        }
+      ],
+      "found_at_rank": {
+        "vulnerable-customers": 1,
+        "consumer-duty-products-services": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H006",
+      "difficulty": "hard",
+      "type": "synthesis",
+      "question": "A firm's creditworthiness assessment policies are found by the FCA to be non-compliant. Under SM&CR, which individual is personally accountable and what must they demonstrate to avoid personal liability?",
+      "expected_pages": [
+        "conc-creditworthiness-assessment"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-creditworthiness-assessment",
+          "path": "concepts/conc-creditworthiness-assessment.md",
+          "score": 54.8889
+        },
+        {
+          "slug": "prod-product-governance",
+          "path": "concepts/prod-product-governance.md",
+          "score": 48.7168
+        },
+        {
+          "slug": "smcr-conduct-rules",
+          "path": "concepts/smcr-conduct-rules.md",
+          "score": 47.7297
+        },
+        {
+          "slug": "smcr-senior-managers-regime",
+          "path": "concepts/smcr-senior-managers-regime.md",
+          "score": 47.4403
+        },
+        {
+          "slug": "smcr-certification-regime",
+          "path": "concepts/smcr-certification-regime.md",
+          "score": 47.2305
+        }
+      ],
+      "found_at_rank": {
+        "conc-creditworthiness-assessment": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H007",
+      "difficulty": "hard",
+      "type": "synthesis",
+      "question": "During onboarding, a firm's sanctions screening tool flags a potential match against the Consolidated List for a new customer. Simultaneously, the customer discloses they have a cognitive impairment affecting their financial decisions. What obligations run in parallel and is there any conflict between them?",
+      "expected_pages": [
+        "sanctions-screening",
+        "asset-freezes-and-ofsi-licences",
+        "conc-mental-capacity-guidance"
+      ],
+      "retrieved": [
+        {
+          "slug": "pi-emi-consumer-duty-and-sanctions-obligations",
+          "path": "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+          "score": 64.8162
+        },
+        {
+          "slug": "fcg7-sanctions-asset-freezes-proliferation-financing",
+          "path": "summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md",
+          "score": 63.74
+        },
+        {
+          "slug": "sanctions-screening",
+          "path": "concepts/sanctions-screening.md",
+          "score": 59.0212
+        },
+        {
+          "slug": "fctr8-sanctions-systems-controls-russia",
+          "path": "summaries/fctr8-sanctions-systems-controls-russia.md",
+          "score": 54.6779
+        },
+        {
+          "slug": "asset-freezes-and-ofsi-licences",
+          "path": "concepts/asset-freezes-and-ofsi-licences.md",
+          "score": 52.3785
+        }
+      ],
+      "found_at_rank": {
+        "sanctions-screening": 3,
+        "asset-freezes-and-ofsi-licences": 5,
+        "conc-mental-capacity-guidance": null
+      },
+      "missed": [
+        "conc-mental-capacity-guidance"
+      ],
+      "precision_at_3": 0.333,
+      "precision_at_5": 0.667,
+      "pass_at_3": false,
+      "pass_at_5": false
+    }
+  ]
+}

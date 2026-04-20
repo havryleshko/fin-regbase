@@ -224,6 +224,7 @@ The worst-case drawdown assumption applies to P2P running-account credit **(CONC
 - Security, guarantees, and indemnities cannot offset affordability risk in the borrower assessment. Guarantor assessment is additional, not a substitute.
 - For running-account credit (credit cards, overdrafts), the firm must assume full drawdown repaid over a personal-loan-equivalent period — not typical or expected usage.
 - Creditworthiness policies must be in writing, governing-body approved, reviewed periodically, and every qualifying transaction must be recorded.
+- Under SM&CR, the Senior Manager allocated responsibility for creditworthiness in the firm's Statement of Responsibilities is personally accountable for policy compliance. The Duty of Responsibility (FSMA s.66A) applies — the SM must demonstrate reasonable steps to avoid personal liability for policy failures (CONC 5.2A.33R).
 - In P2P: both platform operator and lender have separate obligations. The platform must affirmatively disclose suspected borrower untruthfulness to the prospective lender.
 
 ## Related Articles

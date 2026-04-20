@@ -46,7 +46,7 @@ fin-regbase/
 └── mcp-design.md           # This file
 ```
 
-**No database.** No vector store. The in-memory index is rebuilt at startup by parsing YAML frontmatter from all `.md` files. At 76 pages this takes ~50ms. At 300 pages it will still be fast enough. If semantic search becomes necessary it can be added as a separate `search_semantic` tool without changing the rest.
+**No database.** No vector store. The in-memory index is rebuilt at startup by parsing YAML frontmatter from all `.md` files. At 76 pages this takes ~50ms. At 300 pages it will still be fast enough. If semantic search becomes necessary it can be added as a separate `search_semantic` tool without changing the rest.≠
 
 ---
 

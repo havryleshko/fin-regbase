@@ -99,7 +99,7 @@ Creditors and credit intermediaries under MCD article 3(1)(b) — primarily non-
 ## Key Points for Agents
 
 - CONC applies to 10 credit-related activity types. A firm that does not lend but brokers, collects, administers or advises on credit is likely in scope.
-- The jurisdictional trigger is the **customer's habitual residence in the UK** — not where the firm is based. Extraterritorial reach is a hard rule (CONC 1.2.5R).
+- The jurisdictional trigger is the **customer's habitual residence in the UK** — not where the firm is based. A foreign firm, overseas lender, or non-UK entity — including EU/EEA firms — that serves UK-resident consumers via a website or other channel must comply with CONC. Extraterritorial reach is a hard rule (CONC 1.2.5R).
 - Credit secured on land goes to MCOB, not CONC. Broking of such agreements may still be caught as credit broking under RAO article 36A.
 - An AR's CONC breach is the principal firm's breach by statute (FSMA s.39(4)). CONC 1.2.2R requires firms to ensure compliance by employees, agents and third parties.
 - Consumer Duty (Principle 12 / PRIN 2A) explicitly applies to CONC firms (CONC 1.1.4G).

@@ -143,10 +143,10 @@ These expressions are prohibited even as softened variants: "subject to status" 
 
 ## Key Points for Agents
 
-- Representative example required whenever any rate of interest or cost of credit is indicated — not just when the full APR is stated. Any cost reference triggers the obligation.
+- Representative example required whenever any rate of interest or cost of credit is indicated — not just when the full APR is stated. Any cost reference triggers the obligation — including a daily rate ("£2 per day"), weekly cost, or total charge figure.
 - Eight elements, all equal prominence, labelled "representative example", given no less prominence than any incentive to apply.
 - Representative APR = rate at which at least 51% of customers from that promotion are expected to receive credit. Cannot cherry-pick the best available rate unless it genuinely applies to the majority.
-- Three APR-only triggers: restricted audience implication; favourable comparison; incentive to apply — including speed or ease of application. A "3-minute application" claim alone triggers the APR requirement.
+- Three APR-only triggers: restricted audience implication; favourable comparison; incentive to apply — including speed or ease of application. Phrases like "apply in 60 seconds", "instant decision", or "3-minute application" are incentives to apply and trigger the APR requirement even with no cost reference in the promotion.
 - APR must be shown as "%APR"; variable products = "variable"; representative figure = "representative".
 - Five restricted expressions (unsecured): "overdraft", "interest free", "no deposit", "gift/present", "weekly equivalent" — each strictly literal. Secured adds "loan guaranteed/pre-approved" and "no credit checks".
 - Compulsory ancillary services must be clearly stated alongside the representative APR — not in footnotes.

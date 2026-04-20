@@ -1,0 +1,581 @@
+# evals/questions.yaml
+# Retrieval + answer quality eval set for the fin-regbase wiki.
+#
+# Schema:
+#   id                  unique identifier (E=easy, M=medium, H=hard)
+#   question            the query as an agent would receive it
+#   difficulty          easy | medium | hard
+#   type                factual | synthesis | edge-case | boundary
+#   expected_pages      slugs that MUST appear in top-3 search results (retrieval eval)
+#   required_facts      statements a correct answer must contain (answer eval, LLM-as-judge)
+#   required_citations  rule/section references a correct answer must include
+#   notes_for_reviewer  specific things the human reviewer should verify before using
+#   tags                topic tags for slicing results
+#
+# Difficulty distribution: 8 easy / 10 medium / 7 hard = 25 total
+# Type distribution: 11 factual / 8 synthesis / 4 edge-case / 2 boundary
+
+# ─────────────────────────────────────────────────────────────────────────────
+# EASY — single page, specific rule, no synthesis required
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E001
+  question: >
+    What is the exact mandatory risk warning that must appear on all high-cost
+    short-term credit financial promotions?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - conc3-financial-promotions
+  required_facts:
+    - "Warning: Late repayment can cause you serious money problems. For help, go to moneyhelper.org.uk"
+    - "verbatim — no paraphrase permitted"
+    - "must be prominent"
+    - "MoneyHelper logo is an approved alternative to the verbatim text"
+  required_citations:
+    - "CONC 3.4.1R"
+  tags: [CONC, HCSTC, financial-promotions]
+
+- id: E002
+  question: >
+    What is the TEXAS model and what does each letter stand for?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - vulnerable-customers
+  required_facts:
+    - "T — Thank the customer for their disclosure"
+    - "E — Explain how the disclosed information will be used"
+    - "X — eXplicit consent or cheXks (check whether the customer objects to data processing)"
+    - "A — Ask questions to understand the situation and needs better"
+    - "S — Signpost to internal support or external specialist services"
+    - "FCA-endorsed staff protocol for handling vulnerability disclosures in a GDPR-compliant manner"
+    - "explicit consent is not always required — the X step permits checking for objection as an alternative"
+  required_citations:
+    - "FG21/1 §3.18"
+  notes_for_reviewer: >
+    The X step is the key nuance: explicit consent is not the only option —
+    the firm may instead check whether the customer objects. Verify this is the
+    correct reading of FG21/1 §3.18–§3.20.
+  tags: [vulnerable-customers, Consumer-Duty, FG21-1]
+
+- id: E003
+  question: >
+    What are the three cross-cutting rules under the FCA Consumer Duty and
+    which provision contains them?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - consumer-duty-cross-cutting-rules
+  required_facts:
+    - "act in good faith towards retail customers"
+    - "avoid causing foreseeable harm to retail customers"
+    - "enable and support retail customers to pursue their financial objectives"
+    - "contained in PRIN 2A"
+  required_citations:
+    - "PRIN 2A"
+    - "PS22/9"
+  tags: [Consumer-Duty, cross-cutting-rules]
+
+- id: E004
+  question: >
+    Under CONC, how many CPA payment attempts may a firm make under an HCSTC
+    agreement before it is prohibited from making further attempts, and what
+    resets the count?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - conc-cpa-rules
+  required_facts:
+    - "two refused CPA attempts — after two refusals the firm must not make a further CPA request"
+    - "refinanced HCSTC agreements are treated as the same agreement for counting purposes"
+    - "forbearance resets the count — refusals that occurred before forbearance was granted are disregarded"
+    - "express consent after firm contact can reset the count, but only following a refinance"
+  required_citations:
+    - "CONC 7.6.12R"
+  tags: [CONC, HCSTC, CPA]
+
+- id: E005
+  question: >
+    What percentage of UK adults had characteristics of vulnerability in
+    February 2020, and how does the FCA use this statistic in supervisory work?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - vulnerable-customers
+    - vulnerability-drivers-and-taxonomy
+  required_facts:
+    - "46% of UK adults in February 2020"
+    - "rose to 53% by October 2020, reflecting the pandemic"
+    - "FCA uses this population baseline to challenge firms that report identifying near-zero vulnerable customers"
+  required_citations:
+    - "FG21/1 §2.7"
+  tags: [vulnerable-customers, Consumer-Duty]
+
+- id: E006
+  question: >
+    What are the three conditions that make a credit card customer 'at risk
+    of financial difficulties' under CONC 6.7.11G, triggering the credit limit
+    and interest rate freeze obligations?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - conc-financial-difficulty-indicators
+    - conc6-post-contractual-requirements
+  required_facts:
+    - "in arrears of two or more consecutive payments"
+    - "the firm has agreed a repayment arrangement with the customer"
+    - "the customer is in serious discussion about a debt management plan"
+    - "one or more of these three conditions is sufficient — not all three are required"
+    - "this definition is distinct from and narrower than the general CONC 1.3.1G seven-indicator list"
+  required_citations:
+    - "CONC 6.7.11G"
+  notes_for_reviewer: >
+    VERIFIED 2026-04-20. 'One or more' confirmed by CONC 6.7.11G. Scope confirmed:
+    applies to credit limit freeze (6.7.7R) and interest rate freeze (6.7.10R) only,
+    not to CONC broadly — distinct from the general CONC 1.3.1G seven-indicator list.
+  tags: [CONC, consumer-credit, financial-difficulties, credit-cards]
+
+- id: E007
+  question: >
+    What eight elements must a representative example in a consumer credit
+    financial promotion contain under CONC, and how must they be presented?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - conc-representative-example-apr
+    - conc3-financial-promotions
+  required_facts:
+    - "rate of interest — stating whether fixed or variable"
+    - "any other charges included in the total charge for credit"
+    - "total amount of credit"
+    - "representative APR"
+    - "cash price and amount of any advance payment (purchase promotions)"
+    - "duration of the agreement"
+    - "total amount payable"
+    - "amount of each repayment"
+    - "all eight elements must be given equal prominence"
+    - "labelled 'representative example'"
+    - "given no less prominence than any other cost information or any incentive to apply"
+  required_citations:
+    - "CONC 3.5.5R"
+  tags: [CONC, financial-promotions, representative-example, APR]
+
+- id: E008
+  question: >
+    What is the minimum monthly repayment that a credit card lender must
+    ensure a customer makes each month under CONC, and what happens if the
+    lender sets a lower minimum?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - conc6-post-contractual-requirements
+  required_facts:
+    - "all interest, fees and charges applied to the account in the period, plus 1% of the total amount outstanding"
+    - "the 1% applies to the total outstanding balance — not the principal component only"
+    - "this is a floor — the lender must not set a contractual minimum below this amount"
+    - "the obligation prevents minimum payment structures that service interest only without reducing the balance"
+  required_citations:
+    - "CONC 6.7.5R"
+  notes_for_reviewer: >
+    VERIFIED 2026-04-20. CONC 6.7.5R formula confirmed: all interest + all fees + all
+    charges for the period, plus 1% of the total amount outstanding (full balance, not
+    just the principal component). Required_facts are accurate.
+  tags: [CONC, consumer-credit, credit-cards, minimum-repayment]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# MEDIUM — multi-page synthesis or tricky single-rule reading
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: M001
+  question: >
+    A lender discovers that a customer has formally entered into a debt
+    management plan. What specific CONC obligations does this trigger
+    and across which chapters?
+  difficulty: medium
+  type: synthesis
+  expected_pages:
+    - conc-financial-difficulty-indicators
+    - conc-debt-recovery-treatment
+    - conc7-arrears-default-recovery
+  required_facts:
+    - "a DMP agreement is indicator 6 of the seven CONC 1.3.1G financial difficulty indicators"
+    - "firm must not exercise CPA rights if it knows the customer is in financial difficulties and cannot afford to repay (CONC 7.6.7R — hard rule)"
+    - "firm must exercise forbearance and have regard to the customer's individual circumstances (CONC 7 obligation)"
+    - "firm must have a written policy for customers in or approaching arrears (CONC 7.2)"
+    - "interest on the outstanding balance should be frozen or reduced if the customer is making payments under an active repayment arrangement (CONC 7.3.5G — treated as a rule)"
+    - "note: the 30-day debt pursuit suspension (CONC 7.3.11R) applies while a debt counsellor is developing a plan — if the DMP is already signed, this window has already passed; ongoing obligations are CPA suspension, forbearance, and the interest freeze"
+  required_citations:
+    - "CONC 1.3.1G"
+    - "CONC 7.6.7R"
+    - "CONC 7.3"
+  tags: [CONC, financial-difficulties, DMP, CPA, forbearance]
+
+- id: M002
+  question: >
+    Does a peer-to-peer platform operator have a creditworthiness assessment
+    obligation under CONC? How does it differ from the obligation on the
+    individual lender under the P2P agreement?
+  difficulty: medium
+  type: synthesis
+  expected_pages:
+    - conc-creditworthiness-assessment
+  required_facts:
+    - "both the P2P platform operator (CONC 5.5A) and the individual lender under the agreement (CONC 5.2A) have separate and independent creditworthiness assessment obligations"
+    - "neither obligation discharges the other"
+    - "the key structural difference: under CONC 5.2A.36R a lender must not accept an application where it suspects untruthfulness; under CONC 5.5A.37R the platform must inform the prospective lender of suspected untruthfulness — it cannot simply decline without notifying the lender"
+    - "SYSC 8 outsourcing rules apply but the outsourcing firm remains fully responsible"
+  required_citations:
+    - "CONC 5.5A"
+    - "CONC 5.2A"
+    - "CONC 5.5A.37R"
+    - "CONC 5.2A.36R"
+  notes_for_reviewer: >
+    The disclosure-vs-refusal distinction (5.5A.37R vs 5.2A.36R) is the
+    most operationally significant difference. Verify the wiki captures this
+    correctly and that 5.5A.37R is an active disclosure obligation, not a
+    permissive one.
+  tags: [CONC, P2P, creditworthiness, responsible-lending]
+
+- id: M003
+  question: >
+    A BNPL promotion states '0% interest for 12 months — apply in 60 seconds'.
+    What specific CONC 3 rules does this engage and what additional disclosures
+    are required?
+  difficulty: medium
+  type: synthesis
+  expected_pages:
+    - conc-financial-promotions-cfnm
+    - conc-representative-example-apr
+  required_facts:
+    - "'apply in 60 seconds' promotes speed/ease of application — this is an incentive to apply, triggering the representative APR requirement under CONC 3.5.7R(c)"
+    - "the promotion must not omit material risk information about the promotional rate: must disclose that interest will be charged if the balance is not cleared by the end of the promotional period (CONC 3.3.11AR)"
+    - "the post-promotional interest rate must be disclosed or signposted"
+    - "representative APR must be shown as '%APR' and labelled 'representative'"
+  required_citations:
+    - "CONC 3.5.7R"
+    - "CONC 3.3.11AR"
+  tags: [CONC, BNPL, financial-promotions, APR, representative-example]
+
+- id: M004
+  question: >
+    A for-profit debt management firm wants to run paid search ads that appear
+    when users search for 'free debt advice' and 'charity debt help'. What
+    does CONC say about this?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - conc3-financial-promotions
+  required_facts:
+    - "prohibited — firm must not use SEO techniques or paid search tools to direct customers who are searching for free or not-for-profit debt advice into visiting a commercial debt management site"
+    - "firm must not operate a website designed to appear to be from a not-for-profit or free debt advice body when it is in fact commercial"
+    - "the prohibition applies unless the firm is actually a not-for-profit body"
+  required_citations:
+    - "CONC 3.9.7R"
+  tags: [CONC, debt-counsellors, financial-promotions, SEO]
+
+- id: M005
+  question: >
+    A firm has a comprehensive written vulnerability policy signed off at board
+    level. When FCA supervisors test frontline call centre staff, they cannot
+    explain what to do when a customer discloses a mental health condition.
+    What FCA concept does this describe, and why is the written policy
+    insufficient?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - vulnerable-customers
+  required_facts:
+    - "policy/practice gap — a named supervisory failure mode in FG21/1 §3.13"
+    - "having a high-level policy is not sufficient evidence of compliance"
+    - "the harm arises because the policy exists at a level of abstraction that frontline staff cannot translate into specific customer interactions"
+    - "FCA remedies: 'How To' guides and knowledge bases; vulnerability champions; updated staff training relevant to each role; referral routes to specialist teams"
+    - "structurally identical to the Consumer Duty governance failure of siloing the Duty in compliance rather than embedding it across the workforce"
+  required_citations:
+    - "FG21/1 §3.13"
+  tags: [vulnerable-customers, Consumer-Duty, governance, FG21-1]
+
+- id: M006
+  question: >
+    A Consumer Duty annual board report identifies that customers over 70
+    consistently receive worse outcomes than average. What must the board do,
+    and what does FCA guidance say about automatic age-based vulnerability
+    classification?
+  difficulty: medium
+  type: synthesis
+  expected_pages:
+    - vulnerable-customers
+  required_facts:
+    - "the board must agree remedial action before signing off the annual assessment — it cannot sign off while knowing a group is receiving worse outcomes without committing to a remedy"
+    - "blanket age-based vulnerability classification is a named supervisory red line from the FCA's February 2024 implementation review"
+    - "automatically classifying all customers above a certain age as vulnerable fails to tailor support to individual needs — age is relevant but a generalised approach is prohibited"
+    - "the Consumer Duty requires individual-level consideration, not group-level categorisation"
+    - "the board-level Duty champion (ideally an Independent NED) is responsible for ensuring vulnerability is regularly discussed at board level"
+  required_citations:
+    - "FG22/5 §10.12–§10.13"
+    - "FG22/5 §10.10"
+  tags: [Consumer-Duty, vulnerable-customers, governance, FG22-5]
+
+- id: M007
+  question: >
+    A firm processes health information disclosed by customers as part of its
+    Consumer Duty vulnerability monitoring programme. What two distinct legal
+    bases must it identify before doing so, and under which provisions?
+  difficulty: medium
+  type: synthesis
+  expected_pages:
+    - vulnerable-customers
+    - uk-gdpr-lawful-basis
+  required_facts:
+    - "must identify a lawful basis under Article 6 of the UK GDPR"
+    - "must separately identify a condition for processing special category data under Article 9 of the UK GDPR"
+    - "the two bases do not need to be linked to each other"
+    - "health data relating to vulnerability or disability is special category data under Article 9"
+    - "the appropriate Article 9 condition must be identified — explicit consent is one option but not the only one"
+  required_citations:
+    - "FG22/5 §11.40"
+    - "UK GDPR Article 6"
+    - "UK GDPR Article 9"
+  tags: [vulnerable-customers, UK-GDPR, special-category-data, Consumer-Duty]
+
+- id: M008
+  question: >
+    A lender uses a credit reference agency report when assessing a credit
+    application and then declines the application. What must the lender tell
+    the customer about the credit reference agency under CONC?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - conc2-conduct-of-business-general
+  required_facts:
+    - "on declining a regulated credit agreement, the lender must proactively disclose to the credit broker — or directly to the customer if there is no credit broker — the name and address (including an appropriate email address) of any CRA it applied to during negotiations (CONC 2.4.2R)"
+    - "the obligation is triggered by the decline — it is proactive, not conditional on the customer asking"
+    - "the full disclosure is name and address including email, not just the CRA name"
+    - "quotation searches (pre-application credit checks) must use soft footprints that do not affect the customer's credit file (CONC 2.4.3G)"
+  required_citations:
+    - "CONC 2.4.2R"
+    - "CONC 2.4.3G"
+  notes_for_reviewer: >
+    VERIFIED 2026-04-20. The original draft stated 'must provide the customer with the name'
+    — the actual mechanism is lender → credit broker → customer (or lender → customer directly
+    if no broker). The disclosure also includes address + email, not just the name.
+    Proactive on decline confirmed (not on request).
+  tags: [CONC, credit-reference-agencies, consumer-credit]
+
+- id: M009
+  question: >
+    What happens to a consumer debt after five years in Scotland, and how does
+    this differ from the six-year limitation period in England and Wales?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - conc-debt-recovery-treatment
+    - conc7-arrears-default-recovery
+  required_facts:
+    - "in Scotland, after 5 years the debt ceases to exist — it is 'prescribed' under the Prescription and Limitation (Scotland) Act 1973"
+    - "in England and Wales, after 6 years the debt is statute-barred but continues to exist — the creditor loses the right to enforce it, not the debt itself"
+    - "a firm must not pursue a prescribed debt in Scotland — doing so would mean pursuing a debt that no longer legally exists, not merely an unenforceable one"
+    - "CONC 7.15 contains the rules on statute-barred and prescribed debt"
+  required_citations:
+    - "CONC 7.15"
+  tags: [CONC, debt-recovery, statute-barred, Scotland]
+
+- id: M010
+  question: >
+    A lender incorporated and authorised in Germany operates a website offering
+    payday loans to UK residents. Is it subject to CONC?
+  difficulty: medium
+  type: boundary
+  expected_pages:
+    - conc-scope-and-application
+  required_facts:
+    - "yes — CONC applies"
+    - "the jurisdictional trigger is the customer's habitual residence in the UK, not the firm's location or authorisation"
+    - "CONC 1.2.5R is a hard rule — it applies to activities carried on from an establishment outside the UK with a customer whose habitual residence is in the UK"
+    - "a firm incorporated and operating outside the UK that serves UK-resident consumers must comply with CONC"
+  required_citations:
+    - "CONC 1.2.5R"
+  tags: [CONC, scope, jurisdiction, extraterritorial]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# HARD — edge cases, multi-domain, interpretive gotchas
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: H001
+  question: >
+    A payday lender runs an online advertisement for an HCSTC product with the
+    headline 'Pre-approved loans — instant decision, apply now!' No APR is
+    shown, no representative example appears, and no risk warning is included.
+    Enumerate every specific CONC 3 rule this breaches.
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - conc3-financial-promotions
+    - conc-financial-promotions-cfnm
+    - conc-representative-example-apr
+  required_facts:
+    - "CONC 3.4.1R — mandatory HCSTC verbatim risk warning is absent"
+    - "CONC 3.5.7R(c) — 'instant decision' promotes speed/ease of application, which is an incentive to apply, triggering the representative APR requirement even without any direct cost reference"
+    - "CONC 3.3.3R — 'pre-approved' implies credit is available regardless of financial status or creditworthiness, which is prohibited"
+    - "CONC 3.3.1R(e) — the overall promotion conceals material information (APR, risk warning) that a customer would need to make an informed decision"
+  required_citations:
+    - "CONC 3.4.1R"
+    - "CONC 3.5.7R"
+    - "CONC 3.3.3R"
+    - "CONC 3.3.1R"
+  notes_for_reviewer: >
+    VERIFIED 2026-04-20. Confirmed: CONC 3.5.12R (unsecured restricted expressions)
+    does NOT include 'pre-approved' — the five listed are: 'overdraft', 'interest free',
+    'no deposit', 'gift/present', 'weekly equivalent'. 'Pre-approved' and 'loan guaranteed'
+    are restricted expressions under CONC 3.6.8R for secured credit only. For unsecured HCSTC,
+    'pre-approved' is caught via CONC 3.3.3R (no-credit-regardless prohibition) and CONC
+    3.3.1R(e) (concealment). Required_facts are accurate as written.
+  tags: [CONC, HCSTC, financial-promotions, APR, CFNM]
+
+- id: H002
+  question: >
+    A firm makes two CPA payment requests for an HCSTC loan — both are refused
+    by the payment service provider. The customer then calls the firm and verbally
+    agrees to allow a third CPA attempt. Can the firm make the third attempt?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - conc-cpa-rules
+  required_facts:
+    - "no — the firm cannot make the third CPA attempt"
+    - "CONC 7.6.12R prohibits any further CPA request after two refused attempts under the same agreement"
+    - "the exception in CONC 7.6.12R(5) requires three things: the firm contacts the customer, the customer gives express consent, and the agreement has been refinanced"
+    - "verbal consent alone — without a refinancing of the agreement — does not satisfy the exception and does not reset the two-strike count"
+    - "to proceed, the firm must refinance the agreement and then obtain express consent to further CPA requests after the refinancing"
+  required_citations:
+    - "CONC 7.6.12R"
+    - "CONC 7.6.12R(5)"
+  notes_for_reviewer: >
+    VERIFIED 2026-04-20. CONC 7.6.12R(5) confirmed: refinancing is a precondition —
+    the reset requires firm contact + express consent + refinancing. Verbal consent alone
+    does not suffice. Also note: the required_facts state 'the firm contacts the customer'
+    — the rule appears to require firm-initiated contact; a scenario where only the customer
+    calls in may not satisfy this limb (though the refinancing absence makes the answer
+    'no' regardless). Required_facts are accurate; wiki Key Points corrected separately.
+  tags: [CONC, HCSTC, CPA, two-strike]
+
+- id: H003
+  question: >
+    A buy-now-pay-later agreement is an exempt agreement under article 60C(4A)
+    of the Regulated Activities Order. Do the CONC 7.6 continuous payment
+    authority rules apply to it?
+  difficulty: hard
+  type: boundary
+  expected_pages:
+    - conc-cpa-rules
+  required_facts:
+    - "yes — CONC 7.6 applies"
+    - "CONC 7.1.3A R explicitly extends the CPA rules to regulated credit agreements and to exempt agreements under article 60C(4A) RAO"
+    - "this extension was a deliberate widening of CONC 7.6 scope to reach certain BNPL products"
+  required_citations:
+    - "CONC 7.1.3A R"
+  notes_for_reviewer: >
+    VERIFIED 2026-04-20. Article 60C(4A) confirmed by WebSearch against FCA Handbook.
+    CONC 7 applies to credit agreements that are exempt by virtue of article 60C(4A) RAO.
+    Required_facts are accurate.
+  tags: [CONC, BNPL, CPA, scope, RAO]
+
+- id: H004
+  question: >
+    A payday lender's digital ad says 'Borrow £200 for 7 days — only £2 per day'.
+    No APR is shown and no HCSTC risk warning appears. Is this compliant with
+    CONC 3?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - conc-representative-example-apr
+    - conc3-financial-promotions
+  required_facts:
+    - "not compliant"
+    - "'£2 per day' is an indication of the cost of credit, triggering the representative example requirement under CONC 3.5.3R"
+    - "the representative example must include all eight elements including the representative APR — showing daily cost alone is insufficient"
+    - "the mandatory HCSTC verbatim risk warning is absent, which separately breaches CONC 3.4.1R"
+    - "the promotion therefore breaches at minimum CONC 3.5.3R and CONC 3.4.1R"
+  required_citations:
+    - "CONC 3.5.3R"
+    - "CONC 3.4.1R"
+  tags: [CONC, HCSTC, financial-promotions, APR, representative-example]
+
+- id: H005
+  question: >
+    A firm has identified that a legacy product offers poor value and plans to
+    withdraw it. Internal data shows it is held disproportionately by customers
+    with characteristics of vulnerability. What must the firm do before
+    withdrawing the product?
+  difficulty: hard
+  type: synthesis
+  expected_pages:
+    - vulnerable-customers
+    - consumer-duty-products-services
+  required_facts:
+    - "if a manufacturer identifies a serious problem with a product, it must consider the customer impact of withdrawal or suspension before acting unilaterally (PS22/9 §6.10)"
+    - "manufacturers and distributors must consider the needs of customers with characteristics of vulnerability within the target market throughout the product lifecycle — not only at launch (PS22/9 §6.9)"
+    - "where poor value or a product problem is identified, the impact on vulnerable customers is a key factor in deciding what remedial action to take"
+    - "the Consumer Duty products and services outcome imposes lifecycle obligations — ongoing monitoring and review are required, not just point-of-design compliance"
+  required_citations:
+    - "PS22/9 §6.9"
+    - "PS22/9 §6.10"
+  notes_for_reviewer: >
+    UPDATED 2026-04-20. The original draft cited PS22/9 §10.10 and claimed firms 'must
+    engage the FCA' before withdrawing a product — this could not be verified (PS22/9 PDF
+    unreadable; §10.10 not accessible). Required_facts have been reanchored to §6.9 and
+    §6.10, which are verified in the wiki. If you can read PS22/9 §10.10 directly, check
+    whether it adds a proactive FCA engagement obligation for product withdrawal — if confirmed,
+    reinstate as a required_fact. The 'must not withdraw without engaging FCA' claim has been
+    removed until verified.
+  tags: [Consumer-Duty, vulnerable-customers, products-services]
+
+- id: H006
+  question: >
+    A firm's creditworthiness assessment policies are found by the FCA to be
+    non-compliant. Under SM&CR, which individual is personally accountable and
+    what must they demonstrate to avoid personal liability?
+  difficulty: hard
+  type: synthesis
+  expected_pages:
+    - conc-creditworthiness-assessment
+  required_facts:
+    - "the Senior Manager allocated responsibility for creditworthiness assessment in the firm's Statement of Responsibilities"
+    - "creditworthiness assessment policies must be approved by the governing body — the relevant Senior Manager is accountable for ensuring this happens and remains effective"
+    - "under the Duty of Responsibility (FSMA s.66A), the Senior Manager can be held personally liable for a breach in their area of responsibility unless they can show they took reasonable steps to prevent it"
+    - "reasonable steps is a statutory defence — the burden is on the Senior Manager to demonstrate it, not on the FCA to disprove it"
+  required_citations:
+    - "CONC 5.2A.33R"
+    - "FSMA s.66A"
+  tags: [CONC, SM-and-CR, creditworthiness, accountability, senior-managers]
+
+- id: H007
+  question: >
+    During onboarding, a firm's sanctions screening tool flags a potential match
+    against the Consolidated List for a new customer. Simultaneously, the customer
+    discloses they have a cognitive impairment affecting their financial decisions.
+    What obligations run in parallel and is there any conflict between them?
+  difficulty: hard
+  type: synthesis
+  expected_pages:
+    - sanctions-screening
+    - asset-freezes-and-ofsi-licences
+    - conc-mental-capacity-guidance
+  required_facts:
+    - "sanctions: a potential flag is not a confirmed designation — the firm must investigate the match; the freeze obligation is triggered on confirmation, not on the initial flag"
+    - "if the match is confirmed, the firm must freeze assets immediately — this is a mandatory hard obligation that cannot be deferred"
+    - "mental capacity: the firm must presume the customer has capacity and must take steps to assist them before making any exclusionary decision (CONC 2.10.5G)"
+    - "at the investigation stage both obligations run in parallel without direct conflict"
+    - "if the sanctions match is confirmed, the freeze is mandatory and is not overridden by vulnerability obligations — but the firm must still handle communications with the vulnerable customer appropriately"
+    - "tipping-off: if a SAR is filed in connection with the sanctions investigation, the firm must not disclose to the customer that a SAR has been filed or that the matter is under investigation"
+  required_citations:
+    - "CONC 2.10.4G"
+    - "CONC 2.10.5G"
+  notes_for_reviewer: >
+    Known BM25 ceiling: the derived synthesis page pi-emi-consumer-duty-and-sanctions-obligations
+    dominates single-query retrieval because it explicitly covers the sanctions + Consumer Duty
+    intersection. conc-mental-capacity-guidance will not surface in top-3 via a single query.
+    This question requires a multi-step workflow: initial search returns the derived page,
+    then get_related traversal reaches the concept pages. Do not attempt to fix via wiki edits —
+    treat as a documented architectural limit of single-query BM25 retrieval.
+  tags: [sanctions, AML, vulnerable-customers, mental-capacity, onboarding]

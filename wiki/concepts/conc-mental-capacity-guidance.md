@@ -142,7 +142,7 @@ This is a critical point: affordability alone does not settle the question. A pr
 ## Key Points for Agents
 
 - Presume capacity. Do not assume a customer lacks mental capacity because they have a listed condition — each decision must be assessed individually at the time it is made.
-- Nine indicators in CONC 2.10.8G give a practical checklist for when reasonable suspicion arises. The most operationally significant: customer cannot understand what they are applying for; behaviour out of character; third-party concern raised.
+- Nine indicators in CONC 2.10.8G give a practical checklist for when reasonable suspicion arises. The most operationally significant: customer cannot understand what they are applying for; behaviour out of character; third-party concern raised. Cognitive impairment, learning disabilities, and mental health conditions are all recognised triggers.
 - The duty is to assist, not exclude. Where limitation is suspected, the firm must take reasonable steps to help the customer make a decision before treating them as lacking capacity.
 - Apply high scrutiny to the creditworthiness assessment. Do not over-rely on the customer's own declarations about income, expenditure, or circumstances.
 - Affordability does not settle suitability. A firm must not provide credit it knows or believes to be unsuitable to the customer's needs — even if it would pass the affordability test.
