@@ -29,7 +29,7 @@ Three operations defined in `CLAUDE.md`:
 
 ## What's in the Wiki
 
-**88 articles** (56 concepts, 28 summaries, 4 derived) across seven regulatory domains, plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
+**94 articles** (60 concepts, 30 summaries, 4 derived) across seven regulatory domains, plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -188,11 +188,12 @@ fin-regbase/
 ├── wiki/
 │   ├── index.md            # Master index — start here for any query
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (56 pages)
-│   ├── summaries/          # Per-document summaries (28 pages)
+│   ├── concepts/           # Core regulatory concepts (60 pages)
+│   ├── summaries/          # Per-document summaries (30 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
 ├── agents/                 # Runtime query wrappers/clients
 ├── mcp-server/             # MCP server implementation (tooling for wiki access)
+├── evals/                  # Retrieval eval questions, runner, and results
 ├── design.md               # Architecture, philosophy, rollout plan
 ├── mcp-design.md           # MCP architecture and rollout notes
 └── README.md
