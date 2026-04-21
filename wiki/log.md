@@ -1450,3 +1450,132 @@ Verified all 8 items flagged in `notes_for_reviewer` via FCA Handbook WebSearch 
 - `concepts/conc-cpa-rules.md` Key Points: corrected internal contradiction — "resets on forbearance but not on refinance" was wrong; updated to reflect that 7.6.12R(5) also allows reset via firm contact + express consent + refinancing
 
 All `notes_for_reviewer` fields updated to VERIFIED status or flagged with residual uncertainty.
+
+## 2026-04-21 lint (pass 22)
+
+**Scope:** 95 pages (91 wiki pages from prior session + 4 new PRIN pages)
+
+**Check 1 — Wikilink integrity:** PASS. One non-actionable broken link in `log.md` line 7 (`[[wikilinks]]` — meta-text, not an internal link). No broken wikilinks in any wiki page.
+
+**Check 2 — Orphan/near-orphan detection:** PASS. All pages including new PRIN pages have inbound references. No orphans, no near-orphans.
+
+**Check 3 — Frontmatter ↔ body consistency (Related Articles scope only):** PASS. No FM→body or body→FM gaps in the `## Related Articles` sections.
+
+**Check 4 — New PRIN pages cross-reference audit:** ACTION TAKEN. All 11 proposed fixes applied.
+
+Issues found and fixed (11 total across 11 pages):
+
+| # | File | Fix |
+|---|------|-----|
+| C1 | `concepts/consumer-duty-overview.md` | Added `[[prin2a-consumer-duty]]`, `[[prin-principles-overview]]` to FM + body |
+| C2 | `concepts/consumer-duty-cross-cutting-rules.md` | Added `[[prin2a-consumer-duty]]` to FM + body |
+| C3 | `concepts/consumer-duty-products-services.md` | Added `[[prin2a-consumer-duty]]` to FM + body |
+| C4 | `concepts/consumer-duty-price-value.md` | Added `[[prin2a-consumer-duty]]` to FM + body |
+| C5 | `concepts/consumer-duty-consumer-understanding.md` | Added `[[prin2a-consumer-duty]]` to FM + body |
+| C6 | `concepts/consumer-duty-consumer-support.md` | Added `[[prin2a-consumer-duty]]` to FM + body |
+| C7 | `summaries/ps22-9-policy-statement.md` | Added `[[prin2a-consumer-duty]]`, `[[prin-principles-overview]]` to FM + body |
+| C8 | `summaries/fg22-5-guidance.md` | Added `[[prin2a-consumer-duty]]` to FM + body |
+| C9 | `concepts/conc-scope-and-application.md` | Added `[[prin3-rules-about-application]]` to FM + body |
+| C10 | `derived/pi-emi-consumer-duty-and-sanctions-obligations.md` | Added `[[prin3-rules-about-application]]`, `[[prin2a-consumer-duty]]` to FM + body |
+| C11 | `concepts/smcr-senior-managers-regime.md` | Added `[[prin1-2-introduction-principles]]` to FM + body |
+
+Post-fix inbound link counts for new PRIN pages:
+- `prin2a-consumer-duty`: 10 inbound links
+- `prin3-rules-about-application`: 4 inbound links
+- `prin-principles-overview`: 4 inbound links
+- `prin1-2-introduction-principles`: 3 inbound links
+
+**Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps
+
+## 2026-04-20 ingest | FCA Handbook — PRIN 1, 2, 2A, 3 (Principles for Businesses)
+
+Sources:
+- `raw/fca-handbook/PRIN 1 Introduction.pdf` (11pp) — application/purpose, fit and proper, group activities, worldwide scope, breach consequences, ECP Annex
+- `raw/fca-handbook/PRIN 2 The Principles.pdf` (4pp) — the 12 Principles hard rule table
+- `raw/fca-handbook/PRIN 2A The Consumer Duty.pdf` (41pp) — full Consumer Duty sourcebook
+- `raw/fca-handbook/PRIN 3 Rules about application.pdf` (12pp) — who/what/where Principles apply
+
+Pages created (4):
+- `wiki/summaries/prin1-2-introduction-principles.md` — PRIN 1.1 (application, purpose, fit and proper, group activities, worldwide scope, breach consequences); PRIN 1.2 (clients and Principles, acting through agent); PRIN 1 Annex 1 (ECP classification — 8 eligible types, large corporate test, written notice requirements); PRIN 2.1.1R (all 12 Principles table)
+- `wiki/summaries/prin2a-consumer-duty.md` — PRIN 2A in full: three cross-cutting rules; PRIN 2A.2.26R (cross-cutting rules exhaust P12); products and services outcome; price and value outcome; consumer understanding outcome; consumer support outcome; monitoring and assessment; PRIN 2A.8.4R (annual governing body outcomes review); PRIN 2A.9 distribution chains — PRIN 2A.9.4R (information sharing), PRIN 2A.9.6R (manufacturer monitoring), PRIN 2A.9.17R (FCA notification duty); PRIN 2A.10 (closed products); PRIN 2A.11.4R (due diligence on business acquisition); PRIN 2A.12 (cumulative relationship lens)
+- `wiki/summaries/prin3-rules-about-application.md` — PRIN 3.1.1AR (EMIs/PIs/RAISPs within PRIN); PRIN 3.1.8G (PSR/EMD conflict resolution); PRIN 3.2.6R (P12 activity scope — 8 sourcebooks); PRIN 3.2.7R (distribution chain scoping); PRIN 3.2.8R (P12 outer boundary); PRIN 3.2.10R (P6/P7 displacement by P12); PRIN 3.3.1R (territorial scope — "located" vs "habitually resident"); PRIN 3.4.-1R (ECP unavailable for credit/PSR/EMD); PRIN 3.4.3AR (guarantors as retail customers); PRIN 3.4.4R (no private right of action)
+- `wiki/concepts/prin-principles-overview.md` — all 12 Principles; territorial reach table; P6/P7 displacement; group activities; P12 activity scope; ECP business; no private right of action; EMIs/PIs/RAISPs within PRIN
+
+Pages updated (2):
+- `wiki/concepts/consumer-principle.md` — updated frontmatter (added PRIN sources; updated last_updated to 2026-04-20); updated P6/P7 section to add PRIN 3.2.10R citation as the binding rule; added 5 new sections: outer scope boundary (PRIN 3.2.8R), cross-cutting rules exhaust P12 (PRIN 2A.2.26R), guarantors as retail customers (PRIN 3.4.3AR), no private right of action (PRIN 3.4.4R), FCA notification duty in distribution chains (PRIN 2A.9.17R); updated Key Points for Agents and Related Articles
+- `wiki/index.md` — added new "UK — FCA Principles for Businesses (PRIN)" section (3 summaries + 1 concept) before the Consumer Duty section; updated consumer-principle.md index summary to reflect new content and source count (1 → 8)
+
+Notes:
+- **Primary contradictions/gaps resolved:** The existing `consumer-principle.md` attributed P6/P7 disapplication to PS22/9 §4.12 only, without citing the binding hard rule PRIN 3.2.10R. Both citations now present. No factual contradiction — the policy statement and the rule are consistent.
+- **PRIN 3.4.4R (no private right of action)** was entirely absent from the wiki. This is the most operationally significant addition: PRIN/Consumer Duty breaches do not give retail customers a FSMA s.138D damages claim. Consumer remedies are FOS, FCA enforcement, and separate private law claims.
+- **PRIN 3.4.3AR (guarantors)** was entirely absent. Guarantors under regulated credit/consumer hire/P2P agreements are retail customers for P12/PRIN 2A — even though CONC's habitual residence test (CONC 1.2.5R) contains no equivalent extension. The two tests operate independently.
+- **PRIN 3.3.1R ("located" vs "habitually resident")** was absent. P12 applies where retail customers are *located* in the UK — a wider territorial trigger than CONC 1.2.5R's habitual residence test. `conc-scope-and-application.md` continues to be correct on CONC's test; the PRIN 3.3.1R test applies separately for P12 scope.
+- **PRIN 2A.2.26R (cross-cutting rules exhaust P12)** was absent — there is no residual P12 obligation beyond PRIN 2A.2–2A.6. This eliminates potential over-reach in compliance assessments that treat Principle 12 text as a source of additional obligations beyond the PRIN 2A rules.
+- **PRIN 2A.9.17R (FCA notification duty)** was absent — a firm in a distribution chain that becomes aware another firm may be breaching P12/PRIN 2A must notify the FCA immediately, with no materiality threshold.
+- **PRIN 3.1.1AR (EMIs/PIs/RAISPs within PRIN)** confirms that payment institutions and e-money institutions are expressly brought within PRIN — not merely by PSR/EMD obligations but by a hard rule in PRIN itself. `conc-scope-and-application.md` and `pi-emi-consumer-duty-and-sanctions-obligations.md` remain consistent — this adds the PRIN-side source rule.
+- PRIN 2A is the Handbook binding form of the Consumer Duty. Existing Consumer Duty pages (based on PS22/9 and FG22/5) were consistent with PRIN 2A but lacked PRIN citations for hard-rule obligations. The new PRIN 2A summary page adds those citations; existing concept pages were not rewritten as they remain factually accurate.
+
+Flagged for future ingest:
+- Pre-existing gaps (FCTR 15, JMLSG Part III, FCA PEP Treatment Review July 2024, FATF) — no change
+
+## 2026-04-21 ingest | FCA Handbook — DISP 1 Treating Complainants Fairly (April 2026)
+
+Source: `raw/fca-handbook/DISP 1 Treating complainants fairly.pdf` (FCA Handbook, April 2026, 74pp)
+
+Sections covered: DISP 1.1 (scope — including PSP/EMI extension and DCA motor finance carve-out), DISP 1.1A (MiFID complaints), DISP 1.2 (consumer awareness), DISP 1.3 (handling rules — call charges, root cause analysis, proactive redress, named individual), DISP 1.4 (resolution rules), DISP 1.5 (3-business-day track), DISP 1.6 (time limit rules — 8-week and 15/35-BD EMD/PSD tracks), DISP 1.7 (forwarding rules), DISP 1.8 (time barring), DISP 1.9 (record rule), DISP 1.10 (complaints reporting — bi-annual, Annex 1R), DISP 1.10A (data publication), DISP 1.10B (PSP/EMI separate annual reporting — Annex 1AD, all users not just eligible complainants), DISP 1.11 (Lloyd's — structure only). Annexes 1AA, 1AB, 1AC, 1AD, 1B reviewed for format requirements.
+
+Pages created (2):
+- `wiki/summaries/disp1-treating-complainants-fairly.md` — full DISP 1 sourcebook summary covering all sections from 1.1 to 1.10B
+- `wiki/concepts/complaints-handling-framework.md` — operational detail on the five most important facts: dual timeline system, 3-day track, root cause analysis as hard rule, named SMF compliance owner, DISP 1.10B separate PSP/EMI reporting scope
+
+Pages updated (1):
+- `wiki/index.md` — new section "UK — FCA Dispute Resolution (DISP)" added
+
+Key new facts not previously in the wiki:
+1. **Dual timelines**: 8 weeks (standard, DISP 1.6.2R) vs 15 business days / 35 business days (EMD/PSD complaints, DISP 1.6.2AR) — hard rules; previously no DISP timeline content in wiki
+2. **3-day track** (DISP 1.5): exempt from time limit + forwarding rules; summary resolution communication required (not a final response); acceptance need not be in writing
+3. **Root cause analysis is a hard rule** (DISP 1.3.3R): extends to products and processes not directly complained about; requires MI, senior reporting, and proactive remediation consideration for non-complainants
+4. **Named SMF-level individual** (DISP 1.3.7R): firm must appoint FCA governing function holder (or limited scope function holder) as DISP 1 compliance owner — distinct from SM&CR PRs and Consumer Duty board champion
+5. **DISP 1.10B** (PSP/EMI separate annual Annex 1AD return): broader scope than eligible complainants — covers all payment service users; reporting period is annual (not bi-annual); entirely absent from prior wiki
+
+Notes:
+- No contradictions with existing wiki pages. The `pi-emi-consumer-duty-and-sanctions-obligations.md` derived page referenced DISP in passing (DISP App 5 for motor finance) but contained no substantive DISP 1 obligations — the new pages add that coverage without contradicting existing content.
+- DISP 1.3.7R (named individual) bridges DISP and SM&CR: for FSMA-authorised firms the complaints compliance owner must be an SMF or limited scope function holder. The `smcr-senior-managers-regime.md` page does not mention this DISP-side requirement. Cross-reference added via new pages' Related Articles; `smcr-senior-managers-regime.md` not modified (the requirement exists in DISP, not in SM&CR sourcebook).
+- MiFID complaints (DISP 1.1A) extend obligations to ECPs — the only area of the DISP framework where obligations run beyond the eligible complainant population in a retail-protection context. Relevant to MiFID firms; wiki previously had no DISP content covering ECPs.
+
+Flagged for future ingest:
+- DISP 2 (FOS jurisdiction, eligible complainants, time limits) — required for a complete complaints picture
+- DISP 3 (FOS complaint handling procedure)
+- DISP App 5 (motor finance DCA complaints — modified procedures)
+- DISP 1 Annex 3 (prescribed FOS waiver wording referenced in summary resolution communications)
+
+## 2026-04-21 lint (pass 23)
+
+**Scope:** 97 pages (95 prior + 2 new DISP pages)
+
+**Check 1 — Wikilink integrity:** PASS. No broken wikilinks in any wiki page.
+
+**Check 2 — Orphan/near-orphan detection:** PASS after fixes. New DISP pages had 0 inbound links prior to fixes; resolved by C4–C10.
+
+**Check 3 — Frontmatter ↔ body consistency:** PASS.
+
+**Check 4 — New DISP pages cross-reference audit:** 9 findings. All fixed.
+
+| # | Priority | Type | Location | Finding | Fix |
+|---|----------|------|----------|---------|-----|
+| C1 | HIGH | Contradiction | `concepts/psr-regulatory-reporting.md:67` | DISP 1 Annex 1AD row: wrong scope ("retail customers only"), wrong period ("1 Jul–30 Jun"), wrong deadline ("30 days after 30 June"). DISP 1.10B.9D sets period = accounting reference year (or 31 Dec); DISP 1.10B.10D = 30 business days after period end; DISP 1.10B.2G = all payment service users not retail only | Corrected scope, period, deadline; added [[disp1-treating-complainants-fairly]] link; added DISP tags and FM related |
+| C2 | High | Near-orphan | `summaries/disp1-treating-complainants-fairly.md` | 0 inbound links | Resolved by C4, C7, C8, C10 |
+| C3 | High | Near-orphan | `concepts/complaints-handling-framework.md` | 0 inbound links | Resolved by C6, C9 |
+| C4 | High | Missing cross-ref | `summaries/conc1-application-purpose.md:29` | "complaints handling is in DISP" — no link | Added [[disp1-treating-complainants-fairly]] wikilink + FM related |
+| C5 | High | Missing cross-ref | `concepts/psr-regulatory-reporting.md:67` | DISP 1 Annex 1AD row — no link | Folded into C1 fix |
+| C6 | Medium | Missing cross-ref | `derived/fca-consumer-duty-implementation-review-2024.md:48` | "root-cause analysis of complaints" — no link to DISP 1.3.3R obligation | Added [[complaints-handling-framework]] inline + FM related |
+| C7 | Medium | Missing cross-ref | `summaries/conc7-arrears-default-recovery.md:283` | FOS complaint reference — no link | Added [[disp1-treating-complainants-fairly]] + FM related |
+| C8 | Medium | Missing cross-ref | `concepts/consumer-duty-overview.md:125` | FOS redress route — no link | Added [[disp1-treating-complainants-fairly]] + FM related |
+| C9 | Low | Missing cross-ref | `concepts/consumer-duty-consumer-support.md:72` | "making a complaint" as sludge deterrent — no link | Added [[complaints-handling-framework]] + FM related |
+| C10 | Low | Missing cross-ref | `summaries/fca-approach-payment-services-electronic-money.md:68` | "complaints" in reporting forms list — no link | Added [[disp1-treating-complainants-fairly]] + FM related |
+
+Post-fix inbound link counts:
+- `disp1-treating-complainants-fairly`: 6 inbound links (complaints-handling-framework, conc1-application-purpose, psr-regulatory-reporting, conc7-arrears-default-recovery, consumer-duty-overview, fca-approach-payment-services-electronic-money)
+- `complaints-handling-framework`: 3 inbound links (disp1-treating-complainants-fairly, fca-consumer-duty-implementation-review-2024, consumer-duty-consumer-support)
+
+**Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 1 contradiction fixed

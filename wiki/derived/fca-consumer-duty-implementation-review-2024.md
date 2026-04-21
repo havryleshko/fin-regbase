@@ -26,6 +26,7 @@ related:
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - summaries/fcg3-money-laundering-terrorist-financing.md
   - concepts/aml-ctf-framework.md
+  - concepts/complaints-handling-framework.md
 ---
 
 # FCA Consumer Duty Implementation Review — Good Practice and Areas for Improvement (February 2024)
@@ -45,7 +46,7 @@ The FCA states explicitly: firms should aim to **continuously address issues** t
 ### Good Practice Observed
 
 - Firms altering their stated company purpose to signal to staff that actions and behaviour should focus on customer outcomes.
-- Accelerating business changes to deliver better outcomes — including greater attention to call abandonment rates, root-cause analysis of complaints, and customer satisfaction surveys, with action taken to improve standards.
+- Accelerating business changes to deliver better outcomes — including greater attention to call abandonment rates, root-cause analysis of complaints (see [[complaints-handling-framework]] for the DISP 1.3.3R hard rule on root cause analysis), and customer satisfaction surveys, with action taken to improve standards.
 - Ensuring responsibility for good customer outcomes is understood across the whole business — not just risk and compliance, but product design through to post-sale support.
 - Increased board-level focus on the customer, with senior leadership giving serious consideration to what the Duty means in practice and culturally.
 - Updating staff bonus structures to align incentivisation with the aims of the Duty.

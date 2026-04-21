@@ -31,6 +31,8 @@ related:
   - concepts/smcr-senior-managers-regime.md
   - concepts/agent-distributor-oversight.md
   - concepts/operational-resilience.md
+  - summaries/prin3-rules-about-application.md
+  - summaries/prin2a-consumer-duty.md
 ---
 
 # Payment Institutions and EMIs — Overlapping Consumer Duty and UK Sanctions Obligations
@@ -196,3 +198,5 @@ This means the firm's compliance architecture must be designed so that:
 - [[psr-emi-prudential]]
 - [[agent-distributor-oversight]]
 - [[operational-resilience]]
+- [[prin3-rules-about-application]]
+- [[prin2a-consumer-duty]]

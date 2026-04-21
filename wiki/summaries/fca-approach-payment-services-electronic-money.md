@@ -21,6 +21,7 @@ related:
   - concepts/wind-down-planning.md
   - concepts/agent-distributor-oversight.md
   - concepts/aml-ctf-framework.md
+  - summaries/disp1-treating-complainants-fairly.md
 ---
 
 # FCA Approach Document — Payment Services and Electronic Money (v7, March 2026)
@@ -65,7 +66,7 @@ See [[safeguarding-pis-emis]] for the full framework.
 
 ## Chapter 13 — Reporting and Notifications
 
-All PSPs and EMIs must make periodic regulatory returns and event-based notifications to the FCA. 10+ mandatory forms cover capital adequacy, fraud, operational/security risk, dedicated interface performance, complaints, financial crime, and controller/close-link changes.
+All PSPs and EMIs must make periodic regulatory returns and event-based notifications to the FCA. 10+ mandatory forms cover capital adequacy, fraud, operational/security risk, dedicated interface performance, [[disp1-treating-complainants-fairly|complaints]], financial crime, and controller/close-link changes.
 
 **Major operational/security incident notification:** initial notification within 4 hours of becoming aware the incident qualifies as major. **(FCA Approach Document §13; SUP 15.14)**
 

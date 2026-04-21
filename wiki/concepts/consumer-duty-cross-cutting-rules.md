@@ -25,6 +25,7 @@ related:
   - concepts/sludge-and-friction.md
   - summaries/fg22-5-guidance.md
   - derived/fca-consumer-duty-implementation-review-2024.md
+  - summaries/prin2a-consumer-duty.md
 ---
 
 # FCA Consumer Duty — Cross-Cutting Rules
@@ -162,3 +163,4 @@ Where the Duty is driven primarily by programme or compliance teams and not disc
 - [[sludge-and-friction]]
 - [[fg22-5-guidance]]
 - [[fca-consumer-duty-implementation-review-2024]]
+- [[prin2a-consumer-duty]]

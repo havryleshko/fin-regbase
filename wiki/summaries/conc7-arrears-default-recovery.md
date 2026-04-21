@@ -32,6 +32,7 @@ related:
   - concepts/conc-financial-difficulty-indicators.md
   - concepts/conc-creditworthiness-assessment.md
   - summaries/conc5-responsible-lending.md
+  - summaries/disp1-treating-complainants-fairly.md
   - concepts/vulnerable-customers.md
   - concepts/smcr-senior-managers-regime.md
 ---
@@ -280,7 +281,7 @@ See **[[conc-debt-recovery-treatment]]** for full detail. Summary:
 - **CONC 7.15.6R:** Must not mislead a customer about their rights and obligations.
 - **CONC 7.15.8R:** Must not continue demanding payment after the customer states they will not pay because the debt is statute barred.
 - **CONC 7.15.9R:** Must identify statute barred debts for prospective purchasers.
-- **CONC 7.15.10R:** Must not initiate legal proceedings where the lender is aware of a valid complaint being considered by the Financial Ombudsman Service.
+- **CONC 7.15.10R:** Must not initiate legal proceedings where the lender is aware of a valid complaint being considered by the [[disp1-treating-complainants-fairly|Financial Ombudsman Service]].
 
 ---
 

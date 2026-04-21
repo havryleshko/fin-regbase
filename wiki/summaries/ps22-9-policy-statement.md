@@ -24,6 +24,8 @@ related:
   - concepts/prod-product-governance.md
   - concepts/smcr-conduct-rules.md
   - concepts/smcr-senior-managers-regime.md
+  - summaries/prin2a-consumer-duty.md
+  - concepts/prin-principles-overview.md
 ---
 
 # FCA PS22/9 — A New Consumer Duty: Feedback to CP21/36 and Final Rules
@@ -106,3 +108,5 @@ The FCA chose **not to attach a private right of action** to any part of the Dut
 - [[prod-product-governance]]
 - [[smcr-conduct-rules]]
 - [[smcr-senior-managers-regime]]
+- [[prin2a-consumer-duty]]
+- [[prin-principles-overview]]

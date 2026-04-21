@@ -28,6 +28,7 @@ related:
   - summaries/mifid-ii-product-governance-review-2021.md
   - concepts/advice-suitability-cobs9.md
   - summaries/fca-assessing-suitability-review-2017.md
+  - summaries/prin2a-consumer-duty.md
 ---
 
 # FCA Consumer Duty — Products and Services Outcome
@@ -149,3 +150,4 @@ The FCA identified the following products and services failures specific to this
 - [[mifid-ii-product-governance-review-2021]]
 - [[advice-suitability-cobs9]]
 - [[fca-assessing-suitability-review-2017]]
+- [[prin2a-consumer-duty]]

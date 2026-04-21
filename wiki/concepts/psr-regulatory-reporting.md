@@ -8,7 +8,7 @@ effective_date: 2017-01-13
 last_updated: 2026-04-16
 sources:
   - "FCA Approach Document (Payment Services and Electronic Money) v7, March 2026 — Chapter 13"
-tags: [regulatory-reporting, FSA056, REP017, REP018, REP020, NOT002, NOT003, NOT005, PSRs, EMRs, payment-institutions, EMI, ASPSP, fraud-reporting, major-incident, UK, FCA, SUP]
+tags: [regulatory-reporting, FSA056, REP017, REP018, REP020, NOT002, NOT003, NOT005, PSRs, EMRs, payment-institutions, EMI, ASPSP, fraud-reporting, major-incident, DISP, complaints, UK, FCA, SUP]
 related:
   - summaries/fca-approach-payment-services-electronic-money.md
   - concepts/psr-open-banking-pisp-aisp.md
@@ -18,6 +18,7 @@ related:
   - concepts/psr-capital-requirements.md
   - concepts/operational-resilience.md
   - concepts/aml-ctf-framework.md
+  - summaries/disp1-treating-complainants-fairly.md
 ---
 
 # Regulatory Reporting and Notifications — PSRs 2017 and EMRs 2011
@@ -64,7 +65,7 @@ All PSPs and EMIs subject to FCA supervision must make periodic returns and even
 
 | Form | Who | Frequency | Deadline | Content |
 |------|-----|-----------|----------|---------|
-| **DISP 1 Annex 1AD** | All PSPs providing payment services to retail customers | Annual | 30 days after 30 June (reporting period: 1 Jul–30 Jun) | Volume of complaints by product/service; resolution rates; FOS referrals |
+| **DISP 1 Annex 1AD** | EMIs, PIs, RAISPs, and credit institutions issuing e-money or providing payment services | Annual | 30 business days after end of accounting reference year (or year ending 31 Dec where no ARD) *(DISP 1.10B.10D)* | Volume of complaints by product/service; resolution rates; **covers all payment service users, not retail only** *(DISP 1.10B.2G)* — see [[disp1-treating-complainants-fairly]] |
 
 ### Controller and Close Links Changes
 

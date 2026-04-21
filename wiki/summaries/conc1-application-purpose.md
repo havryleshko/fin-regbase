@@ -16,6 +16,7 @@ related:
   - concepts/conc-financial-difficulty-indicators.md
   - concepts/consumer-duty-overview.md
   - concepts/agent-distributor-oversight.md
+  - summaries/disp1-treating-complainants-fairly.md
 ---
 
 # CONC 1 — Application, Purpose and Guidance on Financial Difficulties
@@ -26,7 +27,7 @@ CONC 1 is the opening chapter of the FCA's Consumer Credit sourcebook. It sets o
 
 ## CONC 1.1 — Application and Purpose
 
-CONC is the specialist sourcebook for credit-related regulated activities **(CONC 1.1.1G)**. It adds to and builds on higher-level obligations in PRIN, GEN, SYSC and the Consumer Credit Act 1974 (CCA). Other Handbook sourcebooks also apply: complaints handling is in DISP, supervision and reporting in SUP, and client money rules in CASS **(CONC 1.1.3G)**.
+CONC is the specialist sourcebook for credit-related regulated activities **(CONC 1.1.1G)**. It adds to and builds on higher-level obligations in PRIN, GEN, SYSC and the Consumer Credit Act 1974 (CCA). Other Handbook sourcebooks also apply: complaints handling is in [[disp1-treating-complainants-fairly|DISP]], supervision and reporting in SUP, and client money rules in CASS **(CONC 1.1.3G)**.
 
 CONC 1.1.4G explicitly reminds firms that all nine Principles for Businesses apply to credit-related activities. The list includes Principle 12 (act to deliver good outcomes for retail customers, including PRIN 2A — Consumer Duty). This is the CONC-internal confirmation that Consumer Duty applies to all CONC-regulated firms.
 

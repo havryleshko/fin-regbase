@@ -24,6 +24,8 @@ related:
   - derived/fca-supervisory-questions-consumer-duty.md
   - derived/fca-consumer-duty-implementation-review-2024.md
   - concepts/operational-resilience.md
+  - summaries/prin2a-consumer-duty.md
+  - concepts/complaints-handling-framework.md
 ---
 
 # FCA Consumer Duty — Consumer Support Outcome
@@ -68,7 +70,7 @@ Each firm in the distribution chain is responsible for consumer support **within
 
 FG22/5 Chapter 9 operationalises the unreasonable barriers standard using the concepts of sludge and positive friction. See [[sludge-and-friction]] for full detail. The key principles:
 
-**Sludge (harmful friction):** Firms must not create friction points in customer journeys that deter customers from taking actions in their interests — such as cancelling, switching, making a complaint, or accessing a product benefit. Sludge can arise from commercial design or from negligent inattention to exit processes. **(FG22/5 §9.25)**
+**Sludge (harmful friction):** Firms must not create friction points in customer journeys that deter customers from taking actions in their interests — such as cancelling, switching, making a [[complaints-handling-framework|complaint]], or accessing a product benefit. Sludge can arise from commercial design or from negligent inattention to exit processes. **(FG22/5 §9.25)**
 
 **Positive friction (beneficial friction):** Additional steps in a customer journey that protect customers from harm — for example, requiring a customer to watch an educational video on investment risk before an execution-only transaction — are not unreasonable barriers. Firms must be able to justify and evidence the customer benefit of each friction point. **(FG22/5 §9.21, §9.24)**
 
@@ -138,3 +140,4 @@ See [[fca-supervisory-questions-consumer-duty]] for the full set across all outc
 - [[fca-supervisory-questions-consumer-duty]]
 - [[fca-consumer-duty-implementation-review-2024]]
 - [[operational-resilience]]
+- [[prin2a-consumer-duty]]

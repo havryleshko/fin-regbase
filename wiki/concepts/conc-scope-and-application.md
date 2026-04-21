@@ -21,6 +21,7 @@ related:
   - concepts/conc-debt-recovery-treatment.md
   - summaries/conc3-financial-promotions.md
   - concepts/conc-financial-promotions-cfnm.md
+  - summaries/prin3-rules-about-application.md
 ---
 
 # CONC — Scope and Application
@@ -116,3 +117,4 @@ Creditors and credit intermediaries under MCD article 3(1)(b) — primarily non-
 - [[conc-debt-recovery-treatment]]
 - [[conc3-financial-promotions]]
 - [[conc-financial-promotions-cfnm]]
+- [[prin3-rules-about-application]]

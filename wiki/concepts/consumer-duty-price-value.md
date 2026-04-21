@@ -25,6 +25,7 @@ related:
   - concepts/prod-product-governance.md
   - concepts/costs-charges-disclosure.md
   - summaries/fca-costs-charges-disclosure-review-2019.md
+  - summaries/prin2a-consumer-duty.md
 ---
 
 # FCA Consumer Duty — Price and Value Outcome
@@ -129,3 +130,4 @@ The FCA identified the following price and value failures specific to wealth man
 - [[prod-product-governance]]
 - [[costs-charges-disclosure]]
 - [[fca-costs-charges-disclosure-review-2019]]
+- [[prin2a-consumer-duty]]

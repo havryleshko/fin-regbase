@@ -25,6 +25,7 @@ related:
   - derived/consumer-understanding-digital-notifications.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - concepts/costs-charges-disclosure.md
+  - summaries/prin2a-consumer-duty.md
 ---
 
 # FCA Consumer Duty — Consumer Understanding Outcome
@@ -145,3 +146,4 @@ See [[fca-supervisory-questions-consumer-duty]] for the full set across all outc
 - [[consumer-understanding-digital-notifications]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[costs-charges-disclosure]]
+- [[prin2a-consumer-duty]]

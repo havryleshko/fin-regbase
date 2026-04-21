@@ -6,6 +6,24 @@ Claude Code reads this file first on every query to identify relevant pages.
 
 ---
 
+## UK — FCA Principles for Businesses (PRIN)
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/prin1-2-introduction-principles.md](summaries/prin1-2-introduction-principles.md) | PRIN 1–2: application/purpose; fit and proper link; group activities (P3/P4/P11); worldwide scope; breach consequences (fault standard per Principle); ECP classification (PRIN 1 Annex 1 — eligible types and requirements; not available for credit/PSR/EMD); all 12 Principles table | 4 |
+| [summaries/prin2a-consumer-duty.md](summaries/prin2a-consumer-duty.md) | PRIN 2A: three cross-cutting rules (good faith, avoid foreseeable harm, enable financial objectives); PRIN 2A.2.26R (cross-cutting rules exhaust P12); four outcome rules; PRIN 2A.8.4R (annual governing body outcomes review); PRIN 2A.9.17R (FCA notification duty in distribution chains); PRIN 2A.9.4R (information sharing obligation); PRIN 2A.11.4R (due diligence on business acquisition); closed products; guarantors as retail customers | 12 |
+| [summaries/prin3-rules-about-application.md](summaries/prin3-rules-about-application.md) | PRIN 3: P12 activity scope (PRIN 3.2.6R — 8 listed sourcebooks); P12 outer boundary (PRIN 3.2.8R); distribution chain scoping (PRIN 3.2.7R — determines/materially influences); P6/P7 displacement (PRIN 3.2.10R); territorial scope ("located" vs "habitually resident"); ECP unavailability for credit/PSR/EMD (PRIN 3.4.-1R); guarantors as retail customers (PRIN 3.4.3AR); no private right of action (PRIN 3.4.4R); EMIs/PIs/RAISPs within PRIN (PRIN 3.1.1AR) | 4 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/prin-principles-overview.md](concepts/prin-principles-overview.md) | All 12 Principles (hard Rules, PRIN 2.1.1R); territorial reach table (P4/P11 worldwide; P12 "located in UK"); P6/P7 displacement by P12 (PRIN 3.2.10R); group activities (P3/P4/P11); P12 activity scope; ECP business (P7 non-misleading only; ECP unavailable for credit/PSR/EMD); no private right of action (PRIN 3.4.4R); EMIs/PIs/RAISPs explicitly caught (PRIN 3.1.1AR) | 6 |
+
+---
+
 ## UK — FCA Consumer Duty
 
 ### Summaries
@@ -22,7 +40,7 @@ Claude Code reads this file first on every query to identify relevant pages.
 | Page | Summary | Sources |
 |------|---------|---------|
 | [concepts/consumer-duty-overview.md](concepts/consumer-duty-overview.md) | High-level overview of the Duty's three-layer structure, scope, sector-specific retail customer definitions, evidence requirement, and implementation dates | 2 |
-| [concepts/consumer-principle.md](concepts/consumer-principle.md) | Principle 12 ("act to deliver good outcomes"): replaces Principles 6 & 7, proportionality, SM&CR Individual Conduct Rule 6 | 1 |
+| [concepts/consumer-principle.md](concepts/consumer-principle.md) | Principle 12 ("act to deliver good outcomes"): replaces Principles 6 & 7 (PRIN 3.2.10R); proportionality; SM&CR Individual Conduct Rule 6; outer scope boundary (PRIN 3.2.8R); cross-cutting rules exhaust P12 (PRIN 2A.2.26R); guarantors as retail customers (PRIN 3.4.3AR); no private right of action (PRIN 3.4.4R); FCA notification duty in chains (PRIN 2A.9.17R) | 8 |
 | [concepts/consumer-duty-cross-cutting-rules.md](concepts/consumer-duty-cross-cutting-rules.md) | Three cross-cutting rules: good faith (incl. bad-faith pattern catalogue), avoid foreseeable harm (incl. examples list), enable financial objectives (incl. signposting for declined customers) | 3 |
 | [concepts/consumer-duty-products-services.md](concepts/consumer-duty-products-services.md) | Products & Services outcome: target market, lifecycle obligations, manufacturer/distributor split, PROD equivalence; supervisory questions; distribution chain information-flow failures | 4 |
 | [concepts/consumer-duty-price-value.md](concepts/consumer-duty-price-value.md) | Price & Value outcome: fair value assessment, distribution chain responsibilities, closed book application, COLL/PROD equivalence; named poor practices incl. charging for undelivered services | 3 |
@@ -134,6 +152,22 @@ Claude Code reads this file first on every query to identify relevant pages.
 | [concepts/psr-emi-prudential.md](concepts/psr-emi-prudential.md) | Prudential risk management for PIs/EMIs: holding capital above minimum, liquidity risk identification, scenario planning, stress testing, risk appetite, FG20/1 reference; see psr-capital-requirements for calculation methods | 3 |
 | [concepts/agent-distributor-oversight.md](concepts/agent-distributor-oversight.md) | Agent and distributor oversight: agents (FCA registration mandatory, PI/EMI responsibility), distributors (EMI notification only, no payment services), due diligence and ongoing monitoring obligations, communications obligations through agents/distributors | 2 |
 | [concepts/operational-resilience.md](concepts/operational-resilience.md) | SYSC 15A operational resilience (in force 31 March 2022): important business services, impact tolerances, 31 March 2025 mapping and testing deadline, third-party dependency management, FCA Register accuracy | 2 |
+
+---
+
+## UK — FCA Dispute Resolution (DISP)
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/disp1-treating-complainants-fairly.md](summaries/disp1-treating-complainants-fairly.md) | DISP 1: scope (FSMA firms + PSPs/EMIs not FSMA-authorised); MiFID complaints extend to ECPs (DISP 1.1A.3R); root cause analysis hard rule (DISP 1.3.3R — extends to non-complained products); named SMF holder for DISP compliance (DISP 1.3.7R); 3-day track + summary resolution communication (DISP 1.5); dual timelines (8 weeks standard / 15 BD EMD-PSD / 35 BD exceptional); forwarding; time barring; records (3yr/5yr); standard bi-annual reporting DISP 1.10 (Annex 1R); PSP/EMI annual reporting DISP 1.10B (Annex 1AD — all users not just eligible complainants) | 13 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/complaints-handling-framework.md](concepts/complaints-handling-framework.md) | Five operationally critical DISP 1 rules: (1) dual timeline — 8 weeks standard vs. 15/35 business days EMD/PSD; (2) 3-day track — summary resolution communication, oral acceptance permitted; (3) root cause analysis mandatory (DISP 1.3.3R) — extends to non-complained products, requires MI + senior reporting; (4) named SMF-level DISP 1 compliance owner (DISP 1.3.7R); (5) DISP 1.10B separate annual PSP/EMI reporting covering all users not just eligible complainants | 8 |
 
 ---
 
