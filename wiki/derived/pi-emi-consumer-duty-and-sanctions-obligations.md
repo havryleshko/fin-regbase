@@ -28,6 +28,8 @@ related:
   - concepts/safeguarding-pis-emis.md
   - concepts/wind-down-planning.md
   - concepts/psr-emi-prudential.md
+  - concepts/fos-eligible-complainants.md
+  - summaries/disp2-fos-jurisdiction.md
   - concepts/smcr-senior-managers-regime.md
   - concepts/agent-distributor-oversight.md
   - concepts/operational-resilience.md
@@ -50,6 +52,8 @@ Payment institutions (PIs) and e-money institutions (EMIs) are subject to both t
 The Consumer Duty applies to FCA-authorised PIs and EMIs that **determine or materially influence retail customer outcomes**. **(PS22/9 §2.10)**
 
 The retail customer definition for this sector is drawn from the PSRs 2017 and EMRs 2011: **consumers, micro-enterprises, and small charities**. **(FG22/5 §2.3)** This means:
+
+> **Note:** the Consumer Duty retail customer scope is narrower than the FOS eligible complainant scope for PSPs/EMIs. Small businesses (turnover < £6.5m at referral), trustees (net assets < £5m), and guarantors are eligible FOS complainants but are not retail customers for Consumer Duty purposes. See [[fos-eligible-complainants]].
 
 - Consumer-facing payment services (current account equivalents, prepaid cards, mobile wallets, payment initiation, account information services) are fully in scope.
 - Purely commercial B2B payment services — where the counterparty is a business outside the micro-enterprise threshold — are **out of scope** for Consumer Duty. The four outcomes and cross-cutting rules do not apply to those transactions.
@@ -200,3 +204,5 @@ This means the firm's compliance architecture must be designed so that:
 - [[operational-resilience]]
 - [[prin3-rules-about-application]]
 - [[prin2a-consumer-duty]]
+- [[fos-eligible-complainants]]
+- [[disp2-fos-jurisdiction]]

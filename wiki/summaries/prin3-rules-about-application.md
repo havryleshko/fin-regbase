@@ -19,6 +19,7 @@ related:
   - concepts/consumer-principle.md
   - concepts/consumer-duty-overview.md
   - concepts/conc-scope-and-application.md
+  - summaries/disp2-fos-jurisdiction.md
 ---
 
 # PRIN 3 — Rules About Application
@@ -175,7 +176,7 @@ Key implications:
 
 Section 138D FSMA is the private right of action for breach of FCA rules that may give rise to a damages claim by a private person. **PRIN 3.4.4R expressly excludes PRIN from that right.** Therefore:
 - A breach of any Principle — including Principle 12 — does not give a retail customer a direct claim for damages against the firm under FSMA.
-- Consumers' remedies for Principle breaches are: FOS complaint (if within scope), FCA enforcement action (resulting in restitution or redress), or private law claims on separate causes of action (contract, tort).
+- Consumers' remedies for Principle breaches are: [[disp2-fos-jurisdiction|FOS complaint]] (if within scope), FCA enforcement action (resulting in restitution or redress), or private law claims on separate causes of action (contract, tort).
 - This is a deliberate design choice: Principles are high-level obligations that inform supervision and enforcement, not a basis for individual litigation.
 - Note: specific PRIN 2A rules are Rules (R) — but the exclusion applies to all PRIN rules, including PRIN 2A.
 
@@ -200,3 +201,4 @@ Section 138D FSMA is the private right of action for breach of FCA rules that ma
 - [[consumer-principle]]
 - [[consumer-duty-overview]]
 - [[conc-scope-and-application]]
+- [[disp2-fos-jurisdiction]]

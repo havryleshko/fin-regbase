@@ -26,6 +26,7 @@ related:
   - concepts/smcr-senior-managers-regime.md
   - summaries/prin2a-consumer-duty.md
   - concepts/prin-principles-overview.md
+  - summaries/disp2-fos-jurisdiction.md
 ---
 
 # FCA PS22/9 — A New Consumer Duty: Feedback to CP21/36 and Final Rules
@@ -76,7 +77,7 @@ The Duty applies on a **forward-looking basis** only — it does not require fir
 
 ## No Private Right of Action
 
-The FCA chose **not to attach a private right of action** to any part of the Duty at introduction. Consumer redress routes are the Financial Ombudsman Service and FCA enforcement under FSMA s.384 (restitution). **(PS22/9 §11.1, §11.10)**
+The FCA chose **not to attach a private right of action** to any part of the Duty at introduction. Consumer redress routes are the [[disp2-fos-jurisdiction|Financial Ombudsman Service]] and FCA enforcement under FSMA s.384 (restitution). **(PS22/9 §11.1, §11.10)**
 
 ## Relationship to Existing Rules
 
@@ -110,3 +111,4 @@ The FCA chose **not to attach a private right of action** to any part of the Dut
 - [[smcr-senior-managers-regime]]
 - [[prin2a-consumer-duty]]
 - [[prin-principles-overview]]
+- [[disp2-fos-jurisdiction]]

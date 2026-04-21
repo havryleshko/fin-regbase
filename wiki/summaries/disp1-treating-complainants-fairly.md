@@ -23,6 +23,8 @@ sources:
 tags: [DISP, complaints, complaints-handling, FOS, FCA, UK, payment-services, EMI, PSP, root-cause-analysis, reporting, timelines, summary-resolution]
 related:
   - concepts/complaints-handling-framework.md
+  - summaries/disp2-fos-jurisdiction.md
+  - concepts/fos-eligible-complainants.md
   - concepts/smcr-senior-managers-regime.md
   - concepts/consumer-duty-consumer-support.md
   - concepts/psr-regulatory-reporting.md
@@ -313,6 +315,8 @@ Unlike DISP 1.10A, the complaints data publication rules do not directly apply t
 ## Related Articles
 
 - [[complaints-handling-framework]]
+- [[disp2-fos-jurisdiction]]
+- [[fos-eligible-complainants]]
 - [[smcr-senior-managers-regime]]
 - [[consumer-duty-consumer-support]]
 - [[psr-regulatory-reporting]]

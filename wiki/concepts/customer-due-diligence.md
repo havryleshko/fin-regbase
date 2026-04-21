@@ -23,6 +23,7 @@ related:
   - summaries/fctr8-sanctions-systems-controls-russia.md
   - summaries/fca-cdd-findings-multi-firm-2026.md
   - concepts/uk-gdpr-data-protection-principles.md
+  - concepts/fos-eligible-complainants.md
   - concepts/uk-gdpr-right-to-erasure.md
   - concepts/uk-gdpr-subject-access.md
   - concepts/uk-gdpr-personal-data-breaches.md
@@ -356,6 +357,7 @@ JMLSG provides pro-forma confirmation templates (Annex 5-I and 5-II) for: UK-reg
 - [[sar-consent-tipping-off]]
 - [[fcg3-money-laundering-terrorist-financing]]
 - [[jmlsg-part-i-guidance]]
+- [[fos-eligible-complainants]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[sanctions-screening]]
 - [[fcg7-sanctions-asset-freezes-proliferation-financing]]

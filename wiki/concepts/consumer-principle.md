@@ -27,6 +27,7 @@ related:
   - summaries/prin2a-consumer-duty.md
   - summaries/prin3-rules-about-application.md
   - concepts/prin-principles-overview.md
+  - summaries/disp2-fos-jurisdiction.md
 ---
 
 # FCA Consumer Duty — Consumer Principle (Principle 12)
@@ -111,7 +112,7 @@ This extends the Consumer Duty to guarantor relationships. A firm must deliver g
 
 **PRIN 3.4.4R** (hard Rule): A contravention of a rule in PRIN — including any rule in PRIN 2A — does **not** give rise to a right of action under FSMA s.138D.
 
-Retail customers cannot sue a firm for damages based on a Principle 12 breach under FSMA. Consumer remedies for P12 breaches are: FOS complaint, FCA enforcement (which may produce restitution or redress), and separate private law claims on other causes of action (contract, tort). This is a deliberate structural choice — the Principles are supervision and enforcement tools, not a litigation gateway.
+Retail customers cannot sue a firm for damages based on a Principle 12 breach under FSMA. Consumer remedies for P12 breaches are: [[disp2-fos-jurisdiction|FOS complaint]], FCA enforcement (which may produce restitution or redress), and separate private law claims on other causes of action (contract, tort). This is a deliberate structural choice — the Principles are supervision and enforcement tools, not a litigation gateway.
 
 ## FCA Notification Duty in Distribution Chains
 
@@ -144,3 +145,4 @@ This applies regardless of whether the non-compliant firm is a manufacturer, dis
 - [[prin2a-consumer-duty]]
 - [[prin3-rules-about-application]]
 - [[prin-principles-overview]]
+- [[disp2-fos-jurisdiction]]

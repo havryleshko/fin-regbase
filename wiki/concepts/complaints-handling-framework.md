@@ -18,6 +18,8 @@ sources:
 tags: [DISP, complaints, complaints-handling, FOS, FCA, UK, timelines, root-cause-analysis, summary-resolution, reporting, PSP, EMI, SMF]
 related:
   - summaries/disp1-treating-complainants-fairly.md
+  - summaries/disp2-fos-jurisdiction.md
+  - concepts/fos-eligible-complainants.md
   - concepts/smcr-senior-managers-regime.md
   - concepts/consumer-duty-consumer-support.md
   - concepts/psr-regulatory-reporting.md
@@ -222,6 +224,8 @@ Records of the measures taken for resolution can and should be used to support t
 ## Related Articles
 
 - [[disp1-treating-complainants-fairly]]
+- [[disp2-fos-jurisdiction]]
+- [[fos-eligible-complainants]]
 - [[smcr-senior-managers-regime]]
 - [[consumer-duty-consumer-support]]
 - [[psr-regulatory-reporting]]

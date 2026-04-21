@@ -31,6 +31,7 @@ related:
   - summaries/prin2a-consumer-duty.md
   - concepts/prin-principles-overview.md
   - summaries/disp1-treating-complainants-fairly.md
+  - summaries/disp2-fos-jurisdiction.md
 ---
 
 # FCA Consumer Duty — Overview
@@ -123,7 +124,7 @@ The Duty applies to closed books on a **forward-looking** basis only — past ac
 ## Redress and Enforcement
 
 No **private right of action** attaches to the Duty. Consumer redress routes are:
-- [[disp1-treating-complainants-fairly|Financial Ombudsman Service (FOS)]] — for individual complaints
+- [[disp1-treating-complainants-fairly|Financial Ombudsman Service (FOS)]] — for individual complaints (see [[disp2-fos-jurisdiction]] for FOS jurisdiction scope)
 - FCA enforcement powers including fines and restitution under FSMA s.384 **(PS22/9 §11.1, §11.10)**
 
 ## Key Points for Agents
@@ -153,3 +154,4 @@ No **private right of action** attaches to the Duty. Consumer redress routes are
 - [[conc-scope-and-application]]
 - [[prin2a-consumer-duty]]
 - [[prin-principles-overview]]
+- [[disp2-fos-jurisdiction]]

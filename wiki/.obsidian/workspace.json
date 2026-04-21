@@ -179,6 +179,8 @@
   },
   "active": "26e0ba47039ff414",
   "lastOpenFiles": [
+    "concepts/fos-eligible-complainants.md",
+    "summaries/disp2-fos-jurisdiction.md",
     "concepts/complaints-handling-framework.md",
     "summaries/disp1-treating-complainants-fairly.md",
     "concepts/prin-principles-overview.md",
@@ -206,8 +208,6 @@
     "concepts/psr-capital-requirements.md",
     "concepts/psr-unauthorised-transaction-liability.md",
     "concepts/psr-open-banking-pisp-aisp.md",
-    "concepts/psr-regulatory-reporting.md",
-    "concepts/psr-sca-authentication.md",
     "raw/fca-financial-crime",
     "raw",
     "~/Documents/GitHub/fin-regbase/raw/fca-consumer-duty",

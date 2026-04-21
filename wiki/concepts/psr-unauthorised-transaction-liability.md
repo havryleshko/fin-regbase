@@ -15,6 +15,8 @@ related:
   - concepts/psr-open-banking-pisp-aisp.md
   - concepts/psr-regulatory-reporting.md
   - concepts/consumer-duty-consumer-support.md
+  - concepts/fos-eligible-complainants.md
+  - summaries/disp2-fos-jurisdiction.md
 ---
 
 # Unauthorised and Incorrectly Executed Transactions — PSRs 2017 (Ch 8 Conduct)
@@ -152,3 +154,5 @@ Where the failure is at the **payee's PSP** (e.g. failure to credit the payee's 
 - [[psr-open-banking-pisp-aisp]]
 - [[psr-regulatory-reporting]]
 - [[consumer-duty-consumer-support]]
+- [[fos-eligible-complainants]]
+- [[disp2-fos-jurisdiction]]

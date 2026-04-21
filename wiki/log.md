@@ -1579,3 +1579,58 @@ Post-fix inbound link counts:
 - `complaints-handling-framework`: 3 inbound links (disp1-treating-complainants-fairly, fca-consumer-duty-implementation-review-2024, consumer-duty-consumer-support)
 
 **Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 1 contradiction fixed
+
+## 2026-04-21 ingest | DISP 2 Jurisdiction of the Financial Ombudsman Service (April 2026)
+
+Source: `raw/fca-handbook/DISP 2 Jurisdiction of the Financial Ombudsman Service.pdf` (FCA Handbook, April 2026 version)
+
+Pages created (2):
+- `wiki/summaries/disp2-fos-jurisdiction.md`
+- `wiki/concepts/fos-eligible-complainants.md`
+
+Pages updated (5):
+- `wiki/summaries/disp1-treating-complainants-fairly.md` — added disp2 and fos-eligible-complainants to FM related + Related Articles
+- `wiki/concepts/complaints-handling-framework.md` — added disp2 and fos-eligible-complainants to Related Articles
+- `wiki/concepts/psr-unauthorised-transaction-liability.md` — added fos-eligible-complainants and disp2 to FM related + Related Articles (APP fraud eligible complainant connection)
+- `wiki/concepts/customer-due-diligence.md` — added fos-eligible-complainants to FM related + Related Articles (PEP identification eligible complainant connection)
+- `wiki/index.md` — added 1 summary row and 1 concept row to the DISP section
+
+Key facts captured (not previously in wiki):
+1. **DISP 2.8.2R — dual FOS referral time limits**: 6 months from final response; AND 6 years from event / 3 years from awareness (whichever later). Both apply independently.
+2. **DISP 2.8.3G — 6-month clock contingent on notice**: The 6-month window only starts when the firm's response specifically tells the complainant about the FOS referral deadline. Omitting this notice means the clock does not start.
+3. **DISP 2.7.3R — seven eligible complainant categories**: Consumer, micro-enterprise, charity (< £6.5m annual income), trustee (trust net assets < £5m), CBTL consumer, small business (< £6.5m turnover at referral), guarantor. Wiki previously had only "consumers, micro-enterprises, small charities" from the PSRs/EMRs context.
+4. **DISP 2.7.9R — regulated-firm and professional-client exclusions**: PSPs, EMIs, and FCA-authorised firms are not eligible complainants for complaints about activities they themselves carry on. Professional clients and ECPs are not eligible complainants in CJ (unless they are consumers in relation to the activity).
+5. **DISP 2.7.7AR + 2.7.7G(2B)**: PEP identification eligible complainant (persons wrongly identified as PEPs can complain to FOS); APP fraud eligible complainant extension (APP fraud victims are eligible even where there is no PSD breach — sends and receiving PSP both in scope).
+
+No contradictions with existing wiki content found.
+
+## 2026-04-21 lint (pass 24)
+
+**Scope:** 99 pages (97 prior + 2 new DISP 2 pages)
+
+**Check 1 — Wikilink integrity:** PASS. 0 broken wikilinks.
+
+**Check 2 — Orphan/near-orphan detection:** 1 finding. Fixed.
+
+**Check 3 — FM ↔ body consistency:** 1 finding. Fixed.
+
+**Check 4 — Missing cross-references:** 5 findings. All fixed.
+
+**Check 5 — Contradictions:** PASS.
+
+| # | Priority | Type | Location | Finding | Fix |
+|---|----------|------|----------|---------|-----|
+| C1 | Medium | Near-orphan | `derived/consumer-understanding-digital-notifications.md` | 1 inbound link only; `fca-consumer-duty-implementation-review-2024.md` did not link to it despite gamification being a named finding | Added inline link in gamification bullet + FM related + Related Articles in fca-consumer-duty-implementation-review-2024 |
+| C2 | Medium | FM/body gap | `concepts/complaints-handling-framework.md` | Body Related Articles included disp2/fos-eligible-complainants (added this session) but FM `related:` field did not | Added both to FM related |
+| C3 | High | Missing cross-ref | `derived/pi-emi-consumer-duty-and-sanctions-obligations.md` | Consumer Duty retail scope stated as "consumers, micro-enterprises, small charities" — accurate but could cause agent to underestimate FOS eligible complainant scope for PSPs (which adds small businesses, trustees, guarantors) | Added inline blockquote note with [[fos-eligible-complainants]] link + FM related + Related Articles |
+| C4 | Medium | Missing cross-ref | `concepts/consumer-duty-overview.md` | FOS mentioned as redress route; linked disp1 but not disp2 | Added [[disp2-fos-jurisdiction]] inline + FM related + Related Articles |
+| C5 | Low | Missing cross-ref | `concepts/consumer-principle.md` | FOS as remedy for P12 breach; no jurisdiction link | Added [[disp2-fos-jurisdiction]] inline + FM related + Related Articles |
+| C6 | Low | Missing cross-ref | `summaries/ps22-9-policy-statement.md` | FOS as redress route; no jurisdiction link | Added [[disp2-fos-jurisdiction]] inline + FM related + Related Articles |
+| C7 | Low | Missing cross-ref | `summaries/prin3-rules-about-application.md` | FOS as remedy for Principle breaches; no jurisdiction link | Added [[disp2-fos-jurisdiction]] inline + FM related + Related Articles |
+
+Post-fix inbound link counts:
+- `consumer-understanding-digital-notifications`: 2 inbound (consumer-duty-consumer-understanding, fca-consumer-duty-implementation-review-2024)
+- `disp2-fos-jurisdiction`: 10 inbound
+- `fos-eligible-complainants`: 7 inbound
+
+**Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 contradictions

@@ -162,12 +162,14 @@ Claude Code reads this file first on every query to identify relevant pages.
 | Page | Summary | Sources |
 |------|---------|---------|
 | [summaries/disp1-treating-complainants-fairly.md](summaries/disp1-treating-complainants-fairly.md) | DISP 1: scope (FSMA firms + PSPs/EMIs not FSMA-authorised); MiFID complaints extend to ECPs (DISP 1.1A.3R); root cause analysis hard rule (DISP 1.3.3R — extends to non-complained products); named SMF holder for DISP compliance (DISP 1.3.7R); 3-day track + summary resolution communication (DISP 1.5); dual timelines (8 weeks standard / 15 BD EMD-PSD / 35 BD exceptional); forwarding; time barring; records (3yr/5yr); standard bi-annual reporting DISP 1.10 (Annex 1R); PSP/EMI annual reporting DISP 1.10B (Annex 1AD — all users not just eligible complainants) | 13 |
+| [summaries/disp2-fos-jurisdiction.md](summaries/disp2-fos-jurisdiction.md) | DISP 2: four-gate FOS jurisdiction test (activity type, territorial scope, eligible complainant, timeliness); CJ scope (FCA firms, PSPs, EMIs, CBTL firms, credit reference agencies, finance platforms); VJ; territorial scope (UK establishment — complainant need not be UK-based); eligible complainant summary (7 categories, doubt = eligible, PEP identification extension, APP fraud extension, regulated-firm exclusion); DISP 2.8 dual time limits (6 months from final response; 6 years/3 years absolute); 6-month clock contingent on FOS notice in final response | 8 |
 
 ### Concepts
 
 | Page | Summary | Sources |
 |------|---------|---------|
 | [concepts/complaints-handling-framework.md](concepts/complaints-handling-framework.md) | Five operationally critical DISP 1 rules: (1) dual timeline — 8 weeks standard vs. 15/35 business days EMD/PSD; (2) 3-day track — summary resolution communication, oral acceptance permitted; (3) root cause analysis mandatory (DISP 1.3.3R) — extends to non-complained products, requires MI + senior reporting; (4) named SMF-level DISP 1 compliance owner (DISP 1.3.7R); (5) DISP 1.10B separate annual PSP/EMI reporting covering all users not just eligible complainants | 8 |
+| [concepts/fos-eligible-complainants.md](concepts/fos-eligible-complainants.md) | DISP 2.7 eligible complainant framework: seven inclusion categories (consumer, micro-enterprise, charity < £6.5m income, trustee < £5m net assets, CBTL consumer, small business < £6.5m turnover at referral, guarantor); doubt = eligible rule (DISP 2.7.5G — FOS decides, not respondent); regulated-firm exclusion (DISP 2.7.9R — PSPs/EMIs not eligible for complaints about own regulated activity; professional clients/ECPs excluded in CJ); PEP identification eligible complainant (DISP 2.7.7AR); APP fraud eligible complainant extension (DISP 2.7.7G(2B)); dual FOS time limits (DISP 2.8.2R — 6 months from final response; 6yr/3yr absolute); 6-month clock contingent on FOS notice in response (DISP 2.8.3G) | 7 |
 
 ---
 

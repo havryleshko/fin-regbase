@@ -27,6 +27,7 @@ related:
   - summaries/fcg3-money-laundering-terrorist-financing.md
   - concepts/aml-ctf-framework.md
   - concepts/complaints-handling-framework.md
+  - derived/consumer-understanding-digital-notifications.md
 ---
 
 # FCA Consumer Duty Implementation Review — Good Practice and Areas for Improvement (February 2024)
@@ -155,7 +156,7 @@ The FCA states explicitly: firms should aim to **continuously address issues** t
 ### Poor Practice Observed
 
 - **Insufficient staff training for complex conversations.** Firms not training staff well enough to handle complex conversations with customers — particularly those in financial difficulty — meaning customers may not receive appropriate forbearance or signposting to other support.
-- **Gamification on online trading platforms.** Business practices akin to gamification on trading applications that encourage risky short-term trading, including brokerage deals that may not deliver fair value. The FCA states firms must design and deliver customer journeys that support good outcomes — not practices that exploit customers' behavioural tendencies for commercial gain.
+- **Gamification on online trading platforms.** Business practices akin to gamification on trading applications that encourage risky short-term trading, including brokerage deals that may not deliver fair value. The FCA states firms must design and deliver customer journeys that support good outcomes — not practices that exploit customers' behavioural tendencies for commercial gain. See [[consumer-understanding-digital-notifications]] for application to in-app notification design.
 - **Failure to understand individual circumstances of customers in financial difficulty.** Firms not taking time to understand customer circumstances, leading to forbearance solutions that are inappropriate for the individual or failure to signpost to relevant support — including support for vulnerable customers. This can cause non-financial harm (stress, unnecessary delays).
 - **Inadequate fraud and cyber protection.** Firms without sufficiently robust systems to protect customers from loss of investments, savings or personal data due to fraud or cyber-attacks. The FCA frames this as both a foreseeable harm failure and a consumer support failure: firms must have robust controls *and* provide prompt and appropriate support for fraud victims.
 
@@ -188,3 +189,4 @@ The FCA states explicitly: firms should aim to **continuously address issues** t
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[fcg3-money-laundering-terrorist-financing]]
 - [[aml-ctf-framework]]
+- [[consumer-understanding-digital-notifications]]
