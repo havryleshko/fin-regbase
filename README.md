@@ -29,7 +29,7 @@ Three operations defined in `CLAUDE.md`:
 
 ## What's in the Wiki
 
-**94 articles** (60 concepts, 30 summaries, 4 derived) across seven regulatory domains, plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
+**102 articles** (63 concepts, 35 summaries, 4 derived) across eight regulatory domains, plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -64,6 +64,8 @@ Source-level overviews with full citation trails.
 | `summaries/conc5-responsible-lending.md` | CONC 5 — creditworthiness assessment (lenders and P2P), triggers, affordability vs credit risk, broker suitability |
 | `summaries/conc6-post-contractual-requirements.md` | CONC 6 — pre-arrears monitoring, minimum repayment rules, limit/rate freezes when at risk, BNPL promotional reminders, HCSTC refinancing cap |
 | `summaries/conc7-arrears-default-recovery.md` | CONC 7 — arrears/default policies, forbearance, interest freeze on arrangements, CPA rules, mental capacity and disputed-debt suspensions, statute-barred debt, P2P notices |
+| `summaries/disp1-treating-complainants-fairly.md` | DISP 1 — complaints governance, fair handling standards, response timing, root-cause analysis and MI requirements |
+| `summaries/disp2-fos-jurisdiction.md` | DISP 2 — jurisdiction of the Financial Ombudsman Service, complainant eligibility, complaint scope, and redress boundaries |
 
 ### Concepts
 One page per regulatory concept, built from primary sources.
@@ -159,6 +161,13 @@ One page per regulatory concept, built from primary sources.
 | `concepts/conc-cpa-rules.md` | CONC 7.6 continuous payment authority — pre-conditions, two-strike rules, HCSTC restrictions, cancellation |
 | `concepts/conc-debt-recovery-treatment.md` | CONC 7 — forbearance, charges, vulnerable customers, assignment, disputes, statute-barred debt, data accuracy |
 
+**FCA DISP / Complaints Handling**
+
+| Page | What it covers |
+|------|----------------|
+| `concepts/complaints-handling-framework.md` | DISP 1 complaints handling framework — policy, process, governance, response quality, and root-cause remediation expectations |
+| `concepts/fos-eligible-complainants.md` | DISP 2 complainant eligibility — compulsory vs voluntary jurisdiction boundaries, complainant classes, and practical triage checks |
+
 ### Derived
 Synthesised answers, assessments, and reference tables filed from query sessions.
 
@@ -188,8 +197,8 @@ fin-regbase/
 ├── wiki/
 │   ├── index.md            # Master index — start here for any query
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (60 pages)
-│   ├── summaries/          # Per-document summaries (30 pages)
+│   ├── concepts/           # Core regulatory concepts (63 pages)
+│   ├── summaries/          # Per-document summaries (35 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
 ├── agents/                 # Runtime query wrappers/clients
 ├── mcp-server/             # MCP server implementation (tooling for wiki access)
