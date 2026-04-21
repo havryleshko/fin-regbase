@@ -29,7 +29,7 @@ Three operations defined in `CLAUDE.md`:
 
 ## What's in the Wiki
 
-**102 articles** (63 concepts, 35 summaries, 4 derived) across eight regulatory domains, plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
+**105 articles** (64 concepts, 37 summaries, 4 derived), plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -45,6 +45,9 @@ Source-level overviews with full citation trails.
 | `summaries/jmlsg-part-i-guidance.md` | JMLSG Part I (June 2023, updated Aug 2025) — risk-based approach, CDD, EDD, SDD, PEPs, SARs |
 | `summaries/fca-cdd-findings-multi-firm-2026.md` | FCA multi-firm CDD review 2026 — good/poor practice across onboarding, monitoring, and exit |
 | `summaries/fca-guide-solo-regulated-firms.md` | FCA SM&CR guide (Part One) — Core/Limited/Enhanced tiers, SMFs, prescribed responsibilities, PI/EMI scope exclusion |
+| `summaries/prin1-2-introduction-principles.md` | PRIN 1–2 — Principles purpose, eligible counterparty carve-outs, fit and proper, group activities |
+| `summaries/prin2a-consumer-duty.md` | PRIN 2A — Consumer Duty rules in PRIN (cross-cutting rules, outcomes, distribution chains, governance) |
+| `summaries/prin3-rules-about-application.md` | PRIN 3 — territorial scope, retail customer tests, distribution-chain application, Consumer Duty interaction |
 | `summaries/mifid-ii-product-governance-review-2021.md` | FCA PROD review 2021 — target market failures, distributor chain weaknesses |
 | `summaries/fca-costs-charges-disclosure-review-2019.md` | FCA asset manager costs/charges disclosure review — PRIIPs, MiFID II, RTS 28 |
 | `summaries/fca-pfof-supervisory-report-2019.md` | FCA PFOF supervisory report — conflicts of interest, best execution |
@@ -60,12 +63,16 @@ Source-level overviews with full citation trails.
 | `summaries/ico-guide-personal-data-breaches.md` | ICO Guide to Personal Data Breaches — breach definition, risk test, 72-hour reporting, affected individual notification |
 | `summaries/ico-guide-accountability-governance.md` | ICO Guide to Accountability and Governance — Art. 5(2) accountability, governance controls, DPIAs, DPOs, records |
 | `summaries/conc1-application-purpose.md` | CONC 1 — scope (10 credit activity types), habitual residence / extraterritorial reach, MCOB boundary, AR liability, Consumer Duty confirmation, seven financial difficulty indicators |
+| `summaries/conc2-conduct-of-business-general.md` | CONC 2 — general conduct standards for credit broking, remuneration, mental capacity, distance marketing, PCWs, and unfair practices |
+| `summaries/conc3-financial-promotions.md` | CONC 3 — consumer credit financial promotions and communications (fairness, CFNM, APR/representative examples, HCSTC, broker promotions) |
 | `summaries/conc4-pre-contractual-requirements.md` | CONC 4 — adequate explanation (CONC 4.2.5R), broker payment-detail gate, DCA prohibition, pre-contract CPA-style disclosure, unfair pressure |
 | `summaries/conc5-responsible-lending.md` | CONC 5 — creditworthiness assessment (lenders and P2P), triggers, affordability vs credit risk, broker suitability |
 | `summaries/conc6-post-contractual-requirements.md` | CONC 6 — pre-arrears monitoring, minimum repayment rules, limit/rate freezes when at risk, BNPL promotional reminders, HCSTC refinancing cap |
 | `summaries/conc7-arrears-default-recovery.md` | CONC 7 — arrears/default policies, forbearance, interest freeze on arrangements, CPA rules, mental capacity and disputed-debt suspensions, statute-barred debt, P2P notices |
+| `summaries/ps23-6-cryptoasset-financial-promotions.md` | PS23/6 — cryptoasset financial promotions as RMMIs, consumer journey, s21 approvers, MLR-registered communicators, FPO Art. 73ZA |
 | `summaries/disp1-treating-complainants-fairly.md` | DISP 1 — complaints governance, fair handling standards, response timing, root-cause analysis and MI requirements |
 | `summaries/disp2-fos-jurisdiction.md` | DISP 2 — jurisdiction of the Financial Ombudsman Service, complainant eligibility, complaint scope, and redress boundaries |
+| `summaries/disp-app5-motor-finance-dca-complaints.md` | DISP App 5 — motor finance DCA and non-DCA complaint handling (deadline pauses, extended FOS windows, communications, record retention) |
 
 ### Concepts
 One page per regulatory concept, built from primary sources.
@@ -105,6 +112,12 @@ One page per regulatory concept, built from primary sources.
 | `concepts/smcr-senior-managers-regime.md` | SMFs, Statement of Responsibilities, duty of responsibility, Core/Limited/Enhanced prescribed responsibilities |
 | `concepts/smcr-certification-regime.md` | Certification functions, annual FIT assessments, regulatory references, material risk-takers |
 | `concepts/smcr-conduct-rules.md` | COCON Individual and Senior Manager Conduct Rules, scope (incl. ancillary staff), breach reporting |
+
+**PRIN (Principles for Businesses)**
+
+| Page | What it covers |
+|------|----------------|
+| `concepts/prin-principles-overview.md` | The twelve Principles — enforceability, eligible counterparty context, interaction with Consumer Duty (Principle 12) and SM&CR |
 
 **MiFID II / Investment Services**
 
@@ -168,6 +181,12 @@ One page per regulatory concept, built from primary sources.
 | `concepts/complaints-handling-framework.md` | DISP 1 complaints handling framework — policy, process, governance, response quality, and root-cause remediation expectations |
 | `concepts/fos-eligible-complainants.md` | DISP 2 complainant eligibility — compulsory vs voluntary jurisdiction boundaries, complainant classes, and practical triage checks |
 
+**Cryptoasset financial promotions (PS23/6)**
+
+| Page | What it covers |
+|------|----------------|
+| `concepts/cryptoasset-financial-promotions-framework.md` | DOFP consumer journey for qualifying cryptoassets (RMMI) — mandatory sequence, appropriateness, cooling-off, incentives, MLR vs authorised firm routes |
+
 ### Derived
 Synthesised answers, assessments, and reference tables filed from query sessions.
 
@@ -189,6 +208,8 @@ fin-regbase/
 ├── raw/                    # Immutable source documents — never edit manually
 │   ├── fca-consumer-duty/  # PS22/9, FG22/5, FG21/1, Dear CEO letter
 │   ├── fca-conc/           # FCA Handbook CONC (consumer credit) source PDFs
+│   ├── fca-handbook/       # DISP, PRIN, and other Handbook PDF extracts used for wiki ingests
+│   ├── fca-policy-statements/ # FCA policy statements (e.g. PS23/6) as source PDFs
 │   ├── fca-financial-crime/ # FCG 3, FCG 7, JMLSG Part I, thematic reviews
 │   ├── mifid/              # PROD review, costs/charges review, PFOF, suitability review
 │   ├── psr-payment-services/ # PSR approach document, payments portfolio Dear CEO
@@ -197,8 +218,8 @@ fin-regbase/
 ├── wiki/
 │   ├── index.md            # Master index — start here for any query
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (63 pages)
-│   ├── summaries/          # Per-document summaries (35 pages)
+│   ├── concepts/           # Core regulatory concepts (64 pages)
+│   ├── summaries/          # Per-document summaries (37 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
 ├── agents/                 # Runtime query wrappers/clients
 ├── mcp-server/             # MCP server implementation (tooling for wiki access)
@@ -228,7 +249,7 @@ fin-regbase/
 |-------|-------|
 | **v1 — done** | UK FCA Consumer Duty — fully linted, citation-accurate |
 | **v2 — done** | FCA Financial Crime (FCG, JMLSG, sanctions), MiFID II, PSR/E-Money, UK GDPR, SM&CR (solo-regulated guide) |
-| **v3 — current** | MCP server for native agent tool calls (`mcp-server/`); CONC consumer-credit layer ingested; deeper FCA Handbook (e.g. full SYSC); FATF 40 Recommendations |
+| **v3 — current** | MCP server (`mcp-server/`); CONC, DISP, PRIN, and PS23/6 crypto financial promotions; deeper Handbook (e.g. full SYSC); FATF 40 Recommendations |
 | **v4** | SEC Reg BI, FINRA rules, FinCEN AML programme requirements |
 
 ---
