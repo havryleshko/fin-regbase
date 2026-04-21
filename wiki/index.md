@@ -162,6 +162,7 @@ Claude Code reads this file first on every query to identify relevant pages.
 | Page | Summary | Sources |
 |------|---------|---------|
 | [summaries/disp1-treating-complainants-fairly.md](summaries/disp1-treating-complainants-fairly.md) | DISP 1: scope (FSMA firms + PSPs/EMIs not FSMA-authorised); MiFID complaints extend to ECPs (DISP 1.1A.3R); root cause analysis hard rule (DISP 1.3.3R — extends to non-complained products); named SMF holder for DISP compliance (DISP 1.3.7R); 3-day track + summary resolution communication (DISP 1.5); dual timelines (8 weeks standard / 15 BD EMD-PSD / 35 BD exceptional); forwarding; time barring; records (3yr/5yr); standard bi-annual reporting DISP 1.10 (Annex 1R); PSP/EMI annual reporting DISP 1.10B (Annex 1AD — all users not just eligible complainants) | 13 |
+| [summaries/disp-app5-motor-finance-dca-complaints.md](summaries/disp-app5-motor-finance-dca-complaints.md) | DISP App 5: modified complaint handling for motor finance DCA complaints (pre-28 Jan 2021) and non-DCA complaints; 8-week response deadline paused (DCA: 11 Jan 2024 – 31 May 2026; non-DCA credit: 20 Dec 2024 – 31 May 2026); FOS referral window extended to 15 months (or fixed 30 Jul 2026) for final responses sent during extended period, reverts to 6 months from 30 Jan 2026; final response Annex 3R wording substituted ("fifteen months"); record retention obligation to 11 April 2031 regardless of complaint receipt | 14 |
 | [summaries/disp2-fos-jurisdiction.md](summaries/disp2-fos-jurisdiction.md) | DISP 2: four-gate FOS jurisdiction test (activity type, territorial scope, eligible complainant, timeliness); CJ scope (FCA firms, PSPs, EMIs, CBTL firms, credit reference agencies, finance platforms); VJ; territorial scope (UK establishment — complainant need not be UK-based); eligible complainant summary (7 categories, doubt = eligible, PEP identification extension, APP fraud extension, regulated-firm exclusion); DISP 2.8 dual time limits (6 months from final response; 6 years/3 years absolute); 6-month clock contingent on FOS notice in final response | 8 |
 
 ### Concepts
@@ -241,3 +242,19 @@ Claude Code reads this file first on every query to identify relevant pages.
 | [concepts/conc-broker-unfair-practices.md](concepts/conc-broker-unfair-practices.md) | CONC 2.5.8R 22-item catalogue: TPS/automated call prohibition; premium rate complaint lines (15-min cap); securing worse rate/more credit for broker's gain; add-on insurance pressure; consolidation against interest; payment account access without authorisation; data passing to unauthorised firms; HCSTC PCW rank-by-total-amount-payable; results/promotions separation | 4 |
 | [concepts/conc-financial-promotions-cfnm.md](concepts/conc-financial-promotions-cfnm.md) | CONC 3.3.1R CFNM five-element standard: identifiable; accurate; balanced/risks; sufficient for target audience; not concealing. Comparisons (1B) must be fair/balanced/meaningful. No-credit-regardless prohibition (3.3.3R). BNPL promotional rate omission rule (3.3.11AR). Overdraft = "borrowing" (3.3.12R). Nine named unfair practice examples (3.3.10G). Prominent = draws attention of average customer in target audience | 3 |
 | [concepts/conc-representative-example-apr.md](concepts/conc-representative-example-apr.md) | CONC 3.5: representative example triggered by any cost/rate indication; 8 mandatory elements at equal prominence; representative = 51% threshold; 3 APR-only triggers (restricted audience / favourable comparison / incentive to apply incl. speed/ease); APR formatting rules; compulsory ancillary services statement; security statement; 5 restricted expressions unsecured + 3 secured (3.6.8R) | 2 |
+
+---
+
+## UK — FCA Cryptoassets
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/ps23-6-cryptoasset-financial-promotions.md](summaries/ps23-6-cryptoasset-financial-promotions.md) | PS23/6 (eff. 8 Oct 2023): qualifying cryptoassets classified as RMMIs; four lawful communication routes (authorised person, s21 approver, MLR Art. 73ZA, FPO exemption); PIs/EMIs authorised under PSRs/EMRs only are not authorised persons; FPO exemptions disapplied (Art. 48 HNW, Art. 50A self-certified sophisticated, Art. 51, Art. 61); Consumer Duty applies to authorised approvers/communicators only (not yet MLR businesses); s21 gateway requires FCA permission, 7-day notification, quarterly attestations; MLR registration ~£10,000; Article 73ZA MLR businesses subject to all consumer journey rules and extended FSMA enforcement powers | 6 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/cryptoasset-financial-promotions-framework.md](concepts/cryptoasset-financial-promotions-framework.md) | PS23/6 consumer journey operative rules: mandatory DOFP sequence (8 steps in order); 24-hour cooling-off (first-time investors only); personalised risk warning format (digital/non-digital); absolute incentives ban (no shareholder benefit exemption); three client categories (Restricted Investor, HNW, Certified Sophisticated — self-certified sophisticated disapplied); 12-month declaration expiry; appropriateness anti-gaming rules (different questions each attempt; 24-hour lock-out from second fail; no specific answer disclosure; no encouragement to retake; time counts toward cooling-off); existing vs new customer decision tree (Figure 3) | 5 |

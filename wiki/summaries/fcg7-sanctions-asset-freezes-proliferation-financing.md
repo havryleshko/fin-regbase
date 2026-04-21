@@ -191,3 +191,4 @@ Key external sources referenced: **(FCG 7.4.1–7.4.2)**
 - [[aml-ctf-framework]]
 - [[customer-due-diligence]]
 - [[fcg3-money-laundering-terrorist-financing]]
+- [[fctr8-sanctions-systems-controls-russia]]

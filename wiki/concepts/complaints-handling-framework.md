@@ -20,6 +20,7 @@ related:
   - summaries/disp1-treating-complainants-fairly.md
   - summaries/disp2-fos-jurisdiction.md
   - concepts/fos-eligible-complainants.md
+  - summaries/disp-app5-motor-finance-dca-complaints.md
   - concepts/smcr-senior-managers-regime.md
   - concepts/consumer-duty-consumer-support.md
   - concepts/psr-regulatory-reporting.md
@@ -226,6 +227,7 @@ Records of the measures taken for resolution can and should be used to support t
 - [[disp1-treating-complainants-fairly]]
 - [[disp2-fos-jurisdiction]]
 - [[fos-eligible-complainants]]
+- [[disp-app5-motor-finance-dca-complaints]]
 - [[smcr-senior-managers-regime]]
 - [[consumer-duty-consumer-support]]
 - [[psr-regulatory-reporting]]

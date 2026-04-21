@@ -1634,3 +1634,73 @@ Post-fix inbound link counts:
 - `fos-eligible-complainants`: 7 inbound
 
 **Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 contradictions
+
+## 2026-04-21 ingest | DISP App 5 — Motor Finance DCA and Non-DCA Complaint Handling Rules (April 2026)
+
+Source: `raw/fca-handbook/DISP App 5 Relevant motor finance discretionary commission arrangement complaint and motor finance non-discretionary commission arrangement complaint handling rules.pdf` (FCA Handbook, April 2026 version, 15 pages)
+
+Pages created (1):
+- `wiki/summaries/disp-app5-motor-finance-dca-complaints.md`
+
+Pages updated (5):
+- `wiki/index.md` — added DISP App 5 row to DISP section
+- `wiki/summaries/disp1-treating-complainants-fairly.md` — added disp-app5 to FM related + Related Articles
+- `wiki/concepts/complaints-handling-framework.md` — added disp-app5 to FM related + Related Articles
+- `wiki/summaries/disp2-fos-jurisdiction.md` — added disp-app5 to FM related + Related Articles
+- `wiki/concepts/conc-discretionary-commission-arrangements.md` — added disp-app5 to FM related + Related Articles
+
+Key facts captured (not previously in wiki):
+1. **DCA complaint definition (DISP App 5.1.2R)**: 4-part test — pre-28 Jan 2021 regulated credit agreement; motor vehicle; DCA arrangement; received/responded in specified windows. Includes pre-FCA OFT-licensed arrangements equivalent to a DCA.
+2. **8-week pause (DISP App 5.2.1R/BR)**: Response clock does not run 11 Jan 2024 – 31 May 2026 (DCA) / 20 Dec 2024 – 31 May 2026 (non-DCA credit). Also pauses 3-year records retention period. Modifies the unconditional account of the 8-week rule in complaints-handling-framework and disp1 summary.
+3. **Extended FOS referral window (DISP App 5.2.2R/BR)**: 6-month DISP 2.8.2R limit extended to 15 months (or fixed 30 Jul 2026) for final responses sent during the extended period; reverts to 6 months for final responses from 30 Jan 2026. Modifies disp2-fos-jurisdiction's account of the 6-month rule.
+4. **Mandatory final response wording substitution (DISP App 5.2.11R/14R)**: During extended period, "six months" → "fifteen months" throughout DISP 1 Annex 3R; must also explain extension, state actual deadline, and direct to fca.org.uk/carfinance.
+5. **Record retention to 11 April 2031 (DISP App 5.3.1R/AR)**: Lenders, owners, and credit brokers must retain all in-scope motor finance records regardless of whether a complaint has been received, until 11 April 2031.
+
+Modifications to existing wiki content noted in body of new page (not contradictions — deliberate carve-outs from the general rules):
+- complaints-handling-framework.md: 8-week rule presented as unconditional — motor finance DCA/non-DCA complaints are an exception
+- disp2-fos-jurisdiction.md: 6-month FOS referral window presented without motor finance carve-out
+
+## 2026-04-21 ingest | FCA PS23/6 — Financial Promotion Rules for Cryptoassets (June 2023)
+
+Source: `raw/fca-policy-statements/ps23-6.pdf` (FCA Policy Statement, June 2023, ~65pp, effective 8 October 2023)
+
+Pages created (2):
+- `wiki/summaries/ps23-6-cryptoasset-financial-promotions.md`
+- `wiki/concepts/cryptoasset-financial-promotions-framework.md`
+
+Pages updated (1):
+- `wiki/index.md` — added new "UK — FCA Cryptoassets" section with both new pages
+
+Key facts captured (not previously in wiki):
+1. **Mandatory DOFP sequence (PS23/6 §§3.19–3.60, Figure 2/3)**: 8-step ordered consumer journey. 24-hour cooling-off applies only to first-time investors with a specific firm (not per-transaction). Client categorisation declarations expire after 12 months. Existing clients must still have current categorisation and specific-investment appropriateness — but skip the cooling-off and personalised risk warning. The time taken for the appropriateness assessment counts toward the 24-hour cooling-off period.
+2. **Absolute incentives ban — no shareholder benefit exemption (PS23/6 §3.24)**: Unlike other RMMIs, the shareholder benefit carve-out does not apply to cryptoassets. Refer-a-friend bonuses, new-joiner bonuses, "free" token offers prohibited absolutely. Governance/voting rights intrinsic to a token's function are not incentives. Benefits available only for a limited time are likely to be incentives regardless of nature.
+3. **MLR Art. 73ZA exemption — full consumer journey rules apply, extended enforcement powers (PS23/6 §§5.8–5.26)**: MLR-registered cryptoasset businesses communicating their own promotions must comply with all the same rules as authorised persons (COBS 4, COBS 10, Principle 7, risk warning, personalised risk warning, cooling-off, client categorisation, appropriateness, incentives ban). FCA extended FSMA powers: s165, s166, s55L (VREQ/OIREQ), s55P (asset restriction), s137S (withdraw/refrain direction). Exemption is explicitly temporary — will be removed when the wider crypto authorisation regime comes into force.
+4. **Client categorisation — self-certified sophisticated investor disapplied; 12-month expiry (PS23/6 §3.46 Our response)**: Only three categories apply to cryptoassets: Restricted Investor, High Net Worth, Certified Sophisticated. Self-certified sophisticated investor category is disapplied because existing criteria (syndicate membership, business angel networks) are not appropriate proxies for cryptoasset sophistication. All declarations valid for 12 months only — firms must re-categorise before further DOFPs.
+5. **Appropriateness anti-gaming rules (PS23/6 §§3.50–3.53)**: Questions must differ each attempt; 24-hour lock-out after failure (mandatory from second failed attempt, firms may apply from first); only broad topic failure areas may be disclosed — not specific wrong answers; firms must not encourage retakes; firms offering diverse cryptoasset types may need multiple separate assessments per product type (e.g. lending/staking require distinct assessments).
+
+## 2026-04-21 lint | Pass 25
+
+Checks run: wikilink integrity · orphan detection · FM/body consistency · missing cross-refs · contradictions
+
+**Check 1 — Wikilink integrity:** PASS (0 broken)
+
+**Check 2 — Orphan/near-orphan detection:** PASS (0 orphans, 0 near-orphans)
+
+**Check 3 — FM ↔ body consistency:** 8 findings. All fixed. (1 apparent finding for disp1-treating-complainants-fairly confirmed as false positive — YAML parse error on colon in `regulation:` field prevents FM being read by script; content verified correct by direct file read.)
+
+**Check 4 — Missing cross-refs:** PASS (apparent findings were false positives — new cryptoasset pages referencing terms in their own body text)
+
+**Check 5 — Contradictions:** PASS (apparent findings were false positives — new pages explicitly state Art. 48, Art. 50A, and self-certified sophisticated investor are *disapplied* for cryptoassets)
+
+| # | File | Fix |
+|---|------|-----|
+| C1 | `derived/fca-consumer-duty-implementation-review-2024.md` | Added `[[complaints-handling-framework]]` to Related Articles |
+| C2 | `concepts/consumer-duty-consumer-support.md` | Added `[[complaints-handling-framework]]` to Related Articles |
+| C3 | `concepts/psr-regulatory-reporting.md` | Added `[[disp1-treating-complainants-fairly]]` to Related Articles |
+| C4 | `concepts/consumer-duty-overview.md` | Added `[[disp1-treating-complainants-fairly]]` to Related Articles |
+| C5 | `summaries/fca-approach-payment-services-electronic-money.md` | Added `[[disp1-treating-complainants-fairly]]` to Related Articles |
+| C6 | `summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md` | Added `[[fctr8-sanctions-systems-controls-russia]]` to Related Articles |
+| C7 | `summaries/conc1-application-purpose.md` | Added `[[disp1-treating-complainants-fairly]]` to Related Articles |
+| C8 | `summaries/conc7-arrears-default-recovery.md` | Added `[[disp1-treating-complainants-fairly]]` to Related Articles |
+
+**Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 contradictions

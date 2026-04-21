@@ -155,3 +155,4 @@ No **private right of action** attaches to the Duty. Consumer redress routes are
 - [[prin2a-consumer-duty]]
 - [[prin-principles-overview]]
 - [[disp2-fos-jurisdiction]]
+- [[disp1-treating-complainants-fairly]]

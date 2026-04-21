@@ -15,6 +15,7 @@ related:
   - summaries/conc4-pre-contractual-requirements.md
   - concepts/conc-creditworthiness-assessment.md
   - summaries/conc5-responsible-lending.md
+  - summaries/disp-app5-motor-finance-dca-complaints.md
 ---
 
 # CONC — Discretionary Commission Arrangements (DCA Prohibition)
@@ -107,3 +108,4 @@ The FCA's motor finance review (initiated 2024) focuses on the historical use of
 - [[conc4-pre-contractual-requirements]]
 - [[conc-creditworthiness-assessment]]
 - [[conc5-responsible-lending]]
+- [[disp-app5-motor-finance-dca-complaints]]

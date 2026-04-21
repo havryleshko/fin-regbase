@@ -22,6 +22,7 @@ related:
   - concepts/psr-unauthorised-transaction-liability.md
   - concepts/customer-due-diligence.md
   - concepts/aml-ctf-framework.md
+  - summaries/disp-app5-motor-finance-dca-complaints.md
 ---
 
 # DISP 2 — Jurisdiction of the Financial Ombudsman Service
@@ -141,3 +142,4 @@ If the firm sends a final response without including this referral notice, the 6
 - [[psr-unauthorised-transaction-liability]]
 - [[customer-due-diligence]]
 - [[aml-ctf-framework]]
+- [[disp-app5-motor-finance-dca-complaints]]

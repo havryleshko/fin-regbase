@@ -104,3 +104,4 @@ These indicators are guidance (G), not rules. A firm cannot argue ignorance if t
 - [[conc-financial-difficulty-indicators]]
 - [[consumer-duty-overview]]
 - [[agent-distributor-oversight]]
+- [[disp1-treating-complainants-fairly]]

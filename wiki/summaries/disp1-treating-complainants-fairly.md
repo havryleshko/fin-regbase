@@ -25,6 +25,7 @@ related:
   - concepts/complaints-handling-framework.md
   - summaries/disp2-fos-jurisdiction.md
   - concepts/fos-eligible-complainants.md
+  - summaries/disp-app5-motor-finance-dca-complaints.md
   - concepts/smcr-senior-managers-regime.md
   - concepts/consumer-duty-consumer-support.md
   - concepts/psr-regulatory-reporting.md
@@ -317,6 +318,7 @@ Unlike DISP 1.10A, the complaints data publication rules do not directly apply t
 - [[complaints-handling-framework]]
 - [[disp2-fos-jurisdiction]]
 - [[fos-eligible-complainants]]
+- [[disp-app5-motor-finance-dca-complaints]]
 - [[smcr-senior-managers-regime]]
 - [[consumer-duty-consumer-support]]
 - [[psr-regulatory-reporting]]

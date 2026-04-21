@@ -35,6 +35,8 @@ related:
   - concepts/operational-resilience.md
   - summaries/prin3-rules-about-application.md
   - summaries/prin2a-consumer-duty.md
+  - summaries/ps23-6-cryptoasset-financial-promotions.md
+  - concepts/cryptoasset-financial-promotions-framework.md
 ---
 
 # Payment Institutions and EMIs — Overlapping Consumer Duty and UK Sanctions Obligations
@@ -75,6 +77,8 @@ PIs are supervised for AML/CTF by **HMRC**, not the FCA. FCG 3 (AML/CTF) is FCA 
 | UK Financial Sanctions (FCG 7) | **Yes — all transactions and customers** | **Yes — all transactions and customers** |
 | AML/CTF (FCG 3) | No — HMRC supervised | Yes — FCA supervised |
 | MLR 2017 | Yes — via HMRC | Yes — via FCA |
+
+> **Cryptoasset financial promotions note:** PIs and EMIs authorised solely under the PSRs/EMRs (and not FSMA) are **not** "authorised persons" for s.21 FSMA purposes and therefore cannot approve cryptoasset financial promotions for unauthorised persons. If a PI or EMI also holds FCA authorisation under FSMA, the FSMA authorisation is the relevant basis. EMIs operating as MLR-registered cryptoasset businesses (cryptoasset exchange providers or custodian wallet providers) may communicate their own cryptoasset promotions under FPO Art. 73ZA. See [[ps23-6-cryptoasset-financial-promotions]] and [[cryptoasset-financial-promotions-framework]].
 
 ---
 
@@ -206,3 +210,5 @@ This means the firm's compliance architecture must be designed so that:
 - [[prin2a-consumer-duty]]
 - [[fos-eligible-complainants]]
 - [[disp2-fos-jurisdiction]]
+- [[ps23-6-cryptoasset-financial-promotions]]
+- [[cryptoasset-financial-promotions-framework]]

@@ -31,6 +31,8 @@ related:
   - concepts/conc-creditworthiness-assessment.md
   - concepts/consumer-duty-consumer-understanding.md
   - concepts/vulnerable-customers.md
+  - summaries/ps23-6-cryptoasset-financial-promotions.md
+  - concepts/cryptoasset-financial-promotions-framework.md
 ---
 
 # CONC 3 — Financial Promotions and Communications with Customers
@@ -290,3 +292,5 @@ This is absolute — there is no authorisation route for real-time interactive f
 - [[conc-creditworthiness-assessment]]
 - [[consumer-duty-consumer-understanding]]
 - [[vulnerable-customers]]
+- [[ps23-6-cryptoasset-financial-promotions]]
+- [[cryptoasset-financial-promotions-framework]]

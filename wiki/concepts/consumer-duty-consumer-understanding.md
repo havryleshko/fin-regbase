@@ -26,6 +26,8 @@ related:
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - concepts/costs-charges-disclosure.md
   - summaries/prin2a-consumer-duty.md
+  - summaries/ps23-6-cryptoasset-financial-promotions.md
+  - concepts/cryptoasset-financial-promotions-framework.md
 ---
 
 # FCA Consumer Duty — Consumer Understanding Outcome
@@ -147,3 +149,5 @@ See [[fca-supervisory-questions-consumer-duty]] for the full set across all outc
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[costs-charges-disclosure]]
 - [[prin2a-consumer-duty]]
+- [[ps23-6-cryptoasset-financial-promotions]]
+- [[cryptoasset-financial-promotions-framework]]
