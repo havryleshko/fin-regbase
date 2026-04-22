@@ -1704,3 +1704,53 @@ Checks run: wikilink integrity · orphan detection · FM/body consistency · mis
 | C8 | `summaries/conc7-arrears-default-recovery.md` | Added `[[disp1-treating-complainants-fairly]]` to Related Articles |
 
 **Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 contradictions
+
+## 2026-04-22 ingest | FCA Handbook — SYSC 9 Record-Keeping and SYSC 10 Conflicts of Interest
+
+Sources:
+- `raw/fca-handbook/SYSC 9 Record-keeping.pdf` (FCA Handbook, 7pp)
+- `raw/fca-handbook/SYSC 10 Conflicts of interest.pdf` (FCA Handbook, 20pp)
+
+Pages created (2):
+- `wiki/concepts/sysc9-record-keeping.md` — two-track architecture (non-MiFID general duty SYSC 9.1.1R; MiFID/common platform mandatory record types SYSC 9.1.1A/B); 5-year MiFID retention (SYSC 9.1.2R); tamper-proof storage (SYSC 9.1.2-AR — prevents firm-level alteration, FCA-accessible, reconstitutable); non-MiFID "as long as relevant" standard (SYSC 9.1.5G); AISP/PISP credit institution record-keeping (SYSC 9.2 — 4 data categories, 5-year from 13 Jan 2018 baseline); SM&CR personal liability from record-keeping gaps
+- `wiki/concepts/sysc10-conflicts-of-interest.md` — scope (SYSC 10.1.1R); hard identification duty (SYSC 10.1.3R — prospective, firm vs client and client vs client); 6 conflict types (SYSC 10.1.4R); conflict = duty conflict not mere benefit (SYSC 10.1.5G); conflicts register (SYSC 10.1.6R) + annual senior management report (SYSC 10.1.6AAR — separate obligations); manage first (SYSC 10.1.7R); disclosure as last resort (SYSC 10.1.9AR); written conflicts policy (SYSC 10.1.10R) with 6 named measures (SYSC 10.1.11R) and annual review (SYSC 10.1.11AAR); Chinese walls as statutory defence (SYSC 10.2.2R — FSA 2012 ss.89–91 and s.138D)
+
+Index updated: new "UK — FCA Systems and Controls (SYSC)" section added to `wiki/index.md`.
+
+Pages updated for cross-links (6):
+- `concepts/payment-for-order-flow.md` — sysc10-conflicts-of-interest added to FM related + Related Articles
+- `summaries/fca-pfof-supervisory-report-2019.md` — sysc10-conflicts-of-interest added to FM related + Related Articles
+- `concepts/prod-product-governance.md` — sysc9-record-keeping + sysc10-conflicts-of-interest added to FM related + Related Articles
+- `summaries/mifid-ii-product-governance-review-2021.md` — sysc9-record-keeping + sysc10-conflicts-of-interest added to FM related + Related Articles
+- `concepts/conc-creditworthiness-assessment.md` — sysc9-record-keeping added to Related Articles
+- `concepts/conc-cpa-rules.md` — sysc9-record-keeping added to Related Articles
+
+Key facts captured (not previously in wiki):
+1. **SYSC 9 two-track architecture**: Non-MiFID — flexible general duty, retain "as long as relevant" (SYSC 9.1.5G), no prescribed types. MiFID/common platform — mandatory prescribed record categories (SYSC 9.1.1A/B), 5-year retention (SYSC 9.1.2R). Structurally different regimes.
+2. **SYSC 9.1.2-AR tamper-proof storage**: Hard data architecture requirement for MiFID records: must prevent firm-level alteration/deletion; must be promptly accessible to FCA; must be reconstitutable in intelligible form. No equivalent for non-MiFID firms.
+3. **SYSC 10.1.9AR disclosure = last resort**: A firm that skips management and issues a conflicts notice breaches SYSC 10.1.9AR regardless of the notice's accuracy. Disclosure is not an alternative to management.
+4. **Conflicts register + annual SM report — two discrete obligations**: SYSC 10.1.6R (live register) and SYSC 10.1.6AAR (at least annual written report to senior management) are separate. Maintaining only the register without the annual report cycle breaches SYSC 10.1.6AAR.
+5. **Chinese walls — statutory defence (SYSC 10.2.2R)**: Complete protection under FSA 2012 ss.89(2)/90(1)/91(1) and s.138D. Only SYSC 10 mechanism with statutory (not merely regulatory) effect.
+
+No contradictions with existing wiki pages. SYSC 9.1.1R referenced by rule number in 4 prior pages without a concept page to resolve it — now resolved. SYSC 10.1.3R/10.1.7R referenced in PFOF pages — now resolved.
+
+## 2026-04-22 lint (pass 26)
+
+**Scope:** 107 pages (105 wiki + index + log)
+
+**Check 1 — Wikilink integrity:** PASS (0 broken)
+
+**Check 2 — Orphan/near-orphan detection:** PASS (0 orphans, 0 near-orphans). New SYSC pages both have 4 inbound links.
+
+**Check 3 — FM/body consistency:** 2 real findings. Both fixed.
+
+| # | File | Finding | Fix |
+|---|------|---------|-----|
+| F1 | `concepts/conc-cpa-rules.md` | `[[sysc9-record-keeping]]` in Related Articles body but absent from FM `related:` | Added to FM |
+| F2 | `concepts/conc-creditworthiness-assessment.md` | `[[sysc9-record-keeping]]` in Related Articles body but absent from FM `related:` | Added to FM |
+
+10 apparent body→FM gaps for `summaries/disp1-treating-complainants-fairly.md` confirmed as false positives — YAML parser fails on colon in `regulation: DISP (Dispute Resolution: Complaints sourcebook)`; FM content verified correct by direct file read.
+
+**Check 4 — Missing cross-references:** PASS. No pages reference SYSC 9/10 concepts without a wikilink.
+
+**Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 contradictions

@@ -245,6 +245,17 @@ Claude Code reads this file first on every query to identify relevant pages.
 
 ---
 
+## UK — FCA Systems and Controls (SYSC)
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/sysc9-record-keeping.md](concepts/sysc9-record-keeping.md) | SYSC 9: two-track architecture (non-MiFID general duty — retain "as long as relevant"; MiFID/common platform — mandatory record type categories, 5-year minimum); tamper-proof storage (SYSC 9.1.2-AR — prevents firm-level alteration, FCA-accessible, reconstitutable); AISP/PISP record-keeping for credit institutions (SYSC 9.2 — 4 data categories, 5-year from 13 Jan 2018 baseline); SM&CR personal liability from record-keeping gaps | 6 |
+| [concepts/sysc10-conflicts-of-interest.md](concepts/sysc10-conflicts-of-interest.md) | SYSC 10: strict identify → manage → disclose sequence (disclosure = last resort, SYSC 10.1.9AR); hard identification duty (SYSC 10.1.3R — prospective, firm vs client and client vs client); 6 conflict types (SYSC 10.1.4R — incl. inducements as Type 5, PFOF basis); conflicts register (SYSC 10.1.6R) + annual senior management report (SYSC 10.1.6AAR — separate obligations); written conflicts policy (SYSC 10.1.10R) with 6 named measures (SYSC 10.1.11R) and annual review (SYSC 10.1.11AAR); Chinese walls (SYSC 10.2.2R) as statutory defence under FSA 2012 ss.89–91 and s.138D | 12 |
+
+---
+
 ## UK — FCA Cryptoassets
 
 ### Summaries

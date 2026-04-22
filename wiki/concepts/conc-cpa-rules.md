@@ -18,6 +18,7 @@ related:
   - concepts/conc-debt-recovery-treatment.md
   - concepts/conc-financial-difficulty-indicators.md
   - concepts/conc-scope-and-application.md
+  - concepts/sysc9-record-keeping.md
 ---
 
 # CONC — Continuous Payment Authority Rules
@@ -168,3 +169,4 @@ Firms must keep sufficient records to ascertain that they have complied with all
 - [[conc-debt-recovery-treatment]]
 - [[conc-financial-difficulty-indicators]]
 - [[conc-scope-and-application]]
+- [[sysc9-record-keeping]]

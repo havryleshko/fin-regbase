@@ -29,7 +29,7 @@ Three operations defined in `CLAUDE.md`:
 
 ## What's in the Wiki
 
-**105 articles** (64 concepts, 37 summaries, 4 derived), plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
+**107 articles** (66 concepts, 37 summaries, 4 derived), plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -169,6 +169,10 @@ One page per regulatory concept, built from primary sources.
 |------|----------------|
 | `concepts/conc-scope-and-application.md` | CONC scope and application — activity types, habitual residence, MCOB boundary, AR treatment, Consumer Duty via CONC 1.1.4G |
 | `concepts/conc-financial-difficulty-indicators.md` | CONC 1.3.1G seven indicators, constructive knowledge, link to CONC 6/7 and vulnerability guidance |
+| `concepts/conc-mental-capacity-guidance.md` | CONC 2.10 mental-capacity guidance across origination, limit increases, and running-account decisions; links to vulnerability and fair treatment |
+| `concepts/conc-broker-unfair-practices.md` | Credit broker conduct rules and unfair-practices catalogue (CONC 2.5), including fee and disclosure interaction with CONC 4 |
+| `concepts/conc-financial-promotions-cfnm.md` | CONC 3 clear, fair and not misleading standard for consumer credit promotions, including prominence and omission risk |
+| `concepts/conc-representative-example-apr.md` | Representative example and APR disclosure triggers/content for CONC financial promotions, including restricted expressions |
 | `concepts/conc-creditworthiness-assessment.md` | CONC 5.2A / 5.5A / 5.4 — triggers, two-track credit and affordability risk, policies, P2P and broker angles |
 | `concepts/conc-discretionary-commission-arrangements.md` | CONC 4.5.6R DCA prohibition, disclosure of commission and cost impact |
 | `concepts/conc-cpa-rules.md` | CONC 7.6 continuous payment authority — pre-conditions, two-strike rules, HCSTC restrictions, cancellation |
@@ -186,6 +190,13 @@ One page per regulatory concept, built from primary sources.
 | Page | What it covers |
 |------|----------------|
 | `concepts/cryptoasset-financial-promotions-framework.md` | DOFP consumer journey for qualifying cryptoassets (RMMI) — mandatory sequence, appropriateness, cooling-off, incentives, MLR vs authorised firm routes |
+
+**FCA SYSC (Systems and Controls)**
+
+| Page | What it covers |
+|------|----------------|
+| `concepts/sysc9-record-keeping.md` | SYSC 9 record-keeping duties, MiFID retention/tamper-proof requirements, and AISP/PISP record obligations |
+| `concepts/sysc10-conflicts-of-interest.md` | SYSC 10 conflicts framework: identification, register, senior management reporting, policy controls, and disclosure as last resort |
 
 ### Derived
 Synthesised answers, assessments, and reference tables filed from query sessions.
@@ -218,7 +229,7 @@ fin-regbase/
 ├── wiki/
 │   ├── index.md            # Master index — start here for any query
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (64 pages)
+│   ├── concepts/           # Core regulatory concepts (66 pages)
 │   ├── summaries/          # Per-document summaries (37 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
 ├── agents/                 # Runtime query wrappers/clients

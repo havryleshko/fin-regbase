@@ -20,6 +20,7 @@ related:
   - concepts/conc-mental-capacity-guidance.md
   - concepts/smcr-senior-managers-regime.md
   - concepts/uk-gdpr-automated-decision-making.md
+  - concepts/sysc9-record-keeping.md
   - summaries/conc2-conduct-of-business-general.md
   - summaries/conc7-arrears-default-recovery.md
 ---
@@ -239,3 +240,4 @@ The worst-case drawdown assumption applies to P2P running-account credit **(CONC
 - [[uk-gdpr-automated-decision-making]]
 - [[conc2-conduct-of-business-general]]
 - [[conc7-arrears-default-recovery]]
+- [[sysc9-record-keeping]]

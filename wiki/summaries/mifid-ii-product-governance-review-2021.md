@@ -18,6 +18,8 @@ related:
   - summaries/fca-costs-charges-disclosure-review-2019.md
   - concepts/costs-charges-disclosure.md
   - concepts/smcr-senior-managers-regime.md
+  - concepts/sysc9-record-keeping.md
+  - concepts/sysc10-conflicts-of-interest.md
 ---
 
 # MiFID II: Product Governance Review (February 2021)
@@ -91,3 +93,5 @@ Under Consumer Duty, firms complying with PROD 3 for investments satisfy the Pro
 - [[fca-costs-charges-disclosure-review-2019]]
 - [[costs-charges-disclosure]]
 - [[smcr-senior-managers-regime]]
+- [[sysc9-record-keeping]]
+- [[sysc10-conflicts-of-interest]]

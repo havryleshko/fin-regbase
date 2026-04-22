@@ -14,6 +14,7 @@ related:
   - concepts/prod-product-governance.md
   - summaries/mifid-ii-product-governance-review-2021.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
+  - concepts/sysc10-conflicts-of-interest.md
 ---
 
 # FCA Payment for Order Flow (PFOF) Supervisory Report (April 2019)
@@ -93,3 +94,4 @@ The FCA stated it would continue to monitor PFOF compliance as an ongoing superv
 - [[prod-product-governance]]
 - [[mifid-ii-product-governance-review-2021]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
+- [[sysc10-conflicts-of-interest]]

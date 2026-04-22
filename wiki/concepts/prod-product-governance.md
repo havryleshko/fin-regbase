@@ -18,6 +18,8 @@ related:
   - concepts/costs-charges-disclosure.md
   - summaries/fca-costs-charges-disclosure-review-2019.md
   - concepts/payment-for-order-flow.md
+  - concepts/sysc9-record-keeping.md
+  - concepts/sysc10-conflicts-of-interest.md
   - summaries/fca-pfof-supervisory-report-2019.md
   - concepts/smcr-senior-managers-regime.md
   - concepts/advice-suitability-cobs9.md
@@ -195,3 +197,5 @@ Training that does not adequately cover end-investor needs and outcomes is insuf
 - [[fca-pfof-supervisory-report-2019]]
 - [[advice-suitability-cobs9]]
 - [[fca-assessing-suitability-review-2017]]
+- [[sysc9-record-keeping]]
+- [[sysc10-conflicts-of-interest]]

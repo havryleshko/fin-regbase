@@ -14,6 +14,7 @@ related:
   - concepts/prod-product-governance.md
   - summaries/mifid-ii-product-governance-review-2021.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
+  - concepts/sysc10-conflicts-of-interest.md
 ---
 
 # Payment for Order Flow (PFOF) — MiFID II Conflicts of Interest Framework
@@ -192,3 +193,4 @@ For **retail and professional clients**, PFOF had already ceased to be widesprea
 - [[prod-product-governance]]
 - [[mifid-ii-product-governance-review-2021]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
+- [[sysc10-conflicts-of-interest]]
