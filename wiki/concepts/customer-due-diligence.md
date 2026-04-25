@@ -12,6 +12,7 @@ sources:
   - "FCA, 'Firms' customer due diligence processes and controls: our findings' (2026)"
 tags: [financial-crime, AML, CDD, EDD, SDD, KYC, PEP, beneficial-ownership, transaction-monitoring, travel-rule, reliance, three-lines, UK, FCA, JMLSG]
 related:
+  - derived/aml-kyc-onboarding-decision-tree.md
   - concepts/aml-ctf-framework.md
   - concepts/simplified-due-diligence.md
   - concepts/sar-consent-tipping-off.md
@@ -352,6 +353,7 @@ JMLSG provides pro-forma confirmation templates (Annex 5-I and 5-II) for: UK-reg
 
 ## Related Articles
 
+- [[aml-kyc-onboarding-decision-tree]]
 - [[aml-ctf-framework]]
 - [[simplified-due-diligence]]
 - [[sar-consent-tipping-off]]

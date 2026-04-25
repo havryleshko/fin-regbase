@@ -29,7 +29,7 @@ Three operations defined in `CLAUDE.md`:
 
 ## What's in the Wiki
 
-**107 articles** (66 concepts, 37 summaries, 4 derived), plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
+**110 articles** (66 concepts, 37 summaries, 7 derived), plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -207,6 +207,9 @@ Synthesised answers, assessments, and reference tables filed from query sessions
 | `derived/fca-consumer-duty-implementation-review-2024.md` | FCA's February 2024 post-go-live findings — good and poor practice across all five areas |
 | `derived/consumer-understanding-digital-notifications.md` | Compliance assessment: digital investment platform in-app notifications vs. Consumer Understanding outcome |
 | `derived/pi-emi-consumer-duty-and-sanctions-obligations.md` | Synthesised obligations for payment institutions — Consumer Duty + sanctions overlap |
+| `derived/consumer-duty-product-lifecycle-checklist.md` | Lifecycle checklist for Consumer Duty compliance from design through withdrawal, with hard rules vs supervisory expectations |
+| `derived/conc-financial-difficulty-trigger-map.md` | Trigger-to-obligation map for financial difficulty across CONC (arrears, forbearance, CPA, mental capacity, disputed debt) |
+| `derived/aml-kyc-onboarding-decision-tree.md` | Stepwise onboarding decision tree integrating sanctions screening, CDD/EDD/SDD, SAR/DAML, and vulnerability gates |
 
 ---
 
@@ -231,7 +234,7 @@ fin-regbase/
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
 │   ├── concepts/           # Core regulatory concepts (66 pages)
 │   ├── summaries/          # Per-document summaries (37 pages)
-│   └── derived/            # Synthesised answers, checklists, assessments (4 pages)
+│   └── derived/            # Synthesised answers, checklists, assessments (7 pages)
 ├── agents/                 # Runtime query wrappers/clients
 ├── mcp-server/             # MCP server implementation (tooling for wiki access)
 ├── evals/                  # Retrieval eval questions, runner, and results

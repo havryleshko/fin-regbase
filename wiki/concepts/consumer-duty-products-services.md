@@ -14,6 +14,7 @@ sources:
   - "FCA Dear CEO letter — wealth management and stockbroking firms (November 2023)"
 tags: [consumer-duty, products-services, outcomes, target-market, UK, FCA]
 related:
+  - derived/consumer-duty-product-lifecycle-checklist.md
   - concepts/consumer-duty-overview.md
   - concepts/consumer-principle.md
   - concepts/consumer-duty-cross-cutting-rules.md
@@ -136,6 +137,7 @@ The FCA identified the following products and services failures specific to this
 
 ## Related Articles
 
+- [[consumer-duty-product-lifecycle-checklist]]
 - [[consumer-duty-overview]]
 - [[consumer-principle]]
 - [[consumer-duty-cross-cutting-rules]]

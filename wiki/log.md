@@ -1633,7 +1633,7 @@ Post-fix inbound link counts:
 - `disp2-fos-jurisdiction`: 10 inbound
 - `fos-eligible-complainants`: 7 inbound
 
-**Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 contradictions
+**Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 contradictions (Pass 21)
 
 ## 2026-04-21 ingest | DISP App 5 — Motor Finance DCA and Non-DCA Complaint Handling Rules (April 2026)
 
@@ -1703,7 +1703,7 @@ Checks run: wikilink integrity · orphan detection · FM/body consistency · mis
 | C7 | `summaries/conc1-application-purpose.md` | Added `[[disp1-treating-complainants-fairly]]` to Related Articles |
 | C8 | `summaries/conc7-arrears-default-recovery.md` | Added `[[disp1-treating-complainants-fairly]]` to Related Articles |
 
-**Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 contradictions
+**Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 contradictions (Pass 25)
 
 ## 2026-04-22 ingest | FCA Handbook — SYSC 9 Record-Keeping and SYSC 10 Conflicts of Interest
 
@@ -1753,4 +1753,86 @@ No contradictions with existing wiki pages. SYSC 9.1.1R referenced by rule numbe
 
 **Check 4 — Missing cross-references:** PASS. No pages reference SYSC 9/10 concepts without a wikilink.
 
-**Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 contradictions
+**Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 contradictions (Pass 26)
+
+## 2026-04-22 derived | Three synthesis pages
+
+Pages created (3):
+
+- `wiki/derived/aml-kyc-onboarding-decision-tree.md` — Sequential seven-stage onboarding flow: Stage 0 (sanctions screening pre-application), Stage 1 (SDD/Standard/EDD classification), Stage 2A (simplified CDD), Stage 2B (four-step standard CDD with beneficial ownership 25% threshold and senior managing official fallback), Stage 3 (EDD — PEP, high-risk third country, correspondent banking, complex transactions, life insurance beneficiary; SM approval, source of wealth/funds), Stage 4 (vulnerability and mental capacity check — indicators, Equality Act 2010 caution, vulnerability flags), Stage 5 (SAR/DAML decision gate — suspicion standard, DAML 7-day/31-day/186-day moratoriums, tipping-off two criminal offences, permitted disclosures), Stage 6 (onboarding approval checklist), Stage 7 (post-onboarding monitoring calibration). Record retention table.
+
+- `wiki/derived/conc-financial-difficulty-trigger-map.md` — Signal-to-obligation map across CONC: seven CONC 1.3.1G indicators with constructive knowledge standard; CONC 6.7.11G at-risk definition (three conditions, any one sufficient — two consecutive misses, arrangement agreed, DMP discussions); eight named signals each mapped to exact CONC obligations triggered (including CPA next-working-day indicator at CONC 7.6.9G; automatic interest freeze conditions at CONC 7.3.5G R; mandatory full suspension triggers for mental capacity CONC 7.10.1R and disputed debt CONC 7.14.1R); HCSTC two-strike rules (CONC 7.6.12R/7.6.13R/7.6.14R) including count reset mechanics; cumulative signal escalation table; Scotland statute-barred distinction (debt ceases to exist vs. merely unenforceable in E&W).
+
+- `wiki/derived/consumer-duty-product-lifecycle-checklist.md` — Manufacturer obligations across six lifecycle stages (design → testing → distribution → ongoing monitoring → material change → withdrawal); [HARD] vs [EXPECTED] distinctions throughout; negative target market as distinct mandatory step (PROD 3.2.10R); instrument-level scenario testing (PROD 3.2.13R); bidirectional manufacturer–distributor information flow obligations; pooled nominee account problem; AFM Board NED challenge requirement; closed product obligations; SM&CR personal accountability from undocumented challenge; PROD 3 / Consumer Duty equivalence.
+
+Index updated: three new derived page rows added to `wiki/index.md` — Consumer Duty → Derived, Financial Crime → Derived (new entry), CONC (new Derived subsection created).
+
+Sources synthesised: customer-due-diligence, sar-consent-tipping-off, conc-financial-difficulty-indicators, conc-debt-recovery-treatment, consumer-duty-products-services, consumer-duty-price-value (all quality-gated wiki concept pages). No new regulatory claims introduced.
+
+Key impact: AML/KYC decision tree addresses H007 BM25 architectural limit; CONC trigger map resolves M001-type multi-chapter traversal; Consumer Duty lifecycle checklist resolves H005/M006-type questions with the [HARD]/[EXPECTED] distinction not present in concept pages.
+
+## 2026-04-25 evals expansion | evals/questions.yaml — 33 new questions across 8 domains
+
+**Prior state:** 25 questions (8 easy / 10 medium / 7 hard) covering CONC and Consumer Duty almost exclusively.
+
+**New state:** 58 questions (16 easy / 23 medium / 19 hard) across 10 domains.
+
+New questions by domain:
+
+| Domain | IDs | Count |
+|---|---|---|
+| PSR / E-money | E009, E010, M011, M012, H008 | 5 |
+| UK GDPR | E011, E012, M013, M014, M015, H009 | 6 |
+| AML / Sanctions | E013, M016, M017, H010, H011 | 5 |
+| DISP / Complaints | E014, M018, M019, H012 | 4 |
+| SM&CR | E015, M020, M021, H013 | 4 |
+| PRIN | E016, M022, H014 | 3 |
+| SYSC | E017, M023, H015 | 3 |
+| Cryptoassets | E018, M024, H016 | 3 |
+| **Total new** | | **33** |
+
+Key coverage additions:
+- **PSR**: safeguarding written acknowledgement requirement; PISP fund/modification prohibitions; unauthorised transaction 4-business-day fraud delay (reg 86(2A)–(2D)); PI agent registration vs EMI distributor notification asymmetry; SCA TRA ETV band assignment (£250 in £440 band, 0.01% threshold)
+- **UK GDPR**: storage limitation / pseudonymisation not exempt; verbal SAR validity; automated credit refusal as Art. 22 "similarly significant effect"; DUA Act Art. 6(ea) recognised legitimate interest (no balancing test; five pre-approved purposes; purpose (5) = FCA/NCA/OFSI); purpose limitation compatibility assessment for AML data reuse; right to erasure + MLR retention + tipping-off interaction (three-way edge case)
+- **AML**: 25% beneficial ownership threshold + senior managing official fallback; DAML 7/31/186-day moratorium sequence; dual OFSI/FCA reporting obligation; shell bank prohibition (hard rule); s.330/s.333A/s.337 sequencing for intra-firm disclosure before MLRO report
+- **DISP**: 8-week vs 15-BD/35-BD dual timeline; root cause analysis extends to non-complained products (DISP 1.3.3R hard rule); motor finance DCA 15-month FOS window + mandatory wording substitution; small business (£5m turnover) as eligible complainant
+- **SM&CR**: 7-day SM breach reporting vs annual REP008; Duty of Responsibility undocumented-actions limitation; PI/EMI exclusion from SM&CR; Head of Legal exclusion + Overall Responsibility per-area allocation
+- **PRIN**: no private right of action (PRIN 3.4.4R); PRIN 3.1.1AR brings EMIs/PIs within PRIN explicitly; PRIN 2A.9.17R FCA notification duty for distribution chain Principle 12 breaches (no materiality threshold)
+- **SYSC**: identify→manage→disclose sequence (disclosure as last resort, SYSC 10.1.9AR); 5-year MiFID retention + tamper-proof storage (SYSC 9.1.2-AR); conflicts register + annual written SM report as two discrete obligations (SYSC 10.1.6R vs 10.1.6AAR)
+- **Cryptoassets**: absolute incentives ban (no shareholder benefit exemption; MLR businesses same rules as authorised firms); self-certified sophisticated investor disapplied; appropriateness anti-gaming (24-hour lock-out + different questions + no specific answer disclosure + cooling-off counts)
+
+Verification pending: 9 questions have `notes_for_reviewer` flags requiring citation verification against primary sources before production use (H008 ETV thresholds, M011 reg numbers, M012 reg numbers, M014 DUA Act Annex 2, M015 fraud detection as Annex 2 purpose, M017 SAMLA reg numbers, M021 SM&CR scope, H013 Head of Legal exclusion scope, H011 s.337 permitted disclosure timing).
+
+## 2026-04-25 lint (pass 27)
+
+**Scope:** 110 content pages (107 wiki + index + log)
+
+**Check 1 — Wikilink integrity:** 1 broken. Fixed.
+
+| # | Slug | Found in | Fix |
+|---|------|----------|-----|
+| F1 | `sanctions-compliance` | `derived/aml-kyc-onboarding-decision-tree.md` (FM + Related Articles) | Replaced with `[[uk-financial-sanctions-framework]]` in body and FM |
+
+**Check 2 — Orphan/near-orphan detection:** 3 orphans. Fixed.
+
+All three derived pages created in the previous session had 0 inbound links from content pages. Backlinks added:
+
+| Derived page | Backlink added to |
+|---|---|
+| `derived/aml-kyc-onboarding-decision-tree` | `concepts/customer-due-diligence.md` — Related Articles + FM |
+| `derived/conc-financial-difficulty-trigger-map` | `concepts/conc-financial-difficulty-indicators.md` — Related Articles + FM |
+| `derived/consumer-duty-product-lifecycle-checklist` | `concepts/consumer-duty-products-services.md` — Related Articles + FM |
+
+**Check 3 — FM / body consistency:** PASS. All three new derived pages have matching FM `related:` and Related Articles sections.
+
+**Check 4 — DUA Act year:** 3 occurrences of "DUA Act 2026" in live pages. Fixed.
+
+| File | Location | Fix |
+|---|---|---|
+| `wiki/index.md:82` | Index entry for uk-gdpr-lawful-basis | 2026 → 2025 |
+| `wiki/summaries/ico-guide-lawful-basis-2026.md:54` | Table row | 2026 → 2025 |
+| `wiki/summaries/ico-guide-lawful-basis-2026.md:184` | Key points | 2026 → 2025 |
+
+Note: "DUA Act 2026" references in `wiki/log.md` (historical entries) are intentionally not corrected — they record facts at the time of writing and log.md is append-only.
+
+**Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 DUA Act year errors (Pass 27)

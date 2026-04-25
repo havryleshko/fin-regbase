@@ -11,6 +11,7 @@ sources:
   - "CONC 6.7.11G"
 tags: [CONC, consumer-credit, financial-difficulties, arrears, debt, vulnerable-customers, UK, FCA]
 related:
+  - derived/conc-financial-difficulty-trigger-map.md
   - concepts/conc-scope-and-application.md
   - concepts/vulnerable-customers.md
   - concepts/vulnerability-drivers-and-taxonomy.md
@@ -100,6 +101,7 @@ This standard will be assessed by the FCA in the context of what data the firm h
 
 ## Related Articles
 
+- [[conc-financial-difficulty-trigger-map]]
 - [[conc-scope-and-application]]
 - [[vulnerable-customers]]
 - [[vulnerability-drivers-and-taxonomy]]

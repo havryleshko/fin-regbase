@@ -206,7 +206,7 @@ Both must be documented. AML/CTF processing of PEP data or adverse criminal medi
 ## Key Points for Agents
 
 - All processing requires a documented lawful basis under Article 6, identified before processing begins. Processing without one is unlawful under Article 5(1)(a).
-- **Seven bases exist** post-DUA Act 2026: consent; contract; legal obligation; vital interests; public task; recognised legitimate interest (new — five pre-approved purposes); legitimate interests.
+- **Seven bases exist** post-DUA Act 2025: consent; contract; legal obligation; vital interests; public task; recognised legitimate interest (new — five pre-approved purposes); legitimate interests.
 - **Recognised legitimate interest (Art. 6(ea))** removes the balancing test for safeguarding, emergencies, crime prevention, national security, and sharing with public task organisations. Most relevant for financial crime and regulatory data-sharing contexts.
 - **Legal obligation** (AML, regulatory reporting, sanctions) extinguishes the rights to erasure, portability and object. Data subjects cannot demand erasure of data held under a statutory retention obligation.
 - **Consent → legitimate interests switching after withdrawal is prohibited.** The firm must stop processing. Even if LI would have been valid from the start, the switch is an accountability and transparency breach.

@@ -51,7 +51,7 @@ The ICO's guide establishes several mandatory rules that apply regardless of whi
 | **(c) Legal obligation** | Necessary to comply with a legal obligation (not contractual) | None |
 | **(d) Vital interests** | Necessary to protect someone's life | None |
 | **(e) Public task** | Necessary for a public interest task or official function with a clear legal basis | None — primary basis for public authorities |
-| **(ea) Recognised legitimate interest** *(new — DUA Act 2026)* | Necessary for one of five pre-approved purposes (see below) | Cannot use for official tasks |
+| **(ea) Recognised legitimate interest** *(new — DUA Act 2025)* | Necessary for one of five pre-approved purposes (see below) | Cannot use for official tasks |
 | **(f) Legitimate interests** | Necessary for firm's or a third party's legitimate interests, not overridden by data subject's interests | Cannot use for official tasks |
 
 ### Recognised Legitimate Interest — The Five Pre-approved Purposes (Art. 6(ea))
@@ -181,7 +181,7 @@ Both must be documented. The wiki's `vulnerable-customers.md` contains the most 
 
 ## Key Points for Agents
 
-- Seven lawful bases exist under Article 6 (as amended by DUA Act 2026). No basis is superior — select based on purpose and context.
+- Seven lawful bases exist under Article 6 (as amended by DUA Act 2025). No basis is superior — select based on purpose and context.
 - **Recognised legitimate interest (Article 6(ea))** is new under the DUA Act: a pre-approved basis for five purposes including safeguarding, crime prevention and sharing with public task organisations. No balancing test required.
 - The basis must be **identified and documented before processing starts** — not retrospectively.
 - **Cannot switch from consent to legitimate interests after consent withdrawal.** This is an explicit ICO prohibition. Data subjects led to believe they had a choice must be given that choice.

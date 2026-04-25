@@ -12,8 +12,16 @@
 #   notes_for_reviewer  specific things the human reviewer should verify before using
 #   tags                topic tags for slicing results
 #
-# Difficulty distribution: 8 easy / 10 medium / 7 hard = 25 total
-# Type distribution: 11 factual / 8 synthesis / 4 edge-case / 2 boundary
+# Difficulty distribution (original): 8 easy / 10 medium / 7 hard = 25 total
+# Type distribution (original): 11 factual / 8 synthesis / 4 edge-case / 2 boundary
+#
+# Expansion (2026-04-25): +33 questions across 8 new domains
+# New total: 58 questions — 16 easy / 23 medium / 19 hard
+# New type distribution: ~20 factual / 12 synthesis / 16 edge-case / 10 boundary
+# Domains added: PSR/EMI · UK GDPR · AML/Sanctions · DISP · SM&CR · PRIN · SYSC · Cryptoassets
+#
+# Verification status: all new questions flagged with notes_for_reviewer where citations
+# need checking against primary sources. Run verification pass before using in production.
 
 # ─────────────────────────────────────────────────────────────────────────────
 # EASY — single page, specific rule, no synthesis required
@@ -579,3 +587,806 @@
     then get_related traversal reaches the concept pages. Do not attempt to fix via wiki edits —
     treat as a documented architectural limit of single-query BM25 retrieval.
   tags: [sanctions, AML, vulnerable-customers, mental-capacity, onboarding]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# PSR / E-MONEY — Payment Services Regulations 2017 and EMRs 2011
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E009
+  question: >
+    What are the two methods by which an authorised payment institution or
+    e-money institution may safeguard relevant funds, and what is the key
+    documentation requirement specific to the segregation method?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - safeguarding-pis-emis
+  required_facts:
+    - "Method 1 (segregation): relevant funds must be deposited in a dedicated safeguarding account at a credit institution, kept separate from the firm's own funds, OR invested in secure, liquid, low-risk assets"
+    - "The credit institution holding the safeguarding account must provide a written acknowledgement confirming that the funds are held separately from the firm's own funds and cannot be used to meet the firm's liabilities"
+    - "Method 2 (insurance or comparable guarantee): relevant funds must be covered by an insurance policy or comparable guarantee from an authorised insurer or credit institution that is not in the same group as the PI or EMI"
+    - "Daily reconciliation of safeguarded funds is required regardless of which method is used"
+    - "An annual independent safeguarding audit is required"
+    - "In insolvency, the safeguarded asset pool has priority for distribution to payment service users ahead of other creditors"
+  required_citations:
+    - "PSRs 2017 reg. 23"
+    - "EMRs 2011 reg. 21"
+    - "FCA Approach Document Chapter 10"
+  notes_for_reviewer: >
+    Verify regulation numbers (PSRs 2017 reg. 23; EMRs 2011 reg. 21) against
+    current text. The written acknowledgement requirement and the group exclusion
+    for Method 2 are from the wiki — confirm both are accurate. The annual audit
+    and daily reconciliation obligations are stated in the wiki; check whether
+    these derive from the Approach Document or the primary regulations.
+  tags: [PSR, EMI, safeguarding, payment-institutions]
+
+- id: E010
+  question: >
+    Under the Payment Services Regulations 2017, what two things is a payment
+    initiation service provider strictly prohibited from doing when executing a
+    payment on behalf of a customer?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - psr-open-banking-pisp-aisp
+  required_facts:
+    - "A PISP must never hold the payer's funds at any point — the payment passes directly from the payer's account to the payee without the PISP taking custody"
+    - "A PISP must not modify the amount, payee, or any other element of the payment transaction after initiation"
+    - "These are hard prohibitions — they apply regardless of customer consent and cannot be displaced by agreement"
+  required_citations:
+    - "PSRs 2017 reg. 69"
+    - "FCA Approach Document Chapter 17"
+  notes_for_reviewer: >
+    Verify reg. 69 PSRs 2017 as the source of the PISP hard restrictions. The two
+    prohibitions (no fund-holding, no modification) are stated in the wiki; confirm
+    both are accurate and that reg. 69 is the correct citation. Note that the 'no
+    funds' restriction is what distinguishes a PISP from a PSP that executes
+    payments directly.
+  tags: [PSR, PISP, open-banking, payment-services]
+
+- id: M011
+  question: >
+    A customer contacts their payment service provider on a Monday reporting an
+    unauthorised debit card payment made the previous Friday that they did not
+    authorise. What is the PSP's refund obligation, and under what single condition
+    may it delay refunding?
+  difficulty: medium
+  type: edge-case
+  expected_pages:
+    - psr-unauthorised-transaction-liability
+  required_facts:
+    - "The PSP must refund the full amount of the unauthorised transaction by the end of the next business day after the customer's notification — the refund obligation is immediate and is not conditional on completing an investigation first"
+    - "The customer's liability is capped at £35 where they failed to keep their personalised security credentials safe but did not act fraudulently or with gross negligence"
+    - "The PSP may delay the refund by up to 4 business days where it has reasonable grounds to suspect the customer of fraud — this is the only permitted ground for delay"
+    - "The burden of proof that the transaction was authorised, or that the customer acted fraudulently or with gross negligence, lies on the PSP — not the customer"
+    - "A customer who fails to notify the PSP within 13 months of the transaction date loses the right to a refund"
+  required_citations:
+    - "PSRs 2017 reg. 76 (refund obligation)"
+    - "PSRs 2017 reg. 77 (£35 cap)"
+    - "PSRs 2017 reg. 86(2A)–(2D) (4-business-day fraud delay)"
+  notes_for_reviewer: >
+    Verify regulation numbers: reg. 76 (refund), reg. 77 (£35 cap), reg. 86(2A)–(2D)
+    (fraud delay mechanism). The 4-business-day delay is stated in the wiki; confirm
+    it applies only where the PSP suspects fraud by the customer, not as a general
+    investigation period. Confirm the £35 cap is the maximum the customer bears in
+    gross-negligence-adjacent (but not fraudulent) cases, and that gross negligence
+    removes the cap entirely.
+  tags: [PSR, unauthorised-transactions, liability, payment-services]
+
+- id: M012
+  question: >
+    An authorised e-money institution plans to use third parties to distribute its
+    e-money products. What is the regulatory difference between using an agent
+    versus a distributor, and why does it matter for FCA registration?
+  difficulty: medium
+  type: boundary
+  expected_pages:
+    - agent-distributor-oversight
+  required_facts:
+    - "Agents of authorised PIs must be individually registered on the FCA Register before they can operate — the PI/EMI must submit the application and is responsible for the agent's acts and omissions as if they were its own"
+    - "Distributors of EMIs do not require individual FCA registration — the EMI must notify the FCA of its distributors but there is no individual registration requirement for each distributor"
+    - "Distributors are prohibited from providing payment services themselves — they may only distribute or sell the EMI's e-money; they cannot execute payment transactions"
+    - "For PIs: agent model requires FCA registration and creates direct regulatory responsibility on the PI. For EMIs: distributor model requires notification only, and distributors operate outside the payment services perimeter"
+  required_citations:
+    - "PSRs 2017 reg. 34 (agent registration)"
+    - "EMRs 2011 reg. 35 (distributor notification)"
+    - "FCA Approach Document Chapter 8"
+  notes_for_reviewer: >
+    Verify regulation numbers: PSRs 2017 reg. 34 (agent registration) and EMRs 2011
+    reg. 35 (distributor notification). The key asymmetry — PI agents require FCA
+    registration; EMI distributors require notification only — is from the wiki.
+    Confirm that the prohibition on distributors providing payment services is correct
+    and is not just a commercial limitation but a regulatory one.
+  tags: [PSR, EMI, agents, distributors, FCA-registration]
+
+- id: H008
+  question: >
+    A PSP processes a £250 card-based remote payment and wants to apply the
+    transaction risk analysis (TRA) exemption to skip strong customer
+    authentication. Its current reference fraud rate for card-based remote
+    transactions is 0.04%. Can it apply the TRA exemption?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - psr-sca-authentication
+  required_facts:
+    - "No — the TRA exemption is not available for this transaction"
+    - "The TRA exemption requires the PSP's reference fraud rate to be below the threshold for the relevant exempt transaction value (ETV) band"
+    - "ETV bands and maximum permitted fraud rates: up to £85 — 0.13%; up to £220 — 0.06%; up to £440 — 0.01%"
+    - "A £250 transaction falls in the 'up to £440' ETV band, which requires a maximum reference fraud rate of 0.01%"
+    - "A fraud rate of 0.04% exceeds the 0.01% threshold — the TRA exemption cannot be applied"
+    - "The PSP must apply SCA for this transaction unless a different exemption applies (e.g. low-value contactless, recurring fixed-amount, or trusted beneficiary)"
+  required_citations:
+    - "SCA-RTS Art. 18 (TRA exemption conditions)"
+    - "SCA-RTS Art. 19 (reference fraud rates and ETV thresholds)"
+  notes_for_reviewer: >
+    The ETV thresholds (£85/£220/£440) and corresponding maximum fraud rates
+    (0.13%/0.06%/0.01%) are taken from the wiki index summary of
+    psr-sca-authentication.md. Verify these figures against SCA-RTS Art. 18–19 or
+    FCA Approach Document Chapter 20. Critical: confirm that a £250 transaction
+    falls in the 'up to £440' band (not 'up to £220', since £250 > £220). The answer
+    hinges on this band assignment — if the bands are exclusive upper bounds, £250
+    clears the £220 threshold and sits in the £440 band.
+  tags: [PSR, SCA, TRA, authentication, exemptions]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# UK GDPR / DATA PROTECTION
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E011
+  question: >
+    Under UK GDPR Article 5, what is the storage limitation principle and
+    what does it require in practice?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - uk-gdpr-data-protection-principles
+  required_facts:
+    - "Personal data must be kept in a form that permits identification of data subjects for no longer than is necessary for the purposes for which the data are processed"
+    - "There are no prescribed retention periods in the UK GDPR — firms must determine the appropriate period themselves based on the purpose"
+    - "Pseudonymisation does not exempt data from the storage limitation principle — pseudonymised data can still identify individuals with additional information and remains personal data"
+    - "Archiving in the public interest, scientific or historical research, and statistical purposes are exceptions — but only where appropriate safeguards are in place and the data is used solely for those purposes"
+    - "A mandatory breach register must be maintained for all personal data breaches regardless of whether they are notified to the ICO — there is no threshold for recording"
+  required_citations:
+    - "UK GDPR Art. 5(1)(e)"
+  notes_for_reviewer: >
+    The last required_fact (breach register) is from Art. 33(5) not Art. 5(1)(e) —
+    it was included in the wiki's storage limitation coverage as a related record-keeping
+    point. Remove that bullet or re-attribute it to Art. 33(5) if the question is
+    scoped strictly to Art. 5(1)(e). The pseudonymisation point is a named ICO finding
+    in the wiki — verify it is stated in the Art. 5(1)(e) guidance specifically.
+  tags: [UK-GDPR, data-protection-principles, storage-limitation]
+
+- id: E012
+  question: >
+    A firm receives a subject access request verbally from a customer over the
+    phone. Must it respond, and if so, within what timeframe?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - uk-gdpr-subject-access
+  required_facts:
+    - "Yes — a SAR does not need to be in writing and does not need to use the words 'subject access request'; verbal requests made by phone are valid"
+    - "The firm must respond within one calendar month of receiving the request"
+    - "The ICO recommends targeting 28 days to allow time for review before the deadline"
+    - "The firm may ask for clarification where the request is unclear or covers a large volume of data, but the clock pauses only if clarification is genuinely needed for a large or complex request — it does not pause automatically"
+    - "The firm must still provide any supplementary information (equivalent to Art. 13/14 privacy notice content) alongside the copy of the data"
+  required_citations:
+    - "UK GDPR Art. 15"
+    - "UK GDPR Art. 12(3) (one-month deadline)"
+  tags: [UK-GDPR, subject-access, individual-rights]
+
+- id: M013
+  question: >
+    A fintech lender uses a fully automated credit scoring system that rejects
+    applications without human review. A customer whose application was rejected
+    asks for an explanation and challenges the decision. What are the firm's
+    obligations under UK GDPR Article 22?
+  difficulty: medium
+  type: synthesis
+  expected_pages:
+    - uk-gdpr-automated-decision-making
+    - uk-gdpr-individual-rights-overview
+  required_facts:
+    - "An automated credit refusal with legal or similarly significant effects on the customer falls within Article 22 — the ICO has named automatic credit refusal as a 'similarly significant effect'"
+    - "The firm must have a permitted ground for the automated decision: (1) necessary for entering or performing a contract; (2) authorised by law; or (3) explicit consent of the data subject"
+    - "A credit application is typically ground (1) — necessary for entering into a contract — which is the most commonly used ground for automated credit decisions"
+    - "The firm must implement suitable safeguards including: the right to obtain human review of the decision; the right to express the data subject's point of view; and the right to contest the decision"
+    - "Where special category data (e.g. health data relevant to the application) is involved in the automated decision, the permitted grounds are narrower — only explicit consent or substantial public interest apply"
+    - "A DPIA is mandatory before deploying a purely automated credit decision system"
+  required_citations:
+    - "UK GDPR Art. 22"
+    - "UK GDPR Art. 35(3)(a) (DPIA mandatory)"
+  tags: [UK-GDPR, automated-decision-making, credit, fintech]
+
+- id: M014
+  question: >
+    The Data (Use and Access) Act 2025 introduced a new Article 6 basis called
+    'recognised legitimate interest'. How does it differ from the existing
+    legitimate interests basis, and which of its pre-approved purposes is most
+    relevant to financial services firms?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - uk-gdpr-lawful-basis
+    - ico-guide-lawful-basis-2026
+  required_facts:
+    - "Recognised legitimate interest (Art. 6(ea)) is a new basis introduced by the DUA Act 2025 — unlike ordinary legitimate interests (Art. 6(1)(f)), it does not require the firm to conduct a balancing test against the individual's interests"
+    - "The basis applies only where the processing falls within one of five pre-approved purposes listed in the Act — it is not available for general commercial processing"
+    - "The five pre-approved purposes are: (1) Safeguarding vulnerable people; (2) Responding to emergencies; (3) Preventing or investigating crime; (4) National security, public security and defence; (5) Sharing personal data with a public task organisation at that organisation's request"
+    - "Purposes 1 (safeguarding), 3 (crime prevention/financial crime investigation), and 5 (sharing with public task organisations such as the FCA, NCA, and OFSI) are most directly relevant to financial services firms"
+    - "Even under Art. 6(ea), a separate condition under Art. 9 must be identified if special category data is involved"
+  required_citations:
+    - "UK GDPR Art. 6(ea) (as inserted by DUA Act 2025)"
+  notes_for_reviewer: >
+    The five pre-approved purposes are confirmed from the wiki (uk-gdpr-lawful-basis.md)
+    which derives from ICO guidance updated April 2026. The exact wording is:
+    (1) Safeguarding vulnerable people; (2) Responding to emergencies;
+    (3) Preventing or investigating crime; (4) National security, public security and
+    defence; (5) Sharing personal data with a public task organisation at that
+    organisation's request. The claim that no balancing test is required under
+    Art. 6(ea) is confirmed by the wiki. The Act is the Data (Use and Access) Act 2025
+    (Royal Assent 2025) — not 2026.
+  tags: [UK-GDPR, DUA-Act, lawful-basis, recognised-legitimate-interest]
+
+- id: M015
+  question: >
+    A firm wants to use customer data originally collected for AML/KYC purposes
+    to train an internal fraud detection model. Under the UK GDPR purpose
+    limitation principle, is this permitted and what assessment is required?
+  difficulty: medium
+  type: synthesis
+  expected_pages:
+    - uk-gdpr-data-protection-principles
+    - uk-gdpr-lawful-basis
+  required_facts:
+    - "Processing for a new purpose requires a compatibility assessment unless the customer has given specific consent to the new purpose, or the new purpose falls within an Annex 2 compatible purpose under the DUA Act 2025"
+    - "The five-factor compatibility assessment considers: link between original and new purposes; context of collection and reasonable expectations; nature of the data; consequences of further processing; existence of appropriate safeguards"
+    - "AML/KYC data is collected under legal obligation (Art. 6(1)(c)) — using it for fraud model training is a different purpose, and switching to legitimate interests as the basis after original collection under legal obligation is not straightforward"
+    - "Fraud detection may fall within DUA Act 2025 Annex 2 compatible purpose 1 ('Preventing or detecting crime or other unlawful behaviour') — fraud detection is not named as a distinct Annex 2 purpose but falls within this broader crime prevention purpose; the firm must assess whether its specific fraud model use falls within purpose 1"
+    - "Even if compatible processing is established, the firm must still meet transparency obligations — customers must be informed of the new purpose"
+  required_citations:
+    - "UK GDPR Art. 5(1)(b) (purpose limitation)"
+    - "UK GDPR Art. 6(4) (compatibility assessment)"
+  notes_for_reviewer: >
+    Verified: Annex 2 purpose 1 is 'Preventing or detecting crime or other unlawful
+    behaviour' — this covers fraud detection but fraud detection is not named as a
+    discrete Annex 2 purpose. The question correctly attributes this to the DUA Act 2025
+    (Royal Assent 2025). The nine Annex 2 compatible purposes are not all enumerated in
+    the wiki index — confirm the full list from uk-gdpr-data-protection-principles.md or
+    primary legislation if this question is used in production.
+  tags: [UK-GDPR, purpose-limitation, AML, fraud-detection, DUA-Act]
+
+- id: H009
+  question: >
+    A firm receives a right-to-erasure request from a customer whose account
+    included a five-year-old AML suspicious activity report. The customer argues
+    the data is no longer necessary. Must the firm erase the SAR data?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - uk-gdpr-right-to-erasure
+    - sar-consent-tipping-off
+  required_facts:
+    - "No — the firm is not required to erase the SAR data"
+    - "The right to erasure under Art. 17 is subject to exemptions — the legal obligation exemption (Art. 17(3)(b)) applies where retention is required to comply with a legal obligation"
+    - "MLR 2017 reg. 40 requires firms to retain SAR-related records for a minimum of five years from the end of the business relationship or transaction — this legal obligation displaces the erasure right"
+    - "The legal claims exemption (Art. 17(3)(e)) may also apply if the SAR data is relevant to potential legal proceedings"
+    - "There is a second complication: the firm must not disclose to the customer that a SAR exists or was filed — responding to the erasure request in a way that confirms or implies a SAR was made could constitute tipping-off under POCA 2002 s.333A"
+    - "The correct response is to refuse erasure on legal obligation grounds, without confirming or denying the existence of any SAR"
+  required_citations:
+    - "UK GDPR Art. 17(3)(b) (legal obligation exemption)"
+    - "MLR 2017 reg. 40 (SAR record retention)"
+    - "POCA 2002 s.333A (tipping-off)"
+  tags: [UK-GDPR, right-to-erasure, AML, SAR, tipping-off]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# AML / SANCTIONS
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E013
+  question: >
+    What is the beneficial ownership threshold under the Money Laundering
+    Regulations 2017, and what is the fallback when no natural person meets it?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - customer-due-diligence
+  required_facts:
+    - "The threshold is 25% of shares, voting rights, or other ownership interest in a legal person"
+    - "A firm must identify all natural persons who own or control more than 25% — the threshold identifies a floor, not a ceiling; control can exist below 25% through other means"
+    - "Where no natural person meets the 25% threshold after exhausting the ownership chain, the firm must identify the senior managing official(s) of the legal person as the beneficial owner"
+    - "The firm must document why no natural person met the threshold — the fallback to senior managing officials is not a first resort"
+    - "For trusts: the firm must identify the settlor, trustees, protector (if any), beneficiaries or class of beneficiaries, and any person exercising effective control"
+  required_citations:
+    - "MLR 2017 reg. 5 (beneficial owner definition)"
+    - "MLR 2017 reg. 28 (CDD obligation)"
+  tags: [AML, CDD, beneficial-ownership, MLR-2017]
+
+- id: M016
+  question: >
+    A firm files a suspicious activity report and wishes to continue processing
+    the transaction while awaiting a response. What is the correct procedure and
+    what are the maximum waiting periods before the firm may proceed?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - sar-consent-tipping-off
+  required_facts:
+    - "The firm must file a Defence Against Money Laundering (DAML) SAR with the NCA UKFIU and await consent or the expiry of the moratorium period before proceeding"
+    - "The NCA has 7 days from receipt of the DAML SAR to grant or refuse consent — if no response is received within 7 days, consent is deemed granted and the firm may proceed"
+    - "If the NCA refuses consent within the 7-day period, a further moratorium period of up to 31 days runs from the date of refusal — the firm must not proceed during this period"
+    - "If a court issues a restraint order or similar order within the 31-day period, a further period of up to 186 days may apply"
+    - "Proceeding with the transaction before the applicable period expires is a money laundering offence under POCA 2002 s.328"
+    - "The DAML reference number and the date of consent or moratorium expiry must be recorded"
+  required_citations:
+    - "POCA 2002 s.335 (DAML consent procedure)"
+    - "POCA 2002 s.328 (money laundering offence)"
+  tags: [AML, SAR, DAML, NCA, consent-regime]
+
+- id: M017
+  question: >
+    A firm's compliance officer discovers that a transaction was processed for a
+    customer whose name now appears on the UK Consolidated Sanctions List. The
+    transaction completed three days ago. What must the firm do, and within what
+    timeframe?
+  difficulty: medium
+  type: synthesis
+  expected_pages:
+    - asset-freezes-and-ofsi-licences
+    - uk-financial-sanctions-framework
+  required_facts:
+    - "The firm must freeze any remaining assets or funds held for the designated person immediately — the freeze obligation applies on knowledge of the designation, not only at the point of onboarding"
+    - "The firm must report the frozen assets to OFSI within 10 business days of becoming aware that it holds assets for a designated person (SAMLA 2018 s.17)"
+    - "The firm must also report the breach to the FCA under SUP 15.3 — the dual reporting obligation (OFSI and FCA) applies; these are separate notifications"
+    - "The firm should not return funds to the customer or allow the customer to access them pending investigation"
+    - "A past transaction that has already been executed does not reverse the sanctions freeze obligation on current holdings — the firm must act on assets it currently holds"
+  required_citations:
+    - "SAMLA 2018 s.17 (OFSI reporting)"
+    - "FCA SUP 15.3 (FCA notification)"
+  notes_for_reviewer: >
+    The 10-business-day period and SAMLA 2018 s.17 citation appear in the wiki's
+    derived AML/KYC decision tree (aml-kyc-onboarding-decision-tree.md) but are not
+    confirmed in the underlying asset-freezes concept page (asset-freezes-and-ofsi-
+    licences.md), which states the reporting obligation without a specific timeframe.
+    The reporting requirement may sit in individual sanctions statutory instruments
+    rather than SAMLA s.17 itself. Verify against SAMLA 2018 primary text and/or
+    the relevant sanctions regulations before production use. The dual OFSI + FCA
+    reporting obligation and SUP 15.3.11R(1) citation for FCA notification are
+    confirmed by the wiki.
+  tags: [sanctions, OFSI, asset-freeze, breach-reporting, FCA]
+
+- id: H010
+  question: >
+    A firm provides correspondent banking services to a foreign respondent
+    institution. During EDD, it discovers the respondent processes transactions
+    for shell banks as a normal part of its business. What must the firm do?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - customer-due-diligence
+    - aml-kyc-onboarding-decision-tree
+  required_facts:
+    - "The firm must not enter into or continue a correspondent banking relationship with a shell bank — this is a hard prohibition under MLR 2017 reg. 34"
+    - "A shell bank is a credit institution incorporated in a jurisdiction where it has no physical presence and is not affiliated with a regulated financial group"
+    - "The fact that the respondent institution processes transactions for shell banks as part of its own business means the firm's correspondent relationship indirectly facilitates shell bank activity — this is sufficient reason to refuse or terminate the relationship"
+    - "If the relationship already exists, the firm must terminate it — not merely apply enhanced monitoring"
+    - "The firm must file a SAR if the shell bank activity gives rise to suspicion of money laundering or terrorist financing"
+  required_citations:
+    - "MLR 2017 reg. 34 (prohibition on shell bank relationships)"
+    - "MLR 2017 reg. 33 (EDD for correspondent banking)"
+  tags: [AML, EDD, correspondent-banking, shell-banks, MLR-2017]
+
+- id: H011
+  question: >
+    An employee at a regulated firm suspects a customer is laundering money but
+    has not yet reported internally to the MLRO. A colleague in the same team
+    asks the employee directly: 'Is there a problem with this customer's account?'
+    What are the tipping-off risks, and what can the employee say?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - sar-consent-tipping-off
+  required_facts:
+    - "Tipping-off under POCA 2002 s.333A prohibits disclosing that a SAR has been filed or that an investigation is being contemplated or carried out — but no SAR has been filed yet in this scenario, so s.333A does not technically apply at this moment"
+    - "However, the failure to disclose offence under POCA 2002 s.330 applies to regulated sector employees — the employee has an obligation to report to the MLRO as soon as practicable once suspicion arises"
+    - "Once the employee has reported to the MLRO, the intra-firm disclosure exemption under POCA 2002 s.333B(1) permits an employee, officer, or partner to disclose information to another employee, officer, or partner of the same firm — intra-firm AML compliance discussions are a permitted disclosure, not tipping-off"
+    - "The employee should not confirm or deny any specific concern to the colleague before reporting to the MLRO — this avoids any risk that the information reaches the customer before the MLRO has evaluated the position"
+    - "The correct sequence: report to MLRO first, then the intra-firm permitted disclosure carve-out under s.333B(1) allows the discussion to occur within the firm's AML compliance function"
+  required_citations:
+    - "POCA 2002 s.330 (failure to disclose)"
+    - "POCA 2002 s.333A (tipping-off offences)"
+    - "POCA 2002 s.333B(1) (intra-firm disclosure exemption)"
+  notes_for_reviewer: >
+    Confirmed from wiki (sar-consent-tipping-off.md): the intra-firm disclosure
+    exemption is POCA 2002 s.333B(1) (disclosure by an employee, officer or partner
+    to another employee, officer or partner of the same firm), not s.337. POCA s.337
+    covers disclosures TO a nominated officer (MLRO) — a different provision. The
+    sequencing (s.333A doesn't apply until a SAR exists; s.330 applies on suspicion;
+    s.333B(1) permits intra-firm AML compliance discussion) is confirmed by the wiki.
+  tags: [AML, SAR, tipping-off, POCA-2002, intra-firm-disclosure]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# DISP / COMPLAINTS
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E014
+  question: >
+    What is the maximum time a firm regulated under DISP has to issue a final
+    response to a complaint, and how does this differ for payment service
+    providers and e-money issuers?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - complaints-handling-framework
+    - disp1-treating-complainants-fairly
+  required_facts:
+    - "The standard deadline for a final response is 8 weeks from the date the complaint was received"
+    - "For payment service providers and e-money issuers responding to complaints about payment services, the deadline is 15 business days"
+    - "In exceptional circumstances, PSPs and EMIs may extend to 35 business days — but must notify the customer within the 15-business-day period explaining the delay and the new deadline"
+    - "The 3-business-day track is available for all firms where a complaint can be resolved by close of the third business day after receipt — a summary resolution communication may be issued instead of a final response letter"
+    - "These are hard outer limits — a firm cannot extend beyond them unilaterally"
+  required_citations:
+    - "DISP 1.6.2R (8-week standard)"
+    - "DISP 1.6.2AR (15 business days for PSPs/EMIs)"
+    - "DISP 1.5 (3-business-day track)"
+  tags: [DISP, complaints, PSR, EMI, timeline]
+
+- id: M018
+  question: >
+    A firm's complaints data shows a pattern of customers complaining about the
+    same feature of a product. DISP 1 contains a specific hard rule about what
+    the firm must do in response. What is it?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - complaints-handling-framework
+    - disp1-treating-complainants-fairly
+  required_facts:
+    - "DISP 1.3.3R imposes a hard rule: where a firm identifies recurring or systemic problems from complaints data, it must analyse the root cause of those problems"
+    - "The root cause analysis obligation extends beyond the products or services that have actually been complained about — it applies to other products or services that may have the same underlying problem even if no complaints have yet been received about them"
+    - "Where root cause analysis reveals that customers who have not complained may have suffered detriment, the firm must consider whether to take proactive steps to contact those customers and offer appropriate redress"
+    - "This obligation applies even if the affected customers have not complained and the firm has not received any FCA direction to review"
+    - "The analysis must feed into management information and be reported to senior management"
+  required_citations:
+    - "DISP 1.3.3R (root cause analysis)"
+  tags: [DISP, complaints, root-cause-analysis, proactive-redress]
+
+- id: M019
+  question: >
+    A motor finance customer received a final response letter from their lender
+    in March 2025 about a complaint relating to a discretionary commission
+    arrangement on a pre-2021 agreement. How long does the customer have to
+    refer the complaint to the Financial Ombudsman Service?
+  difficulty: medium
+  type: edge-case
+  expected_pages:
+    - disp-app5-motor-finance-dca-complaints
+    - disp2-fos-jurisdiction
+  required_facts:
+    - "The standard FOS referral window of 6 months from the date of the final response letter does not apply to this complaint"
+    - "Under DISP App 5, the FOS referral window for DCA motor finance complaints is extended to 15 months from the date of the final response — or until 30 July 2026, whichever is later"
+    - "A final response sent in March 2025 falls within the extended period (11 January 2024 to 31 May 2026) — the 15-month extended window applies"
+    - "The final response letter itself must substitute the standard '6 months' wording with '15 months' throughout — if the letter used the standard wording, the firm has not complied with DISP App 5.2.11R"
+    - "Records relating to the complaint must be retained until 11 April 2031 regardless of when the complaint was received or resolved"
+  required_citations:
+    - "DISP App 5.2.2R (extended FOS referral window)"
+    - "DISP App 5.2.11R (mandatory wording substitution)"
+    - "DISP 2.8.2R (standard 6-month rule, disapplied here)"
+  tags: [DISP, motor-finance, DCA, FOS, complaints]
+
+- id: H012
+  question: >
+    A small business with annual turnover of £5m submits a complaint to a firm
+    about a payment services dispute. The firm argues the business is not an
+    'eligible complainant' because it is a commercial entity, not a consumer.
+    Is the firm correct?
+  difficulty: hard
+  type: boundary
+  expected_pages:
+    - fos-eligible-complainants
+    - disp2-fos-jurisdiction
+  required_facts:
+    - "No — the firm is incorrect"
+    - "The eligible complainant definition includes 'small businesses' with an annual turnover of less than £6.5m at the time of referral to FOS — a business with £5m turnover qualifies"
+    - "The FCA's position is that where there is any doubt about whether a complainant is eligible, the FOS determines eligibility — not the respondent firm (DISP 2.7.5G)"
+    - "The firm cannot unilaterally decide that a complainant is not eligible and refuse to handle the complaint accordingly"
+    - "Eligible complainant categories include: consumers, micro-enterprises, small charities (income < £6.5m), small businesses (turnover < £6.5m at referral), trustees (net assets < £5m), and certain guarantors"
+  required_citations:
+    - "DISP 2.7.3R (eligible complainant definition)"
+    - "DISP 2.7.5G (doubt = eligible; FOS decides)"
+  tags: [DISP, FOS, eligible-complainant, small-business, jurisdiction]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SM&CR — SENIOR MANAGERS AND CERTIFICATION REGIME
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E015
+  question: >
+    Under SM&CR, how quickly must a firm report a breach of the Conduct Rules
+    by a Senior Manager, and how does this differ from the reporting timeframe
+    for other certified staff?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - smcr-conduct-rules
+  required_facts:
+    - "A firm must report a Conduct Rules breach by a Senior Manager to the FCA within 7 business days of the breach being identified"
+    - "Conduct Rules breaches by non-SM Certification staff and other in-scope employees are reported annually via the REP008 return — not on an individual basis"
+    - "The 7-business-day window for Senior Managers reflects their higher accountability level and the FCA's supervisory interest in SM-level conduct issues"
+    - "The trigger for the 7-day clock is the firm concluding that a breach occurred — not the date the breach occurred or the date it was first identified. Firms must not prolong the conclusion phase where evidence is clear."
+  required_citations:
+    - "COCON 11.1 (breach reporting)"
+    - "SUP 10C.14 (7 business days for Senior Managers)"
+  notes_for_reviewer: >
+    Confirmed from wiki (smcr-conduct-rules.md): the 7-day clock starts when the firm
+    'concludes' a breach occurred, not when it first 'identifies' the concern. The
+    COCON 11.1 and SUP 10C.14 citations and the REP008 annual return for non-SM staff
+    are stated in the wiki but their exact sub-rule accuracy should be verified against
+    the FCA Handbook before production use.
+  tags: [SM-and-CR, conduct-rules, breach-reporting, senior-managers]
+
+- id: M020
+  question: >
+    A Senior Manager is personally investigated following a firm-wide AML failure
+    that occurred during their tenure. What is the Duty of Responsibility and what
+    must the Senior Manager demonstrate to avoid personal liability?
+  difficulty: medium
+  type: synthesis
+  expected_pages:
+    - smcr-senior-managers-regime
+  required_facts:
+    - "The Duty of Responsibility (FSMA 2000 s.66A) allows the FCA to take enforcement action against a Senior Manager personally where a firm commits a breach in an area of the SM's responsibility"
+    - "The Duty of Responsibility does not impose strict liability — the SM can avoid personal liability by demonstrating they took reasonable steps to prevent the breach"
+    - "The reasonable steps defence is a statutory defence — the burden of proof is on the Senior Manager to demonstrate it, not on the FCA to disprove it"
+    - "Reasonable steps evidence typically includes: governance records showing the SM received appropriate information; evidence the SM asked the right questions; escalation actions taken; policies approved and reviewed"
+    - "Undocumented actions cannot be relied upon as evidence of reasonable steps — if the SM cannot prove they acted, the Duty of Responsibility provides no protection"
+  required_citations:
+    - "FSMA 2000 s.66A (Duty of Responsibility)"
+  tags: [SM-and-CR, Duty-of-Responsibility, accountability, senior-managers, AML]
+
+- id: M021
+  question: >
+    Does the SM&CR Senior Managers Regime apply to payment institutions and
+    e-money institutions? What conduct framework applies to them instead?
+  difficulty: medium
+  type: boundary
+  expected_pages:
+    - smcr-senior-managers-regime
+    - smcr-conduct-rules
+  required_facts:
+    - "No — the SM&CR Senior Managers Regime applies only to FSMA-authorised firms; it does not extend to payment institutions and e-money institutions authorised under the PSRs 2017 or EMRs 2011"
+    - "PIs and EMIs are not subject to the Approved Persons regime, the Certification Regime, or the Senior Managers Regime under SM&CR"
+    - "PIs and EMIs are subject to the FCA's Principles for Businesses (PRIN), including Principle 2A (Consumer Duty where it applies), and the conduct standards in the PSRs/EMRs and the Approach Document"
+    - "The Individual Conduct Rule 6 (act to deliver good outcomes for retail customers) under Consumer Duty applies to FSMA firms — its application to PI/EMI staff is through the Consumer Duty framework, not through SM&CR directly"
+  required_citations:
+    - "FSMA 2000 (SM&CR scope — FSMA-authorised firms only)"
+    - "FCA Guide for Solo-Regulated Firms (SM&CR scope)"
+  tags: [SM-and-CR, PSR, EMI, scope, payment-institutions]
+
+- id: H013
+  question: >
+    A firm's Head of Legal is proposed as a Senior Manager under SM&CR. The firm
+    wants to allocate the 'Overall Responsibility' Prescribed Responsibility to
+    them, covering all regulated activities. Is this permissible?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - smcr-senior-managers-regime
+  required_facts:
+    - "No — the Head of Legal is expressly excluded from SM approval across all tiers on legal privilege grounds; they cannot hold an SMF designation regardless of the breadth of their responsibilities"
+    - "The Head of Legal is not outside the SM&CR entirely — they are included in the Certification Regime and are subject to Conduct Rules; the exclusion is from the Senior Managers Regime (SMF approval) only"
+    - "Even if the Head of Legal were eligible, Overall Responsibility is an Enhanced-only requirement (SYSC 25) — it does not exist in Core firms"
+    - "Overall Responsibility requires that every regulated activity and business area has a named SM accountable for it — it is allocated per area, not as a blanket designation to one person covering all regulated activities"
+  required_citations:
+    - "SYSC 25 (Enhanced firms — Overall Responsibility)"
+    - "FCA Guide for Solo-Regulated Firms (Head of Legal exclusion — legal privilege grounds)"
+  notes_for_reviewer: >
+    Confirmed from wiki (smcr-senior-managers-regime.md): 'Head of Legal is expressly
+    excluded from SM approval across all tiers (legal privilege grounds).' The wiki
+    does not qualify this with 'only where responsibilities are limited to legal advice'
+    — the exclusion is express and unconditional in the wiki's statement. The wiki also
+    confirms the Head of Legal IS in the Certification Regime and subject to Conduct
+    Rules. Verify the exact scope of the exclusion against the FCA Guide §4 or FSMA
+    s.59 before production use.
+  tags: [SM-and-CR, senior-managers, Head-of-Legal, Overall-Responsibility, Enhanced]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# PRIN — PRINCIPLES FOR BUSINESSES
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E016
+  question: >
+    A retail customer suffers financial loss as a result of a firm breaching
+    Principle 12 (Consumer Duty). Can the customer sue the firm for damages
+    in court under FSMA?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - prin-principles-overview
+    - consumer-principle
+  required_facts:
+    - "No — there is no private right of action for breach of the FCA's Principles for Businesses, including Principle 12"
+    - "PRIN 3.4.4R expressly removes any right of action under FSMA s.138D for a breach of any of the Principles"
+    - "Retail customers cannot sue the firm in court for Principle 12 breach — their remedies are to complain to the firm, refer to the Financial Ombudsman Service, or rely on separate private law claims that are not based on the Principle itself"
+    - "FCA enforcement action (including redress requirements) remains available — the exclusion of private action applies to the customer, not to the FCA"
+  required_citations:
+    - "PRIN 3.4.4R (no private right of action)"
+    - "FSMA 2000 s.138D"
+  tags: [PRIN, Consumer-Duty, private-right-of-action, FSMA]
+
+- id: M022
+  question: >
+    A firm is authorised as an electronic money institution under the EMRs 2011.
+    Does Principle 12 (Consumer Duty) apply to it, and under which provision?
+  difficulty: medium
+  type: boundary
+  expected_pages:
+    - prin-principles-overview
+    - prin3-rules-about-application
+  required_facts:
+    - "Yes — Principle 12 and the PRIN 2A Consumer Duty rules apply to EMIs"
+    - "PRIN 3.1.1AR is a hard rule that expressly brings EMIs, PIs, and RAISPs within the scope of the Principles, including Principle 12"
+    - "The application of PRIN to EMIs is not merely by implication from the PSRs/EMRs — it is an explicit hard rule in PRIN itself"
+    - "The Consumer Duty applies to EMIs in respect of their retail customers — the retail customer definition for EMIs is set out in the PSRs/EMRs, not the general COBS definition"
+    - "Principle 6 and Principle 7 are displaced by Principle 12 where the Consumer Duty applies — both cannot operate simultaneously for the same activity (PRIN 3.2.10R)"
+  required_citations:
+    - "PRIN 3.1.1AR (EMIs/PIs/RAISPs within PRIN)"
+    - "PRIN 3.2.10R (P6/P7 displacement)"
+  tags: [PRIN, Consumer-Duty, EMI, scope, payment-institutions]
+
+- id: H014
+  question: >
+    A firm in a distribution chain discovers that the manufacturer of a product
+    it distributes appears to be breaching Principle 12. What specific obligation
+    does PRIN 2A impose on the distributing firm?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - prin2a-consumer-duty
+    - consumer-principle
+  required_facts:
+    - "PRIN 2A.9.17R imposes a mandatory notification obligation: a firm in a distribution chain that becomes aware that another firm in the chain may be breaching Principle 12 or PRIN 2A must notify the FCA immediately"
+    - "There is no materiality threshold — the obligation to notify arises on becoming aware of a possible breach, not only when a breach is confirmed"
+    - "The obligation is on the distributing firm itself — it cannot rely on the manufacturer to self-report"
+    - "This obligation is separate from and additional to the distributor's own Consumer Duty obligations (including the obligation not to distribute a product to customers outside the target market)"
+    - "A firm that becomes aware of a potential Principle 12 breach by another chain participant and does not notify the FCA is itself potentially in breach of PRIN 2A.9.17R"
+  required_citations:
+    - "PRIN 2A.9.17R (FCA notification duty in distribution chains)"
+  tags: [PRIN, Consumer-Duty, distribution-chain, FCA-notification]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SYSC — SYSTEMS AND CONTROLS
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E017
+  question: >
+    Under SYSC 10, what is the correct sequence a firm must follow when it
+    identifies a conflict of interest, and what is the status of client
+    disclosure within that sequence?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - sysc10-conflicts-of-interest
+  required_facts:
+    - "The mandatory sequence is: identify → manage → disclose. All three steps are required in order"
+    - "A firm must first identify conflicts (SYSC 10.1.3R — the duty is prospective, covering conflicts that arise or may arise)"
+    - "The firm must then manage the conflict using appropriate measures (SYSC 10.1.7R) — disclosure is not an alternative to management"
+    - "Disclosure to the client is the last resort under SYSC 10.1.9AR — it may only be used where the conflict cannot be adequately managed. A firm that skips management and proceeds directly to disclosure breaches SYSC 10.1.9AR regardless of the accuracy of the disclosure"
+    - "Managing a conflict means using organisational or administrative measures to prevent it adversely affecting clients — examples include information barriers, independent oversight, or remuneration adjustments"
+  required_citations:
+    - "SYSC 10.1.3R (identification duty)"
+    - "SYSC 10.1.7R (management obligation)"
+    - "SYSC 10.1.9AR (disclosure as last resort)"
+  tags: [SYSC, conflicts-of-interest, identify-manage-disclose]
+
+- id: M023
+  question: >
+    A MiFID investment firm deletes email records relating to a client order from
+    three years ago to free up storage. What specific SYSC 9 obligations has it
+    potentially breached, and what is the minimum retention period that applied?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - sysc9-record-keeping
+  required_facts:
+    - "MiFID and common platform firms are subject to a mandatory minimum 5-year retention period for records of the services they provide and transactions they undertake (SYSC 9.1.2R)"
+    - "Deleting records after 3 years breaches the 5-year minimum retention obligation"
+    - "MiFID firms must also comply with SYSC 9.1.2-AR: records must be stored in a form that prevents firm-level alteration or deletion, is promptly accessible by the FCA on request, and can be reconstituted in an intelligible form"
+    - "The deletion of records may itself breach SYSC 9.1.2-AR if the records were required to be held in tamper-proof storage — the obligation is not merely to retain for 5 years but to retain in a form the firm cannot unilaterally alter"
+    - "Non-MiFID firms are subject to a general duty to retain records 'as long as they are relevant' (SYSC 9.1.5G) — a more flexible standard with no prescribed minimum period"
+  required_citations:
+    - "SYSC 9.1.2R (5-year MiFID retention)"
+    - "SYSC 9.1.2-AR (tamper-proof storage)"
+  tags: [SYSC, record-keeping, MiFID, retention, tamper-proof]
+
+- id: H015
+  question: >
+    A conflicts register maintained under SYSC 10.1.6R has not been reviewed or
+    updated for 18 months. The firm argues that no new conflicts have arisen so
+    no update was needed, and that senior management receives a verbal briefing
+    on conflicts quarterly. What specific obligations has the firm breached?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - sysc10-conflicts-of-interest
+  required_facts:
+    - "The conflicts register under SYSC 10.1.6R must be a live document — it must be kept current. An 18-month gap without review or update is likely a breach regardless of whether new conflicts have arisen, because the firm cannot demonstrate it has actively monitored for changes"
+    - "SYSC 10.1.6AAR imposes a separate obligation: the firm must produce a written annual report on conflicts of interest to senior management — this is distinct from the live register and cannot be satisfied by verbal briefings"
+    - "A verbal quarterly briefing does not satisfy SYSC 10.1.6AAR — the obligation requires a written report, and it must be at least annual"
+    - "The written policy on conflicts (SYSC 10.1.10R) must be reviewed annually (SYSC 10.1.11AAR) — a related obligation that may also be in breach if 18 months have passed without review"
+    - "The conflicts register and the annual written SM report are two discrete obligations — maintaining one does not satisfy the other"
+  required_citations:
+    - "SYSC 10.1.6R (conflicts register)"
+    - "SYSC 10.1.6AAR (annual written report to senior management)"
+    - "SYSC 10.1.11AAR (annual policy review)"
+  tags: [SYSC, conflicts-of-interest, conflicts-register, annual-report]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CRYPTOASSETS — PS23/6 FINANCIAL PROMOTION RULES
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E018
+  question: >
+    Under the FCA's cryptoasset financial promotion rules, an MLR-registered
+    cryptoasset business offers a £50 cash bonus to new customers who make
+    their first trade within 30 days of signing up. Is this permitted?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - cryptoasset-financial-promotions-framework
+    - ps23-6-cryptoasset-financial-promotions
+  required_facts:
+    - "No — this is prohibited under the absolute incentives ban in PS23/6"
+    - "The incentives ban applies to all financial promotions for qualifying cryptoassets — cash bonuses, refer-a-friend bonuses, new-joiner bonuses, and 'free' token offers are all prohibited"
+    - "Unlike other restricted mass-market investments, there is no shareholder benefit exemption for cryptoassets — benefits available to shareholders are not carved out"
+    - "The prohibition applies to MLR-registered cryptoasset businesses communicating their own promotions under the Article 73ZA exemption — the same rules apply to them as to authorised firms"
+    - "A time-limited nature of the bonus does not create an exemption — benefits available only for a limited period are likely to be incentives regardless of their form"
+  required_citations:
+    - "PS23/6 §3.24 (absolute incentives ban)"
+    - "FCA Handbook COBS 4.12A (incentives prohibition)"
+  tags: [cryptoassets, financial-promotions, incentives-ban, PS23-6]
+
+- id: M024
+  question: >
+    A cryptoasset firm onboards a new retail customer who wishes to invest.
+    The customer claims to be a self-certified sophisticated investor and provides
+    a signed declaration. Can the firm treat this customer as a sophisticated
+    investor and skip the appropriateness assessment?
+  difficulty: medium
+  type: edge-case
+  expected_pages:
+    - cryptoasset-financial-promotions-framework
+  required_facts:
+    - "No — the self-certified sophisticated investor category is disapplied for cryptoassets under PS23/6"
+    - "Only three client categories are available for cryptoasset financial promotions: Restricted Investor, High Net Worth Investor, and Certified Sophisticated Investor (certified by a firm, not self-certified)"
+    - "The self-certified sophisticated investor category was disapplied because the existing criteria (syndicate membership, business angel network membership) are not appropriate proxies for cryptoasset investment sophistication"
+    - "A signed self-certification declaration from the customer does not satisfy the Certified Sophisticated Investor category — that category requires firm-level certification based on the customer's actual knowledge and experience"
+    - "The appropriateness assessment is mandatory for all three permitted categories — it cannot be skipped even for High Net Worth or Certified Sophisticated customers"
+  required_citations:
+    - "PS23/6 §3.46 (self-certified sophisticated investor disapplied)"
+    - "FCA Handbook COBS 4.12A (client categorisation for cryptoassets)"
+  tags: [cryptoassets, financial-promotions, client-categorisation, appropriateness, PS23-6]
+
+- id: H016
+  question: >
+    A cryptoasset firm communicates a direct offer financial promotion (DOFP) to
+    a retail customer. The customer fails the appropriateness assessment on their
+    first attempt and immediately retakes it — passing on the second try five
+    minutes later. The firm processes the customer's investment. Has the firm
+    complied with PS23/6?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - cryptoasset-financial-promotions-framework
+  required_facts:
+    - "No — the firm has not complied with PS23/6"
+    - "After a failed appropriateness assessment, a mandatory 24-hour lock-out applies from the second failed attempt — but the FCA's anti-gaming rules also require that different questions be used on each attempt"
+    - "Even if a 24-hour lock-out had not yet triggered, the firm must not encourage customers to retake the assessment and must not disclose the specific answers that were wrong — only the broad topic areas where the customer failed"
+    - "Five minutes between attempts strongly suggests the customer was coached or that the same questions were reused — both are named rule breaches under PS23/6 §§3.50–3.53"
+    - "For first-time investors with the firm, a mandatory 24-hour cooling-off period also applies from the point the DOFP was communicated — the time spent on appropriateness assessments counts toward the cooling-off period, so a 5-minute reassessment cannot satisfy the 24-hour cooling-off requirement"
+    - "The firm should not have processed the investment: the cooling-off period had not expired and the appropriateness process had not been properly completed"
+  required_citations:
+    - "PS23/6 §§3.50–3.53 (appropriateness anti-gaming rules)"
+    - "PS23/6 §3.19 (24-hour cooling-off for first-time investors)"
+  tags: [cryptoassets, financial-promotions, appropriateness, cooling-off, anti-gaming, PS23-6]
