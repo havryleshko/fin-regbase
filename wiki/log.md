@@ -1836,3 +1836,19 @@ All three derived pages created in the previous session had 0 inbound links from
 Note: "DUA Act 2026" references in `wiki/log.md` (historical entries) are intentionally not corrected — they record facts at the time of writing and log.md is append-only.
 
 **Final state:** 0 broken wikilinks · 0 orphans · 0 near-orphans · 0 FM/body gaps · 0 DUA Act year errors (Pass 27)
+
+## 2026-04-28 ingest | DISP 3 Complaint handling procedures of the Financial Ombudsman Service
+
+Source: `raw/fca-handbook/DISP 3 Complaint handling procedures of the Financial Ombudsman Service.pdf` (FCA Handbook, April 2026, 20pp)
+
+Pages created (1):
+- `wiki/summaries/disp3-fos-complaint-procedures.md` — full DISP 3 summary: jurisdiction gate; dismissal grounds (post-2015: 5 grounds only — no "fair offer" dismissal); test case procedure; investigation (provisional assessment, hearing discretion, evidence powers, adverse inferences); determination standard ("fair and reasonable" — law + rules + guidance + codes + good industry practice at the time, DISP 3.6.1R); determination acceptance mechanism (acceptance = binding; silence = deemed rejection; late acceptance exception); award types: money (financial loss + distress + pain/suffering + reputational damage — whether or not court would award); award cap from 1 April 2026 (£455,000 post-April 2019; £205,000 pre-April 2019, CPI-adjusted); direction power (broader than court order); respondent delay adds to award; compliance mandatory + court-enforceable
+
+Pages updated (2):
+- `wiki/concepts/complaints-handling-framework.md` — added Section 6 "What Happens at the FOS": fair and reasonable standard; provisional assessment; award types table; current limits table; acceptance mechanism; respondent delay risk; 5 new Key Points bullets; updated frontmatter sources, tags, related; updated last_updated to 2026-04-28
+- `wiki/index.md` — added disp3-fos-complaint-procedures.md row to DISP Summaries; updated complaints-handling-framework.md index entry to reflect new Section 6
+
+Notes:
+- No contradictions with existing wiki pages. DISP 3 extends the DISP 1 / DISP 2 picture; complaints-handling-framework.md was the natural home for the FOS-side Key Points as it already covers the firm-side obligations.
+- Key calibration note for agents: The "fair and reasonable" standard (DISP 3.6.4R) includes "good industry practice at the relevant time" — this means FCA guidance and industry codes that are not strictly legally binding can still ground a FOS finding against a firm.
+- Post-2015 dismissal regime is materially narrower than pre-2015. The "fair offer" dismissal ground (pre-2015 DISP 3.3.4R(4)) does NOT exist in the post-2015 regime (DISP 3.3.4AR). Respondents cannot obtain dismissal without merits consideration by making a settlement offer for post-2015 complaints.

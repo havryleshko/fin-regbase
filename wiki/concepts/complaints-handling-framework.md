@@ -5,7 +5,7 @@ regulator: FCA
 regulation: DISP 1 (Treating Complainants Fairly)
 status: current
 effective_date: 2001-12-01
-last_updated: 2026-04-21
+last_updated: 2026-04-28
 sources:
   - "DISP 1.3.1R–1.3.8G (April 2026)"
   - "DISP 1.4.1R–1.4.4R"
@@ -15,10 +15,14 @@ sources:
   - "DISP 1.9.1R"
   - "DISP 1.10.1R–1.10.9R"
   - "DISP 1.10B.1D–1.10B.14G"
-tags: [DISP, complaints, complaints-handling, FOS, FCA, UK, timelines, root-cause-analysis, summary-resolution, reporting, PSP, EMI, SMF]
+  - "DISP 3.5.4R–3.5.14R (FOS investigation procedure)"
+  - "DISP 3.6.1R–3.6.6R (determination standard and acceptance)"
+  - "DISP 3.7.1R–3.7.12R (award types and limits)"
+tags: [DISP, complaints, complaints-handling, FOS, FCA, UK, timelines, root-cause-analysis, summary-resolution, reporting, PSP, EMI, SMF, determination, awards]
 related:
   - summaries/disp1-treating-complainants-fairly.md
   - summaries/disp2-fos-jurisdiction.md
+  - summaries/disp3-fos-complaint-procedures.md
   - concepts/fos-eligible-complainants.md
   - summaries/disp-app5-motor-finance-dca-complaints.md
   - concepts/smcr-senior-managers-regime.md
@@ -201,6 +205,57 @@ The DISP 1.10B return also includes a separate table (Table 4) for complaints re
 
 ---
 
+## 6. What Happens at the FOS — Determination Standard and Awards
+
+Once a complaint is referred to the FOS, firms face a distinct regime under DISP 3. The following are the operationally critical points for respondents.
+
+### The "Fair and Reasonable" Standard
+
+The Ombudsman determines complaints by reference to **what is fair and reasonable in all the circumstances of the case** (DISP 3.6.1R; FSMA s.228). This is not a purely legal test. The Ombudsman takes into account:
+- Relevant law and regulations
+- FCA rules, guidance, and standards
+- Codes of practice
+- **Good industry practice at the relevant time** (DISP 3.6.4R)
+
+A respondent that was technically legally compliant but departed from FCA guidance or industry standards at the time of the act or omission may still lose at FOS.
+
+### Provisional Assessment Before Determination
+
+Where investigation is necessary, the Ombudsman issues a **provisional assessment** with reasons and a time limit for response. If either party disagrees within the time limit, the matter proceeds to a formal determination. If neither disagrees, the provisional assessment stands as the determination. *(DISP 3.5.4R)*
+
+### Award Types and Current Limits
+
+If determined in favour of the complainant, the Ombudsman may make **(DISP 3.7.1R)**:
+
+| Award type | What it covers |
+|-----------|---------------|
+| **Money award** | Financial loss (including consequential/prospective), pain and suffering, reputational damage, distress/inconvenience — **whether or not a court would award** (DISP 3.7.2R) |
+| **Interest award** | Interest on the money award at a specified rate from a specified date |
+| **Costs award** | Complainant's reasonable costs (uncommon — most complainants don't need advisers) |
+| **Direction** | Any steps FOS considers just and appropriate — **including steps a court could not order** (DISP 3.7.11R) |
+
+**Current money award limits (CPI-adjusted annually on 1 April; DISP 3.7.4R):**
+
+| Act/omission | Maximum from 1 April 2026 |
+|-------------|--------------------------|
+| On or after 1 April 2019 | **£455,000** |
+| Before 1 April 2019 | **£205,000** |
+
+Interest, costs, and interest on costs are excluded from the cap calculation. Where fair compensation exceeds the cap, the Ombudsman may recommend the respondent pays the balance — non-binding, but recorded.
+
+### Determination Acceptance Mechanism
+
+The Ombudsman issues a signed written statement of determination with reasons and a specified acceptance deadline **(DISP 3.6.6R)**:
+- Complainant **accepts within deadline** → determination is **final and binding on both parties**
+- Complainant **does not notify within deadline** → treated as **rejection** (neither party bound)
+- **Late acceptance exception**: permitted only where: (a) no prior rejection notice; and (b) failure was due to exceptional circumstances, in the Ombudsman's view
+
+### Respondent Time Limit Compliance
+
+If a respondent fails to comply with a FOS time limit, the Ombudsman may: (1) proceed anyway; and (2) **include an amount for material distress or inconvenience caused by the delay** in any award made. *(DISP 3.5.14R)* Delay in cooperating with FOS requests is not a cost-free strategy.
+
+---
+
 ## Record Keeping
 
 Complaint records must be retained for:
@@ -225,11 +280,16 @@ Records of the measures taken for resolution can and should be used to support t
 - **Root cause analysis (DISP 1.3.3R) is a hard rule**, not guidance. Firms must have MI systems, senior management reporting, and processes to assess whether root causes affect other products and processes — including those not complained about. Failure to identify and remediate systemic problems proactively is a Principle 6 breach risk.
 - **Every FSMA-authorised firm must name an SMF holder** (or limited scope function holder) as DISP 1 compliance owner (DISP 1.3.7R). This is a distinct accountability mechanism from SM&CR PRs and the Consumer Duty board champion.
 - **DISP 1.10B creates a separate annual complaints reporting regime for PIs/EMIs** in Annex 1AD format. It covers all payment services/e-money complaints — including those from non-eligible-complainant business users — which is a broader scope than the standard DISP 1.10 regime.
+- **At the FOS, the determination standard is "fair and reasonable in all the circumstances" (DISP 3.6.1R) — not a legal test.** The Ombudsman considers law, FCA rules, guidance, codes of practice, and good industry practice at the relevant time. Technical legal compliance does not guarantee winning at FOS if the firm departed from FCA guidance or industry standards.
+- **FOS award cap (from 1 April 2026): £455,000 for post-April 2019 acts; £205,000 for pre-April 2019 acts (DISP 3.7.4R).** Covers financial loss, distress, pain/suffering, reputational damage — whether or not a court would award. Direction power is broader than court order. CPI-adjusted annually.
+- **FOS determination: complainant acceptance within deadline = final and binding on both parties (DISP 3.6.6R).** Silence = deemed rejection (neither party bound). Late acceptance requires no prior rejection + exceptional circumstances.
+- **Respondent delay in responding to FOS requests is not cost-free (DISP 3.5.14R).** If a respondent fails to comply with a FOS time limit, the Ombudsman may add an amount for distress caused by the delay to any award made.
 
 ## Related Articles
 
 - [[disp1-treating-complainants-fairly]]
 - [[disp2-fos-jurisdiction]]
+- [[disp3-fos-complaint-procedures]]
 - [[fos-eligible-complainants]]
 - [[disp-app5-motor-finance-dca-complaints]]
 - [[smcr-senior-managers-regime]]
