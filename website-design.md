@@ -1,36 +1,41 @@
 # finregbase.com — Website Design Architecture
 
 ## Product in one sentence
+
 A structured, citation-accurate financial regulations knowledge base that AI agents query via MCP — built for engineers building fintech agents.
 
 ---
 
 ## Core design decisions
 
-| Decision | Choice | Rationale |
-|---|---|---|
+
+| Decision        | Choice                        | Rationale                                                                                     |
+| --------------- | ----------------------------- | --------------------------------------------------------------------------------------------- |
 | Primary persona | Engineer building an AI agent | Compliance professionals are end-users of what the engineer builds, not visitors to this site |
-| Primary action | Copy MCP config and connect | The site's job is to get the server running in their stack, not to explain regulations |
-| Business model | Free and open source | No auth, no paywall, no sign-up friction |
-| MCP transport | Local (stdio via uv) | Industry norm — every major MCP server runs locally. Not a disadvantage. |
-| Site structure | Single scroll page | No multi-page nav until there's content that genuinely needs it |
-| Color mode | Light | Signals serious fintech tool, not hacker project. Dark code blocks for contrast. |
-| Primary CTA | "Copy config" → clipboard | Instant, zero friction. One click to be connected. |
-| Secondary CTA | "View on GitHub" | Credibility, stars, community |
+| Primary action  | Copy MCP config and connect   | The site's job is to get the server running in their stack, not to explain regulations        |
+| Business model  | Free and open source          | No auth, no paywall, no sign-up friction                                                      |
+| MCP transport   | Local (stdio via uv)          | Industry norm — every major MCP server runs locally. Not a disadvantage.                      |
+| Site structure  | Single scroll page            | No multi-page nav until there's content that genuinely needs it                               |
+| Color mode      | Light                         | Signals serious fintech tool, not hacker project. Dark code blocks for contrast.              |
+| Primary CTA     | "Copy config" → clipboard     | Instant, zero friction. One click to be connected.                                            |
+| Secondary CTA   | "View on GitHub"              | Credibility, stars, community                                                                 |
+
 
 ---
 
 ## Tech stack
 
-| Layer | Choice |
-|---|---|
-| Framework | Next.js 15 (App Router) |
-| Styling | Tailwind CSS v4 |
-| Components | shadcn/ui |
-| Animation | Framer Motion |
-| Syntax highlighting | Shiki |
-| Deployment | Vercel |
-| Domain | finregbase.com |
+
+| Layer               | Choice                  |
+| ------------------- | ----------------------- |
+| Framework           | Next.js 15 (App Router) |
+| Styling             | Tailwind CSS v4         |
+| Components          | shadcn/ui               |
+| Animation           | Framer Motion           |
+| Syntax highlighting | Shiki                   |
+| Deployment          | Vercel                  |
+| Domain              | finregbase.com          |
+
 
 References: exa.ai, context7.com — study their hero and demo section patterns, then differentiate on content.
 
@@ -55,6 +60,7 @@ Add to Claude    View on GitHub
 ```
 
 **Design notes:**
+
 - Light background, serious typography (Inter or Geist)
 - No hero image — code/config block IS the visual
 - Animated entry: headline fades up, subheadline follows, CTAs last (Framer Motion)
@@ -81,6 +87,7 @@ applied to regulation.      standard.                    Forever.
 ```
 
 **Design notes:**
+
 - Clean card borders, subtle shadow, no icons (trust the copy)
 - Framer Motion: scroll-triggered reveal, staggered left-to-right
 
@@ -119,6 +126,7 @@ Copy config   [clipboard icon]   ✓ Copied
 ```
 
 **Design notes:**
+
 - Shiki for syntax highlighting, light theme (GitHub Light or similar)
 - "Copy config" button copies to clipboard with a checkmark confirmation animation
 - Tab switcher shows the right config format per client
@@ -159,6 +167,7 @@ Updated April 2026 · UK jurisdiction · FCA-grade citation discipline
 ```
 
 **Design notes:**
+
 - Grid of topic cards, light grey background per card
 - Each card: topic name bold, sub-items in smaller text
 - No links yet (wiki isn't browsable on the web) — just coverage signals
@@ -180,6 +189,7 @@ See it in action
 ```
 
 **Design notes:**
+
 - Placeholder: dark rounded rectangle, subtle border, play icon centred
 - When video is ready: embed directly, no third-party player chrome
 - Video will show: developer asks compliance question in Claude/Cursor → agent calls MCP tool → streamed answer with FCA citations
@@ -208,15 +218,17 @@ GitHub · MIT License · Built by Alex Havryleshko
 
 ## Component inventory
 
-| Component | Purpose | Notes |
-|---|---|---|
-| `HeroSection` | Headline + CTAs | Framer Motion entry animation |
-| `PillarCards` | Three-pillar "what it is" | Scroll-triggered stagger |
-| `ConnectSection` | Tabbed config + copy button | Shiki highlight, clipboard API |
-| `CoverageGrid` | Regulations covered | Static grid, scroll reveal |
-| `DemoPlaceholder` | Video slot | Swap for `<video>` when ready |
-| `FooterCTA` | Final CTA + links | Simple, no animation |
-| `NavBar` | Logo + GitHub link | Minimal, sticky, light bg |
+
+| Component         | Purpose                     | Notes                          |
+| ----------------- | --------------------------- | ------------------------------ |
+| `HeroSection`     | Headline + CTAs             | Framer Motion entry animation  |
+| `PillarCards`     | Three-pillar "what it is"   | Scroll-triggered stagger       |
+| `ConnectSection`  | Tabbed config + copy button | Shiki highlight, clipboard API |
+| `CoverageGrid`    | Regulations covered         | Static grid, scroll reveal     |
+| `DemoPlaceholder` | Video slot                  | Swap for `<video>` when ready  |
+| `FooterCTA`       | Final CTA + links           | Simple, no animation           |
+| `NavBar`          | Logo + GitHub link          | Minimal, sticky, light bg      |
+
 
 ---
 
@@ -234,43 +246,49 @@ GitHub · MIT License · Built by Alex Havryleshko
 
 ## Typography
 
-| Element | Font | Weight | Size |
-|---|---|---|---|
-| Headline | Geist (or Inter) | 700 | 56px desktop / 36px mobile |
-| Subheadline | Geist | 400 | 20px / 16px |
-| Body | Geist | 400 | 16px |
-| Code | Geist Mono | 400 | 14px |
-| Section labels | Geist | 500 | 12px uppercase tracked |
+
+| Element        | Font             | Weight | Size                       |
+| -------------- | ---------------- | ------ | -------------------------- |
+| Headline       | Geist (or Inter) | 700    | 56px desktop / 36px mobile |
+| Subheadline    | Geist            | 400    | 20px / 16px                |
+| Body           | Geist            | 400    | 16px                       |
+| Code           | Geist Mono       | 400    | 14px                       |
+| Section labels | Geist            | 500    | 12px uppercase tracked     |
+
 
 ---
 
 ## Color palette
 
-| Role | Value | Usage |
-|---|---|---|
-| Background | `#FFFFFF` | Page background |
-| Surface | `#F9FAFB` | Cards, code block bg |
-| Border | `#E5E7EB` | Card borders, dividers |
-| Text primary | `#111827` | Headlines, body |
-| Text secondary | `#6B7280` | Subheads, captions |
-| Accent | `#1D4ED8` | CTA buttons, links |
-| Accent hover | `#1E40AF` | Button hover state |
-| Code bg | `#F8F8F8` | Shiki block background |
-| Success | `#16A34A` | "Copied" checkmark |
+
+| Role           | Value     | Usage                  |
+| -------------- | --------- | ---------------------- |
+| Background     | `#FFFFFF` | Page background        |
+| Surface        | `#F9FAFB` | Cards, code block bg   |
+| Border         | `#E5E7EB` | Card borders, dividers |
+| Text primary   | `#111827` | Headlines, body        |
+| Text secondary | `#6B7280` | Subheads, captions     |
+| Accent         | `#1D4ED8` | CTA buttons, links     |
+| Accent hover   | `#1E40AF` | Button hover state     |
+| Code bg        | `#F8F8F8` | Shiki block background |
+| Success        | `#16A34A` | "Copied" checkmark     |
+
 
 ---
 
 ## Animation spec (Framer Motion)
 
-| Element | Animation | Trigger |
-|---|---|---|
-| Hero headline | Fade up, 0.6s, ease-out | On mount |
-| Hero subheadline | Fade up, 0.6s, 0.15s delay | On mount |
-| Hero CTAs | Fade up, 0.6s, 0.3s delay | On mount |
-| Pillar cards | Stagger fade up, 0.1s between | Scroll into view |
-| Coverage cards | Stagger fade up, 0.05s between | Scroll into view |
-| Copy button | Scale 0.97 on press, checkmark swap | On click |
-| NavBar border | Fade in on scroll past 50px | Scroll |
+
+| Element          | Animation                           | Trigger          |
+| ---------------- | ----------------------------------- | ---------------- |
+| Hero headline    | Fade up, 0.6s, ease-out             | On mount         |
+| Hero subheadline | Fade up, 0.6s, 0.15s delay          | On mount         |
+| Hero CTAs        | Fade up, 0.6s, 0.3s delay           | On mount         |
+| Pillar cards     | Stagger fade up, 0.1s between       | Scroll into view |
+| Coverage cards   | Stagger fade up, 0.05s between      | Scroll into view |
+| Copy button      | Scale 0.97 on press, checkmark swap | On click         |
+| NavBar border    | Fade in on scroll past 50px         | Scroll           |
+
 
 No parallax, no scroll-jacking, no heavy GSAP. Framer Motion is the right ceiling for this site.
 
@@ -278,13 +296,15 @@ No parallax, no scroll-jacking, no heavy GSAP. Framer Motion is the right ceilin
 
 ## Mobile behaviour
 
-| Section | Mobile adaptation |
-|---|---|
-| Hero | Single column, headline 36px, CTAs stacked |
-| Pillar cards | Stacked vertically |
-| Connect tabs | Scrollable horizontal tabs |
-| Coverage grid | 2 columns → 1 column at 390px |
-| Footer CTA | CTAs stacked |
+
+| Section       | Mobile adaptation                          |
+| ------------- | ------------------------------------------ |
+| Hero          | Single column, headline 36px, CTAs stacked |
+| Pillar cards  | Stacked vertically                         |
+| Connect tabs  | Scrollable horizontal tabs                 |
+| Coverage grid | 2 columns → 1 column at 390px              |
+| Footer CTA    | CTAs stacked                               |
+
 
 ---
 
@@ -316,22 +336,25 @@ finregbase-web/
 
 ## Launch checklist
 
-- [ ] Domain connected on Vercel (finregbase.com)
-- [ ] OG image created (1200×630, for Twitter/LinkedIn previews)
-- [ ] `uvx --from git+...` install path tested and working
-- [ ] Config copy button tested on Chrome, Safari, Firefox
-- [ ] Mobile tested at 390px (iPhone 14 Pro) and 768px (iPad)
-- [ ] GitHub repo public and linked
-- [ ] README updated with install instructions matching the site
-- [ ] Demo video recorded and embedded (post-launch)
+- Domain connected on Vercel (finregbase.com)
+- OG image created (1200×630, for Twitter/LinkedIn previews)
+- `uvx --from git+...` install path tested and working
+- Config copy button tested on Chrome, Safari, Firefox
+- Mobile tested at 390px (iPhone 14 Pro) and 768px (iPad)
+- GitHub repo public and linked
+- README updated with install instructions matching the site
+- Demo video recorded and embedded (post-launch)
 
 ---
 
 ## What to build next (post-launch)
 
-| Addition | When to add |
-|---|---|
-| Browse the wiki (searchable index) | When you have 150+ articles |
-| Changelog page | When you have 3+ meaningful version updates |
-| Remote hosted MCP endpoint | When local setup friction becomes the #1 complaint |
-| EU jurisdiction section | When EU coverage reaches 20+ articles |
+
+| Addition                           | When to add                                        |
+| ---------------------------------- | -------------------------------------------------- |
+| Browse the wiki (searchable index) | When you have 150+ articles                        |
+| Changelog page                     | When you have 3+ meaningful version updates        |
+| Remote hosted MCP endpoint         | When local setup friction becomes the #1 complaint |
+| EU jurisdiction section            | When EU coverage reaches 20+ articles              |
+
+
