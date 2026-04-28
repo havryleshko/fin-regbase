@@ -217,6 +217,17 @@ Claude Code reads this file first on every query to identify relevant pages.
 
 ---
 
+## UK — COBS (Conduct of Business Sourcebook)
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/cobs9-suitability.md](summaries/cobs9-suitability.md) | COBS 9 (non-MiFID / non-insurance-based): three-dimension suitability test (knowledge/experience, financial situation, investment objectives — COBS 9.2.1R); hard prohibition on recommending without sufficient information (COBS 9.2.6R); prohibition on discouraging disclosure (COBS 9.2.4R); churning — individually suitable trades can be collectively unsuitable (COBS 9.3.2G); suitability report mandatory content, timing rules and triggers (COBS 9.4.1R–9.4.8R); pension transfer one-page summary (COBS 9.4.11R); record retention tiers: indefinitely (pension transfer/conversion/opt-out/FSAVC), 5 years (life policy/personal pension/DC occupational), 3 years (other) (COBS 9.5.2R); insistent client regime: communications required, own-words acknowledgement, record-keeping (COBS 9.5A); basic advice on stakeholder products (COBS 9.6) | 6 |
+| [summaries/cobs9a-suitability-mifid.md](summaries/cobs9a-suitability-mifid.md) | COBS 9A (MiFID / IBIP): professional client assumptions (per se = knowledge/experience + financial situation; elective = knowledge/experience only — COBS 9A.2.5R); risk profiling tool reliability as hard Rule (fit-for-purpose, limitations identified and mitigated — COBS 9A.2.9R); switching cost-benefit analysis — must demonstrate benefits > costs (COBS 9A.2.18R/9A.2.18AR); automated/semi-automated systems — suitability responsibility not reduced (COBS 9A.2.23R); periodic suitability at least annually + mandatory pre-service disclosure of frequency, triggers, reassessment scope (COBS 9A.3.6R; 9A.3.9R–10R); legal person / representative written policy required — split dimensions by client type (COBS 9A.2.15R); IBIP records retained for duration of relationship (COBS 9A.4.3R); suitability report before conclusion for retail MiFID advice; distance communication exception | 3 |
+
+---
+
 ## UK — FCA Consumer Credit (CONC)
 
 ### Summaries
