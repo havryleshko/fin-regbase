@@ -191,7 +191,8 @@ Section 138D FSMA is the private right of action for breach of FCA rules that ma
 - **PRIN 3.4.-1R**: ECP classification that disapplies P6/P7/P8/P9/P10 is entirely unavailable for consumer credit, payment services, and e-money activities.
 - **PRIN 3.4.3AR**: Guarantors and indemnifiers under regulated credit, consumer hire, or P2P agreements are retail customers for P12/PRIN 2A purposes — the Duty extends to them even though they are not borrowers or hirers.
 - **PRIN 3.4.4R**: A breach of any PRIN rule — including any PRIN 2A rule — does not give retail customers a right to sue for damages under FSMA s.138D. Remedies are FOS, FCA enforcement, and separate private law claims.
-- **PRIN 3.1.1AR**: Payment institutions, e-money institutions, and RAISPs are expressly caught by PRIN (including PRIN 2A) in relation to their regulated activities.
+- **PRIN 3.1.1AR (hard rule)**: Payment institutions, e-money institutions, and RAISPs are expressly caught by PRIN (including Principle 12 / PRIN 2A) in relation to their regulated activities. The application is not by implication from the PSRs/EMRs — it is an explicit hard rule in PRIN itself. **(PRIN 3.1.1AR)**
+- **EMI / PI Consumer Duty application:** Principle 12 and PRIN 2A apply to EMIs and PIs under PRIN 3.1.1AR. Where Principle 12 applies, Principles 6 and 7 are **displaced** — they do not apply simultaneously. **(PRIN 3.2.10R)** The retail customer definition for EMIs/PIs is set out in the PSRs 2017 / EMRs 2011, not the general COBS definition.
 
 ## Related Articles
 

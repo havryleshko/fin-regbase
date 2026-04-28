@@ -1,0 +1,101 @@
+{
+  "run_at": "2026-04-28T12:16:25.840613",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 1,
+  "completed": 1,
+  "errors": 0,
+  "mean_fact_score": 1.0,
+  "mean_citation_score": 1.0,
+  "mean_overall_score": 1.0,
+  "pass_rate": 1.0,
+  "by_difficulty": {
+    "easy": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "medium": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "hard": {
+      "count": 1,
+      "mean_score": 1.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "H013",
+      "question": "A firm's Head of Legal is proposed as a Senior Manager under SM&CR. The firm wants to allocate the 'Overall Responsibility' Prescribed Responsibility to them, covering all regulated activities. Is this permissible?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "SM-and-CR",
+        "senior-managers",
+        "Head-of-Legal",
+        "Overall-Responsibility",
+        "Enhanced"
+      ],
+      "pages_loaded": [
+        "smcr-senior-managers-regime"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n**No, this is not permissible.**\n\nThere are two distinct regulatory barriers:\n\n## 1. Head of Legal Exclusion from SM&CR\n\nThe Head of Legal is **expressly excluded from Senior Manager approval across all tiers** on legal privilege grounds. The knowledge base states:\n\n> \"**Head of Legal exclusion:** The Head of Legal is expressly excluded from SM approval across all tiers (legal privilege grounds). The Head of Legal is included in the Certification Regime and subject to Conduct Rules.\" **(FCA Guide for Solo-Regulated Firms)**\n\nThis exclusion is absolute \u2014 the Head of Legal **cannot hold any SMF designation**, regardless of the scope of responsibilities proposed. While they remain subject to the Certification Regime and Conduct Rules, they cannot be designated as a Senior Manager.\n\n## 2. Overall Responsibility Cannot Cover \"All Regulated Activities\"\n\nEven if the Head of Legal were eligible for SMF designation, the proposed allocation would still fail because:\n\n**Overall Responsibility is an Enhanced-tier obligation only** (SYSC 25) and **must be allocated per activity or business area \u2014 it cannot be assigned as a blanket designation covering all regulated activities simultaneously.**\n\nThe knowledge base provides:\n\n> \"Having Overall Responsibility means the SM: (i) has ultimate responsibility for managing or supervising that function; (ii) briefs and reports to the governing body about it; and (iii) puts matters for decision about it to the governing body.\"\n\nAnd crucially:\n\n> \"Overall Responsibility **cannot be divided** but **can be shared** (two SMs jointly accountable)\"\n\nThis structure requires **granular allocation to specific activities and areas**, not a blanket firm-wide designation.\n\n---\n\n**Conclusion:** The proposed allocation is impermissible for two independent reasons.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "Head of Legal is expressly excluded from SM approval across all tiers on legal privilege grounds; cannot hold SMF designation regardless of breadth of responsibilities",
+          "present": true,
+          "note": "Clearly stated: 'expressly excluded from SM approval across all tiers (legal privilege grounds)' and 'cannot hold any SMF designation'"
+        },
+        {
+          "fact": "Head of Legal is not outside SM&CR entirely \u2014 included in Certification Regime and subject to Conduct Rules; exclusion is from Senior Managers Regime only",
+          "present": true,
+          "note": "Explicitly stated: 'they remain subject to the Certification Regime and Conduct Rules' and 'The Head of Legal is included in the Certification Regime and subject to Conduct Rules'"
+        },
+        {
+          "fact": "Overall Responsibility is an Enhanced-only requirement (SYSC 25) \u2014 does not exist in Core firms",
+          "present": true,
+          "note": "Stated as 'Overall Responsibility is an Enhanced-tier obligation only (SYSC 25)'"
+        },
+        {
+          "fact": "Overall Responsibility requires every regulated activity and business area has a named SM accountable \u2014 allocated per area, not as blanket designation to one person covering all regulated activities",
+          "present": true,
+          "note": "Answer states it 'must be allocated per activity or business area \u2014 it cannot be assigned as a blanket designation covering all regulated activities simultaneously' and references granular allocation"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "SYSC 25 (Enhanced firms \u2014 Overall Responsibility)",
+          "present": true
+        },
+        {
+          "citation": "FCA Guide for Solo-Regulated Firms (Head of Legal exclusion \u2014 legal privilege grounds)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is complete and accurate, covering all four required facts with appropriate nuance and citing both required regulatory references.",
+      "error": null
+    }
+  ]
+}

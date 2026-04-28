@@ -126,6 +126,9 @@ The FCA identified the following products and services failures specific to this
 
 ## Key Points for Agents
 
+- Products and services must be designed for a defined target market and confirmed fit for purpose throughout the **lifecycle** — ongoing monitoring and review are required, not just point-of-design compliance. **(PS22/9 §6.1)**
+- **Vulnerable customers — lifecycle obligation (PS22/9 §6.9):** Both manufacturers and distributors must consider the needs of customers with characteristics of vulnerability within the target market **throughout the product lifecycle** — not only at launch. Where a product problem or poor value is identified, the impact on vulnerable customers is a specific factor in determining remedial action.
+- **Withdrawal impact — must consider before acting unilaterally (PS22/9 §6.10):** If a manufacturer identifies a serious problem with a product, it must consider the **customer impact of withdrawal or suspension** before withdrawing unilaterally. A product disproportionately held by vulnerable customers requires specific consideration of their position before withdrawal proceeds.
 - Products and services must be designed for a defined target market and confirmed fit for purpose throughout the lifecycle — not only at launch.
 - Manufacturers are responsible for target market definition; distributors must follow it and must not distribute outside it without justification.
 - Manufacturers must share target market and value assessment results with distributors — without sharing commercially sensitive information such as margin breakdowns.

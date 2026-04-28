@@ -1,0 +1,357 @@
+{
+  "run_at": "2026-04-28T15:47:09.892483",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 5,
+  "completed": 5,
+  "errors": 0,
+  "mean_fact_score": 0.9666,
+  "mean_citation_score": 0.9,
+  "mean_overall_score": 0.9465999999999999,
+  "pass_rate": 1.0,
+  "by_difficulty": {
+    "easy": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "medium": {
+      "count": 3,
+      "mean_score": 0.911
+    },
+    "hard": {
+      "count": 1,
+      "mean_score": 1.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "synthesis": {
+      "count": 2,
+      "mean_score": 0.9415
+    },
+    "edge-case": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "boundary": {
+      "count": 1,
+      "mean_score": 0.85
+    }
+  },
+  "questions": [
+    {
+      "id": "M001",
+      "question": "A lender discovers that a customer has formally entered into a debt management plan. What specific CONC obligations does this trigger and across which chapters?",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "tags": [
+        "CONC",
+        "financial-difficulties",
+        "DMP",
+        "CPA",
+        "forbearance"
+      ],
+      "pages_loaded": [
+        "conc-financial-difficulty-indicators",
+        "conc-debt-recovery-treatment",
+        "conc7-arrears-default-recovery"
+      ],
+      "pages_missing": [],
+      "answer": "# CONC Obligations Triggered by a Formal Debt Management Plan\n\nWhen a lender discovers that a customer has formally entered into a debt management plan (DMP), the following specific CONC obligations are triggered across multiple chapters:\n\n---\n\n## CONC 1 \u2014 Application and Financial Difficulty Indicators\n\n**CONC 1.3.1G** identifies a formal DMP agreement as **Indicator 6** of seven non-exhaustive financial difficulty indicators. The presence of this indicator means the lender \"is aware or ought reasonably to be aware\" that the customer is in financial difficulties, establishing constructive knowledge that activates downstream obligations in CONC 6 and 7.\n\n---\n\n## CONC 6 \u2014 Post-Contractual Requirements\n\n### Credit Limit and Interest Rate Freeze (Credit Cards/Revolving Credit)\n\n**CONC 6.7.11G** defines a narrower \"at risk of financial difficulties\" threshold specifically for credit card and retail revolving credit protections. A customer in a formal DMP meets the condition: **\"the customer is in serious discussion about a debt management plan.\"** (The formal DMP itself exceeds this threshold.)\n\nThis triggers:\n- **CONC 6.7.7R** \u2014 Credit limit freeze: The firm must **not increase the credit limit** where the customer is at risk of financial difficulties.\n- **CONC 6.7.10R** \u2014 Interest rate freeze: The firm **must not increase the interest rate** on active credit card or revolving credit agreements where the customer is at risk of financial difficulties.\n\n---\n\n## CONC 7 \u2014 Arrears, Default and Recovery\n\n### 7.2 \u2014 Arrears and Vulnerability Policies\n\n**CONC 7.2.1R** requires the firm to have established **clear, effective and appropriate written policies and procedures** for:\n1. Dealing with customers in or approaching arrears or in default.\n2. Fair and appropriate treatment of customers understood or reasonably suspected to be vulnerable.\n\nA customer in a DMP should trigger review of whether these policies are being applied appropriately to that customer's circumstances.\n\n### 7.3 \u2014 Forbearance and Treatment Standards\n\n**CONC 7.3.4R** (hard rule): The firm **must treat the customer with forbearance and due consideration**, taking into account the individual circumstances of which the firm is or should be aware. A DMP is prima facie evidence of financial difficulty requiring forbearance assessment.\n\n**CONC 7.3.5G R** (hard rule): If the firm has agreed a repayment arrangement (which a DMP constitutes) **and the customer is meeting the terms**, the firm **must reduce, waive or cancel further interest or charges to the extent necessary to ensure the level of debt does not rise** during the period of that arrangement. This is a mandatory interest freeze \u2014 not discretionary, and not requiring a separate customer request.\n\n**CONC 7.3.11R** (hard rule): If a debt counsellor or other person acting on the customer's behalf is developing a repayment plan, the firm **must suspend active pursuit of debt recovery for a reasonable period** (generally 30 days, extendable to 60 days with evidence of progress \u2014 **CONC 7.3.12G**). A formal DMP means this suspension period has typically concluded; however, the ongoing forbearance obligation (CONC 7.3.4R) and interest freeze (CONC 7.3.5G R) remain in force.\n\n### 7.6 \u2014 Continuous Payment Authority (CPA) Suspension\n\n**CONC 7.6.7R** (hard rule): The firm **must not exercise CPA** if:\n- The customer provides reasonable evidence of being in financial difficulties and cannot afford to repay, **or**\n- The firm is otherwise aware the customer is in financial difficulties and cannot afford to repay.\n\nA formal DMP is strong evidence that the customer is in financial difficulties and, prima facie, cannot afford repayment of the original credit commitment. **The firm must suspend CPA exercise once aware of the DMP** \u2014 it cannot continue to pull payments via CPA while the customer is in a debt management arrangement.\n\n### 7.12 \u2014 Lenders' Responsibilities in Debt Assignment/Third-Party Recovery\n\n**CONC 7.12.2R** (hard rule): The lender **must not**:\n- Refuse to deal with a **person acting on the customer's behalf** (including a debt management firm or not-for-profit debt advice body) without objectively justifiable reason.\n- Refuse to accept a payment tendered by the customer or a person acting on their behalf without legal justification.\n- **Refuse to deal with a customer developing a repayment plan or a third party developing a debt management plan** without objectively justifiable reason.\n- Directly contact the customer when a person is acting on their behalf without consent, unless objectively justified.\n- Operate a **policy of only freezing interest where the lender has an existing arrangement with a specific intermediary** \u2014 this is specifically prohibited and would breach CONC 7.12.2R(5).\n- Return or refuse a repayment merely because it is tendered by a debt management firm.\n\n**CONC 7.12.3",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "a DMP agreement is indicator 6 of the seven CONC 1.3.1G financial difficulty indicators",
+          "present": true,
+          "note": "Answer explicitly states 'CONC 1.3.1G identifies a formal DMP agreement as Indicator 6 of seven non-exhaustive financial difficulty indicators'"
+        },
+        {
+          "fact": "firm must not exercise CPA rights if it knows the customer is in financial difficulties and cannot afford to repay (CONC 7.6.7R \u2014 hard rule)",
+          "present": true,
+          "note": "Answer covers CONC 7.6.7R explicitly and states the firm must suspend CPA exercise once aware of the DMP"
+        },
+        {
+          "fact": "firm must exercise forbearance and have regard to the customer's individual circumstances (CONC 7 obligation)",
+          "present": true,
+          "note": "Answer addresses CONC 7.3.4R requiring forbearance and due consideration of individual circumstances"
+        },
+        {
+          "fact": "firm must have a written policy for customers in or approaching arrears (CONC 7.2)",
+          "present": true,
+          "note": "Answer references CONC 7.2.1R requiring clear, effective and appropriate written policies and procedures"
+        },
+        {
+          "fact": "interest on the outstanding balance should be frozen or reduced if the customer is making payments under an active repayment arrangement (CONC 7.3.5G \u2014 treated as a rule)",
+          "present": true,
+          "note": "Answer covers CONC 7.3.5G R explicitly, stating firm must reduce, waive or cancel further interest or charges to ensure debt does not rise"
+        },
+        {
+          "fact": "note: the 30-day debt pursuit suspension (CONC 7.3.11R) applies while a debt counsellor is developing a plan \u2014 if the DMP is already signed, this window has already passed; ongoing obligations are CPA suspension, forbearance, and the interest freeze",
+          "present": true,
+          "note": "Answer explicitly notes that for a formal DMP the 30-day suspension period has typically concluded, and that ongoing obligations (forbearance, interest freeze, CPA suspension) remain in force"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CONC 1.3.1G",
+          "present": true
+        },
+        {
+          "citation": "CONC 7.6.7R",
+          "present": true
+        },
+        {
+          "citation": "CONC 7.3",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts and citations with precise regulatory references and correct characterisation of hard rules versus guidance.",
+      "error": null
+    },
+    {
+      "id": "H002",
+      "question": "A firm makes two CPA payment requests for an HCSTC loan \u2014 both are refused by the payment service provider. The customer then calls the firm and verbally agrees to allow a third CPA attempt. Can the firm make the third attempt?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "CONC",
+        "HCSTC",
+        "CPA",
+        "two-strike"
+      ],
+      "pages_loaded": [
+        "conc-cpa-rules"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n**No, the firm cannot make the third CPA attempt.**\n\n## Legal Basis\n\nUnder **CONC 7.6.12R(1)**, a firm **must not** request a payment service provider to make a CPA payment to collect a sum due for HCSTC if it has already done so on **two previous occasions** and those two requests were **refused**.\n\nIn this scenario:\n- Two CPA payment requests have been refused \u2713\n- The agreement is HCSTC \u2713\n- The two-strike cap has been triggered \u2713\n\n## Why Verbal Consent Does Not Override the Rule\n\nThe only exception to the two-strike cap is set out in **CONC 7.6.12R(5)**:\n\n> After two refused attempts, if the firm contacts the customer and the customer gives express consent to further CPA requests **following a refinance**, the count resets.\n\nThis exception requires **three distinct conditions**:\n1. The firm contacts the customer \u2713 (met)\n2. **The agreement has been refinanced** \u2717 (NOT met \u2014 only verbal renegotiation)\n3. The customer gives express consent \u2713 (met)\n\nVerbal agreement to allow a third CPA attempt is **not** the same as express consent following a **refinancing** of the agreement. The firm would need to:\n- **Refinance the HCSTC loan** (create a new credit agreement), and\n- **Then** obtain the customer's express consent to further CPA requests.\n\nWithout refinancing, the firm is prohibited from making a third CPA attempt by **CONC 7.6.12R(1)**.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "no \u2014 the firm cannot make the third CPA attempt",
+          "present": true,
+          "note": "Clearly stated in the opening line and conclusion"
+        },
+        {
+          "fact": "CONC 7.6.12R prohibits any further CPA request after two refused attempts under the same agreement",
+          "present": true,
+          "note": "Explicitly referenced and explained"
+        },
+        {
+          "fact": "the exception in CONC 7.6.12R(5) requires three things: the firm contacts the customer, the customer gives express consent, and the agreement has been refinanced",
+          "present": true,
+          "note": "All three conditions listed explicitly"
+        },
+        {
+          "fact": "verbal consent alone \u2014 without a refinancing of the agreement \u2014 does not satisfy the exception and does not reset the two-strike count",
+          "present": true,
+          "note": "Clearly explained in the 'Why Verbal Consent Does Not Override the Rule' section"
+        },
+        {
+          "fact": "to proceed, the firm must refinance the agreement and then obtain express consent to further CPA requests after the refinancing",
+          "present": true,
+          "note": "Stated in the final bullet points under the exception analysis"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CONC 7.6.12R",
+          "present": true
+        },
+        {
+          "citation": "CONC 7.6.12R(5)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and correct, covering all required facts and citations with clear reasoning about why verbal consent alone is insufficient without refinancing.",
+      "error": null
+    },
+    {
+      "id": "E012",
+      "question": "A firm receives a subject access request verbally from a customer over the phone. Must it respond? Within what timeframe? Can it pause the clock to ask for clarification, and what must the response include beyond the raw data?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "UK-GDPR",
+        "subject-access",
+        "individual-rights"
+      ],
+      "pages_loaded": [
+        "uk-gdpr-subject-access"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer: Verbal Subject Access Requests \u2014 Response Obligations\n\n## Must the Firm Respond to a Verbal SAR?\n\n**Yes.** A verbal SAR is fully valid and must be responded to. The knowledge base states explicitly:\n\n> \"Verbal SARs are fully valid \u2014 a request made by phone, in person, or via social media is as valid as a written request. No specific words, form, or named contact required.\" **(UK GDPR Art. 15)**\n\nA customer making a request verbally over the phone has validly exercised their right of access. Any employee receiving the call may receive the request, and the firm must have processes to escalate it appropriately.\n\n## Response Timeframe\n\n**One calendar month from receipt of the request.** \n\nThe knowledge base specifies:\n\n> \"Response deadline: one calendar month from receipt. **(UK GDPR Art. 12(3))** The ICO recommends targeting 28 days to allow time for review before the deadline. Extension to three months is available for complex or numerous requests, but the individual must be informed within the first month.\"\n\n## Can the Clock Be Paused for Clarification?\n\n**Yes, but only in specific circumstances.** The firm may pause the clock to request clarification, but this is **not a routine step**:\n\n> \"Clarification may pause the clock \u2014 but only where the controller processes a large volume of data and the scope is genuinely unclear. The clock pauses from when clarification is requested until it is received. This is not a routine step; it cannot be used to delay processing routinely.\"\n\n**Key constraint:** \n\n> \"Any supplementary information the controller is able to provide must still be supplied within the original 1-month period \u2014 the pause does not defer the supplementary information obligation.\"\n\n## What Must the Response Include?\n\nThe SAR response must include **two things**:\n\n### 1. A Copy of All Personal Data\nAll personal data held about the customer in digital systems, emails, documents, call recordings, chat logs, and structured files.\n\n### 2. Supplementary Information\n\n> \"The supplementary information largely corresponds with what would be provided in a privacy notice under Articles 13 and 14 \u2014 i.e., the mandatory content of the right to be informed. This includes:\n> - The purposes of and legal basis for the processing\n> - The categories of personal data processed\n> - Recipients or categories of recipients\n> - Retention periods (or criteria for determining them)\n> - The existence of any automated decision-making including profiling, with meaningful information about the logic, significance and envisaged consequences\n> - All the individual's data subject rights\n> - The right to complain to the ICO\"\n\n### Delivery Format for Verbal Requests\n\nFor a verbal request, the firm must establish the customer's preferred format for the response before fulfilling the request. The knowledge base notes:\n\n> \"Request made non-electronically | Any appropriate format \u2014 establish individual's preference before fulfilling\"\n\n---\n\n**Summary:** The firm must respond within one month with both the data and supplementary information. It may pause the clock to seek clarification only where data volumes are genuinely large and scope genuinely unclear\u2014not as routine practice. The supplementary information obligation cannot be deferred.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "Yes \u2014 a SAR does not need to be in writing and does not need to use the words 'subject access request'; verbal requests made by phone are valid",
+          "present": true,
+          "note": "Explicitly stated: 'Verbal SARs are fully valid \u2014 a request made by phone, in person, or via social media is as valid as a written request. No specific words, form, or named contact required.'"
+        },
+        {
+          "fact": "The firm must respond within one calendar month of receiving the request",
+          "present": true,
+          "note": "Clearly stated: 'One calendar month from receipt of the request' with citation to Art. 12(3)"
+        },
+        {
+          "fact": "The ICO recommends targeting 28 days to allow time for review before the deadline",
+          "present": true,
+          "note": "Explicitly included: 'The ICO recommends targeting 28 days to allow time for review before the deadline.'"
+        },
+        {
+          "fact": "The firm may ask for clarification where the request is unclear or covers a large volume of data, but the clock pauses only if clarification is genuinely needed for a large or complex request \u2014 it does not pause automatically",
+          "present": true,
+          "note": "Covered: clarification may pause the clock 'only where the controller processes a large volume of data and the scope is genuinely unclear' and 'This is not a routine step; it cannot be used to delay processing routinely.'"
+        },
+        {
+          "fact": "The firm must still provide any supplementary information (equivalent to Art. 13/14 privacy notice content) alongside the copy of the data",
+          "present": true,
+          "note": "Detailed list of supplementary information provided, explicitly referencing Articles 13 and 14 content equivalence"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "UK GDPR Art. 15",
+          "present": true
+        },
+        {
+          "citation": "UK GDPR Art. 12(3) (one-month deadline)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts with appropriate detail and including both required regulatory citations.",
+      "error": null
+    },
+    {
+      "id": "M013",
+      "question": "A fintech lender uses a fully automated credit scoring system that rejects applications without human review. A customer whose application was rejected asks for an explanation and challenges the decision. What are the firm's obligations under UK GDPR Article 22?",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "tags": [
+        "UK-GDPR",
+        "automated-decision-making",
+        "credit",
+        "fintech"
+      ],
+      "pages_loaded": [
+        "uk-gdpr-automated-decision-making",
+        "uk-gdpr-individual-rights-overview"
+      ],
+      "pages_missing": [],
+      "answer": "# UK GDPR Article 22 Obligations: Fintech Lender Credit Rejection Scenario\n\nBased on the knowledge base, the fintech lender's obligations depend on whether its fully automated credit scoring system engages **Article 22(1)** \u2014 the restriction on solely automated decision-making with legal or similarly significant effects.\n\n## Does Article 22(1) Apply?\n\n**Yes.** The knowledge base explicitly identifies **\"automatic refusal of an online credit application\"** as the ICO's named example of a \"similarly significant effect\" under Article 22(1). The lender's system makes a decision that:\n- Is **solely automated** (no genuine human involvement)\n- Produces a **similarly significant effect** on the individual (automatic credit refusal)\n\nRubber-stamping an automated output without independent review does not constitute genuine human involvement.\n\n---\n\n## Core Obligations Under Article 22\n\nOnce Article 22(1) is engaged, the lender must satisfy the following mandatory obligations:\n\n### 1. **Permitted Ground Requirement**\n\nThe lender must establish that the processing falls within **one of three permitted grounds (Art. 22(2)):**\n\n| Ground | Applicable? | Notes |\n|--------|------------|-------|\n| **(a) Contract necessity** | **Likely yes** | The automated credit decision may be necessary for entering into/performing the lending contract |\n| **(b) Domestic law authorisation** | **Potentially** | If UK law authorises automated lending decisions with suitable safeguards |\n| **(c) Explicit consent** | **Possible** | Only if the lender obtained the customer's **explicit consent** (Art. 4(11) standard \u2014 higher than standard consent) |\n\n**Failure to document one of these grounds = non-compliance with Article 22(1).**\n\n---\n\n### 2. **Mandatory Data Protection Impact Assessment (DPIA)**\n\n**Art. 35(3)(a): DPIA is mandatory before deployment.** The knowledge base states:\n\n> **\"Art. 22 processing is high-risk \u2014 a Data Protection Impact Assessment is mandatory before the processing begins (Art. 35(1)(a)). Automated credit decision systems are named as high-risk processing requiring mandatory DPIA \u2014 the obligation arises before deployment, not after.\"**\n\nThe lender must have **completed a DPIA before the system went live** \u2014 this is not optional.\n\n---\n\n### 3. **Transparency Obligation in Privacy Notice (Art. 13/14)**\n\nThe lender must provide **meaningful information** about the automated decision in its privacy notice:\n\n- **Logic:** What data inputs are used, how they are processed, what the output represents\n- **Significance:** Why the automated processing matters for the customer's situation\n- **Envisaged consequences:** What decision the customer can expect\n\nThe privacy notice must also describe the **human review mechanism** (see obligation 4 below).\n\nGeneric statements such as \"we use automated systems\" are insufficient.\n\n---\n\n### 4. **Human Review Mechanism (Mandatory)**\n\nThe lender **must introduce a simple way** for individuals to:\n- **Request human intervention**\n- **Express their point of view**\n- **Obtain an explanation of the decision**\n- **Challenge the decision**\n\nThe mechanism must be genuinely accessible \u2014 not buried in terms or difficult to invoke.\n\n**Identified staff must be designated** who are authorised to carry out reviews and have the authority to **change decisions**.\n\n---\n\n### 5. **Accuracy and Bias Checks (Mandatory)**\n\nThe lender must:\n- Carry out **regular checks** that the system is working as intended\n- **Correct inaccuracies** when identified\n- **Feed findings back into the design process**\n- Maintain records demonstrating these checks\n\n---\n\n### 6. **Statistical Rigour**\n\nThe lender must use **appropriate mathematical or statistical procedures** in its credit scoring model. This supports the accuracy obligation.\n\n---\n\n### 7. **Data Security**\n\nSecure the personal data proportionate to the risk, **including risk of discriminatory effects** in the scoring model.\n\n---\n\n## The Customer's Rights in Response\n\nWhen the customer asks for an explanation and challenges the decision, the lender must respond to:\n\n### **Right to Information About Automated Decision (Art. 22)**\n\nThe customer can demand:\n- Meaningful explanation of the **logic** of the decision (what inputs were used; how they were weighted)\n- Information about the **significance** of the processing\n- Information about the **envisaged consequences**\n\nThis is not a generic right to explanation \u2014 it is a specific, mandatory disclosure tied to Article 22 processing.\n\n### **Human Review Right (Article 22)**\n\nThe customer can trigger the lender's human review mechanism. The lender must:\n- Allow the customer to express their point of view\n- Conduct a **genuine human review** of the decision\n- **Allow the decision to be changed** if the human reviewer finds merit in the challenge\n\nA rubber-stamp review does not satisfy this obligation.\n\n### **Right to Object (Article 21) \u2014 General Profiling Track**\n\nEven if Article 22 does not fully apply, the customer may have a **right to object** to profiling under Art. 21 if the lender relies on legitimate interests as its lawful basis.\n\n---\n\n## Special",
+      "fact_score": 0.833,
+      "citation_score": 1.0,
+      "overall_score": 0.883,
+      "facts_detail": [
+        {
+          "fact": "An automated credit refusal with legal or similarly significant effects on the customer falls within Article 22 \u2014 the ICO has named automatic credit refusal as a 'similarly significant effect'",
+          "present": true,
+          "note": "Answer explicitly states the ICO named 'automatic refusal of an online credit application' as a similarly significant effect under Art. 22(1)"
+        },
+        {
+          "fact": "The firm must have a permitted ground for the automated decision: (1) necessary for entering or performing a contract; (2) authorised by law; or (3) explicit consent of the data subject",
+          "present": true,
+          "note": "All three grounds are listed in the table under Art. 22(2) with correct descriptions"
+        },
+        {
+          "fact": "A credit application is typically ground (1) \u2014 necessary for entering into a contract \u2014 which is the most commonly used ground for automated credit decisions",
+          "present": true,
+          "note": "Answer identifies contract necessity as 'Likely yes' and notes it 'may be necessary for entering into/performing the lending contract'"
+        },
+        {
+          "fact": "The firm must implement suitable safeguards including: the right to obtain human review of the decision; the right to express the data subject's point of view; and the right to contest the decision",
+          "present": true,
+          "note": "Section 4 explicitly lists human intervention, expressing point of view, obtaining explanation, and challenging the decision as mandatory requirements"
+        },
+        {
+          "fact": "Where special category data (e.g. health data relevant to the application) is involved in the automated decision, the permitted grounds are narrower \u2014 only explicit consent or substantial public interest apply",
+          "present": false,
+          "note": "The answer does not mention special category data or the narrower permitted grounds under Art. 22(4) \u2014 this is absent from the answer"
+        },
+        {
+          "fact": "A DPIA is mandatory before deploying a purely automated credit decision system",
+          "present": true,
+          "note": "Answer explicitly states DPIA is mandatory before deployment under Art. 35(3)(a) and quotes the relevant rule"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "UK GDPR Art. 22",
+          "present": true
+        },
+        {
+          "citation": "UK GDPR Art. 35(3)(a) (DPIA mandatory)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate across nearly all required facts and citations, with the only notable gap being the absence of any mention of special category data and the narrower Art. 22(4) permitted grounds.",
+      "error": null
+    },
+    {
+      "id": "M021",
+      "question": "Does the SM&CR Senior Managers Regime apply to payment institutions and e-money institutions? What conduct framework applies to them instead?",
+      "difficulty": "medium",
+      "type": "boundary",
+      "tags": [
+        "SM-and-CR",
+        "PSR",
+        "EMI",
+        "scope",
+        "payment-institutions"
+      ],
+      "pages_loaded": [
+        "smcr-senior-managers-regime",
+        "smcr-conduct-rules"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer: SM&CR Application to Payment Institutions and E-Money Institutions\n\n## Does SM&CR Apply?\n\n**No.** The SM&CR Senior Managers Regime does **not** apply to payment institutions (PIs) and e-money institutions (EMIs) that hold only payment services or e-money authorisation.\n\nAccording to the knowledge base:\n\n> \"Firms that hold only payment services authorisation or e-money authorisation \u2014 and are not otherwise FSMA-authorised \u2014 are **entirely outside the scope of SM&CR**. Those firms have no SMF obligations, no Certification Regime obligations, and no Conduct Rule obligations under this framework.\" **(FCA Guide for Solo-Regulated Firms)**\n\nThis exclusion is absolute: PIs and EMIs outside FSMA scope have:\n- No Senior Management Functions (SMF) requirements\n- No Certification Regime obligations\n- No Conduct Rule obligations under SM&CR\n\n## What Conduct Framework Applies Instead\n\nThe knowledge base does **not** provide detailed specifications of the alternative conduct framework for PIs and EMIs. However, it briefly identifies that PIs and EMIs are subject to:\n\n1. **The FCA's Principles for Businesses (PRIN)**, including Principle 2A (Consumer Duty where applicable)\n2. **Payment Services Regulations 2017 (PSRs 2017) and E-Money Regulations 2011 (EMRs 2011)** conduct standards\n3. **The FCA Approach Document** for PI/EMI conduct governance\n4. **Individual Conduct Rule 6** (act to deliver good outcomes for retail customers) applies to FSMA firms via SM&CR; for PI/EMI staff, **equivalent obligations arise through the Consumer Duty framework**, not SM&CR directly\n\nThe knowledge base does not elaborate further on the specific content of these alternative frameworks beyond this high-level identification.",
+      "fact_score": 1.0,
+      "citation_score": 0.5,
+      "overall_score": 0.85,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 the SM&CR Senior Managers Regime applies only to FSMA-authorised firms; it does not extend to payment institutions and e-money institutions authorised under the PSRs 2017 or EMRs 2011",
+          "present": true,
+          "note": "Answer clearly states SM&CR does not apply to PIs and EMIs holding only payment services or e-money authorisation, and references PSRs 2017 and EMRs 2011"
+        },
+        {
+          "fact": "PIs and EMIs are not subject to the Approved Persons regime, the Certification Regime, or the Senior Managers Regime under SM&CR",
+          "present": true,
+          "note": "Answer explicitly states no SMF obligations, no Certification Regime obligations, and no Conduct Rule obligations under SM&CR"
+        },
+        {
+          "fact": "PIs and EMIs are subject to the FCA's Principles for Businesses (PRIN), including Principle 2A (Consumer Duty where it applies), and the conduct standards in the PSRs/EMRs and the Approach Document",
+          "present": true,
+          "note": "Answer identifies PRIN including Principle 2A, PSRs 2017, EMRs 2011, and the FCA Approach Document as applicable frameworks"
+        },
+        {
+          "fact": "The Individual Conduct Rule 6 (act to deliver good outcomes for retail customers) under Consumer Duty applies to FSMA firms \u2014 its application to PI/EMI staff is through the Consumer Duty framework, not through SM&CR directly",
+          "present": true,
+          "note": "Answer explicitly addresses Individual Conduct Rule 6 and distinguishes its application to FSMA firms vs PI/EMI staff through Consumer Duty framework"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "FSMA 2000 (SM&CR scope \u2014 FSMA-authorised firms only)",
+          "present": false,
+          "note": "FSMA 2000 is not explicitly cited in the answer, though the concept of FSMA-authorised firms is mentioned"
+        },
+        {
+          "citation": "FCA Guide for Solo-Regulated Firms (SM&CR scope)",
+          "present": true,
+          "note": "Answer explicitly quotes and references the FCA Guide for Solo-Regulated Firms"
+        }
+      ],
+      "summary": "All four required facts are substantively present and well-explained, but the answer fails to explicitly cite FSMA 2000 as the statutory basis for SM&CR scope limitation.",
+      "error": null
+    }
+  ]
+}

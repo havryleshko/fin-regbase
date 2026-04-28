@@ -1,0 +1,176 @@
+{
+  "run_at": "2026-04-28T15:10:21.209676",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 2,
+  "completed": 2,
+  "errors": 0,
+  "mean_fact_score": 0.8166500000000001,
+  "mean_citation_score": 1.0,
+  "mean_overall_score": 0.87165,
+  "pass_rate": 1.0,
+  "by_difficulty": {
+    "easy": {
+      "count": 1,
+      "mean_score": 0.86
+    },
+    "medium": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "hard": {
+      "count": 1,
+      "mean_score": 0.8833
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 1,
+      "mean_score": 0.86
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 1,
+      "mean_score": 0.8833
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "H008",
+      "question": "A PSP processes a \u00a3250 card-based remote payment and wants to apply the transaction risk analysis (TRA) exemption to skip strong customer authentication. Its current reference fraud rate for card-based remote transactions is 0.04%. Can it apply the TRA exemption?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "PSR",
+        "SCA",
+        "TRA",
+        "authentication",
+        "exemptions"
+      ],
+      "pages_loaded": [
+        "psr-sca-authentication"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n**No, the PSP cannot apply the TRA exemption to this \u00a3250 card-based remote payment.**\n\n## Analysis\n\nUnder **SCA-RTS Article 18** and **Article 19**, a PSP may apply the transaction risk analysis (TRA) exemption to skip strong customer authentication only where the PSP's monitored fraud rate is **at or below the applicable reference fraud rate** specified in the SCA-RTS Appendix for the exemption threshold value (ETV) being used.\n\nA \u00a3250 transaction falls within the **\"up to \u00a3440\"** ETV band, which carries a reference fraud rate limit of **\u2264 0.01%** (Approach Document \u00a720.71\u201320.72; SCA-RTS Appendix).\n\nThe PSP's current reference fraud rate for card-based remote transactions is **0.04%**, which **exceeds** the 0.01% reference threshold for the \u00a3440 ETV band.\n\n## Consequence\n\nBecause the PSP's fraud rate (0.04%) is above the reference rate (0.01%), the PSP must:\n\n1. **Not apply the TRA exemption** to this transaction\n2. **Apply strong customer authentication (SCA)** instead \u2014 regulation 100(1) PSRs 2017\n3. **Notify the FCA immediately** and **cease applying the TRA exemption** at the \u00a3440 ETV tier until the fraud rate returns to or below 0.01% for at least one consecutive quarter **(SCA-RTS Article 20; Approach Document \u00a720.80)**\n\nThe PSP may apply a **different exemption** if the conditions are met (e.g. trusted beneficiary, recurring transaction, or low-value contactless exemption under Article 11), but the TRA exemption is not available.\n\n---\n\n**Citation:** SCA-RTS Articles 18, 19, 20; Approach Document \u00a7\u00a720.71\u201320.72, \u00a720.80",
+      "fact_score": 0.8333,
+      "citation_score": 1.0,
+      "overall_score": 0.8833,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 the TRA exemption is not available for this transaction",
+          "present": true,
+          "note": "Clearly stated in the opening line and conclusion"
+        },
+        {
+          "fact": "The TRA exemption requires the PSP's reference fraud rate to be below the threshold for the relevant exempt transaction value (ETV) band",
+          "present": true,
+          "note": "Explained in the Analysis section referencing SCA-RTS Articles 18 and 19"
+        },
+        {
+          "fact": "ETV bands and maximum permitted fraud rates: up to \u00a385 \u2014 0.13%; up to \u00a3220 \u2014 0.06%; up to \u00a3440 \u2014 0.01%",
+          "present": false,
+          "note": "Only the \u00a3440/0.01% band is mentioned; the \u00a385/0.13% and \u00a3220/0.06% bands are not listed, so the full table of ETV bands is absent"
+        },
+        {
+          "fact": "A \u00a3250 transaction falls in the 'up to \u00a3440' ETV band, which requires a maximum reference fraud rate of 0.01%",
+          "present": true,
+          "note": "Explicitly stated that \u00a3250 falls in the up to \u00a3440 band with 0.01% threshold"
+        },
+        {
+          "fact": "A fraud rate of 0.04% exceeds the 0.01% threshold \u2014 the TRA exemption cannot be applied",
+          "present": true,
+          "note": "Directly stated that 0.04% exceeds 0.01% and therefore exemption is not available"
+        },
+        {
+          "fact": "The PSP must apply SCA for this transaction unless a different exemption applies (e.g. low-value contactless, recurring fixed-amount, or trusted beneficiary)",
+          "present": true,
+          "note": "Answer states SCA must be applied and lists alternative exemptions including trusted beneficiary, recurring transaction, and low-value contactless"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "SCA-RTS Art. 18 (TRA exemption conditions)",
+          "present": true
+        },
+        {
+          "citation": "SCA-RTS Art. 19 (reference fraud rates and ETV thresholds)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is accurate and well-structured, correctly identifying the ETV band, threshold, and consequence, but omits the full table of all three ETV bands and their respective fraud rate thresholds.",
+      "error": null
+    },
+    {
+      "id": "E014",
+      "question": "What are the complaint response time limits under DISP \u2014 including the standard deadline, the shorter deadline for payment service providers and e-money issuers (and when it can be extended), and the faster track available for all firms where a complaint is resolved within three business days?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "DISP",
+        "complaints",
+        "PSR",
+        "EMI",
+        "timeline"
+      ],
+      "pages_loaded": [
+        "complaints-handling-framework",
+        "disp1-treating-complainants-fairly"
+      ],
+      "pages_missing": [],
+      "answer": "# Complaint Response Time Limits Under DISP 1\n\nBased on the DISP framework, there are **three distinct response timelines**:\n\n## 1. Standard Deadline \u2014 8 Weeks\n\nFor most complaints, a respondent must by the end of **8 weeks** from receipt send either:\n- A **final response** (accepting, offering redress without accepting, or rejecting with reasons), which must enclose the FOS standard explanatory leaflet and inform the complainant of their right to refer to the FOS, **or**\n- A **written response** explaining why a final response cannot yet be provided and when it can be, and informing the complainant they may now refer to the FOS.\n\n**(DISP 1.6.2R)**\n\n## 2. Shorter Deadline for PSPs and EMIs \u2014 15 / 35 Business Days\n\nWhere a complaint is an **EMD complaint** (electronic money) or a **PSD complaint** (payment services), a materially shorter timeline applies:\n\n- **Standard:** Final response within **15 business days** of receipt\n- **Exceptional circumstances** (beyond respondent's control): Holding response by day 15 explaining the delay and specifying the deadline, then final response by end of **35 business days**\n\n**(DISP 1.6.2AR)**\n\n**Key operational points:**\n- Where only **part** of a complaint is an EMD/PSD complaint, that part must be handled on the 15/35-day timeline. **(DISP 1.6.2BR)**\n- A respondent **may choose to treat the whole complaint** on the shorter timeline. **(DISP 1.6.2CR)**\n- EMD/PSD final responses must be on paper or another durable medium agreed with the complainant.\n\n## 3. Faster Track \u2014 3 Business Days\n\nComplaints resolved by **close of business on the third business day** following the day of receipt are **exempt from**:\n- The complaints time limit rules (DISP 1.6)\n- The complaints forwarding rules (DISP 1.7)\n\n**(DISP 1.5.1R)**\n\n**However**, the complaints resolution rules (DISP 1.4 \u2014 investigate competently, assess fairly, offer redress, explain assessment) **continue to apply in full**. **(DISP 1.5.2G)**\n\n### When a 3-Day Complaint Is \"Resolved\"\n\nA complaint is resolved under this section where the complainant has **indicated acceptance** of the respondent's response. **Neither the response nor the acceptance needs to be in writing.** **(DISP 1.5.2AR)**\n\n### Summary Resolution Communication Required\n\nWhere the respondent considers a complaint resolved under DISP 1.5, it must **promptly** send a written **summary resolution communication** that:\n\n1. Acknowledges the complaint and states the respondent considers it resolved\n2. Tells the complainant that if dissatisfied they may refer to the FOS\n3. Indicates whether the respondent consents to waive the DISP 2 FOS referral time limits (with prescribed wording from DISP 1 Annex 3R)\n4. Provides the FOS website address\n5. Refers to further information on the FOS website\n\n**(DISP 1.5.4R)**\n\nThe summary resolution communication is **lighter than a final response** \u2014 it does not require the respondent to set out reasons for its assessment.\n\n---\n\n## Summary Table\n\n| Track | Deadline | Response Type | Applies To |\n|-------|----------|---------------|-----------|\n| **Standard** | 8 weeks | Final response or holding response | All firms, all complaints except EMD/PSD |\n| **PSP/EMI** | 15 business days / 35 business days (exceptional) | Final response or holding response | Payment services & e-money complaints |\n| **Fast Track** | 3 business days | Summary resolution communication | All firms (if complaint resolved by day 3) |",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "The standard deadline for a final response is 8 weeks from the date the complaint was received",
+          "present": true,
+          "note": "Clearly stated: 'by the end of 8 weeks from receipt' under DISP 1.6.2R"
+        },
+        {
+          "fact": "For payment service providers and e-money issuers responding to complaints about payment services, the deadline is 15 business days",
+          "present": true,
+          "note": "Stated as 'Final response within 15 business days of receipt' under DISP 1.6.2AR"
+        },
+        {
+          "fact": "In exceptional circumstances, PSPs and EMIs may extend to 35 business days \u2014 but must notify the customer within the 15-business-day period explaining the delay and the new deadline",
+          "present": true,
+          "note": "Covered: 'Holding response by day 15 explaining the delay and specifying the deadline, then final response by end of 35 business days'"
+        },
+        {
+          "fact": "The 3-business-day track is available for all firms where a complaint can be resolved by close of the third business day after receipt \u2014 a summary resolution communication may be issued instead of a final response letter",
+          "present": true,
+          "note": "Fully covered under DISP 1.5.1R section, including summary resolution communication details"
+        },
+        {
+          "fact": "These are hard outer limits \u2014 a firm cannot extend beyond them unilaterally",
+          "present": false,
+          "note": "The answer does not explicitly state that these are hard outer limits that cannot be extended unilaterally by the firm; it describes the limits but does not characterise their non-extendable nature"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "DISP 1.6.2R (8-week standard)",
+          "present": true
+        },
+        {
+          "citation": "DISP 1.6.2AR (15 business days for PSPs/EMIs)",
+          "present": true
+        },
+        {
+          "citation": "DISP 1.5 (3-business-day track)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and well-structured, covering almost all required facts with correct citations, but omits the explicit point that the time limits are hard outer limits that firms cannot extend unilaterally.",
+      "error": null
+    }
+  ]
+}

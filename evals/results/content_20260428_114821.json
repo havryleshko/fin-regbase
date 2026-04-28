@@ -1,0 +1,174 @@
+{
+  "run_at": "2026-04-28T11:48:21.961965",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 2,
+  "completed": 2,
+  "errors": 0,
+  "mean_fact_score": 0.8,
+  "mean_citation_score": 1.0,
+  "mean_overall_score": 0.86,
+  "pass_rate": 1.0,
+  "by_difficulty": {
+    "easy": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "medium": {
+      "count": 2,
+      "mean_score": 0.86
+    },
+    "hard": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 2,
+      "mean_score": 0.86
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "M011",
+      "question": "A customer contacts their payment service provider on a Monday reporting an unauthorised debit card payment made the previous Friday that they did not authorise. What is the PSP's refund obligation, what is the maximum the customer can be held liable for, under what single condition may the PSP delay refunding, and what time limit applies to the customer's right to claim?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "PSR",
+        "unauthorised-transactions",
+        "liability",
+        "payment-services"
+      ],
+      "pages_loaded": [
+        "psr-unauthorised-transaction-liability"
+      ],
+      "pages_missing": [],
+      "answer": "# PSP Refund Obligation for Unauthorised Debit Card Payment\n\nBased on the provided knowledge base, here are the specific answers to your question:\n\n## PSP's Refund Obligation\n\nThe PSP **must immediately refund the full amount** of the unauthorised transaction and restore the account to the position it would have been in had the transaction not occurred, including reversing any interest, charges, and other adverse consequences. **(PSRs 2017 Reg 76)**\n\nThe refund must be made **no later than the end of the next business day after the payer notifies the PSP** of the unauthorised transaction \u2014 in your scenario, this means by end of business Tuesday (the next business day following Monday's notification). **(PSRs 2017 Reg 76)**\n\n## Maximum Customer Liability\n\nThe customer's maximum liability is **\u00a335** (where the customer was negligent but not grossly negligent or fraudulent). The PSP bears all liability above this amount. **(PSRs 2017 Reg 77)**\n\n## Single Condition Permitting Delay\n\nThe **only condition** under which the PSP may delay refunding is where it has **objectively reasonable grounds to suspect fraud by the payer**. In such circumstances, the PSP may delay the refund by up to **4 business days**, but must notify both the customer and the FCA of the delay and reason at the time of withholding. **(PSRs 2017 Regs 86(2A)\u2013(2D))**\n\n## Time Limit for Claiming\n\nThe customer's right to claim a refund for an unauthorised transaction must be exercised **without undue delay and no later than 13 months after the debit date**. Failure to notify within this 13-month window extinguishes the right to a refund. **(PSRs 2017 Reg 74)**",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "The PSP must refund the full amount of the unauthorised transaction by the end of the next business day after the customer's notification \u2014 the refund obligation is immediate and is not conditional on completing an investigation first",
+          "present": true,
+          "note": "Answer clearly states refund must be made no later than end of next business day after notification, and explicitly notes it is not conditional on investigation."
+        },
+        {
+          "fact": "The customer's liability is capped at \u00a335 where they failed to keep their personalised security credentials safe but did not act fraudulently or with gross negligence",
+          "present": true,
+          "note": "Answer states maximum liability is \u00a335 where customer was negligent but not grossly negligent or fraudulent, referencing PSRs 2017 Reg 77."
+        },
+        {
+          "fact": "The PSP may delay the refund by up to 4 business days where it has reasonable grounds to suspect the customer of fraud \u2014 this is the only permitted ground for delay",
+          "present": true,
+          "note": "Answer explicitly states the only condition is reasonable grounds to suspect fraud, with a 4 business day delay permitted."
+        },
+        {
+          "fact": "The burden of proof that the transaction was authorised, or that the customer acted fraudulently or with gross negligence, lies on the PSP \u2014 not the customer",
+          "present": false,
+          "note": "The answer does not mention the burden of proof lying on the PSP. This required fact is absent."
+        },
+        {
+          "fact": "A customer who fails to notify the PSP within 13 months of the transaction date loses the right to a refund",
+          "present": true,
+          "note": "Answer states the 13-month time limit clearly and notes failure to notify extinguishes the right to a refund, citing PSRs 2017 Reg 74."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSRs 2017 reg. 76 (refund obligation)",
+          "present": true
+        },
+        {
+          "citation": "PSRs 2017 reg. 77 (\u00a335 cap)",
+          "present": true
+        },
+        {
+          "citation": "PSRs 2017 reg. 86(2A)\u2013(2D) (4-business-day fraud delay)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and well-cited, covering the refund obligation, \u00a335 liability cap, fraud delay condition, and 13-month time limit accurately, but omits the important point that the burden of proof lies on the PSP rather than the customer.",
+      "error": null
+    },
+    {
+      "id": "M019",
+      "question": "A motor finance customer received a final response letter from their lender in June 2025 about a complaint relating to a discretionary commission arrangement on a pre-2021 agreement. How long does the customer have to refer the complaint to the Financial Ombudsman Service?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "DISP",
+        "motor-finance",
+        "DCA",
+        "FOS",
+        "complaints"
+      ],
+      "pages_loaded": [
+        "disp-app5-motor-finance-dca-complaints",
+        "disp2-fos-jurisdiction"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nBased on the provided knowledge base, the customer has **15 months from the date of the final response letter** to refer the complaint to the Financial Ombudsman Service.\n\n## Reasoning\n\nThe complaint concerns a discretionary commission arrangement (DCA) on a pre-2021 motor finance agreement. This is a \"relevant motor finance DCA complaint\" within DISP App 5.1.2R.\n\nThe final response was sent in June 2025. According to DISP App 5.2.2R, for DCA complaints where the final response was sent between **30 April 2025 \u2013 29 January 2026**, the customer has **15 months after the date of the final response letter** to refer to the FOS.\n\nJune 2025 falls within this window, so the 15-month extended timeframe applies rather than the standard 6-month limit in DISP 2.8.2R(1).\n\nThe lender must also have complied with the mandatory wording substitution requirement in DISP App 5.2.11R, which requires all references to \"six months\" in the Annex 3R explanatory leaflet to be replaced with \"fifteen months\" in final response letters sent during this extended period.",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "The standard FOS referral window of 6 months from the date of the final response letter does not apply to this complaint",
+          "present": true,
+          "note": "Answer explicitly states the standard 6-month limit in DISP 2.8.2R(1) does not apply and is replaced by the extended window"
+        },
+        {
+          "fact": "Under DISP App 5, the FOS referral window for DCA motor finance complaints sent between 30 April 2025 and 29 January 2026 is extended to 15 months from the date of the final response letter",
+          "present": true,
+          "note": "Answer explicitly states the 15-month window applies for final responses sent between 30 April 2025 and 29 January 2026 per DISP App 5.2.2R"
+        },
+        {
+          "fact": "A final response sent in June 2025 falls within the 30 April 2025 \u2013 29 January 2026 bracket \u2014 the 15-month extended window applies, giving the customer 15 months from the date of the final response to refer to the FOS",
+          "present": true,
+          "note": "Answer confirms June 2025 falls within the window and the 15-month timeframe applies"
+        },
+        {
+          "fact": "The final response letter itself must substitute the standard '6 months' wording with '15 months' throughout \u2014 if the letter used the standard wording, the firm has not complied with DISP App 5.2.11R",
+          "present": true,
+          "note": "Answer references DISP App 5.2.11R and the mandatory substitution of 'six months' with 'fifteen months' in the Annex 3R leaflet"
+        },
+        {
+          "fact": "Records relating to the complaint must be retained until 11 April 2031 regardless of when the complaint was received or resolved",
+          "present": false,
+          "note": "The answer makes no mention of the record retention requirement until 11 April 2031"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "DISP App 5.2.2R (extended FOS referral window)",
+          "present": true
+        },
+        {
+          "citation": "DISP App 5.2.11R (mandatory wording substitution)",
+          "present": true
+        },
+        {
+          "citation": "DISP 2.8.2R (standard 6-month rule, disapplied here)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is accurate and well-cited on the core question, covering the 15-month window, its applicability to June 2025, and the mandatory wording substitution, but omits the record retention requirement until 11 April 2031.",
+      "error": null
+    }
+  ]
+}

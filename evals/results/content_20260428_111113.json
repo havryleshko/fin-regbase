@@ -1,0 +1,114 @@
+{
+  "run_at": "2026-04-28T11:11:13.477292",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 1,
+  "completed": 1,
+  "errors": 0,
+  "mean_fact_score": 0.5,
+  "mean_citation_score": 1.0,
+  "mean_overall_score": 0.65,
+  "pass_rate": 0.0,
+  "by_difficulty": {
+    "easy": {
+      "count": 1,
+      "mean_score": 0.65
+    },
+    "medium": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "hard": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 1,
+      "mean_score": 0.65
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "E009",
+      "question": "What are the two methods by which an authorised payment institution or e-money institution may safeguard relevant funds, and what is the key documentation requirement specific to the segregation method?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "PSR",
+        "EMI",
+        "safeguarding",
+        "payment-institutions"
+      ],
+      "pages_loaded": [
+        "safeguarding-pis-emis"
+      ],
+      "pages_missing": [],
+      "answer": "# Two Methods of Safeguarding Relevant Funds\n\nUnder **PSRs 2017 reg. 23** (for payment institutions) and **EMRs 2011 reg. 21** (for e-money institutions), authorised payment institutions and e-money institutions may safeguard relevant funds by either of two methods:\n\n## 1. Segregation Method\nRelevant funds must be placed in a **segregated account** held with:\n- A credit institution (bank)\n- A central bank\n- An authorised e-money institution\n\nAlternatively, profits or returns earned on relevant funds may be safeguarded using **secure, liquid assets**.\n\n## 2. Insurance/Comparable Guarantee Method\nFunds may be covered by an **insurance policy or comparable guarantee** from an insurance undertaking or credit institution that is not in the same group as the firm and has not been approved to provide this service to more than a certain proportion of the firm's total relevant funds.\n\n---\n\n## Key Documentation Requirement for Segregation\n\nThe specific documentation requirement for the segregation method is a **written acknowledgement of segregation** that the credit institution must provide to the firm. This acknowledgement must confirm:\n\n1. The institution understands the account holds relevant funds belonging to customers\n2. The funds are **separate from the firm's own funds**\n3. The institution **will not set off claims** it holds against the firm against balances in the account\n\n**Failure to obtain this written acknowledgement** \u2014 or failure to perform appropriate due diligence on the institution holding the account \u2014 is a named FCA compliance failure. **(FCA Approach Document Ch. 10; Portfolio letter, March 2023)**\n\nThis acknowledgement is essential evidence that the segregation claim is properly established against the account-holder.",
+      "fact_score": 0.5,
+      "citation_score": 1.0,
+      "overall_score": 0.65,
+      "facts_detail": [
+        {
+          "fact": "Method 1 (segregation): relevant funds must be deposited in a dedicated safeguarding account at a credit institution, kept separate from the firm's own funds, OR invested in secure, liquid, low-risk assets",
+          "present": true,
+          "note": "Answer covers segregated account at credit institution/central bank/e-money institution and mentions secure liquid assets for returns/profits."
+        },
+        {
+          "fact": "The credit institution holding the safeguarding account must provide a written acknowledgement confirming that the funds are held separately from the firm's own funds and cannot be used to meet the firm's liabilities",
+          "present": true,
+          "note": "Answer explicitly describes written acknowledgement of segregation requirement, including separation from firm's own funds and no set-off of claims."
+        },
+        {
+          "fact": "Method 2 (insurance or comparable guarantee): relevant funds must be covered by an insurance policy or comparable guarantee from an authorised insurer or credit institution that is not in the same group as the PI or EMI",
+          "present": true,
+          "note": "Answer describes insurance policy or comparable guarantee from institution not in the same group as the firm."
+        },
+        {
+          "fact": "Daily reconciliation of safeguarded funds is required regardless of which method is used",
+          "present": false,
+          "note": "No mention of daily reconciliation requirement in the answer."
+        },
+        {
+          "fact": "An annual independent safeguarding audit is required",
+          "present": false,
+          "note": "No mention of annual independent safeguarding audit in the answer."
+        },
+        {
+          "fact": "In insolvency, the safeguarded asset pool has priority for distribution to payment service users ahead of other creditors",
+          "present": false,
+          "note": "No mention of insolvency priority for payment service users in the answer."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSRs 2017 reg. 23",
+          "present": true
+        },
+        {
+          "citation": "EMRs 2011 reg. 21",
+          "present": true
+        },
+        {
+          "citation": "FCA Approach Document Chapter 10",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly covers both safeguarding methods and the written acknowledgement requirement with full citations, but omits daily reconciliation, annual independent audit, and insolvency priority rules.",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "run_at": "2026-04-28T14:59:55.440544",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 8,
+  "completed": 8,
+  "errors": 0,
+  "mean_fact_score": 0.8875,
+  "mean_citation_score": 0.9583375,
+  "mean_overall_score": 0.90875,
+  "pass_rate": 0.75,
+  "by_difficulty": {
+    "easy": {
+      "count": 3,
+      "mean_score": 0.9199999999999999
+    },
+    "medium": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "hard": {
+      "count": 4,
+      "mean_score": 0.8775
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 3,
+      "mean_score": 0.9199999999999999
+    },
+    "synthesis": {
+      "count": 2,
+      "mean_score": 0.94165
+    },
+    "edge-case": {
+      "count": 3,
+      "mean_score": 0.8755666666666667
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "M006",
+      "question": "A Consumer Duty annual board report identifies that customers over 70 consistently receive worse outcomes than average. What must the board do, and what does FCA guidance say about automatic age-based vulnerability classification?",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "tags": [
+        "Consumer-Duty",
+        "vulnerable-customers",
+        "governance",
+        "FG22-5"
+      ],
+      "pages_loaded": [
+        "vulnerable-customers"
+      ],
+      "pages_missing": [],
+      "answer": "# Board Obligations and Age-Based Vulnerability Classification\n\n## What the Board Must Do\n\nWhen an annual board report identifies that a customer group (in this case, customers over 70) consistently receives worse outcomes than average, the board's obligations are clear and mandatory:\n\n**The board must agree remedial action before signing off the annual assessment.** It cannot approve the assessment while knowing a customer group is receiving worse outcomes without committing to a remedy. **(FG22/5 \u00a710.12\u2013\u00a710.13)**\n\nSpecifically:\n- Firms must produce an annual board-level assessment of whether they are delivering good outcomes for customers, including evidence of whether any group (including vulnerable groups) is receiving worse outcomes than another. **(FG22/5 \u00a710.12\u2013\u00a710.13)**\n- The board-level Duty champion \u2014 who should be an Independent Non-Executive Director (NED) where possible \u2014 is responsible for ensuring the Duty, including the vulnerability dimension, is regularly discussed at board level. **(FG22/5 \u00a710.10)**\n\n## FCA Guidance on Automatic Age-Based Vulnerability Classification\n\n**Blanket age-based vulnerability classification is prohibited.** The FCA explicitly identifies this as a named supervisory red line:\n\n> Automatically classifying all customers above a certain age as vulnerable. Age is relevant to vulnerability, but a generalised approach fails to tailor support to individual needs. **(FCA implementation review, February 2024)**\n\nThe Consumer Duty requires **individual-level consideration**, not group-level categorisation. While age may be a relevant factor within the HLRC four-driver framework (particularly under the \"Health\" and \"Life events\" drivers \u2014 **(FG21/1 \u00a72.5)** \u2014 the FCA's position is clear: firms cannot use age as an automatic trigger for vulnerability classification.\n\nThe prohibition reflects the Duty's broader principle: firms must design products, communications and support for the **actual range of customer needs** \u2014 not a hypothetical average or a crude demographic category. **(PS22/9 \u00a78.10)**\n\nIn the scenario presented, the board's investigation into worse outcomes for customers over 70 must therefore examine the **individual circumstances** and **specific characteristics of vulnerability** (health conditions, resilience factors, capability gaps, life events) affecting those customers, rather than attributing the disparity to age alone.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "the board must agree remedial action before signing off the annual assessment \u2014 it cannot sign off while knowing a group is receiving worse outcomes without committing to a remedy",
+          "present": true,
+          "note": "Explicitly stated: 'The board must agree remedial action before signing off the annual assessment. It cannot approve the assessment while knowing a customer group is receiving worse outcomes without committing to a remedy.'"
+        },
+        {
+          "fact": "blanket age-based vulnerability classification is a named supervisory red line from the FCA's February 2024 implementation review",
+          "present": true,
+          "note": "Explicitly referenced as a 'named supervisory red line' citing 'FCA implementation review, February 2024'"
+        },
+        {
+          "fact": "automatically classifying all customers above a certain age as vulnerable fails to tailor support to individual needs \u2014 age is relevant but a generalised approach is prohibited",
+          "present": true,
+          "note": "Directly quoted and explained: 'Age is relevant to vulnerability, but a generalised approach fails to tailor support to individual needs'"
+        },
+        {
+          "fact": "the Consumer Duty requires individual-level consideration, not group-level categorisation",
+          "present": true,
+          "note": "Explicitly stated: 'The Consumer Duty requires individual-level consideration, not group-level categorisation'"
+        },
+        {
+          "fact": "the board-level Duty champion (ideally an Independent NED) is responsible for ensuring vulnerability is regularly discussed at board level",
+          "present": true,
+          "note": "Stated clearly: 'The board-level Duty champion \u2014 who should be an Independent Non-Executive Director (NED) where possible \u2014 is responsible for ensuring the Duty, including the vulnerability dimension, is regularly discussed at board level'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "FG22/5 \u00a710.12\u2013\u00a710.13",
+          "present": true
+        },
+        {
+          "citation": "FG22/5 \u00a710.10",
+          "present": true
+        }
+      ],
+      "summary": "The answer comprehensively addresses all required facts and citations with precise regulatory references and clear explanations of both the board's obligations and the FCA's position on age-based vulnerability classification.",
+      "error": null
+    },
+    {
+      "id": "H007",
+      "question": "During onboarding, a firm's sanctions screening tool flags a potential match against the Consolidated List for a new customer. Simultaneously, the customer discloses they have a cognitive impairment affecting their financial decisions. What obligations run in parallel and is there any conflict between them?",
+      "difficulty": "hard",
+      "type": "synthesis",
+      "tags": [
+        "sanctions",
+        "AML",
+        "vulnerable-customers",
+        "mental-capacity",
+        "onboarding"
+      ],
+      "pages_loaded": [
+        "sanctions-screening",
+        "asset-freezes-and-ofsi-licences",
+        "conc-mental-capacity-guidance"
+      ],
+      "pages_missing": [],
+      "answer": "# Parallel Obligations and Potential Conflict Analysis\n\n## Summary\n\nDuring onboarding, when a sanctions screening flag and a mental capacity disclosure arise **simultaneously**, both obligation sets run in parallel but at different stages of the process:\n\n1. **Sanctions investigation obligation** (FCG 7.2.3\u20137.2.4) \u2014 determine whether the flag is a real match\n2. **Mental capacity assist obligation** (CONC 2.10.5G) \u2014 take reasonable steps to help the customer engage with the onboarding process\n\nThese do **not conflict** during the investigation phase. However, if the sanctions match is **confirmed**, the asset freeze obligation becomes **mandatory and overrides** the firm's capacity considerations for that specific transaction.\n\n---\n\n## The Parallel Obligations at Onboarding\n\n### Sanctions Screening Obligation\n\nWhen a potential match is flagged against the Consolidated List, the firm must: **(FCG 7.2.3; FCG 7.2.4)**\n\n- Determine whether the match is real or a false positive \u2014 using name, date of birth, address, nationality, account number, and other customer identifiers\n- Document the audit trail of the decision\n- If a real match is confirmed, immediately freeze assets and notify OFSI **(FCG 7.2.3B; FCG 7.2.3C)**\n- Consider whether to notify the FCA if the breach reflects a significant systems and controls failure **(SUP 15.3.11R(1))**\n\n**Timing:** This investigation must occur **during onboarding**, before the account is activated or the customer proceeds with a transaction.\n\n### Mental Capacity Assist Obligation\n\nWhen a customer discloses a cognitive impairment that may affect their financial decisions, the firm must: **(CONC 2.10.4G; CONC 2.10.5G)**\n\n- **Presume the customer has capacity** at the time of the credit decision, unless the firm has actual knowledge to the contrary **(CONC 2.10.4G)**\n- Where the firm **reasonably suspects** a mental capacity limitation, it must **not treat the customer as lacking capacity** unless it has first taken **reasonable steps to assist** the customer to make a decision **(CONC 2.10.5G)**\n- If those assistance steps are unsuccessful, then exclusion may be justified\n\nThe disclosure itself (cognitive impairment affecting financial decisions) is **not conclusive** of incapacity. It is an indicator triggering the assist obligation \u2014 **not an automatic grounds for denial**.\n\n---\n\n## No Conflict During the Investigation Phase\n\nDuring the parallel investigation process, the two obligation sets are **complementary, not conflicting**:\n\n| Obligation | What the firm must do |\n|---|---|\n| **Sanctions match investigation** | Conduct due diligence to establish whether the name match is real (verify against identifiers: DOB, address, nationality, account number) **(FCG 7.2.4)** |\n| **Mental capacity assistance** | Conduct the onboarding process in a way that assists the customer to engage \u2014 allowing time, using clear language, checking understanding, considering alternative formats **(CONC 2.10.14G; CONC 2.10.17G)** |\n\n**The customer's cognitive impairment does not excuse the sanctions investigation.** The sanctions investigation is legally mandatory. However, the firm must conduct that investigation in a manner that is fair and accessible to a customer with a known cognitive limitation \u2014 using the assistance practices required by CONC 2.10.\n\n**Example flow:**\n1. Customer discloses cognitive impairment affecting financial decisions\n2. Sanctions screening flags a potential Consolidated List match\n3. Firm proceeds with sanctions match verification (required by FCG 7.2.4)\n4. **Simultaneously**, firm provides assistance required by CONC 2.10.5G \u2014 allowing time, explaining what is happening, checking understanding\n5. If match is confirmed as false positive \u2192 proceed with onboarding, applying mental capacity assistance procedures throughout\n6. If match is confirmed as real \u2192 mandatory asset freeze applies (see below)\n\n---\n\n## Conflict Arises Only If the Sanctions Match Is Confirmed\n\n**If the sanctions flag is confirmed as a real match**, the asset freeze obligation becomes **mandatory and legally overrides** the firm's capacity considerations for that transaction: **(FCG 7.2.3B)**\n\n| Scenario | Firm's legal position |\n|---|---|\n| **Real match confirmed** | Asset freeze is **immediate and mandatory**. The firm must freeze funds and economic resources belonging to the designated person. There is no discretion, no grace period, and no exception except statutory exceptions or an OFSI licence obtained in advance. The customer's mental capacity limitation is **irrelevant** to this obligation. |\n| **No OFSI licence available** | The firm cannot proceed with the transaction. The customer cannot be granted access to the credit or service. This is not \"unfair discrimination\" \u2014 it is mandatory sanction compliance. **(FCG 7.2.3B)** |\n\n**The override is legally absolute.** CONC's prohibition on unfair discrimination **(CONC 2.10.9G(1))** does not protect a customer from the consequences of confirmed sanctions designation. The Sanctions Act obligations supersede the CONC",
+      "fact_score": 0.8333,
+      "citation_score": 1.0,
+      "overall_score": 0.8833,
+      "facts_detail": [
+        {
+          "fact": "sanctions: a potential flag is not a confirmed designation \u2014 the firm must investigate the match; the freeze obligation is triggered on confirmation, not on the initial flag",
+          "present": true,
+          "note": "Answer clearly distinguishes between the flag/potential match and confirmed match, stating the firm must 'determine whether the match is real or a false positive' before any freeze obligation applies."
+        },
+        {
+          "fact": "if the match is confirmed, the firm must freeze assets immediately \u2014 this is a mandatory hard obligation that cannot be deferred",
+          "present": true,
+          "note": "Answer explicitly states 'Asset freeze is immediate and mandatory' with 'no discretion, no grace period, and no exception' upon confirmation."
+        },
+        {
+          "fact": "mental capacity: the firm must presume the customer has capacity and must take steps to assist them before making any exclusionary decision (CONC 2.10.5G)",
+          "present": true,
+          "note": "Answer covers both the presumption of capacity (CONC 2.10.4G) and the assist obligation before exclusion (CONC 2.10.5G)."
+        },
+        {
+          "fact": "at the investigation stage both obligations run in parallel without direct conflict",
+          "present": true,
+          "note": "Answer explicitly states the two obligation sets are 'complementary, not conflicting' during the investigation phase."
+        },
+        {
+          "fact": "if the sanctions match is confirmed, the freeze is mandatory and is not overridden by vulnerability obligations \u2014 but the firm must still handle communications with the vulnerable customer appropriately",
+          "present": true,
+          "note": "Answer states freeze overrides capacity considerations for the transaction, but also notes firm must conduct the investigation in a manner fair and accessible to the vulnerable customer throughout."
+        },
+        {
+          "fact": "tipping-off: if a SAR is filed in connection with the sanctions investigation, the firm must not disclose to the customer that a SAR has been filed or that the matter is under investigation",
+          "present": false,
+          "note": "The answer makes no mention of tipping-off risk or SAR confidentiality obligations. This is a notable omission."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CONC 2.10.4G",
+          "present": true
+        },
+        {
+          "citation": "CONC 2.10.5G",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate across most required facts, with both required citations present, but omits the tipping-off/SAR non-disclosure obligation entirely.",
+      "error": null
+    },
+    {
+      "id": "H008",
+      "question": "A PSP processes a \u00a3250 card-based remote payment and wants to apply the transaction risk analysis (TRA) exemption to skip strong customer authentication. Its current reference fraud rate for card-based remote transactions is 0.04%. Can it apply the TRA exemption?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "PSR",
+        "SCA",
+        "TRA",
+        "authentication",
+        "exemptions"
+      ],
+      "pages_loaded": [
+        "psr-sca-authentication"
+      ],
+      "pages_missing": [],
+      "answer": "# Analysis: TRA Exemption Application for \u00a3250 Card-Based Remote Payment\n\n## Answer: **No, the PSP cannot apply the TRA exemption.**\n\n---\n\n## Reasoning\n\nUnder **SCA-RTS Article 18** and **SCA-RTS Article 19**, a PSP may choose not to apply SCA for remote electronic payment transactions assessed as low fraud risk using real-time transaction risk analysis, provided that:\n\n> \"Fraud rate must be **at or below the applicable reference fraud rate** in the SCA-RTS Appendix for the exemption threshold value (ETV) used\" **(Approach Document \u00a720.71)**\n\n### Applicable ETV Band for \u00a3250 Transaction\n\nA \u00a3250 transaction falls within the **\"up to \u00a3440\"** exemption threshold value band.\n\nAccording to the SCA-RTS Appendix (as referenced in the Approach Document):\n\n| Exemption Threshold Value | Reference Fraud Rate |\n|--------------------------|---------------------|\n| Up to \u00a3440 | \u2264 **0.01%** |\n\n### Compliance Check\n\n- **PSP's current fraud rate:** 0.04%\n- **Required maximum fraud rate for \u00a3440 ETV band:** 0.01%\n- **Result:** 0.04% **exceeds** 0.01% \u2717\n\nThe PSP's monitored fraud rate for card-based remote transactions (0.04%) is **four times higher** than the permissible reference fraud rate (0.01%) for transactions up to \u00a3440.\n\n---\n\n## Mandatory Action\n\nUnder **SCA-RTS Article 20**, because the PSP's fraud rate exceeds the applicable reference rate:\n\n> The PSP must **notify the FCA immediately and cease applying the TRA exemption** at that ETV until the rate returns to or below the reference rate for at least one full quarter. **(SCA-RTS Art. 20; Approach Document \u00a720.80)**\n\nFor this \u00a3250 transaction, **strong customer authentication must be applied**.\n\n---\n\n## Note on Monitoring\n\nThe PSP must recalculate its fraud rate at least every **90 days** **(SCA-RTS Art. 19(1))** and monitor at the **PSP legal entity level** across the transaction type (card-based remote), not by individual merchant or channel.",
+      "fact_score": 0.6667,
+      "citation_score": 1.0,
+      "overall_score": 0.7667,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 the TRA exemption is not available for this transaction",
+          "present": true,
+          "note": "Clearly stated in the answer heading and conclusion"
+        },
+        {
+          "fact": "The TRA exemption requires the PSP's reference fraud rate to be below the threshold for the relevant exempt transaction value (ETV) band",
+          "present": true,
+          "note": "Explained in the reasoning section referencing SCA-RTS Art 18 and 19"
+        },
+        {
+          "fact": "ETV bands and maximum permitted fraud rates: up to \u00a385 \u2014 0.13%; up to \u00a3220 \u2014 0.06%; up to \u00a3440 \u2014 0.01%",
+          "present": false,
+          "note": "The answer only mentions the \u00a3440 band with 0.01%; it does not list the \u00a385/0.13% and \u00a3220/0.06% bands"
+        },
+        {
+          "fact": "A \u00a3250 transaction falls in the 'up to \u00a3440' ETV band, which requires a maximum reference fraud rate of 0.01%",
+          "present": true,
+          "note": "Explicitly stated in the table and analysis"
+        },
+        {
+          "fact": "A fraud rate of 0.04% exceeds the 0.01% threshold \u2014 the TRA exemption cannot be applied",
+          "present": true,
+          "note": "Clearly calculated and stated"
+        },
+        {
+          "fact": "The PSP must apply SCA for this transaction unless a different exemption applies (e.g. low-value contactless, recurring fixed-amount, or trusted beneficiary)",
+          "present": false,
+          "note": "The answer states SCA must be applied but does not mention that other exemptions might still be available as alternatives"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "SCA-RTS Art. 18 (TRA exemption conditions)",
+          "present": true
+        },
+        {
+          "citation": "SCA-RTS Art. 19 (reference fraud rates and ETV thresholds)",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly identifies the conclusion and key ETV/fraud rate calculation but omits the full ETV band table and fails to mention that alternative SCA exemptions may still apply.",
+      "error": null
+    },
+    {
+      "id": "E013",
+      "question": "What is the beneficial ownership threshold under the Money Laundering Regulations 2017, and what is the fallback when no natural person meets it?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "AML",
+        "CDD",
+        "beneficial-ownership",
+        "MLR-2017"
+      ],
+      "pages_loaded": [
+        "customer-due-diligence"
+      ],
+      "pages_missing": [],
+      "answer": "# Beneficial Ownership Threshold Under MLR 2017\n\n## The 25% Threshold\n\nUnder the Money Laundering Regulations 2017, the beneficial ownership threshold is **more than 25% of shares or voting rights**. Firms must identify and verify individuals who:\n\n- Ultimately control **more than 25% of shares or voting rights**\n- Exercise control over the management of the corporate customer\n- Control the body corporate through other means\n\n**(MLR Reg 5; FCG 3.2.4)**\n\n## The Fallback \u2014 Senior Managing Official\n\nWhere **no natural person meets or exceeds the 25% threshold** after exhausting the ownership chain, the firm must identify the **senior managing official(s)** of the legal person as the beneficial owner(s).\n\nThe firm must:\n- **Document in writing all steps taken** to identify beneficial owners meeting the 25% threshold\n- **Document all difficulties encountered** in tracing the ownership chain\n- **Take reasonable measures to verify the identity** of the senior managing official(s) who will serve as the fallback beneficial owner\n\n**(MLR Reg 28; FCG 3.2.4)**\n\nThe knowledge base emphasises that the fallback to senior managing officials is **not a first resort** \u2014 it must be explained with documented reasoning showing why no natural person met the threshold after proper investigation.\n\n---\n\n**Note:** Beneficial ownership rules apply differently to trusts, which require identification of the settlor, all trustees, protector (if any), beneficiaries, and any natural person exercising effective control. **(MLR Reg 5)**",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "The threshold is 25% of shares, voting rights, or other ownership interest in a legal person",
+          "present": true,
+          "note": "Answer states 'more than 25% of shares or voting rights' \u2014 correctly identifies the threshold though doesn't explicitly mention 'other ownership interest'"
+        },
+        {
+          "fact": "A firm must identify all natural persons who own or control more than 25% \u2014 the threshold identifies a floor, not a ceiling; control can exist below 25% through other means",
+          "present": true,
+          "note": "Answer mentions control through 'other means' and 'exercise control over the management', capturing the substance that 25% is a floor not a ceiling"
+        },
+        {
+          "fact": "Where no natural person meets the 25% threshold after exhausting the ownership chain, the firm must identify the senior managing official(s) of the legal person as the beneficial owner",
+          "present": true,
+          "note": "Clearly stated: 'the firm must identify the senior managing official(s) of the legal person as the beneficial owner(s)'"
+        },
+        {
+          "fact": "The firm must document why no natural person met the threshold \u2014 the fallback to senior managing officials is not a first resort",
+          "present": true,
+          "note": "Answer explicitly states documentation requirements and that 'the fallback to senior managing officials is not a first resort'"
+        },
+        {
+          "fact": "For trusts: the firm must identify the settlor, trustees, protector (if any), beneficiaries or class of beneficiaries, and any person exercising effective control",
+          "present": true,
+          "note": "Note section mentions settlor, trustees, protector, beneficiaries, and natural person exercising effective control for trusts"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "MLR 2017 reg. 5 (beneficial owner definition)",
+          "present": true
+        },
+        {
+          "citation": "MLR 2017 reg. 28 (CDD obligation)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts including the 25% threshold, the senior managing official fallback with documentation requirements, trust beneficial ownership rules, and both required regulatory citations.",
+      "error": null
+    },
+    {
+      "id": "E014",
+      "question": "What is the maximum time a firm regulated under DISP has to issue a final response to a complaint, and how does this differ for payment service providers and e-money issuers?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "DISP",
+        "complaints",
+        "PSR",
+        "EMI",
+        "timeline"
+      ],
+      "pages_loaded": [
+        "complaints-handling-framework",
+        "disp1-treating-complainants-fairly"
+      ],
+      "pages_missing": [],
+      "answer": "# Response to Question: Maximum Time for Final Response Under DISP and Differences for PSPs/EMIs\n\n## Maximum Response Times\n\nUnder DISP 1, there are **two distinct maximum timelines** for issuing a final response, depending on the type of complaint:\n\n### Standard Complaints \u2014 8 Weeks\n\nFor most complaints, a firm must issue a **final response within 8 weeks** from receipt of the complaint, or alternatively send a written response explaining why a final response cannot yet be provided and indicating when it can be. *(DISP 1.6.2R)*\n\n### Payment Services and Electronic Money Complaints \u2014 15 Business Days (or 35 Business Days)\n\nWhere a complaint relates to **payment services (PSD complaint) or electronic money (EMD complaint)**, the timeline is significantly shorter:\n\n- **Final response within 15 business days** of receipt, **or**\n- In exceptional circumstances beyond the respondent's control, a **holding response by day 15** followed by a **final response by day 35 business days**\n\n*(DISP 1.6.2AR)*\n\n---\n\n## How This Differs for Payment Service Providers and E-Money Issuers\n\n### Direct Application to Non-FSMA-Authorised PSPs and EMIs\n\nCritically, DISP 1 complaints handling rules **and complaints time limit rules apply directly to payment service providers and e-money issuers even where they are not FSMA-authorised firms**. *(DISP 1.1.10ACR)* This means:\n\n- An **Authorised Payment Institution (PI)** or **Authorised Electronic Money Institution (EMI)** that does not hold an FSMA permission is still subject to the full DISP 1 time limit obligations.\n- These providers must comply with the **15 business day / 35 business day timeline** for payment services and electronic money complaints, which is materially shorter than the 8-week standard timeline.\n\n### Mandatory Application of Shorter Timeline\n\nFor PSPs and EMIs, the **15/35 business day deadline is a hard rule derived from article 101 of the Payment Services Directive** \u2014 it cannot be waived by procedure or internal policy. *(See complaints-handling-framework, section 1)*\n\nWhere only **part** of a complaint is an EMD/PSD complaint, that part must be handled on the 15/35-day timeline. The respondent may choose to treat the **whole complaint** on the shorter timeline for operational simplicity. *(DISP 1.6.2BR, DISP 1.6.2CR)*\n\n### Format of Final Response\n\nEMD/PSD final responses must be provided **on paper or another durable medium agreed with the complainant**, whereas standard final responses may be provided in electronic form if appropriate. *(DISP 1.6.2AR)*\n\n---\n\n## Summary Table\n\n| Complaint Type | Respondent Type | Deadline for Final Response |\n|---|---|---|\n| **Standard** (non-payment/non-EMI) | All firms | **8 weeks** from receipt *(DISP 1.6.2R)* |\n| **PSD (payment services)** | PSPs, PIs, EMIs, credit institutions providing payment services | **15 business days** from receipt; or holding response by day 15 + final by day **35 business days** in exceptional circumstances *(DISP 1.6.2AR)* |\n| **EMD (electronic money)** | EMIs, credit institutions issuing e-money, PIs with EMI permission | **15 business days** from receipt; or holding response by day 15 + final by day **35 business days** in exceptional circumstances *(DISP 1.6.2AR)* |",
+      "fact_score": 0.8,
+      "citation_score": 0.6667,
+      "overall_score": 0.76,
+      "facts_detail": [
+        {
+          "fact": "The standard deadline for a final response is 8 weeks from the date the complaint was received",
+          "present": true,
+          "note": "Clearly stated: 'For most complaints, a firm must issue a final response within 8 weeks from receipt of the complaint'"
+        },
+        {
+          "fact": "For payment service providers and e-money issuers responding to complaints about payment services, the deadline is 15 business days",
+          "present": true,
+          "note": "Clearly stated: 'Final response within 15 business days of receipt'"
+        },
+        {
+          "fact": "In exceptional circumstances, PSPs and EMIs may extend to 35 business days \u2014 but must notify the customer within the 15-business-day period explaining the delay and the new deadline",
+          "present": true,
+          "note": "The answer mentions holding response by day 15 followed by final response by day 35 in exceptional circumstances, though the detail about explaining the new deadline is implied rather than explicit"
+        },
+        {
+          "fact": "The 3-business-day track is available for all firms where a complaint can be resolved by close of the third business day after receipt \u2014 a summary resolution communication may be issued instead of a final response letter",
+          "present": false,
+          "note": "The answer makes no mention of the 3-business-day track or summary resolution communication at all"
+        },
+        {
+          "fact": "These are hard outer limits \u2014 a firm cannot extend beyond them unilaterally",
+          "present": true,
+          "note": "The answer states 'the 15/35 business day deadline is a hard rule' and 'cannot be waived by procedure or internal policy'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "DISP 1.6.2R (8-week standard)",
+          "present": true
+        },
+        {
+          "citation": "DISP 1.6.2AR (15 business days for PSPs/EMIs)",
+          "present": true
+        },
+        {
+          "citation": "DISP 1.5 (3-business-day track)",
+          "present": false
+        }
+      ],
+      "summary": "The answer is strong on the core 8-week and 15/35-business-day rules with correct citations, but completely omits the 3-business-day track and summary resolution communication, which is a notable gap.",
+      "error": null
+    },
+    {
+      "id": "H014",
+      "question": "A firm in a distribution chain discovers that the manufacturer of a product it distributes appears to be breaching Principle 12. What specific obligation does PRIN 2A impose on the distributing firm?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "PRIN",
+        "Consumer-Duty",
+        "distribution-chain",
+        "FCA-notification"
+      ],
+      "pages_loaded": [
+        "prin2a-consumer-duty",
+        "consumer-principle"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nA firm in a distribution chain that discovers another firm (such as a manufacturer) may be breaching Principle 12 must comply with a hard-rule notification obligation under **PRIN 2A.9.17R**.\n\n## The Obligation: PRIN 2A.9.17R\n\n**PRIN 2A.9.17R** states:\n\n> A firm in a distribution chain **must** notify the FCA if it becomes aware, or has reasonable grounds to believe, that another firm in that chain is or may not be complying with Principle 12 or PRIN 2A.\n\n## Key Characteristics of This Obligation\n\n1. **Scope**: The obligation applies to any firm in the distribution chain \u2014 manufacturers, distributors, or intermediaries \u2014 where awareness of potential non-compliance arises.\n\n2. **Trigger**: The obligation is triggered by becoming **aware** of non-compliance, or having **reasonable grounds to believe** it may be occurring. There is no requirement to confirm the breach before reporting.\n\n3. **No Materiality Threshold**: The rule contains no qualifier such as \"material\" or \"significant\" breach. All potential breaches must be reported.\n\n4. **Immediate Requirement**: The obligation arises **immediately** upon awareness \u2014 it cannot be deferred pending internal investigation or commercial negotiation.\n\n5. **No Chain Confidentiality Carve-Out**: Commercial confidentiality or contractual relationships between firms do not override this FCA notification duty.\n\n## Practical Application\n\nIf a distributing firm discovers that a manufacturer is breaching Principle 12 (e.g. by distributing products outside their target market, or failing to avoid foreseeable harm), the distributing firm itself becomes potentially in breach of **PRIN 2A.9.17R** if it does not notify the FCA. The distributing firm **cannot rely on the manufacturer to self-report**.\n\nThis obligation operates in parallel with \u2014 and does not substitute for \u2014 the firm's general duty under **PRIN 11** (relations with regulators).",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "PRIN 2A.9.17R imposes a mandatory notification obligation: a firm in a distribution chain that becomes aware that another firm in the chain may be breaching Principle 12 or PRIN 2A must notify the FCA immediately",
+          "present": true,
+          "note": "Clearly stated in the answer \u2014 the firm must notify the FCA immediately upon awareness, triggered by becoming aware or having reasonable grounds to believe."
+        },
+        {
+          "fact": "There is no materiality threshold \u2014 the obligation to notify arises on becoming aware of a possible breach, not only when a breach is confirmed",
+          "present": true,
+          "note": "Explicitly stated: 'The rule contains no qualifier such as material or significant breach. All potential breaches must be reported.' and 'There is no requirement to confirm the breach before reporting.'"
+        },
+        {
+          "fact": "The obligation is on the distributing firm itself \u2014 it cannot rely on the manufacturer to self-report",
+          "present": true,
+          "note": "Explicitly stated: 'The distributing firm cannot rely on the manufacturer to self-report.'"
+        },
+        {
+          "fact": "This obligation is separate from and additional to the distributor's own Consumer Duty obligations (including the obligation not to distribute a product to customers outside the target market)",
+          "present": false,
+          "note": "The answer mentions the distributor's own obligations briefly (target market example) and references PRIN 11, but does not clearly articulate that the notification obligation is separate from and additional to the distributor's own Consumer Duty obligations under PRIN 2A."
+        },
+        {
+          "fact": "A firm that becomes aware of a potential Principle 12 breach by another chain participant and does not notify the FCA is itself potentially in breach of PRIN 2A.9.17R",
+          "present": true,
+          "note": "Explicitly stated: 'the distributing firm itself becomes potentially in breach of PRIN 2A.9.17R if it does not notify the FCA.'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PRIN 2A.9.17R (FCA notification duty in distribution chains)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is strong and accurate on almost all required facts, with the only gap being the explicit articulation that the notification obligation is separate from and additional to the distributing firm's own Consumer Duty obligations under PRIN 2A.",
+      "error": null
+    },
+    {
+      "id": "H015",
+      "question": "A conflicts register maintained under SYSC 10.1.6R has not been reviewed or updated for 18 months. The firm argues that no new conflicts have arisen so no update was needed, and that senior management receives a verbal briefing on conflicts quarterly. What specific obligations has the firm breached?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "SYSC",
+        "conflicts-of-interest",
+        "conflicts-register",
+        "annual-report"
+      ],
+      "pages_loaded": [
+        "sysc10-conflicts-of-interest"
+      ],
+      "pages_missing": [],
+      "answer": "# Specific Breaches Identified\n\nBased on the firm's conduct, it has breached the following obligations:\n\n## 1. **SYSC 10.1.6R \u2014 Failure to Regularly Update the Conflicts Register**\n\nSYSC 10.1.6R requires firms to maintain a conflicts register that is **\"regularly updated\"** to reflect current activities. The regulation does not limit the update obligation to situations where new conflicts have arisen. An 18-month period without review or update is a clear breach of the \"regularly updated\" requirement.\n\nThe firm's argument that \"no new conflicts have arisen\" is irrelevant. The obligation is prospective and requires active monitoring. The firm cannot demonstrate compliance with SYSC 10.1.6R merely by asserting that the register remains accurate \u2014 it must evidence regular review and reaffirmation that the register continues to reflect the current conflict landscape.\n\n## 2. **SYSC 10.1.6AAR \u2014 Failure to Produce an Annual Written Report to Senior Management**\n\nSYSC 10.1.6AAR requires firms to produce **\"at least an annual written report to senior management\"** covering: (i) conflicts identified during the period; (ii) how they were managed; and (iii) disclosures made to clients.\n\nAn 18-month gap without a written report is a clear breach. **Critically, the firm's reliance on verbal quarterly briefings does not satisfy this obligation.** SYSC 10.1.6AAR requires a **written report** \u2014 oral communication is expressly inadequate. The Knowledge Base states explicitly: *\"A firm that maintains an up-to-date register but fails to surface conflicts to senior management in a structured annual report breaches SYSC 10.1.6AAR. The report is the mechanism by which senior management exercises oversight, and its absence is a specific FCA supervisory focus.\"*\n\n## 3. **SYSC 10.1.11AAR \u2014 Failure to Review the Conflicts Policy Annually**\n\nSYSC 10.1.11AAR requires the written conflicts policy to be reviewed **\"at least annually\"** and whenever a material change occurs. An 18-month gap without review is a breach of this obligation.\n\n---\n\n## Summary\n\nThe firm has breached:\n- **SYSC 10.1.6R** (failure to regularly update the conflicts register)\n- **SYSC 10.1.6AAR** (failure to produce an annual written report to senior management \u2014 oral briefings are insufficient)\n- **SYSC 10.1.11AAR** (failure to conduct an annual policy review)\n\nThese are **three separate and discrete breaches**, even though they arise from the same 18-month lapse.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "The conflicts register under SYSC 10.1.6R must be a live document \u2014 it must be kept current. An 18-month gap without review or update is likely a breach regardless of whether new conflicts have arisen, because the firm cannot demonstrate it has actively monitored for changes",
+          "present": true,
+          "note": "Answer explicitly states the 18-month gap is a breach regardless of whether new conflicts arose, and that the firm must evidence regular review and reaffirmation"
+        },
+        {
+          "fact": "SYSC 10.1.6AAR imposes a separate obligation: the firm must produce a written annual report on conflicts of interest to senior management \u2014 this is distinct from the live register and cannot be satisfied by verbal briefings",
+          "present": true,
+          "note": "Answer clearly identifies SYSC 10.1.6AAR as a separate discrete obligation requiring a written annual report to senior management"
+        },
+        {
+          "fact": "A verbal quarterly briefing does not satisfy SYSC 10.1.6AAR \u2014 the obligation requires a written report, and it must be at least annual",
+          "present": true,
+          "note": "Answer explicitly states 'oral communication is expressly inadequate' and that verbal quarterly briefings do not satisfy the written report requirement"
+        },
+        {
+          "fact": "The written policy on conflicts (SYSC 10.1.10R) must be reviewed annually (SYSC 10.1.11AAR) \u2014 a related obligation that may also be in breach if 18 months have passed without review",
+          "present": true,
+          "note": "Answer identifies SYSC 10.1.11AAR and the annual policy review requirement as a third separate breach"
+        },
+        {
+          "fact": "The conflicts register and the annual written SM report are two discrete obligations \u2014 maintaining one does not satisfy the other",
+          "present": true,
+          "note": "Answer explicitly states these are 'three separate and discrete breaches' and treats the register and annual report as distinct obligations"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "SYSC 10.1.6R (conflicts register)",
+          "present": true
+        },
+        {
+          "citation": "SYSC 10.1.6AAR (annual written report to senior management)",
+          "present": true
+        },
+        {
+          "citation": "SYSC 10.1.11AAR (annual policy review)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, correctly identifying all three discrete breaches with precise regulatory citations and explicitly addressing why verbal briefings are insufficient under SYSC 10.1.6AAR.",
+      "error": null
+    },
+    {
+      "id": "E018",
+      "question": "Under the FCA's cryptoasset financial promotion rules, an MLR-registered cryptoasset business offers a \u00a350 cash bonus to new customers who make their first trade within 30 days of signing up. Is this permitted?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "cryptoassets",
+        "financial-promotions",
+        "incentives-ban",
+        "PS23-6"
+      ],
+      "pages_loaded": [
+        "cryptoasset-financial-promotions-framework",
+        "ps23-6-cryptoasset-financial-promotions"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer: The \u00a350 Cash Bonus is NOT Permitted\n\n## Summary\n\nNo, this practice is **not permitted**. The \u00a350 cash bonus violates the **absolute ban on incentives to invest** under the FCA's cryptoasset financial promotion rules.\n\n---\n\n## Applicable Rule\n\n**PS23/6 \u00a7\u00a73.14\u20133.24** \u2014 Incentives to Invest \u2014 Absolute Ban\n\nThe relevant knowledge base states:\n\n> \"Firms must not communicate financial promotions for cryptoassets that offer any monetary or non-monetary benefit that incentivises investment activity \u2014 for example, refer-a-friend bonuses or new-joiner bonuses.\" **(PS23/6 \u00a7\u00a73.14\u20133.24)**\n\n---\n\n## Why the Bonus is Prohibited\n\n### 1. **Direct Breach of the Incentives Ban**\n\nA **\u00a350 cash bonus for new customers making their first trade within 30 days** is a classic example of a prohibited incentive:\n- It is a **monetary benefit** (cash)\n- It directly **incentivises investment activity** (it only applies if the customer trades)\n- It is time-limited (within 30 days), making it clearly an incentive rather than an intrinsic feature\n\nThe knowledge base explicitly identifies \"new-joiner bonuses\" as prohibited incentives. **(PS23/6 \u00a73.14\u20133.24)**\n\n### 2. **No Shareholder Benefit Exemption for Cryptoassets**\n\nWhile other Restricted Mass Market Investments (RMMIs) have a \"shareholder benefit\" exemption (benefits intrinsic to the investment and bound up with its function), **this exemption is disapplied for cryptoassets**:\n\n> \"For RMMIs generally, a 'shareholder benefit' carve-out exists... This exemption **does not apply to cryptoassets**. The programmable nature of cryptoassets creates an unacceptable risk that firms would use this exemption to promote benefits that distort consumer investment decisions.\" **(PS23/6 \u00a73.24 Our response)**\n\nA cash bonus offered by the business (not intrinsic to any cryptoasset being promoted) clearly cannot qualify as an intrinsic benefit.\n\n### 3. **Applies Equally to MLR-Registered Businesses**\n\nThe prohibition applies to **both FCA-authorised firms and MLR-registered cryptoasset businesses** relying on FPO Article 73ZA:\n\n> \"MLR-registered businesses communicating under Art. 73ZA must comply with the same rules as authorised persons communicating cryptoasset financial promotions, including... **COBS 4** (Communicating with clients, including financial promotions).\" **(PS23/6 \u00a75.11\u20135.15)**\n\nThe knowledge base key points confirm: \"Cash bonuses, refer-a-friend bonuses, new-joiner bonuses, and free token offers are all prohibited under the absolute incentives ban... The prohibition applies equally to **FCA-authorised firms and MLR-registered cryptoasset businesses relying on FPO Art. 73ZA**.\" **(PS23/6 \u00a73.24; COBS 4.12A)**\n\n---\n\n## Conclusion\n\nThe MLR-registered cryptoasset business **must not offer this promotion** in any financial promotion communicating a Direct Offer Financial Promotion (DOFP) for a qualifying cryptoasset to UK consumers. Doing so would breach **PS23/6 \u00a7\u00a73.14\u20133.24** (the absolute incentives ban) and expose the firm to FCA enforcement action.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 this is prohibited under the absolute incentives ban in PS23/6",
+          "present": true,
+          "note": "The answer clearly states the bonus is NOT permitted and references the absolute ban on incentives under PS23/6 \u00a7\u00a73.14\u20133.24."
+        },
+        {
+          "fact": "The incentives ban applies to all financial promotions for qualifying cryptoassets \u2014 cash bonuses, refer-a-friend bonuses, new-joiner bonuses, and 'free' token offers are all prohibited",
+          "present": true,
+          "note": "The answer explicitly lists cash bonuses, refer-a-friend bonuses, new-joiner bonuses, and free token offers as prohibited, and references the knowledge base directly."
+        },
+        {
+          "fact": "Unlike other restricted mass-market investments, there is no shareholder benefit exemption for cryptoassets \u2014 benefits available to shareholders are not carved out",
+          "present": true,
+          "note": "The answer dedicates a full section to explaining that the shareholder benefit exemption is disapplied for cryptoassets, citing PS23/6 \u00a73.24."
+        },
+        {
+          "fact": "The prohibition applies to MLR-registered cryptoasset businesses communicating their own promotions under the Article 73ZA exemption \u2014 the same rules apply to them as to authorised firms",
+          "present": true,
+          "note": "The answer explicitly states the prohibition applies equally to MLR-registered businesses under FPO Art. 73ZA, citing PS23/6 \u00a75.11\u20135.15 and COBS 4.12A."
+        },
+        {
+          "fact": "A time-limited nature of the bonus does not create an exemption \u2014 benefits available only for a limited period are likely to be incentives regardless of their form",
+          "present": true,
+          "note": "The answer notes the 30-day time limit makes the bonus 'clearly an incentive rather than an intrinsic feature,' addressing the time-limited nature as reinforcing prohibition rather than creating an exemption."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PS23/6 \u00a73.24 (absolute incentives ban)",
+          "present": true
+        },
+        {
+          "citation": "FCA Handbook COBS 4.12A (incentives prohibition)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and correct, covering all required facts including the absolute incentives ban, the absence of a shareholder benefit exemption for cryptoassets, applicability to MLR-registered firms, and the time-limited nature of the bonus, with all required citations present.",
+      "error": null
+    }
+  ]
+}

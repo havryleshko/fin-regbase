@@ -28,8 +28,8 @@ related:
 Safeguarding protects customer funds so that, if a PI or EMI enters insolvency, the funds are returned quickly and in full. Without adequate safeguarding, the return of customer funds may be delayed and customers may not recover all their money. **(Portfolio letter, March 2023, Outcome 1, Priority 1)**
 
 Safeguarding obligations arise under:
-- **PSRs 2017, Regs 22–27** — for payment institutions
-- **EMRs 2011, Regs 20–25** — for e-money institutions
+- **PSRs 2017, Regs 22–27** — for payment institutions; the core obligation to safeguard relevant funds (segregation or insurance/guarantee) is in **PSRs 2017 reg. 23**
+- **EMRs 2011, Regs 20–25** — for e-money institutions; the equivalent obligation is in **EMRs 2011 reg. 21**
 
 Detailed operational guidance is in the **FCA Approach Document, Chapter 10**.
 
@@ -53,7 +53,7 @@ Firms must safeguard **"relevant funds"** — a defined term in the PSRs/EMRs. F
 
 ## Safeguarding Methods
 
-Firms may choose between two approaches:
+Firms may choose between two approaches. Whichever method is used, three additional requirements apply across both: **daily reconciliation** (both internal and external); an **annual independent safeguarding audit** (where a statutory audit is required); and **customer-level records** sufficient for a PESAR administrator to return funds in insolvency. In insolvency, safeguarded relevant funds form a **protected asset pool** giving customers a **first-priority claim** ahead of all general creditors. **(PSRs 2017 reg. 24(3); EMRs 2011 reg. 24(3); FCA Approach Document Chapter 10)**
 
 ### Segregation Method
 
@@ -188,10 +188,11 @@ See [[psr-regulatory-reporting]] for the NOT002 notification mechanics.
 
 - **Obligation on receipt:** Safeguarding applies from the moment relevant funds are received — not end of day.
 - "Relevant funds" is a defined term — firms must have documented processes to identify which funds are in scope.
-- **Segregation account requirements:** Must be named, hold only relevant funds, no competing interests, not shared with any other firm, acknowledgement letter in place with full terms.
-- Reconciliation must be performed at least daily (both internal and external). This is a minimum, not a target.
-- Where a statutory audit is required, an annual safeguarding audit is also required. Adverse findings must be reported to the FCA without delay via NOT002.
-- **PESAR and the asset pool:** In insolvency, safeguarded funds form a protected asset pool giving customers first-priority claims — this only works if records exist to match each fund to each customer.
+- **Two safeguarding methods — firms must choose one:** (1) **Segregation:** deposit relevant funds in a dedicated segregated account at a credit institution (OR invest in secure, liquid, low-risk assets); the credit institution must provide a **written acknowledgement** that the funds are held separately and cannot be used to meet the firm's liabilities. (2) **Insurance/comparable guarantee:** cover the funds with a policy from an authorised insurer or credit institution that is **not in the same group** as the PI/EMI. **(PSRs 2017 reg. 23; EMRs 2011 reg. 21; FCA Approach Document Chapter 10)**
+- **Daily reconciliation is mandatory** (both internal and external) — this is a minimum, not a target. Inadequate reconciliation is a named FCA failure.
+- **Annual safeguarding audit:** where a statutory audit is required, an annual independent safeguarding audit is also required. Adverse findings must be reported to the FCA without delay via NOT002.
+- **Insolvency priority:** in insolvency, safeguarded relevant funds form a protected asset pool. Customers have a first-priority claim against this pool — ahead of all general creditors. This only works if customer-level records match each fund to each customer.
+- **Segregation account requirements:** Must be named, hold only relevant funds, no competing interests, not shared with any other firm, written acknowledgement in place.
 - **Capital and safeguarding are separate:** Safeguarded customer funds are not regulatory capital and cannot be counted toward own funds.
 
 ## Related Articles

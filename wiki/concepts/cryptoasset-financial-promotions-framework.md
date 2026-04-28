@@ -47,7 +47,7 @@ The following steps must be completed in order before a DOFP may be shown:
 | 7 | **24 hours** have elapsed since step 2 | If steps 3–6 take longer than 24 hours, no additional wait required; consumer must still give active consent to proceed |
 | 8 | Firm shows the **DOFP** — consumer may place money in the investment | — |
 
-**(PS23/6 §§3.23–3.26, Figure 2)**
+**(PS23/6 §3.19; §§3.23–3.26, Figure 2)**
 
 The 24-hour cooling-off rule **does not apply to each individual transaction** in a cryptoasset — it applies only when a consumer has never previously received a DOFP from that specific firm. For existing clients, the firm must still ensure client categorisation is current and appropriateness has been assessed for the specific investment. **(PS23/6 §3.28 Our response)**
 
@@ -152,7 +152,7 @@ Where a consumer is categorised as certified or self-certified sophisticated for
 
 ### Requirement
 
-The specific RMMI must be assessed as appropriate for the consumer **before** an application or order in response to a DOFP can be processed. The assessment must determine that the consumer has the necessary experience and knowledge to understand the risks of the specific product or service. **(PS23/6 §§3.47–3.49; COBS 10.2.1)**
+The specific RMMI must be assessed as appropriate for the consumer **before** an application or order in response to a DOFP can be processed. The assessment must determine that the consumer has the necessary experience and knowledge to understand the risks of the specific product or service. **This obligation applies to all three permitted client categories — Restricted Investor, High Net Worth, and Certified Sophisticated — without exception.** **(PS23/6 §§3.47–3.49; COBS 4.12A; COBS 10.2.1)**
 
 Firms may gather information and conduct the assessment before the DOFP is shown (as part of the on-boarding process). The time taken for the assessment **counts toward the 24-hour cooling-off period**. **(PS23/6 §3.49)*
 
@@ -215,11 +215,14 @@ Figure 3 of PS23/6 sets out a decision tree: **(PS23/6 §§3.58–3.60, Figure 3
 ## Key Points for Agents
 
 - The DOFP sequence is mandatory and must be followed in order: risk warning → consumer requests DOFP (24-hour clock starts) → KYC/AML + name → personalised risk warning → client categorisation → appropriateness → 24 hours elapsed → DOFP shown.
-- **24-hour cooling-off applies only to first-time investors** with the firm. Existing investors (those who have previously received a DOFP from that firm) skip this step but must still have current categorisation and appropriateness assessed.
-- **Self-certified sophisticated investor category does not apply to cryptoassets.** Only Restricted Investor, High Net Worth, and Certified Sophisticated categories.
-- **Client categorisation declarations expire after 12 months** — re-categorisation is required before further DOFPs.
+- **24-hour cooling-off applies only to first-time investors** with the firm. **(PS23/6 §3.19)** Existing investors (those who have previously received a DOFP from that firm) skip this step but must still have current categorisation and appropriateness assessed.
+- **Multiple violations in an immediate-retake scenario (e.g., customer fails then passes 5 minutes later):** (a) The 24-hour cooling-off for first-time investors **(PS23/6 §3.19)** has not elapsed — the entire consumer journey cannot complete in minutes; (b) questions must differ between attempts, making a 5-minute pass strongly indicative of question reuse or coaching — a named breach **(PS23/6 §3.51)**; (c) even though the 24-hour lock-out formally applies from the second failed attempt, the firm must use different questions from the first attempt onwards; (d) the firm must not encourage retakes or disclose specific wrong answers — only broad topic areas; (e) processing the investment before the cooling-off period has elapsed and before a valid appropriateness assessment is complete violates both PS23/6 §3.19 and §§3.50–3.53. **(PS23/6 §3.19; §§3.50–3.53)**
+- **Self-certified sophisticated investor category does not apply to cryptoassets.** Only Restricted Investor, High Net Worth, and Certified Sophisticated categories are available. **(PS23/6 §3.46; COBS 4.12A)**
+- **The appropriateness assessment is mandatory for all three permitted categories** — it cannot be skipped even for High Net Worth or Certified Sophisticated investors. **(PS23/6 §§3.47–3.49; COBS 4.12A)**
+- **Client categorisation declarations expire after 12 months** — re-categorisation is required before further DOFPs. **(PS23/6 §3.46)**
+- **Incentives ban — absolute, no shareholder benefit exemption, applies to MLR-registered businesses (PS23/6 §3.24; COBS 4.12A):** Cash bonuses, refer-a-friend bonuses, new-joiner bonuses, and free token offers are all prohibited under the absolute incentives ban. Unlike other RMMIs, there is **no shareholder benefit exemption** for cryptoassets. A **time-limited bonus does not create an exemption** — benefits available only for a limited period are likely to be incentives regardless of form. The prohibition applies equally to **FCA-authorised firms and MLR-registered cryptoasset businesses relying on FPO Art. 73ZA** — the same rules apply to both. **(PS23/6 §3.24; COBS 4.12A)**
 - The **incentives ban is absolute — no shareholder benefit exemption**. Free token offers and limited-time benefit offers are prohibited. Governance/voting rights intrinsic to a token are not incentives.
-- **Appropriateness anti-gaming:** questions must differ each time; only broad topic failure areas may be disclosed (not specific answers); 24-hour lock-out applies from second failed attempt; firms must not encourage retakes. Diverse product ranges may need multiple separate assessments.
+- **Appropriateness anti-gaming:** questions must differ each time; only broad topic failure areas may be disclosed (not specific answers); 24-hour lock-out applies from second failed attempt; firms must not encourage retakes. Diverse product ranges may need multiple separate assessments. **(PS23/6 §§3.50–3.53)**
 - The **time taken for the appropriateness assessment counts toward** the 24-hour cooling-off period.
 
 ## Related Articles

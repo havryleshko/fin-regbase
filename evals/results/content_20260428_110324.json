@@ -1,0 +1,240 @@
+{
+  "run_at": "2026-04-28T11:03:24.385154",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 3,
+  "completed": 3,
+  "errors": 0,
+  "mean_fact_score": 0.711,
+  "mean_citation_score": 1.0,
+  "mean_overall_score": 0.7976666666666666,
+  "pass_rate": 0.6666666666666666,
+  "by_difficulty": {
+    "easy": {
+      "count": 2,
+      "mean_score": 0.755
+    },
+    "medium": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "hard": {
+      "count": 1,
+      "mean_score": 0.883
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 2,
+      "mean_score": 0.755
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 1,
+      "mean_score": 0.883
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "E009",
+      "question": "What are the two methods by which an authorised payment institution or e-money institution may safeguard relevant funds, and what is the key documentation requirement specific to the segregation method?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "PSR",
+        "EMI",
+        "safeguarding",
+        "payment-institutions"
+      ],
+      "pages_loaded": [
+        "safeguarding-pis-emis"
+      ],
+      "pages_missing": [],
+      "answer": "# Two Methods of Safeguarding Relevant Funds\n\nUnder **PSRs 2017 reg. 23** (for payment institutions) and **EMRs 2011 reg. 21** (for e-money institutions), authorised payment institutions and e-money institutions may safeguard relevant funds using two methods:\n\n## 1. Segregation Method\n\nRelevant funds must be placed in a **segregated account** with a credit institution, central bank, or authorised e-money institution. The account must be named or described as a safeguarding account, hold only relevant funds, and not be shared with any other firm's safeguarding arrangement.\n\n## 2. Insurance/Comparable Guarantee Method\n\nAs an alternative, funds may be covered by an **insurance policy or comparable guarantee** from an insurance undertaking or credit institution that is not in the same group as the firm and has not been approved to provide this service for more than a specified proportion of the firm's total relevant funds.\n\n---\n\n# Key Documentation Requirement for Segregation\n\nThe specific documentation requirement for the segregation method is a **written acknowledgement of segregation** from the credit institution. This acknowledgement must confirm:\n\n1. The institution understands the account holds relevant funds belonging to customers\n2. The funds are separate from the firm's own funds\n3. **The institution will not set off claims it holds against the firm against balances in the account**\n\n**Failure to obtain this written acknowledgement \u2014 or failure to perform appropriate due diligence on the institution holding the account \u2014 is a named FCA compliance failure.** **(FCA Approach Document Ch. 10; Portfolio letter, March 2023)**\n\nThis documentation is material to the validity of the segregation method and ensures the firm has an evidenced claim against the safeguarding risk presented by the account-holder.",
+      "fact_score": 0.5,
+      "citation_score": 1.0,
+      "overall_score": 0.65,
+      "facts_detail": [
+        {
+          "fact": "Method 1 (segregation): relevant funds must be deposited in a dedicated safeguarding account at a credit institution, kept separate from the firm's own funds, OR invested in secure, liquid, low-risk assets",
+          "present": true,
+          "note": "The answer describes segregation into a dedicated account at a credit institution, kept separate from firm's own funds. The alternative of investing in secure liquid assets is not mentioned, but the core segregation concept is present."
+        },
+        {
+          "fact": "The credit institution holding the safeguarding account must provide a written acknowledgement confirming that the funds are held separately from the firm's own funds and cannot be used to meet the firm's liabilities",
+          "present": true,
+          "note": "The answer explicitly discusses the written acknowledgement requirement, including that the institution will not set off claims against balances in the account, which captures the substance of funds not being used to meet firm liabilities."
+        },
+        {
+          "fact": "Method 2 (insurance or comparable guarantee): relevant funds must be covered by an insurance policy or comparable guarantee from an authorised insurer or credit institution that is not in the same group as the PI or EMI",
+          "present": true,
+          "note": "The answer clearly describes the insurance/comparable guarantee method and specifically notes it must not be from the same group as the firm."
+        },
+        {
+          "fact": "Daily reconciliation of safeguarded funds is required regardless of which method is used",
+          "present": false,
+          "note": "The answer makes no mention of daily reconciliation requirements."
+        },
+        {
+          "fact": "An annual independent safeguarding audit is required",
+          "present": false,
+          "note": "No mention of an annual independent safeguarding audit in the answer."
+        },
+        {
+          "fact": "In insolvency, the safeguarded asset pool has priority for distribution to payment service users ahead of other creditors",
+          "present": false,
+          "note": "The answer does not mention insolvency priority or distribution to payment service users."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSRs 2017 reg. 23",
+          "present": true
+        },
+        {
+          "citation": "EMRs 2011 reg. 21",
+          "present": true
+        },
+        {
+          "citation": "FCA Approach Document Chapter 10",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly identifies both safeguarding methods and the written acknowledgement requirement with all required citations, but omits the daily reconciliation requirement, annual independent audit, and insolvency priority provisions.",
+      "error": null
+    },
+    {
+      "id": "E012",
+      "question": "A firm receives a subject access request verbally from a customer over the phone. Must it respond, and if so, within what timeframe?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "UK-GDPR",
+        "subject-access",
+        "individual-rights"
+      ],
+      "pages_loaded": [
+        "uk-gdpr-subject-access"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer: Verbal Subject Access Requests \u2014 Response Obligation and Timeframe\n\n## Must the firm respond?\n\n**Yes.** A verbal SAR received over the phone is **fully valid** and must be treated identically to a written request.\n\nUnder **UK GDPR Article 15**, a subject access request is valid regardless of the form in which it is made. The knowledge base explicitly states:\n\n> \"Verbal SARs are fully valid \u2014 a request made by phone, in person, or via social media is as valid as a written request. No specific words, form, or named contact required.\" **(UK GDPR Art. 15)**\n\nFurther, the guidance clarifies:\n\n> \"A SAR is valid if it is clear that the individual is asking for their own personal data. No specific form of words is required \u2014 the individual does not need to: Use the phrase 'subject access request' or cite Article 15; Make the request in writing (verbal SARs are valid); Direct the request to a specific person or contact point; Use a specific channel (including social media).\"\n\n## Timeframe for Response\n\n**One calendar month** from the date of receipt.\n\nThe response deadline is set by **UK GDPR Article 12(3)**:\n\n> \"Response deadline: one calendar month from receipt. **(UK GDPR Art. 12(3))** The ICO recommends targeting 28 days to allow time for review before the deadline.\"\n\nAn extension to three months is available only for complex or numerous requests, but the individual **must be informed within the first month** if such an extension is being claimed.\n\n## Summary\n\n- **Verbal SAR over phone:** Valid and must be actioned\n- **Response timeframe:** 1 calendar month from receipt (target 28 days)\n- **What must be provided:** A copy of all personal data plus supplementary information equivalent to Article 13/14 privacy notice content",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "Yes \u2014 a SAR does not need to be in writing and does not need to use the words 'subject access request'; verbal requests made by phone are valid",
+          "present": true,
+          "note": "Explicitly stated that verbal SARs are fully valid and no specific words or form required"
+        },
+        {
+          "fact": "The firm must respond within one calendar month of receiving the request",
+          "present": true,
+          "note": "Clearly stated as one calendar month from receipt under UK GDPR Art. 12(3)"
+        },
+        {
+          "fact": "The ICO recommends targeting 28 days to allow time for review before the deadline",
+          "present": true,
+          "note": "Explicitly mentioned: 'The ICO recommends targeting 28 days to allow time for review before the deadline'"
+        },
+        {
+          "fact": "The firm may ask for clarification where the request is unclear or covers a large volume of data, but the clock pauses only if clarification is genuinely needed for a large or complex request \u2014 it does not pause automatically",
+          "present": false,
+          "note": "The answer mentions extension for complex/numerous requests but does not address the clarification mechanism or the conditional clock-pause rule"
+        },
+        {
+          "fact": "The firm must still provide any supplementary information (equivalent to Art. 13/14 privacy notice content) alongside the copy of the data",
+          "present": true,
+          "note": "Mentioned in the summary: 'A copy of all personal data plus supplementary information equivalent to Article 13/14 privacy notice content'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "UK GDPR Art. 15",
+          "present": true
+        },
+        {
+          "citation": "UK GDPR Art. 12(3) (one-month deadline)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is strong and accurate on all main points, but omits the nuance around when the clock pauses for clarification requests (only for genuinely large/complex cases, not automatically).",
+      "error": null
+    },
+    {
+      "id": "H016",
+      "question": "A cryptoasset firm communicates a direct offer financial promotion (DOFP) to a retail customer. The customer fails the appropriateness assessment on their first attempt and immediately retakes it \u2014 passing on the second try five minutes later. The firm processes the customer's investment. Has the firm complied with PS23/6?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "cryptoassets",
+        "financial-promotions",
+        "appropriateness",
+        "cooling-off",
+        "anti-gaming",
+        "PS23-6"
+      ],
+      "pages_loaded": [
+        "cryptoasset-financial-promotions-framework"
+      ],
+      "pages_missing": [],
+      "answer": "# Compliance Assessment: PS23/6 Violation\n\n## Answer: **No, the firm has NOT complied with PS23/6.**\n\nThe firm has committed **multiple breaches** of the cryptoasset financial promotions framework.\n\n---\n\n## Primary Breaches\n\n### 1. **Failure to Comply with 24-Hour Cooling-Off Period (PS23/6 \u00a73.19)**\n\nFor a first-time investor receiving a DOFP, the mandatory consumer journey sequence requires:\n\n- Step 2: Consumer requests to view the DOFP \u2014 **24-hour cooling-off clock starts**\n- Steps 3\u20137: KYC/AML, personalised risk warning, client categorisation, appropriateness assessment, and **24 hours must elapse**\n- Step 8: Only then may the DOFP be shown and the investment processed\n\n**(PS23/6 \u00a73.19; Figure 2)**\n\n**Processing the investment within five minutes violates this requirement.** The 24-hour cooling-off period is a mandatory minimum waiting period that cannot be compressed, regardless of how quickly the consumer completes on-boarding and assessment steps.\n\n---\n\n### 2. **Appropriateness Assessment Anti-Gaming Breach (PS23/6 \u00a73.50\u20133.51)**\n\nThe appropriateness assessment must be designed to **resist gaming**. A critical requirement is:\n\n> **\"Questions must differ on each assessment attempt \u2014 different formulations, a different number of correct answers required, or questions drawn from a question bank in rotation.\"** **(PS23/6 \u00a73.50)**\n\nA consumer failing and then passing the **same assessment within 5 minutes** is **strongly indicative** that:\n- Questions were recycled or reused between attempts, OR\n- The assessment was not properly randomised\n\nThis is a **named breach of PS23/6 \u00a73.50** (anti-gaming design requirement).\n\nAdditionally:\n- The **24-hour lock-out rule applies from the second failed attempt onwards** \u2014 but this presupposes different questions are used. **(PS23/6 \u00a73.50)** If questions are the same, the lock-out is moot because the test itself is defective.\n\n---\n\n### 3. **Incomplete Appropriateness Assessment (PS23/6 \u00a7\u00a73.47\u20133.49)**\n\nThe firm must determine that the consumer \"has the necessary experience and knowledge to understand the risks of the specific product or service\" **before an application or order in response to a DOFP can be processed.** **(PS23/6 \u00a73.47)**\n\nA single assessment attempt, even if passed, may be insufficient to satisfy this obligation if the questions are non-differentiated. The **first failed attempt indicates the assessment was not working properly** \u2014 the firm then processed the investment based on a second attempt conducted under a flawed assessment regime.\n\n---\n\n## Secondary Considerations\n\n### Client Categorisation Status (PS23/6 \u00a73.36\u20133.46)\n\nThe scenario does not indicate whether the consumer completed a valid **client categorisation declaration** before the appropriateness assessment. If this was not completed, the firm has violated **PS23/6 \u00a73.36\u20133.46**, which mandates categorisation as Restricted Investor, High Net Worth, or Certified Sophisticated **before** appropriateness can be assessed.\n\n---\n\n### Record-Keeping Failure (PS23/6 \u00a7\u00a73.56\u20133.57)\n\nThe firm must record:\n- The final outcome and number of assessment attempts per consumer per investment\n- Whether assessments determined appropriateness vs inappropriateness\n\nThe scenario suggests no proper record-keeping of the failed attempt and the circumstances of the immediate retake.\n\n---\n\n## Conclusion\n\nThe firm has breached:\n\n1. **PS23/6 \u00a73.19** \u2014 processing before 24-hour cooling-off elapsed\n2. **PS23/6 \u00a73.50** \u2014 appropriateness assessment fails anti-gaming safeguard (same questions)\n3. **PS23/6 \u00a7\u00a73.47\u20133.49** \u2014 incomplete assessment before processing\n4. **PS23/6 \u00a7\u00a73.56\u20133.57** \u2014 likely record-keeping failures\n\n**The investment should not have been processed.**",
+      "fact_score": 0.833,
+      "citation_score": 1.0,
+      "overall_score": 0.883,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 the firm has not complied with PS23/6",
+          "present": true,
+          "note": "Clearly stated in the opening conclusion: 'No, the firm has NOT complied with PS23/6.'"
+        },
+        {
+          "fact": "After a failed appropriateness assessment, a mandatory 24-hour lock-out applies from the second failed attempt \u2014 but the FCA's anti-gaming rules also require that different questions be used on each attempt",
+          "present": true,
+          "note": "The answer mentions the 24-hour lock-out from second failed attempt and the anti-gaming requirement for different questions in \u00a73.50."
+        },
+        {
+          "fact": "Even if a 24-hour lock-out had not yet triggered, the firm must not encourage customers to retake the assessment and must not disclose the specific answers that were wrong \u2014 only the broad topic areas where the customer failed",
+          "present": false,
+          "note": "The answer does not mention the prohibition on disclosing specific wrong answers or the restriction to only revealing broad topic areas of failure. This key rule is absent."
+        },
+        {
+          "fact": "Five minutes between attempts strongly suggests the customer was coached or that the same questions were reused \u2014 both are named rule breaches under PS23/6 \u00a7\u00a73.50\u20133.53",
+          "present": true,
+          "note": "The answer explicitly addresses the 5-minute gap as indicative of recycled questions or lack of randomisation, citing \u00a73.50."
+        },
+        {
+          "fact": "For first-time investors with the firm, a mandatory 24-hour cooling-off period also applies from the point the DOFP was communicated \u2014 the time spent on appropriateness assessments counts toward the cooling-off period, so a 5-minute reassessment cannot satisfy the 24-hour cooling-off requirement",
+          "present": true,
+          "note": "The answer covers the 24-hour cooling-off period and that processing within five minutes violates it, referencing \u00a73.19 and Figure 2."
+        },
+        {
+          "fact": "The firm should not have processed the investment: the cooling-off period had not expired and the appropriateness process had not been properly completed",
+          "present": true,
+          "note": "Stated clearly in the conclusion: 'The investment should not have been processed.'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PS23/6 \u00a7\u00a73.50\u20133.53 (appropriateness anti-gaming rules)",
+          "present": true,
+          "note": "\u00a7\u00a73.50\u20133.51 are cited; \u00a73.53 is not explicitly cited but the range is partially covered."
+        },
+        {
+          "citation": "PS23/6 \u00a73.19 (24-hour cooling-off for first-time investors)",
+          "present": true,
+          "note": "Explicitly cited as PS23/6 \u00a73.19 in the primary breaches section."
+        }
+      ],
+      "summary": "The answer is strong and covers most required facts and all citations, but omits the specific rule that firms must not disclose which individual answers were wrong \u2014 only broad topic areas of failure.",
+      "error": null
+    }
+  ]
+}

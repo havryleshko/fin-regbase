@@ -145,12 +145,15 @@ The firm must permit the nominated officer access to all information in the firm
 
 ## Key Points for Agents
 
+- **Obligation to report to the nominated officer (MLRO) arises immediately on suspicion** — the individual staff member's obligation cannot be delegated. **(POCA 2002 s.330)**
 - "Suspicion" is a subjective test — if the employee suspects, they must report. There is no legal requirement for reasonable grounds to support a subjective suspicion (K v NatWest [2006]).
 - "Reasonable grounds to know or suspect" introduces a separate objective test. Staff cannot escape criminal liability simply by not personally forming a suspicion if objective circumstances warranted one.
-- When suspicion arises **before** a transaction, the nominated officer must file a DAML consent request — not just a SAR. NCA has 7 working days to refuse. If not refused, the transaction may proceed. If refused, a 31-day moratorium applies (extendable to 186 days).
+- **Tipping-off timing:** The tipping-off offence under s.333A does not technically apply until a SAR has been filed (it prohibits disclosing that a SAR has been made or an investigation is underway). Before a SAR is filed, the employee's primary obligation is s.330 — report to the MLRO as soon as practicable. The employee should not confirm or deny concerns to colleagues before reporting to the MLRO. **(POCA 2002 s.333A)**
+- **Intra-firm sequencing:** Once the employee has reported to the MLRO, the intra-firm disclosure exemption permits disclosure to another employee, officer or partner of the same firm for AML compliance purposes — making it a permitted (not a tipping-off) disclosure. Report to MLRO first; intra-firm AML discussion follows. **(POCA 2002 s.333B(1))**
+- When suspicion arises **before** a transaction, the nominated officer must file a DAML consent request — not just a SAR. **(POCA 2002 s.335)** NCA has 7 working days to refuse. If not refused, the transaction may proceed. If refused, a 31-day moratorium applies (extendable to 186 days by court order, adding up to a further 186 days). **Proceeding with the transaction before the applicable period expires is a money laundering offence under POCA 2002 s.328.** The DAML reference number and the date of consent or moratorium expiry must be recorded. **(POCA 2002 s.328; POCA 2002 s.335)**
 - Filing a SAR **after** the transaction provides no consent protection — consent is only available pre-event.
-- Tipping off has two variants: disclosing that a SAR was made; disclosing that an investigation is underway. Both are criminal if likely to prejudice an investigation.
-- Permitted disclosures (which are not tipping off): within the same firm; within the same group to EEA/equivalent institutions; between two institutions sharing a common customer or transaction.
+- Tipping off has two variants: disclosing that a SAR was made; disclosing that an investigation is underway. Both are criminal if likely to prejudice an investigation. **(POCA 2002 s.333A)**
+- Permitted disclosures (which are not tipping off): within the same firm **(POCA 2002 s.333B(1))**; within the same group to EEA/equivalent institutions; between two institutions sharing a common customer or transaction.
 - Deposit-takers face a £3,000 per-transaction threshold on all subsequent activity in a customer account where a SAR has been filed, unless a Threshold Variation is obtained from the NCA.
 
 ## Related Articles

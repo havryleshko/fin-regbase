@@ -595,8 +595,10 @@
 - id: E009
   question: >
     What are the two methods by which an authorised payment institution or
-    e-money institution may safeguard relevant funds, and what is the key
-    documentation requirement specific to the segregation method?
+    e-money institution may safeguard relevant funds, what is the key
+    documentation requirement specific to the segregation method, and what
+    ongoing operational obligations and insolvency protections attach to
+    safeguarded funds?
   difficulty: easy
   type: factual
   expected_pages:
@@ -648,8 +650,9 @@
   question: >
     A customer contacts their payment service provider on a Monday reporting an
     unauthorised debit card payment made the previous Friday that they did not
-    authorise. What is the PSP's refund obligation, and under what single condition
-    may it delay refunding?
+    authorise. What is the PSP's refund obligation, what is the maximum the
+    customer can be held liable for, under what single condition may the PSP delay
+    refunding, and what time limit applies to the customer's right to claim?
   difficulty: medium
   type: edge-case
   expected_pages:
@@ -760,7 +763,9 @@
 - id: E012
   question: >
     A firm receives a subject access request verbally from a customer over the
-    phone. Must it respond, and if so, within what timeframe?
+    phone. Must it respond? Within what timeframe? Can it pause the clock to
+    ask for clarification, and what must the response include beyond the raw
+    data?
   difficulty: easy
   type: factual
   expected_pages:
@@ -1012,9 +1017,11 @@
 
 - id: E014
   question: >
-    What is the maximum time a firm regulated under DISP has to issue a final
-    response to a complaint, and how does this differ for payment service
-    providers and e-money issuers?
+    What are the complaint response time limits under DISP — including the
+    standard deadline, the shorter deadline for payment service providers and
+    e-money issuers (and when it can be extended), and the faster track
+    available for all firms where a complaint is resolved within three business
+    days?
   difficulty: easy
   type: factual
   expected_pages:
@@ -1055,7 +1062,7 @@
 - id: M019
   question: >
     A motor finance customer received a final response letter from their lender
-    in March 2025 about a complaint relating to a discretionary commission
+    in June 2025 about a complaint relating to a discretionary commission
     arrangement on a pre-2021 agreement. How long does the customer have to
     refer the complaint to the Financial Ombudsman Service?
   difficulty: medium
@@ -1065,8 +1072,8 @@
     - disp2-fos-jurisdiction
   required_facts:
     - "The standard FOS referral window of 6 months from the date of the final response letter does not apply to this complaint"
-    - "Under DISP App 5, the FOS referral window for DCA motor finance complaints is extended to 15 months from the date of the final response — or until 30 July 2026, whichever is later"
-    - "A final response sent in March 2025 falls within the extended period (11 January 2024 to 31 May 2026) — the 15-month extended window applies"
+    - "Under DISP App 5, the FOS referral window for DCA motor finance complaints sent between 30 April 2025 and 29 January 2026 is extended to 15 months from the date of the final response letter"
+    - "A final response sent in June 2025 falls within the 30 April 2025 – 29 January 2026 bracket — the 15-month extended window applies, giving the customer 15 months from the date of the final response to refer to the FOS"
     - "The final response letter itself must substitute the standard '6 months' wording with '15 months' throughout — if the letter used the standard wording, the firm has not complied with DISP App 5.2.11R"
     - "Records relating to the complaint must be retained until 11 April 2031 regardless of when the complaint was received or resolved"
   required_citations:

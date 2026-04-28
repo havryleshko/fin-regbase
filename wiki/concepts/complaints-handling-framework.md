@@ -216,6 +216,10 @@ Records of the measures taken for resolution can and should be used to support t
 
 ## Key Points for Agents
 
+- **Complaint response time limits — three tracks (DISP 1.6.2R; DISP 1.6.2AR; DISP 1.5):**
+  - **Standard (all firms):** Final response within **8 weeks** of receipt. **(DISP 1.6.2R)**
+  - **PSP/EMI payment services complaints:** Final response within **15 business days** of receipt. In exceptional circumstances, a holding response by day 15 explaining the delay and specifying the new deadline, then final response within **35 business days**. **(DISP 1.6.2AR)** These are hard outer limits — a firm cannot extend beyond them unilaterally.
+  - **3-business-day track (DISP 1.5):** Any firm that resolves a complaint by close of the third business day after receipt may issue a summary resolution communication instead of a full final response — the complainant must have indicated acceptance. This is a lighter obligation but the complaints resolution rules (DISP 1.4) still apply in full. **(DISP 1.5)**
 - There are **two mandatory response timelines**: 8 weeks (standard) and 15 business days / 35 business days (EMD/PSD). The shorter timeline is derived from the Payment Services Directive and cannot be waived. Mixed complaints must be handled in parts if needed.
 - **The 3-day track** exempts firms from time limit and forwarding rules but still requires the complaints resolution rules to be met. A summary resolution communication (lighter than a final response) must be sent in writing even where the acceptance was oral.
 - **Root cause analysis (DISP 1.3.3R) is a hard rule**, not guidance. Firms must have MI systems, senior management reporting, and processes to assess whether root causes affect other products and processes — including those not complained about. Failure to identify and remediate systemic problems proactively is a Principle 6 breach risk.

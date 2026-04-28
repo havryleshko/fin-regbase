@@ -50,9 +50,9 @@ The refund must be made **no later than the end of the next business day** after
 
 Interest, charges, and other adverse consequences must also be reversed.
 
-### 13-Month Notification Limit
+**Customer liability cap:** The customer's maximum liability for an unauthorised transaction where they were negligent (but not grossly negligent or fraudulent) is **£35**. **(PSRs 2017 Reg 77)** Gross negligence or fraud removes the cap and the customer bears the full amount. If the PSP failed to apply SCA, the PSP bears the full loss regardless of customer negligence.
 
-A payer must notify their PSP of an unauthorised transaction **without undue delay** and **no later than 13 months** after the debit date. Failure to notify within this period extinguishes the right to a refund. **(PSRs 2017 Reg 74)**
+**13-Month Notification Limit:** A payer must notify their PSP of an unauthorised transaction **without undue delay** and **no later than 13 months** after the debit date. Failure to notify within this period extinguishes the right to a refund. **(PSRs 2017 Reg 74)**
 
 ### Burden of Proof
 
@@ -139,10 +139,9 @@ Where the failure is at the **payee's PSP** (e.g. failure to credit the payee's 
 
 ## Key Points for Agents
 
-- **Immediate refund** is the default rule for unauthorised transactions — end of next business day at the latest. This obligation cannot be contracted out of for consumers, micro-enterprises, and charities.
-- **Burden of proof is on the PSP**, not the payer. Authentication records alone do not prove authorisation.
+- **PSP's refund obligation for an unauthorised transaction — five key rules:** (a) Refund the full amount by end of the **next business day** after the customer's notification — not conditional on completing an investigation first. **(PSRs 2017 reg. 76)** (b) **Burden of proof is on the PSP** to demonstrate the transaction was authorised — authentication records alone are insufficient. (c) **£35 cap** on customer liability where they were negligent (but not grossly negligent or fraudulent) — the PSP bears everything above £35. **(PSRs 2017 reg. 77)** (d) The PSP may delay the refund by up to **4 business days** only where it has objectively reasonable grounds to suspect payer fraud — the only permitted ground for delay. **(PSRs 2017 regs 86(2A)–(2D))** (e) The customer must notify within **13 months** of the debit date — failure extinguishes the right to a refund.
+- **Fraud delay mechanism:** Objectively reasonable grounds for suspecting payer fraud is the only condition permitting delay. The PSP must notify both the customer and the FCA at the time of delay. This is a limited exception, not a general investigation period.
 - **£35 cap** applies to customer negligence (not gross negligence or fraud). If the PSP failed to apply SCA, the PSP bears the full loss regardless.
-- **Fraud delay mechanism:** PSP may delay refund up to **4 business days** where it has objectively reasonable grounds to suspect payer fraud. Must notify both customer and FCA at time of delay.
 - **13-month window:** Payer must notify within 13 months of the debit date to preserve the refund right.
 - **PISP liability chain:** ASPSP refunds customer immediately; ASPSP then claims from PISP if PISP caused the loss.
 - **Incorrect unique identifier:** PSP not liable but must attempt recovery and provide payer with legal claim information.

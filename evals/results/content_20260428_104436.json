@@ -1,0 +1,224 @@
+{
+  "run_at": "2026-04-28T10:44:36.129399",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 3,
+  "completed": 3,
+  "errors": 0,
+  "mean_fact_score": 0.9333333333333332,
+  "mean_citation_score": 0.5,
+  "mean_overall_score": 0.8033333333333333,
+  "pass_rate": 0.3333333333333333,
+  "by_difficulty": {
+    "easy": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "medium": {
+      "count": 2,
+      "mean_score": 0.705
+    },
+    "hard": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 1,
+      "mean_score": 0.71
+    },
+    "boundary": {
+      "count": 1,
+      "mean_score": 0.7
+    }
+  },
+  "questions": [
+    {
+      "id": "M012",
+      "question": "An authorised e-money institution plans to use third parties to distribute its e-money products. What is the regulatory difference between using an agent versus a distributor, and why does it matter for FCA registration?",
+      "difficulty": "medium",
+      "type": "boundary",
+      "tags": [
+        "PSR",
+        "EMI",
+        "agents",
+        "distributors",
+        "FCA-registration"
+      ],
+      "pages_loaded": [
+        "agent-distributor-oversight"
+      ],
+      "pages_missing": [],
+      "answer": "# Regulatory Difference Between Agents and Distributors for E-Money Institutions\n\n## Key Distinction: Permitted Activities\n\nThe fundamental regulatory difference turns on **what activities each third party is permitted to carry out**:\n\n- **Agents** are permitted to **provide payment services** on behalf of the EMI\n- **Distributors** are permitted **only to distribute and redeem e-money** \u2014 they are **explicitly prohibited from providing payment services**\n\n*(Knowledge base: \"distributors are NOT permitted to provide payment services. Only agents can provide payment services.\")*\n\n---\n\n## Registration vs. Notification \u2014 Why It Matters for FCA Registration\n\n### Agents \u2014 Registration Required\n\n**Individual agents must be registered with the FCA.** It is the EMI's responsibility to ensure this registration occurs:\n\n> \"It is the responsibility of the PI or EMI to ensure that its agents are registered with the FCA. Agents cannot provide payment services on behalf of a PI or EMI without being on the FCA Register.\" *(Portfolio letter, March 2023)*\n\nFailure to register an agent providing payment services constitutes a direct regulatory breach by the EMI itself, not merely by the agent.\n\n### Distributors \u2014 Notification Only\n\n**Individual distributors do not require FCA registration.** Instead:\n\n> \"EMIs must **identify their proposed use of distributors to the FCA** \u2014 notification rather than registration.\" *(Portfolio letter, March 2023)*\n\nThis is a lighter-touch regulatory regime reflecting the narrower scope of distributor activities.\n\n---\n\n## Why This Distinction Matters for Compliance\n\n1. **Breach Risk**: An EMI that uses a third party as a distributor but allows it to provide payment services is in breach. The third party is acting outside its permitted scope, and the EMI bears full responsibility for this excess of authority.\n\n2. **Due Diligence Scope**: The EMI must verify that:\n   - An agent is registered before it begins activities\n   - A distributor is not attempting to provide payment services\n   - Both have fit and proper individuals responsible for their work *(Portfolio letter, March 2023)*\n\n3. **Ongoing Monitoring**: The EMI must conduct ongoing monitoring of both agents and distributors to ensure they remain within their permitted scope. This is a **named FCA governance failure** where firms fail to do so. *(Portfolio letter, March 2023, Cross-Cutting Priority 1)*\n\n---\n\n## Summary\n\nFor an authorised EMI using third parties to distribute e-money products:\n\n- Use **agents** if the third party will provide payment services (requires FCA registration of the agent)\n- Use **distributors** if the third party will only distribute and redeem e-money (requires FCA notification, not registration)\n- Ensure robust due diligence and ongoing monitoring of both, as the EMI bears full regulatory responsibility for their conduct *(EMRs 2011 regs. 34\u201338)*",
+      "fact_score": 1.0,
+      "citation_score": 0.0,
+      "overall_score": 0.7,
+      "facts_detail": [
+        {
+          "fact": "Agents of authorised PIs must be individually registered on the FCA Register before they can operate \u2014 the PI/EMI must submit the application and is responsible for the agent's acts and omissions as if they were its own",
+          "present": true,
+          "note": "Answer clearly states agents must be individually registered with FCA, that it is the EMI's responsibility to ensure registration, and implies EMI bears full responsibility for agent conduct."
+        },
+        {
+          "fact": "Distributors of EMIs do not require individual FCA registration \u2014 the EMI must notify the FCA of its distributors but there is no individual registration requirement for each distributor",
+          "present": true,
+          "note": "Answer explicitly distinguishes notification (distributors) from registration (agents) and states distributors do not require FCA registration."
+        },
+        {
+          "fact": "Distributors are prohibited from providing payment services themselves \u2014 they may only distribute or sell the EMI's e-money; they cannot execute payment transactions",
+          "present": true,
+          "note": "Answer explicitly states distributors are prohibited from providing payment services and may only distribute and redeem e-money."
+        },
+        {
+          "fact": "For PIs: agent model requires FCA registration and creates direct regulatory responsibility on the PI. For EMIs: distributor model requires notification only, and distributors operate outside the payment services perimeter",
+          "present": true,
+          "note": "Answer covers both the agent/PI registration model and the EMI/distributor notification model, and notes EMI bears full regulatory responsibility. The 'outside payment services perimeter' framing is implied rather than explicit but substance is present."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSRs 2017 reg. 34 (agent registration)",
+          "present": false,
+          "note": "Answer references EMRs 2011 regs. 34\u201338 but does not specifically cite PSRs 2017 reg. 34."
+        },
+        {
+          "citation": "EMRs 2011 reg. 35 (distributor notification)",
+          "present": false,
+          "note": "Answer cites 'EMRs 2011 regs. 34\u201338' generically but does not specifically cite reg. 35 for distributor notification."
+        },
+        {
+          "citation": "FCA Approach Document Chapter 8",
+          "present": false,
+          "note": "No reference to the FCA Approach Document Chapter 8 anywhere in the answer."
+        }
+      ],
+      "summary": "All four required facts are substantively present and well-explained, but the answer fails to cite any of the three required regulatory references specifically (PSRs 2017 reg. 34, EMRs 2011 reg. 35, or FCA Approach Document Chapter 8), relying instead on a generic EMRs range citation and a portfolio letter.",
+      "error": null
+    },
+    {
+      "id": "E015",
+      "question": "Under SM&CR, how quickly must a firm report a breach of the Conduct Rules by a Senior Manager, and how does this differ from the reporting timeframe for other certified staff?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "SM-and-CR",
+        "conduct-rules",
+        "breach-reporting",
+        "senior-managers"
+      ],
+      "pages_loaded": [
+        "smcr-conduct-rules"
+      ],
+      "pages_missing": [],
+      "answer": "# SM&CR Conduct Rule Breach Reporting: Senior Managers vs Other Staff\n\n## Reporting Timeframe Difference\n\nUnder SM&CR, the reporting obligations for conduct rule breaches are **asymmetric and depend on the seniority of the person in breach**:\n\n### Senior Manager Breaches\n**Deadline: 7 business days**\n\nWhere a firm concludes that a Senior Manager (SMF holder) has breached a Conduct Rule, it must notify the FCA **within 7 business days of that conclusion** (COCON 11.1; SUP 10C.14).\n\nThe critical trigger is the **firm's conclusion** that a breach occurred\u2014not the initial discovery of the underlying conduct. Firms should avoid prolonging the investigation phase where evidence is clear, as the 7-day clock begins upon conclusion.\n\n### Other Certified Staff and Employees\n**Deadline: Annual reporting**\n\nFor all other employees in scope\u2014including Certification Function holders and other staff\u2014conduct rule breaches are reported **annually via REP008 submitted on GABRIEL** at the end of the annual reporting period (COCON 11.1; SUP 10C.14).\n\n## Key Distinction\n\n| Category | Reporting Obligation | Deadline |\n|----------|---------------------|----------|\n| **Senior Manager (SMF holder)** | Direct FCA notification | **7 business days** |\n| **Certified staff / other employees** | Annual aggregated report (REP008) | **End of annual period** |\n\n## Rationale\n\nThe expedited 7-day reporting for Senior Managers reflects their heightened accountability under the Senior Manager Conduct Rules (SC1\u2013SC4) and the FCA's need for prompt notice of breaches at the most senior levels. In contrast, non-SM breaches are reported in aggregate annually, allowing firms to manage lower-risk misconduct through the standard supervisory cycle.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "A firm must report a Conduct Rules breach by a Senior Manager to the FCA within 7 business days of the breach being identified",
+          "present": true,
+          "note": "Answer states 7 business days for Senior Manager breaches, though it frames the trigger as 'firm's conclusion' rather than 'identified' \u2014 but the core 7 business day requirement is clearly present"
+        },
+        {
+          "fact": "Conduct Rules breaches by non-SM Certification staff and other in-scope employees are reported annually via the REP008 return \u2014 not on an individual basis",
+          "present": true,
+          "note": "Answer explicitly mentions REP008 annual reporting for certified staff and other employees, and notes it is aggregated annually rather than individually"
+        },
+        {
+          "fact": "The 7-business-day window for Senior Managers reflects their higher accountability level and the FCA's supervisory interest in SM-level conduct issues",
+          "present": true,
+          "note": "The rationale section explicitly states the expedited reporting reflects 'heightened accountability under the Senior Manager Conduct Rules' and 'FCA's need for prompt notice of breaches at the most senior levels'"
+        },
+        {
+          "fact": "The trigger for the 7-day clock is the firm concluding that a breach occurred \u2014 not the date the breach occurred or the date it was first identified. Firms must not prolong the conclusion phase where evidence is clear.",
+          "present": true,
+          "note": "Answer explicitly states 'The critical trigger is the firm's conclusion that a breach occurred\u2014not the initial discovery of the underlying conduct' and warns against 'prolonging the investigation phase where evidence is clear'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "COCON 11.1 (breach reporting)",
+          "present": true
+        },
+        {
+          "citation": "SUP 10C.14 (7 business days for Senior Managers)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, correctly identifying all required facts including the 7-business-day trigger, annual REP008 reporting for non-SMs, the rationale for asymmetric treatment, and citing both required regulatory references.",
+      "error": null
+    },
+    {
+      "id": "M024",
+      "question": "A cryptoasset firm onboards a new retail customer who wishes to invest. The customer claims to be a self-certified sophisticated investor and provides a signed declaration. Can the firm treat this customer as a sophisticated investor and skip the appropriateness assessment?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "cryptoassets",
+        "financial-promotions",
+        "client-categorisation",
+        "appropriateness",
+        "PS23-6"
+      ],
+      "pages_loaded": [
+        "cryptoasset-financial-promotions-framework"
+      ],
+      "pages_missing": [],
+      "answer": "No. The firm **cannot** treat this customer as a sophisticated investor based on a self-certified declaration, and it **must** conduct a full appropriateness assessment.\n\n## Key Regulatory Position\n\n**Self-certified sophisticated investor status is disapplied for cryptoassets.** PS23/6 explicitly states:\n\n> \"~~Self-certified sophisticated investor~~ | ~~Not applicable to cryptoassets~~ | **Disapplied** for cryptoassets \u2014 existing criteria are not appropriate proxies for cryptoasset sophistication\"\n\n**(PS23/6 \u00a7\u00a73.36\u20133.46 Our response)**\n\n## Applicable Client Categorisation Categories for Cryptoassets\n\nFor cryptoassets, only three client categorisation categories are available:\n\n1. **Restricted Investor** \u2014 no more than 10% of net assets invested in RMMIs\n2. **High Net Worth Investor** \u2014 annual income \u2265 \u00a3100,000 or net assets \u2265 \u00a3250,000\n3. **Certified Sophisticated Investor** \u2014 certified by an authorised firm (not self-certified)\n\n**(PS23/6 \u00a73.36\u20133.46)**\n\nThe \"certified\" category requires certification by an authorised firm; a consumer's own self-declaration to that status is not acceptable.\n\n## Appropriateness Assessment is Mandatory\n\nRegardless of the customer's claimed sophistication, the firm **must** conduct an appropriateness assessment before processing the DOFP. This assessment must determine that:\n\n> \"the consumer has the necessary experience and knowledge to understand the risks of the specific product or service.\"\n\n**(PS23/6 \u00a7\u00a73.47\u20133.49; COBS 10.2.1)**\n\nThe assessment cannot be skipped or bypassed based on client categorisation alone. It is a separate, mandatory step in the consumer journey.\n\n## Conclusion\n\nThe firm must:\n1. Re-categorise the customer into one of the three permitted categories (or determine they cannot be categorised)\n2. Conduct a full appropriateness assessment for the specific cryptoasset investment\n3. Only then proceed with the DOFP if appropriateness is confirmed\n\nThe customer's self-certification as sophisticated is not a valid basis to circumvent these requirements.",
+      "fact_score": 0.8,
+      "citation_score": 0.5,
+      "overall_score": 0.71,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 the self-certified sophisticated investor category is disapplied for cryptoassets under PS23/6",
+          "present": true,
+          "note": "Answer clearly states self-certified sophisticated investor status is disapplied for cryptoassets and cites PS23/6"
+        },
+        {
+          "fact": "Only three client categories are available for cryptoasset financial promotions: Restricted Investor, High Net Worth Investor, and Certified Sophisticated Investor (certified by a firm, not self-certified)",
+          "present": true,
+          "note": "Answer explicitly lists all three categories with correct descriptions"
+        },
+        {
+          "fact": "The self-certified sophisticated investor category was disapplied because the existing criteria (syndicate membership, business angel network membership) are not appropriate proxies for cryptoasset investment sophistication",
+          "present": true,
+          "note": "Answer states criteria are 'not appropriate proxies for cryptoasset sophistication' but does not specifically mention syndicate membership or business angel network membership as the original criteria"
+        },
+        {
+          "fact": "A signed self-certification declaration from the customer does not satisfy the Certified Sophisticated Investor category \u2014 that category requires firm-level certification based on the customer's actual knowledge and experience",
+          "present": true,
+          "note": "Answer explicitly states the certified category requires certification by an authorised firm, not self-declaration"
+        },
+        {
+          "fact": "The appropriateness assessment is mandatory for all three permitted categories \u2014 it cannot be skipped even for High Net Worth or Certified Sophisticated customers",
+          "present": false,
+          "note": "Answer states appropriateness assessment is mandatory and cannot be bypassed based on client categorisation, but does not explicitly state it applies to ALL THREE categories including High Net Worth and Certified Sophisticated investors"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PS23/6 \u00a73.46 (self-certified sophisticated investor disapplied)",
+          "present": true,
+          "note": "Answer cites PS23/6 \u00a7\u00a73.36\u20133.46 which encompasses \u00a73.46"
+        },
+        {
+          "citation": "FCA Handbook COBS 4.12A (client categorisation for cryptoassets)",
+          "present": false,
+          "note": "Answer cites COBS 10.2.1 but not COBS 4.12A which is the specific provision for cryptoasset client categorisation"
+        }
+      ],
+      "summary": "Answer is substantively strong on the key regulatory position and client categories but omits explicit confirmation that appropriateness is mandatory for all three categories and fails to cite the critical COBS 4.12A reference.",
+      "error": null
+    }
+  ]
+}

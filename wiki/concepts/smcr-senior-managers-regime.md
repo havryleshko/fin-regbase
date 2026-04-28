@@ -82,7 +82,7 @@ All Core SMFs plus:
 
 NED committee chairs (SMF10–13) and the SID (SMF14) are FCA-approved for Enhanced firms. Other NEDs remain unapproved but subject to Conduct Rules, FIT, and regulatory references.
 
-**Head of Legal exclusion:** The Head of Legal is expressly excluded from SM approval across all tiers (legal privilege grounds). The Head of Legal is included in the Certification Regime and subject to Conduct Rules.
+**Head of Legal exclusion:** The Head of Legal is expressly excluded from SM approval across all tiers (legal privilege grounds). The Head of Legal is included in the Certification Regime and subject to Conduct Rules. **(FCA Guide for Solo-Regulated Firms)**
 
 ---
 
@@ -203,7 +203,10 @@ No territorial limitation. An individual performing an SMF is subject to SM&CR o
 
 ## Key Points for Agents
 
-- SM&CR applies to FSMA-authorised firms only. **PIs and EMIs not otherwise FSMA-authorised are entirely outside scope** — no SMFs, no Certification, no Conduct Rules.
+- Under **FSMA 2000** and the **FCA Guide for Solo-Regulated Firms**: SM&CR applies only to FSMA-authorised firms. PIs and EMIs not otherwise FSMA-authorised are **entirely outside scope** — no SMFs, no Certification Regime, no Conduct Rule obligations under SM&CR. **(FSMA 2000; FCA Guide for Solo-Regulated Firms)**
+- **Head of Legal exclusion:** The Head of Legal is **expressly excluded from SM approval across all tiers** on legal privilege grounds — they cannot hold an SMF designation regardless of the breadth of their responsibilities. They are not outside SM&CR entirely: the Head of Legal is included in the **Certification Regime** and subject to **Conduct Rules**. The exclusion is from the Senior Managers Regime (SMF approval) only. **(FCA Guide for Solo-Regulated Firms)**
+- **Overall Responsibility is Enhanced-only — does not exist in Core firms (SYSC 25):** The Overall Responsibility requirement (that every activity, business area, and management function has a named SM accountable for it) **is an Enhanced-tier obligation only under SYSC 25**. It does not exist in Core firms or Limited Scope firms at all. Even if the Head of Legal were eligible for SMF designation, they could only hold Overall Responsibility in an Enhanced firm — a Core firm has no such requirement. Additionally, Overall Responsibility must be allocated **per activity/area** — it cannot be assigned as a blanket designation to one person covering all regulated activities simultaneously. **(SYSC 25)**
+- **PIs and EMIs are not without conduct obligations** — they are instead subject to: the FCA's Principles for Businesses (PRIN), including Principle 2A (Consumer Duty where applicable); the conduct standards in the PSRs 2017 and EMRs 2011; and the FCA Approach Document. The Individual Conduct Rule 6 (act to deliver good outcomes for retail customers) applies to FSMA firms via SM&CR — for PI/EMI staff, equivalent obligations arise through the Consumer Duty framework, not SM&CR directly.
 - Three tiers: Limited Scope (no PRs) / Core (5 PRs) / Enhanced (12 PRs). Core is the default.
 - Senior Managers must be FCA-approved before performing their SMF (FSMA s.59). The only way to cover without approval is the 12-week temporary absence rule.
 - The Duty of Responsibility (FSMA s.66A) creates personal liability for contraventions in an SM's area unless they took reasonable steps to prevent it. The burden of proof of the defence is on the SM.

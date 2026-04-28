@@ -100,6 +100,12 @@ The standard DISP 2.8.2R 6-month FOS referral window is modified for motor finan
 
 > **Modification to wiki:** The account of the 6-month FOS referral limit in [[disp2-fos-jurisdiction]] and [[fos-eligible-complainants]] is correct for standard complaints but does not reflect this extension. Motor finance respondents sending final responses during the extended period must use the modified time limits above.
 
+**Two additional obligations apply for every final response sent during the extended period:**
+
+1. **Mandatory wording substitution (DISP App 5.2.11R):** The standard "within six months" wording in the Annex 3R explanatory leaflet must be replaced throughout with "within fifteen months." The reference to "is usually six months" must become "is, in this case, fifteen months." A final response that uses the standard 6-month wording does not comply with DISP App 5.2.11R even if the timeframe is correct.
+
+2. **Record retention until 11 April 2031 (DISP App 5.3.1R):** Lenders and credit brokers must retain all in-scope motor finance records relating to pre-28 January 2021 agreements with DCA features until 11 April 2031 — regardless of whether a complaint has been received or resolved.
+
 ### Consumer Communication Obligations
 
 **Published consumer awareness information (DISP App 5.2.4R):** Respondents must update any information published under DISP 1.2.1R(1) (consumer awareness obligations) to inform consumers of the pause to time limits and direct them to **fca.org.uk/carfinance**. This obligation applies until 23:59 on 26 July 2026.
@@ -153,7 +159,12 @@ Records that are relevant include: (1) the credit or hire agreement itself; (2) 
 
 - DISP App 5 creates two modified complaint categories: DCA complaints (pre-28 Jan 2021 agreements with actual DCA) and non-DCA complaints (any commission arrangement, motor vehicle, within the relevant date windows). Both have distinct definitions and different pause/extension dates.
 - The 8-week final response deadline does **not run** during the FCA-mandated pauses: 11 Jan 2024 – 31 May 2026 (DCA); 20 Dec 2024 – 31 May 2026 (non-DCA credit). The 3-year complaints records retention period is also paused.
-- The standard 6-month FOS referral window is extended to **15 months** (or a fixed 30 July 2026 deadline for earlier responses) for final responses sent during the extended period. It reverts to 6 months for final responses sent on or after 30 January 2026.
+- **Extended FOS referral window — two sub-cases for DCA complaints:**
+  - Final response sent **12 July 2023 – 29 April 2025**: customer must refer before **30 July 2026** (fixed date — not 15 months from the letter date).
+  - Final response sent **30 April 2025 – 29 January 2026**: customer has **15 months from the date of the final response letter** to refer. **(DISP App 5.2.2R)** This 15-month window is distinct from the earlier fixed-date rule.
+  - Final response sent **on or after 30 January 2026**: standard 6 months applies.
+- **Mandatory wording substitution (DISP App 5.2.11R):** Final response letters sent during the extended period must replace every instance of "six months" with "fifteen months" in the Annex 3R explanatory wording. Using the standard wording is a breach of DISP App 5.2.11R even if the timeframe is otherwise correctly communicated.
+- **Record retention to 11 April 2031 (DISP App 5.3.1R):** Lenders and credit brokers must retain all in-scope motor finance records until 11 April 2031 — regardless of whether any complaint has been received.
 - Final response letters sent during the extended period must substitute "fifteen months" for "six months" in all Annex 3R wording and must direct complainants to fca.org.uk/carfinance.
 - Lenders and credit brokers must retain all in-scope motor finance records until **11 April 2031** — regardless of whether a complaint has been received.
 

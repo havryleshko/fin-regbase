@@ -1,0 +1,285 @@
+{
+  "run_at": "2026-04-28T11:37:31.910524",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 4,
+  "completed": 4,
+  "errors": 0,
+  "mean_fact_score": 0.7375,
+  "mean_citation_score": 0.666675,
+  "mean_overall_score": 0.71625,
+  "pass_rate": 0.25,
+  "by_difficulty": {
+    "easy": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "medium": {
+      "count": 4,
+      "mean_score": 0.71625
+    },
+    "hard": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 1,
+      "mean_score": 0.675
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 2,
+      "mean_score": 0.6699999999999999
+    },
+    "boundary": {
+      "count": 1,
+      "mean_score": 0.85
+    }
+  },
+  "questions": [
+    {
+      "id": "M008",
+      "question": "A lender uses a credit reference agency report when assessing a credit application and then declines the application. What must the lender tell the customer about the credit reference agency under CONC?",
+      "difficulty": "medium",
+      "type": "factual",
+      "tags": [
+        "CONC",
+        "credit-reference-agencies",
+        "consumer-credit"
+      ],
+      "pages_loaded": [
+        "conc2-conduct-of-business-general"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nUnder **CONC 2.4.2R**, where a lender declines a customer's credit application in whole or in part based on information from a credit reference agency (CRA), the lender must **promptly disclose to the customer** (or to the credit broker for onward transmission to the customer if one is involved):\n\n1. **That the decline was based on CRA information** \u2014 the fact that a credit reference agency's data was a factor in the decline decision\n\n2. **The name and address (including an appropriate email address) of every CRA that was consulted** \u2014 the firm must provide full contact details, not merely the CRA's name\n\nThis is a **proactive obligation** triggered automatically by the decline \u2014 the customer does not need to ask for this information.\n\nThe purpose of this disclosure requirement is to enable the customer to contact the CRA directly to check the accuracy of the data held about them and, if necessary, challenge or correct any inaccuracies that may have contributed to the decline.\n\n**Citation:** CONC 2.4.2R",
+      "fact_score": 0.75,
+      "citation_score": 0.5,
+      "overall_score": 0.675,
+      "facts_detail": [
+        {
+          "fact": "on declining a regulated credit agreement, the lender must proactively disclose to the credit broker \u2014 or directly to the customer if there is no credit broker \u2014 the name and address (including an appropriate email address) of any CRA it applied to during negotiations (CONC 2.4.2R)",
+          "present": true,
+          "note": "Answer correctly states disclosure to credit broker for onward transmission or directly to customer, and includes name and address with email. Slightly reversed the priority order (broker first vs customer if no broker) but substance is correct."
+        },
+        {
+          "fact": "the obligation is triggered by the decline \u2014 it is proactive, not conditional on the customer asking",
+          "present": true,
+          "note": "Answer explicitly states this is a proactive obligation triggered automatically by the decline and the customer does not need to ask."
+        },
+        {
+          "fact": "the full disclosure is name and address including email, not just the CRA name",
+          "present": true,
+          "note": "Answer explicitly states 'name and address (including an appropriate email address)' matching the regulatory requirement."
+        },
+        {
+          "fact": "quotation searches (pre-application credit checks) must use soft footprints that do not affect the customer's credit file (CONC 2.4.3G)",
+          "present": false,
+          "note": "The answer makes no mention of quotation searches or soft footprints. CONC 2.4.3G is entirely absent from the answer."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CONC 2.4.2R",
+          "present": true
+        },
+        {
+          "citation": "CONC 2.4.3G",
+          "present": false
+        }
+      ],
+      "summary": "The answer accurately covers the core CONC 2.4.2R disclosure obligations but entirely omits the CONC 2.4.3G requirement regarding soft footprints for quotation searches.",
+      "error": null
+    },
+    {
+      "id": "M011",
+      "question": "A customer contacts their payment service provider on a Monday reporting an unauthorised debit card payment made the previous Friday that they did not authorise. What is the PSP's refund obligation, and under what single condition may it delay refunding?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "PSR",
+        "unauthorised-transactions",
+        "liability",
+        "payment-services"
+      ],
+      "pages_loaded": [
+        "psr-unauthorised-transaction-liability"
+      ],
+      "pages_missing": [],
+      "answer": "# PSP Refund Obligation for Unauthorised Transactions\n\n## Refund Obligation\n\nThe PSP **must immediately refund** the full amount of the unauthorised debit card payment and restore the account to the position it would have been in had the transaction not occurred. The refund must be made **no later than the end of the next business day** after the customer notifies the PSP of the unauthorised transaction. **(PSRs 2017 Reg 76)**\n\nIn your scenario, the customer notified on Monday; the refund must therefore be made by end of Tuesday.\n\n## Single Permitted Condition for Delay\n\nThe PSP may delay the refund by up to **4 business days only where it has objectively reasonable grounds to suspect fraud by the payer (customer)**. **(PSRs 2017 Regs 86(2A)\u2013(2D))**\n\nThis is the **only** permitted ground for delaying the refund obligation. The PSP must:\n- Base the delay on **objective and reasonable** grounds (not a general policy of delaying all disputes)\n- **Notify the customer** of the delay and reason at the time the refund is withheld\n- **Notify the FCA** of the delay\n\nIf after 4 business days the PSP cannot substantiate payer fraud, the refund must be made immediately.\n\n---\n\n**Note:** The burden of proof that the transaction was authorised rests on the PSP, not the customer. **(PSRs 2017 Reg 72)** Authentication records alone are insufficient; the PSP must demonstrate the customer themselves authorised the transaction.",
+      "fact_score": 0.6,
+      "citation_score": 0.6667,
+      "overall_score": 0.62,
+      "facts_detail": [
+        {
+          "fact": "The PSP must refund the full amount of the unauthorised transaction by the end of the next business day after the customer's notification \u2014 the refund obligation is immediate and is not conditional on completing an investigation first",
+          "present": true,
+          "note": "Clearly stated: refund by end of next business day after notification, with Monday notification meaning Tuesday deadline. Explicitly noted as not conditional on investigation."
+        },
+        {
+          "fact": "The customer's liability is capped at \u00a335 where they failed to keep their personalised security credentials safe but did not act fraudulently or with gross negligence",
+          "present": false,
+          "note": "The \u00a335 liability cap for customers who failed to protect personalised security credentials (but were not fraudulent or grossly negligent) is not mentioned anywhere in the answer."
+        },
+        {
+          "fact": "The PSP may delay the refund by up to 4 business days where it has reasonable grounds to suspect the customer of fraud \u2014 this is the only permitted ground for delay",
+          "present": true,
+          "note": "Explicitly stated: 4 business day delay permitted only where PSP has objectively reasonable grounds to suspect fraud by the payer, and confirmed as the only permitted ground."
+        },
+        {
+          "fact": "The burden of proof that the transaction was authorised, or that the customer acted fraudulently or with gross negligence, lies on the PSP \u2014 not the customer",
+          "present": true,
+          "note": "Clearly stated in the Note section, referencing Reg 72, and noting authentication records alone are insufficient."
+        },
+        {
+          "fact": "A customer who fails to notify the PSP within 13 months of the transaction date loses the right to a refund",
+          "present": false,
+          "note": "The 13-month notification deadline is not mentioned anywhere in the answer."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSRs 2017 reg. 76 (refund obligation)",
+          "present": true
+        },
+        {
+          "citation": "PSRs 2017 reg. 77 (\u00a335 cap)",
+          "present": false
+        },
+        {
+          "citation": "PSRs 2017 reg. 86(2A)\u2013(2D) (4-business-day fraud delay)",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly covers the refund timeline, the fraud-based delay condition, and the burden of proof, but omits both the \u00a335 customer liability cap and the 13-month notification deadline, and is missing the reg. 77 citation.",
+      "error": null
+    },
+    {
+      "id": "M019",
+      "question": "A motor finance customer received a final response letter from their lender in June 2025 about a complaint relating to a discretionary commission arrangement on a pre-2021 agreement. How long does the customer have to refer the complaint to the Financial Ombudsman Service?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "DISP",
+        "motor-finance",
+        "DCA",
+        "FOS",
+        "complaints"
+      ],
+      "pages_loaded": [
+        "disp-app5-motor-finance-dca-complaints",
+        "disp2-fos-jurisdiction"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nBased on the knowledge base provided, the customer has **15 months** from the final response letter (June 2025) to refer their complaint to the Financial Ombudsman Service.\n\n## Reasoning\n\nThe complaint relates to a **discretionary commission arrangement (DCA) on a pre-2021 agreement**, which qualifies as a \"relevant motor finance DCA complaint\" under **DISP App 5.1.2R**.\n\nThe final response was sent in **June 2025**, which falls within the extended FOS referral window period. According to **DISP App 5.2.2R**, for DCA complaints where the final response was sent between **30 April 2025 and 29 January 2026**, the FOS cannot consider the complaint if it is referred more than **15 months** after the final response.\n\nTherefore, the customer must refer the complaint to the FOS by **September 2026** (15 months after June 2025).\n\n## Important Notes\n\n- This extended 15-month limit applies only to final responses sent during the specified extended period (30 April 2025 \u2013 29 January 2026).\n- The lender was required to inform the customer of this extended time limit in their final response letter (**DISP App 5.2.11R**), stating the specific deadline and explaining that the standard 6-month limit does not apply.\n- After 30 January 2026, the standard **6-month time limit** under **DISP 2.8.2R(1)** reverts to apply.",
+      "fact_score": 0.6,
+      "citation_score": 1.0,
+      "overall_score": 0.72,
+      "facts_detail": [
+        {
+          "fact": "The standard FOS referral window of 6 months from the date of the final response letter does not apply to this complaint",
+          "present": true,
+          "note": "The answer explicitly states the standard 6-month limit does not apply and that the extended 15-month window applies instead."
+        },
+        {
+          "fact": "Under DISP App 5, the FOS referral window for DCA motor finance complaints sent between 30 April 2025 and 29 January 2026 is extended to 15 months from the date of the final response letter",
+          "present": true,
+          "note": "The answer correctly states the 15-month extended window for final responses sent between 30 April 2025 and 29 January 2026, citing DISP App 5.2.2R."
+        },
+        {
+          "fact": "A final response sent in June 2025 falls within the 30 April 2025 \u2013 29 January 2026 bracket \u2014 the 15-month extended window applies, giving the customer 15 months from the date of the final response to refer to the FOS",
+          "present": true,
+          "note": "The answer explicitly confirms June 2025 falls within the bracket and calculates the deadline as September 2026."
+        },
+        {
+          "fact": "The final response letter itself must substitute the standard '6 months' wording with '15 months' throughout \u2014 if the letter used the standard wording, the firm has not complied with DISP App 5.2.11R",
+          "present": false,
+          "note": "The answer mentions DISP App 5.2.11R and that the lender must inform the customer of the extended time limit, but does not capture the specific requirement that '6 months' wording must be substituted with '15 months' throughout, nor the compliance implication if standard wording was used."
+        },
+        {
+          "fact": "Records relating to the complaint must be retained until 11 April 2031 regardless of when the complaint was received or resolved",
+          "present": false,
+          "note": "No mention of the record retention requirement or the April 2031 deadline anywhere in the answer."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "DISP App 5.2.2R (extended FOS referral window)",
+          "present": true
+        },
+        {
+          "citation": "DISP App 5.2.11R (mandatory wording substitution)",
+          "present": true
+        },
+        {
+          "citation": "DISP 2.8.2R (standard 6-month rule, disapplied here)",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly identifies the 15-month extended window and all required citations, but omits the mandatory wording substitution detail (6\u219215 months throughout the letter) and the record retention deadline of 11 April 2031.",
+      "error": null
+    },
+    {
+      "id": "M021",
+      "question": "Does the SM&CR Senior Managers Regime apply to payment institutions and e-money institutions? What conduct framework applies to them instead?",
+      "difficulty": "medium",
+      "type": "boundary",
+      "tags": [
+        "SM-and-CR",
+        "PSR",
+        "EMI",
+        "scope",
+        "payment-institutions"
+      ],
+      "pages_loaded": [
+        "smcr-senior-managers-regime",
+        "smcr-conduct-rules"
+      ],
+      "pages_missing": [],
+      "answer": "# SM&CR Senior Managers Regime: Application to Payment and E-Money Institutions\n\n## Does SM&CR Apply to PIs and EMIs?\n\n**No.** The Senior Managers Regime does not apply to payment institutions and e-money institutions that hold only payment services authorisation or e-money authorisation.\n\nAs stated in the knowledge base:\n\n> \"Firms that hold only payment services authorisation or e-money authorisation \u2014 and are not otherwise FSMA-authorised \u2014 are **entirely outside the scope of SM&CR**. Those firms have no SMF obligations, no Certification Regime obligations, and no Conduct Rule obligations under this framework.\" **(SM&CR \u2014 Senior Managers Regime; FSMA 2000 ss.59\u201360, 66A\u201366B)**\n\nThis is because SM&CR applies only to **FSMA-authorised firms** supervised by the FCA under FSMA. A payment institution or e-money institution that does not hold additional FSMA authorisation falls outside this scope entirely.\n\n## Alternative Conduct Framework for PIs and EMIs\n\nPayment institutions and e-money institutions are subject to alternative regulatory conduct standards:\n\n1. **The FCA's Principles for Businesses (PRIN)**, including **Principle 2A (Consumer Duty)** where applicable\n\n2. **Conduct standards in the Payment Services Regulations 2017 (PSRs 2017) and Electronic Money Regulations 2011 (EMRs 2011)**\n\n3. **The FCA Approach Document** for PI/EMI conduct\n\n4. **Equivalent conduct obligations** arise through the **Consumer Duty framework** rather than through SM&CR directly. Specifically, Individual Conduct Rule 6 (act to deliver good outcomes for retail customers) applies to FSMA firms via SM&CR \u2014 for PI/EMI staff, equivalent obligations are imposed through Consumer Duty obligations under PRIN 2A and the PSRs/EMRs framework.\n\n**Note:** While PIs and EMIs are not within SM&CR scope, they remain subject to robust conduct and governance obligations under their specific regulatory regimes.",
+      "fact_score": 1.0,
+      "citation_score": 0.5,
+      "overall_score": 0.85,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 the SM&CR Senior Managers Regime applies only to FSMA-authorised firms; it does not extend to payment institutions and e-money institutions authorised under the PSRs 2017 or EMRs 2011",
+          "present": true,
+          "note": "Clearly stated: SM&CR applies only to FSMA-authorised firms, PIs/EMIs holding only payment/e-money authorisation are outside scope"
+        },
+        {
+          "fact": "PIs and EMIs are not subject to the Approved Persons regime, the Certification Regime, or the Senior Managers Regime under SM&CR",
+          "present": true,
+          "note": "Answer explicitly states 'no SMF obligations, no Certification Regime obligations, and no Conduct Rule obligations under this framework'"
+        },
+        {
+          "fact": "PIs and EMIs are subject to the FCA's Principles for Businesses (PRIN), including Principle 2A (Consumer Duty where it applies), and the conduct standards in the PSRs/EMRs and the Approach Document",
+          "present": true,
+          "note": "Answer lists PRIN, Principle 2A, PSRs 2017, EMRs 2011, and the FCA Approach Document explicitly"
+        },
+        {
+          "fact": "The Individual Conduct Rule 6 (act to deliver good outcomes for retail customers) under Consumer Duty applies to FSMA firms \u2014 its application to PI/EMI staff is through the Consumer Duty framework, not through SM&CR directly",
+          "present": true,
+          "note": "Answer explicitly addresses ICR 6 and notes that for PI/EMI staff, equivalent obligations come through Consumer Duty/PRIN 2A rather than SM&CR"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "FSMA 2000 (SM&CR scope \u2014 FSMA-authorised firms only)",
+          "present": true,
+          "note": "FSMA 2000 ss.59-60, 66A-66B cited in the answer"
+        },
+        {
+          "citation": "FCA Guide for Solo-Regulated Firms (SM&CR scope)",
+          "present": false,
+          "note": "The FCA Guide for Solo-Regulated Firms is not referenced; the answer references an 'FCA Approach Document' for PI/EMI conduct which is a different document"
+        }
+      ],
+      "summary": "All four required facts are fully present and well-articulated, but the answer omits the required citation to the FCA Guide for Solo-Regulated Firms, referencing instead the FCA Approach Document.",
+      "error": null
+    }
+  ]
+}

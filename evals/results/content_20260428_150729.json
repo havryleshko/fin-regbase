@@ -1,0 +1,589 @@
+{
+  "run_at": "2026-04-28T15:07:29.294540",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 9,
+  "completed": 9,
+  "errors": 0,
+  "mean_fact_score": 0.9277444444444445,
+  "mean_citation_score": 1.0,
+  "mean_overall_score": 0.9494111111111112,
+  "pass_rate": 1.0,
+  "by_difficulty": {
+    "easy": {
+      "count": 3,
+      "mean_score": 0.9805666666666667
+    },
+    "medium": {
+      "count": 4,
+      "mean_score": 0.9007499999999999
+    },
+    "hard": {
+      "count": 2,
+      "mean_score": 1.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 4,
+      "mean_score": 0.956175
+    },
+    "synthesis": {
+      "count": 2,
+      "mean_score": 0.9299999999999999
+    },
+    "edge-case": {
+      "count": 2,
+      "mean_score": 1.0
+    },
+    "boundary": {
+      "count": 1,
+      "mean_score": 0.86
+    }
+  },
+  "questions": [
+    {
+      "id": "E003",
+      "question": "What are the three cross-cutting rules under the FCA Consumer Duty and which provision contains them?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "Consumer-Duty",
+        "cross-cutting-rules"
+      ],
+      "pages_loaded": [
+        "consumer-duty-cross-cutting-rules"
+      ],
+      "pages_missing": [],
+      "answer": "# The Three Cross-Cutting Rules Under the FCA Consumer Duty\n\nThe three cross-cutting rules are contained in **PRIN 2A (PS22/9 \u00a75.1)** and are:\n\n1. **Act in good faith towards retail customers**\n2. **Avoid causing foreseeable harm to retail customers**\n3. **Enable and support retail customers to pursue their financial objectives**\n\nThese rules are set out specifically in **PS22/9 \u00a75.1** and apply simultaneously across all activity within scope of the Consumer Duty. They define the standard of conduct firms must meet at both target market and individual customer level, depending on the situation **(PS22/9 \u00a75.15)**.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "act in good faith towards retail customers",
+          "present": true,
+          "note": "Explicitly stated as first cross-cutting rule"
+        },
+        {
+          "fact": "avoid causing foreseeable harm to retail customers",
+          "present": true,
+          "note": "Explicitly stated as second cross-cutting rule"
+        },
+        {
+          "fact": "enable and support retail customers to pursue their financial objectives",
+          "present": true,
+          "note": "Explicitly stated as third cross-cutting rule"
+        },
+        {
+          "fact": "contained in PRIN 2A",
+          "present": true,
+          "note": "Answer states 'contained in PRIN 2A' at the outset"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PRIN 2A",
+          "present": true
+        },
+        {
+          "citation": "PS22/9",
+          "present": true
+        }
+      ],
+      "summary": "The answer is fully correct and complete, accurately identifying all three cross-cutting rules and correctly attributing them to PRIN 2A with supporting reference to PS22/9.",
+      "error": null
+    },
+    {
+      "id": "H001",
+      "question": "A payday lender runs an online advertisement for an HCSTC product with the headline 'Pre-approved loans \u2014 instant decision, apply now!' No APR is shown, no representative example appears, and no risk warning is included. Enumerate every specific CONC 3 rule this breaches.",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "CONC",
+        "HCSTC",
+        "financial-promotions",
+        "APR",
+        "CFNM"
+      ],
+      "pages_loaded": [
+        "conc3-financial-promotions",
+        "conc-financial-promotions-cfnm",
+        "conc-representative-example-apr"
+      ],
+      "pages_missing": [],
+      "answer": "# CONC 3 Breaches \u2014 Payday Loan Advertisement Analysis\n\nBased on the knowledge base provided, the online advertisement breaches the following specific CONC 3 rules:\n\n---\n\n## **1. CONC 3.3.1R \u2014 Clear, Fair and Not Misleading (Five-Element Standard)**\n\nThe advertisement breaches all five elements of the CFNM standard:\n\n- **(a) Accurate (element b):** The headline \"Pre-approved loans\" without any risk context emphasises the benefit (pre-approval/certainty) while downplaying that underwriting will occur. This violates the requirement not to emphasise benefits without fair and prominent indication of relevant risks and consequences.\n\n- **(c) Balanced (element c):** No risks or consequences are shown. Payday lending carries substantial risks (high cost, rapid debt escalation, default consequences) which are not fairly or prominently displayed alongside the promotional benefit.\n\n- **(d) Sufficient (element d):** An average customer in the target audience would not understand the key features (cost, APR, fees, repayment obligations) or material risks (high cost, default consequences) from this promotion alone.\n\n- **(e) Not Concealing (element e):** The omission of APR and cost information is designed to conceal material information that a customer would need to make an informed decision. The headline itself \u2014 \"Pre-approved\" \u2014 is designed to diminish the reality of creditworthiness assessment.\n\n**Rule Citation:** **CONC 3.3.1R**\n\n---\n\n## **2. CONC 3.3.3R \u2014 No Credit Regardless**\n\nThe phrase \"Pre-approved loans\" states or implies that credit is available without regard to financial status, income, or commitments. This is the core breach of CONC 3.3.3R, which prohibits promotions stating or implying credit is available \"regardless of financial status, income, or other commitments.\"\n\n**Rule Citation:** **CONC 3.3.3R**\n\n---\n\n## **3. CONC 3.4.1R \u2014 HCSTC Mandatory Risk Warning**\n\nThe promotion for HCSTC (payday loan) lacks the verbatim warning required by CONC 3.4.1R:\n\n> **\"Warning: Late repayment can cause you serious money problems. For help, go to moneyhelper.org.uk\"**\n\nThe advertisement includes no warning whatsoever. The rule requires this warning to be **prominent** in all HCSTC promotions \u2014 no paraphrase or abbreviation is permitted.\n\n**Rule Citation:** **CONC 3.4.1R**\n\n---\n\n## **4. CONC 3.5.3R \u2014 Representative Example (Trigger)**\n\nAny HCSTC promotion that indicates cost or rate of credit must include a representative example. Even if cost is not explicitly stated, the headline \"Pre-approved loans \u2014 instant decision, apply now!\" implies cost is available (the loan product itself inherently has a cost). The absence of any representative example breaches CONC 3.5.3R.\n\n**Rule Citation:** **CONC 3.5.3R**\n\n---\n\n## **5. CONC 3.5.5R \u2014 Eight Elements of Representative Example (Content)**\n\nHad a representative example been included, it would need to contain all eight mandatory elements under CONC 3.5.5R:\n1. Rate of interest\n2. Other charges\n3. Total amount of credit\n4. Representative APR\n5. Cash price (if applicable)\n6. Duration\n7. Total amount payable\n8. Amount of each repayment\n\nNone of these elements are present. The breach of 3.5.3R (the trigger) simultaneously breaches 3.5.5R (the content standard) by omitting all required elements.\n\n**Rule Citation:** **CONC 3.5.5R**\n\n---\n\n## **6. CONC 3.5.7R(c) \u2014 APR Trigger: Incentive to Apply**\n\nThe promotion \"instant decision, apply now!\" offers an incentive to apply by emphasising the speed and ease of the application process. CONC 3.5.7R(c) requires that where a promotion offers an incentive to apply (including by promoting speed or ease), a representative APR must be stated **even without a full representative example**.\n\nNo APR of any kind is shown.\n\n**Rule Citation:** **CONC 3.5.7R(c)**\n\n---\n\n## **7. CONC 3.6.8R \u2014 Restricted Expression \"Pre-Approved\" (Secured Credit)**\n\nIf this is a secured payday product, the expression \"pre-approved\" is prohibited unless the lending is truly unconditional on any creditworthiness, income, or property checks **(CONC 3.6.8R)**. A payday lender stating \"pre-approved\" without unconditional lending breaches this rule.\n\nNote: Even if unsecured, \"pre-approved\" is already prohibited under **CONC 3.3.3R** (no credit regardless); the CONC 3.6.8R restricted expression rule is an additional layer for secured credit.\n\n**Rule Citation:** **",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "CONC 3.4.1R \u2014 mandatory HCSTC verbatim risk warning is absent",
+          "present": true,
+          "note": "Section 3 explicitly addresses the missing verbatim warning and cites CONC 3.4.1R correctly."
+        },
+        {
+          "fact": "CONC 3.5.7R(c) \u2014 'instant decision' promotes speed/ease of application, which is an incentive to apply, triggering the representative APR requirement even without any direct cost reference",
+          "present": true,
+          "note": "Section 6 correctly identifies 'instant decision, apply now!' as an incentive to apply under CONC 3.5.7R(c) triggering the APR requirement."
+        },
+        {
+          "fact": "CONC 3.3.3R \u2014 'pre-approved' implies credit is available regardless of financial status or creditworthiness, which is prohibited",
+          "present": true,
+          "note": "Section 2 directly addresses this, correctly identifying 'pre-approved' as implying credit regardless of financial status."
+        },
+        {
+          "fact": "CONC 3.3.1R(e) \u2014 the overall promotion conceals material information (APR, risk warning) that a customer would need to make an informed decision",
+          "present": true,
+          "note": "Section 1 addresses element (e) on concealment of material information including APR and cost information."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CONC 3.4.1R",
+          "present": true
+        },
+        {
+          "citation": "CONC 3.5.7R",
+          "present": true
+        },
+        {
+          "citation": "CONC 3.3.3R",
+          "present": true
+        },
+        {
+          "citation": "CONC 3.3.1R",
+          "present": true
+        }
+      ],
+      "summary": "The answer comprehensively covers all required facts and citations, correctly identifying each CONC 3 breach with accurate rule references and clear reasoning.",
+      "error": null
+    },
+    {
+      "id": "E009",
+      "question": "What are the two methods by which an authorised payment institution or e-money institution may safeguard relevant funds, what is the key documentation requirement specific to the segregation method, and what ongoing operational obligations and insolvency protections attach to safeguarded funds?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "PSR",
+        "EMI",
+        "safeguarding",
+        "payment-institutions"
+      ],
+      "pages_loaded": [
+        "safeguarding-pis-emis"
+      ],
+      "pages_missing": [],
+      "answer": "# Safeguarding Methods, Documentation, and Protections for PIs and EMIs\n\n## Two Safeguarding Methods\n\nUnder **PSRs 2017 reg. 23** (payment institutions) and **EMRs 2011 reg. 21** (e-money institutions), authorised firms may safeguard relevant funds using one of two methods:\n\n1. **Segregation Method:** Relevant funds are placed in a dedicated segregated account at a credit institution, central bank, or authorised e-money institution.\n\n2. **Insurance/Comparable Guarantee Method:** Funds are covered by an insurance policy or comparable guarantee from an insurance undertaking or credit institution that is not in the same group as the PI/EMI.\n\n## Key Documentation Requirement \u2014 Segregation Method\n\nThe critical documentation requirement specific to the segregation method is the **written acknowledgement of segregation** from the credit institution. This acknowledgement must confirm:\n\n- The institution understands the account holds relevant funds belonging to customers\n- The funds are separate from the firm's own funds\n- The institution will **not set off claims** it holds against the firm against balances in the account\n\nThe **FCA Approach Document (Chapter 10)** and **Portfolio letter (March 2023)** identify failure to obtain this written acknowledgement \u2014 or failure to perform appropriate due diligence on the institution \u2014 as a named FCA compliance failure. The segregated account must be **named or described** as a safeguarding account and hold **only relevant funds** with no other interests ranking ahead of or equal to customer interests.\n\n## Ongoing Operational Obligations\n\nThree additional obligations apply across both methods:\n\n1. **Daily Reconciliation (both internal and external):** Firms must perform **at least once daily** internal reconciliation (cross-referencing the firm's records against the safeguarded account balance or insurance policy) and external reconciliation (confirming with the account-holding institution or insurer). **(Portfolio letter, March 2023)** Inadequate reconciliation is a named FCA compliance failure.\n\n2. **Annual Independent Safeguarding Audit:** Where firms are required to undertake a statutory audit, an **annual audit of safeguarding arrangements** is mandatory. The firm's auditor must notify the FCA if material breaches of PSRs/EMRs safeguarding requirements are identified. Firms must notify the FCA without delay (via **Form NOT002**) if they have not complied with or are unable to comply with safeguarding requirements. **(Portfolio letter, March 2023; PSRs 2017 Reg 27)**\n\n3. **Customer-Level Records:** Firms must maintain records sufficient for a PESAR administrator to identify which customer funds correspond to which held amounts \u2014 essential for insolvency return. **(Portfolio letter, March 2023)**\n\n## Insolvency Protections\n\nIn insolvency, safeguarded relevant funds receive statutory protection:\n\n- **Protected Asset Pool:** Safeguarded funds form a **protected asset pool** under **PSRs 2017 Reg 24(3)** and **EMRs 2011 Reg 24(3)**.\n\n- **First-Priority Claim:** Customers have a **first-priority claim** against this asset pool, ranking **ahead of all general creditors** of the firm. **(FCA Approach Document Chapter 10)**\n\n- **PESAR Framework:** The **Payment and Electronic Money Special Administration Regime (PESAR)** governs the insolvency of failed PIs and EMIs. The special administrator's primary duty is to return relevant funds to customers as quickly as possible, ahead of satisfying creditor claims.\n\nThis insolvency priority delivers the core safeguarding purpose: customer funds are recovered in full and quickly in a failure scenario, provided adequate customer-level records exist for distribution.",
+      "fact_score": 0.9167,
+      "citation_score": 1.0,
+      "overall_score": 0.9417,
+      "facts_detail": [
+        {
+          "fact": "Method 1 (segregation): relevant funds must be deposited in a dedicated safeguarding account at a credit institution, kept separate from the firm's own funds, OR invested in secure, liquid, low-risk assets",
+          "present": true,
+          "note": "The answer covers the dedicated segregated account at a credit institution and separation from firm's own funds. It does not mention the alternative of investing in secure, liquid, low-risk assets, but the core segregation method is present."
+        },
+        {
+          "fact": "The credit institution holding the safeguarding account must provide a written acknowledgement confirming that the funds are held separately from the firm's own funds and cannot be used to meet the firm's liabilities",
+          "present": true,
+          "note": "The answer explicitly covers the written acknowledgement requirement, including that the institution understands funds are separate and will not set off claims against the firm."
+        },
+        {
+          "fact": "Method 2 (insurance or comparable guarantee): relevant funds must be covered by an insurance policy or comparable guarantee from an authorised insurer or credit institution that is not in the same group as the PI or EMI",
+          "present": true,
+          "note": "The answer clearly states the insurance/comparable guarantee method and specifies the entity must not be in the same group as the PI/EMI."
+        },
+        {
+          "fact": "Daily reconciliation of safeguarded funds is required regardless of which method is used",
+          "present": true,
+          "note": "The answer explicitly states daily reconciliation applies to both methods."
+        },
+        {
+          "fact": "An annual independent safeguarding audit is required",
+          "present": true,
+          "note": "The answer explicitly covers the annual independent safeguarding audit requirement."
+        },
+        {
+          "fact": "In insolvency, the safeguarded asset pool has priority for distribution to payment service users ahead of other creditors",
+          "present": true,
+          "note": "The answer clearly states customers have a first-priority claim against the protected asset pool, ranking ahead of all general creditors."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSRs 2017 reg. 23",
+          "present": true
+        },
+        {
+          "citation": "EMRs 2011 reg. 21",
+          "present": true
+        },
+        {
+          "citation": "FCA Approach Document Chapter 10",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts and citations, with only a minor gap in not mentioning the alternative of investing in secure, liquid, low-risk assets as part of the segregation method.",
+      "error": null
+    },
+    {
+      "id": "E010",
+      "question": "Under the Payment Services Regulations 2017, what two things is a payment initiation service provider strictly prohibited from doing when executing a payment on behalf of a customer?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "PSR",
+        "PISP",
+        "open-banking",
+        "payment-services"
+      ],
+      "pages_loaded": [
+        "psr-open-banking-pisp-aisp"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nUnder the Payment Services Regulations 2017, a Payment Initiation Service Provider (PISP) is strictly prohibited from doing the following two things when executing a payment on behalf of a customer:\n\n1. **Holding the customer's funds:** A PISP must not, at any point in the execution of a payment order, come into possession of the payment service user's funds. **(PSRs 2017 Reg 69)**\n\n2. **Modifying the payment order:** A PISP cannot modify the amount, payee, or any other element of a payment order after the customer has initiated it. **(PSRs 2017 Reg 69)**\n\nThese are **absolute prohibitions** that apply regardless of customer consent and cannot be displaced by agreement. As stated in the FCA Approach Document Chapter 17, they are non-negotiable requirements for all PISPs operating in the UK open banking ecosystem.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "A PISP must never hold the payer's funds at any point \u2014 the payment passes directly from the payer's account to the payee without the PISP taking custody",
+          "present": true,
+          "note": "Answer states PISP must not come into possession of funds at any point during execution, which captures the substance, though does not explicitly mention direct passage from payer to payee."
+        },
+        {
+          "fact": "A PISP must not modify the amount, payee, or any other element of the payment transaction after initiation",
+          "present": true,
+          "note": "Answer explicitly states PISP cannot modify the amount, payee, or any other element of a payment order after initiation."
+        },
+        {
+          "fact": "These are hard prohibitions \u2014 they apply regardless of customer consent and cannot be displaced by agreement",
+          "present": true,
+          "note": "Answer explicitly states these are 'absolute prohibitions' that apply 'regardless of customer consent' and 'cannot be displaced by agreement'."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSRs 2017 reg. 69",
+          "present": true
+        },
+        {
+          "citation": "FCA Approach Document Chapter 17",
+          "present": true
+        }
+      ],
+      "summary": "The answer is complete and accurate, covering all required facts including the absolute nature of the prohibitions and correctly citing both PSRs 2017 reg. 69 and FCA Approach Document Chapter 17.",
+      "error": null
+    },
+    {
+      "id": "M015",
+      "question": "A firm wants to use customer data originally collected for AML/KYC purposes to train an internal fraud detection model. Under the UK GDPR purpose limitation principle, is this permitted and what assessment is required?",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "tags": [
+        "UK-GDPR",
+        "purpose-limitation",
+        "AML",
+        "fraud-detection",
+        "DUA-Act"
+      ],
+      "pages_loaded": [
+        "uk-gdpr-data-protection-principles",
+        "uk-gdpr-lawful-basis"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer: Reusing AML/KYC Data for Fraud Detection Model Training\n\n## Summary\n\n**Not automatically permitted.** The firm must conduct a **compatibility assessment** under the purpose limitation principle (UK GDPR **Article 5(1)(b); Article 6(4)**) and identify a separate **new lawful basis**. The original AML/KYC basis (legal obligation under **Article 6(1)(c)**) does not automatically extend to fraud detection.\n\n---\n\n## Required Assessment Framework\n\n### 1. **Compatibility Assessment** (Article 6(4))\n\nThe firm must assess whether fraud detection is **compatible** with the original AML/KYC purpose using the **five-factor test**:\n\n1. **Link between purposes**  \n   - AML/KYC and fraud detection both concern financial crime prevention, creating a meaningful connection  \n   - However, AML/KYC addresses regulatory/sanctions risk; fraud detection addresses customer/firm protection \u2014 distinct purposes\n\n2. **Context of collection and reasonable expectations**  \n   - Were customers told at collection that AML/KYC data might be used for fraud detection?  \n   - If privacy notice stated only \"regulatory compliance,\" reuse for a commercial fraud prevention model may exceed reasonable expectations  \n   - This is the critical factor for data subjects\u2014whether they would expect AML/KYC data to flow into internal fraud systems\n\n3. **Nature of the data**  \n   - AML/KYC data is often special category (e.g. health/vulnerability data triggering Article 9 conditions) or sensitive (PEP status, source of funds)  \n   - Special category data requires \"significantly greater caution\" (Art. 5(1)(b) guidance) on reuse\u2014creates a **rebuttable presumption against compatibility**  \n   - If the model trains on non-special-category KYC data only (address, ID type, transaction patterns), caution is lower\n\n4. **Possible consequences for data subjects**  \n   - Fraud detection may cause **adverse consequences** if the model is inaccurate (false positives \u2192 blocked transactions, reputational damage, financial loss)  \n   - AML/KYC data was collected with regulatory compliance expectations, not ML algorithm risk expectations  \n   - Assess whether consequences of fraud model decisions could affect data subjects' trust or welfare\n\n5. **Safeguards in place**  \n   - Pseudonymisation, encryption, access controls, model governance, audit trails?  \n   - **Documented safeguards reduce incompatibility risk** but do not eliminate the need for assessment\n\n### 2. **Annex 2 Automatic Compatibility** (DUA Act 2025)\n\n**Fraud detection likely falls within Annex 2 Purpose 1: \"Preventing or detecting crime or other unlawful behaviour\"** (Annex 2 to UK GDPR, inserted by DUA Act 2025).\n\n**However, this is subject to a critical condition:**\n\n- Annex 2 provides **automatic compatibility** only if the new purpose itself is crime prevention/detection  \n- The firm must assess whether **its specific fraud detection model use case** genuinely constitutes \"crime prevention\"  \n- If the model is used to deny services, detect account takeover, or prevent card fraud \u2192 likely within Annex 2  \n- If the model is used to identify profitable customers or optimize cross-sell targeting and happens to flag fraud incidentally \u2192 likely **not** within Annex 2; fraud prevention is not the true purpose\n\nIf the firm satisfies itself that Annex 2 Purpose 1 applies, reuse is compatible **without a full five-factor assessment**. However, **Annex 2 compatibility does not eliminate the requirement to identify a new lawful basis** (see Step 3 below).\n\n---\n\n### 3. **New Lawful Basis Requirement**\n\nEven if the compatibility assessment passes (or Annex 2 applies), a **separate new lawful basis** must be identified and documented for the fraud detection processing.\n\n**Options:**\n\n**Option A: Recognised Legitimate Interest (Article 6(ea))** \u2014 *Recommended*\n\nPurpose 3 under Article 6(ea): **\"Preventing or investigating crime\"**\n\n- No balancing test required (the DUA Act 2025 has pre-approved the balance)  \n- Directly applicable to fraud detection  \n- Must be documented in the firm's records of processing (Article 30)  \n- **Advantage:** Streamlined vs. full LIA; no ongoing balancing exposure\n\n**Option B: Legitimate Interests (Article 6(1)(f))**\n\nConduct a full Legitimate Interests Assessment (LIA):\n1. **Purpose test:** Does the firm have a legitimate interest in preventing fraud losses? **Yes** \u2014 fraud causes financial harm to the firm and customers  \n2. **Necessity test:** Is processing AML/KYC data necessary? Depends on whether training the model requires the full original dataset or if anonymisation/aggregation suffices. Must be objective (not \"our chosen method requires it\")  \n3. **Balancing test:** Do customers' interests override the firm's?  \n   - **Factors supporting firm's interest:** Fraud harms customers too; detection is in customers' interests; safeguards (",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "Processing for a new purpose requires a compatibility assessment unless the customer has given specific consent to the new purpose, or the new purpose falls within an Annex 2 compatible purpose under the DUA Act 2025",
+          "present": true,
+          "note": "Answer clearly states compatibility assessment is required, references Annex 2 DUA Act 2025 automatic compatibility, and implicitly covers consent (though consent is not explicitly named as an alternative pathway, the framework is substantially correct)"
+        },
+        {
+          "fact": "The five-factor compatibility assessment considers: link between original and new purposes; context of collection and reasonable expectations; nature of the data; consequences of further processing; existence of appropriate safeguards",
+          "present": true,
+          "note": "All five factors are explicitly listed and explained under the compatibility assessment framework"
+        },
+        {
+          "fact": "AML/KYC data is collected under legal obligation (Art. 6(1)(c)) \u2014 using it for fraud model training is a different purpose, and switching to legitimate interests as the basis after original collection under legal obligation is not straightforward",
+          "present": true,
+          "note": "Answer identifies Art. 6(1)(c) as the original basis and notes it does not automatically extend to fraud detection; it also discusses the complexity of adopting a new lawful basis, though it could be more explicit about the difficulty of switching from legal obligation to legitimate interests"
+        },
+        {
+          "fact": "Fraud detection may fall within DUA Act 2025 Annex 2 compatible purpose 1 ('Preventing or detecting crime or other unlawful behaviour') \u2014 fraud detection is not named as a distinct Annex 2 purpose but falls within this broader crime prevention purpose; the firm must assess whether its specific fraud model use falls within purpose 1",
+          "present": true,
+          "note": "Answer explicitly discusses Annex 2 Purpose 1 under DUA Act 2025 and correctly notes the firm must assess whether its specific use case genuinely constitutes crime prevention"
+        },
+        {
+          "fact": "Even if compatible processing is established, the firm must still meet transparency obligations \u2014 customers must be informed of the new purpose",
+          "present": false,
+          "note": "The answer does not address transparency obligations or the requirement to inform customers of the new purpose under Art. 13/14. This is a notable omission."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "UK GDPR Art. 5(1)(b) (purpose limitation)",
+          "present": true
+        },
+        {
+          "citation": "UK GDPR Art. 6(4) (compatibility assessment)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and well-structured, covering the compatibility assessment, five-factor test, DUA Act 2025 Annex 2, and lawful basis requirements, but omits the transparency/notification obligation to inform customers of the new purpose.",
+      "error": null
+    },
+    {
+      "id": "M016",
+      "question": "A firm files a suspicious activity report and wishes to continue processing the transaction while awaiting a response. What is the correct procedure and what are the maximum waiting periods before the firm may proceed?",
+      "difficulty": "medium",
+      "type": "factual",
+      "tags": [
+        "AML",
+        "SAR",
+        "DAML",
+        "NCA",
+        "consent-regime"
+      ],
+      "pages_loaded": [
+        "sar-consent-tipping-off"
+      ],
+      "pages_missing": [],
+      "answer": "# Procedure and Waiting Periods for Processing Transactions After Filing a SAR\n\n## The Correct Procedure Depends on Timing\n\nThe procedure and permissible waiting periods differ fundamentally depending on whether suspicion arose **before** or **after** the transaction:\n\n### 1. **Suspicion Arises BEFORE the Transaction** \u2014 DAML Consent Required\n\nWhen suspicion arises before a transaction, the firm **must not simply file a standard SAR**. Instead, the nominated officer must request **consent (a \"defence against money laundering\" \u2014 DAML)** from the NCA **(POCA s.335; JMLSG \u00a76.46)**.\n\nThe firm **cannot proceed with the transaction** until the applicable waiting period expires:\n\n| Stage | Duration | Outcome |\n|-------|----------|---------|\n| **7 working days** | Days 1\u20137 after the day following submission | If NCA does not refuse consent within 7 working days, the firm **may proceed** |\n| **31-day moratorium** (if NCA refuses) | 31 calendar days from refusal | Authorities must obtain a court restraint order within this period; if not obtained, the transaction may proceed after expiry |\n| **Extended moratorium** | Up to 186 additional calendar days | If a restraint order is granted, authorities may extend the moratorium in 31-day increments up to a maximum of 186 days |\n\n**(POCA ss.335\u2013336A; JMLSG \u00a76.49\u20136.50)**\n\n**Proceeding before these periods expire is a money laundering offence under POCA 2002 s.328.**\n\n### 2. **Suspicion Arises AFTER the Transaction** \u2014 No Consent Possible\n\nWhere the transaction has **already occurred**, the consent mechanism is unavailable. The firm files a standard SAR and is free to operate the customer's account under normal commercial considerations until law enforcement determines otherwise. **(JMLSG \u00a76.56)**\n\n### 3. **Automated Systems Exception**\n\nWhere a suspicious transaction is already within an automated clearing or settlement system and delay would breach a contractual obligation or market settlement/clearing rules, the nominated officer may have a defence under POCA to proceed and report afterwards \u2014 though this defence is untested by case law and must be considered case-by-case. **(JMLSG \u00a76.47)**\n\n## Submission Method\n\nDAML consent requests must be submitted **electronically via SAR Online** (ticking the consent request box) or, if electronic methods are unavailable, **by fax**. Never use post due to timing constraints. **(JMLSG \u00a76.41, 6.48)**\n\n## Tipping-Off Constraint\n\nThe firm **cannot inform the customer** that the transaction is being delayed pending NCA consent, as this would likely constitute tipping off \u2014 specifically, disclosing that a SAR has been made in a manner likely to prejudice an investigation **(POCA s.333A(1); JMLSG \u00a76.61, 6.68)**.\n\n## Summary\n\n- **Maximum waiting period (pre-transaction, no NCA refusal): 7 working days**\n- **Maximum waiting period (post-NCA refusal): 31 calendar days + up to 186 additional days if extended by court order**\n- **Post-transaction SARs: no waiting period \u2014 transaction already completed**",
+      "fact_score": 0.833,
+      "citation_score": 1.0,
+      "overall_score": 0.883,
+      "facts_detail": [
+        {
+          "fact": "The firm must file a Defence Against Money Laundering (DAML) SAR with the NCA UKFIU and await consent or the expiry of the moratorium period before proceeding",
+          "present": true,
+          "note": "Clearly stated in section 1 \u2014 firm must request DAML consent from NCA and cannot proceed until waiting period expires"
+        },
+        {
+          "fact": "The NCA has 7 days from receipt of the DAML SAR to grant or refuse consent \u2014 if no response is received within 7 days, consent is deemed granted and the firm may proceed",
+          "present": true,
+          "note": "Table states '7 working days' after which if NCA does not refuse consent the firm may proceed"
+        },
+        {
+          "fact": "If the NCA refuses consent within the 7-day period, a further moratorium period of up to 31 days runs from the date of refusal \u2014 the firm must not proceed during this period",
+          "present": true,
+          "note": "Table and text state 31 calendar days from refusal as the moratorium period"
+        },
+        {
+          "fact": "If a court issues a restraint order or similar order within the 31-day period, a further period of up to 186 days may apply",
+          "present": true,
+          "note": "Extended moratorium of up to 186 additional calendar days mentioned if restraint order is granted"
+        },
+        {
+          "fact": "Proceeding with the transaction before the applicable period expires is a money laundering offence under POCA 2002 s.328",
+          "present": true,
+          "note": "Explicitly stated: 'Proceeding before these periods expire is a money laundering offence under POCA 2002 s.328'"
+        },
+        {
+          "fact": "The DAML reference number and the date of consent or moratorium expiry must be recorded",
+          "present": false,
+          "note": "No mention of recording the DAML reference number or dates of consent/moratorium expiry anywhere in the answer"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "POCA 2002 s.335 (DAML consent procedure)",
+          "present": true
+        },
+        {
+          "citation": "POCA 2002 s.328 (money laundering offence)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate on all key procedural and timing requirements, but omits the requirement to record the DAML reference number and consent/moratorium expiry date.",
+      "error": null
+    },
+    {
+      "id": "M017",
+      "question": "A firm's compliance officer discovers that a transaction was processed for a customer whose name now appears on the UK Consolidated Sanctions List. The transaction completed three days ago. What must the firm do, and within what timeframe?",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "tags": [
+        "sanctions",
+        "OFSI",
+        "asset-freeze",
+        "breach-reporting",
+        "FCA"
+      ],
+      "pages_loaded": [
+        "asset-freezes-and-ofsi-licences",
+        "uk-financial-sanctions-framework"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer: Mandatory Actions and Timeframes\n\nBased on the knowledge base, the firm must take the following actions:\n\n## 1. **Immediate Asset Freeze (Retrospective Application)**\n\nAlthough the transaction completed three days ago, the firm must **immediately freeze any assets it currently holds or controls** for this customer. The asset freeze obligation is absolute and applies regardless of when the designation occurred or when the transaction was executed:\n\n> \"A transaction that has already been executed does not eliminate the sanctions freeze obligation on current holdings. Where a firm discovers post-execution that a counterparty was designated, it must act on any assets it currently holds.\" **(SAMLA 2018 s.17; FCA SUP 15.3)**\n\nThere is **no grace period, no de minimis threshold, and no discretion** \u2014 the only exceptions are a statutory exception or an OFSI licence. **(FCG 7.2.3B)**\n\n---\n\n## 2. **Report to OFSI Within 10 Business Days**\n\nThe firm must notify **OFSI** of the frozen assets within **10 business days** of becoming aware that it holds assets for a designated person:\n\n> \"The firm must report the frozen assets to OFSI **within 10 business days** of becoming aware that it holds assets for a designated person.\" **(SAMLA 2018 s.17)**\n\nThis is a separate, mandatory obligation under sanctions law. Failure to report a confirmed breach to OFSI is a **potential criminal offence**. **(FCG 7.2.3C; FCG 7.2.4)**\n\n---\n\n## 3. **Consider FCA Notification Under Principle 11 / SUP 15.3**\n\nThe firm must assess whether this breach reflects a **significant failure in financial crime systems and controls**. If so, it must notify the **FCA**:\n\n> \"Firms must consider whether to notify the FCA. This is required under **Principle 11 (PRIN 2.1.1R)** and **SUP 15.3** \u2014 particularly where a sanctions breach is the result of a significant failure in financial crime systems and controls.\" **(FCG 7.2.3C; SUP 15.3.11R(1))**\n\n**Critical point from FCTR 8:** The firm should **not wait** for internal investigation completion before notifying the FCA:\n\n> \"Firms completing a full internal investigation before notifying the FCA [is] wrong \u2014 investigation completion is **not** a precondition for notification.\" **(FCTR 8)**\n\n> \"The moment a firm has reasonable cause to suspect a breach, both the OFSI obligation and the consideration of FCA notification under Principle 11 / SUP 15.3 are triggered.\" **(FCTR 8)**\n\n---\n\n## 4. **Consider SAR to NCA (if Applicable)**\n\nIf the circumstances also involve suspected money laundering or terrorist financing, the firm must consider whether a **SAR** to the NCA is required. **(FCG 7.2.3C; FCG 7.2.4)**\n\n---\n\n## 5. **Root Cause Analysis**\n\nThe firm should undertake root cause analysis of how the screening failure occurred and use findings to update sanctions controls. This demonstrates the governance engagement the FCA expects. **(FCG 7.2.3C)**\n\n---\n\n## Summary Table\n\n| Action | Recipient | Timeframe | Basis |\n|--------|-----------|-----------|-------|\n| **Freeze assets** | (Internal) | Immediately | FCG 7.2.3B (absolute, no discretion) |\n| **Notify OFSI** | OFSI | Within **10 business days** | SAMLA 2018 s.17 (mandatory breach report) |\n| **Assess FCA notification** | FCA | **Do not delay for investigation completion** | SUP 15.3.11R(1); FCTR 8 (triggered at point of reasonable suspicion) |\n| **Consider SAR** | NCA | If applicable | FCG 7.2.3C |\n| **Root cause analysis** | (Internal governance) | Ongoing | FCG 7.2.3C (good practice) |\n\n---\n\n## Critical Warnings\n\n- **Do not return funds or allow customer access** pending investigation. The freeze is absolute.\n- **Weeks- or months-long delays between identifying a breach and reporting to the FCA are a named failure.** **(FCTR 8)**\n- **Failure to report a confirmed breach to OFSI is a potential criminal offence.** **(FCG 7.2.3C)**\n- **Investigation completion is not a precondition for FCA notification** \u2014 notify immediately upon reasonable suspicion.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "The firm must freeze any remaining assets or funds held for the designated person immediately \u2014 the freeze obligation applies on knowledge of the designation, not only at the point of onboarding",
+          "present": true,
+          "note": "Clearly stated under section 1: immediate asset freeze applies regardless of when designation occurred or when transaction was executed; applies to assets currently held."
+        },
+        {
+          "fact": "The firm must report the frozen assets to OFSI within 10 business days of becoming aware that it holds assets for a designated person (SAMLA 2018 s.17)",
+          "present": true,
+          "note": "Explicitly stated in section 2 with the 10 business days timeframe and SAMLA 2018 s.17 citation."
+        },
+        {
+          "fact": "The firm must also report the breach to the FCA under SUP 15.3 \u2014 the dual reporting obligation (OFSI and FCA) applies; these are separate notifications",
+          "present": true,
+          "note": "Section 3 addresses FCA notification under SUP 15.3 as a separate obligation. Summary table also lists both as separate recipients."
+        },
+        {
+          "fact": "The firm should not return funds to the customer or allow the customer to access them pending investigation",
+          "present": true,
+          "note": "Explicitly stated in Critical Warnings: 'Do not return funds or allow customer access pending investigation. The freeze is absolute.'"
+        },
+        {
+          "fact": "A past transaction that has already been executed does not reverse the sanctions freeze obligation on current holdings \u2014 the firm must act on assets it currently holds",
+          "present": true,
+          "note": "Explicitly addressed: 'A transaction that has already been executed does not eliminate the sanctions freeze obligation on current holdings.'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "SAMLA 2018 s.17 (OFSI reporting)",
+          "present": true
+        },
+        {
+          "citation": "FCA SUP 15.3 (FCA notification)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts and citations with precise timeframes, dual reporting obligations, and critical warnings about fund access and investigation sequencing.",
+      "error": null
+    },
+    {
+      "id": "H010",
+      "question": "A firm provides correspondent banking services to a foreign respondent institution. During EDD, it discovers the respondent processes transactions for shell banks as a normal part of its business. What must the firm do?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "AML",
+        "EDD",
+        "correspondent-banking",
+        "shell-banks",
+        "MLR-2017"
+      ],
+      "pages_loaded": [
+        "customer-due-diligence",
+        "aml-kyc-onboarding-decision-tree"
+      ],
+      "pages_missing": [],
+      "answer": "# Shell Banks and Correspondent Banking \u2014 Required Action\n\nBased on the knowledge base provided, when a firm discovers during Enhanced Due Diligence that a respondent institution **processes transactions for shell banks as a normal part of its business**, the firm must take the following action:\n\n## Mandatory Termination\n\n**The firm must terminate the correspondent banking relationship.** This is not optional enhanced monitoring or conditional continuation \u2014 it is a hard prohibition.\n\n### Legal Basis\n\n**MLR 2017 Regulation 34** establishes an absolute shell bank prohibition:\n\n> \"A credit institution shall not enter into or continue a correspondent banking relationship with a shell bank.\"\n\nA shell bank is defined as:\n- A credit institution incorporated in a jurisdiction where it has **no physical presence**\n- And is **not affiliated with a regulated financial group**\n\n### Application to Respondent Institutions Processing Shell Bank Transactions\n\nThe knowledge base states explicitly:\n\n> \"Where a firm discovers during EDD that a respondent institution processes transactions for shell banks as a normal part of its own business, the firm's correspondent relationship indirectly facilitates shell bank activity \u2014 **this is sufficient reason to refuse or terminate the relationship**. If the relationship already exists, **the firm must terminate it** \u2014 not merely apply enhanced monitoring.\" **(MLR 2017 reg. 34; MLR 2017 reg. 33)**\n\n### Key Points\n\n1. **Termination is mandatory** \u2014 the discovery that the respondent processes shell bank transactions as normal business triggers an immediate obligation to end the correspondent relationship.\n\n2. **Indirect facilitation is sufficient** \u2014 the firm does not itself need to be directly transacting with the shell bank. Processing transactions **for** shell banks (as the respondent's business) is sufficient to trigger the prohibition.\n\n3. **Not a monitoring issue** \u2014 this is distinguished from enhanced due diligence (EDD) at **MLR 2017 Regulation 33**. The firm must terminate, not escalate to enhanced monitoring.\n\n4. **Separate SAR obligation** \u2014 if the discovery gives rise to suspicion of money laundering or terrorist financing, the firm must also **file a Suspicious Activity Report (SAR)** with NCA UKFIU under **POCA 2002 s.330**. The prohibition (reg. 34) and the SAR obligation (POCA 2002 s.330) are distinct.\n\n---\n\n**Citation:** MLR 2017 reg. 34; MLR 2017 reg. 33; Knowledge Base \u2014 \"Correspondent Banking Relationships\" section and Key Points for Agents.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "The firm must not enter into or continue a correspondent banking relationship with a shell bank \u2014 this is a hard prohibition under MLR 2017 reg. 34",
+          "present": true,
+          "note": "Explicitly stated as a hard prohibition with direct quote from MLR 2017 reg. 34"
+        },
+        {
+          "fact": "A shell bank is a credit institution incorporated in a jurisdiction where it has no physical presence and is not affiliated with a regulated financial group",
+          "present": true,
+          "note": "Definition provided clearly under 'Legal Basis' section"
+        },
+        {
+          "fact": "The fact that the respondent institution processes transactions for shell banks as part of its own business means the firm's correspondent relationship indirectly facilitates shell bank activity \u2014 this is sufficient reason to refuse or terminate the relationship",
+          "present": true,
+          "note": "Explicitly addressed in the 'Application to Respondent Institutions Processing Shell Bank Transactions' section"
+        },
+        {
+          "fact": "If the relationship already exists, the firm must terminate it \u2014 not merely apply enhanced monitoring",
+          "present": true,
+          "note": "Clearly stated multiple times, including in Key Points section distinguishing from enhanced monitoring"
+        },
+        {
+          "fact": "The firm must file a SAR if the shell bank activity gives rise to suspicion of money laundering or terrorist financing",
+          "present": true,
+          "note": "Addressed under 'Separate SAR obligation' with reference to POCA 2002 s.330"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "MLR 2017 reg. 34 (prohibition on shell bank relationships)",
+          "present": true
+        },
+        {
+          "citation": "MLR 2017 reg. 33 (EDD for correspondent banking)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts including the hard prohibition, shell bank definition, indirect facilitation, mandatory termination, and SAR obligation, with correct citations to MLR 2017 reg. 34 and reg. 33.",
+      "error": null
+    },
+    {
+      "id": "M022",
+      "question": "A firm is authorised as an electronic money institution under the EMRs 2011. Does Principle 12 (Consumer Duty) apply to it, and under which provision?",
+      "difficulty": "medium",
+      "type": "boundary",
+      "tags": [
+        "PRIN",
+        "Consumer-Duty",
+        "EMI",
+        "scope",
+        "payment-institutions"
+      ],
+      "pages_loaded": [
+        "prin-principles-overview",
+        "prin3-rules-about-application"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nYes, Principle 12 (Consumer Duty) applies to an electronic money institution authorised under the EMRs 2011.\n\n## Legal Basis\n\n**PRIN 3.1.1AR** (hard rule) expressly extends the application of the Principles \u2014 including Principle 12 and PRIN 2A \u2014 to electronic money institutions in relation to their regulated e-money activities. The rule states:\n\n> \"The Principles (including Principle 12 and PRIN 2A) apply to payment institutions, e-money institutions, and RAISPs in relation to their regulated payment services and e-money activities.\"\n\nReferences to \"firm\" in PRIN 2 and PRIN 2A expressly include these persons.\n\n## Scope\n\nAn EMI's Principle 12 obligations apply where:\n\n1. **Activity scope**: The e-money activity is addressed by a rule in **BCOBS** (Banking Conduct of Business sourcebook), which covers e-money as stated in **PRIN 3.2.6R**.\n\n2. **Territorial scope**: Retail customers are **located in the UK**, per **PRIN 3.3.1R** \u2014 which uses the wider \"located\" test rather than \"habitually resident.\"\n\n3. **Displacement**: Where Principle 12 applies, **Principles 6 and 7 do not apply** to the EMI in connection with e-money activities (**PRIN 3.2.10R**).\n\n4. **No ECP carve-out**: ECP classification is **not available** for e-money activities (**PRIN 3.4.-1R**), so all retail customers in e-money are within Principle 12 scope.\n\n## Conclusion\n\nAn EMI is subject to Principle 12 under **PRIN 3.1.1AR** in relation to its e-money activities where retail customers are located in the UK and the activity is addressed by BCOBS rules.",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "Yes \u2014 Principle 12 and the PRIN 2A Consumer Duty rules apply to EMIs",
+          "present": true,
+          "note": "Clearly stated at the outset and confirmed in the conclusion."
+        },
+        {
+          "fact": "PRIN 3.1.1AR is a hard rule that expressly brings EMIs, PIs, and RAISPs within the scope of the Principles, including Principle 12",
+          "present": true,
+          "note": "Answer explicitly identifies PRIN 3.1.1AR as a hard rule extending Principles including P12 to EMIs/PIs/RAISPs."
+        },
+        {
+          "fact": "The application of PRIN to EMIs is not merely by implication from the PSRs/EMRs \u2014 it is an explicit hard rule in PRIN itself",
+          "present": true,
+          "note": "The answer frames PRIN 3.1.1AR as an express provision in PRIN itself, not derived by implication from the PSRs/EMRs."
+        },
+        {
+          "fact": "The Consumer Duty applies to EMIs in respect of their retail customers \u2014 the retail customer definition for EMIs is set out in the PSRs/EMRs, not the general COBS definition",
+          "present": false,
+          "note": "The answer mentions retail customers and scope, but does not address the point that the retail customer definition comes from the PSRs/EMRs rather than the general COBS definition."
+        },
+        {
+          "fact": "Principle 6 and Principle 7 are displaced by Principle 12 where the Consumer Duty applies \u2014 both cannot operate simultaneously for the same activity (PRIN 3.2.10R)",
+          "present": true,
+          "note": "Explicitly stated under 'Displacement' with reference to PRIN 3.2.10R."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PRIN 3.1.1AR (EMIs/PIs/RAISPs within PRIN)",
+          "present": true
+        },
+        {
+          "citation": "PRIN 3.2.10R (P6/P7 displacement)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is thorough and accurate on all key points, citing both required rules, but omits the specific detail that the retail customer definition for EMIs derives from the PSRs/EMRs rather than the general COBS framework.",
+      "error": null
+    }
+  ]
+}

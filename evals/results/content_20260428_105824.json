@@ -1,0 +1,304 @@
+{
+  "run_at": "2026-04-28T10:58:24.985849",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 4,
+  "completed": 4,
+  "errors": 0,
+  "mean_fact_score": 0.566675,
+  "mean_citation_score": 0.75,
+  "mean_overall_score": 0.621675,
+  "pass_rate": 0.25,
+  "by_difficulty": {
+    "easy": {
+      "count": 2,
+      "mean_score": 0.685
+    },
+    "medium": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "hard": {
+      "count": 2,
+      "mean_score": 0.55835
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 2,
+      "mean_score": 0.685
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 2,
+      "mean_score": 0.55835
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "E009",
+      "question": "What are the two methods by which an authorised payment institution or e-money institution may safeguard relevant funds, and what is the key documentation requirement specific to the segregation method?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "PSR",
+        "EMI",
+        "safeguarding",
+        "payment-institutions"
+      ],
+      "pages_loaded": [
+        "safeguarding-pis-emis"
+      ],
+      "pages_missing": [],
+      "answer": "# Two Methods of Safeguarding Relevant Funds\n\nUnder **PSRs 2017 Reg. 23** (payment institutions) and **EMRs 2011 Reg. 21** (e-money institutions), authorised payment institutions and e-money institutions may safeguard relevant funds by either of two methods:\n\n## 1. **Segregation Method**\n\nRelevant funds must be placed in a **segregated account** held with:\n- A credit institution (bank)\n- A central bank\n- An authorised e-money institution\n\n## 2. **Insurance/Comparable Guarantee Method**\n\nFunds may be covered by an **insurance policy or comparable guarantee** from an insurance undertaking or credit institution that is not the same as the firm and has not been approved to provide this service to more than a certain proportion of the firm's total relevant funds.\n\n---\n\n## Key Documentation Requirement for Segregation\n\nThe critical documentation requirement specific to the segregation method is the **written acknowledgement of segregation** from the credit institution. \n\nThis acknowledgement must confirm:\n1. The institution understands the account holds relevant funds belonging to customers\n2. The funds are separate from the firm's own funds\n3. The institution will **not set off** claims it holds against the firm against balances in the account\n\n**Compliance note:** Failure to obtain this written acknowledgement \u2014 or failure to perform appropriate due diligence on the institution holding the account \u2014 is identified as a named FCA compliance failure. **(FCA Approach Document Ch. 10; Portfolio letter, March 2023)**\n\nThe absence of this documentation means the segregation claim is not evidenced and the account-holder may set off competing claims against safeguarded funds.",
+      "fact_score": 0.5,
+      "citation_score": 1.0,
+      "overall_score": 0.65,
+      "facts_detail": [
+        {
+          "fact": "Method 1 (segregation): relevant funds must be deposited in a dedicated safeguarding account at a credit institution, kept separate from the firm's own funds, OR invested in secure, liquid, low-risk assets",
+          "present": true,
+          "note": "The answer covers depositing in a segregated account at a credit institution and separation from firm's own funds, but does not mention the alternative of investing in secure, liquid, low-risk assets."
+        },
+        {
+          "fact": "The credit institution holding the safeguarding account must provide a written acknowledgement confirming that the funds are held separately from the firm's own funds and cannot be used to meet the firm's liabilities",
+          "present": true,
+          "note": "The answer explicitly covers the written acknowledgement requirement, including that funds are separate and the institution will not set off claims against the firm."
+        },
+        {
+          "fact": "Method 2 (insurance or comparable guarantee): relevant funds must be covered by an insurance policy or comparable guarantee from an authorised insurer or credit institution that is not in the same group as the PI or EMI",
+          "present": true,
+          "note": "The answer covers insurance/comparable guarantee method and notes it must not be the same firm, though it says 'not the same as the firm' rather than 'not in the same group' \u2014 close enough in substance."
+        },
+        {
+          "fact": "Daily reconciliation of safeguarded funds is required regardless of which method is used",
+          "present": false,
+          "note": "No mention of daily reconciliation requirements in the answer."
+        },
+        {
+          "fact": "An annual independent safeguarding audit is required",
+          "present": false,
+          "note": "No mention of annual independent safeguarding audit in the answer."
+        },
+        {
+          "fact": "In insolvency, the safeguarded asset pool has priority for distribution to payment service users ahead of other creditors",
+          "present": false,
+          "note": "No mention of insolvency priority for payment service users in the answer."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSRs 2017 reg. 23",
+          "present": true
+        },
+        {
+          "citation": "EMRs 2011 reg. 21",
+          "present": true
+        },
+        {
+          "citation": "FCA Approach Document Chapter 10",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly identifies both safeguarding methods and the written acknowledgement requirement with full citations, but omits the secure asset investment alternative, daily reconciliation, annual audit, and insolvency priority protections.",
+      "error": null
+    },
+    {
+      "id": "E012",
+      "question": "A firm receives a subject access request verbally from a customer over the phone. Must it respond, and if so, within what timeframe?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "UK-GDPR",
+        "subject-access",
+        "individual-rights"
+      ],
+      "pages_loaded": [
+        "uk-gdpr-subject-access"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nYes, a firm **must respond** to a verbal subject access request (SAR) made over the phone.\n\n## Validity of Verbal SARs\n\nUnder **UK GDPR Article 15**, a SAR is valid regardless of format or formality. The knowledge base explicitly states:\n\n> \"Verbal SARs \u2014 including those made by phone \u2014 are fully valid under **UK GDPR Art. 15**; no written form or specific words are required.\"\n\nThe guidance further confirms:\n\n> \"A SAR is valid if it is clear that the individual is asking for their own personal data. No specific form of words is required \u2014 the individual does not need to:\n> - Use the phrase \"subject access request\" or cite Article 15\n> - Make the request in writing (verbal SARs are valid)\n> - Direct the request to a specific person or contact point\n> - Use a specific channel (including social media)\"\n\n## Response Timeframe\n\nThe firm must respond **within one calendar month** of receiving the request.\n\n**UK GDPR Article 12(3)** establishes this deadline. The ICO recommends targeting **28 days** to allow time for review before the statutory deadline expires.\n\n## Special Requirement for Verbal Responses\n\nIf the firm chooses to respond verbally, it must maintain a record including:\n- Date of request\n- Date of response\n- Identity of person who provided the information\n- Description of information provided",
+      "fact_score": 0.6,
+      "citation_score": 1.0,
+      "overall_score": 0.72,
+      "facts_detail": [
+        {
+          "fact": "Yes \u2014 a SAR does not need to be in writing and does not need to use the words 'subject access request'; verbal requests made by phone are valid",
+          "present": true,
+          "note": "Explicitly covered \u2014 verbal SARs via phone are valid, no specific words required"
+        },
+        {
+          "fact": "The firm must respond within one calendar month of receiving the request",
+          "present": true,
+          "note": "Clearly stated under the Response Timeframe section"
+        },
+        {
+          "fact": "The ICO recommends targeting 28 days to allow time for review before the deadline",
+          "present": true,
+          "note": "Explicitly mentioned \u2014 ICO recommends 28 days to allow review time"
+        },
+        {
+          "fact": "The firm may ask for clarification where the request is unclear or covers a large volume of data, but the clock pauses only if clarification is genuinely needed for a large or complex request \u2014 it does not pause automatically",
+          "present": false,
+          "note": "No mention of clarification requests or clock-pausing conditions anywhere in the answer"
+        },
+        {
+          "fact": "The firm must still provide any supplementary information (equivalent to Art. 13/14 privacy notice content) alongside the copy of the data",
+          "present": false,
+          "note": "No mention of supplementary information or Art. 13/14 privacy notice content being required alongside the data copy"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "UK GDPR Art. 15",
+          "present": true
+        },
+        {
+          "citation": "UK GDPR Art. 12(3) (one-month deadline)",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly covers the validity of verbal SARs and the one-month/28-day timeframe with proper citations, but omits the rules on clarification requests and clock-pausing, and fails to mention the requirement to provide supplementary Art. 13/14 information alongside the data.",
+      "error": null
+    },
+    {
+      "id": "H011",
+      "question": "An employee at a regulated firm suspects a customer is laundering money but has not yet reported internally to the MLRO. A colleague in the same team asks the employee directly: 'Is there a problem with this customer's account?' What are the tipping-off risks, and what can the employee say?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "AML",
+        "SAR",
+        "tipping-off",
+        "POCA-2002",
+        "intra-firm-disclosure"
+      ],
+      "pages_loaded": [
+        "sar-consent-tipping-off"
+      ],
+      "pages_missing": [],
+      "answer": "# Tipping-Off Risks and Permitted Disclosures \u2014 Response to Colleague Query\n\n## The Risk\n\nBefore the employee has reported to the MLRO, **there is a critical distinction**: the tipping-off offence under **POCA s.333A** does not technically apply until a SAR has been filed. However, the employee faces a separate and more immediate obligation: **POCA s.330** requires the individual staff member to report knowledge or suspicion to the nominated officer (MLRO) **as soon as is reasonably practicable**. **(JMLSG \u00a76.18\u20136.23)**\n\nThe employee should **not** confirm or deny concerns about the customer to a colleague before reporting to the MLRO. Doing so risks:\n\n1. **Undermining the MLRO's evaluation duty** \u2014 the nominated officer must evaluate each internal report and decide whether to file a SAR. Premature disclosure to colleagues could compromise this assessment.\n2. **Later tipping-off liability** \u2014 once a SAR is filed, any prior disclosure that the colleague was aware of suspicions and discussed them could, in retrospect, be characterized as disclosure of information concerning that SAR that is \"likely to prejudice an investigation.\" **(POCA s.333A(1); JMLSG \u00a76.61)**\n\n## What the Employee Can Say\n\n### Before Reporting to the MLRO\nThe employee should **avoid disclosing the suspicion** to the colleague. The appropriate response is:\n- **\"I cannot discuss customer account issues with you. If you have concerns, you should raise them with the nominated officer/MLRO directly.\"**\n\nThis is compliant with both **POCA s.330** (directing the colleague to the proper reporting channel) and avoids premature disclosure.\n\n### After Reporting to the MLRO\nOnce the employee has reported the suspicion to the MLRO/nominated officer, the legal position changes. The **intra-firm disclosure exemption** in **POCA s.333B(1)** expressly permits:\n\n> \"Disclosure by an employee, officer or partner to another employee, officer or partner of the same firm\" **(POCA s.333B(1); JMLSG \u00a76.63)**\n\nAt this point, if the MLRO has not yet filed a SAR and wishes to discuss the matter with the employee's manager or compliance team for AML evaluation purposes, such disclosure is **not a tipping-off offence**. The employee may then communicate factually about the suspicion within the firm's AML compliance function.\n\nHowever, **what can be discussed is limited**: discussion must be confined to:\n- The factual basis for the suspicion (to aid the MLRO's evaluation under JMLSG \u00a76.32)\n- Whether a SAR should be filed\n- The firm's AML procedures\n\nThe employee and colleagues **still cannot** disclose:\n- That a SAR has been made or is about to be made\n- That an investigation by law enforcement is underway or contemplated\n  \n\u2026if that disclosure is \"likely to prejudice an investigation.\" **(POCA s.333A; JMLSG \u00a76.61)**\n\n## Summary\n\n| Timing | Query from Colleague | Employee's Response |\n|--------|----------------------|-------------------|\n| **Before MLRO report** | \"Is there a problem with this customer's account?\" | **\"I cannot discuss this. Please raise any concerns with the MLRO directly.\"** |\n| **After MLRO report (if MLRO initiates discussion)** | Factual AML evaluation discussion within compliance | **Permitted under POCA s.333B(1)** \u2014 but only for AML evaluation; not to disclose that a SAR has been filed or will be filed |\n\n**Key rule citation:** The employee's pre-report obligation is **POCA s.330**; the permitted intra-firm disclosure window (post-report) is **POCA s.333B(1)**; the tipping-off offence itself is **POCA s.333A**. **(JMLSG \u00a76.18\u20136.23, 6.61, 6.63)**",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "Tipping-off under POCA 2002 s.333A prohibits disclosing that a SAR has been filed or that an investigation is being contemplated or carried out \u2014 but no SAR has been filed yet in this scenario, so s.333A does not technically apply at this moment",
+          "present": true,
+          "note": "The answer explicitly states 'the tipping-off offence under POCA s.333A does not technically apply until a SAR has been filed' and notes no SAR has been filed yet."
+        },
+        {
+          "fact": "However, the failure to disclose offence under POCA 2002 s.330 applies to regulated sector employees \u2014 the employee has an obligation to report to the MLRO as soon as practicable once suspicion arises",
+          "present": true,
+          "note": "The answer clearly references POCA s.330 and states the employee must report 'as soon as is reasonably practicable' to the nominated officer/MLRO."
+        },
+        {
+          "fact": "Once the employee has reported to the MLRO, the intra-firm disclosure exemption under POCA 2002 s.333B(1) permits an employee, officer, or partner to disclose information to another employee, officer, or partner of the same firm \u2014 intra-firm AML compliance discussions are a permitted disclosure, not tipping-off",
+          "present": true,
+          "note": "The answer explicitly covers s.333B(1) and quotes the provision, explaining it permits intra-firm disclosures after the MLRO report."
+        },
+        {
+          "fact": "The employee should not confirm or deny any specific concern to the colleague before reporting to the MLRO \u2014 this avoids any risk that the information reaches the customer before the MLRO has evaluated the position",
+          "present": true,
+          "note": "The answer states the employee should 'avoid disclosing the suspicion' to the colleague and provides a suggested response deflecting the question before MLRO report."
+        },
+        {
+          "fact": "The correct sequence: report to MLRO first, then the intra-firm permitted disclosure carve-out under s.333B(1) allows the discussion to occur within the firm's AML compliance function",
+          "present": true,
+          "note": "The answer's summary table and narrative both clearly sequence: report to MLRO first, then s.333B(1) intra-firm disclosure becomes available."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "POCA 2002 s.330 (failure to disclose)",
+          "present": true
+        },
+        {
+          "citation": "POCA 2002 s.333A (tipping-off offences)",
+          "present": true
+        },
+        {
+          "citation": "POCA 2002 s.333B(1) (intra-firm disclosure exemption)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts and citations with clear explanation of the pre- and post-MLRO report positions, the correct sequencing, and the statutory framework.",
+      "error": null
+    },
+    {
+      "id": "H016",
+      "question": "A cryptoasset firm communicates a direct offer financial promotion (DOFP) to a retail customer. The customer fails the appropriateness assessment on their first attempt and immediately retakes it \u2014 passing on the second try five minutes later. The firm processes the customer's investment. Has the firm complied with PS23/6?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "cryptoassets",
+        "financial-promotions",
+        "appropriateness",
+        "cooling-off",
+        "anti-gaming",
+        "PS23-6"
+      ],
+      "pages_loaded": [
+        "cryptoasset-financial-promotions-framework"
+      ],
+      "pages_missing": [],
+      "answer": "# Compliance Assessment: PS23/6 Appropriateness Retake Scenario\n\n## Answer: **No, the firm has not complied with PS23/6.**\n\n---\n\n## Analysis\n\n### The 24-Hour Lock-Out Rule\n\nPS23/6 \u00a73.50 establishes a mandatory anti-gaming rule requiring a **minimum 24-hour lock-out period** after a consumer fails an appropriateness assessment:\n\n> \"Where an investment is assessed as inappropriate for a consumer, the firm **cannot re-assess the appropriateness of that same investment for the same client for at least 24 hours**. This lock-out applies **from the consumer's second failed attempt onwards**.\"\n\n### Application to Your Scenario\n\nIn your case:\n- The customer **failed** the appropriateness assessment on the first attempt\n- The customer retook the assessment **five minutes later** and passed\n- The firm then **processed the investment**\n\n**The critical issue:** The retake occurred only **5 minutes after the first failure**, not 24 hours later. Even though the customer passed on the second attempt, the firm conducted the reassessment in breach of the mandatory lock-out rule.\n\n### Why the Lock-Out Applies\n\nThe lock-out rule is designed to prevent \"gaming\" \u2014 consumers rapidly cycling through attempts to find the right answers. PS23/6 \u00a73.50 explicitly requires this for anti-gaming purposes and operates as a **minimum standard from the second attempt onwards**. The rule applies whether the reassessment results in a pass or fail.\n\n### Consequence\n\nBy processing the investment after a reassessment conducted outside the 24-hour lock-out window, the firm has:\n\n1. **Failed to comply with PS23/6 \u00a73.50** \u2014 the mandatory appropriateness anti-gaming safeguard\n2. **Proceeded with a DOFP in breach of consumer journey rules** \u2014 the appropriateness assessment was not validly completed in accordance with PS23/6 \u00a7\u00a73.47\u20133.49 read together with \u00a73.50\n\n---\n\n## Conclusion\n\nThe firm **cannot rely on the passing reassessment result** to justify processing the investment, because the reassessment itself was unlawfully conducted. Compliance with PS23/6 requires not only that the final assessment result be appropriate, but that the assessment pathway itself comply with all prescribed procedural requirements \u2014 including the 24-hour lock-out rule.",
+      "fact_score": 0.1667,
+      "citation_score": 0.0,
+      "overall_score": 0.1167,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 the firm has not complied with PS23/6",
+          "present": true,
+          "note": "Clearly stated as the headline conclusion."
+        },
+        {
+          "fact": "After a failed appropriateness assessment, a mandatory 24-hour lock-out applies from the second failed attempt \u2014 but the FCA's anti-gaming rules also require that different questions be used on each attempt",
+          "present": false,
+          "note": "The answer covers the 24-hour lock-out but incorrectly states it applies 'from the second failed attempt onwards' and does not mention the requirement to use different questions on each attempt."
+        },
+        {
+          "fact": "Even if a 24-hour lock-out had not yet triggered, the firm must not encourage customers to retake the assessment and must not disclose the specific answers that were wrong \u2014 only the broad topic areas where the customer failed",
+          "present": false,
+          "note": "The answer does not mention the prohibition on encouraging retakes or the restriction on disclosing specific wrong answers vs. broad topic areas."
+        },
+        {
+          "fact": "Five minutes between attempts strongly suggests the customer was coached or that the same questions were reused \u2014 both are named rule breaches under PS23/6 \u00a7\u00a73.50\u20133.53",
+          "present": false,
+          "note": "The answer mentions anti-gaming generally but does not identify coaching or same-question reuse as specific named breaches, nor does it reference \u00a7\u00a73.51\u20133.53."
+        },
+        {
+          "fact": "For first-time investors with the firm, a mandatory 24-hour cooling-off period also applies from the point the DOFP was communicated \u2014 the time spent on appropriateness assessments counts toward the cooling-off period, so a 5-minute reassessment cannot satisfy the 24-hour cooling-off requirement",
+          "present": false,
+          "note": "The answer makes no mention of the 24-hour cooling-off period for first-time investors or PS23/6 \u00a73.19."
+        },
+        {
+          "fact": "The firm should not have processed the investment: the cooling-off period had not expired and the appropriateness process had not been properly completed",
+          "present": false,
+          "note": "The answer says the firm should not have processed the investment due to the appropriateness breach, but does not address the cooling-off period angle at all."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PS23/6 \u00a7\u00a73.50\u20133.53 (appropriateness anti-gaming rules)",
+          "present": false,
+          "note": "The answer references \u00a73.50 only; \u00a7\u00a73.51\u20133.53 are not cited."
+        },
+        {
+          "citation": "PS23/6 \u00a73.19 (24-hour cooling-off for first-time investors)",
+          "present": false,
+          "note": "\u00a73.19 and the cooling-off concept are not mentioned anywhere in the answer."
+        }
+      ],
+      "summary": "The answer correctly identifies non-compliance and the 24-hour lock-out concept but omits critical elements including the different-questions requirement, the prohibition on coaching/disclosing wrong answers, the first-time investor cooling-off period (\u00a73.19), and fails to cite \u00a7\u00a73.51\u20133.53 or \u00a73.19.",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "run_at": "2026-04-28T10:52:26.442484",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 1,
+  "completed": 1,
+  "errors": 0,
+  "mean_fact_score": 1.0,
+  "mean_citation_score": 1.0,
+  "mean_overall_score": 1.0,
+  "pass_rate": 1.0,
+  "by_difficulty": {
+    "easy": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "medium": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "hard": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "M024",
+      "question": "A cryptoasset firm onboards a new retail customer who wishes to invest. The customer claims to be a self-certified sophisticated investor and provides a signed declaration. Can the firm treat this customer as a sophisticated investor and skip the appropriateness assessment?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "cryptoassets",
+        "financial-promotions",
+        "client-categorisation",
+        "appropriateness",
+        "PS23-6"
+      ],
+      "pages_loaded": [
+        "cryptoasset-financial-promotions-framework"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n**No, the firm cannot treat this customer as a sophisticated investor and must not skip the appropriateness assessment.**\n\n## Key Regulatory Position\n\nThe **self-certified sophisticated investor category has been disapplied for cryptoassets**. Under PS23/6 \u00a73.46:\n\n> \"~~Self-certified sophisticated investor~~ | ~~Not applicable to cryptoassets~~ | **Disapplied** for cryptoassets \u2014 existing criteria are not appropriate proxies for cryptoasset sophistication\"\n\nFor cryptoassets, only **three permitted client categories** are available:\n1. Restricted Investor\n2. High Net Worth Investor  \n3. Certified Sophisticated Investor (certified by an authorised firm \u2014 not self-certified)\n\n## Appropriateness Assessment is Mandatory\n\nCritically, **the appropriateness assessment cannot be skipped for any category**, including High Net Worth or Certified Sophisticated investors:\n\n> \"The specific RMMI must be assessed as appropriate for the consumer **before** an application or order in response to a DOFP can be processed... **This obligation applies to all three permitted client categories \u2014 Restricted Investor, High Net Worth, and Certified Sophisticated \u2014 without exception.**\" **(PS23/6 \u00a7\u00a73.47\u20133.49; COBS 4.12A; COBS 10.2.1)**\n\nThe assessment must determine that the consumer has the necessary experience and knowledge to understand the risks of the **specific** cryptoasset product.\n\n## Consequence\n\nThe firm must:\n1. Reject the \"self-certified sophisticated investor\" claim as inapplicable to cryptoassets\n2. Require the customer to complete **client categorisation** (as Restricted Investor, High Net Worth, or Certified Sophisticated)\n3. Conduct a **mandatory appropriateness assessment** before showing the Direct Offer Financial Promotion, regardless of which category applies\n\n**(PS23/6 \u00a73.49; Key Points for Agents, final bullet point)**",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 the self-certified sophisticated investor category is disapplied for cryptoassets under PS23/6",
+          "present": true,
+          "note": "Answer clearly states the self-certified sophisticated investor category has been disapplied for cryptoassets, citing PS23/6 \u00a73.46"
+        },
+        {
+          "fact": "Only three client categories are available for cryptoasset financial promotions: Restricted Investor, High Net Worth Investor, and Certified Sophisticated Investor (certified by a firm, not self-certified)",
+          "present": true,
+          "note": "Answer explicitly lists all three permitted categories and distinguishes Certified Sophisticated from self-certified"
+        },
+        {
+          "fact": "The self-certified sophisticated investor category was disapplied because the existing criteria (syndicate membership, business angel network membership) are not appropriate proxies for cryptoasset investment sophistication",
+          "present": true,
+          "note": "Answer references that 'existing criteria are not appropriate proxies for cryptoasset sophistication' though does not specify syndicate/business angel network membership criteria explicitly"
+        },
+        {
+          "fact": "A signed self-certification declaration from the customer does not satisfy the Certified Sophisticated Investor category \u2014 that category requires firm-level certification based on the customer's actual knowledge and experience",
+          "present": true,
+          "note": "Answer distinguishes Certified Sophisticated Investor (certified by an authorised firm) from self-certified, making clear the customer's signed declaration is insufficient"
+        },
+        {
+          "fact": "The appropriateness assessment is mandatory for all three permitted categories \u2014 it cannot be skipped even for High Net Worth or Certified Sophisticated customers",
+          "present": true,
+          "note": "Answer explicitly states the obligation applies to all three permitted client categories without exception, including High Net Worth and Certified Sophisticated"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PS23/6 \u00a73.46 (self-certified sophisticated investor disapplied)",
+          "present": true,
+          "note": "PS23/6 \u00a73.46 is cited directly in the answer"
+        },
+        {
+          "citation": "FCA Handbook COBS 4.12A (client categorisation for cryptoassets)",
+          "present": true,
+          "note": "COBS 4.12A is referenced in the answer"
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts including the disapplied self-certified category, the three permitted categories, firm-level certification requirements, and mandatory appropriateness assessment, with all required citations present.",
+      "error": null
+    }
+  ]
+}

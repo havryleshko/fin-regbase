@@ -1,0 +1,227 @@
+{
+  "run_at": "2026-04-28T11:44:48.369798",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 3,
+  "completed": 3,
+  "errors": 0,
+  "mean_fact_score": 0.5166666666666667,
+  "mean_citation_score": 0.7222333333333334,
+  "mean_overall_score": 0.5783333333333333,
+  "pass_rate": 0.0,
+  "by_difficulty": {
+    "easy": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "medium": {
+      "count": 3,
+      "mean_score": 0.5783333333333333
+    },
+    "hard": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 1,
+      "mean_score": 0.675
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 2,
+      "mean_score": 0.53
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "M008",
+      "question": "A lender uses a credit reference agency report when assessing a credit application and then declines the application. What must the lender tell the customer about the credit reference agency under CONC?",
+      "difficulty": "medium",
+      "type": "factual",
+      "tags": [
+        "CONC",
+        "credit-reference-agencies",
+        "consumer-credit"
+      ],
+      "pages_loaded": [
+        "conc2-conduct-of-business-general"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nUnder **CONC 2.4.2R**, where a lender declines a customer's application for credit in whole or in part based on information from a credit reference agency (CRA), the lender must **promptly disclose to the customer** (or to the credit broker for onward transmission to the customer if there is no broker intermediary):\n\n1. **The name and address (including an appropriate email address) of every CRA that was consulted**\n\nThis is a **proactive obligation triggered by the decline** \u2014 it is not conditional on the customer asking. The disclosure must include the CRA's **full contact details** (not merely its name) so that the customer can contact the CRA directly to check and, if necessary, challenge the accuracy of the data held about them.\n\n**Key characteristics of this obligation:**\n\n- It applies whenever a decline decision is based, in whole or in part, on CRA information\n- The lender must provide complete contact information (name, full address, and email), enabling direct customer contact with the CRA\n- The disclosure must be made promptly after the decline decision\n- It applies whether the customer is dealing with the lender directly or via a credit broker (in which case the broker must relay the information to the customer)\n\nThis requirement ensures transparency and gives customers the statutory right to access and challenge the accuracy of their credit file information.",
+      "fact_score": 0.75,
+      "citation_score": 0.5,
+      "overall_score": 0.675,
+      "facts_detail": [
+        {
+          "fact": "on declining a regulated credit agreement, the lender must proactively disclose to the credit broker \u2014 or directly to the customer if there is no credit broker \u2014 the name and address (including an appropriate email address) of any CRA it applied to during negotiations (CONC 2.4.2R)",
+          "present": true,
+          "note": "The answer covers proactive disclosure to credit broker or customer, name and address including email, and references CONC 2.4.2R"
+        },
+        {
+          "fact": "the obligation is triggered by the decline \u2014 it is proactive, not conditional on the customer asking",
+          "present": true,
+          "note": "Answer explicitly states 'This is a proactive obligation triggered by the decline \u2014 it is not conditional on the customer asking'"
+        },
+        {
+          "fact": "the full disclosure is name and address including email, not just the CRA name",
+          "present": true,
+          "note": "Answer explicitly states 'name and address (including an appropriate email address)' and clarifies 'not merely its name'"
+        },
+        {
+          "fact": "quotation searches (pre-application credit checks) must use soft footprints that do not affect the customer's credit file (CONC 2.4.3G)",
+          "present": false,
+          "note": "The answer does not mention soft footprints or quotation searches at all"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CONC 2.4.2R",
+          "present": true
+        },
+        {
+          "citation": "CONC 2.4.3G",
+          "present": false
+        }
+      ],
+      "summary": "The answer accurately covers the core CRA disclosure obligation under CONC 2.4.2R but omits the soft footprint requirement for quotation searches under CONC 2.4.3G entirely.",
+      "error": null
+    },
+    {
+      "id": "M011",
+      "question": "A customer contacts their payment service provider on a Monday reporting an unauthorised debit card payment made the previous Friday that they did not authorise. What is the PSP's refund obligation, and under what single condition may it delay refunding?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "PSR",
+        "unauthorised-transactions",
+        "liability",
+        "payment-services"
+      ],
+      "pages_loaded": [
+        "psr-unauthorised-transaction-liability"
+      ],
+      "pages_missing": [],
+      "answer": "# PSP Refund Obligation for Unauthorised Transactions\n\n## Refund Obligation\n\nThe PSP **must immediately refund** the full amount of the unauthorised debit card payment and restore the account to the position it would have been in had the transaction not occurred.\n\n**Timing:** The refund must be made **no later than the end of the next business day** after the customer notifies the PSP of the unauthorised transaction. **(PSRs 2017 Reg 76)**\n\nIn your scenario, the customer notified the PSP on Monday (the day after the Friday payment). The PSP must therefore refund by the end of Tuesday (the next business day).\n\n## Single Permitted Condition for Delay\n\nThe **only** condition under which the PSP may delay the refund is if it has **objectively reasonable grounds to suspect fraud by the payer** (the customer).\n\nIf this condition is met, the PSP may delay the refund by up to **4 business days**. However, the PSP must:\n\n1. **Notify the customer** of the delay and the reason at the time the refund is withheld\n2. **Notify the FCA** of the delay\n\nIf after the 4-business-day period the PSP cannot substantiate fraud, the refund must be made immediately. **(PSRs 2017 Regs 86(2A)\u2013(2D))**\n\nThe grounds must be **objective and reasonable** \u2014 not merely a general policy of delaying disputed transactions. This is a limited exception, not a discretionary investigation period.",
+      "fact_score": 0.4,
+      "citation_score": 0.6667,
+      "overall_score": 0.48,
+      "facts_detail": [
+        {
+          "fact": "The PSP must refund the full amount of the unauthorised transaction by the end of the next business day after the customer's notification \u2014 the refund obligation is immediate and is not conditional on completing an investigation first",
+          "present": true,
+          "note": "Clearly stated: refund by end of next business day after notification, not conditional on investigation"
+        },
+        {
+          "fact": "The customer's liability is capped at \u00a335 where they failed to keep their personalised security credentials safe but did not act fraudulently or with gross negligence",
+          "present": false,
+          "note": "No mention of the \u00a335 liability cap or the customer's limited liability framework at all"
+        },
+        {
+          "fact": "The PSP may delay the refund by up to 4 business days where it has reasonable grounds to suspect the customer of fraud \u2014 this is the only permitted ground for delay",
+          "present": true,
+          "note": "Explicitly stated as the only permitted ground, with 4 business day limit and objective reasonable grounds requirement"
+        },
+        {
+          "fact": "The burden of proof that the transaction was authorised, or that the customer acted fraudulently or with gross negligence, lies on the PSP \u2014 not the customer",
+          "present": false,
+          "note": "No mention of the burden of proof lying with the PSP"
+        },
+        {
+          "fact": "A customer who fails to notify the PSP within 13 months of the transaction date loses the right to a refund",
+          "present": false,
+          "note": "No mention of the 13-month notification limit"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSRs 2017 reg. 76 (refund obligation)",
+          "present": true
+        },
+        {
+          "citation": "PSRs 2017 reg. 77 (\u00a335 cap)",
+          "present": false
+        },
+        {
+          "citation": "PSRs 2017 reg. 86(2A)\u2013(2D) (4-business-day fraud delay)",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly covers the core refund obligation and the fraud-delay exception with good regulatory detail, but omits the \u00a335 liability cap, burden of proof on the PSP, and the 13-month notification limit.",
+      "error": null
+    },
+    {
+      "id": "M019",
+      "question": "A motor finance customer received a final response letter from their lender in June 2025 about a complaint relating to a discretionary commission arrangement on a pre-2021 agreement. How long does the customer have to refer the complaint to the Financial Ombudsman Service?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "DISP",
+        "motor-finance",
+        "DCA",
+        "FOS",
+        "complaints"
+      ],
+      "pages_loaded": [
+        "disp-app5-motor-finance-dca-complaints",
+        "disp2-fos-jurisdiction"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nBased on the knowledge base provided, **the customer has until 30 July 2026 to refer the complaint to the Financial Ombudsman Service**.\n\n## Reasoning\n\nThe complaint relates to a discretionary commission arrangement (DCA) on a pre-2021 motor finance agreement and received a final response in June 2025. This falls within the extended FOS referral window for DCA complaints.\n\nUnder **DISP App 5.2.2R**, the standard 6-month FOS referral window (DISP 2.8.2R) is modified for DCA complaints. For final responses sent between **30 April 2025 \u2013 29 January 2026**, the modified time limit is **15 months** after the final response.\n\nHowever, for final responses sent between **12 July 2023 \u2013 29 April 2025**, a **fixed deadline of 30 July 2026** applies instead.\n\nSince the final response was sent in **June 2025** (which falls after 29 April 2025), the 15-month extension applies, which would extend the deadline to September 2026. However, this is still before the fixed deadline of **30 July 2026** that would apply to earlier responses.\n\nThe operative deadline is **30 July 2026** as specified in **DISP App 5.2.2R** for DCA complaints receiving final responses in the extended period.\n\nThe final response letter should have included mandatory wording under **DISP App 5.2.11R** informing the customer of this extended deadline and directing them to fca.org.uk/carfinance.",
+      "fact_score": 0.4,
+      "citation_score": 1.0,
+      "overall_score": 0.58,
+      "facts_detail": [
+        {
+          "fact": "The standard FOS referral window of 6 months from the date of the final response letter does not apply to this complaint",
+          "present": true,
+          "note": "The answer explicitly states the standard 6-month FOS referral window is modified for DCA complaints under DISP App 5.2.2R"
+        },
+        {
+          "fact": "Under DISP App 5, the FOS referral window for DCA motor finance complaints sent between 30 April 2025 and 29 January 2026 is extended to 15 months from the date of the final response letter",
+          "present": true,
+          "note": "The answer correctly identifies the 15-month extension for final responses sent between 30 April 2025 \u2013 29 January 2026"
+        },
+        {
+          "fact": "A final response sent in June 2025 falls within the 30 April 2025 \u2013 29 January 2026 bracket \u2014 the 15-month extended window applies, giving the customer 15 months from the date of the final response to refer to the FOS",
+          "present": false,
+          "note": "The answer incorrectly concludes the operative deadline is 30 July 2026 rather than 15 months from June 2025 (approximately September 2026). The reasoning confusingly suggests 30 July 2026 overrides the 15-month window, which is wrong \u2014 the 15-month window gives a later date and should be the correct answer"
+        },
+        {
+          "fact": "The final response letter itself must substitute the standard '6 months' wording with '15 months' throughout \u2014 if the letter used the standard wording, the firm has not complied with DISP App 5.2.11R",
+          "present": false,
+          "note": "The answer mentions mandatory wording under DISP App 5.2.11R but only vaguely references directing customers to fca.org.uk/carfinance. It does not specify the requirement to substitute '6 months' with '15 months' throughout the letter"
+        },
+        {
+          "fact": "Records relating to the complaint must be retained until 11 April 2031 regardless of when the complaint was received or resolved",
+          "present": false,
+          "note": "No mention of the records retention requirement until 11 April 2031"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "DISP App 5.2.2R (extended FOS referral window)",
+          "present": true
+        },
+        {
+          "citation": "DISP App 5.2.11R (mandatory wording substitution)",
+          "present": true
+        },
+        {
+          "citation": "DISP 2.8.2R (standard 6-month rule, disapplied here)",
+          "present": true
+        }
+      ],
+      "summary": "All required citations are present, but the answer reaches the wrong conclusion (30 July 2026 instead of 15 months from June 2025), omits the specific wording substitution requirement under DISP App 5.2.11R, and makes no mention of the records retention deadline of 11 April 2031.",
+      "error": null
+    }
+  ]
+}

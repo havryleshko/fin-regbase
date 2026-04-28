@@ -200,6 +200,7 @@ The firm **must give due consideration** to a reasonable offer of repayment **(C
 
 ## Key Points for Agents
 
+- **DMP as financial difficulty indicator and CPA restriction:** A formal debt management plan (DMP) agreement is **indicator 6** of the seven CONC 1.3.1G financial difficulty indicators. **(CONC 1.3.1G)** Once the firm knows a customer is in a DMP or otherwise in financial difficulties and cannot afford to repay, it **must not exercise CPA rights** — this is a hard rule, not guidance. **(CONC 7.6.7R)** The 30-day debt pursuit suspension (CONC 7.3.11R) applies while a debt counsellor is developing a plan; if the DMP is already signed that window has passed — the ongoing obligations are CPA suspension (CONC 7.6.7R), forbearance, and interest freeze. **(CONC 7.3; CONC 7.6.7R)**
 - Forbearance is a **hard rule obligation** (CONC 7.3.4R), not discretionary. The firm must actively consider and apply appropriate forbearance based on the individual customer's circumstances. Generic policies applied uniformly are insufficient.
 - Once a forbearance repayment arrangement is in place and the customer is meeting it, the firm **must** freeze interest/charges so the debt does not rise (CONC 7.3.5G R). There is no customer request requirement — the obligation is automatic.
 - Mental capacity triggers a **mandatory suspension** of debt pursuit (CONC 7.10.1R). The constructive awareness standard means the firm must act on signs of incapacity, not only formal notification.

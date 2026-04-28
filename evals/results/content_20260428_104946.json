@@ -1,0 +1,165 @@
+{
+  "run_at": "2026-04-28T10:49:46.625691",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 2,
+  "completed": 2,
+  "errors": 0,
+  "mean_fact_score": 0.9,
+  "mean_citation_score": 0.585,
+  "mean_overall_score": 0.8049999999999999,
+  "pass_rate": 0.5,
+  "by_difficulty": {
+    "easy": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "medium": {
+      "count": 2,
+      "mean_score": 0.8049999999999999
+    },
+    "hard": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 1,
+      "mean_score": 0.71
+    },
+    "boundary": {
+      "count": 1,
+      "mean_score": 0.9
+    }
+  },
+  "questions": [
+    {
+      "id": "M012",
+      "question": "An authorised e-money institution plans to use third parties to distribute its e-money products. What is the regulatory difference between using an agent versus a distributor, and why does it matter for FCA registration?",
+      "difficulty": "medium",
+      "type": "boundary",
+      "tags": [
+        "PSR",
+        "EMI",
+        "agents",
+        "distributors",
+        "FCA-registration"
+      ],
+      "pages_loaded": [
+        "agent-distributor-oversight"
+      ],
+      "pages_missing": [],
+      "answer": "# Regulatory Difference Between Agents and Distributors for E-Money Institutions\n\n## Key Distinction: Permission to Provide Payment Services\n\nThe fundamental regulatory difference centres on **permitted scope of activity**:\n\n- **Agents**: Permitted to provide **payment services** on behalf of the EMI. They act as an extension of the authorised firm's regulated activities. **(PSRs 2017 reg. 34; EMRs 2011 reg. 34)**\n\n- **Distributors**: Permitted **only** to distribute and redeem e-money. They are **explicitly prohibited from providing payment services**. **(EMRs 2011 reg. 35; Portfolio letter, March 2023)**\n\nIf a third party used as a distributor also provides payment services, the EMI is in breach of regulation.\n\n---\n\n## FCA Registration vs. Notification\n\nThis scope difference creates different registration requirements:\n\n| | **Agents** | **Distributors** |\n|---|---|---|\n| **FCA Requirement** | **Registration required** | **Notification only** |\n| **Who registers** | The PI/EMI must ensure agents are registered with the FCA **(PSRs 2017 reg. 34; Portfolio letter, March 2023)** | The EMI notifies the FCA of proposed use; individual registration is not required **(EMRs 2011 reg. 35)** |\n| **Regulatory consequence of non-compliance** | Unregistered agents providing payment services = direct breach by the PI/EMI | Failure to notify = breach by the EMI |\n\n---\n\n## Why This Matters for FCA Registration\n\n### 1. **Scope Creep Risk**\nEMIs using \"distributors\" must ensure those parties remain within the narrower distributor scope (distribution and redemption only). If an EMI mistakenly treats an agent as a distributor and fails to register them, the EMI is in breach. Conversely, if a notified distributor begins providing payment services without being registered as an agent, the EMI has allowed a regulatory violation.\n\n### 2. **Due Diligence and Fitness & Propriety**\nFor **agents**, the EMI must satisfy itself that individuals responsible for providing payment services are **fit and proper** and possess **appropriate knowledge and experience**. **(Portfolio letter, March 2023)**\n\nThe registration process is part of this governance. Notification of a distributor carries less onerous initial validation because the distributor's activities are narrower and less complex.\n\n### 3. **Ongoing Monitoring Obligations**\nBoth agents and distributors require **ongoing monitoring** and **all reasonable steps** to ensure compliance. **(Portfolio letter, March 2023)** However, the regulatory burden differs because agent activities (including all payment services) are broader and higher-risk than distributor activities (distribution and redemption only).\n\n### 4. **Named FCA Governance Failure**\nThe Portfolio Letter (March 2023, Cross-Cutting Priority 1) identified **inadequate due diligence and monitoring of agents and distributors as a root cause of governance failures**. The registration/notification distinction ensures the FCA can track and oversee higher-risk agent activity more directly.\n\n---\n\n## Bottom Line\n\nAn EMI planning to use third parties must first determine whether those parties will:\n- **Provide payment services** \u2192 Must be registered as agents (not distributors)\n- **Only distribute/redeem e-money** \u2192 Can operate as notified distributors (lighter-touch FCA engagement)\n\nMisclassification creates a direct regulatory breach by the EMI. The registration requirement for agents reflects their higher-risk, broader scope of activity compared to distributors.",
+      "fact_score": 1.0,
+      "citation_score": 0.67,
+      "overall_score": 0.9,
+      "facts_detail": [
+        {
+          "fact": "Agents of authorised PIs must be individually registered on the FCA Register before they can operate \u2014 the PI/EMI must submit the application and is responsible for the agent's acts and omissions as if they were its own",
+          "present": true,
+          "note": "Answer states agents must be registered with the FCA and the PI/EMI must ensure registration. Responsibility for agent acts is implied but not explicitly stated as 'acts and omissions as if their own'."
+        },
+        {
+          "fact": "Distributors of EMIs do not require individual FCA registration \u2014 the EMI must notify the FCA of its distributors but there is no individual registration requirement for each distributor",
+          "present": true,
+          "note": "Clearly stated: distributors require notification only, not individual registration."
+        },
+        {
+          "fact": "Distributors are prohibited from providing payment services themselves \u2014 they may only distribute or sell the EMI's e-money; they cannot execute payment transactions",
+          "present": true,
+          "note": "Explicitly stated: distributors are 'explicitly prohibited from providing payment services' and may only distribute and redeem e-money."
+        },
+        {
+          "fact": "For PIs: agent model requires FCA registration and creates direct regulatory responsibility on the PI. For EMIs: distributor model requires notification only, and distributors operate outside the payment services perimeter",
+          "present": true,
+          "note": "The answer covers agent registration and distributor notification distinction. The 'outside payment services perimeter' point is implicit in the prohibition on payment services, though not explicitly framed that way."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSRs 2017 reg. 34 (agent registration)",
+          "present": true
+        },
+        {
+          "citation": "EMRs 2011 reg. 35 (distributor notification)",
+          "present": true
+        },
+        {
+          "citation": "FCA Approach Document Chapter 8",
+          "present": false
+        }
+      ],
+      "summary": "The answer is substantively strong, covering all required facts clearly and citing the key regulations, but omits the FCA Approach Document Chapter 8 reference.",
+      "error": null
+    },
+    {
+      "id": "M024",
+      "question": "A cryptoasset firm onboards a new retail customer who wishes to invest. The customer claims to be a self-certified sophisticated investor and provides a signed declaration. Can the firm treat this customer as a sophisticated investor and skip the appropriateness assessment?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "cryptoassets",
+        "financial-promotions",
+        "client-categorisation",
+        "appropriateness",
+        "PS23-6"
+      ],
+      "pages_loaded": [
+        "cryptoasset-financial-promotions-framework"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n**No, the firm cannot treat this customer as a sophisticated investor based on self-certification and must not skip the appropriateness assessment.**\n\n## Key Regulatory Position\n\nThe **self-certified sophisticated investor category has been disapplied for cryptoassets**. According to PS23/6 \u00a73.46:\n\n> \"~~Self-certified sophisticated investor~~ | ~~Not applicable to cryptoassets~~ | **Disapplied** for cryptoassets \u2014 existing criteria are not appropriate proxies for cryptoasset sophistication\"\n\nThe FCA's rationale is explicit: the existing self-certification criteria used for other Restricted Mass Market Investments (RMMIs) are not appropriate proxies for assessing a consumer's sophistication in relation to cryptoassets specifically.\n\n## Available Client Categorisation Categories\n\nFor cryptoassets, only **three categories** are available **(PS23/6 \u00a73.36\u20133.46)**:\n\n1. **Restricted Investor** \u2014 no more than 10% of net assets invested in RMMIs\n2. **High Net Worth Investor** \u2014 annual income \u2265 \u00a3100,000 or net assets \u2265 \u00a3250,000\n3. **Certified Sophisticated Investor** \u2014 certified by an authorised firm (not self-certified)\n\nThe customer's signed self-certification declaration has **no regulatory effect** for cryptoasset DOFPs.\n\n## Appropriateness Assessment is Mandatory\n\nRegardless of the customer's claimed sophistication, the firm **must conduct an appropriateness assessment** before processing the application. This is non-waivable:\n\n> \"The specific RMMI must be assessed as appropriate for the consumer **before** an application or order in response to a DOFP can be processed.\" **(PS23/6 \u00a73.47\u20133.49)**\n\nThe assessment must determine that the consumer \"has the necessary experience and knowledge to understand the risks of the specific product or service\" **(COBS 10.2.1)**.\n\n## Procedure\n\nThe firm must:\n1. Place the customer in one of the three permitted categories through a valid declaration\n2. Conduct the appropriateness assessment for the **specific cryptoasset investment** before processing the order\n3. Ensure the assessment resists gaming under PS23/6 \u00a7\u00a73.50\u20133.53",
+      "fact_score": 0.8,
+      "citation_score": 0.5,
+      "overall_score": 0.71,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 the self-certified sophisticated investor category is disapplied for cryptoassets under PS23/6",
+          "present": true,
+          "note": "Clearly stated in the answer: 'The self-certified sophisticated investor category has been disapplied for cryptoassets' with reference to PS23/6 \u00a73.46"
+        },
+        {
+          "fact": "Only three client categories are available for cryptoasset financial promotions: Restricted Investor, High Net Worth Investor, and Certified Sophisticated Investor (certified by a firm, not self-certified)",
+          "present": true,
+          "note": "Explicitly listed as three categories with correct names and descriptions"
+        },
+        {
+          "fact": "The self-certified sophisticated investor category was disapplied because the existing criteria (syndicate membership, business angel network membership) are not appropriate proxies for cryptoasset investment sophistication",
+          "present": true,
+          "note": "The rationale is stated ('existing criteria are not appropriate proxies for cryptoasset sophistication') but specific examples like syndicate membership or business angel network membership are not mentioned. Core claim is present."
+        },
+        {
+          "fact": "A signed self-certification declaration from the customer does not satisfy the Certified Sophisticated Investor category \u2014 that category requires firm-level certification based on the customer's actual knowledge and experience",
+          "present": true,
+          "note": "Answer states 'certified by an authorised firm (not self-certified)' and 'The customer's signed self-certification declaration has no regulatory effect for cryptoasset DOFPs'"
+        },
+        {
+          "fact": "The appropriateness assessment is mandatory for all three permitted categories \u2014 it cannot be skipped even for High Net Worth or Certified Sophisticated customers",
+          "present": false,
+          "note": "The answer states the appropriateness assessment is mandatory but does not explicitly clarify it applies to ALL THREE categories including High Net Worth and Certified Sophisticated investors \u2014 it only says it is 'non-waivable' generally without specifying it applies equally to HNW and certified sophisticated investors"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PS23/6 \u00a73.46 (self-certified sophisticated investor disapplied)",
+          "present": true
+        },
+        {
+          "citation": "FCA Handbook COBS 4.12A (client categorisation for cryptoassets)",
+          "present": false
+        }
+      ],
+      "summary": "The answer correctly identifies the core regulatory position and most required facts but fails to explicitly confirm the appropriateness assessment is mandatory for all three permitted categories and does not cite COBS 4.12A.",
+      "error": null
+    }
+  ]
+}

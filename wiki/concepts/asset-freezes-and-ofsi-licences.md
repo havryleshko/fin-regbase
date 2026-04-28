@@ -132,6 +132,8 @@ The clear procedure for sanctions breaches should explicitly consider whether a 
 ## Key Points for Agents
 
 - On identifying a designated person, **freeze assets immediately** — the obligation is absolute, with no de minimis and no provisional-proceed mechanism. The only exception is a statutory exception or an OFSI licence obtained in advance.
+- **OFSI reporting timeframe (SAMLA 2018 s.17):** The firm must report the frozen assets to OFSI **within 10 business days** of becoming aware that it holds assets for a designated person. This is a separate obligation from the freeze itself. Do not return funds to the customer or allow the customer to access them pending investigation. **(SAMLA 2018 s.17)**
+- **Past transactions do not reverse the freeze obligation:** A transaction that has already been executed does not eliminate the sanctions freeze obligation on current holdings. Where a firm discovers post-execution that a counterparty was designated, it must act on any assets it currently holds — and must apply dual reporting to OFSI (SAMLA 2018 s.17) and the FCA (SUP 15.3). **(SAMLA 2018 s.17; FCA SUP 15.3)**
 - Failing to freeze, or failing to report a confirmed breach to OFSI, is a potential criminal offence.
 - Breach reporting is a dual obligation: **OFSI** (mandatory on reasonable cause to suspect) **and FCA** (required where the breach reflects a significant systems and controls failure under SUP 15.3.11R(1)).
 - **Investigation completion is not a precondition for FCA notification.** Firms that fully investigate before notifying are getting this wrong. The obligation is triggered at the point of reasonable suspicion. **(FCTR 8)**

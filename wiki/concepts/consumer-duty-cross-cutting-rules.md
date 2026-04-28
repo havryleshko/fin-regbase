@@ -142,6 +142,7 @@ Where the Duty is driven primarily by programme or compliance teams and not disc
 
 ## Key Points for Agents
 
+- **Three cross-cutting rules contained in PRIN 2A (PS22/9):** (1) act in good faith towards retail customers; (2) avoid causing foreseeable harm to retail customers; (3) enable and support retail customers to pursue their financial objectives. All three apply simultaneously. **(PRIN 2A; PS22/9 §5.1)**
 - Three cross-cutting rules: act in good faith; avoid causing foreseeable harm; enable customers to pursue financial objectives. All three apply simultaneously.
 - "Foreseeable harm" includes harm caused through inaction and through a firm's role in the distribution chain — not only direct, active harm.
 - Foreseeable harm is dynamic — firms must monitor complaints, MI and FCA communications to stay current on emerging harms.

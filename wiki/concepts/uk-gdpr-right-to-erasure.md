@@ -114,6 +114,7 @@ Offering restriction is not required — but it may be an appropriate response w
 - Third-party notification is required where data was made publicly available — "reasonable steps" standard, not absolute.
 - Backup and processor systems must also be instructed to erase — live system erasure alone is insufficient.
 - Where Art. 17 cannot be fully satisfied, consider whether restriction (Art. 18) can partially address the individual's concern while the legitimate retention obligation continues.
+- **SAR data and tipping-off risk (POCA 2002 s.333A):** Where an erasure request relates to data that may include a suspicious activity report (SAR), the firm faces a second complication beyond the legal obligation exemption. A firm must not disclose to the customer that a SAR exists or was filed — doing so in the course of responding to the erasure request (e.g., stating "we are retaining this data because an SAR was made") could constitute **tipping-off under POCA 2002 s.333A**. The correct approach is to refuse erasure on legal obligation grounds (Art. 17(3)(b) / MLR 2017 reg. 40), without confirming or denying the existence of any SAR. **(POCA 2002 s.333A; UK GDPR Art. 17(3)(b); MLR 2017 reg. 40)**
 
 ## Related Articles
 

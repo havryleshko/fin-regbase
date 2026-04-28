@@ -176,6 +176,7 @@ Where a customer has multiple accounts with an ASPSP and the PISP or AISP can in
 ## Key Points for Agents
 
 - **ASPSP non-discrimination is mandatory and comprehensive.** Same access, same performance, same authentication methods as direct customer access. No additional consent steps, no commercial refusals.
+- **PISP two hard prohibitions (PSRs 2017 reg. 69; FCA Approach Document Chapter 17):** (1) A PISP must never hold the payer's funds at any point — the payment passes directly from the payer's account to the payee without the PISP taking custody; (2) A PISP must not modify the amount, payee, or any other element of the payment transaction after initiation. These prohibitions are **absolute** — they apply regardless of customer consent and cannot be displaced by agreement. **(PSRs 2017 reg. 69; FCA Approach Document Chapter 17)**
 - **PISP hard restrictions:** no funds holding, no order modification, no excess data access. These are absolute — not just best practice.
 - **AISP 90-day consent reconfirmation** is a legal obligation (PSRs 2017). First access via an AISP always requires SCA, regardless of Art. 10A.
 - **Access denial:** only fraud/unauthorised access grounds permitted; must file **NOT003 immediately** and restore access once grounds no longer exist.

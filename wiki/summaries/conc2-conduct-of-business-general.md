@@ -75,11 +75,13 @@ A lender must take reasonable steps to verify that a credit broker who introduce
 
 ### Disclosure of Credit Reference Agency on Decline
 
-Where a firm declines a customer's application for credit, in whole or in part, on the basis of information from a credit reference agency, the firm must promptly inform the customer that this is the case and give them the name of the credit reference agency that was consulted **(CONC 2.4.2R)**. This enables the customer to contact the CRA and, if necessary, challenge the accuracy of the data.
+Where a firm declines a customer's application for credit, in whole or in part, on the basis of information from a credit reference agency, the firm must promptly disclose this to the **credit broker** (who must then inform the customer), or **directly to the customer** if there is no credit broker. The disclosure must include the **name and address (including an appropriate email address)** of every CRA that was consulted. **(CONC 2.4.2R)** This obligation is **proactive and triggered by the decline** — it is not conditional on the customer asking. The disclosure must include the CRA's full contact details (not just its name) so the customer can contact the CRA to check and, if necessary, challenge the accuracy of the data.
 
 ### Quotation Searches
 
 A firm should ensure that quotation searches — carried out when considering whether to enter into a credit agreement without the customer having made a formal application — do not leave a footprint on the customer's credit file that could adversely affect their credit rating **(CONC 2.4.3G)**. Full application searches that leave a hard footprint should only be conducted when the customer has made a formal application.
+
+**The quotation search and disclosure rules operate together:** when declining a formal application (triggering the CONC 2.4.2R disclosure), firms should also ensure that any prior quotation searches were conducted using soft footprints. Mixing hard footprints at the quotation stage with a decline outcome compounds harm to the customer's credit file.
 
 ---
 
@@ -291,6 +293,7 @@ Where an employee's or agent's activities are monitored by a manager whose own r
 
 ## Key Points for Agents
 
+- **CRA decline disclosure (CONC 2.4.2R):** Where a credit application is declined based on CRA data, the firm must proactively disclose — to the credit broker (for onward transmission to the customer) or directly to the customer if there is no broker — the **name and address (including appropriate email address)** of every CRA consulted. Triggered by the decline; not conditional on the customer asking. Full contact details required, not just the name. **(CONC 2.4.2R)** Additionally: any pre-application credit checks must have used **soft footprints** that do not adversely affect the customer's credit file **(CONC 2.4.3G)** — hard footprint searches are only permitted on a formal application.
 - Pre-ticked boxes and negative-option defaults do not constitute active election for optional products (CONC 2.2.6R). A positive deliberate action by the customer is required.
 - Credit brokers face a 22-item unfair practices catalogue (CONC 2.5.8R). Key hard prohibitions: contacting TPS-registered customers; securing more credit or a worse rate for own benefit; accessing payment accounts without authorisation; passing data to unauthorised firms.
 - HCSTC PCW operators must rank results by total amount payable — not by commercial interests — and must separate search results from promotions (CONC 2.5A).

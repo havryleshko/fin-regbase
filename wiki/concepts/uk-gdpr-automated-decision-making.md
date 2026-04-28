@@ -136,7 +136,7 @@ As a model of best practice, the ICO recommends carrying out a DPIA before comme
 - **Automatic refusal of an online credit application is the ICO's named "similarly significant effect" example** — the most direct fintech application.
 - Three permitted grounds: contract necessity; domestic law authorisation; explicit consent.
 - Special category data: explicit consent or substantial public interest only — this applies **in addition to** (not instead of) the Art. 22(2) ground.
-- Art. 22 processing always requires a DPIA before it begins.
+- **Art. 22 processing always requires a DPIA before it begins (UK GDPR Art. 35(3)(a)).** Automated credit decision systems are named as high-risk processing requiring mandatory DPIA — the obligation arises before deployment, not after. **(UK GDPR Art. 35(3)(a))**
 - Firms must provide meaningful logic information (not a generic AI statement) and a simple human review mechanism.
 - "Solely automated" means no genuine human involvement — rubber-stamping does not qualify as human review.
 - Even where Art. 22 does not apply, profiling remains regulated: lawful basis required, Art. 21 right to object applies, transparency disclosures required, additional safeguards for vulnerable groups.

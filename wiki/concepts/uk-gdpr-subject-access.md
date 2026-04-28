@@ -28,7 +28,14 @@ related:
 
 The right of access under Article 15 of the UK GDPR gives individuals the right to obtain a copy of their personal data and supplementary information. This right is exercised through a subject access request (SAR). It enables individuals to understand how and why their data is being used and to verify that processing is lawful.
 
-The cross-cutting request-handling framework (1-month deadline, verbal requests, manifestly unfounded, excessive, ID verification) applies to SARs in the same way as to all other rights — see [[uk-gdpr-individual-rights-overview]]. This page covers the SAR-specific rules that go beyond that cross-cutting framework.
+The cross-cutting request-handling framework applies to SARs as to all other rights — see [[uk-gdpr-individual-rights-overview]] for full detail. Key obligations:
+
+- **Verbal SARs are fully valid** — a request made by phone, in person, or via social media is as valid as a written request. No specific words, form, or named contact required. **(UK GDPR Art. 15)**
+- **Response deadline: one calendar month** from receipt. **(UK GDPR Art. 12(3))** The ICO recommends targeting 28 days to allow time for review before the deadline. Extension to three months is available for complex or numerous requests, but the individual must be informed within the first month.
+- **Clarification may pause the clock** — but only where the controller processes a large volume of data and the scope is genuinely unclear. The clock pauses from when clarification is requested until it is received. This is not a routine step; it cannot be used to delay processing routinely.
+- **SAR response must include two things:** (a) a copy of all personal data; and (b) **supplementary information equivalent to Art. 13/14 privacy notice content** (purposes, legal basis, retention periods, rights, right to complain to ICO, existence of automated decision-making).
+
+This page covers the SAR-specific rules that go beyond that cross-cutting framework.
 
 **Source note:** The ICO's detailed sub-pages on SAR mechanics (identity verification, conducting searches, each DPA 2018 exemption in detail, format/security of delivery, special cases for credit, health, and educational data) have not been ingested. Where sub-page detail is needed, the ICO's full subject access guidance should be consulted.
 
@@ -208,7 +215,8 @@ Detailed guidance for each special case is in ICO sub-page guidance (not yet ing
 
 ## Key Points for Agents
 
-- A SAR is valid verbally, in writing, or via social media — no legal language, specific form, or named contact required. Any employee may receive a valid SAR.
+- A SAR is valid verbally (including by phone), in writing, or via social media — no legal language, specific form, or named contact required. Any employee may receive a valid SAR. **(UK GDPR Art. 15)**
+- **Response deadline: one calendar month** from receipt of the request. **(UK GDPR Art. 12(3))** The ICO recommends targeting 28 days to allow time for review. Extension to three months is available for complex or numerous requests, but the individual must be informed within the first month.
 - **Third-party SARs:** The third party must provide evidence of their authority — the burden is on them. Do not respond before verifying authority.
 - **Child SARs:** Competence-based — respond directly to the child if they understand their rights. Parent can only act with child's authorisation or where evidently in the child's best interests.
 - **Clarification pause:** Where large volumes of data make the scope unclear, the clock can be paused (not merely extended) pending clarification. Supplementary information must still be provided within 1 month.

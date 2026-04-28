@@ -36,7 +36,7 @@ Agents provide **payment services** on behalf of a PI or EMI. They act as an ext
 
 ### Registration Requirement
 
-**It is the responsibility of the PI or EMI to ensure that its agents are registered with the FCA.** Agents cannot provide payment services on behalf of a PI or EMI without being on the FCA Register. **(Portfolio letter, March 2023)**
+**It is the responsibility of the PI or EMI to ensure that its agents are registered with the FCA.** Agents cannot provide payment services on behalf of a PI or EMI without being on the FCA Register. **(PSRs 2017 reg. 34; Portfolio letter, March 2023)**
 
 The registration process requires the PI or EMI to submit agent details to the FCA. Unregistered agents providing payment services create a direct regulatory breach by the PI or EMI.
 
@@ -71,7 +71,7 @@ EMI distributors **distribute and redeem e-money** on behalf of an EMI. This is 
 
 ### Notification Requirement (Not Registration)
 
-Unlike agents, **individual distributors do not need to be registered with the FCA**. However, EMIs must **identify their proposed use of distributors to the FCA** — notification rather than registration. **(Portfolio letter, March 2023)**
+Unlike agents, **individual distributors do not need to be registered with the FCA**. However, EMIs must **identify their proposed use of distributors to the FCA** — notification rather than registration. **(EMRs 2011 reg. 35; Portfolio letter, March 2023)**
 
 ### Responsibility for Distributor Conduct
 
@@ -124,10 +124,10 @@ Where agents or distributors interact with retail customers, those interactions 
 
 ## Key Points for Agents
 
-- Agents provide payment services on behalf of a PI/EMI and must be registered with the FCA — it is the PI/EMI's responsibility to ensure registration, not the agent's.
-- Distributors distribute and redeem e-money only — they cannot provide payment services. EMIs must notify the FCA of proposed use of distributors; individual registration is not required.
+- Agents provide payment services on behalf of a PI/EMI and must be registered with the FCA — it is the PI/EMI's responsibility to ensure registration, not the agent's. **(PSRs 2017 reg. 34)**
+- Distributors distribute and redeem e-money only — they cannot provide payment services. EMIs must notify the FCA of proposed use of distributors; individual registration is not required. **(EMRs 2011 reg. 35)**
 - The PI/EMI is responsible for anything done or omitted by its agents and distributors — there is no pass-through of regulatory liability.
-- Due diligence at onboarding and ongoing monitoring are both mandatory. Inadequate monitoring is a named FCA governance failure.
+- Due diligence at onboarding and ongoing monitoring are both mandatory. Inadequate monitoring is a named FCA governance failure. **(FCA Approach Document Chapter 8)**
 - All agent/distributor communications promoting regulated activities must be fair, clear, not misleading, and identify the authorised firm.
 
 ## Related Articles

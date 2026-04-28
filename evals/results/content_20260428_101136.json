@@ -1,0 +1,1084 @@
+{
+  "run_at": "2026-04-28T10:11:36.505728",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 18,
+  "completed": 18,
+  "errors": 0,
+  "mean_fact_score": 0.8145388888888889,
+  "mean_citation_score": 0.7500166666666667,
+  "mean_overall_score": 0.7951777777777778,
+  "pass_rate": 0.6111111111111112,
+  "by_difficulty": {
+    "easy": {
+      "count": 18,
+      "mean_score": 0.7951777777777778
+    },
+    "medium": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "hard": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 18,
+      "mean_score": 0.7951777777777778
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "E001",
+      "question": "What is the exact mandatory risk warning that must appear on all high-cost short-term credit financial promotions?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "CONC",
+        "HCSTC",
+        "financial-promotions"
+      ],
+      "pages_loaded": [
+        "conc3-financial-promotions"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nAccording to **CONC 3.4.1R**, the exact mandatory risk warning that must appear on all high-cost short-term credit (HCSTC) financial promotions is:\n\n> **\"Warning: Late repayment can cause you serious money problems. For help, go to moneyhelper.org.uk\"**\n\n**Key requirements:**\n\n- The warning must be **verbatim** \u2014 there is no option to paraphrase or abbreviate\n- It must be displayed **prominently** (defined in CONC 3.2.1G as drawing the attention of an average customer)\n- The MoneyHelper logo is an approved alternative to the verbatim text\n- The requirement applies to **all media** \u2014 digital, print, outdoor, and broadcast\n\nThis rule applies to all financial promotions for high-cost short-term credit, including payday loans.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "Warning: Late repayment can cause you serious money problems. For help, go to moneyhelper.org.uk",
+          "present": true,
+          "note": "Exact verbatim warning text is quoted correctly in the answer."
+        },
+        {
+          "fact": "verbatim \u2014 no paraphrase permitted",
+          "present": true,
+          "note": "Answer explicitly states 'The warning must be verbatim \u2014 there is no option to paraphrase or abbreviate'."
+        },
+        {
+          "fact": "must be prominent",
+          "present": true,
+          "note": "Answer states it must be displayed prominently and references CONC 3.2.1G definition."
+        },
+        {
+          "fact": "MoneyHelper logo is an approved alternative to the verbatim text",
+          "present": true,
+          "note": "Answer explicitly states 'The MoneyHelper logo is an approved alternative to the verbatim text'."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CONC 3.4.1R",
+          "present": true
+        }
+      ],
+      "summary": "The answer is complete and accurate, covering all required facts including the exact warning text, verbatim requirement, prominence, and MoneyHelper logo alternative, with correct citation to CONC 3.4.1R.",
+      "error": null
+    },
+    {
+      "id": "E002",
+      "question": "What is the TEXAS model and what does each letter stand for?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "vulnerable-customers",
+        "Consumer-Duty",
+        "FG21-1"
+      ],
+      "pages_loaded": [
+        "vulnerable-customers"
+      ],
+      "pages_missing": [],
+      "answer": "# TEXAS Model\n\nThe **TEXAS model** is the FCA-endorsed staff protocol for handling consumer vulnerability disclosures while meeting GDPR requirements. **(FG21/1 \u00a73.18)**\n\nEach letter stands for:\n\n| Letter | Word | Requirement |\n|--------|------|------------|\n| **T** | Thank | Thank the customer for their disclosure |\n| **E** | Explain | Explain how the disclosed information will be used |\n| **X** | eXplicit consent / cheXks | Either seek explicit consent OR check whether the customer objects to data processing |\n| **A** | Ask | Ask questions to understand the situation and needs better |\n| **S** | Signpost | Signpost to internal support or external specialist services |\n\n## Key Point on the \"X\" Step\n\nThe \"X\" step does not require explicit consent as the default \u2014 consent may not be appropriate in all circumstances. Firms must identify the most suitable Article 6 lawful basis under the UK GDPR and, where health or other special category data is involved, an Article 9 condition. The key requirement is **transparency about how the information will be used**. **(FG21/1 \u00a73.20)**\n\nThe TEXAS model directly addresses the Consumer Duty's consumer support obligation by enabling vulnerable consumers to disclose their needs and allowing the firm to record, retrieve and act on that information.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "T \u2014 Thank the customer for their disclosure",
+          "present": true,
+          "note": "Clearly stated in the table."
+        },
+        {
+          "fact": "E \u2014 Explain how the disclosed information will be used",
+          "present": true,
+          "note": "Clearly stated in the table."
+        },
+        {
+          "fact": "X \u2014 eXplicit consent or cheXks (check whether the customer objects to data processing)",
+          "present": true,
+          "note": "Both variants mentioned in the table and explained further."
+        },
+        {
+          "fact": "A \u2014 Ask questions to understand the situation and needs better",
+          "present": true,
+          "note": "Clearly stated in the table."
+        },
+        {
+          "fact": "S \u2014 Signpost to internal support or external specialist services",
+          "present": true,
+          "note": "Clearly stated in the table."
+        },
+        {
+          "fact": "FCA-endorsed staff protocol for handling vulnerability disclosures in a GDPR-compliant manner",
+          "present": true,
+          "note": "Described as 'FCA-endorsed staff protocol for handling consumer vulnerability disclosures while meeting GDPR requirements'."
+        },
+        {
+          "fact": "explicit consent is not always required \u2014 the X step permits checking for objection as an alternative",
+          "present": true,
+          "note": "Explicitly addressed in the 'Key Point on the X Step' section."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "FG21/1 \u00a73.18",
+          "present": true
+        }
+      ],
+      "summary": "The answer comprehensively covers all required facts including the nuanced X step explanation and correctly cites FG21/1 \u00a73.18.",
+      "error": null
+    },
+    {
+      "id": "E003",
+      "question": "What are the three cross-cutting rules under the FCA Consumer Duty and which provision contains them?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "Consumer-Duty",
+        "cross-cutting-rules"
+      ],
+      "pages_loaded": [
+        "consumer-duty-cross-cutting-rules"
+      ],
+      "pages_missing": [],
+      "answer": "# The Three Cross-Cutting Rules Under the FCA Consumer Duty\n\nThe three cross-cutting rules are contained in **PS22/9 \u00a75.1** and are:\n\n1. **Act in good faith towards retail customers**\n2. **Avoid causing foreseeable harm to retail customers**\n3. **Enable and support retail customers to pursue their financial objectives**\n\nThese rules are set out in **PS22/9 \u00a75.1\u2013\u00a75.15** and define the standard of conduct firms must meet across all activity within scope of the Consumer Duty. They apply at both target market and individual customer level, depending on the context **(PS22/9 \u00a75.15)**.",
+      "fact_score": 0.75,
+      "citation_score": 0.5,
+      "overall_score": 0.675,
+      "facts_detail": [
+        {
+          "fact": "act in good faith towards retail customers",
+          "present": true,
+          "note": "Explicitly stated as first cross-cutting rule"
+        },
+        {
+          "fact": "avoid causing foreseeable harm to retail customers",
+          "present": true,
+          "note": "Explicitly stated as second cross-cutting rule"
+        },
+        {
+          "fact": "enable and support retail customers to pursue their financial objectives",
+          "present": true,
+          "note": "Explicitly stated as third cross-cutting rule"
+        },
+        {
+          "fact": "contained in PRIN 2A",
+          "present": false,
+          "note": "The answer references PS22/9 \u00a75.1 but does not mention PRIN 2A, which is the actual rulebook provision containing the cross-cutting rules"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PRIN 2A",
+          "present": false
+        },
+        {
+          "citation": "PS22/9",
+          "present": true
+        }
+      ],
+      "summary": "All three cross-cutting rules are correctly identified, but the answer fails to reference PRIN 2A as the key regulatory provision containing the rules, instead only citing the policy statement PS22/9.",
+      "error": null
+    },
+    {
+      "id": "E004",
+      "question": "Under CONC, how many CPA payment attempts may a firm make under an HCSTC agreement before it is prohibited from making further attempts, and what resets the count?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "CONC",
+        "HCSTC",
+        "CPA"
+      ],
+      "pages_loaded": [
+        "conc-cpa-rules"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nUnder CONC, a firm may make **two CPA payment attempts** under an HCSTC agreement before it is prohibited from making further attempts **(CONC 7.6.12R(1))**.\n\nThe count resets in the following circumstances:\n\n1. **Upon Forbearance**: If the firm exercises forbearance, any refusal that took place before the forbearance was granted is **disregarded**, effectively resetting the count **(CONC 7.6.12R(3)(b))**.\n\n2. **Upon Refinancing with Express Consent**: After two refused attempts, if the firm contacts the customer and the customer gives **express consent to further CPA requests following a refinance**, the count resets **(CONC 7.6.12R(5))**.\n\n**Important Note**: For HCSTC agreements that provide for repayment in instalments, **CONC 7.6.13R** applies instead of CONC 7.6.12R. In those cases, the two-strike rule applies **per specific instalment**, meaning after two refused attempts to collect a particular instalment, no further CPA requests may be made for that instalment\u2014or any other instalment under the agreement\u2014unless the customer gives express consent following contact from the firm **(CONC 7.6.13R)**.",
+      "fact_score": 0.75,
+      "citation_score": 1.0,
+      "overall_score": 0.825,
+      "facts_detail": [
+        {
+          "fact": "two refused CPA attempts \u2014 after two refusals the firm must not make a further CPA request",
+          "present": true,
+          "note": "Clearly stated: 'a firm may make two CPA payment attempts...before it is prohibited from making further attempts'"
+        },
+        {
+          "fact": "refinanced HCSTC agreements are treated as the same agreement for counting purposes",
+          "present": false,
+          "note": "The answer mentions express consent following a refinance resets the count, but does not state that refinanced agreements are treated as the same agreement for counting purposes \u2014 this is the opposite implication"
+        },
+        {
+          "fact": "forbearance resets the count \u2014 refusals that occurred before forbearance was granted are disregarded",
+          "present": true,
+          "note": "Explicitly stated: 'If the firm exercises forbearance, any refusal that took place before the forbearance was granted is disregarded, effectively resetting the count'"
+        },
+        {
+          "fact": "express consent after firm contact can reset the count, but only following a refinance",
+          "present": true,
+          "note": "Stated under point 2: 'if the firm contacts the customer and the customer gives express consent to further CPA requests following a refinance, the count resets'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CONC 7.6.12R",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly identifies the two-attempt limit, forbearance reset, and express consent mechanism, but misses the key point that refinanced HCSTC agreements are treated as the same agreement for counting purposes (rather than implying refinancing can reset the count).",
+      "error": null
+    },
+    {
+      "id": "E005",
+      "question": "What percentage of UK adults had characteristics of vulnerability in February 2020, and how does the FCA use this statistic in supervisory work?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "vulnerable-customers",
+        "Consumer-Duty"
+      ],
+      "pages_loaded": [
+        "vulnerable-customers",
+        "vulnerability-drivers-and-taxonomy"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n## Percentage of UK Adults with Vulnerability Characteristics\n\n**46% of UK adults (24.1 million people) had characteristics of vulnerability in February 2020.** This rose to 53% by October 2020, reflecting the pandemic's effects. **(FG21/1 \u00a72.7)**\n\n## How the FCA Uses This Statistic in Supervisory Work\n\nThe FCA uses this population baseline data as a **supervisory challenge tool** to scrutinise firms' vulnerability identification practices.\n\nIn the February 2024 implementation review, the FCA found that wealth management and stockbroking firms reported identifying **no vulnerable customers at all** in their client bases (49% of portfolio managers and 69% of stockbrokers). The FCA explicitly cited the 46\u201353% population baseline when challenging this finding, stating:\n\n> \"statistically 50% of people will be classed as vulnerable at some point\"\n\nThe FCA considers it **implausible that firms have no vulnerable customers** when the population baseline demonstrates that approximately half of all UK adults have characteristics of vulnerability. Firms reporting near-zero vulnerability identification are therefore subject to **direct supervisory scrutiny**. **(FCA implementation review, February 2024)**\n\nThis represents a key supervisory red line: the FCA will not accept firms' claims of having identified negligible vulnerable customers without robust explanation, as such claims are inconsistent with the established population prevalence data.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "46% of UK adults in February 2020",
+          "present": true,
+          "note": "Explicitly stated: '46% of UK adults (24.1 million people) had characteristics of vulnerability in February 2020'"
+        },
+        {
+          "fact": "rose to 53% by October 2020, reflecting the pandemic",
+          "present": true,
+          "note": "Explicitly stated: 'This rose to 53% by October 2020, reflecting the pandemic's effects'"
+        },
+        {
+          "fact": "FCA uses this population baseline to challenge firms that report identifying near-zero vulnerable customers",
+          "present": true,
+          "note": "Clearly explained with specific examples of firms reporting no vulnerable customers and the FCA's supervisory challenge citing the population baseline"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "FG21/1 \u00a72.7",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts with specific detail and correctly citing FG21/1 \u00a72.7.",
+      "error": null
+    },
+    {
+      "id": "E006",
+      "question": "What are the three conditions that make a credit card customer 'at risk of financial difficulties' under CONC 6.7.11G, triggering the credit limit and interest rate freeze obligations?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "CONC",
+        "consumer-credit",
+        "financial-difficulties",
+        "credit-cards"
+      ],
+      "pages_loaded": [
+        "conc-financial-difficulty-indicators",
+        "conc6-post-contractual-requirements"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nBased on CONC 6.7.11G, the three conditions that make a credit card customer **'at risk of financial difficulties'** \u2014 triggering the credit limit freeze obligation (CONC 6.7.7R) and the interest rate freeze obligation (CONC 6.7.10R) \u2014 are:\n\n| Condition | Citation |\n|-----------|----------|\n| The customer is **in arrears of two or more consecutive payments** | CONC 6.7.11G |\n| The firm has **agreed a repayment arrangement** with the customer | CONC 6.7.11G |\n| The customer is in **serious discussion** about a debt management plan | CONC 6.7.11G |\n\n**Key Points:**\n\n- These are alternative conditions \u2014 **one or more** must apply to trigger the freeze obligations. *(CONC 6.7.11G)*\n- The arrears condition requires **consecutive** payments to be missed (not cumulative misses separated in time).\n- The repayment arrangement condition covers **any formal arrangement**, not limited to debt management plans (DMPs).\n- The DMP condition applies to **pre-DMP discussions** \u2014 firms do not need to wait for a formal debt solution agreement to be in place.\n\nThis \"at risk of financial difficulties\" threshold in CONC 6.7.11G is **narrower and more prescriptive** than the general financial difficulty indicators in CONC 1.3.1G \u2014 it is a binary trigger for specific product-level protections (credit limit and interest rate freeze) on credit cards and retail revolving credit.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "in arrears of two or more consecutive payments",
+          "present": true,
+          "note": "Explicitly stated as 'in arrears of two or more consecutive payments'"
+        },
+        {
+          "fact": "the firm has agreed a repayment arrangement with the customer",
+          "present": true,
+          "note": "Stated as 'The firm has agreed a repayment arrangement with the customer'"
+        },
+        {
+          "fact": "the customer is in serious discussion about a debt management plan",
+          "present": true,
+          "note": "Stated as 'The customer is in serious discussion about a debt management plan'"
+        },
+        {
+          "fact": "one or more of these three conditions is sufficient \u2014 not all three are required",
+          "present": true,
+          "note": "Explicitly stated: 'These are alternative conditions \u2014 one or more must apply to trigger the freeze obligations'"
+        },
+        {
+          "fact": "this definition is distinct from and narrower than the general CONC 1.3.1G seven-indicator list",
+          "present": true,
+          "note": "Explicitly stated: 'This at risk of financial difficulties threshold in CONC 6.7.11G is narrower and more prescriptive than the general financial difficulty indicators in CONC 1.3.1G'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CONC 6.7.11G",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, correctly identifying all three conditions, their alternative (not cumulative) nature, the relevant citation, and the distinction from the broader CONC 1.3.1G indicators.",
+      "error": null
+    },
+    {
+      "id": "E007",
+      "question": "What eight elements must a representative example in a consumer credit financial promotion contain under CONC, and how must they be presented?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "CONC",
+        "financial-promotions",
+        "representative-example",
+        "APR"
+      ],
+      "pages_loaded": [
+        "conc-representative-example-apr",
+        "conc3-financial-promotions"
+      ],
+      "pages_missing": [],
+      "answer": "# Eight Mandatory Elements of a Representative Example Under CONC\n\nUnder **CONC 3.5.5R**, a representative example in a consumer credit financial promotion must contain all of the following eight elements:\n\n| # | Element |\n|---|---|\n| 1 | **Rate of interest** (stating whether fixed or variable) |\n| 2 | **Other charges** included in the total charge for credit |\n| 3 | **Total amount of credit** |\n| 4 | **Representative APR** |\n| 5 | **Cash price and amount of any advance payment** (for purchase promotions) |\n| 6 | **Duration** of the agreement |\n| 7 | **Total amount payable** |\n| 8 | **Amount of each repayment** (where available) |\n\n## Presentation Requirements\n\nThe elements must be presented as follows **(CONC 3.5.5R)**:\n\n- **Equal prominence:** All eight elements must be given **equal prominence** \u2014 no single element may be visually subordinated to others within the example.\n\n- **Clear labelling:** The example must be clearly labelled **\"representative example\"**.\n\n- **No less prominence than other cost information:** The example must be given **no less prominence** than any other cost information in the promotion.\n\n- **No less prominence than incentives:** The example must be given **no less prominence** than any incentive to apply (gifts, discounts, offers, or emphasis on speed/ease of application).",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "rate of interest \u2014 stating whether fixed or variable",
+          "present": true,
+          "note": "Explicitly stated as 'Rate of interest (stating whether fixed or variable)'"
+        },
+        {
+          "fact": "any other charges included in the total charge for credit",
+          "present": true,
+          "note": "Listed as 'Other charges included in the total charge for credit'"
+        },
+        {
+          "fact": "total amount of credit",
+          "present": true,
+          "note": "Explicitly listed as element 3"
+        },
+        {
+          "fact": "representative APR",
+          "present": true,
+          "note": "Explicitly listed as element 4"
+        },
+        {
+          "fact": "cash price and amount of any advance payment (purchase promotions)",
+          "present": true,
+          "note": "Listed as element 5 with the purchase promotions qualifier"
+        },
+        {
+          "fact": "duration of the agreement",
+          "present": true,
+          "note": "Explicitly listed as element 6"
+        },
+        {
+          "fact": "total amount payable",
+          "present": true,
+          "note": "Explicitly listed as element 7"
+        },
+        {
+          "fact": "amount of each repayment",
+          "present": true,
+          "note": "Listed as element 8 with 'where available' qualifier"
+        },
+        {
+          "fact": "all eight elements must be given equal prominence",
+          "present": true,
+          "note": "Explicitly stated under presentation requirements"
+        },
+        {
+          "fact": "labelled 'representative example'",
+          "present": true,
+          "note": "Stated as 'clearly labelled representative example'"
+        },
+        {
+          "fact": "given no less prominence than any other cost information or any incentive to apply",
+          "present": true,
+          "note": "Both sub-points covered: no less prominence than other cost information and no less prominence than incentives to apply"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CONC 3.5.5R",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all eleven required facts with correct detail and properly citing CONC 3.5.5R throughout.",
+      "error": null
+    },
+    {
+      "id": "E008",
+      "question": "What is the minimum monthly repayment that a credit card lender must ensure a customer makes each month under CONC, and what happens if the lender sets a lower minimum?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "CONC",
+        "consumer-credit",
+        "credit-cards",
+        "minimum-repayment"
+      ],
+      "pages_loaded": [
+        "conc6-post-contractual-requirements"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nUnder CONC 6.7.5R, the minimum monthly repayment that a credit card lender must ensure a customer makes each month is:\n\n> **All interest + all fees + all charges applied to the account in the period, plus 1% of the amount outstanding.**\n\n## What happens if the lender sets a lower minimum?\n\nThe knowledge base does not explicitly state the consequences of setting a minimum repayment lower than the CONC 6.7.5R floor. However, the rule is expressed as a hard obligation (\"**must be an amount that covers, at minimum**\"), indicating that lenders are prohibited from structuring minimum payments below this level.\n\nThe **purpose** of the rule is stated in the knowledge base: it prevents minimum payment levels that cover only interest without touching principal, which would extend debt indefinitely and increase the total cost of credit. Setting a lower minimum would directly contravene this structural prohibition and constitute a breach of CONC 6.7.5R.\n\nThe knowledge base does not provide specific enforcement consequences (e.g., FCA action, customer remedies, or redress mechanisms) for breaches of CONC 6.7.5R, so those cannot be cited from the provided content.",
+      "fact_score": 0.75,
+      "citation_score": 1.0,
+      "overall_score": 0.825,
+      "facts_detail": [
+        {
+          "fact": "all interest, fees and charges applied to the account in the period, plus 1% of the total amount outstanding",
+          "present": true,
+          "note": "The answer explicitly states 'All interest + all fees + all charges applied to the account in the period, plus 1% of the amount outstanding'"
+        },
+        {
+          "fact": "the 1% applies to the total outstanding balance \u2014 not the principal component only",
+          "present": false,
+          "note": "The answer says '1% of the amount outstanding' but does not clarify that this means the total outstanding balance (not just the principal component). This distinction is not explicitly addressed."
+        },
+        {
+          "fact": "this is a floor \u2014 the lender must not set a contractual minimum below this amount",
+          "present": true,
+          "note": "The answer clearly states the rule is a 'hard obligation' and that 'lenders are prohibited from structuring minimum payments below this level'"
+        },
+        {
+          "fact": "the obligation prevents minimum payment structures that service interest only without reducing the balance",
+          "present": true,
+          "note": "The answer explicitly states the purpose 'prevents minimum payment levels that cover only interest without touching principal, which would extend debt indefinitely'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CONC 6.7.5R",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly identifies the minimum repayment formula and regulatory purpose but does not explicitly clarify that the 1% applies to the total outstanding balance rather than just the principal component.",
+      "error": null
+    },
+    {
+      "id": "E009",
+      "question": "What are the two methods by which an authorised payment institution or e-money institution may safeguard relevant funds, and what is the key documentation requirement specific to the segregation method?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "PSR",
+        "EMI",
+        "safeguarding",
+        "payment-institutions"
+      ],
+      "pages_loaded": [
+        "safeguarding-pis-emis"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nBased on the knowledge base, the two methods by which an authorised payment institution or e-money institution may safeguard relevant funds are:\n\n## 1. **Segregation Method**\nRelevant funds must be placed in a segregated account held with:\n- A credit institution (bank)\n- A central bank\n- An authorised e-money institution\n\n## 2. **Insurance/Comparable Guarantee Method**\nFunds may be covered by an insurance policy or comparable guarantee from an insurance undertaking or credit institution that is not the same as the firm.\n\n---\n\n## Key Documentation Requirement for Segregation\n\nThe specific documentation requirement for the **segregation method** is that the firm must obtain a **written acknowledgement of segregation** from the credit institution. This acknowledgement must confirm:\n\n1. The institution understands the account holds relevant funds belonging to customers\n2. The funds are separate from the firm's own funds\n3. **The institution will not set off claims it holds against the firm against balances in the account**\n\nAs stated in the knowledge base:\n\n> \"Failure to obtain this acknowledgement \u2014 or failure to perform appropriate due diligence on the institution holding the account \u2014 is a named FCA compliance failure.\" **(Approach Document Ch. 10; Portfolio letter, March 2023)**\n\nThis acknowledgement letter is essential because, as noted in the common failures table, without it the segregation claim is \"not evidenced against the account-holder\" and the account-holder may set off claims against the firm, providing only partial protection.",
+      "fact_score": 0.1667,
+      "citation_score": 0.3333,
+      "overall_score": 0.2167,
+      "facts_detail": [
+        {
+          "fact": "Method 1 (segregation): relevant funds must be deposited in a dedicated safeguarding account at a credit institution, kept separate from the firm's own funds, OR invested in secure, liquid, low-risk assets",
+          "present": false,
+          "note": "The answer mentions segregation in a credit institution but does not mention the alternative of investing in secure, liquid, low-risk assets as part of the segregation method."
+        },
+        {
+          "fact": "The credit institution holding the safeguarding account must provide a written acknowledgement confirming that the funds are held separately from the firm's own funds and cannot be used to meet the firm's liabilities",
+          "present": true,
+          "note": "The answer clearly describes the written acknowledgement requirement, including that the institution will not set off claims against balances in the account."
+        },
+        {
+          "fact": "Method 2 (insurance or comparable guarantee): relevant funds must be covered by an insurance policy or comparable guarantee from an authorised insurer or credit institution that is not in the same group as the PI or EMI",
+          "present": false,
+          "note": "The answer mentions the insurance/comparable guarantee method and notes it must not be 'the same as the firm' but does not specify 'not in the same group' \u2014 this is a meaningful distinction that is absent."
+        },
+        {
+          "fact": "Daily reconciliation of safeguarded funds is required regardless of which method is used",
+          "present": false,
+          "note": "No mention of daily reconciliation requirements in the answer."
+        },
+        {
+          "fact": "An annual independent safeguarding audit is required",
+          "present": false,
+          "note": "No mention of an annual independent safeguarding audit in the answer."
+        },
+        {
+          "fact": "In insolvency, the safeguarded asset pool has priority for distribution to payment service users ahead of other creditors",
+          "present": false,
+          "note": "No mention of insolvency priority or distribution to payment service users in the answer."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSRs 2017 reg. 23",
+          "present": false
+        },
+        {
+          "citation": "EMRs 2011 reg. 21",
+          "present": false
+        },
+        {
+          "citation": "FCA Approach Document Chapter 10",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly identifies the written acknowledgement requirement for the segregation method but is significantly incomplete, missing the secure asset investment alternative, the same-group restriction for insurance, daily reconciliation, annual audit requirements, and insolvency priority, and also lacks most required regulatory citations.",
+      "error": null
+    },
+    {
+      "id": "E010",
+      "question": "Under the Payment Services Regulations 2017, what two things is a payment initiation service provider strictly prohibited from doing when executing a payment on behalf of a customer?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "PSR",
+        "PISP",
+        "open-banking",
+        "payment-services"
+      ],
+      "pages_loaded": [
+        "psr-open-banking-pisp-aisp"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nUnder the Payment Services Regulations 2017, a payment initiation service provider (PISP) is strictly prohibited from doing the following two things when executing a payment on behalf of a customer:\n\n1. **Coming into possession of the customer's funds** \u2014 A PISP must not, at any point in the execution of a payment order, come into possession of the payment service user's funds. **(PSRs 2017 Reg 69)**\n\n2. **Modifying the payment order** \u2014 A PISP cannot modify the amount, payee, or any other element of a payment order after the customer has initiated it. **(PSRs 2017 Reg 69)**\n\nThese are described in the knowledge base as \"hard restrictions\" and represent absolute prohibitions, not merely best practice guidance.",
+      "fact_score": 0.67,
+      "citation_score": 0.5,
+      "overall_score": 0.619,
+      "facts_detail": [
+        {
+          "fact": "A PISP must never hold the payer's funds at any point \u2014 the payment passes directly from the payer's account to the payee without the PISP taking custody",
+          "present": true,
+          "note": "Clearly stated: 'must not, at any point in the execution of a payment order, come into possession of the payment service user's funds'"
+        },
+        {
+          "fact": "A PISP must not modify the amount, payee, or any other element of the payment transaction after initiation",
+          "present": true,
+          "note": "Explicitly stated: 'cannot modify the amount, payee, or any other element of a payment order after the customer has initiated it'"
+        },
+        {
+          "fact": "These are hard prohibitions \u2014 they apply regardless of customer consent and cannot be displaced by agreement",
+          "present": false,
+          "note": "The answer calls them 'hard restrictions' and 'absolute prohibitions' but does not mention that they apply regardless of customer consent or cannot be displaced by agreement"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSRs 2017 reg. 69",
+          "present": true
+        },
+        {
+          "citation": "FCA Approach Document Chapter 17",
+          "present": false
+        }
+      ],
+      "summary": "The answer correctly identifies both prohibited actions and cites Reg 69, but omits the critical nuance that these prohibitions apply regardless of customer consent and cannot be displaced by agreement, and does not reference the FCA Approach Document Chapter 17.",
+      "error": null
+    },
+    {
+      "id": "E011",
+      "question": "Under UK GDPR Article 5, what is the storage limitation principle and what does it require in practice?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "UK-GDPR",
+        "data-protection-principles",
+        "storage-limitation"
+      ],
+      "pages_loaded": [
+        "uk-gdpr-data-protection-principles"
+      ],
+      "pages_missing": [],
+      "answer": "# Storage Limitation Principle \u2014 UK GDPR Article 5(1)(e)\n\n## Definition and Core Requirement\n\n**Article 5(1)(e)** requires that personal data be \"kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed.\"\n\nThe storage limitation principle does **not** prescribe specific retention periods. Instead, organisations must determine and justify their own retention periods against their processing purposes.\n\n## Five Justification Factors\n\nUnder the knowledge base, firms may retain data based on:\n\n1. **Active purpose** \u2014 retain while the purpose applies; do not retain indefinitely \"just in case\"\n2. **Evidencing the relationship** \u2014 some data may be kept to confirm a relationship existed and ended, even after it does\n3. **Legal claims** \u2014 retain for the limitation period applicable to claims arising from the processing; delete when that period expires\n4. **Statutory obligations** \u2014 legal or regulatory requirements (e.g. AML record-keeping obligations under MLRs, tax records) justify retention for the specified statutory period\n5. **Industry guidelines** \u2014 useful starting point (e.g. consumer credit data: six years) but must be independently justified and kept under review\n\n## Documented Retention Policy\n\nA **documented retention policy (or schedule) is required** wherever possible. The policy must:\n- Set standard periods\n- Be flexible for early deletion\n- Be reviewed at intervals\n\nSmall organisations with low-risk, occasional processing may not require a documented policy, but must still review and delete data no longer needed.\n\n## Deletion or Anonymisation\n\nWhen data is no longer needed, organisations must either:\n- **Delete** it (put beyond use \u2014 including back-up copies), or\n- **Anonymise** it (true anonymisation, not pseudonymisation, so that identification is no longer possible)\n\nTaking data offline does not constitute deletion. **Pseudonymisation does not satisfy storage limitation** \u2014 pseudonymised data can still identify individuals and remains subject to the principle.\n\n## Exception: Archiving, Research, and Statistical Purposes (Art. 89)\n\nData may be retained indefinitely if held **solely** for:\n- Public interest archiving\n- Scientific or historical research\n- Statistical purposes\n\nRequirements include appropriate safeguards (e.g. pseudonymisation) and prohibition on use for decisions affecting specific individuals while retained under this exception.\n\n## Breach Consequences\n\nBreach of Article 5(1)(e) attracts the **highest tier of fines under Article 83(5)(a): up to \u00a317.5 million or 4% of annual worldwide turnover**.",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "Personal data must be kept in a form that permits identification of data subjects for no longer than is necessary for the purposes for which the data are processed",
+          "present": true,
+          "note": "Stated verbatim in the Definition and Core Requirement section quoting Article 5(1)(e)"
+        },
+        {
+          "fact": "There are no prescribed retention periods in the UK GDPR \u2014 firms must determine the appropriate period themselves based on the purpose",
+          "present": true,
+          "note": "Explicitly stated: 'does not prescribe specific retention periods. Instead, organisations must determine and justify their own retention periods against their processing purposes'"
+        },
+        {
+          "fact": "Pseudonymisation does not exempt data from the storage limitation principle \u2014 pseudonymised data can still identify individuals with additional information and remains personal data",
+          "present": true,
+          "note": "Clearly stated in the Deletion or Anonymisation section: 'Pseudonymisation does not satisfy storage limitation \u2014 pseudonymised data can still identify individuals and remains subject to the principle'"
+        },
+        {
+          "fact": "Archiving in the public interest, scientific or historical research, and statistical purposes are exceptions \u2014 but only where appropriate safeguards are in place and the data is used solely for those purposes",
+          "present": true,
+          "note": "Covered in the Art. 89 exception section with appropriate safeguards and sole-purpose requirement mentioned"
+        },
+        {
+          "fact": "A mandatory breach register must be maintained for all personal data breaches regardless of whether they are notified to the ICO \u2014 there is no threshold for recording",
+          "present": false,
+          "note": "The answer does not mention a mandatory breach register or the requirement to record all personal data breaches regardless of notification threshold. This fact is entirely absent."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "UK GDPR Art. 5(1)(e)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate on all storage limitation requirements but entirely omits the mandatory breach register requirement (no threshold for recording personal data breaches), which is a required fact.",
+      "error": null
+    },
+    {
+      "id": "E012",
+      "question": "A firm receives a subject access request verbally from a customer over the phone. Must it respond, and if so, within what timeframe?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "UK-GDPR",
+        "subject-access",
+        "individual-rights"
+      ],
+      "pages_loaded": [
+        "uk-gdpr-subject-access"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nYes, a firm **must respond** to a verbal subject access request (SAR).\n\n## Valid Form of Request\n\nUnder **UK GDPR Article 15** and the framework set out in the knowledge base, a SAR is valid regardless of the form in which it is made:\n\n> \"No specific form of words is required \u2014 the individual does not need to:\n> - Use the phrase \"subject access request\" or cite Article 15\n> - Make the request **in writing** (verbal SARs are valid)\n> - Direct the request to a specific person or contact point\n> - Use a specific channel (including social media)\"\n\nThe knowledge base explicitly confirms: **\"verbal SARs are valid\"**.\n\n## Response Timeframe\n\nThe firm must respond **within 1 calendar month** of receiving the request.\n\nThis is the standard deadline under the cross-cutting request-handling framework for all UK GDPR individual rights, which applies to SARs. The knowledge base states:\n\n> \"The cross-cutting request-handling framework (1-month deadline, verbal requests, manifestly unfounded, excessive, ID verification) applies to SARs in the same way as to all other rights.\"\n\n## Additional Requirements\n\n- **Any employee** in the organisation may receive a valid verbal SAR \u2014 the firm must have processes to ensure it is identified and escalated appropriately.\n\n- If the response is delivered **verbally**, the firm must maintain a record including: date of request; date of response; identity of the person who provided the information; and description of information provided.\n\n- The response must include both: (1) a copy of the personal data; and (2) supplementary information (equivalent to privacy notice mandatory content under Articles 13\u201314).",
+      "fact_score": 0.6,
+      "citation_score": 0.5,
+      "overall_score": 0.57,
+      "facts_detail": [
+        {
+          "fact": "Yes \u2014 a SAR does not need to be in writing and does not need to use the words 'subject access request'; verbal requests made by phone are valid",
+          "present": true,
+          "note": "Answer explicitly states verbal SARs are valid and no specific form of words is required, no need to cite Article 15 or make request in writing."
+        },
+        {
+          "fact": "The firm must respond within one calendar month of receiving the request",
+          "present": true,
+          "note": "Answer clearly states the firm must respond within 1 calendar month of receiving the request."
+        },
+        {
+          "fact": "The ICO recommends targeting 28 days to allow time for review before the deadline",
+          "present": false,
+          "note": "The answer does not mention the ICO's 28-day target recommendation at all."
+        },
+        {
+          "fact": "The firm may ask for clarification where the request is unclear or covers a large volume of data, but the clock pauses only if clarification is genuinely needed for a large or complex request \u2014 it does not pause automatically",
+          "present": false,
+          "note": "The answer does not mention clarification requests or the conditions under which the clock pauses."
+        },
+        {
+          "fact": "The firm must still provide any supplementary information (equivalent to Art. 13/14 privacy notice content) alongside the copy of the data",
+          "present": true,
+          "note": "Answer explicitly states the response must include supplementary information equivalent to privacy notice mandatory content under Articles 13\u201314."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "UK GDPR Art. 15",
+          "present": true
+        },
+        {
+          "citation": "UK GDPR Art. 12(3) (one-month deadline)",
+          "present": false
+        }
+      ],
+      "summary": "The answer correctly covers verbal SAR validity, the one-month deadline, and supplementary information requirements, but omits the ICO's 28-day target, the clarification/clock-pause rules, and fails to cite Art. 12(3) for the deadline.",
+      "error": null
+    },
+    {
+      "id": "E013",
+      "question": "What is the beneficial ownership threshold under the Money Laundering Regulations 2017, and what is the fallback when no natural person meets it?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "AML",
+        "CDD",
+        "beneficial-ownership",
+        "MLR-2017"
+      ],
+      "pages_loaded": [
+        "customer-due-diligence"
+      ],
+      "pages_missing": [],
+      "answer": "# Beneficial Ownership Threshold under the Money Laundering Regulations 2017\n\n## The 25% Threshold\n\nUnder the Money Laundering Regulations 2017, firms must identify and verify individuals who **ultimately control more than 25% of shares or voting rights** in a corporate customer, or who exercise control over the management of the body corporate, or who control it through other means. **(MLR Reg 5; FCG 3.2.4)**\n\n## Fallback When No Natural Person Meets the Threshold\n\n**Where the beneficial owner of a body corporate cannot be identified**, firms must:\n\n1. **Keep written records** of all steps taken and all difficulties encountered; and\n2. **Take reasonable measures to verify the identity of the senior person responsible for managing the body corporate**. **(FCG 3.2.4)**\n\n## Consequence of Non-Identification\n\nCritically, if a firm **cannot apply CDD measures** \u2014 including where it **cannot be satisfied it knows who the beneficial owner is** \u2014 it **must not enter into or continue the business relationship**. **(FCG 3.2.4)**\n\nThis means the fallback position of identifying the senior manager does not permit the relationship to proceed if beneficial ownership remains unresolved; it is a documentation and effort requirement, not a substitute for beneficial owner identification that permits relationship inception.",
+      "fact_score": 0.8,
+      "citation_score": 0.5,
+      "overall_score": 0.71,
+      "facts_detail": [
+        {
+          "fact": "The threshold is 25% of shares, voting rights, or other ownership interest in a legal person",
+          "present": true,
+          "note": "Answer states 'more than 25% of shares or voting rights' which captures the core threshold, though 'other ownership interest' is not explicitly mentioned."
+        },
+        {
+          "fact": "A firm must identify all natural persons who own or control more than 25% \u2014 the threshold identifies a floor, not a ceiling; control can exist below 25% through other means",
+          "present": true,
+          "note": "Answer mentions 'or who exercise control over the management of the body corporate, or who control it through other means', acknowledging control below 25% is also relevant."
+        },
+        {
+          "fact": "Where no natural person meets the 25% threshold after exhausting the ownership chain, the firm must identify the senior managing official(s) of the legal person as the beneficial owner",
+          "present": true,
+          "note": "Answer states firms must 'take reasonable measures to verify the identity of the senior person responsible for managing the body corporate' as the fallback."
+        },
+        {
+          "fact": "The firm must document why no natural person met the threshold \u2014 the fallback to senior managing officials is not a first resort",
+          "present": true,
+          "note": "Answer states firms must 'keep written records of all steps taken and all difficulties encountered', indicating documentation requirement and that it is not a first resort."
+        },
+        {
+          "fact": "For trusts: the firm must identify the settlor, trustees, protector (if any), beneficiaries or class of beneficiaries, and any person exercising effective control",
+          "present": false,
+          "note": "The answer does not address trust beneficial ownership requirements at all."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "MLR 2017 reg. 5 (beneficial owner definition)",
+          "present": true,
+          "note": "Answer references 'MLR Reg 5' explicitly."
+        },
+        {
+          "citation": "MLR 2017 reg. 28 (CDD obligation)",
+          "present": false,
+          "note": "Answer references FCG 3.2.4 but does not cite MLR 2017 reg. 28."
+        }
+      ],
+      "summary": "The answer correctly covers the 25% threshold, the senior managing official fallback, and documentation requirements, but omits trust beneficial ownership rules entirely and fails to cite MLR 2017 reg. 28.",
+      "error": null
+    },
+    {
+      "id": "E014",
+      "question": "What is the maximum time a firm regulated under DISP has to issue a final response to a complaint, and how does this differ for payment service providers and e-money issuers?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "DISP",
+        "complaints",
+        "PSR",
+        "EMI",
+        "timeline"
+      ],
+      "pages_loaded": [
+        "complaints-handling-framework",
+        "disp1-treating-complainants-fairly"
+      ],
+      "pages_missing": [],
+      "answer": "# Final Response Timelines Under DISP 1\n\nBased on the knowledge base provided, here are the maximum timelines for issuing a final response under DISP 1:\n\n## Standard Timeline\n\nFor most complaints, the maximum time to issue a final response is **8 weeks** from receipt of the complaint. *(DISP 1.6.2R)*\n\n## Payment Service Providers and E-Money Issuers \u2014 Shorter Timelines\n\nFor **payment service providers (PSPs)** and **electronic money institutions (EMIs)**, a materially shorter timeline applies:\n\n| Scenario | Deadline |\n|----------|----------|\n| Standard | **15 business days** from receipt |\n| Exceptional circumstances beyond respondent's control | **35 business days** from receipt (following a holding response by day 15) |\n\n*(DISP 1.6.2AR)*\n\n## Key Differences\n\nThe critical distinction is:\n\n- **Standard complaints (all respondents):** 8 weeks *(DISP 1.6.2R)*\n- **EMD/PSD complaints (PSPs/EMIs):** 15 business days, or 35 business days in exceptional circumstances *(DISP 1.6.2AR)*\n\nWhere only **part** of a complaint relates to payment services or electronic money, that part must be handled on the 15/35 business-day timeline, though the respondent may elect to treat the entire complaint under the shorter deadline. *(DISP 1.6.2BR, 1.6.2CR)*\n\nThe 15/35-day timeline is a hard rule derived from the Payment Services Directive and cannot be waived by internal procedure or policy. *(DISP 1.6.2AR)*",
+      "fact_score": 0.6,
+      "citation_score": 0.667,
+      "overall_score": 0.62,
+      "facts_detail": [
+        {
+          "fact": "The standard deadline for a final response is 8 weeks from the date the complaint was received",
+          "present": true,
+          "note": "Clearly stated: '8 weeks from receipt of the complaint' with citation to DISP 1.6.2R"
+        },
+        {
+          "fact": "For payment service providers and e-money issuers responding to complaints about payment services, the deadline is 15 business days",
+          "present": true,
+          "note": "Clearly stated in the table and summary section"
+        },
+        {
+          "fact": "In exceptional circumstances, PSPs and EMIs may extend to 35 business days \u2014 but must notify the customer within the 15-business-day period explaining the delay and the new deadline",
+          "present": false,
+          "note": "The 35-business-day extension is mentioned, but the requirement to notify the customer within the 15-business-day period explaining the delay and new deadline is not stated \u2014 only 'following a holding response by day 15' is mentioned, which is incomplete"
+        },
+        {
+          "fact": "The 3-business-day track is available for all firms where a complaint can be resolved by close of the third business day after receipt \u2014 a summary resolution communication may be issued instead of a final response letter",
+          "present": false,
+          "note": "The 3-business-day track and summary resolution communication are not mentioned at all in the answer"
+        },
+        {
+          "fact": "These are hard outer limits \u2014 a firm cannot extend beyond them unilaterally",
+          "present": true,
+          "note": "Stated in the final bullet: 'The 15/35-day timeline is a hard rule... cannot be waived by internal procedure or policy.' The 8-week limit is implicitly treated as a hard limit throughout."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "DISP 1.6.2R (8-week standard)",
+          "present": true
+        },
+        {
+          "citation": "DISP 1.6.2AR (15 business days for PSPs/EMIs)",
+          "present": true
+        },
+        {
+          "citation": "DISP 1.5 (3-business-day track)",
+          "present": false
+        }
+      ],
+      "summary": "The answer covers the core 8-week and 15/35-business-day rules well but omits the 3-business-day summary resolution track entirely and does not fully articulate the notification requirement when extending to 35 business days.",
+      "error": null
+    },
+    {
+      "id": "E015",
+      "question": "Under SM&CR, how quickly must a firm report a breach of the Conduct Rules by a Senior Manager, and how does this differ from the reporting timeframe for other certified staff?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "SM-and-CR",
+        "conduct-rules",
+        "breach-reporting",
+        "senior-managers"
+      ],
+      "pages_loaded": [
+        "smcr-conduct-rules"
+      ],
+      "pages_missing": [],
+      "answer": "# SM&CR Conduct Rule Breach Reporting: Senior Manager vs Other Staff\n\n## Reporting Timeline Difference\n\nUnder SM&CR, the reporting timeframe for conduct rule breaches **differs significantly** depending on whether the breaching individual is a Senior Manager:\n\n### Senior Manager Breaches\n**Deadline: Within 7 business days**\n\nWhere a firm concludes that a Senior Manager (SMF holder) has breached a Conduct Rule, it must notify the FCA directly within **7 business days of that conclusion** (COCON; SUP 15).\n\nThe knowledge base clarifies that the 7-day clock is triggered by the **firm's conclusion** that a breach occurred \u2014 not by initial discovery of the underlying conduct. Firms should avoid prolonging the conclusion phase where evidence is clear.\n\n### Other Certified Staff & In-Scope Employees\n**Deadline: Annual reporting via REP008**\n\nFor all other conduct rule breaches \u2014 including Certification Function holders and other employees in scope \u2014 firms report **annually** via REP008 submitted on GABRIEL at the end of the annual reporting period. These breaches do not trigger per-event FCA notification.\n\n## Key Distinction\n\nThis represents an **asymmetric reporting regime**:\n- **Senior Managers**: Real-time (7 business day) individual breach notification\n- **All other in-scope staff**: Aggregated annual reporting\n\nThe heightened reporting burden for Senior Manager breaches reflects their elevated accountability under the Senior Manager Conduct Rules (SC1\u2013SC4) and their personal exposure to FCA enforcement action.",
+      "fact_score": 1.0,
+      "citation_score": 0.0,
+      "overall_score": 0.7,
+      "facts_detail": [
+        {
+          "fact": "A firm must report a Conduct Rules breach by a Senior Manager to the FCA within 7 business days of the breach being identified",
+          "present": true,
+          "note": "The answer clearly states '7 business days' for Senior Manager breaches, though it specifies 'of that conclusion' rather than 'being identified' \u2014 which is actually more precise per fact 4."
+        },
+        {
+          "fact": "Conduct Rules breaches by non-SM Certification staff and other in-scope employees are reported annually via the REP008 return \u2014 not on an individual basis",
+          "present": true,
+          "note": "The answer explicitly mentions annual reporting via REP008 on GABRIEL for certified staff and other in-scope employees."
+        },
+        {
+          "fact": "The 7-business-day window for Senior Managers reflects their higher accountability level and the FCA's supervisory interest in SM-level conduct issues",
+          "present": true,
+          "note": "The answer states the heightened reporting burden reflects 'elevated accountability under the Senior Manager Conduct Rules' and 'personal exposure to FCA enforcement action'."
+        },
+        {
+          "fact": "The trigger for the 7-day clock is the firm concluding that a breach occurred \u2014 not the date the breach occurred or the date it was first identified. Firms must not prolong the conclusion phase where evidence is clear.",
+          "present": true,
+          "note": "The answer explicitly states the '7-day clock is triggered by the firm's conclusion that a breach occurred \u2014 not by initial discovery' and that 'Firms should avoid prolonging the conclusion phase where evidence is clear'."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "COCON 11.1 (breach reporting)",
+          "present": false,
+          "note": "The answer references 'COCON' generally but does not cite the specific subsection COCON 11.1."
+        },
+        {
+          "citation": "SUP 10C.14 (7 business days for Senior Managers)",
+          "present": false,
+          "note": "The answer references 'SUP 15' but not the specific SUP 10C.14 subsection required."
+        }
+      ],
+      "summary": "All four required facts are substantively present and well-articulated, but neither required specific regulatory citation (COCON 11.1 or SUP 10C.14) is referenced, significantly reducing the overall score.",
+      "error": null
+    },
+    {
+      "id": "E016",
+      "question": "A retail customer suffers financial loss as a result of a firm breaching Principle 12 (Consumer Duty). Can the customer sue the firm for damages in court under FSMA?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "PRIN",
+        "Consumer-Duty",
+        "private-right-of-action",
+        "FSMA"
+      ],
+      "pages_loaded": [
+        "prin-principles-overview",
+        "consumer-principle"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n**No.** A retail customer cannot sue a firm for damages in court under FSMA based on a breach of Principle 12 (Consumer Duty).\n\n## The Rule\n\n**PRIN 3.4.4R** (hard Rule) states explicitly:\n\n> A contravention of a rule in PRIN \u2014 including any rule in PRIN 2A \u2014 does **not** give rise to a right of action under FSMA s.138D.\n\nThis is a deliberate structural choice. Principle 12 and the detailed Consumer Duty rules in PRIN 2A are **supervision and enforcement tools**, not litigation gateways.\n\n## Available Remedies\n\nA retail customer suffering loss from a Principle 12 breach has these alternatives:\n\n1. **Financial Ombudsman Service (FOS) complaint** \u2014 under DISP 2 jurisdiction\n2. **FCA enforcement action** \u2014 which may result in:\n   - Restitution orders\n   - Redress schemes\n   - Other compensatory remedies ordered by the FCA\n3. **Separate private law claims** \u2014 based on other causes of action such as:\n   - Breach of contract\n   - Negligence (tort)\n   - Misrepresentation\n\nThe customer cannot bring a direct damages claim under FSMA s.138D based solely on the Principle 12 breach itself.\n\n---\n\n**Source Citations:**\n- PRIN 3.4.4R (no private right of action for PRIN breaches)\n- PS22/9 \u00a7 4.1\u2013\u00a74.15 (Consumer Duty design rationale)",
+      "fact_score": 0.975,
+      "citation_score": 1.0,
+      "overall_score": 0.9825,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 there is no private right of action for breach of the FCA's Principles for Businesses, including Principle 12",
+          "present": true,
+          "note": "Answer clearly states 'No' and explains that Principle 12 breach does not give rise to a right of action under FSMA s.138D"
+        },
+        {
+          "fact": "PRIN 3.4.4R expressly removes any right of action under FSMA s.138D for a breach of any of the Principles",
+          "present": true,
+          "note": "Answer explicitly cites PRIN 3.4.4R and states it removes the right of action under FSMA s.138D"
+        },
+        {
+          "fact": "Retail customers cannot sue the firm in court for Principle 12 breach \u2014 their remedies are to complain to the firm, refer to the Financial Ombudsman Service, or rely on separate private law claims that are not based on the Principle itself",
+          "present": true,
+          "note": "Answer mentions FOS complaints, and separate private law claims (contract, negligence, misrepresentation). Complaining to the firm directly is not explicitly mentioned but FOS and private law alternatives are covered."
+        },
+        {
+          "fact": "FCA enforcement action (including redress requirements) remains available \u2014 the exclusion of private action applies to the customer, not to the FCA",
+          "present": true,
+          "note": "Answer mentions FCA enforcement action including restitution orders and redress schemes, making clear this avenue remains open"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PRIN 3.4.4R (no private right of action)",
+          "present": true
+        },
+        {
+          "citation": "FSMA 2000 s.138D",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts and citations with clear explanation of the no-private-action rule, available alternatives, and FCA enforcement routes.",
+      "error": null
+    },
+    {
+      "id": "E017",
+      "question": "Under SYSC 10, what is the correct sequence a firm must follow when it identifies a conflict of interest, and what is the status of client disclosure within that sequence?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "SYSC",
+        "conflicts-of-interest",
+        "identify-manage-disclose"
+      ],
+      "pages_loaded": [
+        "sysc10-conflicts-of-interest"
+      ],
+      "pages_missing": [],
+      "answer": "# SYSC 10: The Correct Sequence for Identifying and Managing Conflicts of Interest\n\n## The Mandatory Three-Stage Sequence\n\nUnder SYSC 10, the correct sequence a firm must follow when it identifies a conflict of interest is strictly defined as:\n\n1. **IDENTIFY** (SYSC 10.1.3R)\n2. **MANAGE** (SYSC 10.1.7R)\n3. **DISCLOSE** (SYSC 10.1.8R and SYSC 10.1.9AR)\n\nThis sequence is not optional or flexible. As the knowledge base states: \"Departing from this sequence \u2014 for example, by issuing a conflicts notice without first attempting management \u2014 is itself a breach.\"\n\n## The Status of Client Disclosure Within the Sequence\n\n**Client disclosure is explicitly the last resort**, not an alternative to management. This is established by two key rules:\n\n- **SYSC 10.1.8R** provides that disclosure is permitted only where \"the management arrangements are not sufficient to ensure with reasonable confidence that the client's interests will not be adversely affected.\"\n\n- **SYSC 10.1.9AR** makes this explicit: disclosure is the \"**last resort**, not an alternative to management.\"\n\nThe FCA's position is unambiguous: \"A firm cannot skip the management step and proceed directly to disclosing a conflict. Issuing a conflicts disclosure notice while having failed to implement (or even consider) management arrangements is a standalone breach of SYSC 10.1.9AR, irrespective of whether the disclosure itself is accurate.\"\n\n## Critical Implication\n\nFirms are prohibited from relying on a \"disclosure-only\" approach. The supervisory findings from the FCA PFOF Supervisory Report (2019) confirm that \"disclosure-only frameworks \u2014 where firms rely on a generic conflicts notice in their terms of business without a supporting management programme \u2014 are non-compliant.\"\n\nIn summary: **disclosure must be preceded by a genuine attempt to manage the conflict through the measures outlined in SYSC 10.1.11R**. Only if those management arrangements prove insufficient may disclosure then be used as a supplementary measure.",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "The mandatory sequence is: identify \u2192 manage \u2192 disclose. All three steps are required in order",
+          "present": true,
+          "note": "Clearly stated in the opening section as a strict three-stage sequence"
+        },
+        {
+          "fact": "A firm must first identify conflicts (SYSC 10.1.3R \u2014 the duty is prospective, covering conflicts that arise or may arise)",
+          "present": true,
+          "note": "SYSC 10.1.3R is cited for identification, though the prospective nature ('may arise') is not explicitly mentioned"
+        },
+        {
+          "fact": "The firm must then manage the conflict using appropriate measures (SYSC 10.1.7R) \u2014 disclosure is not an alternative to management",
+          "present": true,
+          "note": "SYSC 10.1.7R cited, and the answer explicitly states disclosure is not an alternative to management"
+        },
+        {
+          "fact": "Disclosure to the client is the last resort under SYSC 10.1.9AR \u2014 it may only be used where the conflict cannot be adequately managed. A firm that skips management and proceeds directly to disclosure breaches SYSC 10.1.9AR regardless of the accuracy of the disclosure",
+          "present": true,
+          "note": "Explicitly covered including the point about breach being independent of disclosure accuracy"
+        },
+        {
+          "fact": "Managing a conflict means using organisational or administrative measures to prevent it adversely affecting clients \u2014 examples include information barriers, independent oversight, or remuneration adjustments",
+          "present": false,
+          "note": "The answer references SYSC 10.1.11R in passing but does not provide examples of management measures such as information barriers, independent oversight, or remuneration adjustments"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "SYSC 10.1.3R (identification duty)",
+          "present": true
+        },
+        {
+          "citation": "SYSC 10.1.7R (management obligation)",
+          "present": true
+        },
+        {
+          "citation": "SYSC 10.1.9AR (disclosure as last resort)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is strong and accurate on the sequence, the last-resort status of disclosure, and all required citations, but omits concrete examples of management measures (e.g. information barriers, remuneration adjustments) as required by fact 5.",
+      "error": null
+    },
+    {
+      "id": "E018",
+      "question": "Under the FCA's cryptoasset financial promotion rules, an MLR-registered cryptoasset business offers a \u00a350 cash bonus to new customers who make their first trade within 30 days of signing up. Is this permitted?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "cryptoassets",
+        "financial-promotions",
+        "incentives-ban",
+        "PS23-6"
+      ],
+      "pages_loaded": [
+        "cryptoasset-financial-promotions-framework",
+        "ps23-6-cryptoasset-financial-promotions"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n**No, this offer is not permitted.**\n\nThe \u00a350 cash bonus offered to new customers who make their first trade within 30 days constitutes a prohibited **financial incentive to invest** under the FCA's cryptoasset financial promotion rules.\n\n## Legal Basis\n\n**PS23/6 \u00a7\u00a73.14\u20133.24** imposes an **absolute ban on financial incentives** in cryptoasset financial promotions:\n\n> \"Firms must not communicate financial promotions for cryptoassets that offer any monetary or non-monetary benefit that incentivises investment activity \u2014 for example, refer-a-friend bonuses or new-joiner bonuses.\" **(PS23/6 \u00a7\u00a73.14\u20133.24)**\n\n## Application to This Scenario\n\nThe \u00a350 cash bonus is a **monetary incentive** that:\n\n1. **Is extrinsic** \u2014 It is not intrinsic to the cryptoasset itself or exclusively bound up with its function or business model. It is offered by the firm to motivate purchase.\n\n2. **Is limited in time** \u2014 Benefits available only for a **limited time period** (the first 30 days) are **likely to be incentives regardless of their nature**. **(PS23/6 \u00a73.24 Our response)**\n\n3. **Targets new customers** \u2014 The promotion explicitly targets customers making \"their first trade,\" making it a classic \"new-joiner bonus.\"\n\n## No Exemption Available\n\nUnlike other Restricted Mass Market Investments (RMMIs), **the \"shareholder benefit\" exemption does not apply to cryptoassets**:\n\n> \"For RMMIs generally, a 'shareholder benefit' carve-out exists... This exemption **does not apply to cryptoassets**. The programmable nature of cryptoassets creates an unacceptable risk that firms would use this exemption to promote benefits that distort consumer investment decisions.\" **(PS23/6 \u00a73.24 Our response)**\n\n## Conclusion\n\nThe MLR-registered cryptoasset business **must remove this \u00a350 bonus offer** from its financial promotions to comply with PS23/6 \u00a7\u00a73.14\u20133.24. The offer violates the absolute incentives ban regardless of whether the business is FCA-authorised or relying on **FPO Article 73ZA** (both are subject to identical consumer journey rules per **PS23/6 \u00a7\u00a75.11\u20135.15**).",
+      "fact_score": 1.0,
+      "citation_score": 0.5,
+      "overall_score": 0.85,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 this is prohibited under the absolute incentives ban in PS23/6",
+          "present": true,
+          "note": "Clearly stated as prohibited, citing PS23/6 \u00a7\u00a73.14\u20133.24 and the absolute ban on financial incentives."
+        },
+        {
+          "fact": "The incentives ban applies to all financial promotions for qualifying cryptoassets \u2014 cash bonuses, refer-a-friend bonuses, new-joiner bonuses, and 'free' token offers are all prohibited",
+          "present": true,
+          "note": "Answer explicitly mentions refer-a-friend bonuses, new-joiner bonuses, and the \u00a350 cash bonus as prohibited monetary incentives."
+        },
+        {
+          "fact": "Unlike other restricted mass-market investments, there is no shareholder benefit exemption for cryptoassets \u2014 benefits available to shareholders are not carved out",
+          "present": true,
+          "note": "Answer explicitly states the shareholder benefit exemption does not apply to cryptoassets, unlike other RMMIs."
+        },
+        {
+          "fact": "The prohibition applies to MLR-registered cryptoasset businesses communicating their own promotions under the Article 73ZA exemption \u2014 the same rules apply to them as to authorised firms",
+          "present": true,
+          "note": "Answer references FPO Article 73ZA and states identical consumer journey rules apply per PS23/6 \u00a7\u00a75.11\u20135.15."
+        },
+        {
+          "fact": "A time-limited nature of the bonus does not create an exemption \u2014 benefits available only for a limited period are likely to be incentives regardless of their form",
+          "present": true,
+          "note": "Answer explicitly states time-limited benefits (30 days) are 'likely to be incentives regardless of their nature', citing PS23/6 \u00a73.24."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PS23/6 \u00a73.24 (absolute incentives ban)",
+          "present": true
+        },
+        {
+          "citation": "FCA Handbook COBS 4.12A (incentives prohibition)",
+          "present": false
+        }
+      ],
+      "summary": "The answer is substantively complete and accurate on all required facts but omits the required COBS 4.12A citation, relying solely on PS23/6 references.",
+      "error": null
+    }
+  ]
+}

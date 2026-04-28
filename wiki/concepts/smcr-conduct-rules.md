@@ -138,8 +138,8 @@ PR(b-1) under the Core PRs requires a named Senior Manager to take responsibilit
 - Individual Rule 6 (act to deliver good outcomes for retail customers) was added by the Consumer Duty. It makes Consumer Duty a personal obligation on individuals, not just firms.
 - SC3 makes clear that **delegation does not transfer accountability**. An SM who delegates to an unsuitable person, or fails to oversee effectively, may breach SC3.
 - SC4 is a proactive disclosure obligation to the FCA/PRA — the SM must disclose information the regulators would reasonably expect to be told about, without waiting to be asked.
-- **Breach reporting is asymmetric:** SM breaches must be notified to the FCA within 7 business days. All other in-scope staff breaches are reported annually via REP008 on GABRIEL.
-- The 7-day clock for SM breaches starts when the **firm concludes** a breach occurred, not when it first identifies the concern. Firms should avoid prolonging the conclusion phase where evidence is clear.
+- **Breach reporting is asymmetric:** SM breaches must be notified to the FCA within 7 business days. All other in-scope staff breaches are reported annually via REP008 on GABRIEL. **(COCON 11.1; SUP 10C.14)**
+- The 7-day clock for SM breaches starts when the **firm concludes** a breach occurred, not when it first identifies the concern. Firms should avoid prolonging the conclusion phase where evidence is clear. **(COCON 11.1)**
 
 ## Related Articles
 

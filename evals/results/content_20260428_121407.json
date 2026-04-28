@@ -1,0 +1,270 @@
+{
+  "run_at": "2026-04-28T12:14:07.692662",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 4,
+  "completed": 4,
+  "errors": 0,
+  "mean_fact_score": 0.89575,
+  "mean_citation_score": 0.875,
+  "mean_overall_score": 0.8895,
+  "pass_rate": 0.75,
+  "by_difficulty": {
+    "easy": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "medium": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "hard": {
+      "count": 3,
+      "mean_score": 0.8526666666666666
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "synthesis": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "edge-case": {
+      "count": 2,
+      "mean_score": 0.779
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "M004",
+      "question": "A for-profit debt management firm wants to run paid search ads that appear when users search for 'free debt advice' and 'charity debt help'. What does CONC say about this?",
+      "difficulty": "medium",
+      "type": "factual",
+      "tags": [
+        "CONC",
+        "debt-counsellors",
+        "financial-promotions",
+        "SEO"
+      ],
+      "pages_loaded": [
+        "conc3-financial-promotions"
+      ],
+      "pages_missing": [],
+      "answer": "# CONC Rules on Paid Search Ads Targeting Free Debt Advice Searches\n\nBased on the knowledge base, **CONC 3.9.7R directly prohibits this practice**.\n\n## The Prohibition\n\n**CONC 3.9.7R** states that a debt counsellor or debt adjuster firm must not:\n\n> \"Use SEO techniques, paid search, or other digital tools to attract customers who are searching for free or not-for-profit debt advice into visiting a commercial debt management site\"\n\n## Application to Your Scenario\n\nRunning paid search ads that appear when users search for **'free debt advice'** and **'charity debt help'** is a direct breach of **CONC 3.9.7R**. The rule explicitly prohibits using paid search to target customers searching for free or not-for-profit debt advice and directing them to a commercial (for-profit) debt management firm's website.\n\n## Related Obligation\n\nThis prohibition is complemented by **CONC 3.9.7R**'s companion restriction that a firm must not operate a website designed to appear to be from a not-for-profit or free debt advice service when it is in fact a commercial firm.\n\n## No Exception\n\nThe knowledge base indicates the prohibition applies unless the firm is in fact a not-for-profit body. Since your firm is for-profit, there is no permitted pathway for this advertising strategy under CONC.\n\n---\n\n**Conclusion:** The for-profit debt management firm cannot lawfully run paid search ads targeting searches for 'free debt advice' or 'charity debt help' under **CONC 3.9.7R**.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "prohibited \u2014 firm must not use SEO techniques or paid search tools to direct customers who are searching for free or not-for-profit debt advice into visiting a commercial debt management site",
+          "present": true,
+          "note": "Explicitly stated with a direct quote referencing SEO techniques, paid search, and targeting customers searching for free or not-for-profit debt advice"
+        },
+        {
+          "fact": "firm must not operate a website designed to appear to be from a not-for-profit or free debt advice body when it is in fact commercial",
+          "present": true,
+          "note": "Covered in the 'Related Obligation' section, describing the companion restriction about websites designed to appear to be from not-for-profit or free debt advice services"
+        },
+        {
+          "fact": "the prohibition applies unless the firm is actually a not-for-profit body",
+          "present": true,
+          "note": "Explicitly stated in the 'No Exception' section: 'The knowledge base indicates the prohibition applies unless the firm is in fact a not-for-profit body'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CONC 3.9.7R",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all three required facts with clear explanations and correctly citing CONC 3.9.7R throughout.",
+      "error": null
+    },
+    {
+      "id": "H005",
+      "question": "A firm has identified that a legacy product offers poor value and plans to withdraw it. Internal data shows it is held disproportionately by customers with characteristics of vulnerability. What must the firm do before withdrawing the product?",
+      "difficulty": "hard",
+      "type": "synthesis",
+      "tags": [
+        "Consumer-Duty",
+        "vulnerable-customers",
+        "products-services"
+      ],
+      "pages_loaded": [
+        "vulnerable-customers",
+        "consumer-duty-products-services"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nBased on the knowledge base provided, when a firm has identified that a legacy product offers poor value and is held disproportionately by customers with characteristics of vulnerability, the firm must:\n\n## Primary Obligation: Consider Customer Impact Before Withdrawal\n\n**The firm must consider the customer impact of withdrawal or suspension before withdrawing the product unilaterally.**\n\nThis is explicitly required under **PS22/9 \u00a76.10**, which states:\n\n> \"If a manufacturer identifies a serious problem with a product, it should act promptly \u2014 but must consider the customer impact of withdrawal or suspension before acting unilaterally.\"\n\n## Vulnerability-Specific Considerations\n\nUnder the Products and Services outcome, **PS22/9 \u00a76.9** requires that:\n\n> \"Both manufacturers and distributors must consider the needs of customers with characteristics of vulnerability within the target market throughout the product lifecycle.\"\n\nThe knowledge base further clarifies that:\n\n> \"Where a product is identified as offering poor value, the impact on vulnerable customers is a key factor in deciding what remedial action to take. **Firms must not withdraw products in ways that disproportionately harm vulnerable customers without engaging the FCA.**\" **(PS22/9 \u00a710.10)**\n\n## Required Actions Before Withdrawal\n\nBefore proceeding with withdrawal, the firm must:\n\n1. **Assess the disproportionate impact** on customers with vulnerability characteristics using the HLRC four-driver framework (Health, Life events, Resilience, Capability) **(FG21/1 \u00a72.5)**\n\n2. **Consider alternative remedial actions** \u2014 withdrawal is not the automatic response to identified poor value where vulnerable customers are disproportionately affected\n\n3. **Engage with the FCA** \u2014 the firm cannot unilaterally withdraw a product that disproportionately affects vulnerable customers without FCA engagement **(PS22/9 \u00a710.10)**\n\n4. **Document impact mitigation** \u2014 identify what steps will be taken to mitigate foreseeable harm to vulnerable customers, consistent with the cross-cutting rules\n\nThe firm's obligation is triggered not merely by identifying poor value, but by the **combination** of poor value **and** disproportionate impact on vulnerable customers.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "if a manufacturer identifies a serious problem with a product, it must consider the customer impact of withdrawal or suspension before acting unilaterally (PS22/9 \u00a76.10)",
+          "present": true,
+          "note": "Explicitly stated in the answer quoting PS22/9 \u00a76.10 with the exact substance about considering customer impact before unilateral withdrawal."
+        },
+        {
+          "fact": "manufacturers and distributors must consider the needs of customers with characteristics of vulnerability within the target market throughout the product lifecycle \u2014 not only at launch (PS22/9 \u00a76.9)",
+          "present": true,
+          "note": "Present in the answer referencing PS22/9 \u00a76.9, stating both manufacturers and distributors must consider vulnerability needs throughout the product lifecycle."
+        },
+        {
+          "fact": "where poor value or a product problem is identified, the impact on vulnerable customers is a key factor in deciding what remedial action to take",
+          "present": true,
+          "note": "Explicitly stated: 'Where a product is identified as offering poor value, the impact on vulnerable customers is a key factor in deciding what remedial action to take.'"
+        },
+        {
+          "fact": "the Consumer Duty products and services outcome imposes lifecycle obligations \u2014 ongoing monitoring and review are required, not just point-of-design compliance",
+          "present": true,
+          "note": "Referenced through 'throughout the product lifecycle' language and the framing of ongoing obligations, though not explicitly called out as a distinct lifecycle monitoring requirement separate from design."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PS22/9 \u00a76.9",
+          "present": true
+        },
+        {
+          "citation": "PS22/9 \u00a76.10",
+          "present": true
+        }
+      ],
+      "summary": "The answer comprehensively covers all required facts and citations, correctly identifying the obligation to consider customer impact before withdrawal, vulnerability lifecycle considerations, and the role of vulnerable customer impact in remedial decision-making.",
+      "error": null
+    },
+    {
+      "id": "H009",
+      "question": "A firm receives a right-to-erasure request from a customer whose account included a five-year-old AML suspicious activity report. The customer argues the data is no longer necessary. Must the firm erase the SAR data?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "UK-GDPR",
+        "right-to-erasure",
+        "AML",
+        "SAR",
+        "tipping-off"
+      ],
+      "pages_loaded": [
+        "uk-gdpr-right-to-erasure",
+        "sar-consent-tipping-off"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n**No, the firm must not erase the SAR data.**\n\n## Legal Basis for Refusal\n\nThe firm can refuse the erasure request under **UK GDPR Article 17(3)(b)** \u2014 the legal obligation exemption \u2014 because the data is protected by the **Money Laundering Regulations 2017, Regulation 40**.\n\n**MLR 2017 Reg 40** requires firms to retain customer due diligence records and transaction records for a **minimum of 5 years** following the end of the customer relationship. An AML suspicious activity report (SAR) falls within the category of records required to be retained under this regime. Consequently, the firm is **legally obliged** to retain the data, and this legal obligation **overrides** the customer's right to erasure under Article 17(1)(a), even though the data may no longer be \"necessary\" for the original purposes.\n\n---\n\n## Critical Tipping-Off Constraint\n\n**The firm must refuse erasure *without* disclosing the existence of the SAR itself.**\n\nUnder **POCA 2002 s.333A**, once a SAR has been filed, it is a criminal offence for the firm to disclose information about that report if the disclosure is likely to prejudice an investigation. Confirming or denying the existence of a SAR in the firm's erasure response would constitute **tipping off**.\n\n**The correct approach is:**\n1. Refuse the erasure request on the basis of a legal obligation under UK law (Art. 17(3)(b) / MLR 2017 Reg 40)\n2. Do **not** state that the refusal is because a SAR exists or was filed\n3. Do **not** confirm or deny any connection to AML/compliance reporting\n\nThe firm may explain generally that customer due diligence and transaction record retention is required by financial crime legislation, but must not identify the specific SAR or acknowledge that suspicion was ever recorded.\n\n---\n\n## Citation Summary\n\n- **UK GDPR Art. 17(3)(b)** \u2014 exemption for data processing necessary to comply with a legal obligation\n- **Money Laundering Regulations 2017 Reg 40** \u2014 5-year minimum retention of CDD and transaction records\n- **POCA 2002 s.333A** \u2014 tipping-off offence; prohibits disclosure that a SAR has been made if likely to prejudice investigation\n- **ICO Guide to Individual Rights (19 May 2023, pp. 30\u201340)** \u2014 Art. 17 framework; exemption (b) protection for MLR-mandated records",
+      "fact_score": 0.833,
+      "citation_score": 1.0,
+      "overall_score": 0.883,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 the firm is not required to erase the SAR data",
+          "present": true,
+          "note": "Clearly stated in the opening line: 'No, the firm must not erase the SAR data.'"
+        },
+        {
+          "fact": "The right to erasure under Art. 17 is subject to exemptions \u2014 the legal obligation exemption (Art. 17(3)(b)) applies where retention is required to comply with a legal obligation",
+          "present": true,
+          "note": "Explicitly cited UK GDPR Art. 17(3)(b) as the legal obligation exemption basis for refusal."
+        },
+        {
+          "fact": "MLR 2017 reg. 40 requires firms to retain SAR-related records for a minimum of five years from the end of the business relationship or transaction \u2014 this legal obligation displaces the erasure right",
+          "present": true,
+          "note": "MLR 2017 Reg 40 is cited with the 5-year retention requirement, and the answer states this overrides the erasure right."
+        },
+        {
+          "fact": "The legal claims exemption (Art. 17(3)(e)) may also apply if the SAR data is relevant to potential legal proceedings",
+          "present": false,
+          "note": "The answer does not mention Art. 17(3)(e) or the legal claims exemption at all."
+        },
+        {
+          "fact": "There is a second complication: the firm must not disclose to the customer that a SAR exists or was filed \u2014 responding to the erasure request in a way that confirms or implies a SAR was made could constitute tipping-off under POCA 2002 s.333A",
+          "present": true,
+          "note": "The tipping-off constraint is thoroughly addressed under POCA 2002 s.333A, with clear guidance on not confirming or denying the SAR."
+        },
+        {
+          "fact": "The correct response is to refuse erasure on legal obligation grounds, without confirming or denying the existence of any SAR",
+          "present": true,
+          "note": "Explicitly stated in the 'correct approach' section \u2014 refuse on legal obligation grounds without acknowledging the SAR."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "UK GDPR Art. 17(3)(b) (legal obligation exemption)",
+          "present": true
+        },
+        {
+          "citation": "MLR 2017 reg. 40 (SAR record retention)",
+          "present": true
+        },
+        {
+          "citation": "POCA 2002 s.333A (tipping-off)",
+          "present": true
+        }
+      ],
+      "summary": "The answer is thorough and accurate on all key points \u2014 legal obligation exemption, MLR retention, and tipping-off \u2014 but omits the Art. 17(3)(e) legal claims exemption as an additional applicable ground.",
+      "error": null
+    },
+    {
+      "id": "H013",
+      "question": "A firm's Head of Legal is proposed as a Senior Manager under SM&CR. The firm wants to allocate the 'Overall Responsibility' Prescribed Responsibility to them, covering all regulated activities. Is this permissible?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "SM-and-CR",
+        "senior-managers",
+        "Head-of-Legal",
+        "Overall-Responsibility",
+        "Enhanced"
+      ],
+      "pages_loaded": [
+        "smcr-senior-managers-regime"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer: No, this is not permissible.\n\nThere are **two separate barriers** preventing allocation of 'Overall Responsibility' to the Head of Legal:\n\n## 1. Head of Legal Exclusion from SM&CR\n\nThe Head of Legal is **expressly excluded from Senior Manager approval across all tiers** on legal privilege grounds:\n\n> \"**Head of Legal exclusion:** The Head of Legal is expressly excluded from SM approval across all tiers (legal privilege grounds). The Head of Legal is included in the Certification Regime and subject to Conduct Rules.\"\n\nA person cannot hold an SMF designation and therefore cannot be allocated Prescribed Responsibilities (which are tied to SMF roles). The Head of Legal may participate in governance and risk management, but they cannot be formally designated as a Senior Manager under SM&CR.\n\n## 2. Overall Responsibility Cannot Cover \"All Regulated Activities\"\n\nEven if the Head of Legal were eligible to be a Senior Manager, the requirement for Overall Responsibility under SYSC 25 (an Enhanced-tier requirement) operates on a **per-activity/per-area basis**, not as a blanket designation:\n\n> \"Every activity, business area, and management function of the firm \u2014 including those carried out from overseas branches \u2014 must have a Senior Manager with overall responsibility for it. *(SYSC 25)* ... Overall Responsibility **cannot be divided** but **can be shared** (two SMs jointly accountable). ... **Scope equals the scope of the Conduct Rules** \u2014 applies to regulated and unregulated financial services activities.\"\n\nAnd critically:\n\n> \"Overall Responsibility is Enhanced-only (SYSC 25): ... Overall Responsibility must be allocated **per activity/area** \u2014 it cannot be assigned as a blanket designation to one person covering all regulated activities. Each area needs its own named SM.\"\n\n**Conclusion:** The proposal is impermissible for both reasons. The firm must allocate Overall Responsibility for each distinct business area and activity to separately identified Senior Managers under SYSC 25, and the Head of Legal cannot hold any SMF designation.",
+      "fact_score": 0.75,
+      "citation_score": 0.5,
+      "overall_score": 0.675,
+      "facts_detail": [
+        {
+          "fact": "Head of Legal is expressly excluded from SM approval across all tiers on legal privilege grounds; cannot hold SMF designation",
+          "present": true,
+          "note": "Answer explicitly states the Head of Legal is expressly excluded from SM approval across all tiers on legal privilege grounds and cannot hold SMF designation."
+        },
+        {
+          "fact": "Head of Legal is not outside SM&CR entirely \u2014 included in Certification Regime and subject to Conduct Rules; exclusion is from SMF approval only",
+          "present": true,
+          "note": "Answer explicitly states the Head of Legal is included in the Certification Regime and subject to Conduct Rules, and that the exclusion is from SMF designation."
+        },
+        {
+          "fact": "Overall Responsibility is an Enhanced-only requirement (SYSC 25) \u2014 does not exist in Core firms",
+          "present": false,
+          "note": "The answer references SYSC 25 and calls it an 'Enhanced-tier requirement' but does not clearly state that Overall Responsibility does not exist at all in Core firms \u2014 the Enhanced-only nature is mentioned but the Core firm exclusion is not explicitly stated."
+        },
+        {
+          "fact": "Overall Responsibility requires every regulated activity/business area has a named SM \u2014 allocated per area, not as a blanket designation to one person covering all regulated activities",
+          "present": true,
+          "note": "Answer clearly states Overall Responsibility must be allocated per activity/area and cannot be assigned as a blanket designation to one person covering all regulated activities."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "SYSC 25 (Enhanced firms \u2014 Overall Responsibility)",
+          "present": true
+        },
+        {
+          "citation": "FCA Guide for Solo-Regulated Firms (Head of Legal exclusion \u2014 legal privilege grounds)",
+          "present": false
+        }
+      ],
+      "summary": "The answer correctly identifies both the Head of Legal exclusion and the per-area nature of Overall Responsibility, but fails to explicitly state that Overall Responsibility does not exist in Core firms and does not cite the FCA Guide for Solo-Regulated Firms.",
+      "error": null
+    }
+  ]
+}
