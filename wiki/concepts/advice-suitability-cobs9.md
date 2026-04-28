@@ -10,6 +10,8 @@ sources:
   - "FCA, 'The Assessing Suitability Review — Results', May 2017 (Pub ref: 005421)"
 tags: [suitability, COBS-9, personal-recommendation, risk-profiling, replacement-business, adviser-charging, suitability-report, COBS-6, advice, UK, FCA]
 related:
+  - summaries/cobs9-suitability.md
+  - summaries/cobs9a-suitability-mifid.md
   - summaries/fca-assessing-suitability-review-2017.md
   - concepts/costs-charges-disclosure.md
   - concepts/prod-product-governance.md
@@ -127,6 +129,8 @@ Mid-size (3–24 adviser) DA independent firms consistently showed the weakest p
 
 ## Related Articles
 
+- [[cobs9-suitability]]
+- [[cobs9a-suitability-mifid]]
 - [[fca-assessing-suitability-review-2017]]
 - [[costs-charges-disclosure]]
 - [[prod-product-governance]]

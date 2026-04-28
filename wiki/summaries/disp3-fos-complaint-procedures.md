@@ -24,6 +24,8 @@ related:
   - concepts/complaints-handling-framework.md
   - concepts/fos-eligible-complainants.md
   - concepts/consumer-duty-consumer-support.md
+  - summaries/cobs9-suitability.md
+  - concepts/advice-suitability-cobs9.md
 ---
 
 # DISP 3 — FOS Complaint Handling Procedures
@@ -239,3 +241,5 @@ In practice, most references to "the Ombudsman" in DISP 2 to DISP 4 include FOS 
 - [[complaints-handling-framework]]
 - [[fos-eligible-complainants]]
 - [[consumer-duty-consumer-support]]
+- [[cobs9-suitability]]
+- [[advice-suitability-cobs9]]

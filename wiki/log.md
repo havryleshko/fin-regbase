@@ -1901,3 +1901,37 @@ Notes:
 - Key additions: (1) appropriateness vs suitability framework — entirely absent before; (2) execution-only non-complex exemption — hard gate for platforms; (3) dual warning obligations — mandatory, standardised format permitted; (4) cryptoasset appropriateness — qualifying cryptoassets and UK RIE crypto ETNs in COBS 10 scope with 12-item question matrices; (5) MiFID four-item appropriateness record including firm's own decision on whether to proceed after warning (COBS 10A.7.2R).
 - The MiFID non-complex test (6 criteria, COBS 10A.4.2R) is materially stricter than the non-MiFID test (4 criteria, COBS 10.4.1R(3)). The two additional MiFID criteria (profile-altering clauses; implicit exit charges) catch structured products and instruments with surrender penalties.
 - IBIP record retention for appropriateness (duration of relationship, COBS 10A.7.2AR(3)) parallels IBIP suitability retention (COBS 9A.4.3R) — consistent with the IDD baseline.
+
+## 2026-04-28 ingest | MAR 1 — Market Abuse (FCA Sourcebook)
+
+Source: `raw/fca-mar/MAR 1 Market Abuse.pdf` (FCA MAR Sourcebook, 20pp)
+
+Pages created (2):
+- `wiki/summaries/mar1-market-abuse.md` — full MAR 1 summary: application (UK MAR directly applicable to any person, not just authorised firms); intent not required (MAR 1.2.3G — objective test, negligent/accidental abuse caught); inside information four-element definition; "made public" four-factor test including above-average-expertise extension (MAR 1.2.12G–1.2.15G — information derivable by market professional from public sources is public; only available outside UK is still public); insider dealing — five named behaviours including front-running/pre-positioning as insider dealing where pending order constitutes inside information (MAR 1.3.2G(2)); factors indicating insider dealing (proximate profitable trade, realistic access to inside information, departure from normal pattern); accepted market practice and takeover safe harbour; unlawful disclosure — selective analyst briefing expressly named (MAR 1.4.2G); confidentiality+necessity safe harbour requires both elements: necessity for legitimate purpose AND recipient under duty of confidentiality (MAR 1.4.5G); named legitimate purposes (employment function, professional adviser, commercial negotiation, takeover, legal obligation); manipulating transactions — legitimate reasons + AMP double test (MAR 1.6.5G); abusive squeeze — key indicator: willingness to lend (MAR 1.6.11G) plus multilateral settlement default risk and spot-forward divergence; manipulating devices — wash trades, painting the tape, layering/spoofing; dissemination — Chinese wall defence (MAR 1.8.5G: if individual could only know info was false/misleading by crossing a Chinese wall, indicates lack of knowledge; robustness of barrier determines strength of defence); misleading behaviour and market distortion (MAR 1.9); three statutory safe harbours: buy-back programmes (UK MAR Art. 5), price stabilisation (UK MAR Art. 5; FCA MAR 2), accepted market practices (UK MAR Art. 13)
+- `wiki/concepts/market-abuse-framework.md` — new concept page: two-layer structure (UK MAR + FCA MAR Sourcebook); five prohibited behaviours table; intent not required as core principle; inside information four-element definition; "made public" test including expert-derivable extension; three statutory safe harbours; legitimate reasons + AMP double test for manipulation; firm obligations under SYSC (conflicts, STORs, SM&CR accountability)
+
+Pages updated (1):
+- `wiki/index.md` — added new "UK — MAR (Market Abuse Regulation)" section with summaries and concepts tables
+
+Notes:
+- No contradictions with existing wiki pages. MAR is a new regulatory area; existing wiki had no MAR content.
+- Key additions absent from prior wiki: (1) intent not required — systemic and negligent abuse caught; (2) "made public" expert-derivable extension — information remains inside information only if genuinely not accessible; (3) front-running as named insider dealing — directly relevant to execution businesses; (4) selective analyst briefing — named unlawful disclosure with confidentiality+necessity safe harbour; (5) abusive squeeze — willingness to lend as primary indicator; (6) Chinese wall as dissemination defence — links to SYSC 10 existing wiki content.
+- The Chinese wall defence in MAR 1.8.5G for dissemination is analytically linked to the SYSC 10.2.2R Chinese wall provisions (already in wiki). Agents should cross-reference both when assessing information barrier adequacy.
+- SYSC 10 (conflicts of interest) wiki page already covers Chinese walls as a statutory defence for SYSC purposes (FSA 2012 ss.89–91 and s.138D). The MAR 1.8.5G extension applies that logic to dissemination claims specifically.
+
+## 2026-04-28 lint
+
+118 pages scanned (43 summaries, 68 concepts, 7 derived).
+
+Structural checks: CLEAN — zero orphan pages, zero broken index links, zero broken wikilinks, zero broken frontmatter related: references, all pages have Related Articles sections.
+
+Findings and fixes applied (4 actionable):
+
+1. `concepts/advice-suitability-cobs9.md` — added cobs9-suitability and cobs9a-suitability-mifid to related: frontmatter and Related Articles (concept page predated the COBS 9/9A summaries; links were one-directional)
+2. `summaries/fca-assessing-suitability-review-2017.md` — added cobs9-suitability and cobs9a-suitability-mifid to related: frontmatter and Related Articles (historical review now points to current-regime counterparts)
+3. `concepts/sysc10-conflicts-of-interest.md` — added mar1-market-abuse and market-abuse-framework to related: frontmatter and Related Articles (Chinese wall statutory defence connects SYSC 10 and MAR 1.8.5G dissemination defence)
+4. `summaries/disp3-fos-complaint-procedures.md` — added cobs9-suitability and advice-suitability-cobs9 to related: frontmatter and Related Articles (COBS 9 cross-references DISP 3; backlink was missing)
+
+Findings noted, no fix required:
+5. COBS 9B (targeted support) referenced in 5 pages but no wiki page exists — pending ingest
+6. `summaries/fca-cdd-findings-multi-firm-2026.md` status: pending, effective_date: 2026-08-04 — correctly flagged, no change needed

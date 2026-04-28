@@ -10,6 +10,8 @@ sources:
   - "FCA, 'The Assessing Suitability Review — Results', May 2017 (Pub ref: 005421)"
 tags: [MiFID-II, suitability, COBS-9, COBS-6, advice, personal-recommendation, risk-profiling, replacement-business, disclosure, adviser-charging, UK, FCA, historical]
 related:
+  - summaries/cobs9-suitability.md
+  - summaries/cobs9a-suitability-mifid.md
   - concepts/advice-suitability-cobs9.md
   - summaries/mifid-ii-product-governance-review-2021.md
   - concepts/costs-charges-disclosure.md
@@ -133,6 +135,8 @@ The FCA noted that smaller, directly authorised, and independent firms showed th
 
 ## Related Articles
 
+- [[cobs9-suitability]]
+- [[cobs9a-suitability-mifid]]
 - [[advice-suitability-cobs9]]
 - [[mifid-ii-product-governance-review-2021]]
 - [[costs-charges-disclosure]]

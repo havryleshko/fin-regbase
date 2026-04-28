@@ -231,6 +231,22 @@ Claude Code reads this file first on every query to identify relevant pages.
 
 ---
 
+## UK — MAR (Market Abuse Regulation)
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/mar1-market-abuse.md](summaries/mar1-market-abuse.md) | MAR 1 FCA guidance on UK MAR behaviours: intent not required (MAR 1.2.3G); "made public" four-factor test incl. above-average-expertise extension (MAR 1.2.12G–1.2.15G); insider dealing — front-running/pre-positioning named (MAR 1.3.2G(2)); unlawful disclosure — selective analyst briefing named; confidentiality+necessity safe harbour (MAR 1.4.5G); manipulating transactions — legitimate reasons + AMP double test; abusive squeeze — willingness to lend as key indicator + multilateral default risk + spot-forward divergence (MAR 1.6.11G); dissemination — Chinese wall as defence (MAR 1.8.5G); three statutory safe harbours (buy-back, price stabilisation, AMPs) | 9 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/market-abuse-framework.md](concepts/market-abuse-framework.md) | UK market abuse framework overview: two-layer structure (UK MAR + FCA MAR Sourcebook); five prohibited behaviours table (insider dealing, unlawful disclosure, manipulating transactions, manipulating devices, dissemination); intent not required as core principle; inside information four-element definition; "made public" test incl. expert-derivable extension; three statutory safe harbours; legitimate reasons + AMP double test for manipulation; firm obligations under SYSC (conflicts, STORs, SM&CR) | 2 |
+
+---
+
 ## UK — FCA Consumer Credit (CONC)
 
 ### Summaries

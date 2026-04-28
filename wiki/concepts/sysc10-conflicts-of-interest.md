@@ -27,6 +27,8 @@ related:
   - concepts/smcr-senior-managers-regime.md
   - summaries/fca-pfof-supervisory-report-2019.md
   - summaries/mifid-ii-product-governance-review-2021.md
+  - summaries/mar1-market-abuse.md
+  - concepts/market-abuse-framework.md
 ---
 
 # SYSC 10 — Conflicts of Interest
@@ -172,3 +174,5 @@ A Chinese wall is not effective simply by declaration. It requires:
 - [[smcr-senior-managers-regime]]
 - [[fca-pfof-supervisory-report-2019]]
 - [[mifid-ii-product-governance-review-2021]]
+- [[mar1-market-abuse]]
+- [[market-abuse-framework]]

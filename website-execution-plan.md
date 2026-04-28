@@ -99,4 +99,3 @@ Build and launch a single-scroll `Next.js 15` website that converts developers i
 - Install command inconsistency risk: mitigate by testing real installs early (before copy freeze).
 - Scope creep risk (extra pages/features): enforce single-page v1 boundary.
 - Trust/credibility risk from stale coverage text: tie coverage copy to a versioned source of truth before release.
-
