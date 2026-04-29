@@ -1,15 +1,32 @@
+ "use client";
+
+import { useEffect, useState } from "react";
+
 export function NavBar() {
+  const [showBorder, setShowBorder] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setShowBorder(window.scrollY > 50);
+    onScroll();
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <header className="sticky top-0 z-40 border-b border-border bg-background">
+    <header
+      className={`sticky top-0 z-40 bg-background transition-shadow ${showBorder ? "border-b border-border" : "border-b border-transparent"}`}
+    >
       <div className="mx-auto flex h-14 w-full max-w-6xl items-center justify-between px-6">
-        <span className="text-sm font-semibold tracking-tight">fin-regbase</span>
+        <span className="text-sm font-semibold tracking-tight text-text-primary">
+          fin-regbase
+        </span>
         <a
           href="https://github.com/ohavryleshko/fin-regbase"
           target="_blank"
           rel="noreferrer"
-          className="text-sm text-accent hover:text-accent-hover"
+          className="text-sm font-medium text-accent hover:text-accent-hover"
         >
-          GitHub
+          GitHub ↗
         </a>
       </div>
     </header>
