@@ -1,6 +1,7 @@
  "use client";
 
 import { motion } from "framer-motion";
+import { siteMetrics } from "@/lib/site-metrics";
 
 export function HeroSection() {
   return (
@@ -19,7 +20,8 @@ export function HeroSection() {
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.15 }}
         className="mt-6 max-w-3xl text-base leading-7 text-text-secondary md:text-xl md:leading-8"
       >
-        91 structured, citation-accurate articles across UK FCA regulations -
+        {siteMetrics.articleCount} structured, citation-accurate articles across{" "}
+        {siteMetrics.jurisdiction} FCA regulations -
         queryable via MCP from any AI agent or development environment.
       </motion.p>
       <motion.div
@@ -30,15 +32,15 @@ export function HeroSection() {
       >
         <a
           href="#connect"
-          className="inline-flex items-center justify-center rounded-md bg-accent px-5 py-3 text-sm font-semibold text-white hover:bg-accent-hover"
+          className="inline-flex items-center justify-center rounded-md bg-accent px-5 py-3 text-sm font-semibold text-white hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
         >
           Add to Claude
         </a>
         <a
-          href="https://github.com/ohavryleshko/fin-regbase"
+          href="https://github.com/havryleshko/fin-regbase"
           target="_blank"
           rel="noreferrer"
-          className="inline-flex items-center justify-center rounded-md border border-border bg-background px-5 py-3 text-sm font-semibold text-text-primary hover:bg-surface"
+          className="inline-flex items-center justify-center rounded-md border border-border bg-background px-5 py-3 text-sm font-semibold text-text-primary hover:bg-surface focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
         >
           View on GitHub
         </a>

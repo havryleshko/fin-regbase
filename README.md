@@ -10,6 +10,30 @@ Inspired by [Andrej Karpathy's LLM Wiki pattern](https://gist.github.com/karpath
 
 ---
 
+## Connect via MCP
+
+1. Clone repo and install uv
+2. Replace absolute paths and paste config
+3. Ask your agent a compliance question
+
+```json
+{
+  "mcpServers": {
+    "fin-regbase": {
+      "command": "uv",
+      "args": ["run", "/absolute/path/to/fin-regbase/mcp-server/server.py"],
+      "env": {
+        "WIKI_PATH": "/absolute/path/to/fin-regbase/wiki"
+      }
+    }
+  }
+}
+```
+
+Use the same path pattern for Claude Desktop, Cursor, VS Code, and any MCP client.
+
+---
+
 ## How It Works
 
 | Role | Responsibility |

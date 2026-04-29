@@ -1,6 +1,6 @@
  "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { KeyboardEvent, useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { configSnippets } from "@/lib/config-snippets";
 
@@ -16,6 +16,7 @@ type SnippetKey = keyof typeof configSnippets;
 export function ConnectSection() {
   const [activeTab, setActiveTab] = useState<SnippetKey>("claudeDesktop");
   const [copied, setCopied] = useState(false);
+  const [copyError, setCopyError] = useState(false);
   const [highlighted, setHighlighted] = useState<Record<SnippetKey, string>>({
     claudeDesktop: "",
     cursor: "",
@@ -49,9 +50,50 @@ export function ConnectSection() {
   }, [tabKeys]);
 
   const copyConfig = async () => {
-    await navigator.clipboard.writeText(configSnippets[activeTab]);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 1400);
+    const text = configSnippets[activeTab];
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopyError(false);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1400);
+      return;
+    } catch {
+      const textArea = document.createElement("textarea");
+      textArea.value = text;
+      document.body.appendChild(textArea);
+      textArea.select();
+      const succeeded = document.execCommand("copy");
+      document.body.removeChild(textArea);
+      setCopyError(!succeeded);
+      setCopied(succeeded);
+      if (succeeded) {
+        setTimeout(() => setCopied(false), 1400);
+      }
+    }
+  };
+
+  const onTabKeyDown = (event: KeyboardEvent<HTMLButtonElement>, key: SnippetKey) => {
+    if (!["ArrowRight", "ArrowLeft", "Home", "End"].includes(event.key)) {
+      return;
+    }
+    event.preventDefault();
+    const currentIndex = tabKeys.indexOf(key);
+    let nextIndex = currentIndex;
+    if (event.key === "ArrowRight") {
+      nextIndex = (currentIndex + 1) % tabKeys.length;
+    }
+    if (event.key === "ArrowLeft") {
+      nextIndex = (currentIndex - 1 + tabKeys.length) % tabKeys.length;
+    }
+    if (event.key === "Home") {
+      nextIndex = 0;
+    }
+    if (event.key === "End") {
+      nextIndex = tabKeys.length - 1;
+    }
+    const nextKey = tabKeys[nextIndex];
+    setActiveTab(nextKey);
+    document.getElementById(`config-tab-${nextKey}`)?.focus();
   };
 
   return (
@@ -71,9 +113,13 @@ export function ConnectSection() {
         {tabKeys.map((key) => (
           <button
             key={key}
+            id={`config-tab-${key}`}
             role="tab"
             aria-selected={activeTab === key}
+            aria-controls="config-panel"
+            tabIndex={activeTab === key ? 0 : -1}
             onClick={() => setActiveTab(key)}
+            onKeyDown={(event) => onTabKeyDown(event, key)}
             className={`whitespace-nowrap rounded-md border px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${activeTab === key ? "border-accent bg-accent text-white" : "border-border bg-background text-text-primary hover:bg-surface"}`}
           >
             {labels[key]}
@@ -82,6 +128,9 @@ export function ConnectSection() {
       </div>
 
       <motion.div
+        id="config-panel"
+        role="tabpanel"
+        aria-labelledby={`config-tab-${activeTab}`}
         initial={{ opacity: 0, y: 12 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.4 }}
@@ -105,10 +154,11 @@ export function ConnectSection() {
           onClick={copyConfig}
           className="inline-flex items-center rounded-md bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
         >
-          {copied ? "Copied ✓" : "Copy config"}
+          {copied ? "Copied ✓" : copyError ? "Copy failed" : "Copy config"}
         </button>
         <p className="text-sm text-text-secondary">
-          1. Install uv → 2. Paste config → 3. Ask your agent a compliance question
+          1. Clone repo and install uv → 2. Replace absolute paths and paste config → 3.
+          Ask your agent a compliance question
         </p>
       </div>
     </section>

@@ -14,7 +14,10 @@ export const configSnippets = {
   "mcpServers": {
     "fin-regbase": {
       "command": "uv",
-      "args": ["run", "/absolute/path/to/fin-regbase/mcp-server/server.py"]
+      "args": ["run", "/absolute/path/to/fin-regbase/mcp-server/server.py"],
+      "env": {
+        "WIKI_PATH": "/absolute/path/to/fin-regbase/wiki"
+      }
     }
   }
 }`,
@@ -22,7 +25,10 @@ export const configSnippets = {
   "mcpServers": {
     "fin-regbase": {
       "command": "uv",
-      "args": ["run", "/absolute/path/to/fin-regbase/mcp-server/server.py"]
+      "args": ["run", "/absolute/path/to/fin-regbase/mcp-server/server.py"],
+      "env": {
+        "WIKI_PATH": "/absolute/path/to/fin-regbase/wiki"
+      }
     }
   }
 }`,
@@ -30,7 +36,10 @@ export const configSnippets = {
   "mcpServers": {
     "fin-regbase": {
       "command": "uv",
-      "args": ["run", "/absolute/path/to/fin-regbase/mcp-server/server.py"]
+      "args": ["run", "/absolute/path/to/fin-regbase/mcp-server/server.py"],
+      "env": {
+        "WIKI_PATH": "/absolute/path/to/fin-regbase/wiki"
+      }
     }
   }
 }`,

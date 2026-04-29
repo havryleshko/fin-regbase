@@ -21,10 +21,10 @@ export function NavBar() {
           fin-regbase
         </span>
         <a
-          href="https://github.com/ohavryleshko/fin-regbase"
+          href="https://github.com/havryleshko/fin-regbase"
           target="_blank"
           rel="noreferrer"
-          className="text-sm font-medium text-accent hover:text-accent-hover"
+          className="rounded-sm text-sm font-medium text-accent hover:text-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
         >
           GitHub ↗
         </a>
