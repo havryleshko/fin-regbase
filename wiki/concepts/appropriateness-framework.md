@@ -2,22 +2,25 @@
 title: "Appropriateness vs Suitability — The COBS Framework"
 jurisdiction: UK
 regulator: FCA
-regulation: COBS 9; COBS 9A; COBS 10; COBS 10A
+regulation: COBS 9; COBS 9A; COBS 10; COBS 10A; COBS 9B
 status: current
 effective_date: 2007-11-01
-last_updated: 2026-04-28
+last_updated: 2026-04-29
 sources:
   - "COBS 10.1.2R–10.1.4G; COBS 10.2.1R–10.6.1G"
   - "COBS 10A.1.1R–10A.6.2G"
   - "COBS 9.1.1R; COBS 9.2.1R–9.2.6R"
   - "COBS 9A.1.1R; COBS 9A.2.1R"
-tags: [COBS, COBS-9, COBS-9A, COBS-10, COBS-10A, appropriateness, suitability, execution-only, non-complex, personal-recommendation, portfolio-management, UK, FCA, retail-client, fintech]
+  - "COBS 9B.1.1G; COBS 9B.3.3G; COBS 9B.4.4R–9B.4.42R"
+tags: [COBS, COBS-9, COBS-9A, COBS-10, COBS-10A, COBS-9B, appropriateness, suitability, targeted-support, execution-only, non-complex, personal-recommendation, portfolio-management, UK, FCA, retail-client, fintech]
 related:
   - summaries/cobs10-appropriateness-non-mifid.md
   - summaries/cobs10a-appropriateness-mifid.md
   - summaries/cobs9-suitability.md
   - summaries/cobs9a-suitability-mifid.md
+  - summaries/cobs9b-targeted-support.md
   - concepts/advice-suitability-cobs9.md
+  - concepts/targeted-support-service.md
 ---
 
 # Appropriateness vs Suitability — The COBS Framework
@@ -89,7 +92,18 @@ Where a firm has assessed **suitability under COBS 9 or COBS 9B (Targeted suppor
 
 ### COBS 9B (Targeted Support) Exclusion
 
-The rules in COBS 9, COBS 9A, COBS 10, and COBS 10A do not apply to a firm in relation to the provision of a **targeted support service** within the scope of COBS 9B **(COBS 9.1.1BR; COBS 9A.1.1AG; COBS 10.1.2R(4); COBS 10A.1.1R)**. Targeted support is a third regulatory pathway distinct from both suitability and appropriateness.
+The rules in COBS 9, COBS 9A, COBS 10, and COBS 10A do not apply to a firm in relation to the provision of a **targeted support service** within the scope of COBS 9B **(COBS 9.1.1BR; COBS 9A.1.1AG; COBS 10.1.2R(4); COBS 10A.1.1R)**. Targeted support is a **third regulatory pathway** distinct from both suitability and appropriateness.
+
+**What targeted support is:** A firm providing targeted support makes a "ready-made suggestion" — a recommendation designed for a pre-defined **consumer segment** (a group of retail customers with common characteristics), not for the specific individual. The firm assesses suitability at segment level; the client receives a suggestion designed for the segment's characteristics. This is governed by COBS 9B (in force April 2026).
+
+**Key differences from suitability and appropriateness:**
+- No individual suitability assessment — but the ready-made suggestion must be suitable for the segment as a whole **(COBS 9B.4.20R)**
+- No periodic individual suitability reviews (unlike COBS 9A ongoing advice)
+- Commission ban on third-party payments in connection with the service **(COBS 9B.8.2R)** — structurally different from the inducements framework under COBS 9/9A
+- Three hard prohibitions: safeguarded benefits (advice first — COBS 9B.2.3R); pension consolidation (prohibited — COBS 9B.4.38R); RMMIs/non-mass market/COBS 22-restricted products (excluded — COBS 9B.4.42R)
+- Mandatory disclosure package at point of delivery: Art. 55A RAO statutory statement that the recommendation is not individualised, plus segment characteristics, in a durable medium **(COBS 9B.6.6G; 9B.6.17R)**
+
+See [[cobs9b-targeted-support.md]] for the full source summary and [[targeted-support-service.md]] for the operative concept page.
 
 ### What Happens After a Warning Under Appropriateness
 
@@ -135,3 +149,5 @@ The MiFID record-keeping obligation captures the full sequence: what warning was
 - [[cobs9-suitability]]
 - [[cobs9a-suitability-mifid]]
 - [[advice-suitability-cobs9]]
+- [[cobs9b-targeted-support.md]]
+- [[targeted-support-service.md]]

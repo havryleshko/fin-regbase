@@ -7,9 +7,22 @@ status: current
 effective_date: 2018-01-03
 last_updated: 2026-04-13
 sources:
+  - "FCA PROD 3.2.8R (positive and negative target market identification)"
+  - "FCA PROD 3.2.10R (needs/characteristics assessment; business model integrity test)"
+  - "FCA PROD 3.2.12R–3.2.13R (scenario analysis)"
+  - "FCA PROD 3.2.14R (charging structure assessment)"
+  - "FCA PROD 3.2.16R (information disclosure to distributors)"
+  - "FCA PROD 3.2.19R (ongoing review)"
+  - "FCA PROD 3.2.27R–3.2.30R (conflicts of interest in manufacture)"
+  - "FCA PROD 3.3.1R (distributor general obligations)"
+  - "FCA PROD 3.3.9R (distributor independent TM obligation)"
+  - "FCA PROD 3.3.15R (distributor product governance arrangements)"
+  - "FCA PROD 3.3.18R (distributor compliance checklist)"
+  - "FCA PROD 3.3.30R (information sharing to manufacturer)"
   - "FCA, 'MiFID II: product governance review', 26 February 2021"
 tags: [MiFID-II, PROD, product-governance, target-market, negative-target-market, asset-management, AFM, distributor, scenario-testing, conflicts-of-interest, SM&CR, record-keeping, UK, FCA]
 related:
+  - summaries/prod3-product-governance-mifid.md
   - summaries/mifid-ii-product-governance-review-2021.md
   - concepts/consumer-duty-products-services.md
   - concepts/consumer-duty-price-value.md
@@ -47,24 +60,38 @@ MiFID II came into force in January 2018.
 
 ## Target Market — Positive and Negative
 
-### Positive Target Market
+### Dual Identification Obligation
 
-Manufacturers must identify the **target market** for each financial instrument: the group of end clients for whose needs, characteristics and objectives the product is compatible. **(PROD 3.2.10R)**
+**(PROD 3.2.8R)** Manufacturers must identify the potential target market for each financial instrument at a **sufficiently granular level** and must specify:
+- The **positive target market** — types of client for whose needs, characteristics and objectives the financial instrument is compatible
+- The **negative target market** — groups of client for whose needs, characteristics and objectives the financial instrument is **not** compatible
 
-This requires the manufacturer to specify:
-- The type of client the product is designed for
-- Whether the risk/reward profile is consistent with the identified target market
-- The intended distribution strategy
+Both are mandatory. An assessment without a negative target market is structurally incomplete.
+
+### The Needs/Characteristics Assessment (PROD 3.2.10R)
+
+**(PROD 3.2.10R)** Beyond the TM identification, manufacturers must determine whether the financial instrument actually meets the identified target market's needs by examining:
+1. Whether the financial instrument's **risk/reward profile is consistent** with the target market
+2. Whether the design of the financial instrument is driven by **features that benefit the client** and **not** by a business model which relies on **poor client outcomes** to be profitable
+
+The second limb is the **business model integrity test**: a product designed to profit from client detriment — excessive charges, features generating revenue from client errors, structures that profit when clients take unfavourable outcomes — fails PROD 3.2.10R regardless of target market definition.
 
 ### Negative Target Market
 
-Manufacturers must also identify the **negative target market** — the group of clients the product is *not* compatible with. **(PROD 3.2.10R)**
-
-This is a distinct, mandatory step. A target market assessment is incomplete without a negative target market definition. Common failures:
+This is a distinct, mandatory step. A target market assessment that does not define a negative target market is incomplete. Common failures observed in the FCA 2021 review:
 - Failing to identify any negative target market at all (the FCA's 2021 review found only 1 of 8 firms had attempted it)
 - Identifying a negative target market that overlaps with the existing investor base — for example, defining "investors who hold for longer than 5 years" as a negative target market while acknowledging that some existing investors do exactly that
 
 The negative target market obligation enables distributors to identify customers for whom a product is inappropriate, and supports the manufacturer's obligation to ensure the product does not reach unsuitable investors.
+
+---
+
+## Charging Structure Assessment (PROD 3.2.14R)
+
+**(PROD 3.2.14R)** Manufacturers must consider the charging structure for each financial instrument, examining:
+1. Whether costs and charges are **compatible with the needs, objectives and characteristics** of the target market
+2. Whether charges **undermine the financial instrument's return expectations** — for example, where costs equal, exceed or remove almost all the expected tax advantages linked to a financial instrument
+3. Whether the charging structure is **appropriately transparent** for the target market and does not disguise charges or is too complex to understand
 
 ---
 
@@ -112,6 +139,42 @@ Manufacturers must disclose costs and charges in a way that is **clear, fair and
 Marketing material must not contradict or reduce the significance of figures in regulated documents (UCITS KIID, PRIIPs KID). Showing lower cost figures on a factsheet than in the KID is a named regulatory breach under the PRIIPs Regulation. **(FCA 2019 review)**
 
 Portfolio transaction costs must be included in cost disclosures. The FCA identified their omission in both the 2019 costs disclosure review and the 2021 product governance review — it is the single most persistent costs disclosure failure observed across both reviews. Four specific transaction cost calculation failure modes have been identified, including arrival price methodology misapplied to primary issues (producing negative costs) and anti-dilution levy misuse. See [[costs-charges-disclosure]] for the full framework including the UCITS KIID material transaction cost obligation, disclosure accessibility requirements, and the prohibition on using AMC as a headline figure.
+
+---
+
+## Distributor Obligations (PROD 3.3)
+
+PROD 3.3 imposes standalone obligations on distributors — independent of the manufacturer. These are not merely a mirror of manufacturer obligations; they require distributors to exercise their own product governance judgment.
+
+### General Distributor Obligations (PROD 3.3.1R)
+
+**(PROD 3.3.1R)** A distributor must:
+1. **Understand** the financial instruments it distributes
+2. **Assess compatibility** of those instruments with the needs of the clients it distributes to, taking into account the manufacturer's identified target market
+3. Ensure financial instruments are distributed only when this is **in the best interests of the client** (COBS 2.1.1R)
+
+### Independent TM Obligation (PROD 3.3.9R)
+
+**(PROD 3.3.9R)** Distributors must determine the target market for each financial instrument **even if the target market was not defined by the manufacturer**. A distributor cannot rely on the manufacturer's failure to identify a TM as a basis for proceeding without one.
+
+### Distributor Product Governance Arrangements (PROD 3.3.15R)
+
+**(PROD 3.3.15R)** Distributors must have adequate product governance arrangements ensuring:
+- Financial instruments are compatible with the identified TM
+- Distribution strategy is consistent with the identified TM
+- Clients' interests are not compromised as a result of commercial or funding pressures
+- Groups for whom the product is not compatible are identified
+
+### The Compliance Checklist (PROD 3.3.18R)
+
+**(PROD 3.3.18R)** Distributors must have procedures ensuring compliance with all applicable rules when deciding what to distribute, including:
+1. **Disclosure** — COBS 4 and COBS 14.3A
+2. **Suitability** — COBS 9A
+3. **Appropriateness** — COBS 10A
+4. **Inducements** — COBS 2.3A
+5. **Conflicts of interest** — SYSC 10.1
+
+PROD 3.3 is additive to these obligations — it does not substitute for them.
 
 ---
 
@@ -176,17 +239,20 @@ Training that does not adequately cover end-investor needs and outcomes is insuf
 
 ## Key Points for Agents
 
-- Negative target market identification (PROD 3.2.10R) is mandatory and distinct from positive target market identification — a product assessment without a negative target market is incomplete. Near-universal non-compliance was found in the FCA's 2021 review.
-- PROD 3.2.13R product scenario testing is instrument-level — it assesses how the specific product performs under stress (asset stress, investor concentration, market volatility), not whether the firm survives. It differs in purpose from firm-level prudential stress tests.
-- Manufacturer–distributor information flow failure is systemic. Commercial sensitivity does not excuse failure to obtain end-client data; manufacturers must document their challenge attempts.
-- AFM Boards must ensure NED challenge covers all product governance areas — challenge limited to an individual director's expertise is a named FCA failure.
-- Undocumented product governance challenge is an SM&CR personal liability risk under SYSC 9.1.1R: individuals who cannot evidence oversight may be personally in breach, not just the firm.
-- PROD 3 applies to AFMs as guidance; binding obligations come from COBS, COLL, and the Principles. Consumer Duty Products & Services outcome compliance and PROD compliance are treated as equivalent — not cumulative.
+- **Dual TM obligation** (PROD 3.2.8R): both positive (compatible clients) and negative (incompatible clients) target markets are mandatory — not an optional add-on. Near-universal non-compliance was found in the FCA's 2021 review.
+- **PROD 3.2.10R has two limbs**: (1) risk/reward profile consistent with TM; (2) design driven by features benefiting the client, **not** by a business model relying on poor client outcomes. The second limb is a design integrity test independent of TM compatibility.
+- **PROD 3.2.14R charging structure**: charges must be compatible with TM needs, must not undermine return expectations (e.g., by consuming expected tax advantages), and must be transparent and understandable for the TM.
+- **PROD 3.2.13R product scenario testing** is instrument-level, not firm-level — it assesses how the specific product performs under negative conditions including market deterioration, counterparty failure, commercial non-viability, and excess demand.
+- **Distributors have independent obligations** (PROD 3.3): must determine their own TM even if the manufacturer hasn't defined one (PROD 3.3.9R); must comply with the full COBS 4/9A/10A/2.3A/SYSC 10 checklist (PROD 3.3.18R); and must share out-of-TM sales data back to the manufacturer (PROD 3.3.30R).
+- **Manufacturer–distributor information flow** (PROD 3.3.30R) is a statutory obligation. Commercial sensitivity is not a defence; manufacturers must document challenge attempts and distributors must provide sales data including out-of-TM sales.
+- **PROD applies to AFMs as guidance**, not hard rules — binding obligations come from COBS, COLL and the Principles. For all other MiFID manufacturers, PROD 3.2 rules are binding.
+- **Consumer Duty / PROD equivalence**: compliance with PROD 3 satisfies the Consumer Duty Products & Services outcome — the two are not cumulative.
 
 ## Related Articles
 
-- [[smcr-senior-managers-regime]]
+- [[prod3-product-governance-mifid.md]]
 - [[mifid-ii-product-governance-review-2021]]
+- [[smcr-senior-managers-regime]]
 - [[consumer-duty-products-services]]
 - [[consumer-duty-price-value]]
 - [[consumer-duty-overview]]
@@ -199,3 +265,4 @@ Training that does not adequately cover end-investor needs and outcomes is insuf
 - [[fca-assessing-suitability-review-2017]]
 - [[sysc9-record-keeping]]
 - [[sysc10-conflicts-of-interest]]
+- [[cobs9b-targeted-support.md]]
