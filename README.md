@@ -29,7 +29,7 @@ Three operations defined in `CLAUDE.md`:
 
 ## What's in the Wiki
 
-**121 articles** (69 concepts, 45 summaries, 7 derived), plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
+**126 articles** (71 concepts, 48 summaries, 7 derived), plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
 
 ### Summaries
 Source-level overviews with full citation trails.
@@ -72,7 +72,18 @@ Source-level overviews with full citation trails.
 | `summaries/ps23-6-cryptoasset-financial-promotions.md` | PS23/6 — cryptoasset financial promotions as RMMIs, consumer journey, s21 approvers, MLR-registered communicators, FPO Art. 73ZA |
 | `summaries/disp1-treating-complainants-fairly.md` | DISP 1 — complaints governance, fair handling standards, response timing, root-cause analysis and MI requirements |
 | `summaries/disp2-fos-jurisdiction.md` | DISP 2 — jurisdiction of the Financial Ombudsman Service, complainant eligibility, complaint scope, and redress boundaries |
+| `summaries/disp3-fos-complaint-procedures.md` | DISP 3 — FOS determination standard, dismissal grounds, evidence powers, award types and cap (£455k/£205k from April 2026) |
 | `summaries/disp-app5-motor-finance-dca-complaints.md` | DISP App 5 — motor finance DCA and non-DCA complaint handling (deadline pauses, extended FOS windows, communications, record retention) |
+| `summaries/mar1-market-abuse.md` | MAR 1 — UK MAR market abuse guidance: insider dealing, unlawful disclosure, manipulation, dissemination; intent not required; three statutory safe harbours |
+| `summaries/sysc4-general-organisational-requirements.md` | SYSC 4 — baseline governance hard Rule (all firms); common platform six-part requirements; management body mandate; chair/CEO separation; two persons directing; two mandatory allocated functions |
+| `summaries/sysc6-compliance-internal-audit-financial-crime.md` | SYSC 6 — dual compliance + financial crime obligation (all firms); compliance function independence conditions; MLRO appointment; AML systems and controls; internal audit |
+| `summaries/cobs4-financial-promotions.md` | COBS 4 — FCNM master rule; dual-track retail comms (7-part non-MiFID vs MiFID 4.5A past/simulated/future performance rules); cold calling 3 grounds; s.21 approver regime (pre-approval, monitoring, quarterly attestation, competence requirement) |
+| `summaries/cobs9-suitability.md` | COBS 9 — non-MiFID suitability: three-dimension test, hard gate, insistent client regime, suitability report, record retention tiers |
+| `summaries/cobs9a-suitability-mifid.md` | COBS 9A — MiFID/IBIP suitability: professional client assumptions, risk profiling tool reliability, switching cost-benefit test, periodic suitability obligation |
+| `summaries/cobs9b-targeted-support.md` | COBS 9B (April 2026) — targeted support: Art. 55A RAO new regulated activity; consumer segment architecture; three absolute prohibitions; commission ban; mandatory Art. 55A RAO disclosure package; no periodic individual suitability review |
+| `summaries/cobs10-appropriateness-non-mifid.md` | COBS 10 — non-MiFID appropriateness for non-advised services: knowledge and experience only; product scope; execution-only non-complex exemption (4-criterion test) |
+| `summaries/cobs10a-appropriateness-mifid.md` | COBS 10A — MiFID/IBIP appropriateness: professional client assumption; stricter 6-criterion non-complex test; four-item mandatory record including firm's own execution decision |
+| `summaries/prod3-product-governance-mifid.md` | PROD 3 — full sourcebook: PROD 3.2 manufacturer obligations (dual TM 3.2.8R, business model integrity test 3.2.10R, scenario analysis 3.2.13R, charging structure 3.2.14R, distributor disclosure 3.2.16R, ongoing review 3.2.19R, conflicts 3.2.27R–3.2.30R); PROD 3.3 distributor obligations (independent TM 3.3.9R, compliance checklist 3.3.18R, information sharing 3.3.30R) |
 
 ### Concepts
 One page per regulatory concept, built from primary sources.
@@ -119,14 +130,28 @@ One page per regulatory concept, built from primary sources.
 |------|----------------|
 | `concepts/prin-principles-overview.md` | The twelve Principles — enforceability, eligible counterparty context, interaction with Consumer Duty (Principle 12) and SM&CR |
 
-**MiFID II / Investment Services**
+**COBS — Conduct of Business / Investment Services**
 
 | Page | What it covers |
 |------|----------------|
-| `concepts/prod-product-governance.md` | PROD rules — target market, product testing, distribution strategy, annual review |
+| `concepts/financial-promotions-approver-regime.md` | s.21 FSMA / COBS 4.10 approver regime: three obligations (pre-approval, ongoing monitoring, quarterly attestation); competence/expertise hard Rule; FCA Gateway from Jan 2024; s.138D reasonable steps defence |
+| `concepts/appropriateness-framework.md` | Suitability vs appropriateness framework: COBS 9/9A (advised, three-dimension, hard gate) vs COBS 10/10A (non-advised, K&E only, soft gate); execution-only non-complex exemption; COBS 9B targeted support as third pathway |
+| `concepts/targeted-support-service.md` | COBS 9B targeted support: consumer segment architecture; delivery gates (alignment, known-unsuitability override, opt-out); three absolute prohibitions; commission ban; Art. 55A RAO disclosure package |
+| `concepts/advice-suitability-cobs9.md` | Pre-MiFID II suitability baseline: three-dimension test, risk profiling failure modes, adviser disclosure framework |
+
+**MiFID II / PROD (Product Governance)**
+
+| Page | What it covers |
+|------|----------------|
+| `concepts/prod-product-governance.md` | PROD 3: dual TM (positive + negative, PROD 3.2.8R); business model integrity test (PROD 3.2.10R); scenario analysis; charging structure; PROD 3.3 distributor obligations (independent TM, compliance checklist, information sharing) |
 | `concepts/costs-charges-disclosure.md` | Ex-ante and ex-post disclosure; aggregated vs. itemised; PRIIPs overlap |
 | `concepts/payment-for-order-flow.md` | PFOF prohibition (UK post-Brexit), conflicts of interest, best execution |
-| `concepts/advice-suitability-cobs9.md` | Suitability assessment, risk profiling, KYC, ongoing suitability |
+
+**MAR — Market Abuse**
+
+| Page | What it covers |
+|------|----------------|
+| `concepts/market-abuse-framework.md` | UK market abuse framework: five prohibited behaviours; intent not required; inside information definition; "made public" test; three statutory safe harbours |
 
 **Payment Services / E-Money**
 
@@ -195,6 +220,7 @@ One page per regulatory concept, built from primary sources.
 
 | Page | What it covers |
 |------|----------------|
+| `concepts/sysc4-governance-framework.md` | SYSC 4 governance: baseline hard Rule (all firms); common platform vs non-common platform two-track; management body mandate; chair/CEO separation; two persons directing; two mandatory allocated functions |
 | `concepts/sysc9-record-keeping.md` | SYSC 9 record-keeping duties, MiFID retention/tamper-proof requirements, and AISP/PISP record obligations |
 | `concepts/sysc10-conflicts-of-interest.md` | SYSC 10 conflicts framework: identification, register, senior management reporting, policy controls, and disclosure as last resort |
 
@@ -221,8 +247,9 @@ fin-regbase/
 ├── .mcp.json               # Local MCP server config (Cursor)
 ├── raw/                    # Immutable source documents — never edit manually
 │   ├── fca-consumer-duty/  # PS22/9, FG22/5, FG21/1, Dear CEO letter
+│   ├── fca-cobs/           # COBS 4, 9, 9A, 9B, 10, 10A, PROD 3 sourcebook PDFs
 │   ├── fca-conc/           # FCA Handbook CONC (consumer credit) source PDFs
-│   ├── fca-handbook/       # DISP, PRIN, and other Handbook PDF extracts used for wiki ingests
+│   ├── fca-handbook/       # DISP, PRIN, SYSC, and other Handbook PDF extracts
 │   ├── fca-policy-statements/ # FCA policy statements (e.g. PS23/6) as source PDFs
 │   ├── fca-financial-crime/ # FCG 3, FCG 7, JMLSG Part I, thematic reviews
 │   ├── mifid/              # PROD review, costs/charges review, PFOF, suitability review
@@ -232,8 +259,8 @@ fin-regbase/
 ├── wiki/
 │   ├── index.md            # Master index — start here for any query
 │   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (69 pages)
-│   ├── summaries/          # Per-document summaries (45 pages)
+│   ├── concepts/           # Core regulatory concepts (71 pages)
+│   ├── summaries/          # Per-document summaries (48 pages)
 │   └── derived/            # Synthesised answers, checklists, assessments (7 pages)
 ├── agents/                 # Runtime query wrappers/clients
 ├── mcp-server/             # MCP server implementation (tooling for wiki access)
@@ -263,7 +290,7 @@ fin-regbase/
 |-------|-------|
 | **v1 — done** | UK FCA Consumer Duty — fully linted, citation-accurate |
 | **v2 — done** | FCA Financial Crime (FCG, JMLSG, sanctions), MiFID II, PSR/E-Money, UK GDPR, SM&CR (solo-regulated guide) |
-| **v3 — current** | MCP server (`mcp-server/`); CONC, DISP, PRIN, and PS23/6 crypto financial promotions; deeper Handbook (e.g. full SYSC); FATF 40 Recommendations |
+| **v3 — current** | MCP server (`mcp-server/`); CONC, DISP, PRIN, PS23/6 crypto financial promotions, SYSC 4/6; COBS 4, 9B, PROD 3 (Tier 1 B2C/investment layer complete); Tier 2 (COBS 11 best execution, COBS 2.3A research/inducements) and Tier 3 (PSR 2.1 TPP access rules) in progress |
 | **v4** | SEC Reg BI, FINRA rules, FinCEN AML programme requirements |
 
 ---
