@@ -15,7 +15,14 @@ sources:
   - "FCA COBS 9B.4.42R (restricted product prohibition)"
   - "FCA COBS 9B.2.3R (safeguarded benefits prohibition)"
 tags: [targeted-support, consumer-segment, ready-made-suggestion, commission-ban, COBS, UK, FCA]
-related: [cobs9b-targeted-support.md, appropriateness-framework.md, cobs9a-suitability-mifid.md, cobs10a-appropriateness-mifid.md, cobs4-financial-promotions.md, prod-product-governance.md, advice-suitability-cobs9.md]
+related:
+  - summaries/cobs9b-targeted-support.md
+  - concepts/appropriateness-framework.md
+  - summaries/cobs9a-suitability-mifid.md
+  - summaries/cobs10a-appropriateness-mifid.md
+  - summaries/cobs4-financial-promotions.md
+  - concepts/prod-product-governance.md
+  - concepts/advice-suitability-cobs9.md
 ---
 
 # Targeted Support Service (COBS 9B)
@@ -169,9 +176,9 @@ A firm that satisfies the Art. 55A(4)–(5) RAO statement obligation simultaneou
 
 ## Related Articles
 
-- [[cobs9b-targeted-support.md]]
-- [[appropriateness-framework.md]]
-- [[cobs9a-suitability-mifid.md]]
-- [[cobs10a-appropriateness-mifid.md]]
-- [[cobs4-financial-promotions.md]]
-- [[prod-product-governance.md]]
+- [[cobs9b-targeted-support]]
+- [[appropriateness-framework]]
+- [[cobs9a-suitability-mifid]]
+- [[cobs10a-appropriateness-mifid]]
+- [[cobs4-financial-promotions]]
+- [[prod-product-governance]]

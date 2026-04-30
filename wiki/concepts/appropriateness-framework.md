@@ -2,7 +2,7 @@
 title: "Appropriateness vs Suitability — The COBS Framework"
 jurisdiction: UK
 regulator: FCA
-regulation: COBS 9; COBS 9A; COBS 10; COBS 10A; COBS 9B
+regulation: COBS 3; COBS 9; COBS 9A; COBS 10; COBS 10A; COBS 9B
 status: current
 effective_date: 2007-11-01
 last_updated: 2026-04-29
@@ -21,6 +21,9 @@ related:
   - summaries/cobs9b-targeted-support.md
   - concepts/advice-suitability-cobs9.md
   - concepts/targeted-support-service.md
+  - summaries/cobs3-client-categorisation.md
+  - concepts/client-categorisation-framework.md
+  - summaries/prod3-product-governance-mifid.md
 ---
 
 # Appropriateness vs Suitability — The COBS Framework
@@ -37,6 +40,8 @@ The FCA's COBS framework contains **two separate consumer protection tests** for
 | **If test not passed** | Must not make the recommendation or take the decision to trade | Must warn the client — but firm has discretion on whether to execute |
 | **Non-MiFID rules** | COBS 9 | COBS 10 |
 | **MiFID / IBIP rules** | COBS 9A | COBS 10A |
+
+**MiFID trump rule (COBS 3.1.4R):** Where a firm conducts both MiFID and non-MiFID business for the same client, it must apply MiFID categorisation (and therefore MiFID conduct of business rules, including COBS 9A and COBS 10A) across the entire client relationship. The non-MiFID track (COBS 9/COBS 10) does not apply to any part of that client's business.
 
 ---
 
@@ -144,10 +149,13 @@ The MiFID record-keeping obligation captures the full sequence: what warning was
 
 ## Related Articles
 
+- [[cobs3-client-categorisation]]
+- [[client-categorisation-framework]]
 - [[cobs10-appropriateness-non-mifid]]
 - [[cobs10a-appropriateness-mifid]]
 - [[cobs9-suitability]]
 - [[cobs9a-suitability-mifid]]
 - [[advice-suitability-cobs9]]
-- [[cobs9b-targeted-support.md]]
-- [[targeted-support-service.md]]
+- [[cobs9b-targeted-support]]
+- [[targeted-support-service]]
+- [[prod3-product-governance-mifid]]

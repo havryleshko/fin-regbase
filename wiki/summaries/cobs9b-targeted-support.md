@@ -38,7 +38,14 @@ sources:
   - "FCA COBS 9B.10.1R (systems and controls)"
   - "FCA COBS 9B.10.9R (regular review)"
 tags: [targeted-support, ready-made-suggestion, consumer-segment, COBS, MiFID, investment-advice, UK, FCA]
-related: [targeted-support-service.md, appropriateness-framework.md, cobs9-suitability.md, cobs9a-suitability-mifid.md, cobs10a-appropriateness-mifid.md, cobs4-financial-promotions.md, prod-product-governance.md]
+related:
+  - concepts/targeted-support-service.md
+  - concepts/appropriateness-framework.md
+  - summaries/cobs9-suitability.md
+  - summaries/cobs9a-suitability-mifid.md
+  - summaries/cobs10a-appropriateness-mifid.md
+  - summaries/cobs4-financial-promotions.md
+  - concepts/prod-product-governance.md
 ---
 
 # COBS 9B — Targeted Support
@@ -77,7 +84,7 @@ This is an absolute prohibition — it cannot be waived by the client or by firm
 - The appropriateness obligation (COBS 10/10A) — because the firm is making a suggestion, not responding to a client-initiated transaction
 - The suitability obligation (COBS 9/9A) — because the suggestion is at segment level, not individualised
 
-See [[appropriateness-framework.md]] for the full hierarchy.
+See [[appropriateness-framework]] for the full hierarchy.
 
 ---
 
@@ -322,10 +329,10 @@ A firm must review its targeted support service — including its consumer segme
 
 ## Related Articles
 
-- [[targeted-support-service.md]]
-- [[appropriateness-framework.md]]
-- [[cobs9-suitability.md]]
-- [[cobs9a-suitability-mifid.md]]
-- [[cobs10a-appropriateness-mifid.md]]
-- [[cobs4-financial-promotions.md]]
-- [[prod-product-governance.md]]
+- [[targeted-support-service]]
+- [[appropriateness-framework]]
+- [[cobs9-suitability]]
+- [[cobs9a-suitability-mifid]]
+- [[cobs10a-appropriateness-mifid]]
+- [[cobs4-financial-promotions]]
+- [[prod-product-governance]]

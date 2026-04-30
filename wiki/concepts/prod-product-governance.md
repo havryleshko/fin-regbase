@@ -37,6 +37,8 @@ related:
   - concepts/smcr-senior-managers-regime.md
   - concepts/advice-suitability-cobs9.md
   - summaries/fca-assessing-suitability-review-2017.md
+  - summaries/cobs3-client-categorisation.md
+  - concepts/client-categorisation-framework.md
 ---
 
 # PROD 3 — Product Governance for Investment Manufacturers
@@ -265,4 +267,8 @@ Training that does not adequately cover end-investor needs and outcomes is insuf
 - [[fca-assessing-suitability-review-2017]]
 - [[sysc9-record-keeping]]
 - [[sysc10-conflicts-of-interest]]
-- [[cobs9b-targeted-support.md]]
+- [[cobs9b-targeted-support]]
+- [[cobs3-client-categorisation]]
+- [[client-categorisation-framework]]
+- [[inducements-framework]]
+- [[cobs2-3a-inducements]]

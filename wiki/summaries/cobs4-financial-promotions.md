@@ -22,7 +22,13 @@ sources:
   - "FCA COBS 4.10.9AR (approver competence requirement)"
   - "FCA COBS 4.11.1R (record keeping)"
 tags: [financial-promotions, FCNM, approver-regime, cold-calling, MiFID, COBS, UK, FCA]
-related: [financial-promotions-approver-regime.md, conc-financial-promotions-cfnm.md, cryptoasset-financial-promotions-framework.md, ps23-6-cryptoasset-financial-promotions.md, appropriateness-framework.md, cobs9b-targeted-support.md]
+related:
+  - concepts/financial-promotions-approver-regime.md
+  - concepts/conc-financial-promotions-cfnm.md
+  - concepts/cryptoasset-financial-promotions-framework.md
+  - summaries/ps23-6-cryptoasset-financial-promotions.md
+  - concepts/appropriateness-framework.md
+  - summaries/cobs9b-targeted-support.md
 ---
 
 # COBS 4 — Communicating with Clients, Including Financial Promotions
@@ -201,9 +207,9 @@ The retention obligation applies to the promotion itself and to all approvals, s
 
 ## Related Articles
 
-- [[financial-promotions-approver-regime.md]]
-- [[conc-financial-promotions-cfnm.md]]
-- [[cryptoasset-financial-promotions-framework.md]]
-- [[ps23-6-cryptoasset-financial-promotions.md]]
-- [[cobs9b-targeted-support.md]]
-- [[appropriateness-framework.md]]
+- [[financial-promotions-approver-regime]]
+- [[conc-financial-promotions-cfnm]]
+- [[cryptoasset-financial-promotions-framework]]
+- [[ps23-6-cryptoasset-financial-promotions]]
+- [[cobs9b-targeted-support]]
+- [[appropriateness-framework]]

@@ -16,7 +16,12 @@ sources:
   - "FSMA 2000 s.138D (civil liability for regulatory breach)"
   - "PS23/6 §3.2–3.5 (FCA Gateway for s.21 approvers)"
 tags: [financial-promotions, approver-regime, s21, COBS, FCA-gateway, UK, FCA]
-related: [cobs4-financial-promotions.md, cryptoasset-financial-promotions-framework.md, ps23-6-cryptoasset-financial-promotions.md, sysc10-conflicts-of-interest.md]
+related:
+  - summaries/cobs4-financial-promotions.md
+  - concepts/cryptoasset-financial-promotions-framework.md
+  - summaries/ps23-6-cryptoasset-financial-promotions.md
+  - concepts/sysc10-conflicts-of-interest.md
+  - concepts/smcr-senior-managers-regime.md
 ---
 
 # Financial Promotions Approver Regime (s.21 FSMA / COBS 4.10)
@@ -146,7 +151,8 @@ Where a senior manager approved (or failed to withdraw approval from) a non-comp
 
 ## Related Articles
 
-- [[cobs4-financial-promotions.md]]
-- [[cryptoasset-financial-promotions-framework.md]]
-- [[ps23-6-cryptoasset-financial-promotions.md]]
-- [[sysc10-conflicts-of-interest.md]]
+- [[cobs4-financial-promotions]]
+- [[cryptoasset-financial-promotions-framework]]
+- [[ps23-6-cryptoasset-financial-promotions]]
+- [[sysc10-conflicts-of-interest]]
+- [[smcr-senior-managers-regime]]

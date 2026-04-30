@@ -20,6 +20,8 @@ related:
   - concepts/appropriateness-framework.md
   - summaries/cobs9a-suitability-mifid.md
   - summaries/cobs9-suitability.md
+  - summaries/cobs3-client-categorisation.md
+  - concepts/client-categorisation-framework.md
 ---
 
 # COBS 10A — Appropriateness (MiFID and insurance-based investment products provisions)
@@ -270,3 +272,5 @@ Records kept for the purposes of COBS 10A must be retained for a period of **at 
 - [[appropriateness-framework]]
 - [[cobs9a-suitability-mifid]]
 - [[cobs9-suitability]]
+- [[cobs3-client-categorisation]]
+- [[client-categorisation-framework]]

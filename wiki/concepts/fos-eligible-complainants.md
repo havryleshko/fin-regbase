@@ -23,6 +23,8 @@ related:
   - concepts/customer-due-diligence.md
   - concepts/aml-ctf-framework.md
   - concepts/conc-scope-and-application.md
+  - summaries/cobs3-client-categorisation.md
+  - concepts/client-categorisation-framework.md
 ---
 
 # FOS Eligible Complainants — DISP 2.7
@@ -134,6 +136,7 @@ This interacts with the DISP 1 timeline: once the firm's handling deadline expir
 - There are **seven** eligible complainant categories — not just consumers. Small businesses (< £6.5m turnover at referral), guarantors, charities (< £6.5m annual income), and trustees (< £5m net assets) are included.
 - If a respondent is in doubt about business/charity/trust eligibility, it **must** treat the complainant as eligible. The FOS — not the respondent — determines eligibility in disputed cases.
 - Regulated firms (PSPs, EMIs, FCA-authorised firms) are not eligible complainants for complaints about activities they are themselves authorised or registered to carry on. Professional clients and ECPs are not eligible in CJ for the relevant activity — unless they are consumers in relation to it.
+- **Re-categorisation as retail under COBS 3.7 does not automatically make a client an eligible complainant (COBS 3.7.8G).** A professional client or ECP that obtains retail re-categorisation for conduct of business purposes must still satisfy the DISP 2.7.3R categories to have FOS access — the two tests are independent.
 - A person wrongly identified as a PEP, or who complains about an act done as a consequence of that identification, IS an eligible complainant under DISP 2.7.7AR. This is directly relevant to de-banking and disproportionate EDD complaints.
 - APP fraud victims are eligible complainants even where there is no PSD breach — DISP 2.7.7G(2B) extends eligibility to cover the sending and receiving PSP.
 - The 6-month FOS referral window only starts when the firm's response **tells the complainant** about the 6-month deadline. Omitting the FOS referral notice means the 6-month clock does not start.
@@ -143,6 +146,8 @@ This interacts with the DISP 1 timeline: once the firm's handling deadline expir
 - [[disp2-fos-jurisdiction]]
 - [[disp1-treating-complainants-fairly]]
 - [[complaints-handling-framework]]
+- [[cobs3-client-categorisation]]
+- [[client-categorisation-framework]]
 - [[psr-unauthorised-transaction-liability]]
 - [[customer-due-diligence]]
 - [[aml-ctf-framework]]

@@ -2,7 +2,7 @@
 title: "Payment for Order Flow (PFOF) — MiFID II Conflicts of Interest Framework"
 jurisdiction: UK
 regulator: FCA
-regulation: MiFID II; SYSC 10; COBS 2.1; MiFID Organisational Requirements Regulation Art. 34
+regulation: MiFID II; SYSC 10; COBS 2.1; COBS 11.2A; MiFID Organisational Requirements Regulation Art. 34
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-04-13
@@ -15,6 +15,10 @@ related:
   - summaries/mifid-ii-product-governance-review-2021.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - concepts/sysc10-conflicts-of-interest.md
+  - summaries/cobs3-client-categorisation.md
+  - concepts/client-categorisation-framework.md
+  - summaries/cobs2-3a-inducements.md
+  - concepts/inducements-framework.md
 ---
 
 # Payment for Order Flow (PFOF) — MiFID II Conflicts of Interest Framework
@@ -44,6 +48,7 @@ This dual-sided charging arrangement creates a **conflict of interest** between 
 **The FCA's position:** When dealing with a direct, self-created conflict of interest — which is what PFOF represents — the most straightforward method of complying is to prevent the conflict from arising in the first place, that is, by not entering into PFOF arrangements at all.
 
 The relevant rules are:
+- **COBS 11.2A.19R** — A firm must not receive any remuneration, discount or non-monetary benefit for routing client orders to a particular trading venue or execution venue which would infringe the requirements on conflicts of interests (SYSC 10) or inducements (COBS 2.3A). This is the **primary sourcebook anchor for the PFOF prohibition** in MiFID business. [Note: MiFID article 27(2)]
 - **SYSC 10.1.3R** — Identify conflicts of interest that arise in the course of business, including between clients
 - **SYSC 10.1.7R** — Prevent or manage conflicts; rely on disclosure only as a last resort
 - **MiFID Organisational Requirements Regulation, Article 34(1)** — Conflicts of interest policy must be set out in writing
@@ -180,7 +185,8 @@ For **retail and professional clients**, PFOF had already ceased to be widesprea
 ## Key Points for Agents
 
 - PFOF is the practice of a broker charging both the client whose order it executes and the liquidity provider on the other side of the trade. It creates a conflict of interest because the broker has an incentive to route to the highest-paying counterparty, not the best-execution counterparty.
-- PFOF is prohibited under SYSC 10 / MiFID II whenever a broker is sourcing exclusive liquidity for a specific client — regardless of that client's MiFID II classification (retail, professional, or ECP).
+- The **primary sourcebook anchor** for the PFOF prohibition in MiFID business is **COBS 11.2A.19R** — no remuneration for routing client orders to a venue in a way that infringes SYSC 10 conflicts or COBS 2.3A inducements. The equivalent for UCITS ManCos is COBS 11.2B.10R.
+- PFOF is prohibited under COBS 11.2A.19R / SYSC 10 / MiFID II whenever a broker is sourcing exclusive liquidity for a specific client — regardless of that client's MiFID II classification (retail, professional, or ECP).
 - The legal distinction that determines whether PFOF is prohibited is exclusive vs. non-exclusive liquidity. The marker of exclusive liquidity is the Right of First Refusal held by the initial client. This assessment is transaction-by-transaction — blanket firm-level or market-level categorisations are rejected.
 - Non-exclusive broad dissemination may allow dual-sided charging only if all four conditions are met simultaneously: simultaneous broadcast to all clients; adequate interaction time for all; no ROFR for any specific client; robust written systems and controls.
 - Five named pretextual structures have been rejected: selective counterparty exemption; charging for negotiation; "taking liquidity" argument; blanket inter-dealer broker categorisation; "service charge" relabelling.
@@ -190,7 +196,13 @@ For **retail and professional clients**, PFOF had already ceased to be widesprea
 ## Related Articles
 
 - [[fca-pfof-supervisory-report-2019]]
+- [[cobs11-dealing-managing]]
+- [[best-execution-framework]]
+- [[inducements-framework]]
+- [[cobs2-3a-inducements]]
 - [[prod-product-governance]]
 - [[mifid-ii-product-governance-review-2021]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[sysc10-conflicts-of-interest]]
+- [[cobs3-client-categorisation]]
+- [[client-categorisation-framework]]

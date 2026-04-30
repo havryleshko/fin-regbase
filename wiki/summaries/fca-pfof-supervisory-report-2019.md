@@ -2,7 +2,7 @@
 title: "FCA Payment for Order Flow (PFOF) Supervisory Report (April 2019)"
 jurisdiction: UK
 regulator: FCA
-regulation: MiFID II; SYSC 10; COBS 2.1; MiFID Organisational Requirements Regulation
+regulation: MiFID II; SYSC 10; COBS 2.1; COBS 11.2A; MiFID Organisational Requirements Regulation
 status: current
 effective_date: 2019-04-01
 last_updated: 2026-04-13
@@ -15,6 +15,8 @@ related:
   - summaries/mifid-ii-product-governance-review-2021.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - concepts/sysc10-conflicts-of-interest.md
+  - summaries/cobs3-client-categorisation.md
+  - concepts/client-categorisation-framework.md
 ---
 
 # FCA Payment for Order Flow (PFOF) Supervisory Report (April 2019)
@@ -71,6 +73,7 @@ The FCA stated it would continue to monitor PFOF compliance as an ongoing superv
 
 | Rule | Obligation |
 |------|-----------|
+| COBS 11.2A.19R | **Primary PFOF anchor** — no remuneration for routing client orders to a venue in a way that infringes SYSC 10 or COBS 2.3A inducements. [Note: MiFID article 27(2)] |
 | SYSC 10.1.3R | Identify conflicts of interest that arise in the course of business |
 | SYSC 10.1.7R | Prevent or manage conflicts; rely on disclosure only as last resort |
 | MiFID Org Regs Article 34(1) | Conflicts of interest policy must be in writing |
@@ -91,7 +94,11 @@ The FCA stated it would continue to monitor PFOF compliance as an ongoing superv
 ## Related Articles
 
 - [[payment-for-order-flow]]
+- [[cobs11-dealing-managing]]
+- [[best-execution-framework]]
 - [[prod-product-governance]]
 - [[mifid-ii-product-governance-review-2021]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[sysc10-conflicts-of-interest]]
+- [[cobs3-client-categorisation]]
+- [[client-categorisation-framework]]

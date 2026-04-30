@@ -2009,3 +2009,136 @@ Notes:
 - PROD 3.3.18R cross-references COBS 4, 9A, 10A, 2.3A and SYSC 10.1 — all now have dedicated wiki pages.
 - PROD 3.3.2AG cross-references ESG obligations (ESG 4.1.16R to 4.1.19R) — these are not yet in the wiki.
 - COBS 9B.10.5G cross-references PROD 3 and PROD 4 for targeted support monitoring obligations — the new PROD 3 summary and COBS 9B summary now cross-reference each other.
+
+## 2026-04-29 ingest | COBS 3 — Client Categorisation
+
+Source: `raw/fca-cobs/COBS 3 Client categorisation.pdf` (FCA COBS Sourcebook, April 2026, 18pp)
+
+Sections covered: COBS 3.1 (application and mixed business), COBS 3.2 (client definition), COBS 3.3 (general notifications), COBS 3.4 (retail clients), COBS 3.5 (professional clients — per se and elective, local public authorities, ongoing obligations), COBS 3.6 (eligible counterparties — per se and elective), COBS 3.7 (re-categorisation to higher protection), COBS 3.8 (policies, procedures and records).
+
+Pages created (2):
+- `wiki/summaries/cobs3-client-categorisation.md` — full chapter summary: three-category structure; MiFID trump rule (COBS 3.1.4R); retail as residual default; per se professional institutional list; large undertaking thresholds divergence (MiFID EUR 20m/40m/2m vs non-MiFID £5m/EUR 12.5m/25m/250 + partnership/trust/pension tests); local public authority retail default; elective professional three-step opt-up (qualitative test + quantitative test: 2 of 3 — 10 trades/quarter, EUR 500k portfolio, 1yr professional experience + written procedure); elective ≠ per se knowledge assumption (COBS 3.5.7G); ongoing downward re-categorisation obligation (COBS 3.5.9R) and client self-reporting (COBS 3.5.8G); ECP per se list; elective ECP procedure (COBS 3.6.4BR); COBS 3.7 re-categorisation mechanics including ECP defaulting to professional absent express retail request (COBS 3.7.3BR); re-categorisation ≠ DISP eligible complainant (COBS 3.7.8G); record retention tiers
+- `wiki/concepts/client-categorisation-framework.md` — concept page covering the full categorisation architecture and all five key operational rules absent from prior wiki
+
+Pages updated (3):
+- `wiki/concepts/appropriateness-framework.md` — added COBS 3.1.4R MiFID trump rule to regulation field, body (inserted as paragraph after regime mapping table), sources, and Related Articles; fixed two wikilink .md suffixes (cobs9b-targeted-support.md → cobs9b-targeted-support)
+- `wiki/concepts/fos-eligible-complainants.md` — added COBS 3.7.8G point to Key Points section; added cobs3-client-categorisation and client-categorisation-framework to frontmatter related and Related Articles
+- `wiki/index.md` — added cobs3-client-categorisation.md summary row and client-categorisation-framework.md concept row to COBS section; updated appropriateness-framework.md index entry to reference COBS 3.1.4R
+
+Key additions absent from wiki before this ingest:
+1. **Elective professional opt-up conditions in full (COBS 3.5.3R):** qualitative test + quantitative test (2 of 3: 10 trades/quarter, EUR 500k portfolio, 1 year in financial sector) + three-step written procedure. All three are mandatory. The wiki previously referenced elective professional clients without the operative conditions.
+2. **Large undertaking thresholds diverge between MiFID and non-MiFID (COBS 3.5.2R):** MiFID = 2 of EUR 20m/40m/2m; non-MiFID = any one of £5m called-up capital, or 2 of EUR 12.5m/25m/250 employees, plus separate partnership/trust/pension scheme tests. Entirely absent previously.
+3. **Ongoing downward re-categorisation as a hard Rule (COBS 3.5.9R):** If a firm becomes aware an elective professional no longer meets the conditions, it must act — including re-categorising to retail and notifying the client. The client has a corresponding self-reporting obligation (COBS 3.5.8G).
+4. **MiFID trump rule (COBS 3.1.4R):** MiFID categorisation requirements prevail across all business for a client where any MiFID business exists. Applies to the appropriateness and suitability regime selection.
+5. **COBS 3.7.3BR — ECP re-categorisation defaults to professional, not retail:** An ECP requesting higher protection without expressly requesting retail must be treated as a professional client. Absent from all prior wiki pages.
+6. **COBS 3.7.8G — re-categorisation ≠ DISP eligible complainant:** A retail re-categorisation under COBS 3.7 does not confer FOS eligibility. Added to fos-eligible-complainants.md Key Points.
+
+Contradictions with existing wiki: None. The existing wiki references to professional/ECP client categories across COBS 9A, 10A, best-execution-framework, and payment-for-order-flow were factually accurate — they lacked source citations to COBS 3 but were not wrong. COBS 3 pages now provide the source rules.
+
+Flagged for future ingest (updated list):
+- COBS 2 (conduct of business obligations) — in raw/fca-cobs but not yet ingested
+- FCTR 15, JMLSG Part III, FCA PEP Treatment Review (July 2024), FATF — pre-existing gaps
+
+## 2026-04-29 ingest | COBS 11 — Dealing and Managing
+
+Source: `raw/fca-cobs/COBS 11 Dealing and managing.pdf` (FCA COBS Sourcebook, April 2026, 46pp)
+
+Sections covered: COBS 11.1 (application and disapplications), COBS 11.2 (best execution — AIFMs and residual CIS operators), COBS 11.2A (best execution — MiFID investment firms), COBS 11.2B (best execution — UCITS management companies), COBS 11.3 (use of dealing commission / client order handling), COBS 11.4 (unexecuted limit orders), COBS 11.5A (record keeping), COBS 11.7 (personal account dealing — non-MiFID), COBS 11.7A (personal account dealing — MiFID).
+
+Pages created (3):
+- `wiki/summaries/cobs11-dealing-managing.md` — full chapter summary covering all live sections: three-track best execution framework; execution factors; retail client total consideration rule (11.2.7R/11.2A.9R); OTC price fairness check (11.2A.8R(4)/11.2B.13R); back-to-back/matched principal dealing; specific client instructions (11.2A.12R–14G); PFOF anchor (11.2A.19R); order execution policy requirements; commission non-discrimination; portfolio managers and receivers/transmitters; sequential order handling (11.3.2R); aggregation conditions (11.3.7R); limit order publication (11.4.1R); 16-field initial order record and 40-field transaction record (11.5A.2R/11.5A.4R); RTS 25 timestamps; non-MiFID PA dealing (11.7); MiFID PA dealing (11.7A)
+- `wiki/concepts/best-execution-framework.md` — concept page: "all reasonable steps" (COBS 11.2) vs "all sufficient steps" (COBS 11.2A/11.2B); execution factors and four weighting criteria; retail client total consideration constraint; OTC price fairness hard Rule; PFOF anchor (COBS 11.2A.19R); specific instructions partial carve-out; execution policy requirements; commission non-discrimination; single execution venue justification
+- `wiki/concepts/client-order-handling.md` — concept page: sequential order handling obligation; aggregation conditions; unexecuted limit order publication and large-scale exception; 16-field initial order record and 40-field transaction record; RTS 25 microsecond/millisecond timestamps; non-MiFID PA dealing four prohibitions and two exceptions; MiFID PA dealing four obligations
+
+Pages updated (4):
+- `wiki/concepts/payment-for-order-flow.md` — added COBS 11.2A.19R as primary sourcebook anchor rule to regulation field, body regulatory position section, and Key Points; added cobs11-dealing-managing and best-execution-framework to related list; updated last_updated to 2026-04-29
+- `wiki/summaries/fca-pfof-supervisory-report-2019.md` — added COBS 11.2A as primary PFOF anchor row to regulatory framework table; added cobs11-dealing-managing and best-execution-framework to related list; updated regulation field and last_updated
+- `wiki/index.md` — added cobs11-dealing-managing.md summary row to COBS section; added best-execution-framework.md and client-order-handling.md concept rows to COBS section; updated payment-for-order-flow.md index entry to reference COBS 11.2A.19R as primary anchor
+- `wiki/summaries/fca-pfof-supervisory-report-2019.md` index entry not modified (no summary change)
+
+Key additions absent from wiki before this ingest:
+1. **Three-track best execution structure**: COBS 11.2 ("all reasonable steps" — AIFMs/CIS), COBS 11.2A ("all sufficient steps" — MiFID), COBS 11.2B ("all sufficient steps" at scheme level — UCITS ManCos). The "all sufficient steps" bar is a deliberate MiFID II uplift from "all reasonable steps."
+2. **Retail client total consideration rule (11.2.7R/11.2A.9R)**: Best result must be in terms of price + all execution costs. Other factors (speed, likelihood) can only displace price/cost to the extent they deliver a better total consideration outcome — not as standalone weighting factors.
+3. **OTC price fairness check (11.2A.8R(4)/11.2B.13R)**: Hard Rule requiring market data gathering + comparison with similar products before executing any OTC/bespoke product. Not discretionary.
+4. **COBS 11.2A.19R as primary PFOF anchor**: The existing PFOF pages (payment-for-order-flow.md and fca-pfof-supervisory-report-2019.md) cited SYSC 10 / COBS 2.1 but did not reference the primary sourcebook anchor in COBS 11. Now corrected.
+5. **Aggregation conditions (11.3.7R)**: Three cumulative conditions — written aggregation policy, reasonable expectation of not disadvantaging any client, fair allocation on execution including partial execution.
+6. **Unexecuted limit order publication (11.4.1R)**: Immediate publication obligation for unexecuted limit orders, subject to large-scale exception (MiFIR Art. 4).
+7. **Record-keeping field lists (11.5A.2R/11.5A.4R)**: 16 mandatory fields for initial orders; 40 mandatory fields for transactions; microsecond timestamps for APA/trading venue members, millisecond for others (RTS 25).
+8. **Personal account dealing — two parallel regimes**: Non-MiFID (COBS 11.7 — four prohibitions, two order-placing exceptions); MiFID (COBS 11.7A — four obligations including pre-transaction notification, post-transaction reporting, reporting material personal interest, and conflicts-of-interest management).
+
+Contradictions with existing wiki: None. The PFOF pages' omission of COBS 11.2A.19R was a gap, not a factual error — the pages correctly described the SYSC 10 / conflicts framework. The COBS 11 sourcebook anchor now added provides the complete citation chain.
+
+Flagged for future ingest (pre-existing gaps, no new additions):
+- COBS 3A (client categorisation) — PDF not yet in raw/fca-cobs
+- FCTR 15, JMLSG Part III, FCA PEP Treatment Review (July 2024), FATF — pre-existing gaps
+
+## 2026-04-30 lint | Full wiki pass 28
+
+**Scope:** All 128 pages. 5 checks: wikilink integrity, orphan/near-orphan detection, FM/body consistency, missing cross-references, contradictions.
+
+**Findings applied (13 items):**
+
+1. **`.md`-suffix wikilinks fixed (28 instances across 6 files):** `cobs4-financial-promotions.md`, `cobs9b-targeted-support.md`, `prod3-product-governance-mifid.md`, `targeted-support-service.md`, `financial-promotions-approver-regime.md`, `prod-product-governance.md` — all frontmatter `related` fields and inline/Related Articles wikilinks normalised to `[[slug]]` form.
+
+2. **Near-orphan: `client-order-handling`** — added link from `best-execution-framework.md` (frontmatter + Related Articles).
+
+3. **Near-orphan: `financial-promotions-approver-regime`** — added link from `smcr-senior-managers-regime.md` (frontmatter + Related Articles) and from `financial-promotions-approver-regime.md` → `smcr-senior-managers-regime` (Related Articles, body — approver regime interacts with SM&CR accountability).
+
+4. **Near-orphan: `prod3-product-governance-mifid`** — added link from `client-categorisation-framework.md` (frontmatter + Related Articles) and from `appropriateness-framework.md` (frontmatter + Related Articles).
+
+5. **Missing COBS 3 cross-references (8 pages):** Added `[[cobs3-client-categorisation]]` and `[[client-categorisation-framework]]` to frontmatter `related` and Related Articles body sections of: `cobs9a-suitability-mifid.md`, `cobs10a-appropriateness-mifid.md`, `cobs11-dealing-managing.md`, `payment-for-order-flow.md`, `prod-product-governance.md`, `prod3-product-governance-mifid.md`, `fca-pfof-supervisory-report-2019.md`, `sysc10-conflicts-of-interest.md`.
+
+**Deferred (1 item):** `payment-for-order-flow.md` regulation field lists `COBS 2.1` — COBS 11.2A.19R's inducements limb references `COBS 2.3A`; to be resolved when COBS 2 is ingested.
+
+**Contradictions found:** None.
+
+## 2026-04-30 ingest | COBS 2.3A — Inducements (MiFID, ETT, OE and IBIP Business)
+
+Source: `raw/fca-cobs/COBS 2.3A Inducements relating to MiFID, equivalent third country or optional exemption business and insurance-based investment products.pdf` (FCA Handbook, April 2026, 14pp)
+
+Pages created (2):
+- `wiki/summaries/cobs2-3a-inducements.md`
+- `wiki/concepts/inducements-framework.md`
+
+Pages updated (cross-references added) (5):
+- `wiki/concepts/payment-for-order-flow.md` — frontmatter + Related Articles: added `cobs2-3a-inducements`, `inducements-framework`; deferred item resolved
+- `wiki/concepts/sysc10-conflicts-of-interest.md` — frontmatter + Related Articles: added `cobs2-3a-inducements`, `inducements-framework`
+- `wiki/concepts/best-execution-framework.md` — Related Articles: added `cobs2-3a-inducements`, `inducements-framework`
+- `wiki/concepts/prod-product-governance.md` — Related Articles: added `cobs2-3a-inducements`, `inducements-framework`
+- `wiki/index.md` — two new entries added (summary + concept)
+
+Key coverage:
+- Three-track structure: UK retail ban (2.3A.15R — absolute); professional/overseas retail transfer-back (2.3A.16R — accept and return in full); general prohibition + quality-enhancing exception (2.3A.5R/2.3A.6R/2.3A.8R)
+- Quality enhancement test: 4 cumulative conditions + ongoing obligation (2.3A.8R(2))
+- IBIP additional requirements: 6 criteria including volume/value accelerator test (2.3A.9AR(3)(f))
+- Acceptable minor NMBs: 4 criteria + 12 named types including FI/FX/commodity research (h), independent research provider (i), 3-month trial with 12-month gap rule (f), corporate access <£200m (k)
+- Disclosure: pre-service + ex-post + annual ongoing (2.3A.10R/11R/12R)
+- Record keeping: internal list + written quality link explanation (2.3A.32R)
+- Automatic SYSC 10 + COBS 2.1.1R breach on 2.3A.5R violation (2.3A.7E)
+- Research unbundling interface: COBS 2.3B carve-out at 2.3A.6R(1)(c); resolves deferred item in payment-for-order-flow.md
+
+Contradictions with existing wiki: None. Note: COBS 2.3B (research unbundling — RPAs, bundling prohibition) is not yet ingested; `cobs2-3a-inducements.md` references it but does not summarise it. Deferred pending source PDF in raw/.
+
+## 2026-04-30 ingest | COBS 2.3B — Inducements and Research (Research Unbundling)
+
+Source: `raw/fca-cobs/COBS 2.3B Inducements and research.pdf` (FCA Handbook, April 2026, 9pp)
+
+Pages created (2):
+- `wiki/summaries/cobs2-3b-inducements-research.md`
+- `wiki/concepts/research-unbundling.md`
+
+Pages updated (4):
+- `wiki/concepts/inducements-framework.md` — COBS 2.3B section expanded with three routes, de-linkage rule, negative list, 2.3B.29R; frontmatter updated
+- `wiki/concepts/best-execution-framework.md` — new section "Research — Not an Execution Factor" (COBS 2.3B.29R hard Rule); frontmatter updated
+- `wiki/index.md` — two new entries added; best-execution-framework entry updated to mention 2.3B.29R
+- Deferred item in cobs2-3a-inducements.md log entry resolved
+
+Key coverage:
+- Three permissible routes: direct payment; RPA (2.3B.4R); joint payments (2.3B.25R)
+- Core RPA condition: volume/value de-linkage (2.3B.4R(1)(b)); surplus rebate obligation (2.3B.8R(3))
+- 12-item negative list: what cannot be paid from RPA/joint payments (2.3B.23G)
+- Research ≠ execution factor: hard Rule (2.3B.29R) preventing re-bundling via COBS 11.2A.2R
+- Joint payments governance: written policy, allocation structure, annual budget not linked to volumes, periodic assessment, 6-item client disclosure package
+- Delegation: permitted but full COBS 2.3B responsibility remains with firm
+
+Contradictions with existing wiki: None.

@@ -36,7 +36,17 @@ sources:
   - "FCA PROD 3.3.30R (information sharing back to manufacturer)"
   - "FCA PROD 3.3.32R–3.3.33R (chain responsibilities)"
 tags: [product-governance, PROD, MiFID-II, target-market, negative-target-market, manufacturer, distributor, scenario-testing, conflicts-of-interest, UK, FCA]
-related: [prod-product-governance.md, mifid-ii-product-governance-review-2021.md, consumer-duty-products-services.md, costs-charges-disclosure.md, appropriateness-framework.md, cobs4-financial-promotions.md, cobs9b-targeted-support.md, sysc10-conflicts-of-interest.md]
+related:
+  - concepts/prod-product-governance.md
+  - summaries/mifid-ii-product-governance-review-2021.md
+  - concepts/consumer-duty-products-services.md
+  - concepts/costs-charges-disclosure.md
+  - concepts/appropriateness-framework.md
+  - summaries/cobs4-financial-promotions.md
+  - summaries/cobs9b-targeted-support.md
+  - concepts/sysc10-conflicts-of-interest.md
+  - summaries/cobs3-client-categorisation.md
+  - concepts/client-categorisation-framework.md
 ---
 
 # PROD 3 — Product Governance: MiFID
@@ -317,11 +327,13 @@ This is the statutory basis for the manufacturer–distributor information flow 
 
 ## Related Articles
 
-- [[prod-product-governance.md]]
-- [[mifid-ii-product-governance-review-2021.md]]
-- [[consumer-duty-products-services.md]]
-- [[costs-charges-disclosure.md]]
-- [[appropriateness-framework.md]]
-- [[cobs4-financial-promotions.md]]
-- [[cobs9b-targeted-support.md]]
-- [[sysc10-conflicts-of-interest.md]]
+- [[prod-product-governance]]
+- [[mifid-ii-product-governance-review-2021]]
+- [[consumer-duty-products-services]]
+- [[costs-charges-disclosure]]
+- [[appropriateness-framework]]
+- [[cobs4-financial-promotions]]
+- [[cobs9b-targeted-support]]
+- [[sysc10-conflicts-of-interest]]
+- [[cobs3-client-categorisation]]
+- [[client-categorisation-framework]]

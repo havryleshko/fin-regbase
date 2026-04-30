@@ -19,6 +19,7 @@ related:
   - summaries/mifid-ii-product-governance-review-2021.md
   - concepts/conc-debt-recovery-treatment.md
   - summaries/prin1-2-introduction-principles.md
+  - concepts/financial-promotions-approver-regime.md
 ---
 
 # SM&CR — Senior Managers Regime

@@ -17,6 +17,8 @@ related:
   - concepts/advice-suitability-cobs9.md
   - concepts/costs-charges-disclosure.md
   - concepts/prod-product-governance.md
+  - summaries/cobs3-client-categorisation.md
+  - concepts/client-categorisation-framework.md
 ---
 
 # COBS 9A — Suitability (MiFID and insurance-based investment products provisions)
@@ -415,3 +417,5 @@ The record maintained under COBS 9A.4.3R must include:
 - [[advice-suitability-cobs9]]
 - [[costs-charges-disclosure]]
 - [[prod-product-governance]]
+- [[cobs3-client-categorisation]]
+- [[client-categorisation-framework]]

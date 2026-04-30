@@ -29,6 +29,10 @@ related:
   - summaries/mifid-ii-product-governance-review-2021.md
   - summaries/mar1-market-abuse.md
   - concepts/market-abuse-framework.md
+  - summaries/cobs3-client-categorisation.md
+  - concepts/client-categorisation-framework.md
+  - summaries/cobs2-3a-inducements.md
+  - concepts/inducements-framework.md
 ---
 
 # SYSC 10 — Conflicts of Interest
@@ -170,9 +174,13 @@ A Chinese wall is not effective simply by declaration. It requires:
 
 - [[sysc9-record-keeping]]
 - [[payment-for-order-flow]]
+- [[inducements-framework]]
+- [[cobs2-3a-inducements]]
 - [[prod-product-governance]]
 - [[smcr-senior-managers-regime]]
 - [[fca-pfof-supervisory-report-2019]]
 - [[mifid-ii-product-governance-review-2021]]
 - [[mar1-market-abuse]]
 - [[market-abuse-framework]]
+- [[cobs3-client-categorisation]]
+- [[client-categorisation-framework]]
