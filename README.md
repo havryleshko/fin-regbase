@@ -1,324 +1,90 @@
-# Agentic knowledge base for financial regulations
+# fin-regbase
 
-**A persistent, agent-readable knowledge base for financial regulations.**
+Persistent, agent-readable UK financial regulation knowledge base.  
+Source documents in `raw/` are compiled into citation-backed wiki pages in `wiki/`.
 
-Fintech AI agents that touch compliance — Consumer Duty outcome testing, AML/KYC, credit decisioning — have to reason over regulations they don't reliably know. The default is RAG: retrieve chunks at query time, re-derive the same synthesis on every call.
+## Current repository snapshot (Apr 2026)
 
-In `fin-regbase` regulations are compiled **once** into structured, citation-backed, interlinked Markdown articles and kept current in Obsidian. Agents read from the wiki at runtime. The LLM maintains it; the human curator reviews and quality-gates accuracy.
+- `wiki/concepts`: 76 pages
+- `wiki/summaries`: 52 pages
+- `wiki/derived`: 7 pages
+- Total wiki articles: 135
+- Source PDFs in `raw/`: 46
 
-Inspired by [Andrej Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
+Primary coverage includes Consumer Duty, AML/CTF and sanctions, COBS and MiFID conduct rules, CONC consumer credit, DISP complaints/FOS, SYSC governance and controls, MAR market abuse, PSR/E-Money, SM&CR, and UK GDPR.
 
----
+## How this repo is used
 
-## Connect via MCP
+- **Curator workflow**: add source PDFs to `raw/`, then run ingest through an agent using rules in `CLAUDE.md`
+- **Authoring target**: structured markdown pages with YAML frontmatter and inline citations
+- **Query runtime**: AI agents query pages directly or use MCP tools exposed by `mcp-server/`
+- **Audit trail**: ingest/query/lint sessions are tracked in `wiki/log.md`
 
-1. Clone repo and install uv
-2. Replace absolute paths and paste config
-3. Ask your agent a compliance question
+## MCP quick start
+
+### 1) Install dependencies
+
+```bash
+cd mcp-server
+uv sync
+```
+
+### 2) Run MCP server locally
+
+```bash
+uv run mcp dev server.py
+```
+
+### 3) Add MCP config (Cursor/Claude-compatible pattern)
 
 ```json
 {
   "mcpServers": {
     "fin-regbase": {
-      "command": "uv",
-      "args": ["run", "/absolute/path/to/fin-regbase/mcp-server/server.py"],
-      "env": {
-        "WIKI_PATH": "/absolute/path/to/fin-regbase/wiki"
-      }
+      "command": "/absolute/path/to/uv",
+      "args": [
+        "run",
+        "--directory",
+        "/absolute/path/to/fin-regbase/mcp-server",
+        "/absolute/path/to/fin-regbase/mcp-server/server.py"
+      ]
     }
   }
 }
 ```
 
-Use the same path pattern for Claude Desktop, Cursor, VS Code, and any MCP client.
+## MCP tools
 
----
+- `search_regulations(query, tags, jurisdiction, limit)`
+- `get_page(path)`
+- `list_pages(tags, regulator, jurisdiction, status)`
+- `get_related(path)`
 
-## How It Works
+## Repository structure
 
-| Role | Responsibility |
-|------|----------------|
-| **Curator** | Drops source documents into `raw/`, reviews outputs, quality-gates accuracy |
-| **LLM** | Compiles, cross-references, and maintains the wiki via `CLAUDE.md` schema |
-| **Downstream agents** | Query at runtime via `wiki/index.md` (v1) or MCP server (v2) |
-| **The wiki** | The persistent Markdown artifact — not a RAG index |
-
-Three operations defined in `CLAUDE.md`:
-
-- **Ingest** — drop a source into `raw/`, discuss key takeaways, produce summary + concept pages
-- **Query** — ask a compliance question, get a cited answer (prefer MCP `search_regulations` / `get_page` per `CLAUDE.md`), optionally file it to `wiki/derived/`
-- **Lint** — scan for contradictions, stale claims, orphan pages, missing cross-references
-
----
-
-## What's in the Wiki
-
-**126 articles** (71 concepts, 48 summaries, 7 derived), plus `wiki/index.md` and `wiki/log.md`. Current as of April 2026.
-
-### Summaries
-Source-level overviews with full citation trails.
-
-| Page | What it covers |
-|------|----------------|
-| `summaries/ps22-9-policy-statement.md` | PS22/9 policy statement — rules, scope, implementation timeline, governance |
-| `summaries/fg22-5-guidance.md` | FG22/5 operational guidance — good/poor practice examples, sludge, supervisory questions, sector scope |
-| `summaries/fg21-1-guidance.md` | FG21/1 vulnerability guidance — four-driver model, firm obligations, product design lens |
-| `summaries/fcg3-money-laundering-terrorist-financing.md` | FCG Chapter 3 — FCA's AML/CTF expectations, risk assessment, CDD, transaction monitoring |
-| `summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md` | FCG Chapter 7 — sanctions screening, asset freezes, proliferation financing |
-| `summaries/fctr8-sanctions-systems-controls-russia.md` | FCA thematic review: sanctions systems and controls post-Russia invasion |
-| `summaries/jmlsg-part-i-guidance.md` | JMLSG Part I (June 2023, updated Aug 2025) — risk-based approach, CDD, EDD, SDD, PEPs, SARs |
-| `summaries/fca-cdd-findings-multi-firm-2026.md` | FCA multi-firm CDD review 2026 — good/poor practice across onboarding, monitoring, and exit |
-| `summaries/fca-guide-solo-regulated-firms.md` | FCA SM&CR guide (Part One) — Core/Limited/Enhanced tiers, SMFs, prescribed responsibilities, PI/EMI scope exclusion |
-| `summaries/prin1-2-introduction-principles.md` | PRIN 1–2 — Principles purpose, eligible counterparty carve-outs, fit and proper, group activities |
-| `summaries/prin2a-consumer-duty.md` | PRIN 2A — Consumer Duty rules in PRIN (cross-cutting rules, outcomes, distribution chains, governance) |
-| `summaries/prin3-rules-about-application.md` | PRIN 3 — territorial scope, retail customer tests, distribution-chain application, Consumer Duty interaction |
-| `summaries/mifid-ii-product-governance-review-2021.md` | FCA PROD review 2021 — target market failures, distributor chain weaknesses |
-| `summaries/fca-costs-charges-disclosure-review-2019.md` | FCA asset manager costs/charges disclosure review — PRIIPs, MiFID II, RTS 28 |
-| `summaries/fca-pfof-supervisory-report-2019.md` | FCA PFOF supervisory report — conflicts of interest, best execution |
-| `summaries/fca-assessing-suitability-review-2017.md` | FCA suitability review — risk profiling, know your client, adviser process |
-| `summaries/dear-ceo-letter-wealth-stockbroking-2023.md` | Dear CEO — FCA expectations for wealth management and stockbroking firms |
-| `summaries/dear-ceo-letter-payments-portfolio-2023.md` | Dear CEO — FCA priorities for payments portfolio firms (safeguarding, wind-down, Consumer Duty) |
-| `summaries/fca-approach-payment-services-electronic-money.md` | FCA Approach Document for payment services/e-money — safeguarding, SCA, reporting, open banking and liability framework |
-| `summaries/ico-guide-lawful-basis-2026.md` | ICO Guide to Lawful Basis — seven Article 6 bases post-DUA Act 2026, recognised legitimate interest |
-| `summaries/ico-guide-data-protection-principles.md` | ICO Guide to Data Protection Principles — all seven Art. 5 principles, DUA Act purpose limitation update |
-| `summaries/ico-guide-individual-rights.md` | ICO Guide to Individual Rights — all eight rights, Art. 12 request framework, Art. 22 automated decisions |
-| `summaries/ico-guide-subject-access.md` | ICO Guide to Subject Access — Art. 15 SAR; exemptions; excessive/manifestly unfounded requests; mixed data |
-| `summaries/ico-guide-data-security.md` | ICO Guide to Data Security — integrity/confidentiality controls, governance, technical and organisational measures |
-| `summaries/ico-guide-personal-data-breaches.md` | ICO Guide to Personal Data Breaches — breach definition, risk test, 72-hour reporting, affected individual notification |
-| `summaries/ico-guide-accountability-governance.md` | ICO Guide to Accountability and Governance — Art. 5(2) accountability, governance controls, DPIAs, DPOs, records |
-| `summaries/conc1-application-purpose.md` | CONC 1 — scope (10 credit activity types), habitual residence / extraterritorial reach, MCOB boundary, AR liability, Consumer Duty confirmation, seven financial difficulty indicators |
-| `summaries/conc2-conduct-of-business-general.md` | CONC 2 — general conduct standards for credit broking, remuneration, mental capacity, distance marketing, PCWs, and unfair practices |
-| `summaries/conc3-financial-promotions.md` | CONC 3 — consumer credit financial promotions and communications (fairness, CFNM, APR/representative examples, HCSTC, broker promotions) |
-| `summaries/conc4-pre-contractual-requirements.md` | CONC 4 — adequate explanation (CONC 4.2.5R), broker payment-detail gate, DCA prohibition, pre-contract CPA-style disclosure, unfair pressure |
-| `summaries/conc5-responsible-lending.md` | CONC 5 — creditworthiness assessment (lenders and P2P), triggers, affordability vs credit risk, broker suitability |
-| `summaries/conc6-post-contractual-requirements.md` | CONC 6 — pre-arrears monitoring, minimum repayment rules, limit/rate freezes when at risk, BNPL promotional reminders, HCSTC refinancing cap |
-| `summaries/conc7-arrears-default-recovery.md` | CONC 7 — arrears/default policies, forbearance, interest freeze on arrangements, CPA rules, mental capacity and disputed-debt suspensions, statute-barred debt, P2P notices |
-| `summaries/ps23-6-cryptoasset-financial-promotions.md` | PS23/6 — cryptoasset financial promotions as RMMIs, consumer journey, s21 approvers, MLR-registered communicators, FPO Art. 73ZA |
-| `summaries/disp1-treating-complainants-fairly.md` | DISP 1 — complaints governance, fair handling standards, response timing, root-cause analysis and MI requirements |
-| `summaries/disp2-fos-jurisdiction.md` | DISP 2 — jurisdiction of the Financial Ombudsman Service, complainant eligibility, complaint scope, and redress boundaries |
-| `summaries/disp3-fos-complaint-procedures.md` | DISP 3 — FOS determination standard, dismissal grounds, evidence powers, award types and cap (£455k/£205k from April 2026) |
-| `summaries/disp-app5-motor-finance-dca-complaints.md` | DISP App 5 — motor finance DCA and non-DCA complaint handling (deadline pauses, extended FOS windows, communications, record retention) |
-| `summaries/mar1-market-abuse.md` | MAR 1 — UK MAR market abuse guidance: insider dealing, unlawful disclosure, manipulation, dissemination; intent not required; three statutory safe harbours |
-| `summaries/sysc4-general-organisational-requirements.md` | SYSC 4 — baseline governance hard Rule (all firms); common platform six-part requirements; management body mandate; chair/CEO separation; two persons directing; two mandatory allocated functions |
-| `summaries/sysc6-compliance-internal-audit-financial-crime.md` | SYSC 6 — dual compliance + financial crime obligation (all firms); compliance function independence conditions; MLRO appointment; AML systems and controls; internal audit |
-| `summaries/cobs4-financial-promotions.md` | COBS 4 — FCNM master rule; dual-track retail comms (7-part non-MiFID vs MiFID 4.5A past/simulated/future performance rules); cold calling 3 grounds; s.21 approver regime (pre-approval, monitoring, quarterly attestation, competence requirement) |
-| `summaries/cobs9-suitability.md` | COBS 9 — non-MiFID suitability: three-dimension test, hard gate, insistent client regime, suitability report, record retention tiers |
-| `summaries/cobs9a-suitability-mifid.md` | COBS 9A — MiFID/IBIP suitability: professional client assumptions, risk profiling tool reliability, switching cost-benefit test, periodic suitability obligation |
-| `summaries/cobs9b-targeted-support.md` | COBS 9B (April 2026) — targeted support: Art. 55A RAO new regulated activity; consumer segment architecture; three absolute prohibitions; commission ban; mandatory Art. 55A RAO disclosure package; no periodic individual suitability review |
-| `summaries/cobs10-appropriateness-non-mifid.md` | COBS 10 — non-MiFID appropriateness for non-advised services: knowledge and experience only; product scope; execution-only non-complex exemption (4-criterion test) |
-| `summaries/cobs10a-appropriateness-mifid.md` | COBS 10A — MiFID/IBIP appropriateness: professional client assumption; stricter 6-criterion non-complex test; four-item mandatory record including firm's own execution decision |
-| `summaries/prod3-product-governance-mifid.md` | PROD 3 — full sourcebook: PROD 3.2 manufacturer obligations (dual TM 3.2.8R, business model integrity test 3.2.10R, scenario analysis 3.2.13R, charging structure 3.2.14R, distributor disclosure 3.2.16R, ongoing review 3.2.19R, conflicts 3.2.27R–3.2.30R); PROD 3.3 distributor obligations (independent TM 3.3.9R, compliance checklist 3.3.18R, information sharing 3.3.30R) |
-
-### Concepts
-One page per regulatory concept, built from primary sources.
-
-**Consumer Duty**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/consumer-duty-overview.md` | Three-layer structure, scope, sector-specific retail customer definitions, evidence requirement |
-| `concepts/consumer-principle.md` | Principle 12 — "good outcomes" standard, disapplication of Principles 6 & 7, SM&CR Conduct Rule 6 |
-| `concepts/consumer-duty-cross-cutting-rules.md` | Three cross-cutting rules; bad-faith pattern catalogue; foreseeable harm examples |
-| `concepts/consumer-duty-products-services.md` | Target market, lifecycle obligations, manufacturer/distributor split, distribution chain information flow |
-| `concepts/consumer-duty-price-value.md` | Fair value assessment; distribution chain fee stacking; charging for undelivered services |
-| `concepts/consumer-duty-consumer-understanding.md` | Communications standard; testing obligation; gamification risk; execution-only carve-out |
-| `concepts/consumer-duty-consumer-support.md` | Unreasonable barriers; sludge/positive friction; "at least as easy to exit as enter" rule |
-| `concepts/vulnerable-customers.md` | Vulnerability as a cross-cutting lens; four-driver culture model; supervisory red lines |
-| `concepts/vulnerability-drivers-and-taxonomy.md` | FEAT taxonomy, intersectionality, product/service design obligations |
-| `concepts/sludge-and-friction.md` | Sludge vs. positive friction — definitions, named examples, the exit/entry rule |
-
-**Financial Crime — AML/CTF/Sanctions**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/aml-ctf-framework.md` | UK AML/CTF legal architecture — POCA, TA, MLRs 2017, risk-based approach |
-| `concepts/customer-due-diligence.md` | Standard CDD triggers, components, beneficial ownership, reliance on third parties |
-| `concepts/simplified-due-diligence.md` | SDD eligibility, low-risk factors, JMLSG and MLR 2017 conditions |
-| `concepts/sar-consent-tipping-off.md` | SAR regime, authorised/prohibited disclosures, consent, tipping-off offences |
-| `concepts/uk-financial-sanctions-framework.md` | OFSI, consolidated list, UK autonomous vs. UN/EU-derived regimes |
-| `concepts/sanctions-screening.md` | Name-matching logic, fuzzy matching thresholds, false positive management |
-| `concepts/asset-freezes-and-ofsi-licences.md` | Asset freeze obligations, OFSI licence categories, reporting obligations |
-| `concepts/proliferation-financing.md` | PF risk assessment requirements, FATF R.1 and R.15, UK MLRs 2017 reg. 33A |
-
-**SM&CR (FCA solo-regulated firms)**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/smcr-senior-managers-regime.md` | SMFs, Statement of Responsibilities, duty of responsibility, Core/Limited/Enhanced prescribed responsibilities |
-| `concepts/smcr-certification-regime.md` | Certification functions, annual FIT assessments, regulatory references, material risk-takers |
-| `concepts/smcr-conduct-rules.md` | COCON Individual and Senior Manager Conduct Rules, scope (incl. ancillary staff), breach reporting |
-
-**PRIN (Principles for Businesses)**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/prin-principles-overview.md` | The twelve Principles — enforceability, eligible counterparty context, interaction with Consumer Duty (Principle 12) and SM&CR |
-
-**COBS — Conduct of Business / Investment Services**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/financial-promotions-approver-regime.md` | s.21 FSMA / COBS 4.10 approver regime: three obligations (pre-approval, ongoing monitoring, quarterly attestation); competence/expertise hard Rule; FCA Gateway from Jan 2024; s.138D reasonable steps defence |
-| `concepts/appropriateness-framework.md` | Suitability vs appropriateness framework: COBS 9/9A (advised, three-dimension, hard gate) vs COBS 10/10A (non-advised, K&E only, soft gate); execution-only non-complex exemption; COBS 9B targeted support as third pathway |
-| `concepts/targeted-support-service.md` | COBS 9B targeted support: consumer segment architecture; delivery gates (alignment, known-unsuitability override, opt-out); three absolute prohibitions; commission ban; Art. 55A RAO disclosure package |
-| `concepts/advice-suitability-cobs9.md` | Pre-MiFID II suitability baseline: three-dimension test, risk profiling failure modes, adviser disclosure framework |
-
-**MiFID II / PROD (Product Governance)**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/prod-product-governance.md` | PROD 3: dual TM (positive + negative, PROD 3.2.8R); business model integrity test (PROD 3.2.10R); scenario analysis; charging structure; PROD 3.3 distributor obligations (independent TM, compliance checklist, information sharing) |
-| `concepts/costs-charges-disclosure.md` | Ex-ante and ex-post disclosure; aggregated vs. itemised; PRIIPs overlap |
-| `concepts/payment-for-order-flow.md` | PFOF prohibition (UK post-Brexit), conflicts of interest, best execution |
-
-**MAR — Market Abuse**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/market-abuse-framework.md` | UK market abuse framework: five prohibited behaviours; intent not required; inside information definition; "made public" test; three statutory safe harbours |
-
-**Payment Services / E-Money**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/safeguarding-pis-emis.md` | Safeguarding obligation, segregation methods, reconciliation, insolvency waterfall |
-| `concepts/psr-emi-prudential.md` | Own funds requirements, initial capital, stress-testing, wind-down buffers |
-| `concepts/wind-down-planning.md` | Wind-down plan obligations, trigger events, run-off costs, FCA expectations |
-| `concepts/agent-distributor-oversight.md` | Agent FCA registration obligations; distributor oversight; ongoing monitoring |
-| `concepts/operational-resilience.md` | Important business services, impact tolerances, self-assessment, Annex A |
-| `concepts/psr-capital-requirements.md` | PSR/EMR capital framework — initial and ongoing own funds methods, monitoring and governance |
-| `concepts/psr-sca-authentication.md` | Strong customer authentication — exemptions, dynamic linking, liability implications |
-| `concepts/psr-open-banking-pisp-aisp.md` | Open banking roles and obligations for ASPSPs, PISPs and AISPs |
-| `concepts/psr-unauthorised-transaction-liability.md` | Liability allocation and refund timelines for unauthorised or incorrectly executed transactions |
-| `concepts/psr-regulatory-reporting.md` | PSR/EMR reporting and notifications — periodic returns, incident and prudential reporting |
-
-**UK GDPR / Data Protection**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/uk-gdpr-lawful-basis.md` | Seven Article 6 bases post-DUA Act; recognised legitimate interest; rights matrix; consent trap |
-| `concepts/uk-gdpr-data-protection-principles.md` | All seven Art. 5 principles; purpose limitation Annex 2 compatible purposes; storage limitation |
-| `concepts/uk-gdpr-individual-rights-overview.md` | All eight rights; Art. 12 request framework; restriction; portability |
-| `concepts/uk-gdpr-automated-decision-making.md` | Art. 22 — solely automated decisions; three permitted grounds; DPIA; human review obligation |
-| `concepts/uk-gdpr-right-to-object.md` | Art. 21 — absolute direct marketing right; compelling legitimate grounds test |
-| `concepts/uk-gdpr-right-to-erasure.md` | Art. 17 — six triggers; five exemptions; legal obligation protects CDD/AML records |
-| `concepts/uk-gdpr-right-to-be-informed.md` | Art. 13/14 — mandatory privacy notice content; timing rules; automated decision-making disclosure |
-| `concepts/uk-gdpr-subject-access.md` | Art. 15 SAR — scope; exemptions; mixed data; disproportionate effort; interaction with AML record retention |
-| `concepts/uk-gdpr-security.md` | Art. 5(1)(f) and Art. 32 — security controls, appropriate technical/organisational measures, accountability |
-| `concepts/uk-gdpr-personal-data-breaches.md` | Arts. 33/34 — personal data breach lifecycle, ICO notification threshold, data subject communication duties |
-| `concepts/uk-gdpr-records-of-processing.md` | Art. 30 records of processing (ROPA) — minimum content, controller vs processor, group records |
-| `concepts/uk-gdpr-processor-contracts.md` | Art. 28 processor terms — mandatory clauses, sub-processors, audit rights, international transfers |
-| `concepts/uk-gdpr-data-protection-by-design.md` | Art. 25 data protection by design/default — minimisation defaults, access controls, lifecycle design |
-| `concepts/uk-gdpr-dpia.md` | Art. 35 DPIA — triggers, required content, risk mitigation, consultation where residual high risk |
-| `concepts/uk-gdpr-dpo.md` | Arts. 37–39 DPO — appointment triggers, independence, tasks, conflicts of interest |
-
-**FCA Consumer Credit (CONC)**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/conc-scope-and-application.md` | CONC scope and application — activity types, habitual residence, MCOB boundary, AR treatment, Consumer Duty via CONC 1.1.4G |
-| `concepts/conc-financial-difficulty-indicators.md` | CONC 1.3.1G seven indicators, constructive knowledge, link to CONC 6/7 and vulnerability guidance |
-| `concepts/conc-mental-capacity-guidance.md` | CONC 2.10 mental-capacity guidance across origination, limit increases, and running-account decisions; links to vulnerability and fair treatment |
-| `concepts/conc-broker-unfair-practices.md` | Credit broker conduct rules and unfair-practices catalogue (CONC 2.5), including fee and disclosure interaction with CONC 4 |
-| `concepts/conc-financial-promotions-cfnm.md` | CONC 3 clear, fair and not misleading standard for consumer credit promotions, including prominence and omission risk |
-| `concepts/conc-representative-example-apr.md` | Representative example and APR disclosure triggers/content for CONC financial promotions, including restricted expressions |
-| `concepts/conc-creditworthiness-assessment.md` | CONC 5.2A / 5.5A / 5.4 — triggers, two-track credit and affordability risk, policies, P2P and broker angles |
-| `concepts/conc-discretionary-commission-arrangements.md` | CONC 4.5.6R DCA prohibition, disclosure of commission and cost impact |
-| `concepts/conc-cpa-rules.md` | CONC 7.6 continuous payment authority — pre-conditions, two-strike rules, HCSTC restrictions, cancellation |
-| `concepts/conc-debt-recovery-treatment.md` | CONC 7 — forbearance, charges, vulnerable customers, assignment, disputes, statute-barred debt, data accuracy |
-
-**FCA DISP / Complaints Handling**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/complaints-handling-framework.md` | DISP 1 complaints handling framework — policy, process, governance, response quality, and root-cause remediation expectations |
-| `concepts/fos-eligible-complainants.md` | DISP 2 complainant eligibility — compulsory vs voluntary jurisdiction boundaries, complainant classes, and practical triage checks |
-
-**Cryptoasset financial promotions (PS23/6)**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/cryptoasset-financial-promotions-framework.md` | DOFP consumer journey for qualifying cryptoassets (RMMI) — mandatory sequence, appropriateness, cooling-off, incentives, MLR vs authorised firm routes |
-
-**FCA SYSC (Systems and Controls)**
-
-| Page | What it covers |
-|------|----------------|
-| `concepts/sysc4-governance-framework.md` | SYSC 4 governance: baseline hard Rule (all firms); common platform vs non-common platform two-track; management body mandate; chair/CEO separation; two persons directing; two mandatory allocated functions |
-| `concepts/sysc9-record-keeping.md` | SYSC 9 record-keeping duties, MiFID retention/tamper-proof requirements, and AISP/PISP record obligations |
-| `concepts/sysc10-conflicts-of-interest.md` | SYSC 10 conflicts framework: identification, register, senior management reporting, policy controls, and disclosure as last resort |
-
-### Derived
-Synthesised answers, assessments, and reference tables filed from query sessions.
-
-| Page | What it covers |
-|------|----------------|
-| `derived/fca-supervisory-questions-consumer-duty.md` | All FCA supervisory questions per outcome, verbatim from FG22/5 |
-| `derived/fca-consumer-duty-implementation-review-2024.md` | FCA's February 2024 post-go-live findings — good and poor practice across all five areas |
-| `derived/consumer-understanding-digital-notifications.md` | Compliance assessment: digital investment platform in-app notifications vs. Consumer Understanding outcome |
-| `derived/pi-emi-consumer-duty-and-sanctions-obligations.md` | Synthesised obligations for payment institutions — Consumer Duty + sanctions overlap |
-| `derived/consumer-duty-product-lifecycle-checklist.md` | Lifecycle checklist for Consumer Duty compliance from design through withdrawal, with hard rules vs supervisory expectations |
-| `derived/conc-financial-difficulty-trigger-map.md` | Trigger-to-obligation map for financial difficulty across CONC (arrears, forbearance, CPA, mental capacity, disputed debt) |
-| `derived/aml-kyc-onboarding-decision-tree.md` | Stepwise onboarding decision tree integrating sanctions screening, CDD/EDD/SDD, SAR/DAML, and vulnerability gates |
-
----
-
-## Repo Structure
-
-```
+```text
 fin-regbase/
-├── CLAUDE.md               # Schema + workflow for the AI curator (the critical file)
-├── .mcp.json               # Local MCP server config (Cursor)
-├── raw/                    # Immutable source documents — never edit manually
-│   ├── fca-consumer-duty/  # PS22/9, FG22/5, FG21/1, Dear CEO letter
-│   ├── fca-cobs/           # COBS 4, 9, 9A, 9B, 10, 10A, PROD 3 sourcebook PDFs
-│   ├── fca-conc/           # FCA Handbook CONC (consumer credit) source PDFs
-│   ├── fca-handbook/       # DISP, PRIN, SYSC, and other Handbook PDF extracts
-│   ├── fca-policy-statements/ # FCA policy statements (e.g. PS23/6) as source PDFs
-│   ├── fca-financial-crime/ # FCG 3, FCG 7, JMLSG Part I, thematic reviews
-│   ├── mifid/              # PROD review, costs/charges review, PFOF, suitability review
-│   ├── psr-payment-services/ # PSR approach document, payments portfolio Dear CEO
-│   ├── smcr/               # FCA SM&CR guide for solo-regulated firms
-│   └── uk-gdpr/            # ICO guides, data protection principles, security, breaches
+├── CLAUDE.md                # Schema and ingest/query/lint operating rules
+├── README.md
+├── .mcp.json                # Local MCP config
+├── raw/                     # Immutable source documents (PDFs)
 ├── wiki/
-│   ├── index.md            # Master index — start here for any query
-│   ├── log.md              # Append-only record of ingests, queries, lint passes
-│   ├── concepts/           # Core regulatory concepts (71 pages)
-│   ├── summaries/          # Per-document summaries (48 pages)
-│   └── derived/            # Synthesised answers, checklists, assessments (7 pages)
-├── agents/                 # Runtime query wrappers/clients
-├── mcp-server/             # MCP server implementation (tooling for wiki access)
-├── evals/                  # Retrieval eval questions, runner, and results
-├── design.md               # Architecture, philosophy, rollout plan
-├── mcp-design.md           # MCP architecture and rollout notes
-└── README.md
+│   ├── index.md             # Master index for retrieval
+│   ├── log.md               # Append-only operational log
+│   ├── concepts/            # Concept-level regulation pages
+│   ├── summaries/           # Source-document summaries
+│   └── derived/             # Filed synthesis outputs
+├── mcp-server/              # Python MCP server exposing wiki tools
+├── evals/                   # Retrieval/content evaluation scripts and results
+├── finregbase-web/          # Next.js web app
+├── docs/                    # Validation and execution logs
+├── design.md
+├── mcp-design.md
+└── website-design.md
 ```
 
-**Rule:** `raw/` is immutable. The LLM reads from it; nothing writes to it. Errors in source documents are noted in `wiki/log.md` and corrected in derived articles.
+## Non-negotiable rules
 
----
-
-## Using the Wiki
-
-**For agents:** Read `wiki/index.md` to identify relevant pages, then fetch and synthesise. Every article ends with a `## Key Points for Agents` section — unambiguous statements optimised for agent consumption.
-
-**For humans:** Open `wiki/` in Obsidian. Install the Dataview plugin to run live queries over the YAML frontmatter (jurisdiction, status, tags, effective_date). Use Graph view to inspect cross-reference health after each lint pass.
-
-**Adding a source:** Drop a document into the appropriate `raw/` subdirectory and say "ingest [filename]". Discuss key takeaways before any pages are written. One source at a time.
-
----
-
-## Roadmap
-
-| Phase | Scope |
-|-------|-------|
-| **v1 — done** | UK FCA Consumer Duty — fully linted, citation-accurate |
-| **v2 — done** | FCA Financial Crime (FCG, JMLSG, sanctions), MiFID II, PSR/E-Money, UK GDPR, SM&CR (solo-regulated guide) |
-| **v3 — current** | MCP server (`mcp-server/`); CONC, DISP, PRIN, PS23/6 crypto financial promotions, SYSC 4/6; COBS 4, 9B, PROD 3 (Tier 1 B2C/investment layer complete); Tier 2 (COBS 11 best execution, COBS 2.3A research/inducements) and Tier 3 (PSR 2.1 TPP access rules) in progress |
-| **v4** | SEC Reg BI, FINRA rules, FinCEN AML programme requirements |
-
----
-
-## Citation Standard
-
-Every factual claim in the wiki carries an inline citation to the specific document, section, and paragraph — e.g. **(PS22/9 section 7.4)**. Quality standard: CISI-level accuracy, FCA-grade citation discipline. Vague citations like "(FCA Consumer Duty)" are not permitted.
+- `raw/` is immutable reference material.
+- Wiki claims must be citation-backed to document/section granularity.
+- Every page should follow schema and section conventions in `CLAUDE.md`.
