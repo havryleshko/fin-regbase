@@ -20,14 +20,22 @@ export function NavBar() {
         <span className="text-sm font-semibold tracking-tight text-text-primary">
           fin-regbase
         </span>
-        <a
-          href="https://github.com/havryleshko/fin-regbase"
-          target="_blank"
-          rel="noreferrer"
-          className="rounded-sm text-sm font-medium text-accent hover:text-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-        >
-          GitHub ↗
-        </a>
+        <div className="flex items-center gap-4">
+          <a
+            href="/changelog"
+            className="rounded-sm text-sm font-medium text-text-primary hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+          >
+            Changelog
+          </a>
+          <a
+            href="https://github.com/havryleshko/fin-regbase"
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-sm text-sm font-medium text-accent hover:text-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+          >
+            GitHub ↗
+          </a>
+        </div>
       </div>
     </header>
   );

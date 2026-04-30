@@ -191,3 +191,62 @@ Scope: Phase 3 (Core UX Implementation)
 
 - Status: Complete with propagation-dependent deferrals recorded
 - Timestamp (UTC+1): 2026-04-29 12:22
+
+## Phase 7 Validation Evidence (2026-04-30)
+
+### Demo Video Embed
+
+- Replaced placeholder content in `finregbase-web/components/DemoPlaceholder.tsx` with native HTML5 `<video>` embed.
+- Embedded local asset source: `/demo-finregbase.mp4` from `finregbase-web/public/demo-finregbase.mp4`.
+- Playback behavior: click-to-play with visible native controls, no autoplay.
+- Third-party player check: Pass (no iframe/YouTube/Vimeo embed).
+
+### Responsive and Accessibility Checks
+
+- Verified section layout and preserved 16:9 video presentation at `390px`, `768px`, and desktop.
+- Video remains keyboard-accessible via native browser controls.
+- Added fallback text inside video element for non-supporting browsers.
+
+### Quality Verification
+
+- `npm run lint`: Pass.
+- `npm run build`: Pass.
+- Browser smoke test: video player renders and controls appear in-page; no new console errors introduced.
+
+### Phase 7 Completion Decision
+
+- Status: Complete (demo-embed scope)
+- Timestamp (UTC+1): 2026-04-30 13:02
+
+## Phase 7 Validation Evidence - Changelog Page (2026-04-30)
+
+### Changelog Route and Canonical Data Source
+
+- Added public route: `finregbase-web/app/changelog/page.tsx`.
+- Added canonical source module: `finregbase-web/lib/changelog.ts`.
+- Entries normalized from:
+  - `docs/phase1-decision-log.md`
+  - `docs/phase2-validation-log.md`
+  - `docs/phase3-validation-log.md`
+- Each entry includes date, title, summary, phase tag, and optional source links.
+
+### Discoverability and CTA Priority
+
+- Added low-friction changelog links in:
+  - `finregbase-web/components/NavBar.tsx`
+  - `finregbase-web/components/FooterCTA.tsx`
+- Primary CTA hierarchy preserved: `Add to Claude` and `View on GitHub` remain unchanged.
+
+### Verification
+
+- `npm run lint`: Pass.
+- `npm run build`: Pass.
+- Route checks:
+  - `curl -I http://127.0.0.1:3000/`: `200`
+  - `curl -I http://127.0.0.1:3000/changelog`: `200`
+- Build output confirms static `/changelog` route generation.
+
+### Phase 7 Changelog Completion Decision
+
+- Status: Complete (changelog/version-transparency scope)
+- Timestamp (UTC+1): 2026-04-30 13:25

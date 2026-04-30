@@ -24,6 +24,13 @@ export function FooterCTA() {
         </div>
         <div className="mt-8 text-sm text-text-secondary">
           <a
+            href="/changelog"
+            className="rounded-sm hover:text-text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+          >
+            Changelog
+          </a>{" "}
+          ·{" "}
+          <a
             href="https://github.com/havryleshko/fin-regbase"
             target="_blank"
             rel="noreferrer"
