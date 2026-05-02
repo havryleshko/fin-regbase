@@ -11,10 +11,14 @@
             "id": "26e0ba47039ff414",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "concepts/smcr-senior-managers-regime.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "smcr-senior-managers-regime"
             }
           }
         ]
@@ -179,6 +183,11 @@
   },
   "active": "26e0ba47039ff414",
   "lastOpenFiles": [
+    "concepts/client-money-framework.md",
+    "summaries/cass7-client-money-rules.md",
+    "concepts/client-assets-custody.md",
+    "summaries/cass6-custody-rules.md",
+    "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
     "concepts/aml-ctf-framework.md",
     "Untitled.canvas",
     "summaries/prod3-product-governance-mifid.md",
@@ -201,11 +210,6 @@
     "derived/consumer-duty-product-lifecycle-checklist.md",
     "derived/conc-financial-difficulty-trigger-map.md",
     "derived/aml-kyc-onboarding-decision-tree.md",
-    "concepts/vulnerable-customers.md",
-    "concepts/sysc10-conflicts-of-interest.md",
-    "concepts/sysc9-record-keeping.md",
-    "concepts/cryptoasset-financial-promotions-framework.md",
-    "summaries/ps23-6-cryptoasset-financial-promotions.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "raw/fca-financial-crime",

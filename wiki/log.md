@@ -2142,3 +2142,73 @@ Key coverage:
 - Delegation: permitted but full COBS 2.3B responsibility remains with firm
 
 Contradictions with existing wiki: None.
+
+## 2026-05-02 ingest | CASS 6 — Custody Rules
+
+Source: `raw/fca-cass/CASS 6 Custody rules.pdf` (FCA Handbook, May 2026, 44pp)
+
+Pages created (2):
+- `wiki/summaries/cass6-custody-rules.md`
+- `wiki/concepts/client-assets-custody.md`
+
+Pages updated (1):
+- `wiki/index.md` — new CASS section added; two new entries (summary + concept)
+
+Key coverage:
+- Application: four activity tracks (MiFID 6.1.1R(1A); safeguarding/administering 1B; AIF trustee/depositary 1C; UCITS trustee/depositary 1D) plus TTCA firms (1E); DvP exemption (6.1.12R)
+- TTCAs: absolute retail ban (6.1.6R — no exceptions); non-retail conditions (documented, proportionate, risk-disclosed)
+- Core protection obligation: safeguard ownership rights especially on insolvency; prevent use on own account without express consent (6.2.1R/6.2.2R)
+- Registration: legal title in client name or permitted nominee; firm-name only if separately identified (6.2.3R)
+- Unclaimed assets: 12-year holding → may pay to charity with perpetual unconditional undertaking to repay; costs from firm's own funds; records indefinitely (6.2.10R/6.2.16G)
+- Third-party due diligence: all due skill, care and diligence; selection records 5yr after cessation (6.3.1R/6.3.2AR); jurisdiction restriction — regulated safekeeping only; third country exception narrow (6.3.4R); written custody agreement mandatory (6.3.4AR); identifiability at third party (6.3.4A-1R)
+- Security interests/liens: prohibited over client safe custody assets except for client debts or mandatory third-country law (disclosure + best interests) (6.3.6AR)
+- SFT consent: express prior written consent with affirmative execution; retail clients = SFTs only FCA expectation (6.4.1R/6.4.1AG); collateral monitoring mandatory (6.4.2AR)
+- Three-tier reconciliation: internal custody record check max 1 month (6.6.11R); external custody reconciliation max 1 month (6.6.37R); physical asset reconciliation max 6 months (6.6.22R); frequency determined by transaction volume/value and asset risk (6.6.44R); annual frequency review (6.6.46R)
+- Shortfall coverage: mandatory appropriation of own assets (or money as CASS 7 client money) to cover shortfall value immediately on identification, before investigation complete (6.6.54R)
+- FCA notification: without delay on six independent triggers including records out of date and inability to conduct any reconciliation (6.6.57R)
+- Annual audit: SUP 3.10 auditor confirmation of custody rules compliance (6.6.58G)
+- Treatment after failure: return/transfer to client before disposal; written undertaking from receiving firm including 14-day client notification (6.7.2R/6.7.8R)
+
+Contradictions with existing wiki: None. CASS 7 (client money) and CASS 10 (resolution pack) not yet ingested; cass6-custody-rules.md references them where the regimes interact (6.6.54R shortfall funding; 6.7.8R IBSA Regulations) but does not summarise their content.
+
+Next CASS ingests: CASS 7 (client money) → CASS 10 (resolution pack). PDFs to be uploaded to raw/fca-cass/.
+
+## 2026-05-02 ingest | CASS 7 — Client Money Rules
+
+Source: `raw/fca-cass/CASS 7 Client money rules.pdf` (FCA Handbook, May 2026, 95pp + annexes)
+
+Pages created (2):
+- `wiki/summaries/cass7-client-money-rules.md`
+- `wiki/concepts/client-money-framework.md`
+
+Pages updated (1):
+- `wiki/index.md` — two new entries added under UK — FCA Client Assets (CASS)
+
+Key coverage:
+- Application: MiFID business (7.10.1R(1)), designated investment business (7.10.1R(2)), ISA and other activities (7.10.1R(3)–(5)); trustee firms (7.10.33R–7.10.40G)
+- Professional client opt-out (7.10.10R): written acknowledgement; client ranks as unsecured general creditor on failure; cannot be used for retail clients
+- Credit institution/approved bank carve-out (7.10.16R): money held as banker not trustee; no CASS distribution on failure for those funds
+- TTCA: retail ban absolute on money (7.11.1R(3)(a)); non-retail proportionality documentation required (7.11.4AR); money transferred under TTCA ceases to be client money (7.11.1R(4))
+- DvP exemption: one business day window (7.11.14R); after expiry money must be treated as client money
+- Interest: firm must pay or account for interest to retail clients unless written notice given (7.11.32R)
+- Unclaimed money: 6-year inactivity threshold; three disposal routes — full trace + charity (7.11.50R); de minimis £25 retail/£100 professional (7.11.57R); Dormant Assets Act 2022 transfer (7.11.57AR); all costs from firm's own funds (7.11.58G); perpetual unconditional repayment undertaking required in every route
+- Segregation — normal approach (7.13.6R): all client money received directly into client bank account; no transit through own account; withdrawal within 1 business day (7.13.13R)
+- Segregation — alternative approach (7.13.54G/7.13.55R): client money received into own account first, then daily adjusted; requires documented justification, FCA notification ≥3 months before adoption (7.13.57R), independent auditor's report (7.13.58R), annual review (7.13.59R), daily reconciliation (7.13.62R), mandatory prudent segregation buffer — quarterly calculation, 3-month historical lookback, annual CASS oversight review (7.13.65R)
+- 20% group entity cap (7.13.20R): hard limit — cannot deposit >20% of total client money held with any single group entity; proportionality exception requires immediate FCA notification (7.13.21AR/7.13.21CR)
+- Prudent segregation (7.13.41R): own money into client bank account to prevent shortfall; retained amount = client money; 5-year prudent segregation record (7.13.53R)
+- Qualifying MMF (7.13.28R): explicit client consent; units treated as safe custody assets not client money
+- Third-party holding (7.14.2R): permitted only for client transactions or collateral obligations; firm retains fiduciary duty; retail client must be notified
+- Records (7.15.2R/7.15.5R): distinguish client money per client from own money; show and explain all transactions; 5-year retention; determine per-client total within 2 business days
+- Internal reconciliation (7.15.15R): every business day; T-1 close of business basis; one standard method only; internal records only (not bank statements); shortfall paid to client bank account / excess withdrawn by close of business same day (7.15.29R)
+- External reconciliation (7.15.22R): max 1 month between reconciliations; frequency decision reviewed annually (7.15.26R); records retained indefinitely (7.15.24R); unresolved discrepancy showing potential shortfall → assume that record correct and pay own money in (7.15.32R)
+- FCA notification (7.15.33R): 6 independent triggers; trigger 6 is retrospective — fires on discovering material segregation shortfall at any point in preceding 12 months
+- Standard methods (CASS 7.16): individual client balance method (7.16.16R — formula table in 7.16.22E; available to all except loan-based crowdfunding firms); net negative add-back method (7.16.17R — available only to CASS 7 asset management firms and loan-based crowdfunding firms without margined transactions)
+- Statutory trust (7.17.2R): s.137B FSMA; legal title in firm, beneficial ownership in clients; on insolvency general pool distributes pro-rata; five-level priority stack; no pre-funding prohibition (7.17.5G)
+- Acknowledgement letters (7.18.2R/7.18.3R): mandatory before using any client bank account or client transaction account; prescribed FCA template (Annexes 2/3/4); bank waives all recourse and set-off rights; fixed text cannot be amended; periodic accuracy reviews; 5-year retention after account closure
+- Sub-pools (CASS 7.19): clearing members only; each sub-pool tied to a specific net margined omnibus client account at an ACC; sub-pool disclosure document signed by client required before holding (7.19.11R); on insolvency: general pool distributes pro-rata; sub-pool transferred for porting or distributed to beneficiaries; material change requires 2-month advance written notice to beneficiaries and FCA (7.19.18R/7.19.21R)
+
+Contradictions with existing wiki:
+- CASS 6 unclaimed assets threshold is 12 years; CASS 7 unclaimed money threshold is 6 years — different thresholds correctly documented in both sourcebook summaries and concept pages. Not a contradiction — intentional regulatory distinction.
+- CASS 6 reconciliation: internal custody record check and external custody reconciliation both max 1 month; CASS 7 internal reconciliation is mandatory every business day. Both correctly documented — intentional different cadences for money vs assets.
+
+Next CASS ingest: CASS 10 (resolution pack) — PDF already in raw/fca-cass/.
