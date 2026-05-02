@@ -3,15 +3,15 @@
 Persistent, agent-readable UK financial regulation knowledge base.  
 Source documents in `raw/` are compiled into citation-backed wiki pages in `wiki/`.
 
-## Current repository snapshot (Apr 2026)
+## Current repository snapshot (May 2026)
 
-- `wiki/concepts`: 76 pages
-- `wiki/summaries`: 52 pages
+- `wiki/concepts`: 78 pages
+- `wiki/summaries`: 54 pages
 - `wiki/derived`: 7 pages
-- Total wiki articles: 135
-- Source PDFs in `raw/`: 46
+- Total wiki articles: 139
+- Source PDFs in `raw/`: 49
 
-Primary coverage includes Consumer Duty, AML/CTF and sanctions, COBS and MiFID conduct rules, CONC consumer credit, DISP complaints/FOS, SYSC governance and controls, MAR market abuse, PSR/E-Money, SM&CR, and UK GDPR.
+Primary coverage includes Consumer Duty, AML/CTF and sanctions, CASS (client money and custody), COBS and MiFID conduct rules, CONC consumer credit, DISP complaints/FOS, SYSC governance and controls, MAR market abuse, PSR/E-Money, SM&CR, and UK GDPR.
 
 ## How this repo is used
 
@@ -74,13 +74,15 @@ fin-regbase/
 │   ├── concepts/            # Concept-level regulation pages
 │   ├── summaries/           # Source-document summaries
 │   └── derived/             # Filed synthesis outputs
+├── agents/                  # Runtime query wrappers/clients
 ├── mcp-server/              # Python MCP server exposing wiki tools
 ├── evals/                   # Retrieval/content evaluation scripts and results
 ├── finregbase-web/          # Next.js web app
 ├── docs/                    # Validation and execution logs
 ├── design.md
 ├── mcp-design.md
-└── website-design.md
+├── website-design.md
+└── website-execution-plan.md
 ```
 
 ## Non-negotiable rules
