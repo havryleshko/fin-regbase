@@ -40,6 +40,10 @@ const coverage = [
     topic: "MiFID II",
     lines: ["Product Governance", "Suitability", "Conflicts (SYSC 10)"],
   },
+  {
+    topic: "CASS",
+    lines: ["Client money rules", "Custody and safeguarding", "Reconciliations"],
+  },
 ] as const;
 
 export function CoverageGrid() {

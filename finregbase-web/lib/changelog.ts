@@ -13,7 +13,12 @@ export const changelogEntries: ChangelogEntry[] = [
     summary:
       "Finalized project location and fallback local setup flow (`git clone` + `uv run`) after uvx-from-git validation failed.",
     phase: "Phase 1",
-    links: [{ label: "Decision log", href: "/docs/phase1-decision-log.md" }],
+    links: [
+      {
+        label: "Decision log",
+        href: "https://github.com/havryleshko/fin-regbase/blob/main/docs/phase1-decision-log.md",
+      },
+    ],
   },
   {
     date: "2026-04-29",
@@ -21,7 +26,12 @@ export const changelogEntries: ChangelogEntry[] = [
     summary:
       "Scaffolded Next.js App Router site structure, tokens, section placeholders, and canonical site metrics source.",
     phase: "Phase 2",
-    links: [{ label: "Validation log", href: "/docs/phase2-validation-log.md" }],
+    links: [
+      {
+        label: "Validation log",
+        href: "https://github.com/havryleshko/fin-regbase/blob/main/docs/phase2-validation-log.md",
+      },
+    ],
   },
   {
     date: "2026-04-29",
@@ -29,7 +39,12 @@ export const changelogEntries: ChangelogEntry[] = [
     summary:
       "Implemented full single-scroll sections: hero, pillars, connect tabs/snippets/copy flow, coverage, demo section, and footer CTA.",
     phase: "Phase 3",
-    links: [{ label: "Validation log", href: "/docs/phase3-validation-log.md" }],
+    links: [
+      {
+        label: "Validation log",
+        href: "https://github.com/havryleshko/fin-regbase/blob/main/docs/phase3-validation-log.md",
+      },
+    ],
   },
   {
     date: "2026-04-29",
@@ -37,7 +52,12 @@ export const changelogEntries: ChangelogEntry[] = [
     summary:
       "Aligned setup copy/snippets, improved accessibility and reduced-motion behavior, and passed responsive/performance verification.",
     phase: "Phase 4-5",
-    links: [{ label: "Validation log", href: "/docs/phase3-validation-log.md" }],
+    links: [
+      {
+        label: "Validation log",
+        href: "https://github.com/havryleshko/fin-regbase/blob/main/docs/phase3-validation-log.md",
+      },
+    ],
   },
   {
     date: "2026-04-29",
@@ -45,14 +65,24 @@ export const changelogEntries: ChangelogEntry[] = [
     summary:
       "Configured Vercel/domain, metadata + OG pipeline, and link integrity checks with explicit propagation deferrals.",
     phase: "Phase 6",
-    links: [{ label: "Validation log", href: "/docs/phase3-validation-log.md" }],
+    links: [
+      {
+        label: "Validation log",
+        href: "https://github.com/havryleshko/fin-regbase/blob/main/docs/phase3-validation-log.md",
+      },
+    ],
   },
   {
     date: "2026-04-30",
     title: "Phase 7 demo embed",
     summary:
-      "Replaced demo placeholder with embedded local video and validated playback, responsiveness, and build/lint health.",
+      "Embedded public demo on YouTube and validated playback, responsiveness, and build/lint health.",
     phase: "Phase 7",
-    links: [{ label: "Validation log", href: "/docs/phase3-validation-log.md" }],
+    links: [
+      {
+        label: "Validation log",
+        href: "https://github.com/havryleshko/fin-regbase/blob/main/docs/phase3-validation-log.md",
+      },
+    ],
   },
 ];

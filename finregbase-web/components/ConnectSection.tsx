@@ -157,8 +157,9 @@ export function ConnectSection() {
           {copied ? "Copied ✓" : copyError ? "Copy failed" : "Copy config"}
         </button>
         <p className="text-sm text-text-secondary">
-          1. Clone repo and install uv → 2. Replace absolute paths and paste config → 3.
-          Ask your agent a compliance question
+          1. Clone repo and install uv → 2. Run <code className="rounded bg-surface px-1 py-0.5">uv sync</code> in{" "}
+          <code className="rounded bg-surface px-1 py-0.5">mcp-server</code> → 3. Replace absolute paths and paste
+          config → 4. Ask your agent a compliance question
         </p>
       </div>
     </section>
