@@ -7,17 +7,17 @@ export function DemoPlaceholder() {
       <h2 className="mt-2 text-3xl font-semibold tracking-tight text-text-primary md:text-4xl">
         See it in action
       </h2>
-      <div className="mt-8 overflow-hidden rounded-2xl border border-border bg-text-primary/95">
-        <video
-          controls
-          preload="metadata"
-          className="aspect-video w-full"
-          aria-label="Demo video of agent querying fin-regbase via MCP"
-        >
-          <source src="/demo-finregbase.mp4" type="video/mp4" />
-          Your browser does not support HTML5 video. You can download the demo at
-          /demo-finregbase.mp4.
-        </video>
+      <div className="mt-8 overflow-hidden rounded-2xl border border-border bg-black">
+        <div className="aspect-video w-full">
+          <iframe
+            className="h-full w-full"
+            src="https://www.youtube.com/embed/FeM6Wq0bLds"
+            title="Demo video: agent querying fin-regbase via MCP"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            loading="lazy"
+          />
+        </div>
       </div>
     </section>
   );

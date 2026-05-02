@@ -196,10 +196,10 @@ Scope: Phase 3 (Core UX Implementation)
 
 ### Demo Video Embed
 
-- Replaced placeholder content in `finregbase-web/components/DemoPlaceholder.tsx` with native HTML5 `<video>` embed.
-- Embedded local asset source: `/demo-finregbase.mp4` from `finregbase-web/public/demo-finregbase.mp4`.
-- Playback behavior: click-to-play with visible native controls, no autoplay.
-- Third-party player check: Pass (no iframe/YouTube/Vimeo embed).
+- Replaced placeholder in `finregbase-web/components/DemoPlaceholder.tsx` with YouTube iframe embed.
+- Source: `https://www.youtube.com/embed/FeM6Wq0bLds` (public watch URL `https://youtu.be/FeM6Wq0bLds`).
+- Local `finregbase-web/public/demo-finregbase.mp4` removed from repo to stay under GitHub file size limits.
+- Playback: YouTube player controls; `loading="lazy"` on iframe; `title` set for accessibility.
 
 ### Responsive and Accessibility Checks
 
