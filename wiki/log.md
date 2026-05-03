@@ -2212,3 +2212,32 @@ Contradictions with existing wiki:
 - CASS 6 reconciliation: internal custody record check and external custody reconciliation both max 1 month; CASS 7 internal reconciliation is mandatory every business day. Both correctly documented — intentional different cadences for money vs assets.
 
 Next CASS ingest: CASS 10 (resolution pack) — PDF already in raw/fca-cass/.
+
+## 2026-05-03 ingest | CASS 10 — CASS Resolution Pack
+
+Source: `raw/fca-cass/CASS 10 CASS resolution pack.pdf` (FCA Handbook, May 2026, 9pp)
+
+Pages created (1):
+- `wiki/summaries/cass10-resolution-pack.md`
+
+Pages updated (1):
+- `wiki/index.md` — one new entry added under UK — FCA Client Assets (CASS)
+
+Note: No separate concept page created. CASS 10 is a tightly scoped procedural chapter (3 sections, 9 pages) with no separable conceptual framework — a single summary page is the appropriate output.
+
+Key coverage:
+- Application: CASS 6 firms (custody) and CASS 7 firms (client money); excludes arrangers and small AIFMs carrying only excluded custody activities (10.1.1R)
+- Purpose: three audiences — insolvency practitioner (timely return); Bank of England (resolution under Banking Act); FCA (10.1.2G) — makes CASS 10 a recovery and resolution instrument, not just a client protection measure
+- Maintenance obligation: pack must exist and be current at all times; not assembled on failure (10.1.3R/10.1.4G)
+- 48-hour retrieval: hard outer limit from insolvency officer appointment OR FCA/Bank of England request (10.1.7R); certain items should be immediately retrievable (master doc, institutions doc, acknowledgement letters, most recent reconciliations — 10.1.9E); systems must remain operational post-insolvency (10.1.9E(2))
+- Nine mandatory content items (10.2.1R): (1) master retrieval document; (2) institutions document — full name, address, phone, all account numbers (10.2.3R); (3) agents document; (4) key individuals — CASS-critical senior managers/directors + CASS oversight officer; (5) executed agreements and acknowledgement letters per institution; (6) group and third-party map — entity type, jurisdiction, operational functions; (7) third-party agreements; (8) third-party access/transfer document (critical for outsourced custody); (9) procedures manual
+- Accuracy: ongoing review obligation; material inaccuracies corrected within 5 business days of change of circumstances (10.1.11R)
+- Governance: CASS oversight officer must report at least annually to governing body on CASS 10 compliance (10.1.14R)
+- FCA notification: immediately on inability to maintain/retrieve the pack (10.1.16R) — standalone trigger separate from CASS 6.6.57R and CASS 7.15.33R
+- Group reliance: permitted if group member subject to same rule and 48-hour retrieval capability preserved; requires inter-group delivery arrangements (10.1.6R/10.1.8R)
+- Existing records (10.3.1R): designates specific CASS 6/7/SYSC/COBS records as pack components without changing their underlying retention requirements
+
+Contradictions with existing wiki:
+- None. CASS 10 references CASS 6.6.57R and CASS 7.15.33R as existing notification regimes; CASS 10.1.16R is a separate trigger correctly documented as standalone.
+
+CASS block complete: CASS 6, CASS 7, CASS 10 all ingested. Ready for lint.
