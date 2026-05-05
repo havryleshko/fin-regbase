@@ -6,10 +6,10 @@ Source documents in `raw/` are compiled into citation-backed wiki pages in `wiki
 ## Current repository snapshot (May 2026)
 
 - `wiki/concepts`: 78 pages
-- `wiki/summaries`: 54 pages
+- `wiki/summaries`: 60 pages
 - `wiki/derived`: 7 pages
-- Total wiki articles: 139
-- Source PDFs in `raw/`: 49
+- Total wiki articles: 145
+- Source PDFs in `raw/`: 54
 
 Primary coverage includes Consumer Duty, AML/CTF and sanctions, CASS (client money and custody), COBS and MiFID conduct rules, CONC consumer credit, DISP complaints/FOS, SYSC governance and controls, MAR market abuse, PSR/E-Money, SM&CR, and UK GDPR.
 
