@@ -20,6 +20,7 @@ related:
   - summaries/conc7-arrears-default-recovery.md
   - concepts/conc-cpa-rules.md
   - summaries/conc2-conduct-of-business-general.md
+  - summaries/conc8-debt-advice.md
 ---
 
 # CONC — Financial Difficulty Indicators
@@ -110,3 +111,4 @@ This standard will be assessed by the FCA in the context of what data the firm h
 - [[conc7-arrears-default-recovery]]
 - [[conc-cpa-rules]]
 - [[conc2-conduct-of-business-general]]
+- [[conc8-debt-advice]]

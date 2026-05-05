@@ -38,7 +38,7 @@ COBS 4.10 sets out the FCA's conduct obligations for authorised firms acting as 
 
 From **7 January 2024**, authorised firms that wish to approve financial promotions for unauthorised persons must have **specific FCA permission to do so** (subject to limited exceptions for approving their own appointed representatives' promotions). This permission is applied for through the FCA Gateway.
 
-For **qualifying cryptoasset** promotions, additional rules apply under PS23/6 — the FCA must receive a **7-day prior notification** for each approval, and the approver must submit **quarterly attestations** to the FCA. See [[ps23-6-cryptoasset-financial-promotions.md]] for the full crypto-specific framework.
+For **qualifying cryptoasset** promotions, additional rules apply under PS23/6 — the FCA must receive a **7-day prior notification** for each approval, and the approver must submit **quarterly attestations** to the FCA. See [[ps23-6-cryptoasset-financial-promotions]] for the full crypto-specific framework.
 
 ---
 

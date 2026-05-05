@@ -1,142 +1,156 @@
 ---
 title: "Operational Resilience — SYSC 15A"
 jurisdiction: UK
-regulator: FCA / PRA / Bank of England
-regulation: SYSC 15A; FCA Policy Statement PS21/3; FCA Operational Resilience Rules
+regulator: FCA
+regulation: "SYSC 15A; FSMA 2000 ss.55J, 55L"
 status: current
 effective_date: 2022-03-31
-last_updated: 2026-04-13
+last_updated: 2026-05-04
 sources:
-  - "FCA, 'FCA Priorities for Payments Firms' portfolio letter, 16 March 2023"
-  - "FCA SYSC 15A — Operational resilience (in force 31 March 2022)"
-tags: [operational-resilience, SYSC-15A, important-business-services, impact-tolerances, payment-institutions, EMI, UK, FCA]
+  - "SYSC 15A.1.1R–15A.1.9R — application and scope"
+  - "SYSC 15A.2.1R; 15A.2.2R; 15A.2.4G — important business services"
+  - "SYSC 15A.2.5R; 15A.2.6R; 15A.2.7G; 15A.2.9R; 15A.2.11G — impact tolerances"
+  - "SYSC 15A.3.1R–15A.3.2R — strategies, processes and systems"
+  - "SYSC 15A.4.1R–15A.4.3R — mapping"
+  - "SYSC 15A.5.1R–15A.5.9R — scenario testing and lessons learned"
+  - "SYSC 15A.6.1R–15A.6.2R — self-assessment documentation"
+  - "SYSC 15A.7.1R — governance"
+  - "SYSC 15A.8.1R–15A.8.3R — communications"
+  - "FCA Payments Portfolio letter, March 2023"
+tags: [operational-resilience, SYSC-15A, important-business-services, impact-tolerances, mapping, scenario-testing, self-assessment, governance, communications, enhanced-SMCR, payment-institutions, EMI, UK, FCA]
 related:
+  - summaries/sysc15a-operational-resilience.md
+  - concepts/sysc4-governance-framework.md
+  - concepts/sysc9-record-keeping.md
   - concepts/safeguarding-pis-emis.md
   - concepts/wind-down-planning.md
-  - concepts/agent-distributor-oversight.md
+  - concepts/psr-regulatory-reporting.md
+  - concepts/uk-gdpr-security.md
+  - summaries/sysc4-general-organisational-requirements.md
+  - summaries/sysc6-compliance-internal-audit-financial-crime.md
   - summaries/dear-ceo-letter-payments-portfolio-2023.md
   - derived/pi-emi-consumer-duty-and-sanctions-obligations.md
   - concepts/psr-emi-prudential.md
-  - concepts/uk-gdpr-security.md
+  - concepts/agent-distributor-oversight.md
 ---
 
 # Operational Resilience — SYSC 15A
 
-## The Framework
+## What the Framework Requires
 
-**SYSC 15A** came into force on **31 March 2022** and applies to all FCA-supervised firms, including payment institutions and e-money institutions. It requires firms to build and maintain the ability to prevent, adapt to, respond to, recover from, and learn from operational disruptions. **(Portfolio letter, March 2023, Cross-Cutting Priority 2; SYSC 15A)**
+**SYSC 15A** came into force on **31 March 2022**. All transitional implementation deadlines (the last of which was 31 March 2025) have now passed — the obligations are fully live with no remaining transitional provisions. Firms that did not meet the 31 March 2025 implementation deadline are in ongoing breach.
 
-The framework reflects a shift in supervisory approach: the FCA expects firms to plan for disruptions occurring — not merely to try to prevent them — and to be able to quantify the level of disruption they can absorb while continuing to deliver essential services to customers and the financial system.
-
----
-
-## Core Concepts
-
-### Important Business Services
-
-Firms must identify their **important business services** — those services whose disruption would cause intolerable harm to customers or the broader financial system. This is a firm-specific assessment: a service that is important for one firm may not be for another.
-
-For a PI or EMI, important business services are likely to include:
-- Payment execution (particularly where the firm is the primary payment channel for customers)
-- E-money issuance and redemption
-- Customer access to account balances and transaction history
-- Fraud and sanctions screening (critical for financial system integrity)
-
-Firms must **review their important business services at least annually**, or whenever there is a material change to the business or the market in which they operate. **(Portfolio letter, March 2023)**
-
-### Impact Tolerances
-
-For each important business service, firms must set an **impact tolerance** — the maximum level of disruption the firm is willing to tolerate before the disruption causes intolerable harm.
-
-Impact tolerances must be:
-- Expressed in terms of the **outcome for customers and the market** — not just IT recovery metrics (e.g. RTO/RPO)
-- Based on the specific characteristics of each important business service
-- Reviewed alongside the annual review of important business services
+The framework requires firms to build and maintain the ability to prevent, adapt to, respond to, recover from, and learn from operational disruptions. The supervisory model is outcome-focused: firms must be able to keep delivering important services to clients and the financial system even under severe disruption — not merely plan to do so.
 
 ---
 
-## The Mapping and Testing Deadline
+## Who Is In Scope
 
-**By 31 March 2025** (now passed), firms were required to have:
-1. **Mapped** the people, processes, technology, facilities, and information that support each important business service and their interdependencies
-2. **Tested** their ability to remain within impact tolerances under a range of severe but plausible disruption scenarios
-3. Made the necessary **investments** to enable consistent operation within impact tolerances
+SYSC 15A applies to **(SYSC 15A.1.1R)**:
+- Enhanced scope SMCR firms, banks, designated investment firms, building societies, and Solvency II firms
+- UK RIEs
+- Electronic money institutions, payment institutions, and registered account information service providers (RAISPs)
+- Consolidated tape providers
 
-**(Portfolio letter, March 2023)**
+**Excluded:** TP firms, TA PI firms, TA RAISP firms, and TA EMI firms **(SYSC 15A.1.3R)**. Firms with their registered or head office outside the UK **(SYSC 15A.1.4R)**.
 
-The 31 March 2025 deadline was hard — it was not a best-efforts target. The FCA stated it was proactively monitoring firms' progress and would take action where deficiencies were identified. Firms that did not meet the deadline remain in breach and the FCA's ongoing supervisory focus on operational resilience means deficiencies identified after the deadline will be treated as current failures.
-
----
-
-## What Mapping Involves
-
-Mapping requires firms to document, for each important business service, the full chain of:
-- **People:** Key personnel, skill dependencies, succession arrangements
-- **Processes:** End-to-end process flows, manual fallback procedures
-- **Technology:** Systems, applications, data flows, hosting arrangements
-- **Third-party dependencies:** Critical service providers (technology vendors, banking partners, clearing and settlement providers)
-- **Facilities:** Operational sites, remote working capability
-
-This mapping serves two purposes: it supports the development of realistic impact tolerances and it identifies single points of failure that must be addressed.
+**PI/EMI/RAISP scope is narrowed (SYSC 15A.1.8R):** For firms in scope solely as EMIs, PIs or RAISPs, SYSC 15A applies only to payment services and e-money activities (and connected activities) — not to other regulated activities the firm may carry on.
 
 ---
 
-## What Testing Involves
+## The Four-Step Framework
 
-Testing must demonstrate that the firm can remain within impact tolerances for each important business service under a range of disruption scenarios. Scenarios should include:
-- Technology failures (systems outage, data loss)
-- Third-party provider failure (key supplier becomes unavailable)
-- Cyber incidents
-- Staff unavailability (pandemic scenarios, key person departure)
-- Natural disasters affecting operational facilities
+### Step 1 — Identify Important Business Services
 
-Testing results must be documented and must feed into investment decisions and plan improvements.
+A firm must identify its **important business services** **(SYSC 15A.2.1R)** — those whose disruption would cause intolerable harm to clients or the UK financial system. Each service must be assessed individually; services cannot be bundled **(SYSC 15A.2.3G)**.
+
+The 13 factors the FCA expects firms to consider include: nature of the client base including vulnerability; substitutability; time criticality; number of clients; sensitivity of data; potential impact on the UK financial system; and whether disruption would breach a legal or regulatory obligation **(SYSC 15A.2.4G)**.
+
+Review is mandatory on any material change to the business, and in any event at least annually **(SYSC 15A.2.2R)**.
+
+### Step 2 — Set Impact Tolerances
+
+For each IBS the firm must set an **impact tolerance** — the maximum disruption level it is willing to tolerate **(SYSC 15A.2.5R)**. Tolerances must be expressed in terms of **outcomes for clients and markets**, not just technical recovery metrics (RTO/RPO).
+
+**The hard obligation:** A firm **must ensure it can remain within** its impact tolerance for each IBS in the event of a severe but plausible disruption **(SYSC 15A.2.9R)**. This is a capability requirement — the firm must be able to demonstrate it can actually deliver within tolerance, not merely that it plans to.
+
+**Principle 11 notification:** The FCA expects notification of **any failure** to meet an impact tolerance — there is no materiality threshold **(SYSC 15A.2.11G)**.
+
+Review: same trigger as IBS review — material change or at least annual **(SYSC 15A.2.6R)**.
+
+### Step 3 — Map and Test
+
+**Mapping (SYSC 15A.4.1R):** For each IBS, the firm must identify and document: **people, processes, technology, facilities, and information** — to a depth sufficient to identify and remediate vulnerabilities. Where a third party delivers part of an IBS, mapping must extend to the third party's supporting resources **(SYSC 15A.4.2G)**. Review: on material change or at least annually **(SYSC 15A.4.3R)**.
+
+**Testing (SYSC 15A.5.3R; 15A.5.4R):** The firm must carry out scenario testing covering an **appropriate range of adverse circumstances of varying nature, severity and duration**. Testing is mandatory — not optional — and the firm is ultimately responsible for its quality whether testing is done directly or via a third party **(SYSC 15A.5.5G)**.
+
+**Three mandatory testing triggers (SYSC 15A.5.7R):**
+1. Material change to the business, IBS, or impact tolerances
+2. Following improvements made in response to a previous test
+3. In any event, on a **regular basis**
+
+**Named scenario types (SYSC 15A.5.6G):** data corruption/manipulation; key people or facilities unavailable; critical third-party service unavailable; disruption to other market participants; technology loss or degradation.
+
+### Step 4 — Learn and Improve
+
+After any scenario test or actual operational disruption, the firm must conduct a **lessons learned exercise** **(SYSC 15A.5.8R)** and must make **necessary improvements** to remain within impact tolerances **(SYSC 15A.5.9R)**. Both are hard Rules. Learning must flow into concrete remediation, not just documentation.
 
 ---
 
-## Third-Party Dependency Management
+## Documentation and Governance
 
-Separately from the mapping and testing obligation, firms must **monitor their dependency on providers of critical services** — including technology and banking services — and maintain appropriate **contingency plans to move providers if necessary**. **(Portfolio letter, March 2023)**
+### Nine-Item Self-Assessment Record (SYSC 15A.6.1R)
 
-For PIs and EMIs, critical third-party dependencies typically include:
-- The banking partner(s) providing settlement accounts and safeguarding accounts
-- Core payment processing technology providers
-- Sanctions and AML screening tool providers
+The firm must maintain a written compliance record covering: IBS identification and justification; impact tolerances and justification; mapping approach and how it identified vulnerabilities; testing plan and justification; scenario testing details; lessons learned exercises; identified vulnerabilities with planned remediation and completion timescales; communication strategy; and methodologies used.
 
-Where a firm is dependent on a single provider for a critical service, the contingency plan must address the realistic steps to transition to an alternative. Provider diversification (where feasible) reduces this risk.
+**Retention:** Each version must be kept for **at least 6 years** and produced to the FCA on request **(SYSC 15A.6.2R)**.
 
----
+### Governing Body Approval and Review (SYSC 15A.7.1R)
 
-## FCA Register Accuracy
-
-The portfolio letter also reminds firms to keep contact details on the **FCA Register** accurate and up to date. **(Portfolio letter, March 2023)** This is a basic regulatory housekeeping obligation — the FCA uses Register details to make contact with firms during supervisory and enforcement activity.
+The **governing body** must **approve and regularly review** the SYSC 15A.6 self-assessment records. This is a hard Rule — the obligation is active approval and review, not passive receipt.
 
 ---
 
-## Relationship to Wind-Down Planning
+## Communications (SYSC 15A.8)
 
-Operational resilience and wind-down planning address different failure modes:
-- Operational resilience: the firm suffers a disruption but remains a going concern — the objective is to restore services within impact tolerances
-- Wind-down planning: the firm cannot continue operating and must exit the market in an orderly way
+The firm must maintain an **internal and external communication strategy** to reduce harm from disruptions **(SYSC 15A.8.1R)** and must provide **clear, timely and relevant communications** to stakeholders when a disruption occurs **(SYSC 15A.8.3R)**. The communication strategy must be pre-existing and kept current as part of the self-assessment record **(SYSC 15A.6.1R(8))**.
 
-Both require mapping of the firm's operational dependencies. Scenario testing for operational resilience and scenario analysis for wind-down should share underlying data and assumptions where possible.
+---
+
+## Relationship to Other Regimes
+
+**SYSC 4 (baseline governance):** SYSC 15A.3.1R requires sound strategies, processes and systems — this sits above the SYSC 4.1.1R baseline and requires an operational resilience-specific governance layer. The governing body approval obligation in SYSC 15A.7.1R is additional to its SYSC 4.3A management body functions. See [[sysc4-governance-framework]].
+
+**UK GDPR Art. 32:** Art. 32 requires appropriate security including the ability to restore availability in a timely manner — a separate but parallel resilience obligation. SYSC 15A is broader (all IBS, not just data systems) and more prescriptive on testing and documentation. The two regimes impose complementary obligations on the same firm. See [[uk-gdpr-security]].
+
+**PSR/EMR operational and security risk:** For PIs and EMIs, the EBA Guidelines on ICT and security risk management are explicitly cross-referenced at SYSC 15A.2.12G/2.13G. Impact tolerances must be set having regard to those guidelines. The FCA's Approach Document Chapter 18 (operational and security risk for PSPs) is the primary operational source for the EBA Guidelines interface. See [[psr-regulatory-reporting]].
+
+**Wind-down planning:** Operational resilience addresses disruption while remaining a going concern; wind-down planning addresses orderly exit. Both require dependency mapping — scenario and sensitivity analysis data should be shared between the two exercises where possible. See [[wind-down-planning]].
 
 ---
 
 ## Key Points for Agents
 
-- SYSC 15A applies to all FCA-supervised firms including PIs and EMIs — no carve-out for payment firms.
-- Firms must identify important business services, set impact tolerances for each, and review both at least annually.
-- The 31 March 2025 deadline for mapping, testing, and investments has now passed — firms that did not meet it remain in breach; deficiencies identified after the deadline are treated as current failures.
-- Impact tolerances must be expressed in terms of customer and market outcomes, not just technical recovery metrics.
-- Third-party dependency management is a separate but related obligation: firms must have contingency plans to move critical providers and must keep FCA Register contact details current.
+- **Scope: all enhanced SMCR firms, banks, DIFs, building societies, Solvency II firms, UK RIEs, EMIs, PIs, RAISPs, CTPs (SYSC 15A.1.1R).** TP/TA firms excluded. For PIs/EMIs/RAISPs, obligations apply only to payment services and e-money activities (SYSC 15A.1.8R).
+- **Impact tolerance is a hard capability requirement, not just a planning exercise (SYSC 15A.2.9R).** Firms must be able to demonstrate they can remain within tolerance under severe disruption. Expressed in terms of client and market outcomes, not technical metrics.
+- **Any failure to meet an impact tolerance triggers a Principle 11 notification obligation (SYSC 15A.2.11G).** No materiality threshold.
+- **Mapping must cover five asset categories per IBS: people, processes, technology, facilities, information (SYSC 15A.4.1R).** Must extend to third-party resources where third parties deliver IBS.
+- **Scenario testing is a hard Rule with three triggers: material change, post-improvement, and regular basis (SYSC 15A.5.7R).** Lessons learned (15A.5.8R) and improvements (15A.5.9R) are both hard Rules — the learning loop must produce concrete changes.
+- **Nine-item self-assessment record; 6-year retention; governing body must approve AND regularly review (SYSC 15A.6.1R; 15A.6.2R; 15A.7.1R).**
+- **All transitional deadlines passed 31 March 2025.** Firms without compliant mapping, testing, and self-assessment records are in current breach.
 
 ## Related Articles
 
+- [[sysc15a-operational-resilience]]
+- [[sysc4-governance-framework]]
+- [[sysc9-record-keeping]]
 - [[safeguarding-pis-emis]]
 - [[wind-down-planning]]
-- [[agent-distributor-oversight]]
+- [[psr-regulatory-reporting]]
+- [[uk-gdpr-security]]
+- [[sysc4-general-organisational-requirements]]
+- [[sysc6-compliance-internal-audit-financial-crime]]
 - [[dear-ceo-letter-payments-portfolio-2023]]
 - [[pi-emi-consumer-duty-and-sanctions-obligations]]
 - [[psr-emi-prudential]]
-- [[uk-gdpr-security]] *(SYSC 15A and Art. 32 are distinct regimes but impose parallel resilience and testing obligations on the same firm)*
+- [[agent-distributor-oversight]]

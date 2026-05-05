@@ -23,6 +23,7 @@ related:
   - summaries/cass7-client-money-rules.md
   - concepts/client-assets-custody.md
   - summaries/cass6-custody-rules.md
+  - summaries/cass10-resolution-pack.md
   - concepts/safeguarding-pis-emis.md
   - concepts/smcr-certification-regime.md
   - concepts/sysc4-governance-framework.md
@@ -206,6 +207,7 @@ The acknowledgement letter is not merely an administrative formality — it is t
 - [[cass7-client-money-rules]]
 - [[client-assets-custody]]
 - [[cass6-custody-rules]]
+- [[cass10-resolution-pack]]
 - [[safeguarding-pis-emis]]
 - [[smcr-certification-regime]]
 - [[sysc4-governance-framework]]

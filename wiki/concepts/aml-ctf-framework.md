@@ -24,6 +24,7 @@ related:
   - concepts/proliferation-financing.md
   - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
   - concepts/uk-gdpr-data-protection-principles.md
+  - summaries/mlr-2017.md
   - summaries/fca-cdd-findings-multi-firm-2026.md
   - concepts/uk-gdpr-right-to-erasure.md
   - concepts/uk-gdpr-subject-access.md
@@ -243,6 +244,7 @@ These are complementary obligations, not contradictory frameworks.
 - [[sar-consent-tipping-off]]
 - [[simplified-due-diligence]]
 - [[uk-gdpr-lawful-basis]]
+- [[mlr-2017]]
 - [[fcg3-money-laundering-terrorist-financing]]
 - [[jmlsg-part-i-guidance]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]

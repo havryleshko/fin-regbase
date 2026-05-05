@@ -122,7 +122,7 @@ The second limb (2) is the **business model integrity test**: a financial instru
 3. The financial instrument fails to become commercially viable
 4. Demand is much higher than anticipated, putting a strain on the firm's resources and/or the market of the underlying financial instrument
 
-This is **instrument-level** scenario testing — it assesses how the specific product performs under stress, not whether the firm as a whole survives. See the 2021 multi-firm review at [[mifid-ii-product-governance-review-2021.md]] for named failure modes.
+This is **instrument-level** scenario testing — it assesses how the specific product performs under stress, not whether the firm as a whole survives. See the 2021 multi-firm review at [[mifid-ii-product-governance-review-2021]] for named failure modes.
 
 ### Charging Structure Assessment (PROD 3.2.14R)
 

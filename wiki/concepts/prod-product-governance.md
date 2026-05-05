@@ -252,7 +252,7 @@ Training that does not adequately cover end-investor needs and outcomes is insuf
 
 ## Related Articles
 
-- [[prod3-product-governance-mifid.md]]
+- [[prod3-product-governance-mifid]]
 - [[mifid-ii-product-governance-review-2021]]
 - [[smcr-senior-managers-regime]]
 - [[consumer-duty-products-services]]

@@ -27,10 +27,13 @@ sources:
 tags: [CASS-6, custody-rules, client-assets, safe-custody-assets, TTCA, SFT, reconciliation, shortfall, third-party-custodian, MiFID-II, AIFM, UCITS, UK, FCA]
 related:
   - concepts/client-assets-custody.md
+  - summaries/cass7-client-money-rules.md
+  - summaries/cass10-resolution-pack.md
   - concepts/safeguarding-pis-emis.md
   - concepts/smcr-certification-regime.md
   - summaries/sysc6-compliance-internal-audit-financial-crime.md
   - concepts/sysc4-governance-framework.md
+  - summaries/sup3-auditors.md
 ---
 
 # CASS 6 — Custody Rules
@@ -382,7 +385,10 @@ Exceptions: the return attempt is not required where the client has confirmed it
 ## Related Articles
 
 - [[client-assets-custody]]
+- [[cass7-client-money-rules]]
+- [[cass10-resolution-pack]]
 - [[safeguarding-pis-emis]]
 - [[smcr-certification-regime]]
 - [[sysc6-compliance-internal-audit-financial-crime]]
 - [[sysc4-governance-framework]]
+- [[sup3-auditors]]

@@ -108,7 +108,7 @@ The rules in COBS 9, COBS 9A, COBS 10, and COBS 10A do not apply to a firm in re
 - Three hard prohibitions: safeguarded benefits (advice first — COBS 9B.2.3R); pension consolidation (prohibited — COBS 9B.4.38R); RMMIs/non-mass market/COBS 22-restricted products (excluded — COBS 9B.4.42R)
 - Mandatory disclosure package at point of delivery: Art. 55A RAO statutory statement that the recommendation is not individualised, plus segment characteristics, in a durable medium **(COBS 9B.6.6G; 9B.6.17R)**
 
-See [[cobs9b-targeted-support.md]] for the full source summary and [[targeted-support-service.md]] for the operative concept page.
+See [[cobs9b-targeted-support]] for the full source summary and [[targeted-support-service]] for the operative concept page.
 
 ### What Happens After a Warning Under Appropriateness
 

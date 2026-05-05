@@ -20,6 +20,7 @@ tags: [CASS-7, client-money, segregation, statutory-trust, reconciliation, uncla
 related:
   - concepts/client-money-framework.md
   - summaries/cass6-custody-rules.md
+  - summaries/cass10-resolution-pack.md
   - concepts/client-assets-custody.md
   - concepts/safeguarding-pis-emis.md
   - concepts/smcr-certification-regime.md
@@ -279,6 +280,7 @@ Before making a material change to a sub-pool, the firm must notify current sub-
 
 - [[client-money-framework]]
 - [[cass6-custody-rules]]
+- [[cass10-resolution-pack]]
 - [[client-assets-custody]]
 - [[safeguarding-pis-emis]]
 - [[smcr-certification-regime]]

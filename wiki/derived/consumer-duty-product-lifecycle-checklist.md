@@ -21,7 +21,7 @@ related:
   - concepts/consumer-duty-overview.md
   - concepts/prod-product-governance.md
   - summaries/mifid-ii-product-governance-review-2021.md
-  - summaries/fca-consumer-duty-implementation-review-2024.md
+  - derived/fca-consumer-duty-implementation-review-2024.md
   - concepts/vulnerable-customers.md
   - concepts/costs-charges-disclosure.md
   - concepts/smcr-senior-managers-regime.md

@@ -17,11 +17,13 @@ sources:
 tags: [CASS-6, custody-rules, client-assets, safe-custody-assets, TTCA, SFT, reconciliation, shortfall, third-party-custodian, MiFID-II, AIFM, UCITS, UK, FCA]
 related:
   - summaries/cass6-custody-rules.md
+  - summaries/cass10-resolution-pack.md
   - concepts/safeguarding-pis-emis.md
   - concepts/smcr-certification-regime.md
   - summaries/sysc6-compliance-internal-audit-financial-crime.md
   - concepts/sysc4-governance-framework.md
   - concepts/sysc10-conflicts-of-interest.md
+  - summaries/sup3-auditors.md
 ---
 
 # Client Assets — Custody Framework (CASS 6)
@@ -171,8 +173,10 @@ On insolvency, a custodian's primary obligation before disposing of assets is to
 ## Related Articles
 
 - [[cass6-custody-rules]]
+- [[cass10-resolution-pack]]
 - [[safeguarding-pis-emis]]
 - [[smcr-certification-regime]]
 - [[sysc6-compliance-internal-audit-financial-crime]]
 - [[sysc4-governance-framework]]
 - [[sysc10-conflicts-of-interest]]
+- [[sup3-auditors]]

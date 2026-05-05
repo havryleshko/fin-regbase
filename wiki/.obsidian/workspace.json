@@ -11,14 +11,10 @@
             "id": "26e0ba47039ff414",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concepts/smcr-senior-managers-regime.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "smcr-senior-managers-regime"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -183,6 +179,13 @@
   },
   "active": "26e0ba47039ff414",
   "lastOpenFiles": [
+    "summaries/conc8-debt-advice.md",
+    "summaries/mlr-2017.md",
+    "Untitled 1.canvas",
+    "concepts/smcr-senior-managers-regime.md",
+    "summaries/sysc15a-operational-resilience.md",
+    "summaries/sup3-auditors.md",
+    "summaries/cass1a-firm-classification-oversight.md",
     "summaries/cass10-resolution-pack.md",
     "concepts/client-money-framework.md",
     "summaries/cass7-client-money-rules.md",
@@ -204,13 +207,6 @@
     "concepts/appropriateness-framework.md",
     "summaries/cobs10a-appropriateness-mifid.md",
     "summaries/cobs10-appropriateness-non-mifid.md",
-    "summaries/cobs9a-suitability-mifid.md",
-    "summaries/cobs9-suitability.md",
-    "summaries/disp3-fos-complaint-procedures.md",
-    "summaries/conc1-application-purpose.md",
-    "derived/consumer-duty-product-lifecycle-checklist.md",
-    "derived/conc-financial-difficulty-trigger-map.md",
-    "Untitled 1.canvas",
     "Untitled 2.canvas",
     "raw/fca-financial-crime",
     "raw",

@@ -2241,3 +2241,203 @@ Contradictions with existing wiki:
 - None. CASS 10 references CASS 6.6.57R and CASS 7.15.33R as existing notification regimes; CASS 10.1.16R is a separate trigger correctly documented as standalone.
 
 CASS block complete: CASS 6, CASS 7, CASS 10 all ingested. Ready for lint.
+
+## 2026-05-04 lint (pass 29)
+
+Scanned all wiki pages (CASS block: cass6-custody-rules, cass7-client-money-rules, cass10-resolution-pack, client-assets-custody, client-money-framework, plus derived/consumer-duty-product-lifecycle-checklist).
+
+**Issues found and fixed (7 total — 2 structural, 5 missing backlinks):**
+
+**C1 — Frontmatter path mismatch (1 fix):**
+- `derived/consumer-duty-product-lifecycle-checklist.md`: frontmatter `related:` listed `summaries/fca-consumer-duty-implementation-review-2024.md` but the file is at `derived/fca-consumer-duty-implementation-review-2024.md`. Fixed: path corrected to `derived/`.
+
+**C2 — Missing backlinks to cass10-resolution-pack from CASS pages (6 fixes across 4 files — frontmatter + body):**
+- `summaries/cass6-custody-rules.md`: added `summaries/cass10-resolution-pack.md` to frontmatter `related` and `[[cass10-resolution-pack]]` to Related Articles
+- `summaries/cass7-client-money-rules.md`: same
+- `concepts/client-assets-custody.md`: same
+- `concepts/client-money-framework.md`: same
+
+No contradictions. No stale claims. No broken wikilinks. No orphan pages.
+
+**Final state:** structural integrity maintained across CASS block.
+
+## 2026-05-04 ingest | CASS 1A — CASS Firm Classification and Operational Oversight
+
+Source: `raw/fca-cass/CASS 1A CASS firm classification and operational oversight.pdf` (FCA Handbook, May 2026, 10pp)
+
+Pages created (1):
+- `wiki/summaries/cass1a-firm-classification-oversight.md`
+
+Pages updated (1):
+- `wiki/index.md` — new entry added to UK — FCA Client Assets (CASS) Summaries table
+
+Key coverage:
+- Application: applies to any firm subject to CASS 6 or CASS 7; classification based on highest amount held in previous calendar year; new firms use projected amounts; does not apply post-failure (1A.1.1R/1A.1.5R)
+- Three-tier classification with hard thresholds (CASS 1A.2.7R): small (<£1m client money AND <£10m safe custody assets); medium (£1m–£1bn OR £10m–£100bn); large (>£1bn OR >£100bn); classification driven by the HIGHER of the two figures — single figure breach lifts to higher tier
+- Annual FCA notification by 15th BD of January (CASS 1A.2.9R): highest amounts held + CASS firm type; classification takes effect 1 February (CASS 1A.2.10R); medium/large: CMAR under SUP 16.14 satisfies notification obligation (CASS 1A.2.11G)
+- Voluntary opt-up election (CASS 1A.2.5R): small → medium or medium → large; written FCA notification at least 1 week before effective date; FCA must not have objected
+- Small firm oversight (CASS 1A.3.1R): allocate single director/SM for CASS compliance oversight + governing body reporting
+- Medium/large firm oversight (CASS 1A.3.1A R): formal CASS operational oversight function; adds CMAR submission obligation (SUP 16.14); function is NOT a separate approved person requirement; if held by a non-SMF → CASS oversight FCA certification function (SYSC 27.8.1R)
+- Large AIFM/UCITS ManCo alternative allocation route (CASS 1A.3.1C R)
+- Dual allocation restriction (CASS 1A.3.2A R): no additional responsibilities unless firm satisfied on reasonable grounds person can still discharge CASS oversight effectively and CASS compliance won't be compromised
+- Job-share permitted (CASS 1A.3.2B R)
+- Allocation record retention: 5 years (CASS 1A.3.3R)
+
+Contradictions with existing wiki: None. CASS 1A references CASS 6 and CASS 7 obligations; the CASS oversight function cross-references smcr-certification-regime (SYSC 27.8.1R CASS oversight as FCA certification function) — entirely consistent.
+
+CASS 1A is the governance/classification layer that determines which CASS obligations apply and at what intensity. It completes the CASS section structure alongside CASS 6 (custody), CASS 7 (client money), and CASS 10 (resolution pack).
+
+## 2026-05-04 ingest | SUP 3 — Auditors
+
+Source: `raw/fca-handbook/SUP 3 Auditors.pdf` (FCA Handbook, May 2026, 20pp)
+
+Pages created (1):
+- `wiki/summaries/sup3-auditors.md`
+
+Pages updated (3):
+- `wiki/summaries/cass6-custody-rules.md` — added `summaries/sup3-auditors.md` to frontmatter `related:` and `[[sup3-auditors]]` to Related Articles (CASS 6.6.58G references the SUP 3.10 audit requirement; reverse link was absent)
+- `wiki/concepts/client-assets-custody.md` — same
+- `wiki/index.md` — new "UK — FCA Supervision (SUP)" section added with sup3-auditors.md row
+
+Key coverage:
+- Application: SUP 3.2–3.9 applies broadly to all in-scope firm types; SUP 3.10 (client assets notification and report) and SUP 3.11 (review of report) apply specifically to CASS 6 and CASS 7 firms (SUP 3.1.2R application table rows 5B, 7–7D, 10)
+- Five-part appointment obligation (SUP 3.3.2R): (1) appoint eligible auditor; (2) notify regulator of vacancy without delay via SUP 15 Ann 3; (3) fill vacancy; (4) enable replacement to take office as soon as practicable; (5) notify regulator of appointment with name/address/effective date
+- Regulator backstop power (SUP 3.3.7R): if firm fails to appoint within 28 days of vacancy, appropriate regulator may itself appoint
+- Cooperation hard rule (SUP 3.6.1R): full access to books/accounts/documents at all times; outsourcing/AR/tied agent access must be contractually extended to auditor (SUP 3.6.4R)
+- s.346 FSMA criminal offence: knowingly/recklessly giving false or misleading information to auditor = criminal offence (not merely regulatory breach)
+- Dual-track independence: firm-side (SUP 3.5.2R/3.5.3R — reasonable steps; notify FCA if unachievable); auditor-side (SUP 3.8.5R/3.8.6R — auditor's own obligation; appropriate action on conflicts)
+- Auditor cooperation with FCA (SUP 3.8.2R): auditor must cooperate with FCA in discharge of its functions; cannot be overridden by client confidentiality
+- Auditor skilled person assistance (SUP 3.8.4R): must give s.166 skilled person all reasonable assistance (FSMA s.166(5))
+- Auditor direct notification right (SUP 3.8.10G; FSMA ss.342(5)/343(5)): auditor can notify FCA directly without firm consent; protected from breach of duty/defamation; firm cannot contractually exclude this right
+- Annual client assets report (SUP 3.10): source of obligation cited at CASS 6.6.58G; reasonable assurance engagement on client assets systems/controls; auditor must also proactively notify FCA on discovery of CASS non-compliance (not conditional on firm notification)
+- Firm review obligation (SUP 3.11): firm must review findings and address deficiencies; report triggers CASS 1A.3 oversight function duties and CASS 6.6/7.15 obligations
+- Principle 11 / SUP 15 (SUP 3.7.2G): qualified audit opinion or internal controls management letter = Principle 11 notification trigger
+
+Contradictions with existing wiki: None. CASS 6.6.58G cross-references the SUP 3.10 audit requirement; this ingest creates the source page. The CASS 1A supervision section (CASS 1A.3.1A R) is consistent with the SUP 3.10/3.11 annual review cycle — CASS oversight officer reviews the client assets report and reports to governing body annually.
+
+New domain: First SUP sourcebook content in the wiki.
+
+## 2026-05-04 ingest | SYSC 15A — Operational Resilience
+
+Source: `raw/fca-handbook/SYSC 15A Operational resilience.pdf` (FCA Handbook, May 2026, 16pp)
+
+Pages created (1):
+- `wiki/summaries/sysc15a-operational-resilience.md`
+
+Pages updated (2):
+- `wiki/concepts/operational-resilience.md` — full rebuild from sourcebook rules; stale transitional deadline language ("31 March 2025 deadline" framing) removed and replaced with "all transitional deadlines passed, obligations fully live"; sources updated from portfolio letter only to 10 sourcebook citations; 6 new sections added (scope table; PI/EMI narrowing; 13-factor IBS identification framework; impact tolerance capability obligation; 5-asset mapping detail; 3-trigger testing; lessons-learned loop; 9-item self-assessment record; governing body approval/review; communications hard rules); related articles updated with new summary page
+- `wiki/index.md` — new sysc15a-operational-resilience.md row added to UK — FCA Systems and Controls (SYSC) Summaries; operational-resilience.md concept entry updated to reflect rebuilt content
+
+Key coverage (new to wiki):
+- Application scope table (SYSC 15A.1.1R): enhanced SMCR, banks, DIFs, building societies, Solvency II, UK RIEs, EMIs, PIs, RAISPs, CTPs; TP/TA firms excluded (15A.1.3R); firms with non-UK registered/head office excluded (15A.1.4R)
+- PI/EMI/RAISP activity narrowing (SYSC 15A.1.8R): obligations apply only to payment services and e-money activities — not other regulated activities
+- Impact tolerance as hard capability Rule (SYSC 15A.2.9R): firm must ensure it CAN REMAIN within tolerance in severe but plausible disruption — not merely assess or plan
+- Principle 11 notification on any failure to meet impact tolerance (SYSC 15A.2.11G): no materiality threshold
+- EBA Guidelines ICT/security risk management interface for PSPs (SYSC 15A.2.12G/2.13G)
+- Five-asset mandatory mapping: people/processes/technology/facilities/information (SYSC 15A.4.1R); extends to third-party resources (15A.4.2G); annual + material change review (15A.4.3R)
+- Scenario testing: mandatory (15A.5.3R); range of adverse circumstances of varying nature/severity/duration (15A.5.4R); three triggers (15A.5.7R — material change / post-improvement / regular basis); five named scenario types (15A.5.6G — data corruption; people/facilities unavailable; third-party failure; market participant disruption; technology loss)
+- Lessons learned: mandatory post-test and post-disruption (15A.5.8R); improvements mandatory (15A.5.9R) — both hard Rules
+- Nine-item self-assessment written record (15A.6.1R); 6-year retention per version (15A.6.2R)
+- Governing body must approve AND regularly review self-assessment records — hard Rule (15A.7.1R)
+- Communications strategy mandatory (15A.8.1R); clear/timely/relevant communications on disruption hard Rule (15A.8.3R)
+- FCA supervisory backstop: FSMA ss.55J/55L on own initiative (15A.9.3G)
+
+Stale claim corrected in concept page:
+- Prior concept page referenced "31 March 2025 mapping and testing deadline" framing as though the deadline was still upcoming or recently passed and firms remain in breach only if they missed it. The May 2026 sourcebook contains no transitional provision — the deadline has long passed. Updated to: "All transitional deadlines passed 31 March 2025. Obligations are fully live. Firms without compliant mapping, testing, and self-assessment records are in current breach."
+
+Contradictions with existing wiki: None. The existing operational-resilience.md was sourced from the portfolio letter — this ingest sources it from the SYSC 15A sourcebook directly. No factual contradictions; the rebuild adds rule-level precision to what the portfolio letter had described at framework level.
+
+## 2026-05-05 ingest | MLR 2017 — SI 2017/692 Primary Legislation Reference
+
+Source: `raw/fca-financial-crime/uksi_20170692_en.pdf` (116 pages; The Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017)
+
+Pages written / updated:
+- `wiki/summaries/mlr-2017.md` — new; primary legislation reference covering all 110 regulations + 7 schedules
+- `wiki/concepts/aml-ctf-framework.md` — added mlr-2017.md to related: and Related Articles
+- `wiki/concepts/customer-due-diligence.md` — added mlr-2017.md to related: and Related Articles
+- `wiki/concepts/simplified-due-diligence.md` — added mlr-2017.md to related: and Related Articles
+- `wiki/index.md` — new row for mlr-2017.md in UK — FCA Financial Crime Summaries
+
+Key coverage (new to wiki):
+- Relevant person categories (reg 8): 8 categories including credit institutions; Annex I financial institutions; auditors/IPs/accountants/tax advisers; independent legal professionals; TCSPs; estate agents; HVDs; casinos
+- Reg 9 UK business test: triggers on carrying on business in the UK (not merely being UK-incorporated)
+- Reg 15 exclusion: 7 cumulative conditions all required — <£100k financial activity turnover; ≤€1,000/customer/transaction; ≤5% total turnover; ancillary; non-remittance; not within reg 8(2)(a)–(f)/(h); only to customers of main activity
+- Reg 5 BO — bodies corporate: >25% shares/voting rights/appointment right OR ultimate management control; PSC register alone does not discharge verification (reg 28(9))
+- Reg 6 BO — trusts: settlor; all trustees; identified beneficiaries; class of persons in whose main interest trust operates; any person with "control" (six defined powers including add/remove beneficiaries, appoint/remove trustees, veto decisions, dispose of property, vary/terminate)
+- Reg 7 supervisory four-way split: FCA (authorised persons, EMIs); Schedule 1 professional bodies (their members); HMRC (HVDs, unregulated MSBs/TCSPs, estate agents, unsupervised accountants/auditors); Gambling Commission (casinos)
+- Regs 16–17: NRA and supervisory authority RA obligations; firms must consider NRA in own assessment
+- Reg 18 firm risk assessment: mandatory; five categories (customers, countries, products/services, transactions, delivery channels); written record; on request to supervisory authority
+- Reg 21 internal controls: board-member compliance officer + employee screening + independent audit + MLRO; 14-day notification; EMI/PSP additional monitoring function (reg 21(7))
+- Reg 27 CDD triggers: business relationship; funds transfer >€1,000 (occasional); suspect ML/TF; doubt prior ID; ≥€15,000 non-HVD/casino; ≥€10,000 cash HVDs; ≥€2,000 casinos
+- Reg 33 EDD — 7 mandatory triggers: high ML/TF firm risk; high-risk third country; correspondent relationships; PEP/family/associate; false/stolen ID; complex/unusually large transaction; other higher-risk
+- Reg 35 PEP: senior management approval; source of wealth/funds; enhanced monitoring; 12-month post-PEP minimum; "prominent public functions" defined list at reg 35(14); known close associate standard
+- Reg 37 SDD: low ML/TF risk; four termination circumstances
+- Reg 38 e-money carve-out: ≤€250 stored (≤€500 UK-only); not reloadable or ≤€250/month UK-only; goods/services only; anonymous funding prohibited; cash redemption >€100 triggers CDD
+- Reg 39 reliance: permissible on relevant persons, EEA-supervised obliged entities, equivalent third-country firms, member organisations; firm retains liability; immediate information obligation; cannot rely on high-risk third country firms; group reliance compliant under reg 39(6)
+- Reg 40 record-keeping: 5 years default; max 10 years for business relationship records; deletion obligation on expiry
+- Regs 42–45: BO information registers; trust BO register
+- Regs 46–64: supervision; registration (Annex I, TCSPs, HVDs, estate agents); fit and proper test (reg 58; Schedule 3 = automatically not fit and proper)
+- Reg 86: criminal offence for contraventions; 2 years on indictment; due diligence defence; civil penalty exclusion on conviction
+- Reg 92: body corporate officer liability for corporate offences committed with consent/connivance/neglect
+
+Contradictions with existing wiki: None. The existing AML concept pages (aml-ctf-framework.md, customer-due-diligence.md, simplified-due-diligence.md) correctly cite MLR 2017 regulations throughout but lacked a primary legislation reference page — mlr-2017.md now fills that gap as the statutory anchor. No factual contradictions found; the new page adds statutory precision (exact regulation numbers, cumulative conditions, schedule references) to what the FCG/JMLSG concept pages describe at guidance level.
+
+## 2026-05-05 ingest | CONC 8 — Debt Advice (Sourcebook Reference)
+
+Source: `raw/fca-conc/CONC 8 Debt advice.pdf` (26 pages; May 2026 version of FCA Consumer Credit sourcebook CONC chapter 8)
+
+Pages written / updated:
+- `wiki/summaries/conc8-debt-advice.md` — new; comprehensive sourcebook reference covering all 10 sections (CONC 8.1–8.10)
+- `wiki/index.md` — new row added to UK — FCA Consumer Credit (CONC) Summaries, after conc7
+
+Key coverage (new to wiki):
+- Application scope: debt counselling, debt adjusting, providing credit information services; profit-seeking and NFP alike; regulated and unregulated credit/consumer hire agreements (CONC 8.1.1R; 8.1.4G)
+- MoneyHelper mandatory signpost: debt management firms must include in first written or oral communication + website link (CONC 8.2.4R — hard Rule, no exceptions)
+- Lender notification obligation: must notify lenders as soon as possible when payments will not be made and for how long (CONC 8.2.6R)
+- Vulnerable customers: mandatory policies and procedures to identify particularly vulnerable customers (CONC 8.2.7R)
+- 14-item pre-contract disclosure in durable medium including: credit rating consequences; timing gap between receiving and distributing customer funds; FSCS compensation information (CONC 8.3.1R)
+- Advice quality standard: best interests + appropriate to individual circumstances + based on full financial assessment (CONC 8.3.2R)
+- Full financial assessment: financial position; personal circumstances (incl. prior debt solutions and why they failed); foreseeable changes (CONC 8.3.7R)
+- Referral obligation to NFP debt advice body where customer has immediate needs firm can't address OR no disposable income to pay fees (CONC 8.3.7R(3))
+- 14-item risk/consequence disclosure in durable medium: consequences of missing priority debts; DMP risk disclosures; IVA-specific risks (CONC 8.3.4R)
+- Debt packager commission ban (CONC 8.3.11R): firms doing debt counselling but not providing solutions may not receive any commission/fee/consideration from solution providers for referrals or related services; extends to associates and ARs; AR structure cannot be used to avoid the prohibition (8.3.16R; 8.3.17G); permitted carve-outs are narrow (statutory/DAS Scotland/Insolvency Service only)
+- Four absolutely prohibited contract terms: understanding declarations; lender correspondence restrictions; no-liability clauses; no-refund clauses (CONC 8.4.3R)
+- Financial statement accuracy and customer consent requirement before submission to lenders (CONC 8.5.1R)
+- Advice to stop contractual payments must be demonstrably in customer's best interests (CONC 8.6.1R)
+- Fee structure prohibition: must not consume substantially all payments before lender repayments begin; practical 50% one-month test (CONC 8.7.2R; 8.7.3G)
+- Nine prohibited charging practices including: unjustified solution-switching with extra charge; pre-contract payments; premium rate lines for refund customers (CONC 8.7.6R)
+- Eleven ongoing DMP obligations: contact; monitoring; plan adaptation; lender-response notification; annual statement; record accuracy; account accuracy checks (CONC 8.8.1R)
+- Lead generator firm responsibility where knew or ought to have known of misconduct; mandatory pre-agreement checks (CONC 8.9.1G; 8.9.2R); FCA traceability expectation (8.9.5G)
+- Credit information services prohibitions: no claim to remove accurate negatives; no misleading about retention periods; no new credit file claims (CONC 8.10.3R)
+
+Contradictions with existing wiki: None found. The existing CONC concept pages do not cover CONC 8 debt advice. The conc-debt-recovery-treatment.md covers CONC 7 treatment standards which are operationally adjacent but do not overlap — the debt counsellor 30-day suspension in CONC 7 is the lender-side counterpart to the CONC 8 obligations on debt counsellors themselves. The existing conc-scope-and-application.md correctly notes debt counselling as a regulated activity type; CONC 8 provides the conduct framework for it.
+
+Transitional note: CONC TP 8 contains a transitional provision for the debt packager commission ban. CONC 8.3.10G(5) notes that during the transitional period in CONC TP 8(6)–(7), the FCA considers it unlikely that increasing referrals to debt solution providers would be in accordance with Principles 6 and 12. The status of any remaining transitional period should be checked against current CONC TP 8 if advising on grandfathered arrangements.
+
+## [2026-05-05] lint | Full wiki lint — broken wikilinks and orphan resolution
+
+**Scope:** All 147 wiki pages scanned. Four checks: broken wikilinks, orphan pages, stale temporal claims, missing concept pages.
+
+**Findings and fixes applied:**
+
+1. **Broken wikilinks fixed (5 instances — `.md`-suffix regression in 4 files):**
+   - `concepts/financial-promotions-approver-regime.md` — `[[ps23-6-cryptoasset-financial-promotions.md]]` → `[[ps23-6-cryptoasset-financial-promotions]]`
+   - `concepts/appropriateness-framework.md` — `[[cobs9b-targeted-support.md]]` and `[[targeted-support-service.md]]` → suffix-free forms
+   - `concepts/prod-product-governance.md` — `[[prod3-product-governance-mifid.md]]` → `[[prod3-product-governance-mifid]]`
+   - `summaries/prod3-product-governance-mifid.md` — `[[mifid-ii-product-governance-review-2021.md]]` → `[[mifid-ii-product-governance-review-2021]]`
+   - All pages exist; links were broken only by the `.md` suffix. Regression from prior lint fix (log 2026-04-xx).
+
+2. **Orphan resolved — `summaries/conc8-debt-advice` (created this session):**
+   Added `[[conc8-debt-advice]]` to Related Articles body sections and `summaries/conc8-debt-advice.md` to frontmatter `related:` fields of:
+   - `concepts/conc-scope-and-application.md`
+   - `concepts/conc-financial-difficulty-indicators.md`
+   - `concepts/conc-debt-recovery-treatment.md`
+   - `summaries/conc7-arrears-default-recovery.md`
+
+3. **Stale temporal claims:** None found. All deadline references (31 March 2025, DUA Act 19 June 2025) correctly framed as past events or uncertainty-flagged.
+
+4. **Missing concept pages:** None found from wikilink graph. All referenced slugs resolve to existing pages.
+
+5. **Aliased wikilinks (pipe-style `[[slug|display]]`):** 8 instances confirmed. Slug-side valid in all cases; no action required.
+
+**Post-lint state:** Zero broken wikilinks in wiki articles. Only `[[slug]]` and `[[wikilinks]]` in `log.md` meta-text remain in broken-link scan — both are non-article and non-actionable (logged in prior lint at line 1458).

@@ -12,6 +12,7 @@ tags: [financial-crime, AML, CDD, SDD, simplified-due-diligence, risk-based-appr
 related:
   - concepts/customer-due-diligence.md
   - concepts/aml-ctf-framework.md
+  - summaries/mlr-2017.md
   - summaries/jmlsg-part-i-guidance.md
   - summaries/fcg3-money-laundering-terrorist-financing.md
 ---
@@ -118,5 +119,6 @@ A firm relying on another firm's CDD under MLR Reg 39 cannot rely on SDD carried
 
 - [[customer-due-diligence]]
 - [[aml-ctf-framework]]
+- [[mlr-2017]]
 - [[jmlsg-part-i-guidance]]
 - [[fcg3-money-laundering-terrorist-financing]]

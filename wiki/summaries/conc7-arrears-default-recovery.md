@@ -35,6 +35,7 @@ related:
   - summaries/disp1-treating-complainants-fairly.md
   - concepts/vulnerable-customers.md
   - concepts/smcr-senior-managers-regime.md
+  - summaries/conc8-debt-advice.md
 ---
 
 # CONC 7 — Arrears, Default and Recovery (including Repossessions)
@@ -327,3 +328,4 @@ Firms must not charge a fee for preparing or issuing these notices.
 - [[vulnerable-customers]]
 - [[smcr-senior-managers-regime]]
 - [[disp1-treating-complainants-fairly]]
+- [[conc8-debt-advice]]

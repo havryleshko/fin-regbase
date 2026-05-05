@@ -23,6 +23,7 @@ related:
   - concepts/conc-financial-difficulty-indicators.md
   - concepts/vulnerable-customers.md
   - concepts/smcr-senior-managers-regime.md
+  - summaries/conc8-debt-advice.md
 ---
 
 # CONC — Debt Recovery Treatment Standards
@@ -217,3 +218,4 @@ The firm **must give due consideration** to a reasonable offer of repayment **(C
 - [[conc-financial-difficulty-indicators]]
 - [[vulnerable-customers]]
 - [[smcr-senior-managers-regime]]
+- [[conc8-debt-advice]]
