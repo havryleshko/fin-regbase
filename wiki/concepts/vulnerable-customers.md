@@ -31,6 +31,8 @@ related:
   - summaries/fg22-5-guidance.md
   - summaries/fg21-1-guidance.md
   - derived/fca-consumer-duty-implementation-review-2024.md
+  - summaries/psr-ps23-3-app-fraud-reimbursement.md
+  - concepts/app-fraud-reimbursement-scheme.md
   - summaries/dear-ceo-letter-wealth-stockbroking-2023.md
   - concepts/uk-gdpr-automated-decision-making.md
   - concepts/uk-gdpr-lawful-basis.md
@@ -237,6 +239,8 @@ The FCA's wealth data survey found 49% of portfolio managers and 69% of stockbro
 - [[ps22-9-policy-statement]]
 - [[fg22-5-guidance]]
 - [[fg21-1-guidance]]
+- [[psr-ps23-3-app-fraud-reimbursement]]
+- [[app-fraud-reimbursement-scheme]]
 - [[fca-consumer-duty-implementation-review-2024]]
 - [[dear-ceo-letter-wealth-stockbroking-2023]]
 - [[uk-gdpr-automated-decision-making]]

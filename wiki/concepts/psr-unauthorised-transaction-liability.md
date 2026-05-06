@@ -17,6 +17,8 @@ related:
   - concepts/consumer-duty-consumer-support.md
   - concepts/fos-eligible-complainants.md
   - summaries/disp2-fos-jurisdiction.md
+  - summaries/psr-ps23-3-app-fraud-reimbursement.md
+  - concepts/app-fraud-reimbursement-scheme.md
 ---
 
 # Unauthorised and Incorrectly Executed Transactions — PSRs 2017 (Ch 8 Conduct)
@@ -155,3 +157,5 @@ Where the failure is at the **payee's PSP** (e.g. failure to credit the payee's 
 - [[consumer-duty-consumer-support]]
 - [[fos-eligible-complainants]]
 - [[disp2-fos-jurisdiction]]
+- [[psr-ps23-3-app-fraud-reimbursement]]
+- [[app-fraud-reimbursement-scheme]]

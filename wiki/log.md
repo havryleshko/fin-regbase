@@ -2441,3 +2441,124 @@ Transitional note: CONC TP 8 contains a transitional provision for the debt pack
 5. **Aliased wikilinks (pipe-style `[[slug|display]]`):** 8 instances confirmed. Slug-side valid in all cases; no action required.
 
 **Post-lint state:** Zero broken wikilinks in wiki articles. Only `[[slug]]` and `[[wikilinks]]` in `log.md` meta-text remain in broken-link scan — both are non-article and non-actionable (logged in prior lint at line 1458).
+
+## [2026-05-05] ingest | COBS 2 Conduct of Business Obligations (April 2026)
+
+**Source:** `raw/fca-cobs/COBS 2 Conduct of business obligations.pdf` (April 2026, 49 pages)
+
+**Pages created:**
+1. `summaries/cobs2-conduct-of-business.md` — full sourcebook reference across all 9 substantive sections
+2. `concepts/client-best-interests-rule.md` — new concept page for COBS 2.1.1R foundational conduct standard
+
+**Sections ingested:**
+- **COBS 2.1** — Client's best interests rule (honest/fair/professional; scope; exclusion of liability prohibition; AIFM additions)
+- **COBS 2.2** — Non-MiFID pre-service information disclosure (firm/services/investments/execution/costs)
+- **COBS 2.2A** — MiFID pre-service information disclosure ("in good time"; comprehensible form; record-keeping)
+- **COBS 2.2B** — SRD shareholder engagement requirements (comply-or-explain engagement policy; annual voting disclosure; transparency to SRD institutional investors)
+- **COBS 2.3** — Non-MiFID inducements (three permitted categories; 14-type reasonable NMBs table; 5-year record-keeping)
+- **COBS 2.3A** — MiFID inducements (cross-reference to existing summary)
+- **COBS 2.3B** — Research payment accounts (cross-reference to existing summary)
+- **COBS 2.3C** — Research/execution price separation (must price and supply separately; hard rule)
+- **COBS 2.4** — Agent as client and reliance on others (agent C1 is client unless written agreement; F1/F2 chain liability; general reliance on written information)
+- **COBS 2.5** — Optional additional products (active election required; pre-ticked box ≠ election; omission ≠ election)
+
+**Cross-references added:** `cobs2-3a-inducements.md`, `cobs2-3b-inducements-research.md`, `inducements-framework.md` all updated with links to new pages.
+
+**Contradictions with existing wiki:** None. COBS 2.3A and 2.3B content already ingested in dedicated summaries — COBS 2 summary cross-references rather than duplicates. COBS 2.1.1R was referenced in `inducements-framework.md` (the COBS 2.3A.7E evidential provision) but lacked its own concept page — now created.
+
+**Structural note:** The COBS 2 summary fills the foundational gap identified in the roadmap review: all downstream COBS obligations (suitability, appropriateness, best execution, inducements) were in the wiki but their root source obligation — COBS 2.1.1R — was not. The new concept page makes this dependency explicit and navigable.
+
+## [2026-05-05] ingest | PSR PS23/3 — Fighting authorised push payment fraud: a new reimbursement requirement
+
+**Source:** `raw/psr-payment-services/ps23-3-app-fraud-reimbursement-policy-statement-final-june-2023.pdf` (70 pages, June 2023)
+
+**New pages:**
+1. `summaries/psr-ps23-3-app-fraud-reimbursement.md` — full policy statement reference: 10 key policies; scope (in/out); 4-stage reimbursement journey; exceptions (first-party fraud, gross negligence); vulnerable customer hard carve-outs; PIS/open banking (Model A/B); CRM Code comparison; implementation architecture; monitoring and post-implementation review
+2. `concepts/app-fraud-reimbursement-scheme.md` — structural mechanics concept page: 50/50 split rationale as incentive mechanism; scope boundaries and gaps (on-us, CHAPS, crypto leg); gross negligence standard and burden of proof in depth; vulnerable customer hard carve-outs; PISP Model A/B liability; SAR intersections and tipping-off risk; alignment with PSRs 2017 reg. 77(3); three-tier enforcement architecture
+
+**Sections covered:**
+- **Chapter 1** — Background: APP fraud scale; PSR's policy objectives and balanced scorecard (Measures 1–3)
+- **Chapter 2** — Scope: Faster Payments only; in-scope customers (consumers, microenterprises, charities < £1m); out-of-scope (CHAPS, 'on us', international, crypto leg, civil disputes, unlawful payments); PIS in scope; vulnerable customer definition
+- **Chapter 3** — Wider fraud ecosystem: Enhanced Fraud Data (Measure 2); CoP expansion; Home Office Fraud Strategy (4 themes); CRM Code continuation until scheme in force; Consumer Duty alignment
+- **Chapter 4** — Consultation feedback: key themes (gross negligence bar; 48-hour → 5-business-day change; max reimbursement to be consulted Q3 2023; minimum threshold removed → replaced with claim excess; IAP obligations → placed directly on PSPs)
+- **Chapter 5** — Key policies in practice: 4-stage journey; 'stop the clock' grounds; gross negligence standard from PSD2 recitals; vulnerability assessment obligations; claim excess mechanics; repatriated funds allocation
+- **Chapter 6** — Implementation architecture: FSBRA s.54 general direction + s.55 rule change requirement; three responsibility categories (PSR permanent; PSR initially then Pay.UK; Pay.UK from day one); monitoring data requirements; enforcement referral triggers
+- **Chapter 7** — Achieving successful implementation: industry capability requirements; implementation timeline (2024 go-live); PSR-ICO collaboration on data sharing barriers
+- **Chapter 8** — Policy effectiveness: three balanced scorecard metrics; post-implementation review within 2 years of go-live
+- **Annex 1** — Equality impact assessment: vulnerable customer overlap with protected characteristics; claim excess and gross negligence exception equality risks
+- **Annex 2** — PIS transactions: Model A (PISP not liable) vs Model B (PISP acts as receiving PSP, bears 50%)
+
+**Cross-references added:**
+- `concepts/psr-unauthorised-transaction-liability.md` — added frontmatter related + body links
+- `concepts/psr-open-banking-pisp-aisp.md` — added frontmatter related + body links
+- `concepts/vulnerable-customers.md` — added frontmatter related + body links
+
+**Contradictions with existing wiki:** None identified. The unauthorised transaction liability page (PSRs 2017) covers the gross negligence standard for unauthorised payments — PS23/3 adopts the same standard for APP fraud; the new pages make this explicit parallel visible.
+
+**Structural note:** This ingest fills the primary operational gap identified in the roadmap review. The wiki had no content on APP fraud liability at all — despite PSR/EMR and Consumer Duty content being well covered. The 50/50 cost split as a structural incentive (not fault allocation) and the PISP Model A/B distinction are the two highest-stakes operational details for fintechs.
+
+## [2026-05-06] ingest | FCG 2 — Financial Crime Systems and Controls
+
+**Source:** `raw/fca-financial-crime/FCG 2 Financial crime systems and controls.pdf` (16 pages, May 2026 version)
+
+**New pages:**
+1. `summaries/fcg2-financial-crime-systems-controls.md` — full FCG 2 reference: scope; 7 themes with good/poor practice tables and self-assessment questions; FCTR cross-references
+
+**Sections covered:**
+- **FCG 2.1** — Introduction: scope (all SYSC 3.2.6R/6.1.1R firms; EMIs; PIs; Annex I MLR firms)
+- **FCG 2.2.1** — Governance: senior management clear responsibility; actively engaged; evidence of escalation
+- **FCG 2.2.2** — MI: 5 MI categories including TM alerts, sanction hits, SARs considered or submitted
+- **FCG 2.2.3** — Structure: 6 financial crime responsibility areas; coordinated approach; adequately resourced
+- **FCG 2.2.4** — Risk assessment: BWRA (comprehensive, multi-source, proportionate, regularly reviewed); individual relationship risk assessment; considers customer impact not just firm losses; considers FC risk in new product design
+- **FCG 2.2.5** — Policies and procedures: up-to-date, accessible, understood; internal audit monitors
+- **FCG 2.2.6** — Staff recruitment, vetting, training, awareness, remuneration: practical training (case studies, tested, tracked); Remuneration Principle 12(h) — no reward for unacceptable FC risks
+- **FCG 2.2.7** — Quality of oversight: challenge mechanism; internal audit routinely tests FC defences; risk-based resource allocation
+- **FCG 2.3** — Further guidance: FCTR cross-references for each theme
+
+**Cross-references added:** `sysc6-compliance-internal-audit-financial-crime.md`, `fcg3-money-laundering-terrorist-financing.md`, `fcg7-sanctions-asset-freezes-proliferation-financing.md` — all updated.
+
+**Contradictions:** None. FCG 2 is the governance layer above SYSC 6.1.1R/3.2.6R; the existing SYSC 6 summary covers the legal obligations; FCG 2 covers the FCA's operational expectations for satisfying those obligations. Complementary, not overlapping.
+
+**Structural note:** FCG 2 is the foundational chapter from which FCG 3 and FCG 7 derive their governance expectations. Now that all three chapters are in the wiki, the financial crime governance stack is complete at the FCA handbook level: SYSC 6 (rules) → FCG 2 (governance themes) → FCG 3 (AML/CTF) / FCG 7 (sanctions/PF).
+
+## [2026-05-05] patch | Data Use and Access Act 2025 — ICO individual rights and SAR guidance updates
+
+**Trigger:** ICO updated its Guide to Individual Rights and Guide to Subject Access following the Data Use and Access Act 2025 (DUA Act), which received Royal Assent and came into force 19 June 2025 (most provisions effective 19–20 August 2025; data protection complaints requirement effective 19 June 2026). Article 32/security guidance confirmed unchanged.
+
+**Pages updated (5):**
+
+1. `summaries/ico-guide-individual-rights.md` — removed stale DUA Act uncertainty flag; updated source note to reflect post-DUA Act ICO update; added DUA Act cross-cutting framework section covering: (a) formal data protection complaints procedure — right to complain to controller before ICO, 30-day acknowledgement, effective 19 June 2026; (b) SAR reasonable and proportionate search standard — now statutory (effective 19 August 2025). Updated Key Points for Agents with both changes.
+
+2. `concepts/uk-gdpr-subject-access.md` — updated Reasonable Search section to reflect DUA Act codification of "reasonable and proportionate" standard into statute (effective 19 August 2025); practical obligation unchanged but now has express legislative authority. Added Key Points bullet.
+
+3. `summaries/ico-guide-data-security.md` — removed DUA Act uncertainty flag (Article 32 security guidance confirmed unchanged post-DUA Act review). `last_updated` → 2026-05-05.
+
+4. `concepts/uk-gdpr-security.md` — removed DUA Act uncertainty flag (same basis). `last_updated` → 2026-05-05.
+
+5. `concepts/uk-gdpr-subject-access.md` — `last_updated` → 2026-05-05.
+
+**Contradictions resolved:** None introduced. The "reasonable and proportionate" search standard was already reflected in practice in `uk-gdpr-subject-access.md`; the DUA Act makes it statutory rather than changing the standard. The formal complaints procedure is an addition to the framework — it does not displace the ICO complaint right.
+
+**Not updated (out of scope):** `uk-gdpr-lawful-basis.md` — the DUA Act introduces "recognised legitimate interests" as a new lawful basis; this requires a separate patch once ICO has published full guidance on the new basis.
+
+## [2026-05-06] lint | Lint pass — full wiki (150 pages)
+
+**Scope:** All 150 pages across summaries/, concepts/, derived/.
+
+**Broken wikilinks:** None. All 149 unique wikilink targets resolve to existing slugs. No `.md`-suffix regressions.
+
+**Orphan pages (pre-fix):** 1 — `client-best-interests-rule` had frontmatter `related:` entries in 3 pages but no body wikilinks from any page. **Resolved.**
+
+**Stale claims:** None. All past-deadline language (operational resilience 31 March 2025, Travel Rule 1 September 2023, financial promotions approver gateway January 2024, COBS 9B April 2026) correctly framed as past events. DUA Act uncertainty flags on ICO data protection principles and accountability/governance guidance are accurate and current (ICO has not yet completed its post-DUA Act review of those sections).
+
+**Legitimate "not yet ingested" flags (retained):** FCA PEP treatment review July 2024; FCTR 15 (trade finance); ICO DPbD detailed sub-page; ICO DPIA mandatory list sub-page; DPA 2018 exemption sub-pages for SARs.
+
+**Fixes applied (6 cross-reference additions across 6 pages):**
+
+1. `summaries/cobs2-conduct-of-business.md` — added `client-best-interests-rule` to frontmatter `related:` and body `[[client-best-interests-rule]]` (COBS 2.1.1R primary source document; should be the strongest inbound link)
+2. `concepts/inducements-framework.md` — added body `[[client-best-interests-rule]]` (frontmatter already had it; COBS 2.3A.7E breach = automatic COBS 2.1.1R breach)
+3. `summaries/cobs2-3a-inducements.md` — added body `[[client-best-interests-rule]]` (same rationale)
+4. `summaries/cobs2-3b-inducements-research.md` — added body `[[client-best-interests-rule]]` (same rationale)
+5. `concepts/uk-financial-sanctions-framework.md` — added `fcg2-financial-crime-systems-controls` to frontmatter `related:` and body inline link at the FCG 2.2/2.3 mention (line 127); sanctions governance is explicitly a specific application of FCG 2 general themes
+
+**Post-fix state:** Zero broken links. Zero orphan pages.

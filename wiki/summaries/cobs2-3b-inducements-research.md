@@ -29,6 +29,8 @@ sources:
   - "COBS 2.3B.30R–2.3B.31R — joint payments disclosure"
 tags: [COBS-2-3B, research-unbundling, research-payment-account, RPA, joint-payments, MiFID-II, inducements, best-execution, COBS-2-3A, UK, FCA]
 related:
+  - summaries/cobs2-conduct-of-business.md
+  - concepts/client-best-interests-rule.md
   - concepts/research-unbundling.md
   - summaries/cobs2-3a-inducements.md
   - concepts/inducements-framework.md
@@ -280,6 +282,7 @@ For the purposes of COBS 2.3B.25R(8), the firm must disclose to relevant clients
 
 ## Related Articles
 
+- [[client-best-interests-rule]]
 - [[research-unbundling]]
 - [[cobs2-3a-inducements]]
 - [[inducements-framework]]

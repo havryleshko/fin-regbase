@@ -17,6 +17,8 @@ sources:
   - "COBS 2.3A.32R — record keeping"
 tags: [COBS-2-3A, inducements, third-party-payments, quality-enhancement, UK-retail-ban, transfer-back, acceptable-minor-NMB, research-unbundling, IBIP, MiFID-II, IDD, FCA, UK]
 related:
+  - summaries/cobs2-conduct-of-business.md
+  - concepts/client-best-interests-rule.md
   - summaries/cobs2-3a-inducements.md
   - concepts/payment-for-order-flow.md
   - concepts/sysc10-conflicts-of-interest.md
@@ -238,6 +240,7 @@ The list alone is insufficient. The firm must document the quality enhancement l
 
 ## Related Articles
 
+- [[client-best-interests-rule]]
 - [[cobs2-3a-inducements]]
 - [[payment-for-order-flow]]
 - [[sysc10-conflicts-of-interest]]

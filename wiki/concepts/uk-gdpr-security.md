@@ -5,7 +5,7 @@ regulator: ICO
 regulation: UK GDPR Art. 5(1)(f); Art. 32; DPA 2018
 status: current
 effective_date: 2018-05-25
-last_updated: 2026-04-15
+last_updated: 2026-05-05
 sources:
   - "ICO, 'A guide to data security', ico.org.uk"
 tags: [UK-GDPR, Article-32, Article-5, security, CIA-triad, encryption, pseudonymisation, resilience, processor-security, testing, PCI-DSS, staff-training, DUA-Act, ICO, data-protection, UK]
@@ -25,8 +25,6 @@ related:
 # UK GDPR — Security of Processing (Article 32)
 
 The UK GDPR's security obligations are set out across two articles. **Article 5(1)(f)** states the high-level security principle: personal data must be processed using appropriate technical and organisational measures to ensure security, including protection against unauthorised or unlawful processing and against accidental loss, destruction, or damage. **Article 32** provides the operational framework — four specific sub-obligations, a risk-based standard for determining what is "appropriate," and additional obligations for processors.
-
-> **DUA Act note:** The ICO's security guidance was under review following the Data (Use and Access) Act 2025 coming into force on 19 June 2025. Substantive changes are possible; verify against current ICO guidance before operational use.
 
 > **Scope boundary:** This page covers security obligations under Arts. 5(1)(f) and 32. Personal data breach notification (Arts. 33–34) is covered in `[[uk-gdpr-personal-data-breaches]]`.
 

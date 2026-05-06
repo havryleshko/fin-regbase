@@ -25,6 +25,8 @@ sources:
   - "COBS 2.3A.34AR â€” MiFID record-keeping obligation"
 tags: [COBS-2-3A, inducements, third-party-payments, quality-enhancement, UK-retail-ban, transfer-back, acceptable-minor-NMB, IBIP, research-unbundling, COBS-2-3B, MiFID-II, IDD, FCA, UK]
 related:
+  - summaries/cobs2-conduct-of-business.md
+  - concepts/client-best-interests-rule.md
   - concepts/inducements-framework.md
   - concepts/payment-for-order-flow.md
   - concepts/sysc10-conflicts-of-interest.md
@@ -342,6 +344,7 @@ The costs and charges coordination rules cross-reference back to COBS 2.3A.10Râ€
 
 ## Related Articles
 
+- [[client-best-interests-rule]]
 - [[inducements-framework]]
 - [[payment-for-order-flow]]
 - [[sysc10-conflicts-of-interest]]

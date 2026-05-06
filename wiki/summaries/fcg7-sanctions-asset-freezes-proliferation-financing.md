@@ -21,6 +21,7 @@ related:
   - concepts/customer-due-diligence.md
   - summaries/fcg3-money-laundering-terrorist-financing.md
   - summaries/fctr8-sanctions-systems-controls-russia.md
+  - summaries/fcg2-financial-crime-systems-controls.md
 ---
 
 # FCG 7 — Sanctions, Asset Freezes and Proliferation Financing
@@ -192,3 +193,4 @@ Key external sources referenced: **(FCG 7.4.1–7.4.2)**
 - [[customer-due-diligence]]
 - [[fcg3-money-laundering-terrorist-financing]]
 - [[fctr8-sanctions-systems-controls-russia]]
+- [[fcg2-financial-crime-systems-controls]]

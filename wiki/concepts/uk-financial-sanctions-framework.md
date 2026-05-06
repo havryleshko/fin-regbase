@@ -17,6 +17,7 @@ related:
   - concepts/aml-ctf-framework.md
   - summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md
   - summaries/fctr8-sanctions-systems-controls-russia.md
+  - summaries/fcg2-financial-crime-systems-controls.md
   - derived/pi-emi-consumer-duty-and-sanctions-obligations.md
 ---
 
@@ -124,7 +125,7 @@ Firms with global sanctions programmes must explicitly verify that UK-facing con
 
 ## Relationship to Other FCG Chapters
 
-FCG 7 explicitly incorporates governance and MI guidance from **FCG 2.2 and FCG 2.3** (general financial crime themes). Sanctions governance, risk assessment, and MI obligations are treated as a specific application of those general principles. **(FCG 7.2.-1)**
+FCG 7 explicitly incorporates governance and MI guidance from **FCG 2.2 and FCG 2.3** (general financial crime themes) — see [[fcg2-financial-crime-systems-controls]]. Sanctions governance, risk assessment, and MI obligations are treated as a specific application of those general principles. **(FCG 7.2.-1)**
 
 FCTR 8 (thematic review on UK financial sanctions) and FCTR 15 (trade finance and financial crime) provide further FCA findings and good/poor practice. **(FCG 7.3.1)**
 
@@ -146,6 +147,7 @@ FCTR 8 (thematic review on UK financial sanctions) and FCTR 15 (trade finance an
 - [[asset-freezes-and-ofsi-licences]]
 - [[proliferation-financing]]
 - [[aml-ctf-framework]]
+- [[fcg2-financial-crime-systems-controls]]
 - [[fcg7-sanctions-asset-freezes-proliferation-financing]]
 - [[fctr8-sanctions-systems-controls-russia]]
 - [[pi-emi-consumer-duty-and-sanctions-obligations]]

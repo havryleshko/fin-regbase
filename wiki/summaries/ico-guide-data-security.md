@@ -5,7 +5,7 @@ regulator: ICO
 regulation: UK GDPR Art. 5(1)(f); Art. 32; DPA 2018
 status: current
 effective_date: 2018-05-25
-last_updated: 2026-04-15
+last_updated: 2026-05-05
 sources:
   - "ICO, 'A guide to data security', ico.org.uk"
 tags: [UK-GDPR, Article-32, Article-5, security, CIA-triad, encryption, pseudonymisation, resilience, processor-security, testing, PCI-DSS, staff-training, ICO, data-protection, UK]
@@ -21,8 +21,6 @@ related:
 ---
 
 # ICO — A Guide to Data Security
-
-**DUA Act note:** This guidance was under review following the Data (Use and Access) Act 2025 coming into force on 19 June 2025. Content cited here reflects the pre-review version. Substantive changes are possible; verify against current ICO guidance before operational use.
 
 **Scope:** Covers Article 5(1)(f) (security principle) and Article 32 (security of processing) only. Personal data breach notification obligations (Arts. 33–34) are covered in `[[ico-guide-personal-data-breaches]]`.
 

@@ -15,6 +15,8 @@ related:
   - concepts/psr-regulatory-reporting.md
   - concepts/psr-unauthorised-transaction-liability.md
   - concepts/safeguarding-pis-emis.md
+  - summaries/psr-ps23-3-app-fraud-reimbursement.md
+  - concepts/app-fraud-reimbursement-scheme.md
 ---
 
 # Open Banking — Payment Initiation, Account Information, and ASPSP Obligations
@@ -192,3 +194,5 @@ Where a customer has multiple accounts with an ASPSP and the PISP or AISP can in
 - [[psr-regulatory-reporting]]
 - [[psr-unauthorised-transaction-liability]]
 - [[safeguarding-pis-emis]]
+- [[psr-ps23-3-app-fraud-reimbursement]]
+- [[app-fraud-reimbursement-scheme]]

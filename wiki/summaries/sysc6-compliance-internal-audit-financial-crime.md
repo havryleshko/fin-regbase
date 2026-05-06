@@ -16,6 +16,7 @@ related:
   - concepts/sysc4-governance-framework.md
   - concepts/aml-ctf-framework.md
   - concepts/smcr-senior-managers-regime.md
+  - summaries/fcg2-financial-crime-systems-controls.md
   - summaries/fcg3-money-laundering-terrorist-financing.md
   - concepts/sysc9-record-keeping.md
 ---
@@ -204,5 +205,6 @@ The MLRO's role is to act as the **focal point for all activity within the firm 
 - [[sysc4-governance-framework]]
 - [[aml-ctf-framework]]
 - [[smcr-senior-managers-regime]]
+- [[fcg2-financial-crime-systems-controls]]
 - [[fcg3-money-laundering-terrorist-financing]]
 - [[sysc9-record-keeping]]

@@ -3,15 +3,15 @@
 Persistent, agent-readable UK financial regulation knowledge base.  
 Source documents in `raw/` are compiled into citation-backed wiki pages in `wiki/`.
 
-## Current repository snapshot (May 2026)
+## Current repository snapshot (May 2026) — UK wiki v3 complete
 
-- `wiki/concepts`: 78 pages
-- `wiki/summaries`: 60 pages
+- `wiki/concepts`: 80 pages
+- `wiki/summaries`: 63 pages
 - `wiki/derived`: 7 pages
-- Total wiki articles: 145
-- Source PDFs in `raw/`: 54
+- Total wiki articles: 150
+- Source documents in `raw/`: 74
 
-Primary coverage includes Consumer Duty, AML/CTF and sanctions, CASS (client money and custody), COBS and MiFID conduct rules, CONC consumer credit, DISP complaints/FOS, SYSC governance and controls, MAR market abuse, PSR/E-Money, SM&CR, and UK GDPR.
+Primary coverage: Consumer Duty, AML/CTF and sanctions (FCG 2/3/7, JMLSG, FCTR 8, MLR 2017), APP fraud reimbursement (PSR PS23/3), CASS (client money and custody), COBS and MiFID conduct rules (COBS 2/3/4/9/9A/9B/10/10A/11, inducements, research unbundling, best execution, targeted support), CONC consumer credit (CONC 1–8), DISP complaints/FOS (DISP 1/2/3, motor finance DCA), SYSC governance and controls (SYSC 4/6/15A), MAR market abuse, PSR/E-Money, SM&CR, and UK GDPR (all major ICO guidance chapters, DUA Act 2025 amendments).
 
 ## How this repo is used
 

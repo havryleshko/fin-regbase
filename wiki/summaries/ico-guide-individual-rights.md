@@ -5,9 +5,9 @@ regulator: ICO
 regulation: UK GDPR (Articles 12–22)
 status: current
 effective_date: 2023-05-19
-last_updated: 2026-04-14
+last_updated: 2026-05-05
 sources:
-  - "ICO Guide to Individual Rights v0.0.2 (19 May 2023)"
+  - "ICO Guide to Individual Rights (updated post-DUA Act 2025)"
 tags: [uk-gdpr, individual-rights, data-subject-rights, ICO, UK, Art-22, profiling, erasure, portability, right-to-object]
 related:
   - concepts/uk-gdpr-individual-rights-overview.md
@@ -29,9 +29,7 @@ related:
 
 ## What This Document Is
 
-The ICO Guide to Individual Rights (v0.0.2, 19 May 2023) is the ICO's operational guidance covering all eight data subject rights under UK GDPR Articles 12–22. Each right is covered in a separate chapter containing an "at a glance" summary, compliance checklists, and narrative guidance.
-
-The guidance predates the Data Use and Access Act (DUA Act 2025), which received Royal Assent and came into force on **19 June 2025**. The ICO has not yet updated this guidance to reflect DUA Act changes. Treat this summary as reflecting the pre-DUA Act position; verify against current ICO guidance for any DUA Act amendments.
+The ICO Guide to Individual Rights is the ICO's operational guidance covering all eight data subject rights under UK GDPR Articles 12–22. Each right is covered in a separate chapter containing an "at a glance" summary, compliance checklists, and narrative guidance. The ICO updated this guidance following the Data Use and Access Act 2025 (DUA Act), which received Royal Assent and came into force on **19 June 2025**. DUA Act changes to the cross-cutting framework are noted below.
 
 ICO guidance is not primary legislation but carries significant enforcement weight. The ICO may use it to assess whether a firm reasonably understood its obligations when deciding whether to take regulatory action.
 
@@ -69,6 +67,17 @@ Article 12 governs how all rights requests must be handled. These provisions app
 **Fee:** Only for manifestly unfounded or excessive requests, based on administrative costs.
 
 **ID verification:** Proportionate only — request only what is necessary to confirm identity, taking account of the data held, its nature, and purpose.
+
+### DUA Act 2025 — Changes to the Cross-Cutting Framework
+
+**Formal data protection complaints procedure (effective 19 June 2026):** The DUA Act introduces a right for individuals to lodge a data protection complaint directly with the controller before escalating to the ICO. Controllers must:
+
+- Operate a formal complaints procedure for data protection matters
+- Acknowledge receipt of a complaint within **30 days**
+
+This applies across all eight rights. It is an addition to the existing framework — it does not replace or limit the individual's right to complain to the ICO at any time without first going through the controller's procedure.
+
+**SAR reasonable and proportionate search standard (effective 19 August 2025):** The DUA Act codified the "reasonable and proportionate" standard for searches in response to SARs. This confirms and gives statutory force to the existing practice that a controller's search obligation is not unlimited — it must be proportionate to the importance of providing access. See [[uk-gdpr-subject-access]] for the full SAR framework.
 
 ## Right to Be Informed — Summary
 
@@ -135,6 +144,8 @@ Controller-to-controller transmission: required where technically feasible. Rece
 ## Key Points for Agents
 
 - The Art. 12 cross-cutting framework (1-month calendar month deadline, verbal requests valid, manifestly unfounded and excessive definitions) applies to all eight rights.
+- **DUA Act 2025 — Formal complaints procedure (effective 19 June 2026):** Individuals may lodge data protection complaints directly with the controller. Controllers must acknowledge within 30 days. Does not replace the right to complain to the ICO at any time.
+- **DUA Act 2025 — SAR search standard codified (effective 19 August 2025):** The "reasonable and proportionate" search standard is now statutory — confirming controllers are not required to conduct unlimited searches in response to SARs.
 - Direct marketing objection (Art. 21(2)) is absolute. Response is suppression, not erasure.
 - Art. 22 covers solely automated decisions with legal or similarly significant effects. Automatic credit refusal is the ICO's named fintech example.
 - Special category data in Art. 22 processing: only explicit consent or substantial public interest — overrides contract necessity and law authorisation grounds.

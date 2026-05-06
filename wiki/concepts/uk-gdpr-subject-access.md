@@ -5,7 +5,7 @@ regulator: ICO
 regulation: UK GDPR (Article 15); DPA 2018 (Schedules 2–3)
 status: current
 effective_date: 2021-01-01
-last_updated: 2026-04-14
+last_updated: 2026-05-05
 sources:
   - "ICO Guide to Subject Access (ico.org.uk, clipped 2026-04-14)"
   - "UK GDPR Art. 12, 15"
@@ -133,7 +133,9 @@ See [[uk-gdpr-right-to-be-informed]] for the full Art. 13/14 content framework.
 
 ## Reasonable Search
 
-The controller must make reasonable efforts to find and retrieve the requested information. This is not an unlimited obligation — searches that would be unreasonable or disproportionate to the importance of providing access are not required. The reasonableness standard takes account of the nature of the request, the complexity of the controller's information environment, and the importance of the data to the individual.
+The controller must make reasonable and proportionate efforts to find and retrieve the requested information. This is not an unlimited obligation — searches that would be unreasonable or disproportionate to the importance of providing access are not required. The reasonableness standard takes account of the nature of the request, the complexity of the controller's information environment, and the importance of the data to the individual.
+
+**DUA Act 2025 (effective 19 August 2025):** The Data Use and Access Act 2025 codified the "reasonable and proportionate" search standard into statute, giving it explicit legislative force. Prior to this, the standard derived from ICO guidance and case law. The practical effect is unchanged — controllers were already not required to conduct unlimited searches — but the standard is now statutory and less open to challenge.
 
 ## Third-Party Data in SAR Responses
 
@@ -220,6 +222,7 @@ Detailed guidance for each special case is in ICO sub-page guidance (not yet ing
 - **Third-party SARs:** The third party must provide evidence of their authority — the burden is on them. Do not respond before verifying authority.
 - **Child SARs:** Competence-based — respond directly to the child if they understand their rights. Parent can only act with child's authorisation or where evidently in the child's best interests.
 - **Clarification pause:** Where large volumes of data make the scope unclear, the clock can be paused (not merely extended) pending clarification. Supplementary information must still be provided within 1 month.
+- **DUA Act 2025 — SAR search standard codified (effective 19 August 2025):** The "reasonable and proportionate" search obligation is now statutory — confirming the obligation is not unlimited and is calibrated to the importance of the data to the individual.
 - **SAR response = copy + supplementary information.** The supplementary information is equivalent to Art. 13/14 privacy notice mandatory content.
 - **Enforced SAR is a criminal offence** — requiring an individual to SAR their criminal record, health data, or any personal data as a condition of employment or contract is unlawful under DPA 2018.
 - **DPA 2018 Schedule 2/3 exemptions** are SAR-specific. Most financially relevant: crime/taxation (fraud/AML), legal professional privilege, regulatory functions, management information, negotiations, confidential references.
