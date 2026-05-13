@@ -1,0 +1,332 @@
+{
+  "run_at": "2026-05-13T22:40:13.541642",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 5,
+  "completed": 5,
+  "errors": 0,
+  "mean_fact_score": 0.8,
+  "mean_citation_score": 0.76666,
+  "mean_overall_score": 0.79,
+  "pass_rate": 0.6,
+  "by_difficulty": {
+    "easy": {
+      "count": 1,
+      "mean_score": 0.85
+    },
+    "medium": {
+      "count": 3,
+      "mean_score": 0.7000000000000001
+    },
+    "hard": {
+      "count": 1,
+      "mean_score": 1.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 2,
+      "mean_score": 0.855
+    },
+    "synthesis": {
+      "count": 1,
+      "mean_score": 0.52
+    },
+    "edge-case": {
+      "count": 2,
+      "mean_score": 0.86
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "M025",
+      "question": "A discretionary portfolio manager provides ongoing portfolio management to a retail client. What periodic suitability obligations does COBS 9A impose, and how frequently must they be discharged?",
+      "difficulty": "medium",
+      "type": "factual",
+      "tags": [
+        "COBS",
+        "suitability",
+        "portfolio-management",
+        "ongoing-advice",
+        "retail-clients"
+      ],
+      "pages_loaded": [
+        "cobs9a-suitability-mifid"
+      ],
+      "pages_missing": [],
+      "answer": "# Periodic Suitability Obligations under COBS 9A for Discretionary Portfolio Managers\n\n## Applicable Rules\n\nA discretionary portfolio manager providing ongoing portfolio management to a retail client is subject to periodic suitability obligations under COBS 9A. The key rules are:\n\n### Mandatory Periodic Assessment \u2014 Minimum Annual Frequency\n\n**COBS 9A.3.9R** establishes the core obligation:\n\n1. A firm providing a periodic suitability assessment **must review the suitability of the recommendations given at least annually**.\n2. The **frequency must be increased** where appropriate by reference to:\n   - **(i)** The **risk profile of the client**; and\n   - **(ii)** The **type of financial instruments** recommended.\n\n### Pre-Service Disclosure Obligation\n\nBefore commencing the portfolio management service, the firm must disclose in good time whether it will provide periodic suitability assessment **(COBS 9A.3.6R)**, including **(COBS 9A.3.8R)**:\n\n- **(a)** The **frequency and extent** of the periodic suitability assessment, and where relevant, the **conditions that trigger** that assessment;\n- **(b)** The extent to which **information previously collected will be subject to reassessment**; and\n- **(c)** The way in which an **updated recommendation** will be communicated to the client.\n\n### Maintaining Up-to-Date Client Information\n\n**COBS 9A.2.10R** requires that where a firm has an ongoing relationship (such as portfolio management), it must have \u2014 and be able to **demonstrate** \u2014 **appropriate policies and procedures to maintain adequate and up-to-date information** about that client to the extent necessary to fulfil the suitability requirements in COBS 9A.2.4R.\n\n### Content of Periodic Suitability Statements\n\nFollowing the initial suitability report, subsequent periodic reports:\n- Need only cover **changes** in the relevant financial instruments and the **circumstances of the client** **(COBS 9A.3.3R(3)\u2013(4))**; and\n- **Need not repeat** all the information in the first report.\n\n## Summary\n\n**Frequency:** At least **annually** (minimum).\n\n**Variable frequency:** Must be increased based on the client's **risk profile** and the **type of financial instruments** recommended.\n\n**Triggering events:** The firm must define in its pre-service disclosure any **specific conditions that trigger reassessment** outside the standard annual cycle.\n\n**Content:** Periodic statements must confirm suitability remains appropriate, noting changes in instruments and/or client circumstances.\n\n**Documentation:** The firm must maintain records demonstrating compliance with COBS 9A.2 and 9A.3 in respect of each suitability assessment undertaken **(COBS 9A.4.2AR)**.",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "Firms providing ongoing portfolio management or ongoing advice services to retail clients must send periodic suitability statements",
+          "present": true,
+          "note": "The answer clearly establishes that a discretionary portfolio manager providing ongoing portfolio management to a retail client is subject to periodic suitability obligations under COBS 9A."
+        },
+        {
+          "fact": "The periodic suitability statement must be provided at least annually to retail clients",
+          "present": true,
+          "note": "Explicitly stated: 'must review the suitability of the recommendations given at least annually' and summarised as 'Frequency: At least annually (minimum).'"
+        },
+        {
+          "fact": "The statement must confirm whether the portfolio or recommendation continues to remain suitable for the client",
+          "present": true,
+          "note": "The answer states 'Periodic statements must confirm suitability remains appropriate' and references reassessment of the portfolio against the client's circumstances."
+        },
+        {
+          "fact": "If the firm identifies that the portfolio no longer meets the client's profile, it must update the portfolio or recommendation \u2014 not merely report the misalignment",
+          "present": false,
+          "note": "The answer does not address the obligation to update the portfolio or recommendation when a mismatch is identified. It only mentions reporting changes, not the remedial action required."
+        },
+        {
+          "fact": "The frequency of the periodic suitability assessment must be increased where appropriate by reference to the risk profile of the client and the type of financial instruments recommended",
+          "present": true,
+          "note": "Explicitly covered under 'the frequency must be increased' with reference to risk profile and type of financial instruments."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "COBS 9A.3.9R",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and well-structured, correctly covering most obligations including annual frequency and variable assessment triggers, but omits the critical requirement that a firm must update the portfolio or recommendation (not merely report) when it identifies a suitability mismatch.",
+      "error": null
+    },
+    {
+      "id": "M026",
+      "question": "A retail client instructs a firm to purchase a specific investment product. The firm's suitability assessment shows the product is not suitable for the client. Can the firm proceed, and if so under what conditions?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "COBS",
+        "suitability",
+        "insistent-client",
+        "personal-recommendation"
+      ],
+      "pages_loaded": [
+        "cobs9-suitability"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer: Firm Cannot Proceed If Product Is Unsuitable\n\n## The Core Rule\n\n**No.** A firm **cannot** proceed with the purchase if its suitability assessment shows the product is unsuitable for the client.\n\n**COBS 9.2.1R** imposes a mandatory obligation: a firm must \"take reasonable steps to ensure that a personal recommendation, or a decision to trade, is **suitable for its client**\" (emphasis added). This is an absolute requirement with no discretionary exception.\n\n---\n\n## Limited Exception: The Insistent Client Regime\n\nThere is **one narrow exception** under **COBS 9.5A**, but it applies only under strict conditions:\n\n### When an Insistent Client Regime Can Apply (COBS 9.5A.2G)\n\nAn insistent client transaction may be executed **only if**:\n1. The firm has given a personal recommendation\n2. The client decides to enter into a **different** transaction from that recommended\n3. The client wishes the firm to **facilitate** that transaction\n\n**Critically**, this regime applies where the client **deviates from** the firm's recommendation\u2014not where the firm's assessment shows the product is unsuitable.\n\n### Mandatory Communications (COBS 9.5A.3G)\n\nIf the firm does proceed with an insistent client transaction, it must:\n- **(a)** Clearly communicate that the transaction is **not in accordance with the firm's personal recommendation**\n- **(b)** Explain the reasons why it is not recommended\n- **(c)** Communicate the risks of the client's proposed transaction\n- **(d)** Explain why the firm did not recommend it\n\nThe firm must also obtain a client **acknowledgement** (preferably in the client's own words) that the transaction is not in accordance with the recommendation and is being carried out at the client's request **(COBS 9.5A.4G)**.\n\n### Record Keeping (COBS 9.5A.6G)\n\nThe firm must retain full records of the advice and transaction process, including all communications and the client's acknowledgement, subject to the retention periods in **COBS 9.5.2R**.\n\n---\n\n## What the Insistent Client Regime Does **NOT** Allow\n\nThe insistent client regime does **not** permit a firm to:\n- Make a personal recommendation for a product it has assessed as unsuitable\n- Proceed if the firm has made no prior recommendation at all\n- Avoid the legal consequences of executing an unsuitable transaction\n\nExecuting a transaction the firm knows to be unsuitable, even with client acknowledgement, remains a breach of **COBS 9.2.1R** and exposes the firm to FOS complaints and regulatory sanction.\n\n---\n\n## Summary\n\n**The firm cannot proceed.** If suitability assessment shows the product is unsuitable:\n- It **must not make a personal recommendation** (**COBS 9.2.1R**)\n- It may only execute the transaction if the client insists after receiving the firm's contrary advice, subject to strict communication and acknowledgement requirements under **COBS 9.5A**\n- Even then, proceeding carries significant legal and compliance risk",
+      "fact_score": 0.6,
+      "citation_score": 1.0,
+      "overall_score": 0.72,
+      "facts_detail": [
+        {
+          "fact": "The firm must not make a personal recommendation to purchase a product it has assessed as unsuitable \u2014 doing so breaches COBS 9A",
+          "present": true,
+          "note": "The answer clearly states the firm cannot make a personal recommendation for an unsuitable product and cites COBS 9.2.1R (part of COBS 9A)."
+        },
+        {
+          "fact": "If the client insists on proceeding as an execution-only transaction without taking advice, the firm may execute \u2014 but only if the product is non-complex and no personal recommendation is being made",
+          "present": false,
+          "note": "The answer discusses the insistent client regime but does not mention the execution-only route or the non-complex product condition. It conflates insistent client with execution-only without clarifying the non-complex product requirement."
+        },
+        {
+          "fact": "For complex products, switching to execution-only to sidestep a negative suitability finding is itself a breach \u2014 the firm cannot use execution-only as an escape route",
+          "present": false,
+          "note": "The answer does not address complex vs non-complex product distinctions or the prohibition on using execution-only as an escape route for complex products."
+        },
+        {
+          "fact": "Where the firm does proceed at the client's insistence, it must warn the client clearly that the product has not been assessed as suitable for them and record that warning",
+          "present": true,
+          "note": "The answer addresses communication requirements under COBS 9.5A.3G and 9.5A.4G, including warning the client and obtaining acknowledgement."
+        },
+        {
+          "fact": "The firm's suitability assessment and the client's instruction must both be documented",
+          "present": true,
+          "note": "The answer references record keeping under COBS 9.5A.6G covering the advice and transaction process documentation."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "COBS 9.5A",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly covers the core prohibition and insistent client regime with good citations, but critically omits the non-complex product condition for execution-only transactions and the prohibition on using execution-only as an escape route for complex products.",
+      "error": null
+    },
+    {
+      "id": "H017",
+      "question": "A retail client claims to be a sophisticated investor and argues that a full suitability assessment is not required before their personal recommendation. Does this exemption exist under COBS 9A, and what process is actually required?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "COBS",
+        "suitability",
+        "client-categorisation",
+        "professional-client",
+        "retail-clients"
+      ],
+      "pages_loaded": [
+        "cobs9a-suitability-mifid"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer: Sophisticated Investor Exemption under COBS 9A\n\n## Direct Answer\n\n**No. There is no exemption from the full suitability assessment based on a retail client's self-declaration of sophistication.**\n\nA retail client claiming to be a \"sophisticated investor\" has **no basis** to avoid the suitability assessment required under **COBS 9A.2.1R** and **COBS 9A.2.4R**. The client must either:\n\n1. Formally opt up to **elective professional client** status under COBS 3.5.3R (a three-step procedural process requiring written acknowledgement and quantitative/qualitative criteria); or\n2. Remain subject to the full retail suitability regime.\n\n---\n\n## What the Rules Actually Require\n\n### The Mandatory Suitability Obligation (COBS 9A.2.1R)\n\nWhen providing investment advice or portfolio management, the firm **must**:\n\n1. Obtain necessary information regarding the client's:\n   - **(a) Knowledge and experience** in the investment field;\n   - **(b) Financial situation**, including **ability to bear losses**; and\n   - **(c) Investment objectives**, including **risk tolerance**;\n\n2. Only recommend investment services or financial instruments that are **suitable for the client** \u2014 in particular, in accordance with the client's **risk tolerance and ability to bear losses**.\n\nThis is a hard Rule (R). It applies to **all personal recommendations and portfolio management decisions to trade**, regardless of the client's self-assessed sophistication **(COBS 9A.2.2G)**.\n\n### Extent of Information Required (COBS 9A.2.4R)\n\nThe firm must obtain information **necessary to understand the essential facts about the client** and to have a reasonable basis for determining that the specific transaction:\n\n- **(a)** Meets the client's investment objectives, including their risk tolerance;\n- **(b)** Is such that the client is **financially able to bear any related investment risks** consistent with their investment objectives; and\n- **(c)** Is such that the client has the **necessary experience and knowledge** to understand the risks involved.\n\n**No sophistication exemption is mentioned or available.**\n\n---\n\n## The Only Available Assumption: Professional Client Status (COBS 9A.2.5R)\n\nThe **only** way to reduce suitability assessment obligations is to be classified as a **professional client**. The rules allow assumptions **only** for professional clients:\n\n- **All professional clients** may be assumed to have the necessary **knowledge and experience** (COBS 9A.2.5R(1));\n- **Per se professional clients only** receiving **investment advice** may be assumed to be **financially able to bear investment risks** (COBS 9A.2.5R(2)).\n\n**Critical limitation:** These assumptions are only available to clients formally classified as professional clients under COBS 3 \u2014 not to retail clients who claim sophistication.\n\n---\n\n## Formal Professional Client Opt-Up: The Required Process\n\nIf a retail client wishes to avoid suitability assessment, they must complete the formal **elective professional client** procedure under **COBS 3.5.3R**, which requires:\n\n1. A **qualitative assessment** of the client's expertise, experience, and knowledge;\n2. Satisfaction of **at least two of three quantitative criteria**:\n   - At least 10 financial transactions per quarter in significant size over the previous 4 quarters; or\n   - A portfolio of cash deposits and financial instruments exceeding EUR 500,000; or\n   - At least one year's professional experience in the financial sector;\n3. A **three-step written procedure** including:\n   - Written warning of the loss of protections;\n   - Separate written consent to elective professional status; and\n   - Written acknowledgement by the client.\n\nA retail client's mere assertion of sophistication satisfies **none** of these procedural requirements.\n\n---\n\n## Suitability Assessment Remains Mandatory for Retail Clients\n\n**COBS 9A.2.13R** is unambiguous:\n\n> \"If a firm does not obtain the information required by COBS 9A.2.1R, it **must not recommend** investment services or financial instruments to the client.\"\n\nA retail client cannot waive this obligation by claiming sophistication. The firm cannot proceed with a personal recommendation without:\n- Assessing the client's knowledge and experience;\n- Assessing the client's financial situation and ability to bear losses;\n- Assessing the client's investment objectives and risk tolerance; and\n- Demonstrating suitability against all three dimensions.\n\n---\n\n## Summary Table\n\n| Client Status | Knowledge & Experience | Financial Situation / Ability to Bear Losses | Investment Objectives | Suitability Report Required |\n|---|---|---|---|---|\n| **Retail (self-declared \"sophisticated\")** | \u2705 Must assess | \u2705 Must assess | \u2705 Must assess | \u2705 Yes (before conclusion) \u2014 **COBS 9A.3.2R** |\n| **Elective professional (formal opt-up completed)** | \u26a0 May assume | \u2705 Must assess | \u2705 Must assess | ",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "No blanket exemption from suitability assessment exists for self-declared sophisticated investors \u2014 COBS 9A applies to personal recommendations to retail clients regardless of claimed sophistication",
+          "present": true,
+          "note": "Clearly stated in the direct answer and throughout the response"
+        },
+        {
+          "fact": "A retail client may be re-categorised as a professional client (elective professional under COBS 3.5) \u2014 but this requires a formal process: qualitative assessment plus at least two of three quantitative criteria (portfolio size \u2265 \u20ac500,000, significant transactions frequency, relevant professional experience)",
+          "present": true,
+          "note": "Detailed in the 'Formal Professional Client Opt-Up' section with all three quantitative criteria correctly listed"
+        },
+        {
+          "fact": "If the client is successfully re-categorised as professional, suitability obligations still apply \u2014 but the firm may assume the client has the necessary knowledge and experience and is not required to collect that category",
+          "present": true,
+          "note": "Covered under COBS 9A.2.5R section \u2014 assumptions available for professional clients regarding knowledge/experience are explained, though the answer could be clearer that full suitability still applies"
+        },
+        {
+          "fact": "A self-declaration alone \u2014 without the formal re-categorisation process \u2014 does not alter the firm's COBS 9A obligations for retail clients",
+          "present": true,
+          "note": "Explicitly stated: 'A retail client's mere assertion of sophistication satisfies none of these procedural requirements'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "COBS 9A.2.1R",
+          "present": true
+        },
+        {
+          "citation": "COBS 3.5",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, correctly identifying no sophistication exemption exists, detailing the formal opt-up process with all quantitative criteria, and properly explaining the reduced (but not eliminated) suitability obligations for professional clients.",
+      "error": null
+    },
+    {
+      "id": "E021",
+      "question": "What is the key difference between a suitability assessment and an appropriateness assessment under COBS, and to what type of service does each apply?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "COBS",
+        "appropriateness",
+        "suitability",
+        "execution-only",
+        "complex-products"
+      ],
+      "pages_loaded": [
+        "appropriateness-framework"
+      ],
+      "pages_missing": [],
+      "answer": "# Key Differences Between Suitability and Appropriateness Under COBS\n\n## The Fundamental Distinction\n\n**Suitability** and **appropriateness** are two mutually exclusive consumer protection tests that apply to different types of service:\n\n### Suitability Assessment\n\n**Applies to:** Personal recommendations and portfolio management services (advised services) **(COBS 9.1.1R; COBS 9A.1.1R)**\n\n**Assessment scope:** Three dimensions must all be assessed:\n1. Knowledge and experience\n2. Financial situation (ability to bear losses)\n3. Investment objectives (risk tolerance, time horizon, purpose)\n\n**Regulatory outcome:** A hard gate \u2014 the firm **must not** make the recommendation if it cannot obtain sufficient information on all three dimensions **(COBS 9.2.6R; COBS 9A.2.13R)**. A suitability report must be provided explaining why the recommendation is suitable **(COBS 9.4.1R; COBS 9A.3.2R\u20139A.3.3R)**.\n\n### Appropriateness Assessment\n\n**Applies to:** Non-advised services (execution-only, reception and transmission of orders) for complex or risky products **(COBS 10.1.2R; COBS 10A.1.1R)**\n\n**Assessment scope:** One dimension only:\n- Knowledge and experience of the client\n\n**Regulatory outcome:** A softer gate \u2014 if the product is not appropriate or information is unavailable, the firm **must warn** the client **(COBS 10A.2.1R; COBS 10.3.3G; COBS 10A.3.3G)**, but the client may still request execution and the firm has discretion whether to proceed **(COBS 10.3.3G; COBS 10A.3.3G)**.\n\n## Key Practical Difference\n\nSuitability displaces appropriateness: where a firm has assessed suitability, no separate appropriateness assessment is required for that transaction **(COBS 10.6.1G; COBS 10A.6.1G)**.",
+      "fact_score": 1.0,
+      "citation_score": 0.5,
+      "overall_score": 0.85,
+      "facts_detail": [
+        {
+          "fact": "Suitability applies to personal recommendations and portfolio management \u2014 the firm assesses knowledge and experience, financial situation, and investment objectives before recommending",
+          "present": true,
+          "note": "Clearly stated: suitability applies to personal recommendations and portfolio management, with all three dimensions (knowledge/experience, financial situation, investment objectives) explicitly listed."
+        },
+        {
+          "fact": "Appropriateness applies to non-advised (execution-only) services for complex products \u2014 the firm assesses only knowledge and experience, not financial situation or investment objectives",
+          "present": true,
+          "note": "Clearly stated: appropriateness applies to non-advised/execution-only services for complex products, and only knowledge and experience is assessed."
+        },
+        {
+          "fact": "The financial situation and investment objectives dimensions are not assessed under appropriateness \u2014 only the client's ability to understand the product's risks",
+          "present": true,
+          "note": "The answer explicitly states that appropriateness covers 'one dimension only: knowledge and experience,' implying financial situation and investment objectives are excluded."
+        },
+        {
+          "fact": "If a client fails an appropriateness assessment, the firm may still proceed after warning the client \u2014 under suitability, the firm must not recommend a product it has assessed as unsuitable",
+          "present": true,
+          "note": "Both aspects are covered: for appropriateness, the firm must warn but may still proceed; for suitability, described as a 'hard gate' where the firm must not make the recommendation if insufficient information."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "COBS 10A.2.1R",
+          "present": true
+        },
+        {
+          "citation": "COBS 9A.2.1R",
+          "present": false
+        }
+      ],
+      "summary": "The answer is substantively complete and accurate on all required facts, but omits the specific citation COBS 9A.2.1R (though it references related COBS 9A rules).",
+      "error": null
+    },
+    {
+      "id": "M035",
+      "question": "A broker provides a bundled service combining trade execution and investment research. The investment firm receiving the service wishes to continue receiving both. What must it do to remain compliant with COBS 2.3B?",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "tags": [
+        "COBS",
+        "research",
+        "unbundling",
+        "inducements",
+        "execution-commission"
+      ],
+      "pages_loaded": [
+        "research-unbundling",
+        "inducements-framework"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer: Bundled Service Compliance Under COBS 2.3B\n\nTo remain compliant with COBS 2.3B when continuing to receive a bundled service combining trade execution and investment research, the investment firm must adopt **one of the three permissible payment routes** for the research component **(COBS 2.3B.3R)**. The bundled arrangement itself is not prohibited; what is prohibited is paying for research through an undifferentiated execution commission.\n\n## The Three Permissible Routes\n\nThe firm must choose and implement one of:\n\n**Route 1 \u2014 Direct Payment from Own Resources**  \nThe firm pays for research directly from its own P&L resources with no client charge. No further conditions apply. The execution service remains separately priced or bundled.\n\n**Route 2 \u2014 Research Payment Account (RPA)**  \nThe firm establishes a ring-fenced RPA funded by a separate, explicit research charge to clients. This requires:\n\n- **Volume/value de-linkage (COBS 2.3B.4R(1)(b)):** The research charge must **not be linked to the volume or value of transactions executed**. It must be based on a fixed budget set in advance based on assessed research needs, not on trading activity.\n- **Budget ceiling (COBS 2.3B.7R):** Total research charges cannot exceed the budget set before the period begins.\n- **Surplus rebate (COBS 2.3B.8R(3)):** Any unspent funds must be rebated to clients or offset against the next period's budget\u2014never retained.\n- **Written policy (COBS 2.3B.12R):** Mandatory policy addressing how quality assessment criteria are met and how research costs are fairly allocated across client portfolios. **This policy must be provided to clients** **(COBS 2.3B.12R(2))**.\n- **Senior management oversight and audit trail (COBS 2.3B.11R):** Sole management by the firm based on reasonable assessment of research need, with appropriate controls, senior oversight, and clear records of payments and allocation methods.\n\n**Route 3 \u2014 Joint Payments**  \nResearch and execution costs are combined in a single payment to the broker, with the research element separately identified. This requires:\n\n- **Written policy (COBS 2.3B.25R(1)):** Mandatory policy disclosing use of joint payments, key features, and allocation structure. **Must be provided to clients**.\n- **Research provider payment allocation structure (COBS 2.3B.25R(3)):** Documented allocation methodology for apportioning costs between research and execution providers.\n- **Budget not linked to transaction volumes (COBS 2.3B.25R(5)(a)):** The research component budget must be based on research needs, not on expected or actual trading volumes\u2014same de-linkage as Route 2.\n- **Annual budget (COBS 2.3B.25R(5)):** Research budget set before the period and agreed with clients.\n- **Disclosure (COBS 2.3B.30R\u20132.3B.31R):** Pre-service and annual disclosure of: use of joint payments, policy key features, expected annual costs, most significant benefits received, provider types; and ex-post annual disclosure of actual costs separately identified.\n\n## Critical Compliance Points\n\n**Research Cannot Be an Execution Factor (COBS 2.3B.29R)**  \nThe firm must not treat research services as an execution factor when analyzing best execution obligations under COBS 11.2A.2R. The decision to route orders to the broker cannot be justified by reference to that broker's research provision\u2014this would re-bundle research into execution in breach of COBS 2.3B.\n\n**Research Is Not Free**  \nResearch received outside these three routes is an **inducement under COBS 2.3A.5R and is prohibited** (subject to limited exceptions for acceptable minor non-monetary benefits and direct-pay research that is independent of execution\u2014COBS 2.3A.19R types (h) and (i)). The firm cannot characterize research as \"free\" or bundled into execution without a compliant structure.\n\n**What Cannot Be Funded From Route 2 or 3 (COBS 2.3B.23G)**  \nThe following 12 categories cannot be paid from an RPA or joint payments, including:\n- Post-trade analytics\n- Portfolio valuation or performance measurement services\n- Order and execution management systems\n- **Administration of the RPA itself (item 11)** \u2014 must be funded from the firm's own resources\n\nThis last point is critical: the cost of administering the RPA cannot come from the RPA.\n\n## Summary\n\nThe firm must:\n\n1. **Select one of three routes** (COBS 2.3B.3R): direct payment, RPA, or joint payments.\n2. **If RPA:** ensure the research charge is **not linked to transaction volumes/values** (COBS 2.3B.4R(1)(b)), set an annual budget, rebate surpluses, implement senior management oversight, and **provide a written policy to clients** (COBS 2.3B.12R(2)).\n3",
+      "fact_score": 0.6,
+      "citation_score": 0.3333,
+      "overall_score": 0.52,
+      "facts_detail": [
+        {
+          "fact": "The firm must unbundle the research from the execution \u2014 it must not pay for research through execution commissions",
+          "present": true,
+          "note": "The answer explicitly states 'what is prohibited is paying for research through an undifferentiated execution commission' and that research received outside the three compliant routes is a prohibited inducement."
+        },
+        {
+          "fact": "The firm has two compliant options: pay for research from its own profit and loss (P&L funding), or use an RPA funded by a separate client charge",
+          "present": true,
+          "note": "The answer describes Route 1 (direct payment from own P&L) and Route 2 (RPA funded by separate client charge). However, it also adds a third 'joint payments' route which may not be accurate under UK MiFID II post-Brexit rules, but the two required options are present."
+        },
+        {
+          "fact": "Continuing to receive bundled research-and-execution payments without unbundling breaches COBS 2.3B",
+          "present": true,
+          "note": "The answer states research received outside the three routes is prohibited under COBS 2.3A.5R, implying a breach of COBS 2.3B. The prohibition is clearly stated."
+        },
+        {
+          "fact": "A breach of the research unbundling obligation is also a breach of the inducements rules under COBS 2.3A \u2014 the bundled payment impairs the firm's duty to act in the client's best interest",
+          "present": false,
+          "note": "While COBS 2.3A.5R is mentioned in passing as the inducements rule that prohibits receiving research outside compliant routes, the answer does not substantively explain that a breach of the unbundling obligation constitutes a breach of COBS 2.3A inducements rules that impairs the duty to act in the client's best interest."
+        },
+        {
+          "fact": "Under COBS 2.3A.7E, a breach of the inducements rules is automatically a breach of the client's best interests rule under COBS 2.1.1R \u2014 no separate analysis is required",
+          "present": false,
+          "note": "COBS 2.3A.7E is not mentioned anywhere in the answer, and the automatic link between an inducements breach and a best interests rule breach under COBS 2.1.1R is not discussed."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "COBS 2.3B.3R",
+          "present": true
+        },
+        {
+          "citation": "COBS 2.3A.7E",
+          "present": false
+        },
+        {
+          "citation": "COBS 2.1.1R",
+          "present": false
+        }
+      ],
+      "summary": "The answer provides detailed and accurate coverage of the unbundling mechanics and payment routes under COBS 2.3B but critically omits the automatic link between an inducements breach and the best interests rule (COBS 2.3A.7E and COBS 2.1.1R), which are absent from both the analysis and citations.",
+      "error": null
+    }
+  ]
+}

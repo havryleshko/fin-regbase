@@ -1,0 +1,68 @@
+{
+  "run_at": "20260513_121319",
+  "top_k": 8,
+  "total": 1,
+  "results": [
+    {
+      "id": "M028",
+      "difficulty": "medium",
+      "type": "boundary",
+      "question": "A retail client contacts their broker and requests to buy shares in a listed FTSE 250 company. No advice is given. Does the broker need to conduct an appropriateness assessment?",
+      "expected_pages": [
+        "cobs10a-appropriateness-mifid"
+      ],
+      "retrieved": [
+        {
+          "slug": "client-categorisation-framework",
+          "path": "concepts/client-categorisation-framework.md",
+          "score": 39.3663
+        },
+        {
+          "slug": "cobs3-client-categorisation",
+          "path": "summaries/cobs3-client-categorisation.md",
+          "score": 37.3962
+        },
+        {
+          "slug": "payment-for-order-flow",
+          "path": "concepts/payment-for-order-flow.md",
+          "score": 36.4375
+        },
+        {
+          "slug": "cryptoasset-financial-promotions-framework",
+          "path": "concepts/cryptoasset-financial-promotions-framework.md",
+          "score": 35.9953
+        },
+        {
+          "slug": "cobs2-conduct-of-business",
+          "path": "summaries/cobs2-conduct-of-business.md",
+          "score": 35.9408
+        },
+        {
+          "slug": "conc-cpa-rules",
+          "path": "concepts/conc-cpa-rules.md",
+          "score": 35.8541
+        },
+        {
+          "slug": "mlr-2017",
+          "path": "summaries/mlr-2017.md",
+          "score": 35.2408
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 34.6841
+        }
+      ],
+      "found_at_rank": {
+        "cobs10a-appropriateness-mifid": null
+      },
+      "missed": [
+        "cobs10a-appropriateness-mifid"
+      ],
+      "precision_at_3": 0.0,
+      "precision_at_5": 0.0,
+      "pass_at_3": false,
+      "pass_at_5": false
+    }
+  ]
+}

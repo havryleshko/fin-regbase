@@ -4,10 +4,10 @@ export function DemoPlaceholder() {
       <p className="text-xs font-medium uppercase tracking-[0.16em] text-text-secondary">
         See it in action
       </p>
-      <h2 className="mt-2 text-3xl font-semibold tracking-tight text-text-primary md:text-4xl">
-        See it in action
+      <h2 className="mt-2 text-2xl font-semibold tracking-tight text-text-primary md:text-3xl">
+        Watch an agent answer a Consumer Duty question
       </h2>
-      <div className="mt-8 overflow-hidden rounded-2xl border border-border bg-black">
+      <div className="mt-8 overflow-hidden rounded-2xl border border-border bg-text-primary">
         <div className="aspect-video w-full">
           <iframe
             className="h-full w-full"

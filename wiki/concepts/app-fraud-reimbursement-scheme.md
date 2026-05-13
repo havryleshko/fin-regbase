@@ -5,9 +5,10 @@ regulator: PSR
 regulation: "PSR PS23/3; FSBRA 2013 s.54/s.55; Faster Payments Rules"
 status: current
 effective_date: 2024-10-07
-last_updated: 2026-05-05
+last_updated: 2026-05-13
 sources:
   - "PSR PS23/3 (June 2023)"
+  - "PSR PS24/7 (October 2024) — maximum reimbursement level"
   - "Annex 2 — PIS transactions"
 tags: [PSR, APP-fraud, reimbursement, Faster-Payments, payment-services, fraud, vulnerable-customers, PISP, UK]
 related:
@@ -32,6 +33,18 @@ The APP fraud mandatory reimbursement scheme is the UK's first consistent mandat
 This page covers structural mechanics: the liability allocation rationale, scope boundaries and gaps, exception standards, vulnerable customer protections, PISP liability models, SAR intersections, and the enforcement chain.
 
 For full policy detail and the 10-key-policy table, see [[psr-ps23-3-app-fraud-reimbursement]].
+
+---
+
+## Scope at a Glance
+
+**Payment system:** Faster Payments only. CHAPS, Bacs, card payments, and international transfers are outside the mandatory scheme **(PS23/3 §2.5)**.
+
+**Eligible claimants:** Consumers, micro-enterprises (as defined in PSRs 2017 — fewer than 10 employees, annual turnover or balance sheet ≤ €2m), and charities with annual income under £1 million. Larger businesses are not eligible **(PS23/3 §2.9)**.
+
+**Maximum reimbursement:** £85,000 per claim, effective 7 October 2024 **(PSR PS24/7)**. This covers 99.8% of all Faster Payments APP scam claims by volume and 90% by value. The Bank of England set the same £85,000 cap for CHAPS for consistency. PSPs may voluntarily reimburse above this level but cannot recover the excess from the receiving PSP.
+
+**Claim time limit:** 13 months from the date of the final payment to the fraudster **(PS23/3 §1.3, Key Policy 8)**. A consumer who fails to report within 13 months loses the right to mandatory reimbursement. The clock runs from the payment date, not from discovery. FOS jurisdiction remains open for 6 years / 3 years from awareness regardless of the PSP's time-bar decision.
 
 ---
 
@@ -91,6 +104,8 @@ The PSR chose gross negligence because most APP fraud victims are socially engin
 
 **Burden of proof:** On the PSP. The customer does not have to prove they acted carefully; the PSP must prove gross negligence. This is consistent with PSRs 2017 regulation 77(3) for unauthorised transactions.
 
+**Warning specificity standard — PSP may reduce or deny reimbursement.** Yes: if a consumer ignored a specific, effective warning about a high-risk payee or transaction, the PSP may reduce or deny reimbursement on gross negligence grounds. The warning must have been specific to the payee or the transaction — generic fraud awareness messages do not satisfy this requirement and cannot ground a gross negligence finding **(PS23/3 Chapter 5; §5.23)**. The consumer is assessed against the standard of a reasonably careful person: if such a person would have heeded the warning, ignoring it may support a gross negligence finding. Since the burden of proof is on the PSP to establish gross negligence **(PS23/3 §5.23)**, a PSP intending to rely on a warning must be able to demonstrate the specific content of the warning, that it was targeted to the particular payee or transaction, and the timing relative to the payment — a PSP that cannot evidence these elements cannot rely on the consumer's failure to heed the warning.
+
 **Hard carve-out for vulnerable customers:** The exception cannot be applied to a customer who meets the vulnerability definition, regardless of the apparent facts.
 
 ### First-Party Fraud
@@ -107,6 +122,8 @@ Two protections for vulnerable customers are hard rules — no PSP discretion ap
 2. **Claim excess must not be applied** — the PSP cannot deduct any excess from the reimbursement amount
 
 **Vulnerability assessment is mandatory for each APP fraud claim.** PSPs must assess, case-by-case, whether the customer's vulnerability characteristics (temporary or enduring) led to or contributed to the victimisation. Characteristics of vulnerability that were not previously disclosed to the PSP may still be relevant.
+
+**Positive duty of care for identified vulnerable consumers.** A PSP that has already identified a customer as vulnerable must take steps proportionate to that vulnerability — not merely apply the standard fraud warning shown to all customers. A generic fraud warning displayed to all customers does not discharge the heightened duty of care owed to a vulnerable consumer. If the PSP knew of the vulnerability and still showed only a generic warning, it cannot subsequently rely on the consumer's failure to heed that warning as grounds for reducing or denying reimbursement **(PS23/3 §2.10–2.13)**.
 
 **Why the hard rules:** Significant overlap exists between vulnerable customers and APP fraud victims. Older customers, those with cognitive impairment, those with low financial literacy, and those in financial difficulty are disproportionately targeted. Many of these groups also have protected characteristics under the Equality Act 2010. Applying standard caution or cost-sharing to this group would disproportionately harm those with protected characteristics — the PSR's equality impact assessment (Annex 1) explicitly identifies this risk and treats the hard carve-outs as the mitigation.
 
@@ -214,14 +231,17 @@ Pay.UK must report PSP compliance data to PSR. PSR monitors Pay.UK's own perform
 
 ## Key Points for Agents
 
+- **Scope: Faster Payments only.** CHAPS, cards, Bacs, and international transfers are outside the mandatory scheme **(PS23/3 §2.5)**. CHAPS has a separate voluntary comparable-outcomes commitment by the Bank of England.
+- **Eligible claimants: consumers, micro-enterprises (PSRs 2017 — <10 employees, ≤€2m turnover/balance sheet), and charities with annual income <£1m only.** Larger businesses are not eligible **(PS23/3 §2.9)**. An agent asked whether a micro-enterprise is covered must answer yes.
+- **Maximum reimbursement: £85,000 per claim** from 7 October 2024 **(PSR PS24/7)**. Covers 99.8% of claims by volume and 90% by value. PSPs may voluntarily pay more but cannot recover the excess from the receiving PSP.
+- **13-month claim window runs from the date of the final payment to the fraudster**, not from discovery **(PS23/3 Key Policy 8)**. Missing the window forfeits mandatory reimbursement; FOS access remains open for 6 years / 3 years from awareness.
 - The 50/50 split is an incentive mechanism, not fault allocation — receiving PSPs bear 50% to create financial skin in the game for fraudster account screening, regardless of their individual culpability.
-- Gross negligence is a deliberately high bar chosen by PSR over industry objections. Burden of proof is on the PSP. It requires a very significant degree of carelessness — not merely a failure to take reasonable precautions.
-- Vulnerable customers are a hard carve-out from both the gross negligence exception and the claim excess. There is no PSP discretion. Vulnerability must be assessed case-by-case on each claim.
-- PISP liability depends entirely on whether the PISP holds funds: Model A (pure intermediary, no funds held) — no PS23/3 liability; Model B (PISP also acts as receiving PSP) — 50% liability.
-- 'On us' fraud is a genuine regulatory gap — PSR cannot mandate; FCA supervises but there is no equivalent mandatory scheme; PSPs apply standards voluntarily.
-- SAR filing obligations apply during the claim process and interact with the 'stop the clock' provision. Tipping-off risk is real when gathering information in suspected first-party fraud cases.
-- The 13-month PSP claim limit is optional and mirrors PSRs 2017. Customers retain FOS access for 6 years / 3 years from awareness regardless of PSP time-bar decisions.
-- 'On us' fraud, the crypto leg of multi-step fraud, and CHAPS payments are all scope gaps that PSPs should handle consistently through voluntary standards.
+- Gross negligence is a deliberately high bar. Burden of proof is on the PSP. It requires a very significant degree of carelessness — not merely a failure to take reasonable precautions.
+- **Warning specificity — PSP may reduce or deny:** Yes — a PSP may reduce or deny reimbursement if the consumer ignored a specific, effective warning about a high-risk payee. The warning must be specific to the payee or transaction — generic fraud messages do not qualify. Since burden of proof is on the PSP (§5.23), it must be able to evidence the warning's specific content, targeting, and timing **(PS23/3 Chapter 5; §5.23)**.
+- **Vulnerable customers — positive duty, not just a carve-out.** A PSP that has identified a customer as vulnerable must take proportionate steps; it cannot show a generic warning and then invoke the consumer's failure to heed it. Hard carve-out from gross negligence exception and claim excess applies regardless **(PS23/3 §2.10–2.13)**.
+- PISP liability depends entirely on whether the PISP holds funds: Model A (pure intermediary) — no liability; Model B (PISP as receiving PSP) — 50% liability.
+- 'On us' fraud is a genuine regulatory gap — PSR cannot mandate; no equivalent mandatory scheme applies.
+- SAR filing obligations and tipping-off risk (POCA s.333A) interact with the claim process, particularly in suspected first-party fraud cases.
 
 ---
 

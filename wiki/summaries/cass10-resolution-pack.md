@@ -24,9 +24,9 @@ related:
 
 ## What CASS 10 Does
 
-CASS 10 requires firms that hold safe custody assets (CASS 6) or client money (CASS 7) to maintain a **CASS resolution pack** — a defined set of documents that can be retrieved on demand within 48 hours to support an orderly return of assets and money to clients in the event of the firm's failure.
+CASS 10 requires firms that hold safe custody assets (CASS 6) or client money (CASS 7) to maintain a **CASS resolution pack** — a defined set of documents that can be retrieved on demand within 48 hours to support an orderly return of assets and money to clients in the event of the firm's failure. **This obligation applies to all in-scope firms regardless of size or complexity of client asset arrangements** — there is no size threshold or proportionality carve-out in CASS 10.1.1R.
 
-The resolution pack serves three audiences **(CASS 10.1.2G)**:
+The pack must contain sufficient information to allow a third party — such as an insolvency practitioner — to **identify and return client money and safe custody assets without relying on the firm's own staff or systems being available**. The pack serves three audiences **(CASS 10.1.2G)**:
 1. An **insolvency practitioner** appointed in respect of the firm — to achieve a timely return of client money and safe custody assets to clients;
 2. The **Bank of England** — in connection with the firm's or another firm's resolution under the Banking Act; and
 3. The **FCA**.
@@ -130,8 +130,9 @@ The designated existing records are:
 
 ## Key Points for Agents
 
-- **CASS 10 is a live preparedness obligation, not a failure-event trigger (CASS 10.1.3R; 10.1.4G).** The pack must be maintained at all times — not assembled on insolvency. It serves insolvency practitioners, the Bank of England (resolution), and the FCA.
-- **48-hour hard retrieval deadline from insolvency officer appointment or FCA/Bank of England request (CASS 10.1.7R).** Systems on which the pack depends must remain operational and accessible post-insolvency. The most critical items (master document, institutions document, acknowledgement letters, most recent reconciliations) should be immediately retrievable **(CASS 10.1.9E)**.
+- **CASS 10 is a live preparedness obligation, not a failure-event trigger (CASS 10.1.3R; 10.1.4G).** The pack must be maintained at all times — not assembled on insolvency. It serves insolvency practitioners, the Bank of England (resolution), and the FCA. **The obligation applies to all in-scope firms regardless of size** — there is no size threshold or proportionality carve-out.
+- **The pack must be self-sufficient: it must contain sufficient information to allow an insolvency practitioner or other third party to identify and return client money and safe custody assets without relying on the firm's own staff or systems being available (CASS 10.1.2G; 10.2.1R(1)).** Item (8) — the third-party access/transfer document — is the specific content requirement that addresses access to assets controlled by a third party.
+- **48-hour hard retrieval deadline: within 48 hours of an insolvency officer's appointment, or of an FCA or Bank of England request (CASS 10.1.7R).** Systems on which the pack depends must remain operational and accessible post-insolvency. The most critical items (master document, institutions document, acknowledgement letters, most recent reconciliations) should be immediately retrievable **(CASS 10.1.9E)**.
 - **Nine mandatory content items, including a third-party access/transfer document (CASS 10.2.1R).** Item (8) — the document describing how to access and transfer assets held by but controlled by a third party — is required wherever the firm outsources custody or client money holding. It is not sufficient merely to identify the third party.
 - **5 business day correction deadline on any material inaccuracy (CASS 10.1.11R).** The pack must be reviewed on an ongoing basis. A change of institution triggers the correction obligation.
 - **Standalone FCA notification obligation on inability to maintain the pack (CASS 10.1.16R).** This is separate from the CASS 6 (6.6.57R) and CASS 7 (7.15.33R) notification regimes. Failing to maintain the pack is itself an immediately notifiable breach.

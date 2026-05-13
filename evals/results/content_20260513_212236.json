@@ -1,0 +1,208 @@
+{
+  "run_at": "2026-05-13T21:22:36.609581",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 3,
+  "completed": 3,
+  "errors": 0,
+  "mean_fact_score": 0.9166666666666666,
+  "mean_citation_score": 1.0,
+  "mean_overall_score": 0.9416666666666668,
+  "pass_rate": 1.0,
+  "by_difficulty": {
+    "easy": {
+      "count": 1,
+      "mean_score": 0.825
+    },
+    "medium": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "hard": {
+      "count": 1,
+      "mean_score": 1.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 2,
+      "mean_score": 0.9125
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "E025",
+      "question": "What is a CASS resolution pack and within what timeframe must a firm be able to produce it?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "CASS",
+        "resolution-pack",
+        "client-money",
+        "custody",
+        "insolvency"
+      ],
+      "pages_loaded": [
+        "cass10-resolution-pack"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer: CASS Resolution Pack and 48-Hour Retrieval Requirement\n\n## What is a CASS Resolution Pack?\n\nA **CASS resolution pack** is a defined set of documents that a firm must maintain to support an orderly return of client assets and money to clients in the event of the firm's failure **(CASS 10.1.1R\u201310.1.3R)**. \n\nThe pack serves three audiences **(CASS 10.1.2G)**:\n1. An **insolvency practitioner** appointed in respect of the firm \u2014 to achieve timely return of client money and safe custody assets\n2. The **Bank of England** \u2014 in connection with the firm's or another firm's resolution under the Banking Act\n3. The **FCA**\n\nThe pack must contain **sufficient information to allow a third party to identify and return client money and safe custody assets without relying on the firm's own staff or systems being available** **(CASS 10.1.2G; 10.2.1R(1))**.\n\n## Nine Mandatory Content Items\n\nThe pack must include **(CASS 10.2.1R)**:\n1. Master retrieval document\n2. Institutions document (all deposit-takers and custodians, with account numbers)\n3. Agents document\n4. Key individuals document (including CASS oversight officer)\n5. Executed agreements and acknowledgement letters\n6. Group and third-party map\n7. Third-party agreements\n8. **Third-party access/transfer document** (critical for outsourced arrangements)\n9. Procedures manual\n\n## 48-Hour Retrieval Timeframe\n\nA firm must **put in place adequate arrangements to ensure that an insolvency officer appointed in respect of the firm is able to retrieve each document as soon as practicable and in any event within 48 hours of that officer's appointment **(CASS 10.1.7R)**.\n\nAdditionally, **the most critical documents should be immediately retrievable**, specifically: the master retrieval document, the institutions document, any acknowledgement letters, and the most recent reconciliations **(CASS 10.1.9E(1))**.\n\nWhere the firm relies on systems, those systems **must remain operational and accessible after insolvency **(CASS 10.1.9E(2))**.\n\nThe firm must also be able to retrieve the pack within 48 hours where the **FCA or Bank of England requests it **(CASS 10.1.7R)**.\n\n## Ongoing Maintenance Obligation\n\nThe pack is a **live preparedness obligation** **(CASS 10.1.3R; 10.1.4G)** \u2014 it must be maintained at all times, not assembled on insolvency. Any material inaccuracy must be corrected **within 5 business days **(CASS 10.1.11R(2))**.",
+      "fact_score": 0.75,
+      "citation_score": 1.0,
+      "overall_score": 0.825,
+      "facts_detail": [
+        {
+          "fact": "A CASS resolution pack is a set of documents and records enabling rapid identification, return, or transfer of client money and custody assets in the event of the firm's insolvency",
+          "present": true,
+          "note": "Answer clearly states the pack is maintained to support orderly return of client assets and money in the event of the firm's failure"
+        },
+        {
+          "fact": "It must contain sufficient information to allow a third party \u2014 such as an insolvency practitioner \u2014 to identify and return client assets without relying on the firm's staff",
+          "present": true,
+          "note": "Answer explicitly states this: 'sufficient information to allow a third party to identify and return client money and safe custody assets without relying on the firm's own staff or systems being available'"
+        },
+        {
+          "fact": "The firm must be able to retrieve each document in the resolution pack within 48 hours \u2014 whether from an FCA or Bank of England request, or for an insolvency officer (administrator, receiver, trustee, or liquidator) appointed in respect of the firm",
+          "present": true,
+          "note": "Answer covers the 48-hour requirement for insolvency officer appointment and also mentions FCA and Bank of England requests"
+        },
+        {
+          "fact": "The resolution pack obligation applies to all CASS-regulated firms \u2014 it is not limited to large firms or those with complex client asset arrangements",
+          "present": false,
+          "note": "The answer does not address the scope of the obligation or clarify that it applies to all CASS-regulated firms without limitation"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CASS 10.1.7R",
+          "present": true
+        }
+      ],
+      "summary": "The answer is detailed and accurate on the key substance of what a CASS resolution pack is and the 48-hour retrieval requirement, but omits the point that the obligation applies to all CASS-regulated firms without limitation.",
+      "error": null
+    },
+    {
+      "id": "M033",
+      "question": "A firm discovers a shortfall in its client money account \u2014 the aggregate client money balance is less than what it owes to clients. What must it do immediately?",
+      "difficulty": "medium",
+      "type": "factual",
+      "tags": [
+        "CASS",
+        "client-money",
+        "shortfall",
+        "reconciliation",
+        "FCA-notification"
+      ],
+      "pages_loaded": [
+        "client-money-framework"
+      ],
+      "pages_missing": [],
+      "answer": "# Immediate Actions When Client Money Shortfall Is Discovered\n\nWhen a firm discovers a shortfall in its client money account (i.e., the aggregate client money balance is less than what it owes to clients), it must take the following immediate steps:\n\n## 1. **Determine the Reason for the Discrepancy**\n\nFirst, the firm must **identify why the shortfall has arisen** **(CASS 7.15.29R)**. This is a prerequisite to remediation.\n\n## 2. **Pay the Firm's Own Money into the Client Bank Account by Close of Business**\n\nBy the **close of business on the day the reconciliation is performed**, the firm must:\n\n> \"Pay the firm's own money into a client bank account to make good any shortfall\" **(CASS 7.15.29R)**\n\n**Critical points:**\n- The shortfall **cannot be left unremedied**, even temporarily.\n- The payment must come from **the firm's own funds** \u2014 one client's money cannot be used to fund another client's shortfall (this would breach **CASS 7.17.5G**).\n- There is **no grace period** for correction.\n\n## 3. **Notify the FCA in Writing Without Delay (If Unable to Make Good)**\n\nIf the firm **will be unable to, or materially fails to**, pay the shortfall into a client bank account after carrying out an internal client money reconciliation, it must:\n\n> \"Notify the FCA in writing without delay\" **(CASS 7.15.33R(2))**\n\nAdditionally, if the firm discovers a **historical material segregation shortfall at any point in the preceding 12 months**, it must also notify the FCA without delay **(CASS 7.15.33R(6))**.\n\n**Note:** There is no materiality threshold for this notification \u2014 any inability to correct a shortfall triggers the obligation to notify.\n\n## 4. **Record the Shortfall and Its Resolution**\n\nThe shortfall and its resolution must be captured in the firm's reconciliation records **(CASS 7.15.7R)**.\n\n---\n\n## Summary\n\n**Immediate action:** Determine reason \u2192 Pay own money into client account by close of business \u2192 Notify FCA in writing without delay if unable to remedy \u2192 Record the event.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "The firm must immediately pay its own money into the client bank account to make good the shortfall \u2014 it cannot leave the shortfall unremedied even temporarily",
+          "present": true,
+          "note": "Clearly stated in section 2 with emphasis on no grace period and requirement to pay by close of business"
+        },
+        {
+          "fact": "The firm must investigate the cause of the shortfall and correct any error in its reconciliation records",
+          "present": true,
+          "note": "Section 1 explicitly covers identifying the reason for the discrepancy as a prerequisite to remediation"
+        },
+        {
+          "fact": "If the firm cannot immediately make good the shortfall from its own resources, it must notify the FCA",
+          "present": true,
+          "note": "Section 3 explicitly covers FCA notification without delay if unable to make good the shortfall"
+        },
+        {
+          "fact": "The shortfall must be recorded in the firm's reconciliation records \u2014 the firm cannot simply adjust records without addressing the underlying shortfall",
+          "present": true,
+          "note": "Section 4 covers recording the shortfall and its resolution in reconciliation records"
+        },
+        {
+          "fact": "A persistent or unrecoverable shortfall is a significant CASS event that must be reported to the FCA",
+          "present": true,
+          "note": "Section 3 covers notification to FCA and also mentions historical material segregation shortfall notification requirement under CASS 7.15.33R(6)"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CASS 7.15.29R",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts with correct regulatory citations including CASS 7.15.29R and additional relevant references.",
+      "error": null
+    },
+    {
+      "id": "H024",
+      "question": "A firm appoints a sub-custodian in a non-EEA jurisdiction to hold client custody assets. The legal framework in that jurisdiction does not require client assets to be separately identified from the sub-custodian's own assets. What must the firm do before proceeding?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "CASS",
+        "custody",
+        "sub-custodian",
+        "non-EEA",
+        "asset-segregation"
+      ],
+      "pages_loaded": [
+        "cass6-custody-rules"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nBased on CASS 6, a firm appointing a sub-custodian in a non-EEA jurisdiction where client assets are not required to be separately identified must take the following steps **before proceeding**:\n\n## 1. Verify Jurisdictional Eligibility (CASS 6.3.4R)\n\n**CASS 6.3.4R(1)** requires that a firm may only deposit safe custody assets with a third party in **a jurisdiction that specifically regulates and supervises the safekeeping of safe custody assets** for the account of another person.\n\n**CASS 6.3.4R(2)** prohibits deposit in a third country that does not regulate such safekeeping **unless**:\n- **(a)** The nature of the safe custody assets or investment services **requires** deposit in that third country; **or**\n- **(b)** The assets are held for a **professional client** who has **requested in writing** that they be deposited there.\n\nSince the jurisdiction does not require separate identification of client assets, it likely does not meet the safekeeping regulation standard in CASS 6.3.4R(1). The firm must therefore establish that either exception (a) or (b) applies.\n\n## 2. Ensure Separate Identifiability (CASS 6.3.4A-1R)\n\n**CASS 6.3.4A-1R** mandates that the firm must **take the necessary steps to ensure that client safe custody assets are identifiable separately** from both the firm's own assets and the **sub-custodian's own assets** \u2014 by means of differently titled accounts on the sub-custodian's books **or other equivalent measures achieving the same level of protection**.\n\nThe firm **cannot rely** on the sub-custodian's domestic legal framework. Instead, the firm must implement **contractual or operational measures** to achieve segregation despite the lack of regulatory requirement in that jurisdiction.\n\n## 3. Execute a Written Third-Party Custody Agreement (CASS 6.3.4AR)\n\n**CASS 6.3.4AR** requires a written agreement with the sub-custodian that, at minimum:\n- Sets out binding terms of the arrangement;\n- Remains in force for the duration of the arrangement; and\n- Clearly sets out the custody services to be provided.\n\nThe agreement should include **equivalent protections** addressing the separate identifiability issue, given the absence of local law requirements.\n\n## 4. Conduct Comprehensive Due Diligence (CASS 6.3.1R)\n\n**CASS 6.3.1R** requires the firm to exercise **all due skill, care and diligence** in the **selection and appointment** of the sub-custodian and in **periodic review**.\n\nThe firm must consider **(CASS 6.3.1R(3))**:\n- **(a)** The expertise and market reputation of the sub-custodian; **and**\n- **(b)** **Any legal requirements related to the holding of those safe custody assets that could adversely affect clients' rights** \u2014 which is directly relevant here, given the absence of separate identification requirements.\n\nGiven the jurisdictional legal risk, the firm's due diligence must explicitly address how the sub-custodian will protect client assets in the absence of local regulatory safeguards.\n\n## 5. Document Selection Grounds (CASS 6.3.2AR)\n\n**CASS 6.3.2AR** requires the firm to make a **record of the grounds** on which it was satisfied as to the appropriateness of the sub-custodian's selection and appointment. This record must be made **on the date of selection/appointment** and retained for **five years after the firm ceases to use that sub-custodian**.\n\nGiven the jurisdictional risk, this record must document the firm's assessment that the lack of local safekeeping regulation does not impair client asset protection and that contractual measures are adequate.\n\n## Summary\n\n**The firm must not proceed unless:**\n\n1. It can establish that the exception in CASS 6.3.4R(2)(a) or (b) applies (asset nature requires it, or professional client has requested it in writing);\n2. It has contractually secured **separate identifiability** of client assets despite the absence of local law requirements (CASS 6.3.4A-1R);\n3. It has executed a written custody agreement addressing this risk (CASS 6.3.4AR);\n4. It has completed rigorous due diligence documenting that the sub-custodian and contractual arrangements adequately protect client assets, notwithstanding the local legal framework gap (CASS 6.3.1R); and\n5. It has documented and retained the grounds for this appointment decision (CASS 6.3.2AR).",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "A firm must only deposit client assets with a third party in a jurisdiction that specifically regulates and supervises the safekeeping of assets for another person \u2014 and the third party must be subject to that regulation",
+          "present": true,
+          "note": "Clearly covered under Section 1 referencing CASS 6.3.4R(1) \u2014 the answer states the firm may only deposit in a jurisdiction that specifically regulates and supervises the safekeeping of safe custody assets for the account of another person."
+        },
+        {
+          "fact": "Depositing in a jurisdiction that does not specifically regulate safekeeping is prohibited unless: (a) the nature of the asset or investment service requires it; or (b) for professional clients only, the client requests in writing that assets be deposited there",
+          "present": true,
+          "note": "Covered under CASS 6.3.4R(2)(a) and (b) \u2014 both exceptions are correctly identified, including the professional client and written request requirements."
+        },
+        {
+          "fact": "The firm must take necessary steps to ensure assets deposited with the sub-custodian are identifiable separately from both the firm's own assets and the sub-custodian's own assets",
+          "present": true,
+          "note": "Addressed in Section 2 referencing CASS 6.3.4A-1R \u2014 the answer explicitly states the firm must ensure client assets are identifiable separately from both the firm's own assets and the sub-custodian's own assets."
+        },
+        {
+          "fact": "The firm remains responsible for exercising all due skill, care and diligence in the selection, appointment and periodic monitoring of the sub-custodian regardless of jurisdiction",
+          "present": true,
+          "note": "Covered in Section 4 referencing CASS 6.3.1R \u2014 the answer states the firm must exercise all due skill, care and diligence in selection, appointment and periodic review, including consideration of legal requirements that could adversely affect clients' rights."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "CASS 6.3.4R",
+          "present": true
+        },
+        {
+          "citation": "CASS 6.3.1R",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts with correct regulatory citations and providing additional relevant detail on due diligence, written agreements, and record-keeping obligations.",
+      "error": null
+    }
+  ]
+}

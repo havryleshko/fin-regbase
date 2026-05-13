@@ -132,7 +132,13 @@ Two standard calculation methods are available **(CASS 7.16.10R)**:
 - **Individual client balance method (CASS 7.16.16R):** Calculates the requirement as the sum of all positive individual client balances (using the CASS 7.16.22E table formula) plus the margined transaction requirement. Available to all firms except CASS 7 loan-based crowdfunding firms.
 - **Net negative add-back method (CASS 7.16.17R):** Operates on a bank-account-by-bank-account basis; calculates the requirement by adding back the absolute value of each negative individual client balance on that account. Available only to CASS 7 asset management firms and CASS 7 loan-based crowdfunding firms without margined transactions.
 
-**Shortfall — same-day mandatory correction (CASS 7.15.29R):** Any shortfall identified must be paid into a client bank account by close of business on the day of the reconciliation. Any excess must be withdrawn within the same period. There is no grace period.
+**Shortfall — determine reason, then same-day correction from own money (CASS 7.15.29R):** When a discrepancy arises, the firm must first **determine the reason** for the discrepancy. It must then, by the close of business on the day the reconciliation is performed:
+1. Pay **the firm's own money** into a client bank account to make good any shortfall — the shortfall cannot be left unremedied even temporarily; and
+2. Withdraw any excess from a client bank account within the same period.
+
+There is no grace period. The payment comes from the firm's own funds — one client's money cannot be used to fund another client's shortfall. The shortfall and its resolution must be captured in the firm's reconciliation records under CASS 7.15.7R.
+
+**FCA notification if shortfall cannot be made good (CASS 7.15.33R(2)):** If the firm will be unable to, or materially fails to, pay a shortfall into a client bank account after carrying out an internal client money reconciliation, it must **notify the FCA in writing without delay**. There is no materiality threshold for this notification — any inability to correct a shortfall triggers it. A firm that discovers a historical material segregation shortfall at any point in the preceding 12 months must also notify the FCA (trigger 6 of CASS 7.15.33R).
 
 Internal reconciliations must use the firm's own internal records and ledgers — not bank statements (which are the input for external reconciliations) **(CASS 7.15.13R)**.
 
@@ -196,7 +202,7 @@ The acknowledgement letter is not merely an administrative formality — it is t
 - **Professional client opt-out removes all trust protection (CASS 7.10.10R).** Client ranks as unsecured general creditor on failure. Cannot be used for retail clients.
 - **Credit institution carve-out: no CASS 7 protection for interbank deposits (CASS 7.10.16R).** Money held as banker; outside client money distribution on failure.
 - **TTCA retail ban is absolute (CASS 7.11.1R(3)(a)).** No consent or disclosure can make a TTCA on money with a retail client permissible.
-- **Daily internal reconciliation; same-day shortfall correction (CASS 7.15.15R; 7.15.29R).** Not monthly. Shortfall must be funded by close of business on the day identified.
+- **Daily internal reconciliation; shortfall correction from firm's own money by close of business on the day of the reconciliation (CASS 7.15.15R; 7.15.29R).** The firm must first determine the reason for the discrepancy, then pay its own money into the client bank account to make good the shortfall — no grace period. If the firm cannot make good the shortfall (or discovers a historical material segregation gap in the preceding 12 months), it must notify the FCA in writing without delay **(CASS 7.15.33R(2); 7.15.33R(6))**.
 - **20% group entity cap is a hard limit (CASS 7.13.20R).** Cannot exceed 20% concentration in any single group entity without immediate FCA notification.
 - **Alternative approach requires 3-month FCA advance notice plus auditor's report (CASS 7.13.57R; 7.13.58R).** It is not a firm's discretion to switch approaches without regulatory process.
 - **Unclaimed money: 6-year threshold; de minimis at £25/£100; Dormant Assets Act route now available (CASS 7.11.50R; 7.11.57R; 7.11.57AR).** All costs from own funds; perpetual repayment undertaking required in every route.

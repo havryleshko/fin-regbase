@@ -1,5 +1,6 @@
+import { generatedSiteMetrics } from "./site-metrics.generated";
+
 export const siteMetrics = {
-  articleCount: 145,
-  lastUpdated: "May 2026",
+  ...generatedSiteMetrics,
   jurisdiction: "UK",
 } as const;

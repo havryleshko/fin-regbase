@@ -1397,3 +1397,1126 @@
     - "PS23/6 §§3.50–3.53 (appropriateness anti-gaming rules)"
     - "PS23/6 §3.19 (24-hour cooling-off for first-time investors)"
   tags: [cryptoassets, financial-promotions, appropriateness, cooling-off, anti-gaming, PS23-6]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# COBS — SUITABILITY (COBS 9 / 9A)
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E019
+  question: >
+    What three categories of information must a firm collect and assess about a
+    retail client before making a personal recommendation under COBS 9A?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - cobs9a-suitability-mifid
+  required_facts:
+    - "Knowledge and experience in the relevant investment field — including types of service, transaction and investment the client is familiar with, nature and frequency of past transactions, level of education and profession"
+    - "Financial situation — including source and extent of regular income, assets (including liquid assets), investments and real property, and regular financial commitments"
+    - "Investment objectives — including the length of time the client wishes to hold the investment, their risk tolerance, risk profile, and the purpose of the investment"
+    - "All three categories are required — a firm must not make a recommendation if it has not obtained sufficient information across all three dimensions"
+  required_citations:
+    - "COBS 9A.2.1R"
+  tags: [COBS, suitability, personal-recommendation, retail-clients]
+
+- id: E020
+  question: >
+    When must a firm provide a suitability report to a retail client, and what
+    must the report contain?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - cobs9-suitability
+  required_facts:
+    - "A suitability report is required when a firm makes a personal recommendation to a retail client who acquires or disposes of a regulated collective investment scheme, personal pension scheme, stakeholder pension scheme, or enters a pension opt-out"
+    - "A suitability report is also required for personal recommendations in relation to a life policy"
+    - "The report must specify the client's demands and needs on the basis of information obtained from the client"
+    - "The report must explain why the firm has concluded the recommended transaction is suitable for the client"
+    - "The report must explain any possible disadvantages of the transaction for the client"
+  required_citations:
+    - "COBS 9.4.1R"
+    - "COBS 9.4.7R"
+  tags: [COBS, suitability, suitability-report, retail-clients]
+
+- id: M025
+  question: >
+    A discretionary portfolio manager provides ongoing portfolio management to
+    a retail client. What periodic suitability obligations does COBS 9A impose,
+    and how frequently must they be discharged?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - cobs9a-suitability-mifid
+  required_facts:
+    - "Firms providing ongoing portfolio management or ongoing advice services to retail clients must send periodic suitability statements"
+    - "The periodic suitability statement must be provided at least annually to retail clients"
+    - "The statement must confirm whether the portfolio or recommendation continues to remain suitable for the client"
+    - "If the firm identifies that the portfolio no longer meets the client's profile, it must update the portfolio or recommendation — not merely report the misalignment"
+    - "The frequency of the periodic suitability assessment must be increased where appropriate by reference to the risk profile of the client and the type of financial instruments recommended"
+  required_citations:
+    - "COBS 9A.3.9R"
+  tags: [COBS, suitability, portfolio-management, ongoing-advice, retail-clients]
+
+- id: M026
+  question: >
+    A retail client instructs a firm to purchase a specific investment product.
+    The firm's suitability assessment shows the product is not suitable for the
+    client. Can the firm proceed, and if so under what conditions?
+  difficulty: medium
+  type: edge-case
+  expected_pages:
+    - cobs9-suitability
+  required_facts:
+    - "The firm must not make a personal recommendation to purchase a product it has assessed as unsuitable — doing so breaches COBS 9A"
+    - "If the client insists on proceeding as an execution-only transaction without taking advice, the firm may execute — but only if the product is non-complex and no personal recommendation is being made"
+    - "For complex products, switching to execution-only to sidestep a negative suitability finding is itself a breach — the firm cannot use execution-only as an escape route"
+    - "Where the firm does proceed at the client's insistence, it must warn the client clearly that the product has not been assessed as suitable for them and record that warning"
+    - "The firm's suitability assessment and the client's instruction must both be documented"
+  required_citations:
+    - "COBS 9.5A"
+  tags: [COBS, suitability, insistent-client, personal-recommendation]
+
+- id: H017
+  question: >
+    A retail client claims to be a sophisticated investor and argues that a full
+    suitability assessment is not required before their personal recommendation.
+    Does this exemption exist under COBS 9A, and what process is actually required?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - cobs9a-suitability-mifid
+  required_facts:
+    - "No blanket exemption from suitability assessment exists for self-declared sophisticated investors — COBS 9A applies to personal recommendations to retail clients regardless of claimed sophistication"
+    - "A retail client may be re-categorised as a professional client (elective professional under COBS 3.5) — but this requires a formal process: qualitative assessment plus at least two of three quantitative criteria (portfolio size ≥ €500,000, significant transactions frequency, relevant professional experience)"
+    - "If the client is successfully re-categorised as professional, suitability obligations still apply — but the firm may assume the client has the necessary knowledge and experience and is not required to collect that category"
+    - "A self-declaration alone — without the formal re-categorisation process — does not alter the firm's COBS 9A obligations for retail clients"
+  required_citations:
+    - "COBS 9A.2.1R"
+    - "COBS 3.5"
+  tags: [COBS, suitability, client-categorisation, professional-client, retail-clients]
+
+- id: H018
+  question: >
+    An investment firm's suitability assessment process asks retail clients to
+    self-rate their risk appetite on a five-point scale, with no further questions
+    about financial situation or investment objectives. An FCA supervisory review
+    finds the process inadequate. What specific COBS 9A obligations has the firm
+    failed to meet?
+  difficulty: hard
+  type: synthesis
+  expected_pages:
+    - cobs9a-suitability-mifid
+  required_facts:
+    - "A single self-rated risk scale does not satisfy COBS 9A.2.1R — the obligation requires collection of information across all three categories: knowledge and experience, financial situation, and investment objectives"
+    - "The financial situation category requires specific information — income, assets, liabilities, regular financial commitments — which a risk scale score does not capture"
+    - "The investment objectives category requires the purpose of the investment, investment horizon, and risk tolerance — risk tolerance is one component, not a substitute for the full category"
+    - "Under COBS 9A.2.13R, a firm must not recommend investment services or financial instruments if it has not obtained the information required by COBS 9A.2.1R — a process that systematically fails to collect required information means the firm cannot lawfully make suitability assessments"
+    - "FCA supervisory expectation: suitability assessments must be individualised and evidenced — a template asking only for risk appetite is a named supervisory red line"
+  required_citations:
+    - "COBS 9A.2.1R"
+    - "COBS 9A.2.13R"
+  tags: [COBS, suitability, suitability-assessment, retail-clients, FCA-supervision]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# COBS — APPROPRIATENESS (COBS 10 / 10A)
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E021
+  question: >
+    What is the key difference between a suitability assessment and an
+    appropriateness assessment under COBS, and to what type of service
+    does each apply?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - appropriateness-framework
+  required_facts:
+    - "Suitability applies to personal recommendations and portfolio management — the firm assesses knowledge and experience, financial situation, and investment objectives before recommending"
+    - "Appropriateness applies to non-advised (execution-only) services for complex products — the firm assesses only knowledge and experience, not financial situation or investment objectives"
+    - "The financial situation and investment objectives dimensions are not assessed under appropriateness — only the client's ability to understand the product's risks"
+    - "If a client fails an appropriateness assessment, the firm may still proceed after warning the client — under suitability, the firm must not recommend a product it has assessed as unsuitable"
+  required_citations:
+    - "COBS 10A.2.1R"
+    - "COBS 9A.2.1R"
+  tags: [COBS, appropriateness, suitability, execution-only, complex-products]
+
+- id: E022
+  question: >
+    Under COBS 10A, when does the appropriateness requirement not apply —
+    what is the non-complex product carve-out?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - cobs10a-appropriateness-mifid
+  required_facts:
+    - "Appropriateness does not apply to non-complex products sold on a non-advised basis at the client's own initiative"
+    - "A product is non-complex if it meets all of a defined set of criteria — including being frequently traded, not involving any contingent liability for the client, and not being a complex financial instrument"
+    - "Shares admitted to trading on a regulated market or equivalent, money market instruments, bonds without embedded derivatives, and UCITS funds are generally non-complex"
+    - "If the product is non-complex and the transaction is client-initiated, the firm may proceed without an appropriateness assessment — provided it clearly discloses that it is not assessing appropriateness"
+  required_citations:
+    - "COBS 10A.4.1R"
+  tags: [COBS, appropriateness, non-complex, execution-only]
+
+- id: M027
+  question: >
+    A retail client fails an appropriateness assessment for a structured product
+    with capital-at-risk features. The client still wants to proceed. What must
+    the firm do and can it execute the transaction?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - cobs10a-appropriateness-mifid
+  required_facts:
+    - "The firm must warn the client that it has assessed the product as not appropriate based on their knowledge and experience — the warning must be given before the transaction is executed"
+    - "Unlike a failed suitability assessment, a failed appropriateness assessment does not prohibit the firm from executing — the firm may proceed at the client's request after giving the warning"
+    - "The warning must be prominent and not buried in general terms and conditions"
+    - "The firm must record that the warning was given and that the client chose to proceed"
+    - "If the client repeatedly fails assessments for the same product category, the firm is not required to give repeated warnings — one warning per product category is sufficient — but must still record each instance"
+  required_citations:
+    - "COBS 10A.3.1R"
+  tags: [COBS, appropriateness, complex-products, client-warning, execution-only]
+
+- id: M028
+  question: >
+    A retail client contacts their broker and requests to buy shares in a listed
+    FTSE 250 company. No advice is given. Does the broker need to conduct an
+    appropriateness assessment?
+  difficulty: medium
+  type: boundary
+  expected_pages:
+    - cobs10a-appropriateness-mifid
+  notes_for_reviewer: >
+    BM25 ceiling: cobs10a-appropriateness-mifid does not reach top-5 for this
+    query — BM25 matches heavily on "retail client" and surfaces the
+    client-categorisation-framework page instead. The query terms "FTSE 250",
+    "shares", "broker", "execution-only" don't strongly match the appropriateness
+    summary page's content. Consider adding FTSE 250 / shares / non-complex to
+    the key_points of cobs10a-appropriateness-mifid during the next lint pass.
+  required_facts:
+    - "No — shares admitted to trading on a regulated market (including the FTSE 250 as part of the London Stock Exchange) are non-complex instruments under COBS 10A"
+    - "For non-complex products, the appropriateness requirement does not apply to client-initiated transactions on a non-advised basis"
+    - "The broker may execute without conducting an appropriateness assessment, provided it is clear that no advice is being given"
+    - "The broker must still comply with its best execution obligations under COBS 11 — the appropriateness carve-out does not remove other conduct obligations"
+  required_citations:
+    - "COBS 10A.4.1R"
+  tags: [COBS, appropriateness, non-complex, shares, execution-only]
+
+- id: H019
+  question: >
+    A retail client wants to buy a structured note that guarantees return of
+    100% of capital at maturity but links any return above that to an equity
+    index. The firm is unsure whether to classify this as complex or non-complex
+    for appropriateness purposes. How should it be classified?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - cobs10a-appropriateness-mifid
+  required_facts:
+    - "The product is complex — appropriateness must be assessed — because it embeds a derivative element (the equity index-linked return) even though capital is guaranteed"
+    - "A structured product with a derivative component does not qualify as non-complex under COBS 10A regardless of the capital protection feature"
+    - "Capital protection affects the product's risk profile but does not remove the complexity classification — the criterion is whether the product embeds a derivative, not whether it is risky"
+    - "The firm must conduct an appropriateness assessment before executing a transaction in this product on a non-advised basis"
+  required_citations:
+    - "COBS 10A.4.1R"
+  notes_for_reviewer: >
+    Verify that the wiki captures the principle that embedded derivatives trigger
+    the complexity classification irrespective of capital protection. Confirm the
+    COBS 10A.4.1R criteria list as stated in the wiki page.
+  tags: [COBS, appropriateness, structured-products, complex-products, derivative]
+
+- id: H020
+  question: >
+    A firm providing execution-only services removes appropriateness assessments
+    entirely for all products and relies instead on prominent risk warnings on
+    its website. Is this compliant with COBS 10A?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - cobs10a-appropriateness-mifid
+  required_facts:
+    - "No — risk warnings are not a substitute for an appropriateness assessment for complex products"
+    - "COBS 10A requires an individualised assessment of the specific client's knowledge and experience for complex products — general website risk warnings do not discharge this obligation"
+    - "The non-complex carve-out from appropriateness applies only to non-complex products — complex products always require an individual assessment"
+    - "A firm that removes assessments for complex products is in breach of COBS 10A regardless of how prominent its risk warnings are"
+  required_citations:
+    - "COBS 10A.2.1R"
+    - "COBS 10A.4.1R"
+  tags: [COBS, appropriateness, complex-products, risk-warnings, execution-only]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# COBS — BEST EXECUTION (COBS 11)
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E023
+  question: >
+    What are the execution factors a firm must consider when executing client
+    orders under COBS 11, and which factor takes priority for retail clients?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - cobs11-dealing-managing
+  required_facts:
+    - "The execution factors are: price, costs, speed, likelihood of execution and settlement, size, nature of the order, and any other relevant consideration"
+    - "For retail clients, the primary factor is total consideration — the price of the financial instrument plus all transaction costs including commissions and fees charged to the client"
+    - "For professional clients, the firm may weight other factors more heavily where total consideration is not always dominant given the nature of the order"
+    - "The firm may not apply a relative importance to execution factors that is inconsistent with its published execution policy"
+  required_citations:
+    - "COBS 11.2A.2R"
+    - "COBS 11.2A.9R"
+  notes_for_reviewer: >
+    Verify COBS 11.2A.7EU (execution factors list) and COBS 11.2A.11EU (primacy of
+    total consideration for retail clients) in the wiki. These are onshored EU rules
+    and the wiki may cite them with different rule suffixes.
+  tags: [COBS, best-execution, execution-factors, retail-clients]
+
+- id: M029
+  question: >
+    What must a firm's order execution policy contain, and what obligations apply
+    to client consent and annual review?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - best-execution-framework
+  notes_for_reviewer: >
+    BM25 ceiling: cobs11-dealing-managing (the COBS 11 summary) does not reach
+    top-5 for this query — terms like "execution policy", "client consent", and
+    "annual review" pull unrelated inducements and research pages higher.
+    best-execution-framework (concept page) surfaces at rank 4 and is the best
+    available anchor. Pass@3 unlikely without wiki content improvement.
+  required_facts:
+    - "The execution policy must specify, for each class of financial instrument, the execution venues the firm uses and the factors affecting venue selection"
+    - "The policy must explain the relative importance given to each execution factor and how the firm applies them"
+    - "Firms must obtain prior consent from clients to the execution policy before executing orders on their behalf"
+    - "The policy must be reviewed at least annually and whenever a material change occurs that affects the firm's ability to achieve best execution"
+    - "The firm must notify clients of any material changes to its execution arrangements"
+  required_citations:
+    - "COBS 11.2A.21R"
+    - "COBS 11.2A.25R"
+  notes_for_reviewer: >
+    COBS 11.2A.21R = execution policy content (venues + factors per instrument class).
+    COBS 11.2A.23R = prior client consent. COBS 11.2A.25R = annual review + material change.
+    Confirmed against source PDF (April 2026).
+  tags: [COBS, best-execution, execution-policy, client-consent, annual-review]
+
+- id: M030
+  question: >
+    A retail client gives a specific instruction to execute an order on a
+    particular venue, which the firm's execution policy identifies as inferior
+    for that instrument. Must the firm follow the instruction?
+  difficulty: medium
+  type: edge-case
+  expected_pages:
+    - cobs11-dealing-managing
+  required_facts:
+    - "Yes — the firm must follow specific client instructions"
+    - "Where a client gives a specific instruction, the firm discharges its best execution obligation in respect of the part of the order covered by that instruction"
+    - "The firm's best execution obligation continues to apply to any aspect of the order not covered by the specific instruction"
+    - "The firm should warn the client if following the instruction may prevent it from obtaining the best result — but may still execute if the client insists"
+    - "Following a specific instruction does not override the firm's obligation to act in the client's best interest under COBS 2.1.1R"
+  required_citations:
+    - "COBS 11.2A.12R"
+  tags: [COBS, best-execution, specific-instruction, client-order]
+
+- id: M031
+  question: >
+    A firm wants to aggregate a small retail client order with a larger
+    institutional order before executing. Under what conditions is order
+    aggregation permitted and what must the firm disclose?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - cobs11-dealing-managing
+  required_facts:
+    - "Order aggregation is permitted only if it is unlikely that aggregation will work overall to the disadvantage of any client whose order is to be aggregated"
+    - "The firm must have a policy for the fair allocation of aggregated orders — this policy must form part of or accompany its order execution arrangements"
+    - "If the aggregated order is only partially executed, the firm must allocate trades in accordance with its allocation policy — retail clients must not be systematically disadvantaged"
+    - "The firm must disclose to clients that aggregation may work to their disadvantage in relation to any particular order"
+  required_citations:
+    - "COBS 11.3.7AR"
+  tags: [COBS, best-execution, order-aggregation, client-order-handling]
+
+- id: H021
+  question: >
+    An investment firm routes all retail client orders exclusively to a single
+    execution venue with which it has a revenue-sharing arrangement. It argues
+    that its execution policy discloses the arrangement and clients have
+    consented to the policy. Is the firm meeting its best execution obligation?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - cobs11-dealing-managing
+    - inducements-framework
+  required_facts:
+    - "No — routing all orders to a single venue regardless of instrument or market conditions is unlikely to satisfy the best execution obligation on a consistent basis"
+    - "Client consent to the execution policy does not override the best execution obligation — consent to the policy is not consent to sub-optimal execution"
+    - "The revenue-sharing arrangement is also an inducements concern under COBS 2.3A — an arrangement that directs client order flow for the firm's commercial benefit at the client's expense fails the quality-enhancement and best-interest tests"
+    - "Payment for order flow arrangements that direct orders for the firm's benefit rather than the client's best interest are separately prohibited"
+    - "Under COBS 2.3A.7E, breach of the inducements rules is automatically a breach of the client's best interests rule under COBS 2.1.1R"
+  required_citations:
+    - "COBS 11.2A.2R"
+    - "COBS 2.3A.7E"
+  tags: [COBS, best-execution, PFOF, inducements, single-venue]
+
+- id: H022
+  question: >
+    A firm's annual review of its execution policy finds that orders routed to
+    its primary venue have consistently achieved worse prices than competitor
+    venues over the past year. The firm updates its policy document to reflect
+    this but continues routing orders to the same venue. Has it met its best
+    execution obligations?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - cobs11-dealing-managing
+  required_facts:
+    - "No — updating the policy document alone does not discharge the best execution obligation"
+    - "The annual review obligation requires the firm to identify and correct deficiencies — not merely document them"
+    - "If the review demonstrates that existing arrangements are not achieving best execution consistently, the firm must change its execution arrangements, not just its disclosure"
+    - "Continuing to route to a venue known to deliver worse prices after identifying the deficiency is a breach of the best execution obligation regardless of what the policy document says"
+    - "The firm must also notify affected clients of any material change in its execution assessment and the remedial action taken"
+  required_citations:
+    - "COBS 11.2A.25R"
+  tags: [COBS, best-execution, annual-review, execution-policy]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CASS — CLIENT MONEY AND CUSTODY ASSETS
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E024
+  question: >
+    Where must a firm hold client money under CASS 7, what type of account is
+    required, and what specific acknowledgement must the firm obtain from the bank?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - client-money-framework
+  required_facts:
+    - "Client money must be held in a client bank account — an account held in the name of the firm but designated as a client account, separate from the firm's own money"
+    - "The account must be held at an approved bank — a credit institution authorised by the PRA, or a bank authorised in an EEA state or qualifying third country"
+    - "The firm must obtain a written acknowledgement from the bank confirming that: the money is held as client money, the bank cannot exercise any right of set-off against client money for debts owed by the firm, and the bank is aware the money belongs to clients"
+    - "The acknowledgement letter is a hard condition — without it, the client bank account cannot be treated as properly segregated under CASS 7"
+  required_citations:
+    - "CASS 7.13.3R"
+    - "CASS 7.18.2R"
+  tags: [CASS, client-money, segregation, client-bank-account]
+
+- id: E025
+  question: >
+    What is a CASS resolution pack and within what timeframe must a firm be
+    able to produce it?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - cass10-resolution-pack
+  required_facts:
+    - "A CASS resolution pack is a set of documents and records enabling rapid identification, return, or transfer of client money and custody assets in the event of the firm's insolvency"
+    - "It must contain sufficient information to allow a third party — such as an insolvency practitioner — to identify and return client assets without relying on the firm's staff"
+    - "The firm must be able to retrieve each document in the resolution pack within 48 hours — whether from an FCA or Bank of England request, or for an insolvency officer (administrator, receiver, trustee, or liquidator) appointed in respect of the firm"
+    - "The resolution pack obligation applies to all CASS-regulated firms — it is not limited to large firms or those with complex client asset arrangements"
+  required_citations:
+    - "CASS 10.1.7R"
+  tags: [CASS, resolution-pack, client-money, custody, insolvency]
+
+- id: M032
+  question: >
+    Under what conditions may a firm apply the institutional client money
+    opt-out under CASS 7, and what is the effect of doing so?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - client-money-framework
+  required_facts:
+    - "The institutional client money opt-out is available for eligible counterparties and certain professional clients — retail clients cannot opt out of client money protection"
+    - "The opt-out requires a written agreement signed by the client clearly stating the effect: the client's money will not be subject to CASS 7 protection and will be treated as the firm's own money"
+    - "Once opted out, the money loses its statutory trust status — in the firm's insolvency, the client becomes an unsecured creditor for that money rather than a beneficiary of the client money trust"
+    - "The firm must disclose clearly that opting out removes insolvency protection before obtaining the client's agreement"
+  required_citations:
+    - "CASS 7.10.10R"
+  notes_for_reviewer: >
+    CASS 7.10.10R = professional client opt-out (confirmed against wiki). Available to
+    professional clients and eligible counterparties; not available to retail clients.
+    Written acknowledgement required.
+    Confirm the CASS 7.10 sub-rule number.
+  tags: [CASS, client-money, institutional-opt-out, professional-clients, insolvency]
+
+- id: M033
+  question: >
+    A firm discovers a shortfall in its client money account — the aggregate
+    client money balance is less than what it owes to clients. What must it
+    do immediately?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - client-money-framework
+  required_facts:
+    - "The firm must immediately pay its own money into the client bank account to make good the shortfall — it cannot leave the shortfall unremedied even temporarily"
+    - "The firm must investigate the cause of the shortfall and correct any error in its reconciliation records"
+    - "If the firm cannot immediately make good the shortfall from its own resources, it must notify the FCA"
+    - "The shortfall must be recorded in the firm's reconciliation records — the firm cannot simply adjust records without addressing the underlying shortfall"
+    - "A persistent or unrecoverable shortfall is a significant CASS event that must be reported to the FCA"
+  required_citations:
+    - "CASS 7.15.29R"
+  notes_for_reviewer: >
+    Verify the exact CASS rule requiring immediate top-up of a client money shortfall
+    (may be CASS 7.15.29R or similar) and confirm the FCA notification obligation for
+    shortfalls the firm cannot immediately remedy. The significant CASS event reporting
+    trigger should be verified against the wiki.
+  tags: [CASS, client-money, shortfall, reconciliation, FCA-notification]
+
+- id: H023
+  question: >
+    A retail client enters into a title transfer collateral arrangement (TTCA)
+    with their broker as part of a margin trading account. What happens to CASS
+    protections for the assets transferred under the arrangement?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - cass6-custody-rules
+  required_facts:
+    - "A firm must not enter into a TTCA with a retail client in relation to assets that would otherwise be safe custody assets — the prohibition is absolute under CASS 6.1.6R"
+    - "Because the TTCA is prohibited, it has no legal effect under CASS — the assets remain safe custody assets and CASS 6 custody protections continue to apply"
+    - "The firm cannot use disclosure or consent to sidestep the retail TTCA ban — there is no waiver or exemption available for retail clients"
+    - "For non-retail clients, a TTCA is permitted only if the arrangement is documented, proportionality is assessed, and risks are disclosed — but none of these conditions apply to retail clients"
+    - "In contrast to non-retail TTCAs (where title transfers and the client becomes an unsecured creditor), a purported retail TTCA leaves the client's proprietary rights under CASS 6 intact"
+  required_citations:
+    - "CASS 6.1.6R"
+  tags: [CASS, custody, title-transfer, collateral, TTCA, retail-clients]
+
+- id: H024
+  question: >
+    A firm appoints a sub-custodian in a non-EEA jurisdiction to hold client
+    custody assets. The legal framework in that jurisdiction does not require
+    client assets to be separately identified from the sub-custodian's own assets.
+    What must the firm do before proceeding?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - cass6-custody-rules
+  required_facts:
+    - "A firm must only deposit client assets with a third party in a jurisdiction that specifically regulates and supervises the safekeeping of assets for another person — and the third party must be subject to that regulation"
+    - "Depositing in a jurisdiction that does not specifically regulate safekeeping is prohibited unless: (a) the nature of the asset or investment service requires it; or (b) for professional clients only, the client requests in writing that assets be deposited there"
+    - "The firm must take necessary steps to ensure assets deposited with the sub-custodian are identifiable separately from both the firm's own assets and the sub-custodian's own assets"
+    - "The firm remains responsible for exercising all due skill, care and diligence in the selection, appointment and periodic monitoring of the sub-custodian regardless of jurisdiction"
+  required_citations:
+    - "CASS 6.3.4R"
+    - "CASS 6.3.1R"
+  notes_for_reviewer: >
+    CASS 6.3.4R = jurisdiction restriction (confirmed against wiki). CASS 6.3.1R = due diligence
+    in selection and monitoring. Original citation CASS 6.3.3R does not appear in wiki or sources.
+  tags: [CASS, custody, sub-custodian, non-EEA, asset-segregation]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# COBS — INDUCEMENTS AND RESEARCH UNBUNDLING (COBS 2.3A / 2.3B)
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E026
+  question: >
+    What conditions must a third-party benefit meet to qualify as a permitted
+    minor non-monetary benefit (MNMB) under COBS 2.3A?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - inducements-framework
+  required_facts:
+    - "The benefit must be reasonable and proportionate in scale — it must not be so significant as to risk impairing the firm's obligation to act in the client's best interest"
+    - "The benefit must enhance the quality of service provided to the client — there must be a clear connection between the benefit and what the client receives"
+    - "The benefit must not impair compliance with the firm's duty to act honestly, fairly and professionally in the client's best interest"
+    - "MNMBs include: participation in training and conferences, hospitality of a reasonable value, minor gifts, and research that is widely available to the general public"
+    - "All non-monetary benefits received must be disclosed to the client at least annually in summary form"
+  required_citations:
+    - "COBS 2.3A.19R"
+  tags: [COBS, inducements, MNMB, third-party-payments, MiFID]
+
+- id: M034
+  question: >
+    An investment firm wishes to use a research payment account (RPA) to pay
+    for third-party research. What conditions must be satisfied before an RPA
+    can be used?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - research-unbundling
+    - inducements-framework
+  required_facts:
+    - "The RPA must be funded by a specific research charge to the client — a separate, transparent charge distinct from the execution commission"
+    - "The firm must set and regularly assess a research budget for the amount it expects to spend on third-party research — the budget must be agreed at least annually"
+    - "The firm must obtain prior consent from clients to use an RPA before it begins doing so — clients must be informed of the budgeted amount and the basis for the charge"
+    - "The firm must regularly assess the quality of research purchased to ensure it contributes to better investment decisions"
+    - "The RPA must be operated separately from the execution account — the firm must demonstrate that research payments come from the RPA, not from execution commissions"
+  required_citations:
+    - "COBS 2.3B.4R"
+  notes_for_reviewer: >
+    COBS 2.3B.4R = RPA conditions: volume/value de-linkage (4R(1)(b)), budget setting,
+    quality assessment (4R(4)). COBS 2.3B.25R is joint payments conditions — different
+    route. Confirmed against wiki/concepts/research-unbundling.md and
+    wiki/summaries/cobs2-conduct-of-business.md.
+  tags: [COBS, research, RPA, research-payment-account, unbundling]
+
+- id: M035
+  question: >
+    A broker provides a bundled service combining trade execution and investment
+    research. The investment firm receiving the service wishes to continue
+    receiving both. What must it do to remain compliant with COBS 2.3B?
+  difficulty: medium
+  type: synthesis
+  expected_pages:
+    - research-unbundling
+    - inducements-framework
+  required_facts:
+    - "The firm must unbundle the research from the execution — it must not pay for research through execution commissions"
+    - "The firm has two compliant options: pay for research from its own profit and loss (P&L funding), or use an RPA funded by a separate client charge"
+    - "Continuing to receive bundled research-and-execution payments without unbundling breaches COBS 2.3B"
+    - "A breach of the research unbundling obligation is also a breach of the inducements rules under COBS 2.3A — the bundled payment impairs the firm's duty to act in the client's best interest"
+    - "Under COBS 2.3A.7E, a breach of the inducements rules is automatically a breach of the client's best interests rule under COBS 2.1.1R — no separate analysis is required"
+  required_citations:
+    - "COBS 2.3B.3R"
+    - "COBS 2.3A.7E"
+    - "COBS 2.1.1R"
+  tags: [COBS, research, unbundling, inducements, execution-commission]
+
+- id: H025
+  question: >
+    A fund manager receives ongoing access to a proprietary data analytics
+    platform provided free of charge by an investment bank with which it also
+    trades. The bank argues this qualifies as a minor non-monetary benefit.
+    Does it?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - inducements-framework
+    - research-unbundling
+  required_facts:
+    - "Access to a proprietary data analytics platform with material commercial value is unlikely to qualify as a minor non-monetary benefit"
+    - "MNMBs must be of a scale and nature that cannot reasonably be seen as impairing the firm's independence or its duty to act in clients' best interests — an ongoing platform providing operational value to the investment process does not meet this threshold"
+    - "A data analytics platform is closer in nature to investment research than to permitted hospitality or training — if it constitutes research, it is subject to the COBS 2.3B unbundling rules and must be paid for through P&L or an RPA"
+    - "The test is whether the benefit enhances quality of service to the client — if it primarily benefits the firm's own operations rather than the client directly, it fails this test"
+  required_citations:
+    - "COBS 2.3A.19R"
+    - "COBS 2.3B"
+  tags: [COBS, inducements, MNMB, research, data-analytics]
+
+- id: H026
+  question: >
+    An investment firm's trading desk accepts soft commissions — directing
+    client order flow to a broker in exchange for research and Bloomberg terminal
+    access. What rules does this breach and what is the automatic consequence
+    under COBS 2.3A.7E?
+  difficulty: hard
+  type: synthesis
+  expected_pages:
+    - inducements-framework
+    - research-unbundling
+  notes_for_reviewer: >
+    BM25 ceiling: a separate client-best-interests-rule concept page exists but
+    does not reach top-3 for this query — the inducements and unbundling pages
+    together cover the COBS 2.3A.7E automatic-breach mechanism adequately.
+  required_facts:
+    - "Directing client order flow in exchange for benefits to the firm is an inducement arrangement prohibited under COBS 2.3A — soft commissions do not meet the permitted third-party payment test"
+    - "Research received through soft commissions must be paid for through P&L or an RPA under COBS 2.3B — bundled payment through execution commissions is prohibited"
+    - "The arrangement also breaches the best execution obligation under COBS 11 — orders are directed for commercial benefit rather than to achieve best result for the client"
+    - "Under COBS 2.3A.7E, a breach of the inducements prohibition is automatically a breach of the client's best interests rule under COBS 2.1.1R — no separate analysis of the client's interests is needed"
+  required_citations:
+    - "COBS 2.3A.7E"
+    - "COBS 2.1.1R"
+    - "COBS 2.3B"
+  tags: [COBS, inducements, soft-commissions, research, best-execution, client-best-interests]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# APP FRAUD REIMBURSEMENT — PSR PS23/3
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E027
+  question: >
+    Who is entitled to mandatory APP fraud reimbursement under PSR PS23/3
+    and what is the maximum reimbursable amount per claim?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - app-fraud-reimbursement-scheme
+  required_facts:
+    - "Consumers entitled to reimbursement are individuals, micro-enterprises, and charities — the scheme does not cover larger businesses"
+    - "The mandatory reimbursement maximum is £85,000 per claim"
+    - "Claims above £85,000 are partially reimbursed up to the cap — the excess is not recoverable under the mandatory scheme, though firms may choose to pay more voluntarily"
+    - "The scheme applies to Faster Payments made from UK accounts — it does not cover CHAPS, international transfers, or card payments"
+  required_citations:
+    - "PSR PS23/3"
+  notes_for_reviewer: >
+    Verify the £85,000 cap against the wiki page — the cap was reduced from the
+    originally proposed £415,000 and caused significant industry controversy.
+    Confirm also whether CHAPS is now partially in scope under any subsequent
+    PSR update or whether the wiki reflects Faster Payments only.
+  tags: [APP-fraud, PSR, reimbursement, PS23-3, consumer-protection]
+
+- id: E028
+  question: >
+    What is the time limit for a consumer to report an APP fraud claim to
+    their PSP to qualify for mandatory reimbursement?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - app-fraud-reimbursement-scheme
+  required_facts:
+    - "The consumer must report the APP fraud to their PSP within 13 months of the date of the fraudulent payment"
+    - "A consumer who fails to notify within 13 months loses the right to mandatory reimbursement under PSR PS23/3"
+    - "The 13-month limit aligns with the PSR 2017 unauthorised transaction claim window"
+  required_citations:
+    - "PSR PS23/3"
+  tags: [APP-fraud, PSR, claim-deadline, PS23-3, reimbursement]
+
+- id: M036
+  question: >
+    A consumer authorised a payment to a fraudster despite their PSP displaying
+    a clear, specific warning that the payee had been associated with fraud.
+    Can the PSP reduce or deny reimbursement?
+  difficulty: medium
+  type: edge-case
+  expected_pages:
+    - app-fraud-reimbursement-scheme
+  required_facts:
+    - "Yes — if the consumer ignored a specific, effective warning about a high-risk payee, the PSP may reduce or deny reimbursement"
+    - "The warning must have been specific to the payee or the transaction — generic fraud awareness messages do not satisfy this requirement"
+    - "The consumer is assessed against the standard of a reasonably careful person — if such a person would have heeded the warning, ignoring it constitutes contributory behaviour"
+    - "If the consumer is vulnerable, a higher standard of care applies — ignoring a warning may not reduce reimbursement for a vulnerable consumer who lacked capacity to understand it"
+    - "PSPs must document the warning given, including its content and timing, to rely on it as grounds for reducing reimbursement"
+  required_citations:
+    - "PSR PS23/3"
+  tags: [APP-fraud, PSR, reimbursement, fraud-warning, consumer-behaviour, PS23-3]
+
+- id: M037
+  question: >
+    How does liability for mandatory APP fraud reimbursement split between
+    the sending PSP and the receiving PSP under PSR PS23/3?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - app-fraud-reimbursement-scheme
+  required_facts:
+    - "The sending PSP is the primary obligor — it is responsible for reimbursing the consumer in the first instance"
+    - "The receiving PSP must contribute 50% of the reimbursement amount to the sending PSP — the cost is shared equally between them"
+    - "The 50/50 split is a default allocation and does not depend on which PSP was at greater fault"
+    - "The receiving PSP's obligation to contribute arises only after the sending PSP has reimbursed the consumer — the consumer always deals with the sending PSP"
+    - "Both PSPs must maintain systems to identify inbound mule accounts — the receiving PSP's contribution obligation is designed to incentivise detection of fraudulent recipient accounts"
+  required_citations:
+    - "PSR PS23/3"
+  tags: [APP-fraud, PSR, sending-PSP, receiving-PSP, liability-split, PS23-3]
+
+- id: H027
+  question: >
+    A consumer identified as vulnerable by their PSP authorised a payment to a
+    fraudster after the PSP displayed a standard fraud warning. The PSP wishes to
+    reduce reimbursement on the basis the consumer ignored the warning. Is this
+    a valid basis for reduction?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - app-fraud-reimbursement-scheme
+  required_facts:
+    - "No — a standard fraud warning alone is not sufficient grounds to reduce reimbursement for a consumer the PSP has identified as vulnerable"
+    - "Vulnerable consumers are entitled to additional care — the PSP must take steps proportionate to the vulnerability, which may include more targeted intervention or additional friction on the transaction"
+    - "A generic warning displayed to all customers does not satisfy the higher duty of care owed to a vulnerable consumer"
+    - "The PSP bears the burden of demonstrating gross negligence — for vulnerable consumers the bar is higher because their vulnerability may have been exploited by the fraudster"
+    - "If the PSP failed to take appropriate steps given its knowledge of the vulnerability, it cannot rely on the consumer's failure to heed a warning it knew was insufficient"
+  required_citations:
+    - "PSR PS23/3"
+  tags: [APP-fraud, PSR, vulnerable-consumers, reimbursement, fraud-warning, PS23-3]
+
+- id: H028
+  question: >
+    A micro-enterprise suffers an APP fraud loss of £120,000. How much is
+    reimbursable under PSR PS23/3 and what conditions apply to the claim?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - app-fraud-reimbursement-scheme
+  required_facts:
+    - "The maximum mandatory reimbursement is £85,000 — the micro-enterprise recovers £85,000, not the full £120,000"
+    - "Micro-enterprises are within the eligible claimant category and receive the same mandatory protection as individual consumers"
+    - "The £35,000 excess above the cap is not recoverable under the mandatory scheme — the micro-enterprise may pursue the fraudster directly or seek voluntary top-up from its PSP"
+    - "The micro-enterprise must report the fraud within 13 months of the fraudulent payment and must not have acted fraudulently or with gross negligence in authorising the payment"
+    - "The definition of micro-enterprise: fewer than 10 employees and annual turnover or balance sheet total not exceeding €2 million"
+  required_citations:
+    - "PSR PS23/3"
+  notes_for_reviewer: >
+    Verify the micro-enterprise definition (fewer than 10 employees, €2m threshold)
+    and the £85,000 cap against the wiki page.
+  tags: [APP-fraud, PSR, micro-enterprise, reimbursement-cap, PS23-3]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# FINANCIAL PROMOTIONS APPROVER REGIME (s.21 FSMA / FCA GATEWAY)
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E029
+  question: >
+    What is the FCA financial promotions approver gateway, when did it come into
+    force, and what does it require of authorised firms that approve financial
+    promotions for unauthorised persons?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - financial-promotions-approver-regime
+  required_facts:
+    - "The FCA gateway requires authorised firms that approve financial promotions for unauthorised persons to first obtain specific FCA approval to perform that function"
+    - "The gateway came into force on 7 January 2024 — firms already approving promotions were given a transitional period to apply"
+    - "Under s.21 FSMA an unauthorised person may only communicate a financial promotion if it is approved by an FCA-authorised person — the gateway adds a second layer requiring the approver itself to be specifically authorised by the FCA to approve third-party promotions"
+    - "An authorised firm that approves third-party promotions without gateway approval is itself in breach — and the unauthorised person communicating the promotion commits a criminal offence under s.25 FSMA"
+  required_citations:
+    - "FSMA 2000 s.21"
+    - "COBS 4.10"
+  notes_for_reviewer: >
+    FSMA 2000 s.21 = financial promotion restriction. COBS 4.10 = FCA gateway
+    obligations for s.21 approvers (4.10.2R: pre-approval, ongoing monitoring,
+    quarterly attestation). FSMA s.21A does not appear in the wiki — no FSMA section
+    of that number relates to financial promotions; only Terrorism Act 2000 s.21A
+    (TF disclosure) exists. The gateway was implemented through FCA permission
+    requirements and COBS 4.10. Date confirmed as 7 January 2024 in wiki (question
+    says 7 Feb — verify against source).
+  tags: [financial-promotions, approver, FCA-gateway, s21-FSMA, authorised-persons]
+
+- id: M038
+  question: >
+    An authorised firm approves a financial promotion for an unauthorised fintech.
+    The promotion is communicated. What ongoing obligations does the approver have
+    after giving approval?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - financial-promotions-approver-regime
+  required_facts:
+    - "The approver must monitor the promotion on an ongoing basis — approval is not a one-off event discharged at the point of sign-off"
+    - "If the promotion ceases to comply with FCA financial promotion rules after approval, the approver must withdraw approval and notify the unauthorised firm"
+    - "On withdrawal of approval, the unauthorised firm must immediately withdraw the promotion — it becomes unlawful to communicate a promotion that no longer has a valid approval"
+    - "The approver must keep records of all approvals, the basis for each approval, and any subsequent withdrawal — the firm takes on regulatory responsibility for the promotion's ongoing compliance"
+  required_citations:
+    - "FSMA 2000 s.21"
+    - "COBS 4.10"
+  notes_for_reviewer: >
+    Ongoing monitoring and withdrawal obligation = COBS 4.10.2R (confirmed against
+    wiki). Quarterly attestation requirement from unauthorised person = COBS 4.10.2R.
+    Record keeping = COBS 4.11.1R. FSMA s.21A does not appear in the wiki — replaced
+    with COBS 4.10 which is the FCA conduct rule implementing the gateway.
+  tags: [financial-promotions, approver, monitoring, withdrawal, FCA-gateway]
+
+- id: M039
+  question: >
+    Does the FCA financial promotions approver gateway apply to a firm approving
+    its own financial promotions, or to an appointed representative approving
+    promotions on behalf of its principal?
+  difficulty: medium
+  type: boundary
+  expected_pages:
+    - financial-promotions-approver-regime
+  required_facts:
+    - "No — the gateway does not apply to firms approving their own financial promotions. An authorised firm communicating a promotion for its own products does not need gateway approval — its FCA authorisation already permits it to communicate its own promotions"
+    - "The gateway applies only where an authorised firm approves a promotion for an unauthorised third party under s.21 FSMA"
+    - "Appointed representatives communicating promotions that fall within the scope of their principal's business also do not require gateway approval — the principal's authorisation covers the representative's promotions within that scope"
+    - "The gateway is specifically targeted at the s.21 approver function — the market of authorised firms providing approval services to unauthorised businesses"
+  required_citations:
+    - "COBS 4.10"
+  notes_for_reviewer: >
+    Scope of gateway (applies to s.21 approvals for unauthorised third parties only,
+    not own promotions or AR promotions within principal scope) = COBS 4.10. FSMA s.21A
+    does not appear in the wiki.
+  tags: [financial-promotions, approver, FCA-gateway, scope, own-promotions]
+
+- id: H029
+  question: >
+    An authorised firm that has not applied for FCA gateway approval is asked to
+    approve a financial promotion for an unauthorised cryptoasset firm. What
+    compliance issues arise for both parties?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - financial-promotions-approver-regime
+  notes_for_reviewer: >
+    BM25 ceiling: cryptoasset-financial-promotions-framework is a valid secondary
+    page but does not consistently reach top-3 when the query terms are weighted
+    toward the approver regime. The approver-regime page covers the core answer;
+    the crypto-specific restriction is a secondary layer. Reduce to single expected
+    page to avoid penalising Pass@3 for an architectural retrieval limit.
+  required_facts:
+    - "The authorised firm cannot approve the promotion — without gateway approval, any purported approval is itself a breach of COBS 4.10 and FSMA s.21"
+    - "For cryptoasset financial promotions there is an additional restriction — only firms specifically approved by the FCA to approve cryptoasset promotions, or MLR-registered cryptoasset businesses communicating their own promotions, may approve or communicate crypto financial promotions"
+    - "If the authorised firm approves without gateway approval, it commits a breach of COBS 4.10 — and the unauthorised firm communicating the promotion commits a criminal offence under s.25 FSMA"
+    - "The unauthorised cryptoasset firm must seek approval only from a gateway-approved firm that is also specifically approved for cryptoasset promotions — the pool of eligible approvers is deliberately narrow"
+  required_citations:
+    - "COBS 4.10"
+    - "FSMA 2000 s.21"
+    - "FSMA 2000 s.25"
+    - "PS23/6"
+  notes_for_reviewer: >
+    Gateway obligation = COBS 4.10 (not FSMA s.21A which does not appear in the wiki).
+    Criminal offence for communicating without approval = FSMA s.25 (confirmed in wiki).
+    Crypto-specific approver restrictions = PS23/6.
+  tags: [financial-promotions, approver, cryptoassets, FCA-gateway, s21-FSMA]
+
+- id: H030
+  question: >
+    A gateway-approved firm approved a financial promotion in October 2023. In
+    April 2024 the underlying product's risk profile changed materially — the
+    issuer increased the maximum leverage available. The approver was not informed.
+    Who bears regulatory responsibility and what should the approver have done?
+  difficulty: hard
+  type: synthesis
+  expected_pages:
+    - financial-promotions-approver-regime
+  required_facts:
+    - "The approver bears ongoing regulatory responsibility for the promotion — approval is not discharged by a one-off review at the point of sign-off"
+    - "The approver should have contractual arrangements with the unauthorised firm requiring notification of any material change to the product or promotion — without this it cannot discharge its ongoing monitoring obligation"
+    - "A material change in the product's risk profile (increased leverage) would likely make the approved promotion non-compliant — it may now omit material information about the product's risks"
+    - "The approver's failure to establish a mechanism for notification of material changes is itself a failure of its ongoing monitoring obligation under COBS 4.10.2R"
+    - "Once aware of non-compliance, the approver must withdraw approval — the promotion must then be withdrawn by the unauthorised firm immediately"
+  required_citations:
+    - "FSMA 2000 s.21"
+    - "COBS 4.10"
+  notes_for_reviewer: >
+    Ongoing monitoring and withdrawal = COBS 4.10.2R. FSMA s.21 = underlying financial
+    promotion restriction. FSMA s.21A does not appear in the wiki. Required fact
+    reference updated from "s.21A" to "COBS 4.10.2R" accordingly.
+  tags: [financial-promotions, approver, material-change, monitoring, ongoing-obligation]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# OPERATIONAL RESILIENCE — SYSC 15A
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E030
+  question: >
+    What is an "important business service" under SYSC 15A, and what two
+    dimensions must an impact tolerance address?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - operational-resilience
+  required_facts:
+    - "An important business service (IBS) is a service provided by a firm to an external end user whose disruption could cause intolerable harm to consumers or market integrity, or pose a risk to the firm's safety and soundness or financial stability"
+    - "Firms must identify their own important business services — the FCA does not prescribe which services qualify; identification is the firm's responsibility based on impact assessment"
+    - "An impact tolerance must address two dimensions: (1) the maximum tolerable duration of disruption — the longest the firm can be disrupted before harm becomes intolerable; and (2) the maximum tolerable level of disruption within that period, for example transaction volumes or data integrity thresholds"
+    - "The deadline for all firms to be able to remain within their impact tolerances was 31 March 2025"
+  required_citations:
+    - "SYSC 15A.2.1R"
+    - "SYSC 15A.2.5R"
+  notes_for_reviewer: >
+    SYSC 15A.2.1R = IBS identification obligation. SYSC 15A.2.5R = impact tolerance
+    setting. Original SYSC 15A.4 is the mapping section — not relevant to this question.
+    Confirmed against wiki/concepts/operational-resilience.md.
+  tags: [SYSC, operational-resilience, important-business-service, impact-tolerance]
+
+- id: M040
+  question: >
+    A firm has set an impact tolerance of 24 hours for its payment processing
+    service. What ongoing SYSC 15A obligations does it have to test whether it
+    can remain within that tolerance?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - operational-resilience
+  required_facts:
+    - "The firm must carry out scenario testing to assess its ability to remain within the 24-hour impact tolerance — testing must include severe but plausible disruption scenarios"
+    - "Scenario testing must cover technology failures, cyber incidents, third-party failures, and physical access failures — scenarios must be tailored to the firm's specific vulnerabilities"
+    - "The firm must learn lessons from testing and act on the findings — scenario testing is not a box-ticking exercise; the firm must improve resilience where testing reveals gaps"
+    - "The firm must document its mapping of the people, processes, technology, facilities, and information that underpin the service — this mapping informs scenario design"
+    - "Results of scenario testing must be reported to the firm's governing body"
+  required_citations:
+    - "SYSC 15A.5"
+  notes_for_reviewer: >
+    SYSC 15A.5.3R/5.4R = mandatory testing obligation. SYSC 15A.5.7R = three testing
+    triggers. SYSC 15A.5.8R/5.9R = lessons learned and improvements. SYSC 15A.6 is
+    self-assessment documentation — not scenario testing. Governing body approval is
+    SYSC 15A.7.1R. Confirmed against wiki/concepts/operational-resilience.md.
+  tags: [SYSC, operational-resilience, scenario-testing, impact-tolerance]
+
+- id: M041
+  question: >
+    A firm's scenario testing reveals it cannot remain within its stated impact
+    tolerance for its customer-facing mobile banking service. What must it do?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - operational-resilience
+  required_facts:
+    - "The firm must develop and implement a plan to remediate the gap — it must improve its resilience to the point where it can remain within its impact tolerance"
+    - "The firm must notify the FCA that it has identified a gap between its current resilience and its stated impact tolerance"
+    - "The firm must not simply lower its impact tolerance to match its actual (deficient) resilience — the tolerance must be set at the level that prevents intolerable harm, not at the level the firm currently achieves"
+    - "Until the gap is remediated, the firm must maintain response and recovery capabilities to manage a disruption that exceeds the tolerance"
+    - "Ongoing testing must continue while the remediation plan is in progress to monitor whether resilience is improving"
+  required_citations:
+    - "SYSC 15A.2.11G"
+  notes_for_reviewer: >
+    SYSC 15A.2.11G = Principle 11 notification trigger for any failure to meet an
+    impact tolerance (no materiality threshold). SYSC 15A.6.6R does not exist — SYSC
+    15A.6 only has 15A.6.1R and 15A.6.2R. Confirmed against wiki/concepts/operational-resilience.md
+    and wiki/summaries/sysc15a-operational-resilience.md.
+  tags: [SYSC, operational-resilience, impact-tolerance, FCA-notification, remediation]
+
+- id: H031
+  question: >
+    A firm has identified its important business services and set impact tolerances,
+    but has not mapped the people, processes, technology, facilities, and information
+    underpinning each service. It argues the mapping is optional. Is this correct?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - operational-resilience
+  required_facts:
+    - "No — the mapping is a mandatory SYSC 15A requirement, not optional"
+    - "Firms must map the people, processes, technology, facilities, and information (PPTI+F) that support each important business service — this mapping is what enables meaningful scenario testing and credible impact tolerance figures"
+    - "Without mapping, a firm cannot identify dependencies and vulnerabilities of its IBS — its impact tolerance figures are not evidence-based and its scenario testing is not credible"
+    - "The FCA expects firms to have completed initial mapping as part of their self-assessment — mapping is the foundation of the SYSC 15A framework, not an optional enhancement"
+    - "Failure to complete mapping is a breach of SYSC 15A even if the firm has produced other elements of an operational resilience framework"
+  required_citations:
+    - "SYSC 15A.4"
+  notes_for_reviewer: >
+    SYSC 15A.4.1R = mapping obligation (five asset categories: people, processes,
+    technology, facilities, information). SYSC 15A.5 is scenario testing — not
+    mapping. Confirmed against wiki/concepts/operational-resilience.md.
+  tags: [SYSC, operational-resilience, mapping, PPTI, self-assessment]
+
+- id: H032
+  question: >
+    A firm outsources its core payment processing to a major cloud provider and
+    argues that because the provider is large and well-resourced with its own
+    resilience programme, it does not need to include the provider in its
+    operational resilience mapping or scenario testing. Is this correct?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - operational-resilience
+  required_facts:
+    - "No — SYSC 15A applies to the firm regardless of who provides its underlying infrastructure"
+    - "Third-party dependencies — including cloud providers — must be included in the firm's mapping of the people, processes, technology, facilities, and information supporting each important business service"
+    - "The firm remains fully responsible for the resilience of its important business services even where those services rely on outsourced infrastructure"
+    - "Scenario testing must include scenarios involving third-party failure — including cloud provider outages — even if the provider is well-resourced"
+    - "The firm cannot outsource its SYSC 15A obligations — it must have its own impact tolerance, its own testing, and its own response plan for third-party failures"
+  required_citations:
+    - "SYSC 15A.4"
+    - "SYSC 15A.5"
+  notes_for_reviewer: >
+    SYSC 15A.4.1R = mapping (must include third-party resources per 15A.4.2G).
+    SYSC 15A.5.3R/5.7R = scenario testing (must include third-party failure scenarios).
+    SYSC 15A.6 is self-assessment docs — not relevant here. Confirmed against wiki.
+  tags: [SYSC, operational-resilience, outsourcing, cloud, third-party]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# UK GDPR — ACCOUNTABILITY LAYER (DPIA, DPO, BREACH NOTIFICATION, PROCESSORS)
+# ─────────────────────────────────────────────────────────────────────────────
+
+- id: E031
+  question: >
+    Under UK GDPR Article 37, what three categories of processing make
+    appointment of a Data Protection Officer mandatory?
+  difficulty: easy
+  type: factual
+  expected_pages:
+    - uk-gdpr-dpo
+  required_facts:
+    - "Processing carried out by a public authority or public body (other than courts acting in a judicial capacity)"
+    - "Core activities that consist of processing operations which by their nature, scope or purposes require regular and systematic monitoring of data subjects on a large scale"
+    - "Core activities that consist of processing on a large scale of special categories of data under Article 9 or personal data relating to criminal convictions and offences under Article 10"
+    - "'Core activities' means the primary business activities — a DPO is not mandatory where data processing is merely an ancillary support function even if it is large-scale"
+    - "Organisations not subject to mandatory DPO appointment may appoint one voluntarily — but the same statutory obligations then apply as for mandatory DPOs"
+  required_citations:
+    - "UK GDPR Art. 37(1)"
+  tags: [UK-GDPR, DPO, accountability, mandatory-appointment]
+
+- id: M042
+  question: >
+    A fintech firm is launching an AI-based credit scoring system that will
+    process financial and behavioural data on millions of customers to produce
+    automated credit decisions. Must it conduct a DPIA before launch?
+  difficulty: medium
+  type: synthesis
+  expected_pages:
+    - uk-gdpr-dpia
+    - uk-gdpr-automated-decision-making
+  required_facts:
+    - "Yes — a DPIA is mandatory before launch"
+    - "Article 35(3)(a) requires a DPIA for systematic and extensive evaluation of personal aspects of natural persons based on automated processing including profiling, which produces decisions that significantly affect natural persons — automated credit scoring is the paradigm case"
+    - "Large-scale processing is a separate mandatory DPIA trigger — processing data on millions of customers satisfies this threshold regardless of the automated decision-making element"
+    - "The DPIA must assess: the nature, scope, context and purposes of the processing; necessity and proportionality; risks to rights and freedoms; and measures to address those risks"
+    - "If the DPIA concludes that residual risks remain high after mitigation measures, the firm must consult the ICO before proceeding — it cannot launch until the ICO has responded or 8 weeks have passed"
+  required_citations:
+    - "UK GDPR Art. 35(3)(a)"
+    - "UK GDPR Art. 36"
+  tags: [UK-GDPR, DPIA, automated-decision-making, credit-scoring, fintech]
+
+- id: M043
+  question: >
+    What are the minimum mandatory terms a controller must include in a processor
+    contract under UK GDPR Article 28?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - uk-gdpr-processor-contracts
+  required_facts:
+    - "The processor must process personal data only on documented instructions from the controller"
+    - "The processor must ensure that persons authorised to process the data are subject to a duty of confidentiality"
+    - "The processor must implement appropriate technical and organisational security measures under Article 32"
+    - "The processor must not engage a sub-processor without prior written authorisation from the controller (specific or general)"
+    - "The processor must assist the controller in responding to data subject rights requests"
+    - "The processor must assist the controller with its security, breach notification, DPIA, and prior consultation obligations"
+    - "On termination, the processor must delete or return all personal data to the controller"
+    - "The processor must make available all information necessary to demonstrate compliance and allow audits"
+  required_citations:
+    - "UK GDPR Art. 28(3)"
+  tags: [UK-GDPR, processor-contracts, Article-28, mandatory-terms, accountability]
+
+- id: M044
+  question: >
+    A processor suffers a personal data breach affecting personal data it
+    processes on behalf of a controller. What must the processor do and within
+    what timeframe?
+  difficulty: medium
+  type: factual
+  expected_pages:
+    - uk-gdpr-personal-data-breaches
+    - uk-gdpr-processor-contracts
+  required_facts:
+    - "The processor must notify the controller without undue delay after becoming aware of the breach"
+    - "There is no fixed statutory timeframe imposed on the processor's notification to the controller — 'without undue delay' means as quickly as possible in the circumstances"
+    - "The processor is not required to notify the ICO directly — that obligation rests with the controller"
+    - "The 72-hour clock for ICO notification applies to the controller — it typically starts when the controller becomes aware of the breach, which is usually when the processor notifies them"
+    - "The processor must provide sufficient information to enable the controller to comply with its notification obligations — including the nature of the breach, categories of data affected, and measures taken or proposed"
+  required_citations:
+    - "UK GDPR Art. 33(2)"
+    - "UK GDPR Art. 33(1)"
+  tags: [UK-GDPR, personal-data-breaches, processor, controller, breach-notification]
+
+- id: H033
+  question: >
+    A firm conducts a DPIA for a new biometric access control system processing
+    employees' fingerprints. The DPIA concludes that residual risks to employee
+    rights and freedoms remain high even after all proposed mitigation measures.
+    What must the firm do before deploying the system?
+  difficulty: hard
+  type: factual
+  expected_pages:
+    - uk-gdpr-dpia
+  required_facts:
+    - "Where a DPIA concludes that residual risks remain high despite mitigation measures, the firm must consult the ICO before proceeding — this is mandatory prior consultation under Article 36"
+    - "The firm must submit the DPIA to the ICO along with a description of the processing, the purposes, the measures proposed, the data controller's details, and the DPO's details if applicable"
+    - "The ICO has up to 8 weeks to respond (extendable by a further 6 weeks in complex cases) — the firm must not deploy the system until the ICO has responded or the consultation period has expired"
+    - "If the ICO considers the processing would infringe the UK GDPR, it must provide written advice and may restrict or prohibit the processing"
+    - "Biometric data is special category data under Article 9 — the DPIA must also identify a valid Article 9 condition for processing in addition to an Article 6 lawful basis"
+  required_citations:
+    - "UK GDPR Art. 36"
+    - "UK GDPR Art. 9"
+  tags: [UK-GDPR, DPIA, prior-consultation, ICO, biometric, special-category]
+
+- id: H034
+  question: >
+    A firm with 200 employees processes occupational health data about its staff
+    as part of a systematic health monitoring programme. Must it maintain a Record
+    of Processing Activities under UK GDPR Article 30?
+  difficulty: hard
+  type: edge-case
+  expected_pages:
+    - uk-gdpr-records-of-processing
+  required_facts:
+    - "Yes — the firm must maintain a RoPA despite having fewer than 250 employees"
+    - "Article 30(5) provides an exemption from the RoPA obligation for organisations with fewer than 250 employees, but the exemption does not apply where the processing is likely to result in a risk to data subjects' rights and freedoms, where processing is not occasional, or where processing includes special categories under Article 9"
+    - "Occupational health data is health data — a special category under Article 9 — which disapplies the small-organisation exemption entirely"
+    - "The exemption also fails on the 'not occasional' ground — a systematic health monitoring programme is regular, ongoing processing"
+    - "In practice the Article 30(5) exemption is very narrow — most organisations that process any special category data or carry out regular processing must maintain a RoPA regardless of size"
+  required_citations:
+    - "UK GDPR Art. 30(1)"
+    - "UK GDPR Art. 30(5)"
+  tags: [UK-GDPR, RoPA, records-of-processing, Article-30, special-category, small-organisations]

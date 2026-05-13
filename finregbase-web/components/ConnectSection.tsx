@@ -34,7 +34,7 @@ export function ConnectSection() {
         tabKeys.map(async (key) => {
           const html = await codeToHtml(configSnippets[key], {
             lang: "json",
-            theme: "github-light",
+            theme: "vitesse-light",
           });
           return [key, html] as const;
         })
@@ -101,8 +101,8 @@ export function ConnectSection() {
       <p className="text-xs font-medium uppercase tracking-[0.16em] text-text-secondary">
         Connect in 60 seconds
       </p>
-      <h2 className="mt-2 text-3xl font-semibold tracking-tight text-text-primary md:text-4xl">
-        Connect in 60 seconds
+      <h2 className="mt-2 text-2xl font-semibold tracking-tight text-text-primary md:text-3xl">
+        Paste your MCP config and connect
       </h2>
 
       <div

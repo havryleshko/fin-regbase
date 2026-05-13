@@ -27,12 +27,7 @@ export default function ChangelogPage() {
         <div className="mt-10 space-y-4">
           {changelogEntries.map((entry) => (
             <article key={`${entry.date}-${entry.title}`} className="rounded-xl border border-border bg-surface p-5">
-              <div className="flex flex-wrap items-center gap-3">
-                <p className="text-xs font-medium uppercase tracking-[0.16em] text-text-secondary">
-                  {entry.phase}
-                </p>
-                <p className="text-sm text-text-secondary">{entry.date}</p>
-              </div>
+              <p className="text-sm text-text-secondary">{entry.date}</p>
               <h2 className="mt-2 text-xl font-semibold tracking-tight">{entry.title}</h2>
               <p className="mt-2 text-sm leading-6 text-text-secondary">{entry.summary}</p>
               {entry.links && entry.links.length > 0 ? (

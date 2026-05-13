@@ -1,0 +1,4893 @@
+{
+  "run_at": "20260513_122327",
+  "top_k": 5,
+  "total": 109,
+  "results": [
+    {
+      "id": "E001",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What is the exact mandatory risk warning that must appear on all high-cost short-term credit financial promotions?",
+      "expected_pages": [
+        "conc3-financial-promotions"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 34.449
+        },
+        {
+          "slug": "fca-consumer-duty-implementation-review-2024",
+          "path": "derived/fca-consumer-duty-implementation-review-2024.md",
+          "score": 27.6028
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 27.4558
+        },
+        {
+          "slug": "ps23-6-cryptoasset-financial-promotions",
+          "path": "summaries/ps23-6-cryptoasset-financial-promotions.md",
+          "score": 26.7167
+        },
+        {
+          "slug": "consumer-understanding-digital-notifications",
+          "path": "derived/consumer-understanding-digital-notifications.md",
+          "score": 26.496
+        }
+      ],
+      "found_at_rank": {
+        "conc3-financial-promotions": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E002",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What is the TEXAS model and what does each letter stand for?",
+      "expected_pages": [
+        "vulnerable-customers"
+      ],
+      "retrieved": [
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 23.8526
+        },
+        {
+          "slug": "fg21-1-guidance",
+          "path": "summaries/fg21-1-guidance.md",
+          "score": 23.5647
+        },
+        {
+          "slug": "vulnerability-drivers-and-taxonomy",
+          "path": "concepts/vulnerability-drivers-and-taxonomy.md",
+          "score": 23.3215
+        },
+        {
+          "slug": "consumer-duty-products-services",
+          "path": "concepts/consumer-duty-products-services.md",
+          "score": 18.0025
+        },
+        {
+          "slug": "prod-product-governance",
+          "path": "concepts/prod-product-governance.md",
+          "score": 17.5642
+        }
+      ],
+      "found_at_rank": {
+        "vulnerable-customers": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E003",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What are the three cross-cutting rules under the FCA Consumer Duty and which provision contains them?",
+      "expected_pages": [
+        "consumer-duty-cross-cutting-rules"
+      ],
+      "retrieved": [
+        {
+          "slug": "consumer-duty-cross-cutting-rules",
+          "path": "concepts/consumer-duty-cross-cutting-rules.md",
+          "score": 28.0917
+        },
+        {
+          "slug": "prin2a-consumer-duty",
+          "path": "summaries/prin2a-consumer-duty.md",
+          "score": 27.3984
+        },
+        {
+          "slug": "consumer-principle",
+          "path": "concepts/consumer-principle.md",
+          "score": 26.3485
+        },
+        {
+          "slug": "client-best-interests-rule",
+          "path": "concepts/client-best-interests-rule.md",
+          "score": 26.2306
+        },
+        {
+          "slug": "fg22-5-guidance",
+          "path": "summaries/fg22-5-guidance.md",
+          "score": 26.1904
+        }
+      ],
+      "found_at_rank": {
+        "consumer-duty-cross-cutting-rules": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E004",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "Under CONC, how many CPA payment attempts may a firm make under an HCSTC agreement before it is prohibited from making further attempts, and what resets the count?",
+      "expected_pages": [
+        "conc-cpa-rules"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-cpa-rules",
+          "path": "concepts/conc-cpa-rules.md",
+          "score": 72.3008
+        },
+        {
+          "slug": "conc-financial-difficulty-trigger-map",
+          "path": "derived/conc-financial-difficulty-trigger-map.md",
+          "score": 60.6931
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 59.6768
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 51.662
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 43.3966
+        }
+      ],
+      "found_at_rank": {
+        "conc-cpa-rules": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E005",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What percentage of UK adults had characteristics of vulnerability in February 2020, and how does the FCA use this statistic in supervisory work?",
+      "expected_pages": [
+        "vulnerable-customers",
+        "vulnerability-drivers-and-taxonomy"
+      ],
+      "retrieved": [
+        {
+          "slug": "fg21-1-guidance",
+          "path": "summaries/fg21-1-guidance.md",
+          "score": 49.5554
+        },
+        {
+          "slug": "vulnerability-drivers-and-taxonomy",
+          "path": "concepts/vulnerability-drivers-and-taxonomy.md",
+          "score": 47.9578
+        },
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 47.224
+        },
+        {
+          "slug": "consumer-understanding-digital-notifications",
+          "path": "derived/consumer-understanding-digital-notifications.md",
+          "score": 36.9087
+        },
+        {
+          "slug": "consumer-duty-consumer-understanding",
+          "path": "concepts/consumer-duty-consumer-understanding.md",
+          "score": 34.8153
+        }
+      ],
+      "found_at_rank": {
+        "vulnerable-customers": 3,
+        "vulnerability-drivers-and-taxonomy": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E006",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What are the three conditions that make a credit card customer 'at risk of financial difficulties' under CONC 6.7.11G, triggering the credit limit and interest rate freeze obligations?",
+      "expected_pages": [
+        "conc-financial-difficulty-indicators",
+        "conc6-post-contractual-requirements"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-financial-difficulty-indicators",
+          "path": "concepts/conc-financial-difficulty-indicators.md",
+          "score": 59.3158
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 56.6105
+        },
+        {
+          "slug": "conc-financial-difficulty-trigger-map",
+          "path": "derived/conc-financial-difficulty-trigger-map.md",
+          "score": 46.8768
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 43.9151
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 43.5517
+        }
+      ],
+      "found_at_rank": {
+        "conc-financial-difficulty-indicators": 1,
+        "conc6-post-contractual-requirements": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E007",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What eight elements must a representative example in a consumer credit financial promotion contain under CONC, and how must they be presented?",
+      "expected_pages": [
+        "conc-representative-example-apr",
+        "conc3-financial-promotions"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-representative-example-apr",
+          "path": "concepts/conc-representative-example-apr.md",
+          "score": 48.6902
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 44.1251
+        },
+        {
+          "slug": "conc-financial-promotions-cfnm",
+          "path": "concepts/conc-financial-promotions-cfnm.md",
+          "score": 40.2479
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 33.8736
+        },
+        {
+          "slug": "ico-guide-accountability-governance",
+          "path": "summaries/ico-guide-accountability-governance.md",
+          "score": 31.7721
+        }
+      ],
+      "found_at_rank": {
+        "conc-representative-example-apr": 1,
+        "conc3-financial-promotions": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E008",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What is the minimum monthly repayment that a credit card lender must ensure a customer makes each month under CONC, and what happens if the lender sets a lower minimum?",
+      "expected_pages": [
+        "conc6-post-contractual-requirements"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc8-debt-advice",
+          "path": "summaries/conc8-debt-advice.md",
+          "score": 51.8931
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 50.495
+        },
+        {
+          "slug": "conc-creditworthiness-assessment",
+          "path": "concepts/conc-creditworthiness-assessment.md",
+          "score": 49.4285
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 47.2733
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 44.9921
+        }
+      ],
+      "found_at_rank": {
+        "conc6-post-contractual-requirements": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M001",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A lender discovers that a customer has formally entered into a debt management plan. What specific CONC obligations does this trigger and across which chapters?",
+      "expected_pages": [
+        "conc-financial-difficulty-indicators",
+        "conc-debt-recovery-treatment",
+        "conc7-arrears-default-recovery"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-financial-difficulty-indicators",
+          "path": "concepts/conc-financial-difficulty-indicators.md",
+          "score": 42.542
+        },
+        {
+          "slug": "conc8-debt-advice",
+          "path": "summaries/conc8-debt-advice.md",
+          "score": 41.7874
+        },
+        {
+          "slug": "conc-debt-recovery-treatment",
+          "path": "concepts/conc-debt-recovery-treatment.md",
+          "score": 40.6153
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 39.8254
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 39.2156
+        }
+      ],
+      "found_at_rank": {
+        "conc-financial-difficulty-indicators": 1,
+        "conc-debt-recovery-treatment": 3,
+        "conc7-arrears-default-recovery": 4
+      },
+      "missed": [],
+      "precision_at_3": 0.667,
+      "precision_at_5": 1.0,
+      "pass_at_3": false,
+      "pass_at_5": true
+    },
+    {
+      "id": "M002",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "Does a peer-to-peer platform operator have a creditworthiness assessment obligation under CONC? How does it differ from the obligation on the individual lender under the P2P agreement?",
+      "expected_pages": [
+        "conc-creditworthiness-assessment"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-creditworthiness-assessment",
+          "path": "concepts/conc-creditworthiness-assessment.md",
+          "score": 59.9668
+        },
+        {
+          "slug": "conc5-responsible-lending",
+          "path": "summaries/conc5-responsible-lending.md",
+          "score": 58.6414
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 54.5931
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 50.3222
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 46.2664
+        }
+      ],
+      "found_at_rank": {
+        "conc-creditworthiness-assessment": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M003",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A BNPL promotion states '0% interest for 12 months \u2014 apply in 60 seconds'. What specific CONC 3 rules does this engage and what additional disclosures are required?",
+      "expected_pages": [
+        "conc-financial-promotions-cfnm",
+        "conc-representative-example-apr"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-representative-example-apr",
+          "path": "concepts/conc-representative-example-apr.md",
+          "score": 44.0309
+        },
+        {
+          "slug": "conc-financial-promotions-cfnm",
+          "path": "concepts/conc-financial-promotions-cfnm.md",
+          "score": 41.4317
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 40.425
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 39.6662
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 35.5732
+        }
+      ],
+      "found_at_rank": {
+        "conc-financial-promotions-cfnm": 2,
+        "conc-representative-example-apr": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M004",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A for-profit debt management firm wants to run paid search ads that appear when users search for 'free debt advice' and 'charity debt help'. What does CONC say about this?",
+      "expected_pages": [
+        "conc3-financial-promotions"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 80.808
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 46.9177
+        },
+        {
+          "slug": "conc8-debt-advice",
+          "path": "summaries/conc8-debt-advice.md",
+          "score": 44.629
+        },
+        {
+          "slug": "conc-financial-difficulty-indicators",
+          "path": "concepts/conc-financial-difficulty-indicators.md",
+          "score": 42.0506
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 40.75
+        }
+      ],
+      "found_at_rank": {
+        "conc3-financial-promotions": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M005",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A firm has a comprehensive written vulnerability policy signed off at board level. When FCA supervisors test frontline call centre staff, they cannot explain what to do when a customer discloses a mental health condition. What FCA concept does this describe, and why is the written policy insufficient?",
+      "expected_pages": [
+        "vulnerable-customers"
+      ],
+      "retrieved": [
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 74.2398
+        },
+        {
+          "slug": "vulnerability-drivers-and-taxonomy",
+          "path": "concepts/vulnerability-drivers-and-taxonomy.md",
+          "score": 72.3557
+        },
+        {
+          "slug": "fg21-1-guidance",
+          "path": "summaries/fg21-1-guidance.md",
+          "score": 62.3868
+        },
+        {
+          "slug": "fca-consumer-duty-implementation-review-2024",
+          "path": "derived/fca-consumer-duty-implementation-review-2024.md",
+          "score": 61.0732
+        },
+        {
+          "slug": "conc-debt-recovery-treatment",
+          "path": "concepts/conc-debt-recovery-treatment.md",
+          "score": 60.2427
+        }
+      ],
+      "found_at_rank": {
+        "vulnerable-customers": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M006",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A Consumer Duty annual board report identifies that customers over 70 consistently receive worse outcomes than average. What must the board do, and what does FCA guidance say about automatic age-based vulnerability classification?",
+      "expected_pages": [
+        "vulnerable-customers"
+      ],
+      "retrieved": [
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 64.7262
+        },
+        {
+          "slug": "fca-consumer-duty-implementation-review-2024",
+          "path": "derived/fca-consumer-duty-implementation-review-2024.md",
+          "score": 50.7393
+        },
+        {
+          "slug": "pi-emi-consumer-duty-and-sanctions-obligations",
+          "path": "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+          "score": 44.2997
+        },
+        {
+          "slug": "consumer-duty-cross-cutting-rules",
+          "path": "concepts/consumer-duty-cross-cutting-rules.md",
+          "score": 40.0915
+        },
+        {
+          "slug": "fca-supervisory-questions-consumer-duty",
+          "path": "derived/fca-supervisory-questions-consumer-duty.md",
+          "score": 39.0636
+        }
+      ],
+      "found_at_rank": {
+        "vulnerable-customers": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M007",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A firm processes health information disclosed by customers as part of its Consumer Duty vulnerability monitoring programme. What two distinct legal bases must it identify before doing so, and under which provisions?",
+      "expected_pages": [
+        "vulnerable-customers",
+        "uk-gdpr-lawful-basis"
+      ],
+      "retrieved": [
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 43.1342
+        },
+        {
+          "slug": "vulnerability-drivers-and-taxonomy",
+          "path": "concepts/vulnerability-drivers-and-taxonomy.md",
+          "score": 39.7217
+        },
+        {
+          "slug": "uk-gdpr-lawful-basis",
+          "path": "concepts/uk-gdpr-lawful-basis.md",
+          "score": 39.3522
+        },
+        {
+          "slug": "consumer-duty-cross-cutting-rules",
+          "path": "concepts/consumer-duty-cross-cutting-rules.md",
+          "score": 37.9335
+        },
+        {
+          "slug": "fg21-1-guidance",
+          "path": "summaries/fg21-1-guidance.md",
+          "score": 36.1334
+        }
+      ],
+      "found_at_rank": {
+        "vulnerable-customers": 1,
+        "uk-gdpr-lawful-basis": 3
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M008",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A lender uses a credit reference agency report when assessing a credit application and then declines the application. What must the lender tell the customer about the credit reference agency under CONC?",
+      "expected_pages": [
+        "conc2-conduct-of-business-general"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-creditworthiness-assessment",
+          "path": "concepts/conc-creditworthiness-assessment.md",
+          "score": 50.0205
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 49.4325
+        },
+        {
+          "slug": "conc5-responsible-lending",
+          "path": "summaries/conc5-responsible-lending.md",
+          "score": 47.0701
+        },
+        {
+          "slug": "conc-scope-and-application",
+          "path": "concepts/conc-scope-and-application.md",
+          "score": 43.605
+        },
+        {
+          "slug": "conc-debt-recovery-treatment",
+          "path": "concepts/conc-debt-recovery-treatment.md",
+          "score": 40.2122
+        }
+      ],
+      "found_at_rank": {
+        "conc2-conduct-of-business-general": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M009",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "What happens to a consumer debt after five years in Scotland, and how does this differ from the six-year limitation period in England and Wales?",
+      "expected_pages": [
+        "conc-debt-recovery-treatment",
+        "conc7-arrears-default-recovery"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-debt-recovery-treatment",
+          "path": "concepts/conc-debt-recovery-treatment.md",
+          "score": 48.4143
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 47.7891
+        },
+        {
+          "slug": "conc-financial-difficulty-trigger-map",
+          "path": "derived/conc-financial-difficulty-trigger-map.md",
+          "score": 40.7509
+        },
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 37.1971
+        },
+        {
+          "slug": "conc-mental-capacity-guidance",
+          "path": "concepts/conc-mental-capacity-guidance.md",
+          "score": 36.9007
+        }
+      ],
+      "found_at_rank": {
+        "conc-debt-recovery-treatment": 1,
+        "conc7-arrears-default-recovery": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M010",
+      "difficulty": "medium",
+      "type": "boundary",
+      "question": "A lender incorporated and authorised in Germany operates a website offering payday loans to UK residents. Is it subject to CONC?",
+      "expected_pages": [
+        "conc-scope-and-application"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 35.5277
+        },
+        {
+          "slug": "conc-scope-and-application",
+          "path": "concepts/conc-scope-and-application.md",
+          "score": 34.8304
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 34.7526
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 32.1172
+        },
+        {
+          "slug": "conc-broker-unfair-practices",
+          "path": "concepts/conc-broker-unfair-practices.md",
+          "score": 31.9271
+        }
+      ],
+      "found_at_rank": {
+        "conc-scope-and-application": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H001",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A payday lender runs an online advertisement for an HCSTC product with the headline 'Pre-approved loans \u2014 instant decision, apply now!' No APR is shown, no representative example appears, and no risk warning is included. Enumerate every specific CONC 3 rule this breaches.",
+      "expected_pages": [
+        "conc3-financial-promotions",
+        "conc-financial-promotions-cfnm",
+        "conc-representative-example-apr"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-representative-example-apr",
+          "path": "concepts/conc-representative-example-apr.md",
+          "score": 79.1941
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 76.1624
+        },
+        {
+          "slug": "conc-financial-promotions-cfnm",
+          "path": "concepts/conc-financial-promotions-cfnm.md",
+          "score": 66.9237
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 57.3799
+        },
+        {
+          "slug": "conc-cpa-rules",
+          "path": "concepts/conc-cpa-rules.md",
+          "score": 51.8355
+        }
+      ],
+      "found_at_rank": {
+        "conc3-financial-promotions": 2,
+        "conc-financial-promotions-cfnm": 3,
+        "conc-representative-example-apr": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H002",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A firm makes two CPA payment requests for an HCSTC loan \u2014 both are refused by the payment service provider. The customer then calls the firm and verbally agrees to allow a third CPA attempt. Can the firm make the third attempt?",
+      "expected_pages": [
+        "conc-cpa-rules"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-cpa-rules",
+          "path": "concepts/conc-cpa-rules.md",
+          "score": 84.8509
+        },
+        {
+          "slug": "conc-financial-difficulty-trigger-map",
+          "path": "derived/conc-financial-difficulty-trigger-map.md",
+          "score": 73.581
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 67.3989
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 66.176
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 63.6398
+        }
+      ],
+      "found_at_rank": {
+        "conc-cpa-rules": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H003",
+      "difficulty": "hard",
+      "type": "boundary",
+      "question": "A buy-now-pay-later agreement is an exempt agreement under article 60C(4A) of the Regulated Activities Order. Do the CONC 7.6 continuous payment authority rules apply to it?",
+      "expected_pages": [
+        "conc-cpa-rules"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-cpa-rules",
+          "path": "concepts/conc-cpa-rules.md",
+          "score": 59.0328
+        },
+        {
+          "slug": "conc7-arrears-default-recovery",
+          "path": "summaries/conc7-arrears-default-recovery.md",
+          "score": 47.7197
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 45.6948
+        },
+        {
+          "slug": "conc-debt-recovery-treatment",
+          "path": "concepts/conc-debt-recovery-treatment.md",
+          "score": 43.9973
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 41.8768
+        }
+      ],
+      "found_at_rank": {
+        "conc-cpa-rules": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H004",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A payday lender's digital ad says 'Borrow \u00a3200 for 7 days \u2014 only \u00a32 per day'. No APR is shown and no HCSTC risk warning appears. Is this compliant with CONC 3?",
+      "expected_pages": [
+        "conc-representative-example-apr",
+        "conc3-financial-promotions"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 61.0654
+        },
+        {
+          "slug": "conc4-pre-contractual-requirements",
+          "path": "summaries/conc4-pre-contractual-requirements.md",
+          "score": 50.6548
+        },
+        {
+          "slug": "conc-representative-example-apr",
+          "path": "concepts/conc-representative-example-apr.md",
+          "score": 50.5981
+        },
+        {
+          "slug": "conc-financial-promotions-cfnm",
+          "path": "concepts/conc-financial-promotions-cfnm.md",
+          "score": 49.5464
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 44.6162
+        }
+      ],
+      "found_at_rank": {
+        "conc-representative-example-apr": 3,
+        "conc3-financial-promotions": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H005",
+      "difficulty": "hard",
+      "type": "synthesis",
+      "question": "A firm has identified that a legacy product offers poor value and plans to withdraw it. Internal data shows it is held disproportionately by customers with characteristics of vulnerability. What must the firm do before withdrawing the product?",
+      "expected_pages": [
+        "vulnerable-customers",
+        "consumer-duty-products-services"
+      ],
+      "retrieved": [
+        {
+          "slug": "consumer-duty-products-services",
+          "path": "concepts/consumer-duty-products-services.md",
+          "score": 67.4777
+        },
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 61.4241
+        },
+        {
+          "slug": "consumer-duty-product-lifecycle-checklist",
+          "path": "derived/consumer-duty-product-lifecycle-checklist.md",
+          "score": 55.1857
+        },
+        {
+          "slug": "fca-consumer-duty-implementation-review-2024",
+          "path": "derived/fca-consumer-duty-implementation-review-2024.md",
+          "score": 53.3858
+        },
+        {
+          "slug": "vulnerability-drivers-and-taxonomy",
+          "path": "concepts/vulnerability-drivers-and-taxonomy.md",
+          "score": 51.8382
+        }
+      ],
+      "found_at_rank": {
+        "vulnerable-customers": 2,
+        "consumer-duty-products-services": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H006",
+      "difficulty": "hard",
+      "type": "synthesis",
+      "question": "A firm's creditworthiness assessment policies are found by the FCA to be non-compliant. Under SM&CR, which individual is personally accountable and what must they demonstrate to avoid personal liability?",
+      "expected_pages": [
+        "conc-creditworthiness-assessment"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-creditworthiness-assessment",
+          "path": "concepts/conc-creditworthiness-assessment.md",
+          "score": 59.0934
+        },
+        {
+          "slug": "sysc9-record-keeping",
+          "path": "concepts/sysc9-record-keeping.md",
+          "score": 52.8074
+        },
+        {
+          "slug": "consumer-duty-product-lifecycle-checklist",
+          "path": "derived/consumer-duty-product-lifecycle-checklist.md",
+          "score": 52.0734
+        },
+        {
+          "slug": "smcr-certification-regime",
+          "path": "concepts/smcr-certification-regime.md",
+          "score": 50.1196
+        },
+        {
+          "slug": "smcr-conduct-rules",
+          "path": "concepts/smcr-conduct-rules.md",
+          "score": 50.021
+        }
+      ],
+      "found_at_rank": {
+        "conc-creditworthiness-assessment": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H007",
+      "difficulty": "hard",
+      "type": "synthesis",
+      "question": "During onboarding, a firm's sanctions screening tool flags a potential match against the Consolidated List for a new customer. Simultaneously, the customer discloses they have a cognitive impairment affecting their financial decisions. What obligations run in parallel and is there any conflict between them?",
+      "expected_pages": [
+        "sanctions-screening",
+        "asset-freezes-and-ofsi-licences",
+        "conc-mental-capacity-guidance"
+      ],
+      "retrieved": [
+        {
+          "slug": "conc-mental-capacity-guidance",
+          "path": "concepts/conc-mental-capacity-guidance.md",
+          "score": 82.9247
+        },
+        {
+          "slug": "fcg7-sanctions-asset-freezes-proliferation-financing",
+          "path": "summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md",
+          "score": 73.1976
+        },
+        {
+          "slug": "pi-emi-consumer-duty-and-sanctions-obligations",
+          "path": "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+          "score": 72.0417
+        },
+        {
+          "slug": "aml-kyc-onboarding-decision-tree",
+          "path": "derived/aml-kyc-onboarding-decision-tree.md",
+          "score": 68.2251
+        },
+        {
+          "slug": "sanctions-screening",
+          "path": "concepts/sanctions-screening.md",
+          "score": 66.7289
+        }
+      ],
+      "found_at_rank": {
+        "sanctions-screening": 5,
+        "asset-freezes-and-ofsi-licences": null,
+        "conc-mental-capacity-guidance": 1
+      },
+      "missed": [
+        "asset-freezes-and-ofsi-licences"
+      ],
+      "precision_at_3": 0.333,
+      "precision_at_5": 0.667,
+      "pass_at_3": false,
+      "pass_at_5": false
+    },
+    {
+      "id": "E009",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What are the two methods by which an authorised payment institution or e-money institution may safeguard relevant funds, what is the key documentation requirement specific to the segregation method, and what ongoing operational obligations and insolvency protections attach to safeguarded funds?",
+      "expected_pages": [
+        "safeguarding-pis-emis"
+      ],
+      "retrieved": [
+        {
+          "slug": "safeguarding-pis-emis",
+          "path": "concepts/safeguarding-pis-emis.md",
+          "score": 87.3012
+        },
+        {
+          "slug": "cass7-client-money-rules",
+          "path": "summaries/cass7-client-money-rules.md",
+          "score": 63.7614
+        },
+        {
+          "slug": "client-money-framework",
+          "path": "concepts/client-money-framework.md",
+          "score": 62.463
+        },
+        {
+          "slug": "customer-due-diligence",
+          "path": "concepts/customer-due-diligence.md",
+          "score": 61.1222
+        },
+        {
+          "slug": "psr-capital-requirements",
+          "path": "concepts/psr-capital-requirements.md",
+          "score": 57.5023
+        }
+      ],
+      "found_at_rank": {
+        "safeguarding-pis-emis": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E010",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "Under the Payment Services Regulations 2017, what two things is a payment initiation service provider strictly prohibited from doing when executing a payment on behalf of a customer?",
+      "expected_pages": [
+        "psr-open-banking-pisp-aisp"
+      ],
+      "retrieved": [
+        {
+          "slug": "psr-open-banking-pisp-aisp",
+          "path": "concepts/psr-open-banking-pisp-aisp.md",
+          "score": 44.0657
+        },
+        {
+          "slug": "conc8-debt-advice",
+          "path": "summaries/conc8-debt-advice.md",
+          "score": 40.2097
+        },
+        {
+          "slug": "conc-representative-example-apr",
+          "path": "concepts/conc-representative-example-apr.md",
+          "score": 39.6633
+        },
+        {
+          "slug": "conc6-post-contractual-requirements",
+          "path": "summaries/conc6-post-contractual-requirements.md",
+          "score": 38.375
+        },
+        {
+          "slug": "app-fraud-reimbursement-scheme",
+          "path": "concepts/app-fraud-reimbursement-scheme.md",
+          "score": 37.8089
+        }
+      ],
+      "found_at_rank": {
+        "psr-open-banking-pisp-aisp": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M011",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "question": "A customer contacts their payment service provider on a Monday reporting an unauthorised debit card payment made the previous Friday that they did not authorise. What is the PSP's refund obligation, what is the maximum the customer can be held liable for, under what single condition may the PSP delay refunding, and what time limit applies to the customer's right to claim?",
+      "expected_pages": [
+        "psr-unauthorised-transaction-liability"
+      ],
+      "retrieved": [
+        {
+          "slug": "psr-unauthorised-transaction-liability",
+          "path": "concepts/psr-unauthorised-transaction-liability.md",
+          "score": 115.0753
+        },
+        {
+          "slug": "app-fraud-reimbursement-scheme",
+          "path": "concepts/app-fraud-reimbursement-scheme.md",
+          "score": 105.1295
+        },
+        {
+          "slug": "psr-ps23-3-app-fraud-reimbursement",
+          "path": "summaries/psr-ps23-3-app-fraud-reimbursement.md",
+          "score": 93.3236
+        },
+        {
+          "slug": "conc8-debt-advice",
+          "path": "summaries/conc8-debt-advice.md",
+          "score": 92.3331
+        },
+        {
+          "slug": "conc-cpa-rules",
+          "path": "concepts/conc-cpa-rules.md",
+          "score": 91.3455
+        }
+      ],
+      "found_at_rank": {
+        "psr-unauthorised-transaction-liability": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M012",
+      "difficulty": "medium",
+      "type": "boundary",
+      "question": "An authorised e-money institution plans to use third parties to distribute its e-money products. What is the regulatory difference between using an agent versus a distributor, and why does it matter for FCA registration?",
+      "expected_pages": [
+        "agent-distributor-oversight"
+      ],
+      "retrieved": [
+        {
+          "slug": "agent-distributor-oversight",
+          "path": "concepts/agent-distributor-oversight.md",
+          "score": 53.1729
+        },
+        {
+          "slug": "dear-ceo-letter-payments-portfolio-2023",
+          "path": "summaries/dear-ceo-letter-payments-portfolio-2023.md",
+          "score": 47.7019
+        },
+        {
+          "slug": "safeguarding-pis-emis",
+          "path": "concepts/safeguarding-pis-emis.md",
+          "score": 44.264
+        },
+        {
+          "slug": "mlr-2017",
+          "path": "summaries/mlr-2017.md",
+          "score": 42.306
+        },
+        {
+          "slug": "prod3-product-governance-mifid",
+          "path": "summaries/prod3-product-governance-mifid.md",
+          "score": 40.9731
+        }
+      ],
+      "found_at_rank": {
+        "agent-distributor-oversight": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H008",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A PSP processes a \u00a3250 card-based remote payment and wants to apply the transaction risk analysis (TRA) exemption to skip strong customer authentication. Its current reference fraud rate for card-based remote transactions is 0.04%. Can it apply the TRA exemption?",
+      "expected_pages": [
+        "psr-sca-authentication"
+      ],
+      "retrieved": [
+        {
+          "slug": "psr-sca-authentication",
+          "path": "concepts/psr-sca-authentication.md",
+          "score": 126.7318
+        },
+        {
+          "slug": "fca-approach-payment-services-electronic-money",
+          "path": "summaries/fca-approach-payment-services-electronic-money.md",
+          "score": 60.9782
+        },
+        {
+          "slug": "psr-regulatory-reporting",
+          "path": "concepts/psr-regulatory-reporting.md",
+          "score": 57.0062
+        },
+        {
+          "slug": "psr-open-banking-pisp-aisp",
+          "path": "concepts/psr-open-banking-pisp-aisp.md",
+          "score": 55.8236
+        },
+        {
+          "slug": "psr-unauthorised-transaction-liability",
+          "path": "concepts/psr-unauthorised-transaction-liability.md",
+          "score": 53.9444
+        }
+      ],
+      "found_at_rank": {
+        "psr-sca-authentication": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E011",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "Under UK GDPR Article 5, what is the storage limitation principle and what does it require in practice?",
+      "expected_pages": [
+        "uk-gdpr-data-protection-principles"
+      ],
+      "retrieved": [
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 35.7133
+        },
+        {
+          "slug": "ico-guide-data-protection-principles",
+          "path": "summaries/ico-guide-data-protection-principles.md",
+          "score": 35.4122
+        },
+        {
+          "slug": "uk-gdpr-security",
+          "path": "concepts/uk-gdpr-security.md",
+          "score": 31.7732
+        },
+        {
+          "slug": "uk-gdpr-records-of-processing",
+          "path": "concepts/uk-gdpr-records-of-processing.md",
+          "score": 30.1342
+        },
+        {
+          "slug": "ico-guide-data-security",
+          "path": "summaries/ico-guide-data-security.md",
+          "score": 28.4779
+        }
+      ],
+      "found_at_rank": {
+        "uk-gdpr-data-protection-principles": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E012",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "A firm receives a subject access request verbally from a customer over the phone. Must it respond? Within what timeframe? Can it pause the clock to ask for clarification, and what must the response include beyond the raw data?",
+      "expected_pages": [
+        "uk-gdpr-subject-access"
+      ],
+      "retrieved": [
+        {
+          "slug": "uk-gdpr-subject-access",
+          "path": "concepts/uk-gdpr-subject-access.md",
+          "score": 79.6929
+        },
+        {
+          "slug": "ico-guide-subject-access",
+          "path": "summaries/ico-guide-subject-access.md",
+          "score": 75.7152
+        },
+        {
+          "slug": "uk-gdpr-individual-rights-overview",
+          "path": "concepts/uk-gdpr-individual-rights-overview.md",
+          "score": 55.5421
+        },
+        {
+          "slug": "disp-app5-motor-finance-dca-complaints",
+          "path": "summaries/disp-app5-motor-finance-dca-complaints.md",
+          "score": 54.7896
+        },
+        {
+          "slug": "fg22-5-guidance",
+          "path": "summaries/fg22-5-guidance.md",
+          "score": 49.3273
+        }
+      ],
+      "found_at_rank": {
+        "uk-gdpr-subject-access": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M013",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A fintech lender uses a fully automated credit scoring system that rejects applications without human review. A customer whose application was rejected asks for an explanation and challenges the decision. What are the firm's obligations under UK GDPR Article 22?",
+      "expected_pages": [
+        "uk-gdpr-automated-decision-making",
+        "uk-gdpr-individual-rights-overview"
+      ],
+      "retrieved": [
+        {
+          "slug": "uk-gdpr-automated-decision-making",
+          "path": "concepts/uk-gdpr-automated-decision-making.md",
+          "score": 73.414
+        },
+        {
+          "slug": "ico-guide-individual-rights",
+          "path": "summaries/ico-guide-individual-rights.md",
+          "score": 51.4475
+        },
+        {
+          "slug": "uk-gdpr-right-to-be-informed",
+          "path": "concepts/uk-gdpr-right-to-be-informed.md",
+          "score": 50.3776
+        },
+        {
+          "slug": "conc-creditworthiness-assessment",
+          "path": "concepts/conc-creditworthiness-assessment.md",
+          "score": 49.1431
+        },
+        {
+          "slug": "uk-gdpr-subject-access",
+          "path": "concepts/uk-gdpr-subject-access.md",
+          "score": 47.9317
+        }
+      ],
+      "found_at_rank": {
+        "uk-gdpr-automated-decision-making": 1,
+        "uk-gdpr-individual-rights-overview": null
+      },
+      "missed": [
+        "uk-gdpr-individual-rights-overview"
+      ],
+      "precision_at_3": 0.5,
+      "precision_at_5": 0.5,
+      "pass_at_3": false,
+      "pass_at_5": false
+    },
+    {
+      "id": "M014",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "The Data (Use and Access) Act 2025 introduced a new Article 6 basis called 'recognised legitimate interest'. How does it differ from the existing legitimate interests basis, and which of its pre-approved purposes is most relevant to financial services firms?",
+      "expected_pages": [
+        "uk-gdpr-lawful-basis",
+        "ico-guide-lawful-basis-2026"
+      ],
+      "retrieved": [
+        {
+          "slug": "ico-guide-lawful-basis-2026",
+          "path": "summaries/ico-guide-lawful-basis-2026.md",
+          "score": 71.7719
+        },
+        {
+          "slug": "uk-gdpr-lawful-basis",
+          "path": "concepts/uk-gdpr-lawful-basis.md",
+          "score": 67.887
+        },
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 64.2716
+        },
+        {
+          "slug": "ico-guide-individual-rights",
+          "path": "summaries/ico-guide-individual-rights.md",
+          "score": 52.1982
+        },
+        {
+          "slug": "ico-guide-data-protection-principles",
+          "path": "summaries/ico-guide-data-protection-principles.md",
+          "score": 50.9788
+        }
+      ],
+      "found_at_rank": {
+        "uk-gdpr-lawful-basis": 2,
+        "ico-guide-lawful-basis-2026": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M015",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A firm wants to use customer data originally collected for AML/KYC purposes to train an internal fraud detection model. Under the UK GDPR purpose limitation principle, is this permitted and what assessment is required?",
+      "expected_pages": [
+        "uk-gdpr-data-protection-principles",
+        "uk-gdpr-lawful-basis"
+      ],
+      "retrieved": [
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 64.098
+        },
+        {
+          "slug": "uk-gdpr-automated-decision-making",
+          "path": "concepts/uk-gdpr-automated-decision-making.md",
+          "score": 54.6075
+        },
+        {
+          "slug": "aml-ctf-framework",
+          "path": "concepts/aml-ctf-framework.md",
+          "score": 49.3547
+        },
+        {
+          "slug": "ico-guide-lawful-basis-2026",
+          "path": "summaries/ico-guide-lawful-basis-2026.md",
+          "score": 48.6453
+        },
+        {
+          "slug": "uk-gdpr-lawful-basis",
+          "path": "concepts/uk-gdpr-lawful-basis.md",
+          "score": 47.9412
+        }
+      ],
+      "found_at_rank": {
+        "uk-gdpr-data-protection-principles": 1,
+        "uk-gdpr-lawful-basis": 5
+      },
+      "missed": [],
+      "precision_at_3": 0.5,
+      "precision_at_5": 1.0,
+      "pass_at_3": false,
+      "pass_at_5": true
+    },
+    {
+      "id": "H009",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A firm receives a right-to-erasure request from a customer whose account included a five-year-old AML suspicious activity report. The customer argues the data is no longer necessary. Must the firm erase the SAR data?",
+      "expected_pages": [
+        "uk-gdpr-right-to-erasure",
+        "sar-consent-tipping-off"
+      ],
+      "retrieved": [
+        {
+          "slug": "uk-gdpr-right-to-erasure",
+          "path": "concepts/uk-gdpr-right-to-erasure.md",
+          "score": 68.8238
+        },
+        {
+          "slug": "aml-ctf-framework",
+          "path": "concepts/aml-ctf-framework.md",
+          "score": 55.4592
+        },
+        {
+          "slug": "jmlsg-part-i-guidance",
+          "path": "summaries/jmlsg-part-i-guidance.md",
+          "score": 53.6022
+        },
+        {
+          "slug": "ico-guide-individual-rights",
+          "path": "summaries/ico-guide-individual-rights.md",
+          "score": 51.4663
+        },
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 50.2043
+        }
+      ],
+      "found_at_rank": {
+        "uk-gdpr-right-to-erasure": 1,
+        "sar-consent-tipping-off": null
+      },
+      "missed": [
+        "sar-consent-tipping-off"
+      ],
+      "precision_at_3": 0.5,
+      "precision_at_5": 0.5,
+      "pass_at_3": false,
+      "pass_at_5": false
+    },
+    {
+      "id": "E013",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What is the beneficial ownership threshold under the Money Laundering Regulations 2017, and what is the fallback when no natural person meets it?",
+      "expected_pages": [
+        "customer-due-diligence"
+      ],
+      "retrieved": [
+        {
+          "slug": "customer-due-diligence",
+          "path": "concepts/customer-due-diligence.md",
+          "score": 53.1338
+        },
+        {
+          "slug": "aml-kyc-onboarding-decision-tree",
+          "path": "derived/aml-kyc-onboarding-decision-tree.md",
+          "score": 48.809
+        },
+        {
+          "slug": "mlr-2017",
+          "path": "summaries/mlr-2017.md",
+          "score": 39.6703
+        },
+        {
+          "slug": "fcg3-money-laundering-terrorist-financing",
+          "path": "summaries/fcg3-money-laundering-terrorist-financing.md",
+          "score": 33.6796
+        },
+        {
+          "slug": "uk-financial-sanctions-framework",
+          "path": "concepts/uk-financial-sanctions-framework.md",
+          "score": 32.3735
+        }
+      ],
+      "found_at_rank": {
+        "customer-due-diligence": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M016",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A firm files a suspicious activity report and wishes to continue processing the transaction while awaiting a response. What is the correct procedure and what are the maximum waiting periods before the firm may proceed?",
+      "expected_pages": [
+        "sar-consent-tipping-off"
+      ],
+      "retrieved": [
+        {
+          "slug": "sar-consent-tipping-off",
+          "path": "concepts/sar-consent-tipping-off.md",
+          "score": 49.5572
+        },
+        {
+          "slug": "aml-kyc-onboarding-decision-tree",
+          "path": "derived/aml-kyc-onboarding-decision-tree.md",
+          "score": 46.6907
+        },
+        {
+          "slug": "uk-gdpr-right-to-erasure",
+          "path": "concepts/uk-gdpr-right-to-erasure.md",
+          "score": 46.3441
+        },
+        {
+          "slug": "complaints-handling-framework",
+          "path": "concepts/complaints-handling-framework.md",
+          "score": 45.6943
+        },
+        {
+          "slug": "ico-guide-individual-rights",
+          "path": "summaries/ico-guide-individual-rights.md",
+          "score": 45.1242
+        }
+      ],
+      "found_at_rank": {
+        "sar-consent-tipping-off": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M017",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A firm's compliance officer discovers that a transaction was processed for a customer whose name now appears on the UK Consolidated Sanctions List. The transaction completed three days ago. What must the firm do, and within what timeframe?",
+      "expected_pages": [
+        "asset-freezes-and-ofsi-licences",
+        "uk-financial-sanctions-framework"
+      ],
+      "retrieved": [
+        {
+          "slug": "asset-freezes-and-ofsi-licences",
+          "path": "concepts/asset-freezes-and-ofsi-licences.md",
+          "score": 63.8828
+        },
+        {
+          "slug": "aml-kyc-onboarding-decision-tree",
+          "path": "derived/aml-kyc-onboarding-decision-tree.md",
+          "score": 57.6865
+        },
+        {
+          "slug": "fcg3-money-laundering-terrorist-financing",
+          "path": "summaries/fcg3-money-laundering-terrorist-financing.md",
+          "score": 54.7928
+        },
+        {
+          "slug": "fcg7-sanctions-asset-freezes-proliferation-financing",
+          "path": "summaries/fcg7-sanctions-asset-freezes-proliferation-financing.md",
+          "score": 53.5587
+        },
+        {
+          "slug": "pi-emi-consumer-duty-and-sanctions-obligations",
+          "path": "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+          "score": 53.3445
+        }
+      ],
+      "found_at_rank": {
+        "asset-freezes-and-ofsi-licences": 1,
+        "uk-financial-sanctions-framework": null
+      },
+      "missed": [
+        "uk-financial-sanctions-framework"
+      ],
+      "precision_at_3": 0.5,
+      "precision_at_5": 0.5,
+      "pass_at_3": false,
+      "pass_at_5": false
+    },
+    {
+      "id": "H010",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A firm provides correspondent banking services to a foreign respondent institution. During EDD, it discovers the respondent processes transactions for shell banks as a normal part of its business. What must the firm do?",
+      "expected_pages": [
+        "customer-due-diligence",
+        "aml-kyc-onboarding-decision-tree"
+      ],
+      "retrieved": [
+        {
+          "slug": "customer-due-diligence",
+          "path": "concepts/customer-due-diligence.md",
+          "score": 86.024
+        },
+        {
+          "slug": "mlr-2017",
+          "path": "summaries/mlr-2017.md",
+          "score": 64.2692
+        },
+        {
+          "slug": "aml-kyc-onboarding-decision-tree",
+          "path": "derived/aml-kyc-onboarding-decision-tree.md",
+          "score": 63.7447
+        },
+        {
+          "slug": "fos-eligible-complainants",
+          "path": "concepts/fos-eligible-complainants.md",
+          "score": 53.2997
+        },
+        {
+          "slug": "cass7-client-money-rules",
+          "path": "summaries/cass7-client-money-rules.md",
+          "score": 47.7696
+        }
+      ],
+      "found_at_rank": {
+        "customer-due-diligence": 1,
+        "aml-kyc-onboarding-decision-tree": 3
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H011",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "An employee at a regulated firm suspects a customer is laundering money but has not yet reported internally to the MLRO. A colleague in the same team asks the employee directly: 'Is there a problem with this customer's account?' What are the tipping-off risks, and what can the employee say?",
+      "expected_pages": [
+        "sar-consent-tipping-off"
+      ],
+      "retrieved": [
+        {
+          "slug": "sar-consent-tipping-off",
+          "path": "concepts/sar-consent-tipping-off.md",
+          "score": 96.3292
+        },
+        {
+          "slug": "aml-kyc-onboarding-decision-tree",
+          "path": "derived/aml-kyc-onboarding-decision-tree.md",
+          "score": 81.9821
+        },
+        {
+          "slug": "pi-emi-consumer-duty-and-sanctions-obligations",
+          "path": "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+          "score": 77.5846
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 72.4719
+        },
+        {
+          "slug": "aml-ctf-framework",
+          "path": "concepts/aml-ctf-framework.md",
+          "score": 70.8617
+        }
+      ],
+      "found_at_rank": {
+        "sar-consent-tipping-off": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E014",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What are the complaint response time limits under DISP \u2014 including the standard deadline, the shorter deadline for payment service providers and e-money issuers (and when it can be extended), and the faster track available for all firms where a complaint is resolved within three business days?",
+      "expected_pages": [
+        "complaints-handling-framework",
+        "disp1-treating-complainants-fairly"
+      ],
+      "retrieved": [
+        {
+          "slug": "complaints-handling-framework",
+          "path": "concepts/complaints-handling-framework.md",
+          "score": 100.2793
+        },
+        {
+          "slug": "disp2-fos-jurisdiction",
+          "path": "summaries/disp2-fos-jurisdiction.md",
+          "score": 82.0929
+        },
+        {
+          "slug": "disp-app5-motor-finance-dca-complaints",
+          "path": "summaries/disp-app5-motor-finance-dca-complaints.md",
+          "score": 74.8397
+        },
+        {
+          "slug": "fos-eligible-complainants",
+          "path": "concepts/fos-eligible-complainants.md",
+          "score": 68.2423
+        },
+        {
+          "slug": "psr-ps23-3-app-fraud-reimbursement",
+          "path": "summaries/psr-ps23-3-app-fraud-reimbursement.md",
+          "score": 65.2482
+        }
+      ],
+      "found_at_rank": {
+        "complaints-handling-framework": 1,
+        "disp1-treating-complainants-fairly": null
+      },
+      "missed": [
+        "disp1-treating-complainants-fairly"
+      ],
+      "precision_at_3": 0.5,
+      "precision_at_5": 0.5,
+      "pass_at_3": false,
+      "pass_at_5": false
+    },
+    {
+      "id": "M018",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A firm's complaints data shows a pattern of customers complaining about the same feature of a product. DISP 1 contains a specific hard rule about what the firm must do in response. What is it?",
+      "expected_pages": [
+        "complaints-handling-framework",
+        "disp1-treating-complainants-fairly"
+      ],
+      "retrieved": [
+        {
+          "slug": "complaints-handling-framework",
+          "path": "concepts/complaints-handling-framework.md",
+          "score": 54.6664
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 52.5908
+        },
+        {
+          "slug": "fos-eligible-complainants",
+          "path": "concepts/fos-eligible-complainants.md",
+          "score": 52.0796
+        },
+        {
+          "slug": "cryptoasset-financial-promotions-framework",
+          "path": "concepts/cryptoasset-financial-promotions-framework.md",
+          "score": 50.3521
+        },
+        {
+          "slug": "prin2a-consumer-duty",
+          "path": "summaries/prin2a-consumer-duty.md",
+          "score": 50.2774
+        }
+      ],
+      "found_at_rank": {
+        "complaints-handling-framework": 1,
+        "disp1-treating-complainants-fairly": null
+      },
+      "missed": [
+        "disp1-treating-complainants-fairly"
+      ],
+      "precision_at_3": 0.5,
+      "precision_at_5": 0.5,
+      "pass_at_3": false,
+      "pass_at_5": false
+    },
+    {
+      "id": "M019",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "question": "A motor finance customer received a final response letter from their lender in June 2025 about a complaint relating to a discretionary commission arrangement on a pre-2021 agreement. How long does the customer have to refer the complaint to the Financial Ombudsman Service?",
+      "expected_pages": [
+        "disp-app5-motor-finance-dca-complaints",
+        "disp2-fos-jurisdiction"
+      ],
+      "retrieved": [
+        {
+          "slug": "disp-app5-motor-finance-dca-complaints",
+          "path": "summaries/disp-app5-motor-finance-dca-complaints.md",
+          "score": 101.1275
+        },
+        {
+          "slug": "disp2-fos-jurisdiction",
+          "path": "summaries/disp2-fos-jurisdiction.md",
+          "score": 72.6395
+        },
+        {
+          "slug": "complaints-handling-framework",
+          "path": "concepts/complaints-handling-framework.md",
+          "score": 71.0958
+        },
+        {
+          "slug": "conc-discretionary-commission-arrangements",
+          "path": "concepts/conc-discretionary-commission-arrangements.md",
+          "score": 68.2891
+        },
+        {
+          "slug": "conc8-debt-advice",
+          "path": "summaries/conc8-debt-advice.md",
+          "score": 66.2738
+        }
+      ],
+      "found_at_rank": {
+        "disp-app5-motor-finance-dca-complaints": 1,
+        "disp2-fos-jurisdiction": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H012",
+      "difficulty": "hard",
+      "type": "boundary",
+      "question": "A small business with annual turnover of \u00a35m submits a complaint to a firm about a payment services dispute. The firm argues the business is not an 'eligible complainant' because it is a commercial entity, not a consumer. Is the firm correct?",
+      "expected_pages": [
+        "fos-eligible-complainants",
+        "disp2-fos-jurisdiction"
+      ],
+      "retrieved": [
+        {
+          "slug": "fos-eligible-complainants",
+          "path": "concepts/fos-eligible-complainants.md",
+          "score": 82.508
+        },
+        {
+          "slug": "disp2-fos-jurisdiction",
+          "path": "summaries/disp2-fos-jurisdiction.md",
+          "score": 73.3018
+        },
+        {
+          "slug": "client-categorisation-framework",
+          "path": "concepts/client-categorisation-framework.md",
+          "score": 70.9605
+        },
+        {
+          "slug": "cobs3-client-categorisation",
+          "path": "summaries/cobs3-client-categorisation.md",
+          "score": 70.3892
+        },
+        {
+          "slug": "complaints-handling-framework",
+          "path": "concepts/complaints-handling-framework.md",
+          "score": 69.9393
+        }
+      ],
+      "found_at_rank": {
+        "fos-eligible-complainants": 1,
+        "disp2-fos-jurisdiction": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E015",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "Under SM&CR, how quickly must a firm report a breach of the Conduct Rules by a Senior Manager, and how does this differ from the reporting timeframe for other certified staff?",
+      "expected_pages": [
+        "smcr-conduct-rules"
+      ],
+      "retrieved": [
+        {
+          "slug": "fca-guide-solo-regulated-firms",
+          "path": "summaries/fca-guide-solo-regulated-firms.md",
+          "score": 54.0581
+        },
+        {
+          "slug": "smcr-conduct-rules",
+          "path": "concepts/smcr-conduct-rules.md",
+          "score": 49.8167
+        },
+        {
+          "slug": "smcr-senior-managers-regime",
+          "path": "concepts/smcr-senior-managers-regime.md",
+          "score": 48.5817
+        },
+        {
+          "slug": "cass1a-firm-classification-oversight",
+          "path": "summaries/cass1a-firm-classification-oversight.md",
+          "score": 48.2772
+        },
+        {
+          "slug": "smcr-certification-regime",
+          "path": "concepts/smcr-certification-regime.md",
+          "score": 47.8348
+        }
+      ],
+      "found_at_rank": {
+        "smcr-conduct-rules": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M020",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A Senior Manager is personally investigated following a firm-wide AML failure that occurred during their tenure. What is the Duty of Responsibility and what must the Senior Manager demonstrate to avoid personal liability?",
+      "expected_pages": [
+        "smcr-senior-managers-regime"
+      ],
+      "retrieved": [
+        {
+          "slug": "smcr-conduct-rules",
+          "path": "concepts/smcr-conduct-rules.md",
+          "score": 55.0548
+        },
+        {
+          "slug": "aml-ctf-framework",
+          "path": "concepts/aml-ctf-framework.md",
+          "score": 47.29
+        },
+        {
+          "slug": "conc-creditworthiness-assessment",
+          "path": "concepts/conc-creditworthiness-assessment.md",
+          "score": 46.5066
+        },
+        {
+          "slug": "smcr-senior-managers-regime",
+          "path": "concepts/smcr-senior-managers-regime.md",
+          "score": 45.8272
+        },
+        {
+          "slug": "fca-guide-solo-regulated-firms",
+          "path": "summaries/fca-guide-solo-regulated-firms.md",
+          "score": 45.7557
+        }
+      ],
+      "found_at_rank": {
+        "smcr-senior-managers-regime": 4
+      },
+      "missed": [],
+      "precision_at_3": 0.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": false,
+      "pass_at_5": true
+    },
+    {
+      "id": "M021",
+      "difficulty": "medium",
+      "type": "boundary",
+      "question": "Does the SM&CR Senior Managers Regime apply to payment institutions and e-money institutions? What conduct framework applies to them instead?",
+      "expected_pages": [
+        "smcr-senior-managers-regime",
+        "smcr-conduct-rules"
+      ],
+      "retrieved": [
+        {
+          "slug": "pi-emi-consumer-duty-and-sanctions-obligations",
+          "path": "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+          "score": 33.6244
+        },
+        {
+          "slug": "complaints-handling-framework",
+          "path": "concepts/complaints-handling-framework.md",
+          "score": 33.1836
+        },
+        {
+          "slug": "fca-guide-solo-regulated-firms",
+          "path": "summaries/fca-guide-solo-regulated-firms.md",
+          "score": 33.0211
+        },
+        {
+          "slug": "smcr-senior-managers-regime",
+          "path": "concepts/smcr-senior-managers-regime.md",
+          "score": 31.5033
+        },
+        {
+          "slug": "consumer-principle",
+          "path": "concepts/consumer-principle.md",
+          "score": 31.3371
+        }
+      ],
+      "found_at_rank": {
+        "smcr-senior-managers-regime": 4,
+        "smcr-conduct-rules": null
+      },
+      "missed": [
+        "smcr-conduct-rules"
+      ],
+      "precision_at_3": 0.0,
+      "precision_at_5": 0.5,
+      "pass_at_3": false,
+      "pass_at_5": false
+    },
+    {
+      "id": "H013",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A firm's Head of Legal is proposed as a Senior Manager under SM&CR. The firm wants to allocate the 'Overall Responsibility' Prescribed Responsibility to them, covering all regulated activities. Is this permissible?",
+      "expected_pages": [
+        "smcr-senior-managers-regime"
+      ],
+      "retrieved": [
+        {
+          "slug": "smcr-senior-managers-regime",
+          "path": "concepts/smcr-senior-managers-regime.md",
+          "score": 65.9365
+        },
+        {
+          "slug": "fca-guide-solo-regulated-firms",
+          "path": "summaries/fca-guide-solo-regulated-firms.md",
+          "score": 63.3451
+        },
+        {
+          "slug": "sysc6-compliance-internal-audit-financial-crime",
+          "path": "summaries/sysc6-compliance-internal-audit-financial-crime.md",
+          "score": 59.5974
+        },
+        {
+          "slug": "sysc4-general-organisational-requirements",
+          "path": "summaries/sysc4-general-organisational-requirements.md",
+          "score": 49.9353
+        },
+        {
+          "slug": "smcr-conduct-rules",
+          "path": "concepts/smcr-conduct-rules.md",
+          "score": 47.5179
+        }
+      ],
+      "found_at_rank": {
+        "smcr-senior-managers-regime": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E016",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "A retail customer suffers financial loss as a result of a firm breaching Principle 12 (Consumer Duty). Can the customer sue the firm for damages in court under FSMA?",
+      "expected_pages": [
+        "prin-principles-overview",
+        "consumer-principle"
+      ],
+      "retrieved": [
+        {
+          "slug": "consumer-principle",
+          "path": "concepts/consumer-principle.md",
+          "score": 57.4493
+        },
+        {
+          "slug": "prin3-rules-about-application",
+          "path": "summaries/prin3-rules-about-application.md",
+          "score": 49.798
+        },
+        {
+          "slug": "prin-principles-overview",
+          "path": "concepts/prin-principles-overview.md",
+          "score": 47.741
+        },
+        {
+          "slug": "prin1-2-introduction-principles",
+          "path": "summaries/prin1-2-introduction-principles.md",
+          "score": 45.9162
+        },
+        {
+          "slug": "complaints-handling-framework",
+          "path": "concepts/complaints-handling-framework.md",
+          "score": 40.2795
+        }
+      ],
+      "found_at_rank": {
+        "prin-principles-overview": 3,
+        "consumer-principle": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M022",
+      "difficulty": "medium",
+      "type": "boundary",
+      "question": "A firm is authorised as an electronic money institution under the EMRs 2011. Does Principle 12 (Consumer Duty) apply to it, and under which provision?",
+      "expected_pages": [
+        "prin-principles-overview",
+        "prin3-rules-about-application"
+      ],
+      "retrieved": [
+        {
+          "slug": "prin3-rules-about-application",
+          "path": "summaries/prin3-rules-about-application.md",
+          "score": 43.9958
+        },
+        {
+          "slug": "safeguarding-pis-emis",
+          "path": "concepts/safeguarding-pis-emis.md",
+          "score": 40.6234
+        },
+        {
+          "slug": "smcr-senior-managers-regime",
+          "path": "concepts/smcr-senior-managers-regime.md",
+          "score": 37.0975
+        },
+        {
+          "slug": "pi-emi-consumer-duty-and-sanctions-obligations",
+          "path": "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+          "score": 36.4086
+        },
+        {
+          "slug": "ps23-6-cryptoasset-financial-promotions",
+          "path": "summaries/ps23-6-cryptoasset-financial-promotions.md",
+          "score": 35.7515
+        }
+      ],
+      "found_at_rank": {
+        "prin-principles-overview": null,
+        "prin3-rules-about-application": 1
+      },
+      "missed": [
+        "prin-principles-overview"
+      ],
+      "precision_at_3": 0.5,
+      "precision_at_5": 0.5,
+      "pass_at_3": false,
+      "pass_at_5": false
+    },
+    {
+      "id": "H014",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A firm in a distribution chain discovers that the manufacturer of a product it distributes appears to be breaching Principle 12. What specific obligation does PRIN 2A impose on the distributing firm?",
+      "expected_pages": [
+        "prin2a-consumer-duty",
+        "consumer-principle"
+      ],
+      "retrieved": [
+        {
+          "slug": "prin2a-consumer-duty",
+          "path": "summaries/prin2a-consumer-duty.md",
+          "score": 63.3745
+        },
+        {
+          "slug": "consumer-principle",
+          "path": "concepts/consumer-principle.md",
+          "score": 54.0964
+        },
+        {
+          "slug": "prod3-product-governance-mifid",
+          "path": "summaries/prod3-product-governance-mifid.md",
+          "score": 49.9417
+        },
+        {
+          "slug": "prin3-rules-about-application",
+          "path": "summaries/prin3-rules-about-application.md",
+          "score": 47.6619
+        },
+        {
+          "slug": "consumer-duty-products-services",
+          "path": "concepts/consumer-duty-products-services.md",
+          "score": 47.4891
+        }
+      ],
+      "found_at_rank": {
+        "prin2a-consumer-duty": 1,
+        "consumer-principle": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E017",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "Under SYSC 10, what is the correct sequence a firm must follow when it identifies a conflict of interest, and what is the status of client disclosure within that sequence?",
+      "expected_pages": [
+        "sysc10-conflicts-of-interest"
+      ],
+      "retrieved": [
+        {
+          "slug": "sysc10-conflicts-of-interest",
+          "path": "concepts/sysc10-conflicts-of-interest.md",
+          "score": 50.8712
+        },
+        {
+          "slug": "payment-for-order-flow",
+          "path": "concepts/payment-for-order-flow.md",
+          "score": 43.5075
+        },
+        {
+          "slug": "cryptoasset-financial-promotions-framework",
+          "path": "concepts/cryptoasset-financial-promotions-framework.md",
+          "score": 43.382
+        },
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 42.2626
+        },
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 42.112
+        }
+      ],
+      "found_at_rank": {
+        "sysc10-conflicts-of-interest": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M023",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A MiFID investment firm deletes email records relating to a client order from three years ago to free up storage. What specific SYSC 9 obligations has it potentially breached, and what is the minimum retention period that applied?",
+      "expected_pages": [
+        "sysc9-record-keeping"
+      ],
+      "retrieved": [
+        {
+          "slug": "sysc9-record-keeping",
+          "path": "concepts/sysc9-record-keeping.md",
+          "score": 50.0801
+        },
+        {
+          "slug": "financial-promotions-approver-regime",
+          "path": "concepts/financial-promotions-approver-regime.md",
+          "score": 44.08
+        },
+        {
+          "slug": "cobs10-appropriateness-non-mifid",
+          "path": "summaries/cobs10-appropriateness-non-mifid.md",
+          "score": 43.4075
+        },
+        {
+          "slug": "ico-guide-data-protection-principles",
+          "path": "summaries/ico-guide-data-protection-principles.md",
+          "score": 42.4354
+        },
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 41.9749
+        }
+      ],
+      "found_at_rank": {
+        "sysc9-record-keeping": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H015",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A conflicts register maintained under SYSC 10.1.6R has not been reviewed or updated for 18 months. The firm argues that no new conflicts have arisen so no update was needed, and that senior management receives a verbal briefing on conflicts quarterly. What specific obligations has the firm breached?",
+      "expected_pages": [
+        "sysc10-conflicts-of-interest"
+      ],
+      "retrieved": [
+        {
+          "slug": "sysc10-conflicts-of-interest",
+          "path": "concepts/sysc10-conflicts-of-interest.md",
+          "score": 95.8709
+        },
+        {
+          "slug": "financial-promotions-approver-regime",
+          "path": "concepts/financial-promotions-approver-regime.md",
+          "score": 64.8238
+        },
+        {
+          "slug": "fcg2-financial-crime-systems-controls",
+          "path": "summaries/fcg2-financial-crime-systems-controls.md",
+          "score": 62.9049
+        },
+        {
+          "slug": "payment-for-order-flow",
+          "path": "concepts/payment-for-order-flow.md",
+          "score": 60.0976
+        },
+        {
+          "slug": "inducements-framework",
+          "path": "concepts/inducements-framework.md",
+          "score": 58.4735
+        }
+      ],
+      "found_at_rank": {
+        "sysc10-conflicts-of-interest": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E018",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "Under the FCA's cryptoasset financial promotion rules, an MLR-registered cryptoasset business offers a \u00a350 cash bonus to new customers who make their first trade within 30 days of signing up. Is this permitted?",
+      "expected_pages": [
+        "cryptoasset-financial-promotions-framework",
+        "ps23-6-cryptoasset-financial-promotions"
+      ],
+      "retrieved": [
+        {
+          "slug": "cryptoasset-financial-promotions-framework",
+          "path": "concepts/cryptoasset-financial-promotions-framework.md",
+          "score": 69.1265
+        },
+        {
+          "slug": "ps23-6-cryptoasset-financial-promotions",
+          "path": "summaries/ps23-6-cryptoasset-financial-promotions.md",
+          "score": 60.4719
+        },
+        {
+          "slug": "customer-due-diligence",
+          "path": "concepts/customer-due-diligence.md",
+          "score": 46.9008
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 46.2088
+        },
+        {
+          "slug": "uk-financial-sanctions-framework",
+          "path": "concepts/uk-financial-sanctions-framework.md",
+          "score": 45.2976
+        }
+      ],
+      "found_at_rank": {
+        "cryptoasset-financial-promotions-framework": 1,
+        "ps23-6-cryptoasset-financial-promotions": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M024",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "question": "A cryptoasset firm onboards a new retail customer who wishes to invest. The customer claims to be a self-certified sophisticated investor and provides a signed declaration. Can the firm treat this customer as a sophisticated investor and skip the appropriateness assessment?",
+      "expected_pages": [
+        "cryptoasset-financial-promotions-framework"
+      ],
+      "retrieved": [
+        {
+          "slug": "cryptoasset-financial-promotions-framework",
+          "path": "concepts/cryptoasset-financial-promotions-framework.md",
+          "score": 101.1713
+        },
+        {
+          "slug": "ps23-6-cryptoasset-financial-promotions",
+          "path": "summaries/ps23-6-cryptoasset-financial-promotions.md",
+          "score": 85.3052
+        },
+        {
+          "slug": "cobs3-client-categorisation",
+          "path": "summaries/cobs3-client-categorisation.md",
+          "score": 57.7404
+        },
+        {
+          "slug": "customer-due-diligence",
+          "path": "concepts/customer-due-diligence.md",
+          "score": 53.5018
+        },
+        {
+          "slug": "client-categorisation-framework",
+          "path": "concepts/client-categorisation-framework.md",
+          "score": 53.0236
+        }
+      ],
+      "found_at_rank": {
+        "cryptoasset-financial-promotions-framework": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H016",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A cryptoasset firm communicates a direct offer financial promotion (DOFP) to a retail customer. The customer fails the appropriateness assessment on their first attempt and immediately retakes it \u2014 passing on the second try five minutes later. The firm processes the customer's investment. Has the firm complied with PS23/6?",
+      "expected_pages": [
+        "cryptoasset-financial-promotions-framework"
+      ],
+      "retrieved": [
+        {
+          "slug": "cryptoasset-financial-promotions-framework",
+          "path": "concepts/cryptoasset-financial-promotions-framework.md",
+          "score": 112.7112
+        },
+        {
+          "slug": "ps23-6-cryptoasset-financial-promotions",
+          "path": "summaries/ps23-6-cryptoasset-financial-promotions.md",
+          "score": 84.1711
+        },
+        {
+          "slug": "conc-cpa-rules",
+          "path": "concepts/conc-cpa-rules.md",
+          "score": 63.8751
+        },
+        {
+          "slug": "cobs10-appropriateness-non-mifid",
+          "path": "summaries/cobs10-appropriateness-non-mifid.md",
+          "score": 63.2067
+        },
+        {
+          "slug": "conc2-conduct-of-business-general",
+          "path": "summaries/conc2-conduct-of-business-general.md",
+          "score": 63.1069
+        }
+      ],
+      "found_at_rank": {
+        "cryptoasset-financial-promotions-framework": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E019",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What three categories of information must a firm collect and assess about a retail client before making a personal recommendation under COBS 9A?",
+      "expected_pages": [
+        "cobs9a-suitability-mifid"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs9a-suitability-mifid",
+          "path": "summaries/cobs9a-suitability-mifid.md",
+          "score": 39.8192
+        },
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 35.1754
+        },
+        {
+          "slug": "cobs9-suitability",
+          "path": "summaries/cobs9-suitability.md",
+          "score": 34.0673
+        },
+        {
+          "slug": "targeted-support-service",
+          "path": "concepts/targeted-support-service.md",
+          "score": 33.7812
+        },
+        {
+          "slug": "cobs9b-targeted-support",
+          "path": "summaries/cobs9b-targeted-support.md",
+          "score": 33.295
+        }
+      ],
+      "found_at_rank": {
+        "cobs9a-suitability-mifid": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E020",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "When must a firm provide a suitability report to a retail client, and what must the report contain?",
+      "expected_pages": [
+        "cobs9a-suitability-mifid"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs9-suitability",
+          "path": "summaries/cobs9-suitability.md",
+          "score": 29.1226
+        },
+        {
+          "slug": "cobs9a-suitability-mifid",
+          "path": "summaries/cobs9a-suitability-mifid.md",
+          "score": 29.0601
+        },
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 27.8822
+        },
+        {
+          "slug": "advice-suitability-cobs9",
+          "path": "concepts/advice-suitability-cobs9.md",
+          "score": 27.3954
+        },
+        {
+          "slug": "cobs10-appropriateness-non-mifid",
+          "path": "summaries/cobs10-appropriateness-non-mifid.md",
+          "score": 26.5318
+        }
+      ],
+      "found_at_rank": {
+        "cobs9a-suitability-mifid": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M025",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A discretionary portfolio manager provides ongoing portfolio management to a retail client. What periodic suitability obligations does COBS 9A impose, and how frequently must they be discharged?",
+      "expected_pages": [
+        "cobs9a-suitability-mifid"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs9a-suitability-mifid",
+          "path": "summaries/cobs9a-suitability-mifid.md",
+          "score": 41.9953
+        },
+        {
+          "slug": "targeted-support-service",
+          "path": "concepts/targeted-support-service.md",
+          "score": 36.661
+        },
+        {
+          "slug": "inducements-framework",
+          "path": "concepts/inducements-framework.md",
+          "score": 35.658
+        },
+        {
+          "slug": "cobs9-suitability",
+          "path": "summaries/cobs9-suitability.md",
+          "score": 35.5412
+        },
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 35.1454
+        }
+      ],
+      "found_at_rank": {
+        "cobs9a-suitability-mifid": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M026",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "question": "A retail client instructs a firm to purchase a specific investment product. The firm's suitability assessment shows the product is not suitable for the client. Can the firm proceed, and if so under what conditions?",
+      "expected_pages": [
+        "cobs9-suitability"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs9-suitability",
+          "path": "summaries/cobs9-suitability.md",
+          "score": 56.1505
+        },
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 54.6561
+        },
+        {
+          "slug": "cobs10-appropriateness-non-mifid",
+          "path": "summaries/cobs10-appropriateness-non-mifid.md",
+          "score": 50.8429
+        },
+        {
+          "slug": "cobs10a-appropriateness-mifid",
+          "path": "summaries/cobs10a-appropriateness-mifid.md",
+          "score": 50.5285
+        },
+        {
+          "slug": "cobs9a-suitability-mifid",
+          "path": "summaries/cobs9a-suitability-mifid.md",
+          "score": 49.4032
+        }
+      ],
+      "found_at_rank": {
+        "cobs9-suitability": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H017",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A retail client claims to be a sophisticated investor and argues that a full suitability assessment is not required before their personal recommendation. Does this exemption exist under COBS 9A, and what process is actually required?",
+      "expected_pages": [
+        "cobs9a-suitability-mifid"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs9a-suitability-mifid",
+          "path": "summaries/cobs9a-suitability-mifid.md",
+          "score": 55.5162
+        },
+        {
+          "slug": "cobs9-suitability",
+          "path": "summaries/cobs9-suitability.md",
+          "score": 53.9201
+        },
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 52.8017
+        },
+        {
+          "slug": "cryptoasset-financial-promotions-framework",
+          "path": "concepts/cryptoasset-financial-promotions-framework.md",
+          "score": 52.5943
+        },
+        {
+          "slug": "cobs9b-targeted-support",
+          "path": "summaries/cobs9b-targeted-support.md",
+          "score": 50.5044
+        }
+      ],
+      "found_at_rank": {
+        "cobs9a-suitability-mifid": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H018",
+      "difficulty": "hard",
+      "type": "synthesis",
+      "question": "An investment firm's suitability assessment process asks retail clients to self-rate their risk appetite on a five-point scale, with no further questions about financial situation or investment objectives. An FCA supervisory review finds the process inadequate. What specific COBS 9A obligations has the firm failed to meet?",
+      "expected_pages": [
+        "cobs9a-suitability-mifid"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs9a-suitability-mifid",
+          "path": "summaries/cobs9a-suitability-mifid.md",
+          "score": 65.8421
+        },
+        {
+          "slug": "cobs9-suitability",
+          "path": "summaries/cobs9-suitability.md",
+          "score": 61.6446
+        },
+        {
+          "slug": "prod3-product-governance-mifid",
+          "path": "summaries/prod3-product-governance-mifid.md",
+          "score": 59.9349
+        },
+        {
+          "slug": "cobs10-appropriateness-non-mifid",
+          "path": "summaries/cobs10-appropriateness-non-mifid.md",
+          "score": 59.6647
+        },
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 59.2832
+        }
+      ],
+      "found_at_rank": {
+        "cobs9a-suitability-mifid": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E021",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What is the key difference between a suitability assessment and an appropriateness assessment under COBS, and to what type of service does each apply?",
+      "expected_pages": [
+        "appropriateness-framework"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs9b-targeted-support",
+          "path": "summaries/cobs9b-targeted-support.md",
+          "score": 41.71
+        },
+        {
+          "slug": "cobs10-appropriateness-non-mifid",
+          "path": "summaries/cobs10-appropriateness-non-mifid.md",
+          "score": 41.3824
+        },
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 40.9083
+        },
+        {
+          "slug": "cobs10a-appropriateness-mifid",
+          "path": "summaries/cobs10a-appropriateness-mifid.md",
+          "score": 38.9486
+        },
+        {
+          "slug": "cobs9a-suitability-mifid",
+          "path": "summaries/cobs9a-suitability-mifid.md",
+          "score": 38.4756
+        }
+      ],
+      "found_at_rank": {
+        "appropriateness-framework": 3
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E022",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "Under COBS 10A, when does the appropriateness requirement not apply \u2014 what is the non-complex product carve-out?",
+      "expected_pages": [
+        "cobs10a-appropriateness-mifid"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs10a-appropriateness-mifid",
+          "path": "summaries/cobs10a-appropriateness-mifid.md",
+          "score": 34.1523
+        },
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 33.4072
+        },
+        {
+          "slug": "cobs10-appropriateness-non-mifid",
+          "path": "summaries/cobs10-appropriateness-non-mifid.md",
+          "score": 31.7576
+        },
+        {
+          "slug": "client-best-interests-rule",
+          "path": "concepts/client-best-interests-rule.md",
+          "score": 29.722
+        },
+        {
+          "slug": "cobs9b-targeted-support",
+          "path": "summaries/cobs9b-targeted-support.md",
+          "score": 27.6088
+        }
+      ],
+      "found_at_rank": {
+        "cobs10a-appropriateness-mifid": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M027",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A retail client fails an appropriateness assessment for a structured product with capital-at-risk features. The client still wants to proceed. What must the firm do and can it execute the transaction?",
+      "expected_pages": [
+        "cobs10a-appropriateness-mifid"
+      ],
+      "retrieved": [
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 50.6682
+        },
+        {
+          "slug": "cobs10a-appropriateness-mifid",
+          "path": "summaries/cobs10a-appropriateness-mifid.md",
+          "score": 48.5674
+        },
+        {
+          "slug": "cobs10-appropriateness-non-mifid",
+          "path": "summaries/cobs10-appropriateness-non-mifid.md",
+          "score": 48.3997
+        },
+        {
+          "slug": "cryptoasset-financial-promotions-framework",
+          "path": "concepts/cryptoasset-financial-promotions-framework.md",
+          "score": 46.0589
+        },
+        {
+          "slug": "prod3-product-governance-mifid",
+          "path": "summaries/prod3-product-governance-mifid.md",
+          "score": 45.9318
+        }
+      ],
+      "found_at_rank": {
+        "cobs10a-appropriateness-mifid": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M028",
+      "difficulty": "medium",
+      "type": "boundary",
+      "question": "A retail client contacts their broker and requests to buy shares in a listed FTSE 250 company. No advice is given. Does the broker need to conduct an appropriateness assessment?",
+      "expected_pages": [
+        "cobs10a-appropriateness-mifid"
+      ],
+      "retrieved": [
+        {
+          "slug": "client-categorisation-framework",
+          "path": "concepts/client-categorisation-framework.md",
+          "score": 39.3663
+        },
+        {
+          "slug": "cobs3-client-categorisation",
+          "path": "summaries/cobs3-client-categorisation.md",
+          "score": 37.3962
+        },
+        {
+          "slug": "payment-for-order-flow",
+          "path": "concepts/payment-for-order-flow.md",
+          "score": 36.4375
+        },
+        {
+          "slug": "cryptoasset-financial-promotions-framework",
+          "path": "concepts/cryptoasset-financial-promotions-framework.md",
+          "score": 35.9953
+        },
+        {
+          "slug": "cobs2-conduct-of-business",
+          "path": "summaries/cobs2-conduct-of-business.md",
+          "score": 35.9408
+        }
+      ],
+      "found_at_rank": {
+        "cobs10a-appropriateness-mifid": null
+      },
+      "missed": [
+        "cobs10a-appropriateness-mifid"
+      ],
+      "precision_at_3": 0.0,
+      "precision_at_5": 0.0,
+      "pass_at_3": false,
+      "pass_at_5": false
+    },
+    {
+      "id": "H019",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A retail client wants to buy a structured note that guarantees return of 100% of capital at maturity but links any return above that to an equity index. The firm is unsure whether to classify this as complex or non-complex for appropriateness purposes. How should it be classified?",
+      "expected_pages": [
+        "cobs10a-appropriateness-mifid"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs10a-appropriateness-mifid",
+          "path": "summaries/cobs10a-appropriateness-mifid.md",
+          "score": 76.0801
+        },
+        {
+          "slug": "prod3-product-governance-mifid",
+          "path": "summaries/prod3-product-governance-mifid.md",
+          "score": 66.3259
+        },
+        {
+          "slug": "cryptoasset-financial-promotions-framework",
+          "path": "concepts/cryptoasset-financial-promotions-framework.md",
+          "score": 61.3389
+        },
+        {
+          "slug": "psr-capital-requirements",
+          "path": "concepts/psr-capital-requirements.md",
+          "score": 60.0263
+        },
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 58.1027
+        }
+      ],
+      "found_at_rank": {
+        "cobs10a-appropriateness-mifid": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H020",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A firm providing execution-only services removes appropriateness assessments entirely for all products and relies instead on prominent risk warnings on its website. Is this compliant with COBS 10A?",
+      "expected_pages": [
+        "cobs10a-appropriateness-mifid"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs10a-appropriateness-mifid",
+          "path": "summaries/cobs10a-appropriateness-mifid.md",
+          "score": 45.6421
+        },
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 45.0298
+        },
+        {
+          "slug": "cobs10-appropriateness-non-mifid",
+          "path": "summaries/cobs10-appropriateness-non-mifid.md",
+          "score": 42.7147
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 40.7412
+        },
+        {
+          "slug": "cobs2-conduct-of-business",
+          "path": "summaries/cobs2-conduct-of-business.md",
+          "score": 40.5433
+        }
+      ],
+      "found_at_rank": {
+        "cobs10a-appropriateness-mifid": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E023",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What are the execution factors a firm must consider when executing client orders under COBS 11, and which factor takes priority for retail clients?",
+      "expected_pages": [
+        "cobs11-dealing-managing"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs11-dealing-managing",
+          "path": "summaries/cobs11-dealing-managing.md",
+          "score": 41.04
+        },
+        {
+          "slug": "best-execution-framework",
+          "path": "concepts/best-execution-framework.md",
+          "score": 39.6522
+        },
+        {
+          "slug": "client-order-handling",
+          "path": "concepts/client-order-handling.md",
+          "score": 35.2837
+        },
+        {
+          "slug": "research-unbundling",
+          "path": "concepts/research-unbundling.md",
+          "score": 32.7829
+        },
+        {
+          "slug": "payment-for-order-flow",
+          "path": "concepts/payment-for-order-flow.md",
+          "score": 31.6713
+        }
+      ],
+      "found_at_rank": {
+        "cobs11-dealing-managing": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M029",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "What must a firm's order execution policy contain, and what obligations apply to client consent and annual review?",
+      "expected_pages": [
+        "best-execution-framework"
+      ],
+      "retrieved": [
+        {
+          "slug": "inducements-framework",
+          "path": "concepts/inducements-framework.md",
+          "score": 26.331
+        },
+        {
+          "slug": "research-unbundling",
+          "path": "concepts/research-unbundling.md",
+          "score": 25.8865
+        },
+        {
+          "slug": "payment-for-order-flow",
+          "path": "concepts/payment-for-order-flow.md",
+          "score": 25.2408
+        },
+        {
+          "slug": "fg21-1-guidance",
+          "path": "summaries/fg21-1-guidance.md",
+          "score": 25.1785
+        },
+        {
+          "slug": "best-execution-framework",
+          "path": "concepts/best-execution-framework.md",
+          "score": 25.124
+        }
+      ],
+      "found_at_rank": {
+        "best-execution-framework": 5
+      },
+      "missed": [],
+      "precision_at_3": 0.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": false,
+      "pass_at_5": true
+    },
+    {
+      "id": "M030",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "question": "A retail client gives a specific instruction to execute an order on a particular venue, which the firm's execution policy identifies as inferior for that instrument. Must the firm follow the instruction?",
+      "expected_pages": [
+        "cobs11-dealing-managing"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs11-dealing-managing",
+          "path": "summaries/cobs11-dealing-managing.md",
+          "score": 65.7837
+        },
+        {
+          "slug": "best-execution-framework",
+          "path": "concepts/best-execution-framework.md",
+          "score": 64.9651
+        },
+        {
+          "slug": "payment-for-order-flow",
+          "path": "concepts/payment-for-order-flow.md",
+          "score": 51.0484
+        },
+        {
+          "slug": "cobs2-3b-inducements-research",
+          "path": "summaries/cobs2-3b-inducements-research.md",
+          "score": 50.2731
+        },
+        {
+          "slug": "client-order-handling",
+          "path": "concepts/client-order-handling.md",
+          "score": 49.1765
+        }
+      ],
+      "found_at_rank": {
+        "cobs11-dealing-managing": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M031",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A firm wants to aggregate a small retail client order with a larger institutional order before executing. Under what conditions is order aggregation permitted and what must the firm disclose?",
+      "expected_pages": [
+        "cobs11-dealing-managing"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs11-dealing-managing",
+          "path": "summaries/cobs11-dealing-managing.md",
+          "score": 43.3141
+        },
+        {
+          "slug": "cobs2-conduct-of-business",
+          "path": "summaries/cobs2-conduct-of-business.md",
+          "score": 37.5273
+        },
+        {
+          "slug": "client-order-handling",
+          "path": "concepts/client-order-handling.md",
+          "score": 36.7944
+        },
+        {
+          "slug": "best-execution-framework",
+          "path": "concepts/best-execution-framework.md",
+          "score": 36.3618
+        },
+        {
+          "slug": "cobs10-appropriateness-non-mifid",
+          "path": "summaries/cobs10-appropriateness-non-mifid.md",
+          "score": 35.8394
+        }
+      ],
+      "found_at_rank": {
+        "cobs11-dealing-managing": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H021",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "An investment firm routes all retail client orders exclusively to a single execution venue with which it has a revenue-sharing arrangement. It argues that its execution policy discloses the arrangement and clients have consented to the policy. Is the firm meeting its best execution obligation?",
+      "expected_pages": [
+        "cobs11-dealing-managing",
+        "inducements-framework"
+      ],
+      "retrieved": [
+        {
+          "slug": "cobs2-3b-inducements-research",
+          "path": "summaries/cobs2-3b-inducements-research.md",
+          "score": 67.8331
+        },
+        {
+          "slug": "payment-for-order-flow",
+          "path": "concepts/payment-for-order-flow.md",
+          "score": 67.7615
+        },
+        {
+          "slug": "cobs11-dealing-managing",
+          "path": "summaries/cobs11-dealing-managing.md",
+          "score": 67.6781
+        },
+        {
+          "slug": "best-execution-framework",
+          "path": "concepts/best-execution-framework.md",
+          "score": 66.7093
+        },
+        {
+          "slug": "inducements-framework",
+          "path": "concepts/inducements-framework.md",
+          "score": 64.8394
+        }
+      ],
+      "found_at_rank": {
+        "cobs11-dealing-managing": 3,
+        "inducements-framework": 5
+      },
+      "missed": [],
+      "precision_at_3": 0.5,
+      "precision_at_5": 1.0,
+      "pass_at_3": false,
+      "pass_at_5": true
+    },
+    {
+      "id": "H022",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A firm's annual review of its execution policy finds that orders routed to its primary venue have consistently achieved worse prices than competitor venues over the past year. The firm updates its policy document to reflect this but continues routing orders to the same venue. Has it met its best execution obligations?",
+      "expected_pages": [
+        "cobs11-dealing-managing"
+      ],
+      "retrieved": [
+        {
+          "slug": "best-execution-framework",
+          "path": "concepts/best-execution-framework.md",
+          "score": 86.3951
+        },
+        {
+          "slug": "cobs11-dealing-managing",
+          "path": "summaries/cobs11-dealing-managing.md",
+          "score": 84.5829
+        },
+        {
+          "slug": "payment-for-order-flow",
+          "path": "concepts/payment-for-order-flow.md",
+          "score": 82.2283
+        },
+        {
+          "slug": "fca-pfof-supervisory-report-2019",
+          "path": "summaries/fca-pfof-supervisory-report-2019.md",
+          "score": 81.4991
+        },
+        {
+          "slug": "client-order-handling",
+          "path": "concepts/client-order-handling.md",
+          "score": 70.4009
+        }
+      ],
+      "found_at_rank": {
+        "cobs11-dealing-managing": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E024",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "Where must a firm hold client money under CASS 7, what type of account is required, and what specific acknowledgement must the firm obtain from the bank?",
+      "expected_pages": [
+        "client-money-framework"
+      ],
+      "retrieved": [
+        {
+          "slug": "cass7-client-money-rules",
+          "path": "summaries/cass7-client-money-rules.md",
+          "score": 53.1213
+        },
+        {
+          "slug": "client-money-framework",
+          "path": "concepts/client-money-framework.md",
+          "score": 47.8707
+        },
+        {
+          "slug": "cass10-resolution-pack",
+          "path": "summaries/cass10-resolution-pack.md",
+          "score": 47.4891
+        },
+        {
+          "slug": "safeguarding-pis-emis",
+          "path": "concepts/safeguarding-pis-emis.md",
+          "score": 43.8465
+        },
+        {
+          "slug": "cass6-custody-rules",
+          "path": "summaries/cass6-custody-rules.md",
+          "score": 42.5613
+        }
+      ],
+      "found_at_rank": {
+        "client-money-framework": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E025",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What is a CASS resolution pack and within what timeframe must a firm be able to produce it?",
+      "expected_pages": [
+        "cass10-resolution-pack"
+      ],
+      "retrieved": [
+        {
+          "slug": "cass10-resolution-pack",
+          "path": "summaries/cass10-resolution-pack.md",
+          "score": 39.6167
+        },
+        {
+          "slug": "sup3-auditors",
+          "path": "summaries/sup3-auditors.md",
+          "score": 35.0652
+        },
+        {
+          "slug": "cass7-client-money-rules",
+          "path": "summaries/cass7-client-money-rules.md",
+          "score": 31.8352
+        },
+        {
+          "slug": "cass1a-firm-classification-oversight",
+          "path": "summaries/cass1a-firm-classification-oversight.md",
+          "score": 31.5383
+        },
+        {
+          "slug": "client-money-framework",
+          "path": "concepts/client-money-framework.md",
+          "score": 31.0898
+        }
+      ],
+      "found_at_rank": {
+        "cass10-resolution-pack": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M032",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "Under what conditions may a firm apply the institutional client money opt-out under CASS 7, and what is the effect of doing so?",
+      "expected_pages": [
+        "client-money-framework"
+      ],
+      "retrieved": [
+        {
+          "slug": "cass7-client-money-rules",
+          "path": "summaries/cass7-client-money-rules.md",
+          "score": 39.9971
+        },
+        {
+          "slug": "cass1a-firm-classification-oversight",
+          "path": "summaries/cass1a-firm-classification-oversight.md",
+          "score": 36.7137
+        },
+        {
+          "slug": "client-money-framework",
+          "path": "concepts/client-money-framework.md",
+          "score": 36.065
+        },
+        {
+          "slug": "cobs3-client-categorisation",
+          "path": "summaries/cobs3-client-categorisation.md",
+          "score": 34.4237
+        },
+        {
+          "slug": "client-categorisation-framework",
+          "path": "concepts/client-categorisation-framework.md",
+          "score": 33.8003
+        }
+      ],
+      "found_at_rank": {
+        "client-money-framework": 3
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M033",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A firm discovers a shortfall in its client money account \u2014 the aggregate client money balance is less than what it owes to clients. What must it do immediately?",
+      "expected_pages": [
+        "client-money-framework"
+      ],
+      "retrieved": [
+        {
+          "slug": "client-money-framework",
+          "path": "concepts/client-money-framework.md",
+          "score": 46.2711
+        },
+        {
+          "slug": "cass7-client-money-rules",
+          "path": "summaries/cass7-client-money-rules.md",
+          "score": 45.5808
+        },
+        {
+          "slug": "cass6-custody-rules",
+          "path": "summaries/cass6-custody-rules.md",
+          "score": 39.3147
+        },
+        {
+          "slug": "prin2a-consumer-duty",
+          "path": "summaries/prin2a-consumer-duty.md",
+          "score": 36.2599
+        },
+        {
+          "slug": "client-assets-custody",
+          "path": "concepts/client-assets-custody.md",
+          "score": 35.8431
+        }
+      ],
+      "found_at_rank": {
+        "client-money-framework": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H023",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A retail client enters into a title transfer collateral arrangement (TTCA) with their broker as part of a margin trading account. What happens to CASS protections for the assets transferred under the arrangement?",
+      "expected_pages": [
+        "cass6-custody-rules"
+      ],
+      "retrieved": [
+        {
+          "slug": "cass7-client-money-rules",
+          "path": "summaries/cass7-client-money-rules.md",
+          "score": 64.1673
+        },
+        {
+          "slug": "client-money-framework",
+          "path": "concepts/client-money-framework.md",
+          "score": 59.4251
+        },
+        {
+          "slug": "client-assets-custody",
+          "path": "concepts/client-assets-custody.md",
+          "score": 57.3945
+        },
+        {
+          "slug": "cass6-custody-rules",
+          "path": "summaries/cass6-custody-rules.md",
+          "score": 57.2149
+        },
+        {
+          "slug": "smcr-certification-regime",
+          "path": "concepts/smcr-certification-regime.md",
+          "score": 39.5352
+        }
+      ],
+      "found_at_rank": {
+        "cass6-custody-rules": 4
+      },
+      "missed": [],
+      "precision_at_3": 0.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": false,
+      "pass_at_5": true
+    },
+    {
+      "id": "H024",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A firm appoints a sub-custodian in a non-EEA jurisdiction to hold client custody assets. The legal framework in that jurisdiction does not require client assets to be separately identified from the sub-custodian's own assets. What must the firm do before proceeding?",
+      "expected_pages": [
+        "cass6-custody-rules"
+      ],
+      "retrieved": [
+        {
+          "slug": "client-assets-custody",
+          "path": "concepts/client-assets-custody.md",
+          "score": 81.4201
+        },
+        {
+          "slug": "cass6-custody-rules",
+          "path": "summaries/cass6-custody-rules.md",
+          "score": 75.7423
+        },
+        {
+          "slug": "cass7-client-money-rules",
+          "path": "summaries/cass7-client-money-rules.md",
+          "score": 65.0801
+        },
+        {
+          "slug": "cass10-resolution-pack",
+          "path": "summaries/cass10-resolution-pack.md",
+          "score": 63.3133
+        },
+        {
+          "slug": "client-money-framework",
+          "path": "concepts/client-money-framework.md",
+          "score": 62.0206
+        }
+      ],
+      "found_at_rank": {
+        "cass6-custody-rules": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E026",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What conditions must a third-party benefit meet to qualify as a permitted minor non-monetary benefit (MNMB) under COBS 2.3A?",
+      "expected_pages": [
+        "inducements-framework"
+      ],
+      "retrieved": [
+        {
+          "slug": "inducements-framework",
+          "path": "concepts/inducements-framework.md",
+          "score": 43.4211
+        },
+        {
+          "slug": "cobs2-3a-inducements",
+          "path": "summaries/cobs2-3a-inducements.md",
+          "score": 39.9283
+        },
+        {
+          "slug": "cobs2-3b-inducements-research",
+          "path": "summaries/cobs2-3b-inducements-research.md",
+          "score": 37.0125
+        },
+        {
+          "slug": "cobs2-conduct-of-business",
+          "path": "summaries/cobs2-conduct-of-business.md",
+          "score": 34.0062
+        },
+        {
+          "slug": "research-unbundling",
+          "path": "concepts/research-unbundling.md",
+          "score": 31.2732
+        }
+      ],
+      "found_at_rank": {
+        "inducements-framework": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M034",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "An investment firm wishes to use a research payment account (RPA) to pay for third-party research. What conditions must be satisfied before an RPA can be used?",
+      "expected_pages": [
+        "research-unbundling",
+        "inducements-framework"
+      ],
+      "retrieved": [
+        {
+          "slug": "research-unbundling",
+          "path": "concepts/research-unbundling.md",
+          "score": 59.1095
+        },
+        {
+          "slug": "cobs2-3b-inducements-research",
+          "path": "summaries/cobs2-3b-inducements-research.md",
+          "score": 58.5105
+        },
+        {
+          "slug": "cobs2-conduct-of-business",
+          "path": "summaries/cobs2-conduct-of-business.md",
+          "score": 51.9854
+        },
+        {
+          "slug": "inducements-framework",
+          "path": "concepts/inducements-framework.md",
+          "score": 51.7134
+        },
+        {
+          "slug": "cobs2-3a-inducements",
+          "path": "summaries/cobs2-3a-inducements.md",
+          "score": 36.4917
+        }
+      ],
+      "found_at_rank": {
+        "research-unbundling": 1,
+        "inducements-framework": 4
+      },
+      "missed": [],
+      "precision_at_3": 0.5,
+      "precision_at_5": 1.0,
+      "pass_at_3": false,
+      "pass_at_5": true
+    },
+    {
+      "id": "M035",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A broker provides a bundled service combining trade execution and investment research. The investment firm receiving the service wishes to continue receiving both. What must it do to remain compliant with COBS 2.3B?",
+      "expected_pages": [
+        "research-unbundling",
+        "inducements-framework"
+      ],
+      "retrieved": [
+        {
+          "slug": "research-unbundling",
+          "path": "concepts/research-unbundling.md",
+          "score": 59.9135
+        },
+        {
+          "slug": "inducements-framework",
+          "path": "concepts/inducements-framework.md",
+          "score": 55.0426
+        },
+        {
+          "slug": "cobs2-3b-inducements-research",
+          "path": "summaries/cobs2-3b-inducements-research.md",
+          "score": 53.0301
+        },
+        {
+          "slug": "cobs2-conduct-of-business",
+          "path": "summaries/cobs2-conduct-of-business.md",
+          "score": 49.2187
+        },
+        {
+          "slug": "cobs9a-suitability-mifid",
+          "path": "summaries/cobs9a-suitability-mifid.md",
+          "score": 48.093
+        }
+      ],
+      "found_at_rank": {
+        "research-unbundling": 1,
+        "inducements-framework": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H025",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A fund manager receives ongoing access to a proprietary data analytics platform provided free of charge by an investment bank with which it also trades. The bank argues this qualifies as a minor non-monetary benefit. Does it?",
+      "expected_pages": [
+        "inducements-framework",
+        "research-unbundling"
+      ],
+      "retrieved": [
+        {
+          "slug": "inducements-framework",
+          "path": "concepts/inducements-framework.md",
+          "score": 53.858
+        },
+        {
+          "slug": "cobs2-conduct-of-business",
+          "path": "summaries/cobs2-conduct-of-business.md",
+          "score": 51.359
+        },
+        {
+          "slug": "cobs2-3a-inducements",
+          "path": "summaries/cobs2-3a-inducements.md",
+          "score": 49.7919
+        },
+        {
+          "slug": "research-unbundling",
+          "path": "concepts/research-unbundling.md",
+          "score": 49.4941
+        },
+        {
+          "slug": "cobs11-dealing-managing",
+          "path": "summaries/cobs11-dealing-managing.md",
+          "score": 48.5019
+        }
+      ],
+      "found_at_rank": {
+        "inducements-framework": 1,
+        "research-unbundling": 4
+      },
+      "missed": [],
+      "precision_at_3": 0.5,
+      "precision_at_5": 1.0,
+      "pass_at_3": false,
+      "pass_at_5": true
+    },
+    {
+      "id": "H026",
+      "difficulty": "hard",
+      "type": "synthesis",
+      "question": "An investment firm's trading desk accepts soft commissions \u2014 directing client order flow to a broker in exchange for research and Bloomberg terminal access. What rules does this breach and what is the automatic consequence under COBS 2.3A.7E?",
+      "expected_pages": [
+        "inducements-framework",
+        "research-unbundling"
+      ],
+      "retrieved": [
+        {
+          "slug": "inducements-framework",
+          "path": "concepts/inducements-framework.md",
+          "score": 68.8825
+        },
+        {
+          "slug": "research-unbundling",
+          "path": "concepts/research-unbundling.md",
+          "score": 66.3629
+        },
+        {
+          "slug": "cobs2-3a-inducements",
+          "path": "summaries/cobs2-3a-inducements.md",
+          "score": 61.0048
+        },
+        {
+          "slug": "payment-for-order-flow",
+          "path": "concepts/payment-for-order-flow.md",
+          "score": 60.1364
+        },
+        {
+          "slug": "fca-pfof-supervisory-report-2019",
+          "path": "summaries/fca-pfof-supervisory-report-2019.md",
+          "score": 53.5356
+        }
+      ],
+      "found_at_rank": {
+        "inducements-framework": 1,
+        "research-unbundling": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E027",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "Who is entitled to mandatory APP fraud reimbursement under PSR PS23/3 and what is the maximum reimbursable amount per claim?",
+      "expected_pages": [
+        "app-fraud-reimbursement-scheme"
+      ],
+      "retrieved": [
+        {
+          "slug": "psr-ps23-3-app-fraud-reimbursement",
+          "path": "summaries/psr-ps23-3-app-fraud-reimbursement.md",
+          "score": 53.3456
+        },
+        {
+          "slug": "app-fraud-reimbursement-scheme",
+          "path": "concepts/app-fraud-reimbursement-scheme.md",
+          "score": 49.8382
+        },
+        {
+          "slug": "psr-unauthorised-transaction-liability",
+          "path": "concepts/psr-unauthorised-transaction-liability.md",
+          "score": 36.0527
+        },
+        {
+          "slug": "psr-open-banking-pisp-aisp",
+          "path": "concepts/psr-open-banking-pisp-aisp.md",
+          "score": 34.0596
+        },
+        {
+          "slug": "psr-sca-authentication",
+          "path": "concepts/psr-sca-authentication.md",
+          "score": 29.254
+        }
+      ],
+      "found_at_rank": {
+        "app-fraud-reimbursement-scheme": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E028",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What is the time limit for a consumer to report an APP fraud claim to their PSP to qualify for mandatory reimbursement?",
+      "expected_pages": [
+        "app-fraud-reimbursement-scheme"
+      ],
+      "retrieved": [
+        {
+          "slug": "app-fraud-reimbursement-scheme",
+          "path": "concepts/app-fraud-reimbursement-scheme.md",
+          "score": 53.702
+        },
+        {
+          "slug": "psr-ps23-3-app-fraud-reimbursement",
+          "path": "summaries/psr-ps23-3-app-fraud-reimbursement.md",
+          "score": 53.1021
+        },
+        {
+          "slug": "psr-unauthorised-transaction-liability",
+          "path": "concepts/psr-unauthorised-transaction-liability.md",
+          "score": 43.4226
+        },
+        {
+          "slug": "psr-sca-authentication",
+          "path": "concepts/psr-sca-authentication.md",
+          "score": 39.4912
+        },
+        {
+          "slug": "fos-eligible-complainants",
+          "path": "concepts/fos-eligible-complainants.md",
+          "score": 36.8754
+        }
+      ],
+      "found_at_rank": {
+        "app-fraud-reimbursement-scheme": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M036",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "question": "A consumer authorised a payment to a fraudster despite their PSP displaying a clear, specific warning that the payee had been associated with fraud. Can the PSP reduce or deny reimbursement?",
+      "expected_pages": [
+        "app-fraud-reimbursement-scheme"
+      ],
+      "retrieved": [
+        {
+          "slug": "app-fraud-reimbursement-scheme",
+          "path": "concepts/app-fraud-reimbursement-scheme.md",
+          "score": 62.6889
+        },
+        {
+          "slug": "psr-ps23-3-app-fraud-reimbursement",
+          "path": "summaries/psr-ps23-3-app-fraud-reimbursement.md",
+          "score": 60.3821
+        },
+        {
+          "slug": "psr-unauthorised-transaction-liability",
+          "path": "concepts/psr-unauthorised-transaction-liability.md",
+          "score": 53.0055
+        },
+        {
+          "slug": "psr-sca-authentication",
+          "path": "concepts/psr-sca-authentication.md",
+          "score": 49.6299
+        },
+        {
+          "slug": "psr-open-banking-pisp-aisp",
+          "path": "concepts/psr-open-banking-pisp-aisp.md",
+          "score": 49.034
+        }
+      ],
+      "found_at_rank": {
+        "app-fraud-reimbursement-scheme": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M037",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "How does liability for mandatory APP fraud reimbursement split between the sending PSP and the receiving PSP under PSR PS23/3?",
+      "expected_pages": [
+        "app-fraud-reimbursement-scheme"
+      ],
+      "retrieved": [
+        {
+          "slug": "psr-ps23-3-app-fraud-reimbursement",
+          "path": "summaries/psr-ps23-3-app-fraud-reimbursement.md",
+          "score": 69.5797
+        },
+        {
+          "slug": "app-fraud-reimbursement-scheme",
+          "path": "concepts/app-fraud-reimbursement-scheme.md",
+          "score": 69.0546
+        },
+        {
+          "slug": "fos-eligible-complainants",
+          "path": "concepts/fos-eligible-complainants.md",
+          "score": 42.3403
+        },
+        {
+          "slug": "psr-unauthorised-transaction-liability",
+          "path": "concepts/psr-unauthorised-transaction-liability.md",
+          "score": 42.0907
+        },
+        {
+          "slug": "psr-open-banking-pisp-aisp",
+          "path": "concepts/psr-open-banking-pisp-aisp.md",
+          "score": 35.601
+        }
+      ],
+      "found_at_rank": {
+        "app-fraud-reimbursement-scheme": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H027",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A consumer identified as vulnerable by their PSP authorised a payment to a fraudster after the PSP displayed a standard fraud warning. The PSP wishes to reduce reimbursement on the basis the consumer ignored the warning. Is this a valid basis for reduction?",
+      "expected_pages": [
+        "app-fraud-reimbursement-scheme"
+      ],
+      "retrieved": [
+        {
+          "slug": "app-fraud-reimbursement-scheme",
+          "path": "concepts/app-fraud-reimbursement-scheme.md",
+          "score": 88.301
+        },
+        {
+          "slug": "psr-ps23-3-app-fraud-reimbursement",
+          "path": "summaries/psr-ps23-3-app-fraud-reimbursement.md",
+          "score": 84.4993
+        },
+        {
+          "slug": "psr-unauthorised-transaction-liability",
+          "path": "concepts/psr-unauthorised-transaction-liability.md",
+          "score": 70.5257
+        },
+        {
+          "slug": "psr-sca-authentication",
+          "path": "concepts/psr-sca-authentication.md",
+          "score": 63.6533
+        },
+        {
+          "slug": "fos-eligible-complainants",
+          "path": "concepts/fos-eligible-complainants.md",
+          "score": 62.6577
+        }
+      ],
+      "found_at_rank": {
+        "app-fraud-reimbursement-scheme": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H028",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A micro-enterprise suffers an APP fraud loss of \u00a3120,000. How much is reimbursable under PSR PS23/3 and what conditions apply to the claim?",
+      "expected_pages": [
+        "app-fraud-reimbursement-scheme"
+      ],
+      "retrieved": [
+        {
+          "slug": "pi-emi-consumer-duty-and-sanctions-obligations",
+          "path": "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+          "score": 41.2296
+        },
+        {
+          "slug": "app-fraud-reimbursement-scheme",
+          "path": "concepts/app-fraud-reimbursement-scheme.md",
+          "score": 41.183
+        },
+        {
+          "slug": "psr-ps23-3-app-fraud-reimbursement",
+          "path": "summaries/psr-ps23-3-app-fraud-reimbursement.md",
+          "score": 40.3851
+        },
+        {
+          "slug": "fos-eligible-complainants",
+          "path": "concepts/fos-eligible-complainants.md",
+          "score": 38.8258
+        },
+        {
+          "slug": "psr-unauthorised-transaction-liability",
+          "path": "concepts/psr-unauthorised-transaction-liability.md",
+          "score": 38.7663
+        }
+      ],
+      "found_at_rank": {
+        "app-fraud-reimbursement-scheme": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E029",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What is the FCA financial promotions approver gateway, when did it come into force, and what does it require of authorised firms that approve financial promotions for unauthorised persons?",
+      "expected_pages": [
+        "financial-promotions-approver-regime"
+      ],
+      "retrieved": [
+        {
+          "slug": "financial-promotions-approver-regime",
+          "path": "concepts/financial-promotions-approver-regime.md",
+          "score": 58.5403
+        },
+        {
+          "slug": "ps23-6-cryptoasset-financial-promotions",
+          "path": "summaries/ps23-6-cryptoasset-financial-promotions.md",
+          "score": 55.6936
+        },
+        {
+          "slug": "cobs4-financial-promotions",
+          "path": "summaries/cobs4-financial-promotions.md",
+          "score": 52.7119
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 47.8521
+        },
+        {
+          "slug": "conc-financial-promotions-cfnm",
+          "path": "concepts/conc-financial-promotions-cfnm.md",
+          "score": 40.5228
+        }
+      ],
+      "found_at_rank": {
+        "financial-promotions-approver-regime": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M038",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "An authorised firm approves a financial promotion for an unauthorised fintech. The promotion is communicated. What ongoing obligations does the approver have after giving approval?",
+      "expected_pages": [
+        "financial-promotions-approver-regime"
+      ],
+      "retrieved": [
+        {
+          "slug": "financial-promotions-approver-regime",
+          "path": "concepts/financial-promotions-approver-regime.md",
+          "score": 57.939
+        },
+        {
+          "slug": "cobs4-financial-promotions",
+          "path": "summaries/cobs4-financial-promotions.md",
+          "score": 56.1904
+        },
+        {
+          "slug": "ps23-6-cryptoasset-financial-promotions",
+          "path": "summaries/ps23-6-cryptoasset-financial-promotions.md",
+          "score": 48.2644
+        },
+        {
+          "slug": "conc-financial-promotions-cfnm",
+          "path": "concepts/conc-financial-promotions-cfnm.md",
+          "score": 43.2771
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 39.0456
+        }
+      ],
+      "found_at_rank": {
+        "financial-promotions-approver-regime": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M039",
+      "difficulty": "medium",
+      "type": "boundary",
+      "question": "Does the FCA financial promotions approver gateway apply to a firm approving its own financial promotions, or to an appointed representative approving promotions on behalf of its principal?",
+      "expected_pages": [
+        "financial-promotions-approver-regime"
+      ],
+      "retrieved": [
+        {
+          "slug": "ps23-6-cryptoasset-financial-promotions",
+          "path": "summaries/ps23-6-cryptoasset-financial-promotions.md",
+          "score": 69.4176
+        },
+        {
+          "slug": "financial-promotions-approver-regime",
+          "path": "concepts/financial-promotions-approver-regime.md",
+          "score": 67.3524
+        },
+        {
+          "slug": "cobs4-financial-promotions",
+          "path": "summaries/cobs4-financial-promotions.md",
+          "score": 58.9288
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 54.2354
+        },
+        {
+          "slug": "conc-financial-promotions-cfnm",
+          "path": "concepts/conc-financial-promotions-cfnm.md",
+          "score": 53.0143
+        }
+      ],
+      "found_at_rank": {
+        "financial-promotions-approver-regime": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H029",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "An authorised firm that has not applied for FCA gateway approval is asked to approve a financial promotion for an unauthorised cryptoasset firm. What compliance issues arise for both parties?",
+      "expected_pages": [
+        "financial-promotions-approver-regime"
+      ],
+      "retrieved": [
+        {
+          "slug": "financial-promotions-approver-regime",
+          "path": "concepts/financial-promotions-approver-regime.md",
+          "score": 59.9876
+        },
+        {
+          "slug": "ps23-6-cryptoasset-financial-promotions",
+          "path": "summaries/ps23-6-cryptoasset-financial-promotions.md",
+          "score": 53.4248
+        },
+        {
+          "slug": "cobs4-financial-promotions",
+          "path": "summaries/cobs4-financial-promotions.md",
+          "score": 52.0247
+        },
+        {
+          "slug": "pi-emi-consumer-duty-and-sanctions-obligations",
+          "path": "derived/pi-emi-consumer-duty-and-sanctions-obligations.md",
+          "score": 47.995
+        },
+        {
+          "slug": "cobs10-appropriateness-non-mifid",
+          "path": "summaries/cobs10-appropriateness-non-mifid.md",
+          "score": 43.903
+        }
+      ],
+      "found_at_rank": {
+        "financial-promotions-approver-regime": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H030",
+      "difficulty": "hard",
+      "type": "synthesis",
+      "question": "A gateway-approved firm approved a financial promotion in October 2023. In April 2024 the underlying product's risk profile changed materially \u2014 the issuer increased the maximum leverage available. The approver was not informed. Who bears regulatory responsibility and what should the approver have done?",
+      "expected_pages": [
+        "financial-promotions-approver-regime"
+      ],
+      "retrieved": [
+        {
+          "slug": "financial-promotions-approver-regime",
+          "path": "concepts/financial-promotions-approver-regime.md",
+          "score": 78.8331
+        },
+        {
+          "slug": "ps23-6-cryptoasset-financial-promotions",
+          "path": "summaries/ps23-6-cryptoasset-financial-promotions.md",
+          "score": 66.3207
+        },
+        {
+          "slug": "cobs4-financial-promotions",
+          "path": "summaries/cobs4-financial-promotions.md",
+          "score": 65.3755
+        },
+        {
+          "slug": "conc3-financial-promotions",
+          "path": "summaries/conc3-financial-promotions.md",
+          "score": 52.8449
+        },
+        {
+          "slug": "cryptoasset-financial-promotions-framework",
+          "path": "concepts/cryptoasset-financial-promotions-framework.md",
+          "score": 51.5575
+        }
+      ],
+      "found_at_rank": {
+        "financial-promotions-approver-regime": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E030",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "What is an \"important business service\" under SYSC 15A, and what two dimensions must an impact tolerance address?",
+      "expected_pages": [
+        "operational-resilience"
+      ],
+      "retrieved": [
+        {
+          "slug": "operational-resilience",
+          "path": "concepts/operational-resilience.md",
+          "score": 38.6518
+        },
+        {
+          "slug": "sysc15a-operational-resilience",
+          "path": "summaries/sysc15a-operational-resilience.md",
+          "score": 38.2185
+        },
+        {
+          "slug": "appropriateness-framework",
+          "path": "concepts/appropriateness-framework.md",
+          "score": 29.5828
+        },
+        {
+          "slug": "advice-suitability-cobs9",
+          "path": "concepts/advice-suitability-cobs9.md",
+          "score": 29.3707
+        },
+        {
+          "slug": "dear-ceo-letter-payments-portfolio-2023",
+          "path": "summaries/dear-ceo-letter-payments-portfolio-2023.md",
+          "score": 28.4365
+        }
+      ],
+      "found_at_rank": {
+        "operational-resilience": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M040",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A firm has set an impact tolerance of 24 hours for its payment processing service. What ongoing SYSC 15A obligations does it have to test whether it can remain within that tolerance?",
+      "expected_pages": [
+        "operational-resilience"
+      ],
+      "retrieved": [
+        {
+          "slug": "sysc15a-operational-resilience",
+          "path": "summaries/sysc15a-operational-resilience.md",
+          "score": 59.4505
+        },
+        {
+          "slug": "operational-resilience",
+          "path": "concepts/operational-resilience.md",
+          "score": 56.2675
+        },
+        {
+          "slug": "cobs9a-suitability-mifid",
+          "path": "summaries/cobs9a-suitability-mifid.md",
+          "score": 43.1748
+        },
+        {
+          "slug": "dear-ceo-letter-payments-portfolio-2023",
+          "path": "summaries/dear-ceo-letter-payments-portfolio-2023.md",
+          "score": 41.529
+        },
+        {
+          "slug": "uk-gdpr-security",
+          "path": "concepts/uk-gdpr-security.md",
+          "score": 41.2856
+        }
+      ],
+      "found_at_rank": {
+        "operational-resilience": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M041",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A firm's scenario testing reveals it cannot remain within its stated impact tolerance for its customer-facing mobile banking service. What must it do?",
+      "expected_pages": [
+        "operational-resilience"
+      ],
+      "retrieved": [
+        {
+          "slug": "sysc15a-operational-resilience",
+          "path": "summaries/sysc15a-operational-resilience.md",
+          "score": 40.2337
+        },
+        {
+          "slug": "operational-resilience",
+          "path": "concepts/operational-resilience.md",
+          "score": 39.7312
+        },
+        {
+          "slug": "dear-ceo-letter-payments-portfolio-2023",
+          "path": "summaries/dear-ceo-letter-payments-portfolio-2023.md",
+          "score": 38.0573
+        },
+        {
+          "slug": "uk-gdpr-security",
+          "path": "concepts/uk-gdpr-security.md",
+          "score": 34.617
+        },
+        {
+          "slug": "consumer-duty-products-services",
+          "path": "concepts/consumer-duty-products-services.md",
+          "score": 33.2077
+        }
+      ],
+      "found_at_rank": {
+        "operational-resilience": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H031",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A firm has identified its important business services and set impact tolerances, but has not mapped the people, processes, technology, facilities, and information underpinning each service. It argues the mapping is optional. Is this correct?",
+      "expected_pages": [
+        "operational-resilience"
+      ],
+      "retrieved": [
+        {
+          "slug": "sysc15a-operational-resilience",
+          "path": "summaries/sysc15a-operational-resilience.md",
+          "score": 79.621
+        },
+        {
+          "slug": "operational-resilience",
+          "path": "concepts/operational-resilience.md",
+          "score": 74.4718
+        },
+        {
+          "slug": "dear-ceo-letter-payments-portfolio-2023",
+          "path": "summaries/dear-ceo-letter-payments-portfolio-2023.md",
+          "score": 57.0148
+        },
+        {
+          "slug": "fca-consumer-duty-implementation-review-2024",
+          "path": "derived/fca-consumer-duty-implementation-review-2024.md",
+          "score": 41.4192
+        },
+        {
+          "slug": "fca-guide-solo-regulated-firms",
+          "path": "summaries/fca-guide-solo-regulated-firms.md",
+          "score": 39.9865
+        }
+      ],
+      "found_at_rank": {
+        "operational-resilience": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H032",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A firm outsources its core payment processing to a major cloud provider and argues that because the provider is large and well-resourced with its own resilience programme, it does not need to include the provider in its operational resilience mapping or scenario testing. Is this correct?",
+      "expected_pages": [
+        "operational-resilience"
+      ],
+      "retrieved": [
+        {
+          "slug": "sysc15a-operational-resilience",
+          "path": "summaries/sysc15a-operational-resilience.md",
+          "score": 68.1504
+        },
+        {
+          "slug": "operational-resilience",
+          "path": "concepts/operational-resilience.md",
+          "score": 65.1073
+        },
+        {
+          "slug": "dear-ceo-letter-payments-portfolio-2023",
+          "path": "summaries/dear-ceo-letter-payments-portfolio-2023.md",
+          "score": 62.6187
+        },
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 59.9693
+        },
+        {
+          "slug": "uk-gdpr-security",
+          "path": "concepts/uk-gdpr-security.md",
+          "score": 59.626
+        }
+      ],
+      "found_at_rank": {
+        "operational-resilience": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "E031",
+      "difficulty": "easy",
+      "type": "factual",
+      "question": "Under UK GDPR Article 37, what three categories of processing make appointment of a Data Protection Officer mandatory?",
+      "expected_pages": [
+        "uk-gdpr-dpo"
+      ],
+      "retrieved": [
+        {
+          "slug": "uk-gdpr-dpo",
+          "path": "concepts/uk-gdpr-dpo.md",
+          "score": 37.0382
+        },
+        {
+          "slug": "ico-guide-accountability-governance",
+          "path": "summaries/ico-guide-accountability-governance.md",
+          "score": 34.678
+        },
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 29.2909
+        },
+        {
+          "slug": "mlr-2017",
+          "path": "summaries/mlr-2017.md",
+          "score": 28.0274
+        },
+        {
+          "slug": "ico-guide-data-protection-principles",
+          "path": "summaries/ico-guide-data-protection-principles.md",
+          "score": 26.9701
+        }
+      ],
+      "found_at_rank": {
+        "uk-gdpr-dpo": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M042",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "question": "A fintech firm is launching an AI-based credit scoring system that will process financial and behavioural data on millions of customers to produce automated credit decisions. Must it conduct a DPIA before launch?",
+      "expected_pages": [
+        "uk-gdpr-dpia",
+        "uk-gdpr-automated-decision-making"
+      ],
+      "retrieved": [
+        {
+          "slug": "uk-gdpr-dpia",
+          "path": "concepts/uk-gdpr-dpia.md",
+          "score": 59.611
+        },
+        {
+          "slug": "uk-gdpr-automated-decision-making",
+          "path": "concepts/uk-gdpr-automated-decision-making.md",
+          "score": 58.1127
+        },
+        {
+          "slug": "ico-guide-individual-rights",
+          "path": "summaries/ico-guide-individual-rights.md",
+          "score": 39.8891
+        },
+        {
+          "slug": "customer-due-diligence",
+          "path": "concepts/customer-due-diligence.md",
+          "score": 39.2846
+        },
+        {
+          "slug": "prin2a-consumer-duty",
+          "path": "summaries/prin2a-consumer-duty.md",
+          "score": 39.1908
+        }
+      ],
+      "found_at_rank": {
+        "uk-gdpr-dpia": 1,
+        "uk-gdpr-automated-decision-making": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M043",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "What are the minimum mandatory terms a controller must include in a processor contract under UK GDPR Article 28?",
+      "expected_pages": [
+        "uk-gdpr-processor-contracts"
+      ],
+      "retrieved": [
+        {
+          "slug": "uk-gdpr-processor-contracts",
+          "path": "concepts/uk-gdpr-processor-contracts.md",
+          "score": 44.33
+        },
+        {
+          "slug": "uk-gdpr-security",
+          "path": "concepts/uk-gdpr-security.md",
+          "score": 42.1211
+        },
+        {
+          "slug": "ico-guide-accountability-governance",
+          "path": "summaries/ico-guide-accountability-governance.md",
+          "score": 40.3113
+        },
+        {
+          "slug": "ico-guide-data-security",
+          "path": "summaries/ico-guide-data-security.md",
+          "score": 39.891
+        },
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 36.0203
+        }
+      ],
+      "found_at_rank": {
+        "uk-gdpr-processor-contracts": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "M044",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "A processor suffers a personal data breach affecting personal data it processes on behalf of a controller. What must the processor do and within what timeframe?",
+      "expected_pages": [
+        "uk-gdpr-personal-data-breaches",
+        "uk-gdpr-processor-contracts"
+      ],
+      "retrieved": [
+        {
+          "slug": "uk-gdpr-security",
+          "path": "concepts/uk-gdpr-security.md",
+          "score": 51.2229
+        },
+        {
+          "slug": "ico-guide-data-security",
+          "path": "summaries/ico-guide-data-security.md",
+          "score": 46.6157
+        },
+        {
+          "slug": "uk-gdpr-personal-data-breaches",
+          "path": "concepts/uk-gdpr-personal-data-breaches.md",
+          "score": 44.5854
+        },
+        {
+          "slug": "uk-gdpr-processor-contracts",
+          "path": "concepts/uk-gdpr-processor-contracts.md",
+          "score": 43.9108
+        },
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 43.5878
+        }
+      ],
+      "found_at_rank": {
+        "uk-gdpr-personal-data-breaches": 3,
+        "uk-gdpr-processor-contracts": 4
+      },
+      "missed": [],
+      "precision_at_3": 0.5,
+      "precision_at_5": 1.0,
+      "pass_at_3": false,
+      "pass_at_5": true
+    },
+    {
+      "id": "H033",
+      "difficulty": "hard",
+      "type": "factual",
+      "question": "A firm conducts a DPIA for a new biometric access control system processing employees' fingerprints. The DPIA concludes that residual risks to employee rights and freedoms remain high even after all proposed mitigation measures. What must the firm do before deploying the system?",
+      "expected_pages": [
+        "uk-gdpr-dpia"
+      ],
+      "retrieved": [
+        {
+          "slug": "uk-gdpr-dpia",
+          "path": "concepts/uk-gdpr-dpia.md",
+          "score": 62.642
+        },
+        {
+          "slug": "uk-gdpr-automated-decision-making",
+          "path": "concepts/uk-gdpr-automated-decision-making.md",
+          "score": 54.2777
+        },
+        {
+          "slug": "uk-gdpr-records-of-processing",
+          "path": "concepts/uk-gdpr-records-of-processing.md",
+          "score": 54.1576
+        },
+        {
+          "slug": "uk-gdpr-data-protection-by-design",
+          "path": "concepts/uk-gdpr-data-protection-by-design.md",
+          "score": 48.8279
+        },
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 47.6949
+        }
+      ],
+      "found_at_rank": {
+        "uk-gdpr-dpia": 1
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    },
+    {
+      "id": "H034",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "question": "A firm with 200 employees processes occupational health data about its staff as part of a systematic health monitoring programme. Must it maintain a Record of Processing Activities under UK GDPR Article 30?",
+      "expected_pages": [
+        "uk-gdpr-records-of-processing"
+      ],
+      "retrieved": [
+        {
+          "slug": "uk-gdpr-dpo",
+          "path": "concepts/uk-gdpr-dpo.md",
+          "score": 49.9203
+        },
+        {
+          "slug": "uk-gdpr-records-of-processing",
+          "path": "concepts/uk-gdpr-records-of-processing.md",
+          "score": 46.5801
+        },
+        {
+          "slug": "uk-gdpr-dpia",
+          "path": "concepts/uk-gdpr-dpia.md",
+          "score": 43.8702
+        },
+        {
+          "slug": "vulnerable-customers",
+          "path": "concepts/vulnerable-customers.md",
+          "score": 43.7986
+        },
+        {
+          "slug": "uk-gdpr-data-protection-principles",
+          "path": "concepts/uk-gdpr-data-protection-principles.md",
+          "score": 43.7604
+        }
+      ],
+      "found_at_rank": {
+        "uk-gdpr-records-of-processing": 2
+      },
+      "missed": [],
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "pass_at_3": true,
+      "pass_at_5": true
+    }
+  ]
+}

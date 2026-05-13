@@ -1,0 +1,53 @@
+{
+  "run_at": "20260513_121258",
+  "top_k": 5,
+  "total": 1,
+  "results": [
+    {
+      "id": "M029",
+      "difficulty": "medium",
+      "type": "factual",
+      "question": "What must a firm's order execution policy contain, and what obligations apply to client consent and annual review?",
+      "expected_pages": [
+        "cobs11-dealing-managing"
+      ],
+      "retrieved": [
+        {
+          "slug": "inducements-framework",
+          "path": "concepts/inducements-framework.md",
+          "score": 26.331
+        },
+        {
+          "slug": "research-unbundling",
+          "path": "concepts/research-unbundling.md",
+          "score": 25.8865
+        },
+        {
+          "slug": "payment-for-order-flow",
+          "path": "concepts/payment-for-order-flow.md",
+          "score": 25.2408
+        },
+        {
+          "slug": "fg21-1-guidance",
+          "path": "summaries/fg21-1-guidance.md",
+          "score": 25.1785
+        },
+        {
+          "slug": "best-execution-framework",
+          "path": "concepts/best-execution-framework.md",
+          "score": 25.124
+        }
+      ],
+      "found_at_rank": {
+        "cobs11-dealing-managing": null
+      },
+      "missed": [
+        "cobs11-dealing-managing"
+      ],
+      "precision_at_3": 0.0,
+      "precision_at_5": 0.0,
+      "pass_at_3": false,
+      "pass_at_5": false
+    }
+  ]
+}

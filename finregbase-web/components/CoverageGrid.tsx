@@ -44,6 +44,14 @@ const coverage = [
     topic: "CASS",
     lines: ["Client money rules", "Custody and safeguarding", "Reconciliations"],
   },
+  {
+    topic: "MAR",
+    lines: ["Insider dealing", "Market manipulation", "STOR reporting"],
+  },
+  {
+    topic: "APP fraud",
+    lines: ["PSR PS23/3", "Reimbursement scheme", "Liability allocation"],
+  },
 ] as const;
 
 export function CoverageGrid() {
@@ -52,7 +60,7 @@ export function CoverageGrid() {
       <p className="text-xs font-medium uppercase tracking-[0.16em] text-text-secondary">
         What&apos;s inside
       </p>
-      <h2 className="mt-2 text-3xl font-semibold tracking-tight text-text-primary md:text-4xl">
+      <h2 className="mt-2 text-2xl font-semibold tracking-tight text-text-primary md:text-3xl">
         {siteMetrics.articleCount} articles across UK FCA regulations
       </h2>
       <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -78,6 +86,17 @@ export function CoverageGrid() {
         Updated {siteMetrics.lastUpdated} · {siteMetrics.jurisdiction} jurisdiction ·
         FCA-grade citation discipline
       </p>
+      <p className="mt-2 text-sm text-text-secondary">
+        Reviewed against the FCA Handbook and ICO guidance on each ingest.
+      </p>
+      <a
+        href="https://github.com/havryleshko/fin-regbase/tree/main/wiki"
+        target="_blank"
+        rel="noreferrer"
+        className="mt-4 inline-flex items-center rounded-sm text-sm font-medium text-accent hover:text-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+      >
+        Browse all {siteMetrics.articleCount} articles →
+      </a>
     </section>
   );
 }

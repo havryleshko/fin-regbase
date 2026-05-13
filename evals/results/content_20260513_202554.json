@@ -1,0 +1,769 @@
+{
+  "run_at": "2026-05-13T20:25:54.070445",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 13,
+  "completed": 13,
+  "errors": 0,
+  "mean_fact_score": 0.8269230769230769,
+  "mean_citation_score": 0.9615384615384616,
+  "mean_overall_score": 0.8673076923076923,
+  "pass_rate": 0.7692307692307693,
+  "by_difficulty": {
+    "easy": {
+      "count": 4,
+      "mean_score": 0.74375
+    },
+    "medium": {
+      "count": 5,
+      "mean_score": 0.8879999999999999
+    },
+    "hard": {
+      "count": 4,
+      "mean_score": 0.965
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 7,
+      "mean_score": 0.8135714285714286
+    },
+    "synthesis": {
+      "count": 1,
+      "mean_score": 1.0
+    },
+    "edge-case": {
+      "count": 4,
+      "mean_score": 0.895
+    },
+    "boundary": {
+      "count": 1,
+      "mean_score": 1.0
+    }
+  },
+  "questions": [
+    {
+      "id": "E027",
+      "question": "Who is entitled to mandatory APP fraud reimbursement under PSR PS23/3 and what is the maximum reimbursable amount per claim?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "APP-fraud",
+        "PSR",
+        "reimbursement",
+        "PS23-3",
+        "consumer-protection"
+      ],
+      "pages_loaded": [
+        "app-fraud-reimbursement-scheme"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nUnder **PSR PS23/3**, the following parties are entitled to mandatory APP fraud reimbursement:\n\n## Eligible Claimants\n\n1. **Consumers**\n2. **Micro-enterprises** \u2014 as defined in PSRs 2017 (fewer than 10 employees and annual turnover or balance sheet \u2264 \u20ac2 million)\n3. **Charities** \u2014 with annual income under \u00a31 million\n\n**(PS23/3 \u00a72.9)**\n\n**Notably excluded:** Larger businesses are not eligible for mandatory reimbursement.\n\n## Maximum Reimbursable Amount\n\n**\u00a385,000 per claim**, effective 7 October 2024 **(PSR PS24/7)**.\n\nThis maximum covers 99.8% of all Faster Payments APP scam claims by volume and 90% by value. \n\n**Important limitation:** The scheme applies to **Faster Payments only** \u2014 CHAPS, Bacs, card payments, and international transfers are outside the mandatory scheme **(PS23/3 \u00a72.5)**.\n\n**Voluntary reimbursement above the cap:** PSPs may voluntarily reimburse amounts exceeding \u00a385,000, but they cannot recover the excess from the receiving PSP \u2014 receiving PSP liability is capped at 50% of the mandatory in-scope amount only.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "Consumers entitled to reimbursement are individuals, micro-enterprises, and charities \u2014 the scheme does not cover larger businesses",
+          "present": true,
+          "note": "Answer explicitly lists consumers, micro-enterprises, and charities, and notes larger businesses are excluded."
+        },
+        {
+          "fact": "The mandatory reimbursement maximum is \u00a385,000 per claim",
+          "present": true,
+          "note": "Answer clearly states \u00a385,000 per claim as the maximum reimbursable amount."
+        },
+        {
+          "fact": "Claims above \u00a385,000 are partially reimbursed up to the cap \u2014 the excess is not recoverable under the mandatory scheme, though firms may choose to pay more voluntarily",
+          "present": true,
+          "note": "Answer states PSPs may voluntarily reimburse amounts exceeding \u00a385,000 but cannot recover the excess from the receiving PSP under the mandatory scheme."
+        },
+        {
+          "fact": "The scheme applies to Faster Payments made from UK accounts \u2014 it does not cover CHAPS, international transfers, or card payments",
+          "present": true,
+          "note": "Answer explicitly states the scheme applies to Faster Payments only and excludes CHAPS, Bacs, card payments, and international transfers."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSR PS23/3",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts including eligible claimants, the \u00a385,000 cap, voluntary reimbursement above the cap, and the Faster Payments scope limitation, with correct citation of PSR PS23/3.",
+      "error": null
+    },
+    {
+      "id": "E028",
+      "question": "What is the time limit for a consumer to report an APP fraud claim to their PSP to qualify for mandatory reimbursement?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "APP-fraud",
+        "PSR",
+        "claim-deadline",
+        "PS23-3",
+        "reimbursement"
+      ],
+      "pages_loaded": [
+        "app-fraud-reimbursement-scheme"
+      ],
+      "pages_missing": [],
+      "answer": "# Time Limit for APP Fraud Claims\n\nAccording to the knowledge base, the time limit for a consumer to report an APP fraud claim to their PSP to qualify for mandatory reimbursement is:\n\n## **13 months from the date of the final payment to the fraudster** **(PS23/3 \u00a71.3, Key Policy 8)**\n\n### Key Points:\n\n1. **Clock starts on payment date, not discovery:** The 13-month period runs from when the payment was executed to the fraudster's account, not from when the consumer discovered the fraud.\n\n2. **Consequence of missing the deadline:** A consumer who fails to report within 13 months **loses the right to mandatory reimbursement** under PS23/3.\n\n3. **FOS jurisdiction remains separate:** Although missing the PSP's 13-month time limit forfeits the mandatory scheme right, Financial Ombudsman Service jurisdiction remains open for **6 years / 3 years from awareness** **(PSRs 2017 reg. 90)** regardless of the PSP's time-bar decision.\n\n4. **Alignment with unauthorised transaction rules:** This 13-month limit was deliberately aligned with PSRs 2017 regulation 90's notification period for unauthorised transactions to create consistency across fraud claim frameworks.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "The consumer must report the APP fraud to their PSP within 13 months of the date of the fraudulent payment",
+          "present": true,
+          "note": "Explicitly stated: '13 months from the date of the final payment to the fraudster' and 'Clock starts on payment date, not discovery'"
+        },
+        {
+          "fact": "A consumer who fails to notify within 13 months loses the right to mandatory reimbursement under PSR PS23/3",
+          "present": true,
+          "note": "Clearly stated: 'A consumer who fails to report within 13 months loses the right to mandatory reimbursement under PS23/3'"
+        },
+        {
+          "fact": "The 13-month limit aligns with the PSR 2017 unauthorised transaction claim window",
+          "present": true,
+          "note": "Explicitly stated: 'This 13-month limit was deliberately aligned with PSRs 2017 regulation 90's notification period for unauthorised transactions'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSR PS23/3",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts with correct regulatory citations and additional useful context about FOS jurisdiction.",
+      "error": null
+    },
+    {
+      "id": "M036",
+      "question": "A consumer authorised a payment to a fraudster despite their PSP displaying a clear, specific warning that the payee had been associated with fraud. Can the PSP reduce or deny reimbursement?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "APP-fraud",
+        "PSR",
+        "reimbursement",
+        "fraud-warning",
+        "consumer-behaviour",
+        "PS23-3"
+      ],
+      "pages_loaded": [
+        "app-fraud-reimbursement-scheme"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n**No. The PSP cannot reduce or deny reimbursement solely on the basis that the consumer ignored a clear warning.**\n\n## The Specific Rule on Warnings\n\nUnder PS23/3 Chapter 5, where a PSP seeks to rely on a consumer ignoring a fraud warning as evidence of gross negligence, **the warning must have been specific to the payee or the transaction**. Generic fraud awareness messages do not satisfy this requirement.\n\nThe knowledge base states:\n\n> \"Where a PSP seeks to rely on the consumer ignoring a fraud warning as evidence of gross negligence, the warning must have been specific to the payee or the transaction \u2014 generic fraud awareness messages do not satisfy this requirement. The consumer is assessed against the standard of a reasonably careful person: if such a person would have heeded the warning, ignoring it may support a gross negligence finding; if the warning was generic and not tailored to the specific risk, that standard is not met **(PS23/3 Chapter 5)**.\"\n\n## Application to Your Scenario\n\nYou state the warning was \"clear\" and \"specific\" \u2014 i.e., it identified that **the payee had been associated with fraud**. This meets the specificity requirement. However, even then:\n\n1. **The burden of proof remains on the PSP** to demonstrate gross negligence \u2014 the consumer does not have to prove they acted carefully.\n\n2. **Gross negligence requires \"a very significant degree of carelessness\"** \u2014 a higher standard than ordinary negligence. Merely ignoring even a specific warning does not automatically constitute gross negligence; the PSP must show the consumer's conduct was significantly careless by the standard of a reasonably careful person.\n\n3. **If the consumer is vulnerable**, the gross negligence exception **cannot be applied at all**, regardless of the circumstances **(PS23/3 \u00a72.10\u20132.13)**.\n\n## Conclusion\n\nThe PSP **may** argue that ignoring a specific payee-related fraud warning supports a finding of gross negligence, but this is not automatic. The PSP must prove the consumer's conduct met the gross negligence threshold. The mere existence of the warning does not eliminate the consumer's right to reimbursement.",
+      "fact_score": 0.6,
+      "citation_score": 1.0,
+      "overall_score": 0.72,
+      "facts_detail": [
+        {
+          "fact": "Yes \u2014 if the consumer ignored a specific, effective warning about a high-risk payee, the PSP may reduce or deny reimbursement",
+          "present": false,
+          "note": "The answer's conclusion is that the PSP 'may argue' gross negligence but cannot automatically reduce/deny reimbursement. It does not clearly affirm that ignoring a specific warning CAN justify reduction/denial \u2014 the opening line says 'No, the PSP cannot reduce or deny reimbursement solely on the basis that the consumer ignored a clear warning', which contradicts the required fact."
+        },
+        {
+          "fact": "The warning must have been specific to the payee or the transaction \u2014 generic fraud awareness messages do not satisfy this requirement",
+          "present": true,
+          "note": "Explicitly stated in the answer with a direct quote referencing PS23/3 Chapter 5."
+        },
+        {
+          "fact": "The consumer is assessed against the standard of a reasonably careful person \u2014 if such a person would have heeded the warning, ignoring it constitutes contributory behaviour",
+          "present": true,
+          "note": "The answer mentions the 'reasonably careful person' standard and that ignoring a specific warning 'may support a gross negligence finding', which captures the substance of contributory behaviour."
+        },
+        {
+          "fact": "If the consumer is vulnerable, a higher standard of care applies \u2014 ignoring a warning may not reduce reimbursement for a vulnerable consumer who lacked capacity to understand it",
+          "present": true,
+          "note": "The answer states that if the consumer is vulnerable, the gross negligence exception cannot be applied at all, referencing PS23/3 \u00a72.10\u20132.13. This captures the substance, though it goes further than 'higher standard' to say it cannot apply at all."
+        },
+        {
+          "fact": "PSPs must document the warning given, including its content and timing, to rely on it as grounds for reducing reimbursement",
+          "present": false,
+          "note": "No mention of documentation requirements for the warning (content, timing) anywhere in the answer."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSR PS23/3",
+          "present": true,
+          "note": "Referenced multiple times as PS23/3 Chapter 5 and PS23/3 \u00a72.10\u20132.13."
+        }
+      ],
+      "summary": "The answer correctly covers the specificity requirement, reasonably careful person standard, and vulnerable consumer protections, but fails to affirm that ignoring a specific warning CAN justify reduction/denial of reimbursement and omits the documentation requirement for PSPs.",
+      "error": null
+    },
+    {
+      "id": "H027",
+      "question": "A consumer identified as vulnerable by their PSP authorised a payment to a fraudster after the PSP displayed a standard fraud warning. The PSP wishes to reduce reimbursement on the basis the consumer ignored the warning. Is this a valid basis for reduction?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "APP-fraud",
+        "PSR",
+        "vulnerable-consumers",
+        "reimbursement",
+        "fraud-warning",
+        "PS23-3"
+      ],
+      "pages_loaded": [
+        "app-fraud-reimbursement-scheme"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n**No, this is not a valid basis for reduction.**\n\nUnder PS23/3, a PSP cannot reduce reimbursement solely on the ground that a consumer ignored a fraud warning, particularly where the consumer has been identified as vulnerable.\n\n## Application to Vulnerable Customers\n\nThe knowledge base establishes two **hard, non-discretionary protections** for vulnerable customers:\n\n1. **Gross negligence exception must not be applied** \u2014 irrespective of the PSP's assessment of the customer's conduct\n2. **Claim excess must not be applied** \u2014 the PSP cannot deduct any excess from reimbursement\n\nCritically, the knowledge base states:\n\n> \"A PSP that has already identified a customer as vulnerable must take steps proportionate to that vulnerability \u2014 not merely apply the standard fraud warning shown to all customers. A generic fraud warning displayed to all customers does not discharge the heightened duty of care owed to a vulnerable consumer. If the PSP knew of the vulnerability and still showed only a generic warning, it cannot subsequently rely on the consumer's failure to heed that warning as grounds for reducing or denying reimbursement **(PS23/3 \u00a72.10\u20132.13)**.\"\n\n## Warning Specificity Requirement\n\nEven for non-vulnerable customers, reliance on a consumer ignoring a warning is subject to a strict requirement:\n\n> \"Where a PSP seeks to rely on the consumer ignoring a fraud warning as evidence of gross negligence, the warning must have been specific to the payee or the transaction \u2014 generic fraud awareness messages do not satisfy this requirement **(PS23/3 Chapter 5)**.\"\n\nA \"standard fraud warning\" (as described in your scenario) is presumptively generic and therefore cannot support a gross negligence finding.\n\n## Conclusion\n\nThe PSP's position fails on two grounds:\n- The consumer is identified as vulnerable, triggering a hard carve-out from the gross negligence exception\n- The warning was generic (standard), not specific to the payee or transaction, so it cannot ground a gross negligence claim in any event\n\nThe PSP must reimburse in full, without reduction.",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 a standard fraud warning alone is not sufficient grounds to reduce reimbursement for a consumer the PSP has identified as vulnerable",
+          "present": true,
+          "note": "Clearly stated in the conclusion and opening paragraph \u2014 PSP cannot reduce reimbursement on this basis"
+        },
+        {
+          "fact": "Vulnerable consumers are entitled to additional care \u2014 the PSP must take steps proportionate to the vulnerability, which may include more targeted intervention or additional friction on the transaction",
+          "present": true,
+          "note": "Answer explicitly states PSP must take steps proportionate to vulnerability; mentions heightened duty of care"
+        },
+        {
+          "fact": "A generic warning displayed to all customers does not satisfy the higher duty of care owed to a vulnerable consumer",
+          "present": true,
+          "note": "Directly stated: 'A generic fraud warning displayed to all customers does not discharge the heightened duty of care owed to a vulnerable consumer'"
+        },
+        {
+          "fact": "The PSP bears the burden of demonstrating gross negligence \u2014 for vulnerable consumers the bar is higher because their vulnerability may have been exploited by the fraudster",
+          "present": false,
+          "note": "The answer references gross negligence but does not clearly articulate that the PSP bears the burden of proof, nor that the bar is higher specifically because vulnerability may have been exploited by the fraudster"
+        },
+        {
+          "fact": "If the PSP failed to take appropriate steps given its knowledge of the vulnerability, it cannot rely on the consumer's failure to heed a warning it knew was insufficient",
+          "present": true,
+          "note": "Explicitly stated in the conclusion: 'If the PSP knew of the vulnerability and still showed only a generic warning, it cannot subsequently rely on the consumer's failure to heed that warning'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSR PS23/3",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and well-structured, covering nearly all required facts with clear regulatory grounding, but does not explicitly address the PSP's burden of proof or the specific angle that vulnerability may have been exploited by the fraudster to raise the gross negligence bar.",
+      "error": null
+    },
+    {
+      "id": "H028",
+      "question": "A micro-enterprise suffers an APP fraud loss of \u00a3120,000. How much is reimbursable under PSR PS23/3 and what conditions apply to the claim?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "APP-fraud",
+        "PSR",
+        "micro-enterprise",
+        "reimbursement-cap",
+        "PS23-3"
+      ],
+      "pages_loaded": [
+        "app-fraud-reimbursement-scheme"
+      ],
+      "pages_missing": [],
+      "answer": "# APP Fraud Reimbursement for Micro-Enterprises: \u00a3120,000 Loss Analysis\n\n## Reimbursable Amount\n\n**\u00a385,000 is reimbursable** under PSR PS23/3. This is the maximum reimbursement cap effective 7 October 2024 **(PSR PS24/7)**.\n\nThe micro-enterprise's \u00a3120,000 loss exceeds the statutory maximum. The unreimbursed \u00a335,000 remains the micro-enterprise's loss \u2014 PSPs cannot be required to reimburse above the \u00a385,000 cap, though they may voluntarily do so. However, if a PSP voluntarily reimburses above this level, it **cannot recover the excess from the receiving PSP** (the receiving PSP's liability remains capped at 50% of the mandatory in-scope amount only).\n\n---\n\n## Eligibility Confirmation\n\nThe micro-enterprise **is eligible** to claim. PS23/3 explicitly covers micro-enterprises as defined in PSRs 2017: fewer than 10 employees with annual turnover or balance sheet \u2264\u20ac2m **(PS23/3 \u00a72.9)**. Consumers, micro-enterprises, and charities with annual income under \u00a31 million are the only eligible business-type claimants. Larger businesses are excluded.\n\n---\n\n## Conditions Applying to the Claim\n\n### 1. **Payment System Scope (PS23/3 \u00a72.5)**\nThe loss must have been incurred via a **Faster Payments transaction only**. CHAPS, Bacs, card payments, and international transfers are outside the mandatory scheme. If the fraudulent transfer occurred via CHAPS or another payment system, no mandatory reimbursement applies (though CHAPS has a separate voluntary comparable-outcomes commitment from the Bank of England).\n\n### 2. **13-Month Claim Deadline (PS23/3 \u00a71.3, Key Policy 8)**\nThe micro-enterprise must submit its reimbursement claim **within 13 months from the date of the final payment to the fraudster**. The clock runs from the payment date, not from discovery. Missing this deadline forfeits the right to mandatory reimbursement under PS23/3. (FOS jurisdiction remains open for 6 years / 3 years from awareness regardless of the PSP's time-bar decision, but that provides a separate right, not a mandatory reimbursement right under the scheme.)\n\n### 3. **APP Fraud Definition (Three Elements Required)**\nThe payment must satisfy all three elements:\n- Execution by the sending PSP in accordance with the micro-enterprise's authorisation\n- Transfer to an account controlled by a person other than the micro-enterprise\n- The micro-enterprise was **deceived into granting that authorisation** as part of an APP fraud (either misdirection or false pretence)\n\n### 4. **Exceptions \u2014 Burden on PSP**\n\n**Gross Negligence (PS23/3 Chapter 5; PSRs 2017 reg. 77(3))**\n\nThe sending PSP may deny or reduce reimbursement only by proving **gross negligence** \u2014 a very significant degree of carelessness \u2014 on the micro-enterprise's part. The burden of proof is on the PSP. A failure to take reasonable precautions is insufficient; gross negligence is a deliberately higher bar.\n\nIf the PSP relies on the micro-enterprise ignoring a fraud warning, that warning must have been **specific to the payee or the transaction**. Generic fraud awareness messages do not satisfy this requirement **(PS23/3 Chapter 5)**.\n\n**First-Party Fraud**\n\nThe PSP may deny reimbursement if it proves the micro-enterprise was **complicit** \u2014 actively participated in the fraud, not merely victimised.\n\n### 5. **Vulnerable Customer Protections (Hard Rules) (PS23/3 \u00a72.10\u20132.13)**\n\nIf the micro-enterprise meets the FCA FG21/1 vulnerability definition at any time relevant to the claim:\n- **The gross negligence exception cannot be applied**, irrespective of the PSP's assessment of the micro-enterprise's conduct.\n- **No claim excess can be deducted** from the reimbursement amount.\n- The PSP must **assess vulnerability case-by-case** for each APP fraud claim. A PSP that has already identified the micro-enterprise as vulnerable must take proportionate steps \u2014 a generic fraud warning does not discharge heightened duty of care owed to a vulnerable customer.\n\n### 6. **5 Business Day Reimbursement Timeline**\n\nThe sending PSP must refund within **5 business days** of accepting the reimbursement claim (provided the claim is not validly disputed or subject to a permitted 'stop the clock' ground, e.g., SAR filing or investigation of suspected first-party fraud).\n\n### 7. **50/50 Liability Split (Receiving PSP Obligation)**\n\nThe sending PSP is entitled to recover **50% of the reimbursement** from the receiving PSP (the fraudster's bank). The receiving PSP must reimburse the sending PSP accordingly. This is a structural incentive mechanism, not an allocation of individual fault **(PS23/3)**.\n\n### 8. **SAR Compliance",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "The maximum mandatory reimbursement is \u00a385,000 \u2014 the micro-enterprise recovers \u00a385,000, not the full \u00a3120,000",
+          "present": true,
+          "note": "Clearly stated: \u00a385,000 is reimbursable, the \u00a3120,000 loss exceeds the cap, and the unreimbursed \u00a335,000 remains the micro-enterprise's loss."
+        },
+        {
+          "fact": "Micro-enterprises are within the eligible claimant category and receive the same mandatory protection as individual consumers",
+          "present": true,
+          "note": "Explicitly confirmed: PS23/3 covers micro-enterprises alongside consumers and charities, with the same mandatory protections."
+        },
+        {
+          "fact": "The \u00a335,000 excess above the cap is not recoverable under the mandatory scheme \u2014 the micro-enterprise may pursue the fraudster directly or seek voluntary top-up from its PSP",
+          "present": true,
+          "note": "Answer states the \u00a335,000 is not reimbursable under the mandatory scheme and that PSPs may voluntarily reimburse above the cap."
+        },
+        {
+          "fact": "The micro-enterprise must report the fraud within 13 months of the fraudulent payment and must not have acted fraudulently or with gross negligence in authorising the payment",
+          "present": true,
+          "note": "Both the 13-month deadline and the gross negligence/fraud conditions are clearly covered in detail."
+        },
+        {
+          "fact": "The definition of micro-enterprise: fewer than 10 employees and annual turnover or balance sheet total not exceeding \u20ac2 million",
+          "present": true,
+          "note": "Definition explicitly stated: fewer than 10 employees with annual turnover or balance sheet \u2264\u20ac2m, referencing PSRs 2017."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSR PS23/3",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, correctly identifying all required facts including the \u00a385,000 cap, micro-enterprise eligibility, the \u00a335,000 shortfall, the 13-month deadline, gross negligence conditions, and the micro-enterprise definition, with appropriate citation of PS23/3.",
+      "error": null
+    },
+    {
+      "id": "E029",
+      "question": "What is the FCA financial promotions approver gateway, when did it come into force, and what does it require of authorised firms that approve financial promotions for unauthorised persons?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "financial-promotions",
+        "approver",
+        "FCA-gateway",
+        "s21-FSMA",
+        "authorised-persons"
+      ],
+      "pages_loaded": [
+        "financial-promotions-approver-regime"
+      ],
+      "pages_missing": [],
+      "answer": "# Financial Promotions Approver Gateway: Summary\n\n## What It Is\n\nThe **FCA financial promotions approver gateway** is a regulatory permission framework under **FSMA 2000 s.55NA** that requires authorised firms to obtain specific FCA gateway permission before they can approve financial promotions on behalf of unauthorised persons. It is codified in **COBS 4.10.1B**.\n\n## When It Came Into Force\n\n**7 January 2024** (effective date: **COBS 4.10.1B / FSMA 2000 s.55NA**).\n\n## What It Requires of Authorised Firms\n\nAuthorised firms acting as approvers must satisfy three core obligations:\n\n### 1. **Pre-Approval Confirmation (COBS 4.10.2R)**\nThe firm must confirm that the financial promotion **complies with COBS 4 in full** as at the date of approval. This includes:\n- Fair, clear and not misleading (FCNM) assessment\n- Product-specific rules and disclosure requirements\n- Applicable retail client communication rules\n\n### 2. **Ongoing Monitoring and Withdrawal (COBS 4.10.2R)**\nThe firm must maintain **ongoing monitoring arrangements** to detect if the promotion ceases to comply with COBS 4 after approval and must **withdraw approval promptly** once it becomes aware (or ought to become aware) that non-compliance has occurred.\n\n### 3. **Quarterly Attestation (COBS 4.10.2R)**\nThe firm must obtain written attestation from the unauthorised person, **no less than quarterly**, confirming that:\n- The promotion has not been materially changed since approval\n- All conditions imposed by the approver continue to be met\n\n### 4. **Competence and Expertise (COBS 4.10.9AR)**\nIndividuals responsible for approval must have the **competence and expertise** to assess whether the promotion meets all applicable requirements. This is a hard Rule; generic compliance sign-off without subject-matter expertise is insufficient.\n\n### 5. **Record Keeping (COBS 4.11.1R)**\nThe firm must retain the approved promotion, pre-approval compliance assessment, ongoing monitoring records, quarterly attestations, and withdrawal correspondence (retention periods vary by product type: indefinitely for pension transfers; 5 years for MiFID business; 3 years for other retail promotions).\n\n## Critical Scope Note\n\nThe gateway applies **only to third-party approvals**. A firm approving its own promotions does not require gateway permission. Additionally, **MLR-registered cryptoasset businesses cannot approve financial promotions for others**, despite being permitted to communicate their own promotions under Article 73ZA FPO **(COBS 4.10.3(8); PS23/6 \u00a71.13)**.",
+      "fact_score": 0.25,
+      "citation_score": 0.5,
+      "overall_score": 0.325,
+      "facts_detail": [
+        {
+          "fact": "The FCA gateway requires authorised firms that approve financial promotions for unauthorised persons to first obtain specific FCA approval to perform that function",
+          "present": true,
+          "note": "Clearly stated: 'requires authorised firms to obtain specific FCA gateway permission before they can approve financial promotions on behalf of unauthorised persons'"
+        },
+        {
+          "fact": "The gateway came into force on 7 January 2024 \u2014 firms already approving promotions were given a transitional period to apply",
+          "present": false,
+          "note": "The date 7 January 2024 is present, but there is no mention of a transitional period for firms already approving promotions at that time"
+        },
+        {
+          "fact": "Under s.21 FSMA an unauthorised person may only communicate a financial promotion if it is approved by an FCA-authorised person \u2014 the gateway adds a second layer requiring the approver itself to be specifically authorised by the FCA to approve third-party promotions",
+          "present": false,
+          "note": "The answer explains the gateway as a permission layer but does not reference s.21 FSMA or frame it as a 'second layer' built on top of the s.21 regime. FSMA s.55NA is cited but not s.21."
+        },
+        {
+          "fact": "An authorised firm that approves third-party promotions without gateway approval is itself in breach \u2014 and the unauthorised person communicating the promotion commits a criminal offence under s.25 FSMA",
+          "present": false,
+          "note": "The answer does not mention the criminal offence under s.25 FSMA, nor does it explicitly state the consequences for the approver or the unauthorised person in this context"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "FSMA 2000 s.21",
+          "present": false
+        },
+        {
+          "citation": "COBS 4.10",
+          "present": true
+        }
+      ],
+      "summary": "The answer provides strong operational detail on approver obligations and correctly identifies the 7 January 2024 commencement date, but omits the s.21 FSMA foundation, the transitional period, and the s.25 criminal offence consequences, leaving key required facts absent.",
+      "error": null
+    },
+    {
+      "id": "M038",
+      "question": "An authorised firm approves a financial promotion for an unauthorised fintech. The promotion is communicated. What ongoing obligations does the approver have after giving approval?",
+      "difficulty": "medium",
+      "type": "factual",
+      "tags": [
+        "financial-promotions",
+        "approver",
+        "monitoring",
+        "withdrawal",
+        "FCA-gateway"
+      ],
+      "pages_loaded": [
+        "financial-promotions-approver-regime"
+      ],
+      "pages_missing": [],
+      "answer": "# Ongoing Obligations After Approval\n\nBased on the knowledge base, once an authorised firm approves a financial promotion for an unauthorised fintech, it has **three distinct ongoing obligations** under **COBS 4.10.2R**:\n\n## 1. Ongoing Monitoring for Continued Compliance\n\nThe firm must maintain **ongoing monitoring arrangements** to detect if the promotion ceases to comply with COBS 4 after approval (e.g., due to product term changes or regulatory rule changes). The approval obligation does not end at sign-off.\n\n**Critical consequence:** If the approver becomes aware (or ought to become aware) that the promotion is no longer compliant, it **must withdraw approval promptly**. Once approval is withdrawn and the unauthorised person is notified, the fintech must immediately cease communicating the promotion. Continuing to communicate without valid approval triggers the **criminal offence under FSMA 2000 s.25** (unlimited fine and/or up to 2 years' imprisonment) **(COBS 4.10.2R; FSMA 2000 s.25)**.\n\n## 2. Quarterly Written Attestation from the Unauthorised Person\n\nThe firm must obtain a **written attestation from the unauthorised fintech, no less than quarterly**, confirming that:\n- The promotion has **not been materially changed** since approval\n- All **conditions imposed by the approver** continue to be met\n\n**(COBS 4.10.2R)**\n\nThe attestation obligation runs for as long as the fintech continues to communicate the promotion. Failure to receive an attestation or receipt of an attestation revealing a breach requires the approver to treat the approval as lapsed and prevent continued communication.\n\n## 3. Record Keeping\n\nThe firm must retain all approval records including:\n- The pre-approval compliance assessment and sign-off\n- Ongoing monitoring records\n- All quarterly attestations\n- Any withdrawal notifications and supporting correspondence\n\n**(COBS 4.11.1R)**\n\n---\n\n## Additional Notes\n\n- **No monitoring frequency minimum:** COBS 4.10.2R does not specify a minimum monitoring frequency \u2014 it must be \"appropriate\" to the nature and risk of the promotion.\n- **Cryptoasset promotions:** If the promotion is a qualifying cryptoasset promotion, the firm has an *additional* obligation to provide **quarterly attestations to the FCA** itself **(PS23/6)** \u2014 separate from the quarterly attestation obligation to the unauthorised person.\n- **s.138D civil liability:** Where the approver took reasonable steps (including obtaining quarterly attestations and withdrawing approval where necessary), a **reasonable steps defence** is available under **COBS 4.2.6R / FSMA s.138D** if the promotion is later communicated in breach of s.21 **(COBS 4.2.6R)**.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "The approver must monitor the promotion on an ongoing basis \u2014 approval is not a one-off event discharged at the point of sign-off",
+          "present": true,
+          "note": "Clearly stated under section 1: 'ongoing monitoring arrangements' and 'The approval obligation does not end at sign-off'"
+        },
+        {
+          "fact": "If the promotion ceases to comply with FCA financial promotion rules after approval, the approver must withdraw approval and notify the unauthorised firm",
+          "present": true,
+          "note": "Stated under section 1: 'must withdraw approval promptly. Once approval is withdrawn and the unauthorised person is notified'"
+        },
+        {
+          "fact": "On withdrawal of approval, the unauthorised firm must immediately withdraw the promotion \u2014 it becomes unlawful to communicate a promotion that no longer has a valid approval",
+          "present": true,
+          "note": "Stated: 'the fintech must immediately cease communicating the promotion. Continuing to communicate without valid approval triggers the criminal offence under FSMA 2000 s.25'"
+        },
+        {
+          "fact": "The approver must keep records of all approvals, the basis for each approval, and any subsequent withdrawal \u2014 the firm takes on regulatory responsibility for the promotion's ongoing compliance",
+          "present": true,
+          "note": "Covered under section 3 Record Keeping with reference to COBS 4.11.1R, including pre-approval compliance assessment, monitoring records, attestations, and withdrawal notifications"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "FSMA 2000 s.21",
+          "present": true,
+          "note": "Referenced in the additional notes section under s.138D civil liability: 'communicated in breach of s.21'"
+        },
+        {
+          "citation": "COBS 4.10",
+          "present": true,
+          "note": "COBS 4.10.2R is cited multiple times throughout the answer"
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all four required facts with correct regulatory citations including COBS 4.10.2R and FSMA s.21, and adds valuable detail on quarterly attestations, cryptoasset-specific obligations, and record-keeping requirements.",
+      "error": null
+    },
+    {
+      "id": "M039",
+      "question": "Does the FCA financial promotions approver gateway apply to a firm approving its own financial promotions, or to an appointed representative approving promotions on behalf of its principal?",
+      "difficulty": "medium",
+      "type": "boundary",
+      "tags": [
+        "financial-promotions",
+        "approver",
+        "FCA-gateway",
+        "scope",
+        "own-promotions"
+      ],
+      "pages_loaded": [
+        "financial-promotions-approver-regime"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nBased on the knowledge base, the FCA financial promotions approver gateway applies **only to a firm approving financial promotions on behalf of an unauthorised third party**, not to a firm approving its own financial promotions or to an appointed representative approving on behalf of its principal.\n\n## Gateway Scope (FSMA 2000 s.55NA / COBS 4.10.1B)\n\nFrom **7 January 2024**, **FSMA 2000 s.55NA** requires that a firm cannot approve a financial promotion for an unauthorised person unless it is a **permitted approver** with specific FCA gateway permission **(COBS 4.10.1B)**. However:\n\n> **\"The gateway applies only where a firm approves a promotion for an *unauthorised* third party. A firm approving its own promotions does not need gateway permission. Appointed representatives communicating promotions within the scope of their principal's business are also outside the gateway (COBS 4.10.3).\"**\n\n## Exclusions from the Gateway\n\nThe knowledge base explicitly states that the gateway does **not** apply to:\n\n1. **A firm approving its own financial promotions** \u2014 no s.55NA permission is required\n2. **An appointed representative approving promotions on behalf of its principal** \u2014 appointed representatives fall outside the gateway requirement\n\n## Critical Distinction: Own Promotions vs. Third-Party Approvals\n\n- If a firm is communicating its **own** promotions, it must comply with COBS 4 (FCNM, identifiability, etc.) but does **not** require s.55NA gateway permission **(COBS 4.10.3)**\n- If a firm is **approving** a promotion communicated by an **unauthorised third party**, it **must** have s.55NA gateway permission **(COBS 4.10.1B)** and comply with the COBS 4.10 approver obligations (pre-approval confirmation, ongoing monitoring, quarterly attestation)\n\nThis distinction is particularly important for **MLR-registered cryptoasset businesses**, which can communicate their **own** cryptoasset promotions under the Article 73ZA FPO exemption but **cannot approve** promotions for others **(COBS 4.10.3(8); PS23/6 \u00a71.13)**.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "No \u2014 the gateway does not apply to firms approving their own financial promotions. An authorised firm communicating a promotion for its own products does not need gateway approval \u2014 its FCA authorisation already permits it to communicate its own promotions",
+          "present": true,
+          "note": "Clearly stated: 'A firm approving its own promotions does not need gateway permission' and 'If a firm is communicating its own promotions... does not require s.55NA gateway permission'"
+        },
+        {
+          "fact": "The gateway applies only where an authorised firm approves a promotion for an unauthorised third party under s.21 FSMA",
+          "present": true,
+          "note": "Explicitly stated: 'The gateway applies only where a firm approves a promotion for an unauthorised third party' and references FSMA 2000 s.55NA and the s.21 approver function"
+        },
+        {
+          "fact": "Appointed representatives communicating promotions that fall within the scope of their principal's business also do not require gateway approval \u2014 the principal's authorisation covers the representative's promotions within that scope",
+          "present": true,
+          "note": "Stated: 'An appointed representative approving promotions on behalf of its principal \u2014 appointed representatives fall outside the gateway requirement' and references COBS 4.10.3"
+        },
+        {
+          "fact": "The gateway is specifically targeted at the s.21 approver function \u2014 the market of authorised firms providing approval services to unauthorised businesses",
+          "present": true,
+          "note": "The answer describes the gateway as applying to firms approving promotions for unauthorised third parties, referencing s.55NA and the approver obligations, capturing the substance of the s.21 approver market concept"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "COBS 4.10",
+          "present": true,
+          "note": "Multiple references to COBS 4.10.1B, COBS 4.10.3, and COBS 4.10 generally throughout the answer"
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, correctly identifying all required facts about gateway scope exclusions and citing COBS 4.10 with specific sub-provisions.",
+      "error": null
+    },
+    {
+      "id": "H029",
+      "question": "An authorised firm that has not applied for FCA gateway approval is asked to approve a financial promotion for an unauthorised cryptoasset firm. What compliance issues arise for both parties?",
+      "difficulty": "hard",
+      "type": "edge-case",
+      "tags": [
+        "financial-promotions",
+        "approver",
+        "cryptoassets",
+        "FCA-gateway",
+        "s21-FSMA"
+      ],
+      "pages_loaded": [
+        "financial-promotions-approver-regime"
+      ],
+      "pages_missing": [],
+      "answer": "# Compliance Issues: Unauthorised Firm Approving Without FCA Gateway Permission\n\n## Issues for the Authorised Firm (Non-Gateway Approver)\n\n### 1. **Breach of FSMA 2000 s.55NA Gateway Requirement (COBS 4.10.1B)**\n\nThe authorised firm cannot legally approve the financial promotion without first obtaining **FCA gateway permission under s.55NA**. This is a mandatory prerequisite separate from the underlying s.21 restriction.\n\n**Specific issue:** From **7 January 2024**, COBS 4.10.1B explicitly requires that \"a firm must not approve a financial promotion for an unauthorised person unless it is a permitted approver\" under the s.55NA gateway. Proceeding without this permission is a breach of COBS 4.10.1B.\n\n### 2. **Breach of COBS 4.10 Conduct Obligations**\n\nEven if the firm somehow satisfied the s.21 restriction by approving, it would still breach multiple COBS 4.10 rules:\n\n- **COBS 4.10.2R (pre-approval confirmation):** The firm must confirm the promotion complies with COBS 4 in full before approval \u2014 this includes cryptoasset-specific rules under PS23/6.\n- **COBS 4.10.2R (ongoing monitoring and withdrawal):** The firm must monitor for continued compliance and withdraw approval promptly if the promotion ceases to comply.\n- **COBS 4.10.2R (quarterly attestation):** The firm must obtain quarterly written attestations from the unauthorised cryptoasset firm confirming no material changes and continued compliance with conditions.\n- **COBS 4.10.9AR (competence requirement):** The firm's individuals responsible for approval must have specific expertise in cryptoasset financial promotions under PS23/6. Generic sign-off is insufficient.\n- **COBS 4.11.1R (record keeping):** The firm must retain the approval decision, compliance assessment, and attestations \u2014 failure to do so is a separate breach.\n\n### 3. **Potential FSMA s.138D Civil Liability**\n\nIf the unapproved (or improperly approved) promotion is communicated and causes loss to investors, the firm faces potential civil liability under **FSMA s.138D** for breach of COBS 4. The **reasonable steps defence (COBS 4.2.6R)** is not available to a firm that breached COBS 4.10 itself \u2014 for example, by approving without gateway permission or without genuine competence.\n\n### 4. **SM&CR Implications**\n\nUnder the Senior Managers & Certification Regime, the senior manager responsible for the compliance/approvals function (typically SMF16 or SMF17) may breach their **Duty of Responsibility (FSMA s.66A)** if they approved (or failed to withdraw approval from) a promotion in breach of s.55NA or COBS 4.10 without taking reasonable steps to prevent the breach.\n\n---\n\n## Issues for the Unauthorised Cryptoasset Firm\n\n### 1. **Criminal Offence Under FSMA 2000 s.25**\n\nCommunicating the financial promotion with approval from an **unapproved approver** (one lacking s.55NA gateway permission) means the promotion is not lawfully approved under FSMA s.21. \n\n**Specific rule breach:** Under **FSMA 2000 s.21**, an unauthorised person may not communicate a financial promotion unless its content has been approved by an **authorised person**. The issue here is more complex than a straightforward s.21 breach \u2014 the approving firm is authorised, but it lacks the mandatory s.55NA gateway permission required by COBS 4.10.1B.\n\n**Criminal consequence:** Communicating the promotion in this circumstance triggers **FSMA 2000 s.25** \u2014 a criminal offence punishable by an **unlimited fine and/or up to 2 years' imprisonment (COBS 4.10.7; PS23/6 \u00a71.7)**.\n\n### 2. **No Valid Approval Pathway**\n\nThe unauthorised firm cannot rely on any of the **4 legal routes to promote cryptoassets** under PS23/6 \u00a71.15:\n- **(i) Communicated by an authorised person:** Not applicable \u2014 the firm is unauthorised.\n- **(ii) Approved by a gateway-permitted authorised person:** Fails \u2014 the approver lacks gateway permission.\n- **(iii) Communicated by an MLR-registered cryptoasset business under Article 73ZA FPO:** Not relevant here (this is own-promotions only and requires ML-registration).\n- **(iv) Otherwise under an FPO exemption:** Not established.\n\nResult: The promotion is unlawfully communicated.\n\n### 3. **Specific Barrier if MLR-Registered**\n\nIf the unauthorised cryptoasset firm is **MLR-registered** (under the Money Laundering Regulations 2017), it may communicate **its own** cryptoasset promotions under the **Article 73ZA FP",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "The authorised firm cannot approve the promotion \u2014 without gateway approval, any purported approval is itself a breach of COBS 4.10 and FSMA s.21",
+          "present": true,
+          "note": "Clearly stated in section 1 and 2 of the authorised firm issues \u2014 COBS 4.10.1B breach and s.55NA gateway requirement explained, with reference to s.21 restriction."
+        },
+        {
+          "fact": "For cryptoasset financial promotions there is an additional restriction \u2014 only firms specifically approved by the FCA to approve cryptoasset promotions, or MLR-registered cryptoasset businesses communicating their own promotions, may approve or communicate crypto financial promotions",
+          "present": true,
+          "note": "Covered in the '4 legal routes' section and in the MLR-registered firm section \u2014 the answer explicitly lists the approved pathways and notes the narrow pool of eligible approvers."
+        },
+        {
+          "fact": "If the authorised firm approves without gateway approval, it commits a breach of COBS 4.10 \u2014 and the unauthorised firm communicating the promotion commits a criminal offence under s.25 FSMA",
+          "present": true,
+          "note": "Both consequences are explicitly stated \u2014 COBS 4.10 breach for the authorised firm and s.25 criminal offence for the unauthorised firm communicating the promotion."
+        },
+        {
+          "fact": "The unauthorised cryptoasset firm must seek approval only from a gateway-approved firm that is also specifically approved for cryptoasset promotions \u2014 the pool of eligible approvers is deliberately narrow",
+          "present": true,
+          "note": "The answer states the firm cannot rely on the approval and must use a gateway-permitted authorised person; the narrow pool concept is implicit in the four-route analysis and the competence requirement under COBS 4.10.9AR."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "COBS 4.10",
+          "present": true
+        },
+        {
+          "citation": "FSMA 2000 s.21",
+          "present": true
+        },
+        {
+          "citation": "FSMA 2000 s.25",
+          "present": true
+        },
+        {
+          "citation": "PS23/6",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts and citations with detailed regulatory analysis including gateway requirements, criminal consequences, and the narrow approver pool for cryptoasset promotions.",
+      "error": null
+    },
+    {
+      "id": "H030",
+      "question": "A gateway-approved firm approved a financial promotion in October 2023. In April 2024 the underlying product's risk profile changed materially \u2014 the issuer increased the maximum leverage available. The approver was not informed. Who bears regulatory responsibility and what should the approver have done?",
+      "difficulty": "hard",
+      "type": "synthesis",
+      "tags": [
+        "financial-promotions",
+        "approver",
+        "material-change",
+        "monitoring",
+        "ongoing-obligation"
+      ],
+      "pages_loaded": [
+        "financial-promotions-approver-regime"
+      ],
+      "pages_missing": [],
+      "answer": "# Regulatory Responsibility and Obligations Analysis\n\n## Who Bears Regulatory Responsibility?\n\n**The approver bears primary regulatory responsibility.**\n\nUnder **COBS 4.10.2R**, the approver's obligation does not end at the point of initial approval in October 2023. The firm must maintain **ongoing monitoring arrangements** to detect if the promotion ceases to comply with COBS 4 after approval and **withdraw approval promptly** once it becomes aware (or ought to become aware) that a promotion is no longer compliant.\n\nThe material increase in maximum leverage available constitutes a **change to the underlying product's risk profile**. This likely affects:\n- Whether the promotion continues to meet **COBS 4.2.1R (FCNM \u2014 fair, clear and not misleading)** requirements\n- Compliance with product-specific risk disclosure obligations\n\nBy failing to be informed of this material change, the approver has failed to detect the compliance failure through its monitoring arrangements. This is a breach of **COBS 4.10.2R** regardless of whether the approver was formally notified by the issuer.\n\n## What the Approver Should Have Done\n\nThe approver should have had in place **ongoing monitoring arrangements appropriate to the nature and risk of the promotion** to detect material changes to the underlying product. Specifically:\n\n### 1. **Implement Proactive Monitoring (COBS 4.10.2R)**\n   - Establish procedures to track material changes to the underlying product's terms and risk profile\n   - This includes monitoring issuer announcements regarding leverage availability\n\n### 2. **Obtain Quarterly Attestations (COBS 4.10.2R)**\n   - Secure written confirmation from the unauthorised person **no less than quarterly** that:\n     - The promotion has **not been materially changed** since approval\n     - All conditions imposed by the approver continue to be met\n   - A quarterly attestation stating the product terms had not changed (when in fact leverage was increased) would have been breached, triggering the approver's withdrawal obligation\n\n### 3. **Withdraw Approval Immediately (COBS 4.10.2R)**\n   - Upon becoming aware of the leverage change, the approver must **withdraw approval promptly**\n   - Notify the unauthorised person in writing that approval is withdrawn\n   - Once notified, the unauthorised person must **immediately cease communicating the promotion**\n\n### 4. **Maintain Records (COBS 4.11.1R)**\n   - Document the basis for withdrawal and supporting evidence of the product change\n\n## Consequences of the Approver's Failure\n\n**If the promotion continues to be communicated after the leverage increase without renewed approval:**\n\n- The **unauthorised person communicating the promotion commits a criminal offence under FSMA s.25** (unlimited fine and/or up to 2 years' imprisonment), as it no longer has valid approval under FSMA s.21 **(COBS 4.10.2(2); FSMA s.25)**\n- The **approver is in material breach of COBS 4.10.2R** (ongoing monitoring and withdrawal obligations)\n- The **approver may face s.138D civil liability** to investors if the non-compliant promotion causes loss \u2014 though it may have a limited **s.138D reasonable steps defence** if it can show it had systems in place, provided it did not itself breach COBS 4.10 **(COBS 4.2.6R; FSMA s.138D)**\n\n**The fact that the approver was not informed is not a defence.** The obligation is to have monitoring arrangements that are \"appropriate\" to detect such changes, not to rely on passive notification.",
+      "fact_score": 1.0,
+      "citation_score": 1.0,
+      "overall_score": 1.0,
+      "facts_detail": [
+        {
+          "fact": "The approver bears ongoing regulatory responsibility for the promotion \u2014 approval is not discharged by a one-off review at the point of sign-off",
+          "present": true,
+          "note": "The answer explicitly states the approver's obligation does not end at the point of initial approval and references ongoing monitoring under COBS 4.10.2R."
+        },
+        {
+          "fact": "The approver should have contractual arrangements with the unauthorised firm requiring notification of any material change to the product or promotion \u2014 without this it cannot discharge its ongoing monitoring obligation",
+          "present": true,
+          "note": "The answer references obtaining quarterly attestations and securing written confirmation from the unauthorised person of no material changes, which substantively covers the contractual/notification arrangement requirement, though it frames it as attestations rather than explicit contractual arrangements."
+        },
+        {
+          "fact": "A material change in the product's risk profile (increased leverage) would likely make the approved promotion non-compliant \u2014 it may now omit material information about the product's risks",
+          "present": true,
+          "note": "The answer explicitly states the leverage increase constitutes a material change affecting FCNM compliance and risk disclosure obligations."
+        },
+        {
+          "fact": "The approver's failure to establish a mechanism for notification of material changes is itself a failure of its ongoing monitoring obligation under COBS 4.10.2R",
+          "present": true,
+          "note": "The answer states that failure to be informed constitutes a breach of COBS 4.10.2R and that the obligation is to have monitoring arrangements to detect such changes, not to rely on passive notification."
+        },
+        {
+          "fact": "Once aware of non-compliance, the approver must withdraw approval \u2014 the promotion must then be withdrawn by the unauthorised firm immediately",
+          "present": true,
+          "note": "The answer explicitly states the approver must withdraw approval promptly and notify the unauthorised person, who must immediately cease communicating the promotion."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "FSMA 2000 s.21",
+          "present": true,
+          "note": "Referenced in the consequences section regarding the s.21 approval requirement."
+        },
+        {
+          "citation": "COBS 4.10",
+          "present": true,
+          "note": "COBS 4.10.2R is cited multiple times throughout the answer."
+        }
+      ],
+      "summary": "The answer comprehensively addresses all required facts and citations, correctly identifying the approver's ongoing monitoring obligations, the need for notification mechanisms, the impact of material product changes on compliance, and the withdrawal obligation.",
+      "error": null
+    },
+    {
+      "id": "E030",
+      "question": "What is an \"important business service\" under SYSC 15A, and what two dimensions must an impact tolerance address?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "SYSC",
+        "operational-resilience",
+        "important-business-service",
+        "impact-tolerance"
+      ],
+      "pages_loaded": [
+        "operational-resilience"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n## Definition of \"Important Business Service\"\n\nUnder **SYSC 15A.2.1R**, an **important business service** is a service provided by a firm whose disruption would cause intolerable harm to clients or the UK financial system.\n\n**Key characteristics:**\n- Identification is **firm-led** \u2014 the FCA does not publish a prescribed list **(SYSC 15A.2.1R; SYSC 15A.2.4G)**\n- Services must be assessed **individually; services cannot be bundled** **(SYSC 15A.2.3G)**\n- Assessment uses a **13-factor framework** including: nature of client base (including vulnerability); substitutability; time criticality; number of clients; sensitivity of data; potential impact on UK financial system; and whether disruption would breach legal/regulatory obligations **(SYSC 15A.2.4G)**\n- Review is mandatory on **any material change to business, and at least annually** **(SYSC 15A.2.2R)**\n\n---\n\n## Two Dimensions of Impact Tolerance\n\nAn impact tolerance must address **two dimensions**:\n\n1. **Outcomes for clients** \u2014 the maximum disruption level to client service delivery the firm is willing to tolerate\n\n2. **Outcomes for markets** \u2014 the maximum disruption level affecting the UK financial system the firm is willing to tolerate\n\n**(SYSC 15A.2.5R)** specifies that tolerances must be \"expressed in terms of outcomes for clients and markets,\" not merely technical recovery metrics (RTO/RPO).\n\n**Critical requirement:** A firm **must ensure it can remain within its impact tolerance** for each IBS **in the event of a severe but plausible disruption** **(SYSC 15A.2.9R)** \u2014 this is a hard capability requirement. Tolerances must also account for **peak demand fluctuations** throughout the day and year, not just average load **(SYSC 15A.2.8G)**.",
+      "fact_score": 0.5,
+      "citation_score": 1.0,
+      "overall_score": 0.65,
+      "facts_detail": [
+        {
+          "fact": "An important business service (IBS) is a service provided by a firm to an external end user whose disruption could cause intolerable harm to consumers or market integrity, or pose a risk to the firm's safety and soundness or financial stability",
+          "present": true,
+          "note": "The answer states disruption would cause intolerable harm to clients or the UK financial system, which captures the core substance, though it omits the safety and soundness/financial stability dimension explicitly."
+        },
+        {
+          "fact": "Firms must identify their own important business services \u2014 the FCA does not prescribe which services qualify; identification is the firm's responsibility based on impact assessment",
+          "present": true,
+          "note": "Explicitly stated: 'Identification is firm-led \u2014 the FCA does not publish a prescribed list'"
+        },
+        {
+          "fact": "An impact tolerance must address two dimensions: (1) the maximum tolerable duration of disruption \u2014 the longest the firm can be disrupted before harm becomes intolerable; and (2) the maximum tolerable level of disruption within that period, for example transaction volumes or data integrity thresholds",
+          "present": false,
+          "note": "The answer characterises the two dimensions as 'outcomes for clients' and 'outcomes for markets', which is incorrect. The required two dimensions are duration of disruption and level/volume of disruption, not client outcomes vs market outcomes."
+        },
+        {
+          "fact": "The deadline for all firms to be able to remain within their impact tolerances was 31 March 2025",
+          "present": false,
+          "note": "No mention of the 31 March 2025 deadline anywhere in the answer."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "SYSC 15A.2.1R",
+          "present": true
+        },
+        {
+          "citation": "SYSC 15A.2.5R",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly identifies firm-led IBS identification and cites the required rules, but critically mischaracterises the two dimensions of impact tolerance (describing them as client vs market outcomes rather than duration and level/volume of disruption) and omits the 31 March 2025 compliance deadline.",
+      "error": null
+    },
+    {
+      "id": "M040",
+      "question": "A firm has set an impact tolerance of 24 hours for its payment processing service. What ongoing SYSC 15A obligations does it have to test whether it can remain within that tolerance?",
+      "difficulty": "medium",
+      "type": "factual",
+      "tags": [
+        "SYSC",
+        "operational-resilience",
+        "scenario-testing",
+        "impact-tolerance"
+      ],
+      "pages_loaded": [
+        "operational-resilience"
+      ],
+      "pages_missing": [],
+      "answer": "# Ongoing Testing Obligations for a 24-Hour Impact Tolerance\n\nBased on the knowledge base, a firm with a 24-hour impact tolerance for its payment processing service has the following **ongoing SYSC 15A obligations to test whether it can remain within that tolerance:**\n\n## Mandatory Regular Testing (SYSC 15A.5.7R)\n\nThe firm must carry out scenario testing on a **regular basis** as one of three mandatory triggers under **SYSC 15A.5.7R**. The rule requires testing to be conducted:\n\n1. **On material change** to the business, IBS, or impact tolerances\n2. **Following improvements** made in response to a previous test\n3. **In any event, on a regular basis** *(this is the ongoing obligation)*\n\nThere is no specified frequency in the knowledge base, but the \"regular basis\" trigger is continuous \u2014 it applies throughout the life of the service.\n\n## Scope of Testing\n\nThe testing must cover **an appropriate range of adverse circumstances of varying nature, severity and duration** (SYSC 15A.5.4R) and should encompass the named scenario types, including: data corruption/manipulation; key people or facilities unavailable; critical third-party service unavailable; disruption to other market participants; and technology loss or degradation (SYSC 15A.5.6G).\n\n**Critically, testing must continue with no pause during remediation.** If the firm identifies that it cannot currently meet the 24-hour tolerance, it must continue regular-basis testing even while working through a remediation plan (SYSC 15A.5.7R).\n\n## Post-Testing Obligations\n\nAfter each test, the firm must conduct a **lessons learned exercise** (SYSC 15A.5.8R) and make **necessary improvements** to remain within the 24-hour tolerance (SYSC 15A.5.9R). **The firm must improve its resilience to meet the tolerance \u2014 not lower the tolerance** to match any deficient resilience it discovers (SYSC 15A.5.9R; SYSC 15A.2.9R).\n\n## Governance Oversight\n\nThe firm's **governing body must regularly review** the scenario testing details and lessons learned exercises contained in the SYSC 15A.6.1R self-assessment record (SYSC 15A.7.1R; SYSC 15A.6.1R(5)\u2013(6)).\n\n---\n\n**In summary:** The ongoing obligation is to test on a **regular basis** under SYSC 15A.5.7R with no materiality threshold, conduct lessons learned under SYSC 15A.5.8R, make necessary improvements under SYSC 15A.5.9R, and retain all testing records for at least 6 years (SYSC 15A.6.2R) subject to governing body approval and review (SYSC 15A.7.1R).",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "The firm must carry out scenario testing to assess its ability to remain within the 24-hour impact tolerance \u2014 testing must include severe but plausible disruption scenarios",
+          "present": true,
+          "note": "The answer clearly states scenario testing must be carried out on a regular basis under SYSC 15A.5.7R, and references 'appropriate range of adverse circumstances of varying nature, severity and duration' from SYSC 15A.5.4R."
+        },
+        {
+          "fact": "Scenario testing must cover technology failures, cyber incidents, third-party failures, and physical access failures \u2014 scenarios must be tailored to the firm's specific vulnerabilities",
+          "present": true,
+          "note": "The answer lists scenario types including technology loss/degradation, critical third-party service unavailable, key people or facilities unavailable, and data corruption/manipulation. However, it does not explicitly mention cyber incidents or physical access failures, and does not strongly emphasise tailoring to specific vulnerabilities."
+        },
+        {
+          "fact": "The firm must learn lessons from testing and act on the findings \u2014 scenario testing is not a box-ticking exercise; the firm must improve resilience where testing reveals gaps",
+          "present": true,
+          "note": "The answer explicitly covers lessons learned exercises (SYSC 15A.5.8R) and necessary improvements (SYSC 15A.5.9R), and states the firm must improve resilience rather than lower tolerances."
+        },
+        {
+          "fact": "The firm must document its mapping of the people, processes, technology, facilities, and information that underpin the service \u2014 this mapping informs scenario design",
+          "present": false,
+          "note": "The answer does not mention the mapping obligation (people, processes, technology, facilities, information) or how mapping informs scenario design. This is a notable gap."
+        },
+        {
+          "fact": "Results of scenario testing must be reported to the firm's governing body",
+          "present": true,
+          "note": "The answer states the governing body must regularly review scenario testing details and lessons learned exercises, referencing SYSC 15A.7.1R."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "SYSC 15A.5",
+          "present": true,
+          "note": "Multiple references to SYSC 15A.5.7R, SYSC 15A.5.4R, SYSC 15A.5.6G, SYSC 15A.5.8R, SYSC 15A.5.9R are present throughout the answer."
+        }
+      ],
+      "summary": "The answer is strong and well-structured, covering testing obligations, lessons learned, governing body reporting, and key SYSC 15A.5 citations, but omits the important obligation to document the mapping of people, processes, technology, facilities and information underpinning the service.",
+      "error": null
+    },
+    {
+      "id": "M041",
+      "question": "A firm's scenario testing reveals it cannot remain within its stated impact tolerance for its customer-facing mobile banking service. What must it do?",
+      "difficulty": "medium",
+      "type": "factual",
+      "tags": [
+        "SYSC",
+        "operational-resilience",
+        "impact-tolerance",
+        "FCA-notification",
+        "remediation"
+      ],
+      "pages_loaded": [
+        "operational-resilience"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nBased on SYSC 15A, when a firm's scenario testing reveals it cannot remain within its stated impact tolerance for an important business service (in this case, the customer-facing mobile banking service), the firm must take the following actions:\n\n## 1. Make Necessary Improvements to Resilience\n\n**SYSC 15A.5.9R** is the controlling obligation: the firm **must make necessary improvements** to its resilience to enable it to remain within the stated impact tolerance. This is a hard Rule \u2014 the firm cannot simply accept the gap.\n\nCritically, **SYSC 15A.5.9R also establishes that the firm must improve its resilience to meet the tolerance, not adjust the tolerance downward** to match its current deficient state. The tolerance must remain calibrated to prevent intolerable harm to clients and the UK financial system, as required by **SYSC 15A.2.9R**.\n\n## 2. Conduct a Lessons Learned Exercise\n\n**SYSC 15A.5.8R** requires the firm to conduct a **lessons learned exercise** following the scenario test. This exercise must produce concrete findings about why the resilience gap exists and what changes are needed.\n\n## 3. Continue Regular Testing During Remediation\n\nThe firm must continue scenario testing on a **regular basis** even while remediation is underway. **SYSC 15A.5.7R** mandates testing triggers including material change, post-improvement, and \"in any event, on a regular basis\" \u2014 there is no pause or exemption from regular testing while a firm is working through a remediation plan.\n\n## 4. Document and Review\n\nThe identified vulnerability, planned remediation, and completion timescales must be recorded in the **SYSC 15A.6.1R** self-assessment record (item 7: \"identified vulnerabilities with planned remediation and completion timescales\"). This record must be kept for **at least 6 years (SYSC 15A.6.2R)** and the **governing body must approve and regularly review** it **(SYSC 15A.7.1R)**, including the scenario testing results and identified vulnerabilities.\n\n## 5. Notify the FCA\n\n**SYSC 15A.2.11G** states the FCA expects notification of **any failure** to meet an impact tolerance with **no materiality threshold**. The firm should notify the FCA of the testing failure and its remediation plan.\n\n**Summary:** The firm must improve its resilience capability to meet its stated tolerance, not lower the tolerance. Remediation must be documented, tested, and overseen by the governing body.",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "The firm must develop and implement a plan to remediate the gap \u2014 it must improve its resilience to the point where it can remain within its impact tolerance",
+          "present": true,
+          "note": "Clearly stated under section 1: 'the firm must make necessary improvements to its resilience to enable it to remain within the stated impact tolerance'"
+        },
+        {
+          "fact": "The firm must notify the FCA that it has identified a gap between its current resilience and its stated impact tolerance",
+          "present": true,
+          "note": "Section 5 explicitly covers FCA notification, referencing SYSC 15A.2.11G and noting no materiality threshold"
+        },
+        {
+          "fact": "The firm must not simply lower its impact tolerance to match its actual (deficient) resilience \u2014 the tolerance must be set at the level that prevents intolerable harm, not at the level the firm currently achieves",
+          "present": true,
+          "note": "Explicitly addressed: 'the firm must improve its resilience to meet the tolerance, not adjust the tolerance downward to match its current deficient state'"
+        },
+        {
+          "fact": "Until the gap is remediated, the firm must maintain response and recovery capabilities to manage a disruption that exceeds the tolerance",
+          "present": false,
+          "note": "The answer does not address the obligation to maintain response/recovery capabilities during the remediation period for disruptions that exceed the tolerance"
+        },
+        {
+          "fact": "Ongoing testing must continue while the remediation plan is in progress to monitor whether resilience is improving",
+          "present": true,
+          "note": "Section 3 explicitly states: 'The firm must continue scenario testing on a regular basis even while remediation is underway'"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "SYSC 15A.2.11G",
+          "present": true
+        }
+      ],
+      "summary": "The answer is strong and covers most required elements including remediation, FCA notification, tolerance integrity, and ongoing testing, but omits the specific obligation to maintain response and recovery capabilities for disruptions exceeding the tolerance during the remediation period.",
+      "error": null
+    }
+  ]
+}

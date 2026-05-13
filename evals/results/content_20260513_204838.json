@@ -1,0 +1,213 @@
+{
+  "run_at": "2026-05-13T20:48:38.622977",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 3,
+  "completed": 3,
+  "errors": 0,
+  "mean_fact_score": 0.725,
+  "mean_citation_score": 1.0,
+  "mean_overall_score": 0.8075,
+  "pass_rate": 0.6666666666666666,
+  "by_difficulty": {
+    "easy": {
+      "count": 2,
+      "mean_score": 0.78125
+    },
+    "medium": {
+      "count": 1,
+      "mean_score": 0.86
+    },
+    "hard": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 2,
+      "mean_score": 0.78125
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 1,
+      "mean_score": 0.86
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "M036",
+      "question": "A consumer authorised a payment to a fraudster despite their PSP displaying a clear, specific warning that the payee had been associated with fraud. Can the PSP reduce or deny reimbursement?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "APP-fraud",
+        "PSR",
+        "reimbursement",
+        "fraud-warning",
+        "consumer-behaviour",
+        "PS23-3"
+      ],
+      "pages_loaded": [
+        "app-fraud-reimbursement-scheme"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n**Yes, the PSP may reduce or deny reimbursement**, but only if it can discharge a demanding evidential burden.\n\n## The Legal Standard\n\nThe PSP may invoke the **gross negligence exception** to reduce or deny reimbursement **(PS23/3 Chapter 5; \u00a75.23)**. Gross negligence is deliberately set at a very high threshold \u2014 requiring \"a very significant degree of carelessness\" \u2014 not merely failure to take reasonable precautions.\n\nCritically, **the burden of proof is on the PSP** to establish gross negligence. The consumer does not have to prove they acted carefully.\n\n## Warning Specificity Requirement\n\nA PSP may rely on a consumer's failure to heed a warning **only if the warning was specific to the payee or transaction** **(PS23/3 \u00a75.23)**. Generic fraud awareness messages do not satisfy this requirement and cannot ground a gross negligence finding.\n\n**To successfully reduce or deny reimbursement on this basis, the PSP must be able to evidence:**\n1. The **specific content** of the warning displayed to the consumer\n2. That it was **targeted to the particular payee or transaction** (not generic)\n3. The **timing** of the warning relative to the payment instruction\n\nIf the PSP cannot evidence these elements, it cannot rely on the consumer's failure to heed the warning.\n\n## Vulnerable Customer Carve-Out\n\nThis exception **cannot be applied if the consumer meets the vulnerability definition** **(PS23/3 \u00a72.10\u20132.13)**. This is a hard rule \u2014 no PSP discretion applies, regardless of the apparent facts.\n\nAdditionally, if the PSP had already identified the customer as vulnerable, it owed a heightened duty of care proportionate to that vulnerability. A generic fraud warning does not discharge this duty. The PSP cannot subsequently invoke the consumer's failure to heed a generic warning as grounds for reducing or denying reimbursement.\n\n## Summary\n\nThe PSP may attempt to reduce or deny reimbursement, but success requires: (1) clear evidence of a specific, targeted warning; (2) demonstration that the consumer's failure to heed it constitutes very significant carelessness; (3) confirmation the consumer is not vulnerable. The burden of proof rests entirely with the PSP.",
+      "fact_score": 0.8,
+      "citation_score": 1.0,
+      "overall_score": 0.86,
+      "facts_detail": [
+        {
+          "fact": "Yes \u2014 if the consumer ignored a specific, effective warning about a high-risk payee, the PSP may reduce or deny reimbursement",
+          "present": true,
+          "note": "The answer clearly states the PSP may reduce or deny reimbursement when a specific warning was ignored."
+        },
+        {
+          "fact": "The warning must have been specific to the payee or the transaction \u2014 generic fraud awareness messages do not satisfy this requirement",
+          "present": true,
+          "note": "Explicitly stated: 'A PSP may rely on a consumer's failure to heed a warning only if the warning was specific to the payee or transaction' and 'Generic fraud awareness messages do not satisfy this requirement'."
+        },
+        {
+          "fact": "The consumer is assessed against the standard of a reasonably careful person \u2014 if such a person would have heeded the warning, ignoring it constitutes contributory behaviour",
+          "present": false,
+          "note": "The answer references gross negligence and 'very significant degree of carelessness' but does not explicitly articulate the 'reasonably careful person' standard or frame ignoring the warning as contributory behaviour in those terms."
+        },
+        {
+          "fact": "If the consumer is vulnerable, a higher standard of care applies \u2014 ignoring a warning may not reduce reimbursement for a vulnerable consumer who lacked capacity to understand it",
+          "present": true,
+          "note": "The answer has a dedicated 'Vulnerable Customer Carve-Out' section explaining the exception cannot apply to vulnerable consumers and that a heightened duty of care applies."
+        },
+        {
+          "fact": "PSPs must document the warning given, including its content and timing, to rely on it as grounds for reducing reimbursement",
+          "present": true,
+          "note": "The answer explicitly lists evidential requirements including 'specific content', 'targeted to the particular payee or transaction', and 'timing of the warning relative to the payment instruction'."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "PSR PS23/3",
+          "present": true,
+          "note": "Referenced multiple times as 'PS23/3' with specific paragraph references (\u00a75.23, \u00a72.10\u20132.13)."
+        }
+      ],
+      "summary": "The answer is comprehensive and well-structured, covering the key requirements including warning specificity, vulnerability carve-out, and documentation needs, with the only notable gap being the absence of an explicit 'reasonably careful person' standard framing contributory behaviour.",
+      "error": null
+    },
+    {
+      "id": "E029",
+      "question": "What is the FCA financial promotions approver gateway, when did it come into force, and what does it require of authorised firms that approve financial promotions for unauthorised persons?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "financial-promotions",
+        "approver",
+        "FCA-gateway",
+        "s21-FSMA",
+        "authorised-persons"
+      ],
+      "pages_loaded": [
+        "financial-promotions-approver-regime"
+      ],
+      "pages_missing": [],
+      "answer": "# Financial Promotions Approver Gateway: Summary\n\n## What is the Gateway?\n\nThe **Financial Promotions Approver Gateway** is a regulatory permission requirement established under **FSMA 2000 s.55NA**, operationalised through **COBS 4.10.1B**. It requires that authorised firms seeking to approve financial promotions for unauthorised third parties must first obtain **specific FCA gateway permission** to perform the approver function. This represents a second legal layer operating on top of the underlying FSMA s.21 restriction.\n\n**Scope limitation:** The gateway applies only to third-party approvals. A firm approving its own promotions does not require gateway permission **(COBS 4.10.3)**.\n\n---\n\n## When Did It Come Into Force?\n\nThe gateway came into force on **7 January 2024** **(FSMA 2000 s.55NA; COBS 4.10.1B; effective date: 2024-01-07)**.\n\n---\n\n## What Does It Require of Authorised Firms?\n\nAuthorised firms acting as approvers must comply with **three substantive obligations under COBS 4.10.2R**:\n\n### 1. **Pre-Approval Confirmation**\nThe firm must confirm that the financial promotion **complies with COBS 4 in full** as at the date of approval. This requires a genuine legal compliance check across FCNM, identifiability, retail client communications requirements, and any applicable product-specific restrictions **(COBS 4.10.2R)**.\n\n### 2. **Ongoing Monitoring and Withdrawal**\nThe firm must maintain **ongoing monitoring arrangements** to detect if the promotion ceases to comply with COBS 4 after approval and must **withdraw approval promptly** once it becomes aware (or ought to become aware) of non-compliance **(COBS 4.10.2R)**. Once approval is withdrawn and notified to the unauthorised person, continuing communication of that promotion triggers the FSMA s.25 criminal offence **(FSMA 2000 s.21; FSMA 2000 s.25)**.\n\n### 3. **Quarterly Attestation**\nThe firm must obtain **written attestations from the unauthorised person, no less than quarterly**, confirming that the promotion has not been materially changed and that all conditions imposed by the approver continue to be met **(COBS 4.10.2R)**.\n\n### 4. **Competence Requirement**\nThe **individuals responsible for approval** must possess the **competence and expertise** to assess whether the promotion meets all applicable requirements. This is a hard Rule and generic sign-off without subject-matter expertise is a breach **(COBS 4.10.9AR)**.\n\n### 5. **Record Keeping**\nThe firm must retain the approved promotion, pre-approval compliance assessment, ongoing monitoring records, attestations, and withdrawal notifications **(COBS 4.11.1R)**.\n\n---\n\n## Key Enforcement Point\n\n**Breach of the s.55NA gateway requirement** by the approving firm is distinct from breach of FSMA s.21 by the unauthorised communicator. Both are enforceable: the unauthorised person commits a **criminal offence** punishable by unlimited fine and/or up to 2 years' imprisonment **(FSMA 2000 s.25; PS23/6 \u00a71.7)**, while the approver breaches s.55NA and may face civil liability under **FSMA 2000 s.138D** (subject to a reasonable steps defence under **COBS 4.2.6R**).",
+      "fact_score": 0.875,
+      "citation_score": 1.0,
+      "overall_score": 0.9125,
+      "facts_detail": [
+        {
+          "fact": "The FCA gateway requires authorised firms that approve financial promotions for unauthorised persons to first obtain specific FCA approval to perform that function",
+          "present": true,
+          "note": "Clearly stated: 'must first obtain specific FCA gateway permission to perform the approver function'"
+        },
+        {
+          "fact": "The gateway came into force on 7 January 2024 \u2014 firms already approving promotions were given a transitional period to apply",
+          "present": true,
+          "note": "Date 7 January 2024 is stated, but the transitional period for existing approvers is not explicitly mentioned"
+        },
+        {
+          "fact": "Under s.21 FSMA an unauthorised person may only communicate a financial promotion if it is approved by an FCA-authorised person \u2014 the gateway adds a second layer requiring the approver itself to be specifically authorised by the FCA to approve third-party promotions",
+          "present": true,
+          "note": "Both elements present: s.21 restriction referenced and 'second legal layer operating on top of the underlying FSMA s.21 restriction' explicitly stated"
+        },
+        {
+          "fact": "An authorised firm that approves third-party promotions without gateway approval is itself in breach \u2014 and the unauthorised person communicating the promotion commits a criminal offence under s.25 FSMA",
+          "present": true,
+          "note": "Both elements present: breach by approver under s.55NA and criminal offence under s.25 FSMA by the unauthorised person are both addressed"
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "FSMA 2000 s.21",
+          "present": true
+        },
+        {
+          "citation": "COBS 4.10",
+          "present": true
+        }
+      ],
+      "summary": "The answer is comprehensive and accurate, covering all required facts and citations, with the only minor gap being the absence of explicit mention of the transitional period for firms already approving promotions before the gateway came into force.",
+      "error": null
+    },
+    {
+      "id": "E030",
+      "question": "What is an \"important business service\" under SYSC 15A, and what two dimensions must an impact tolerance address?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "SYSC",
+        "operational-resilience",
+        "important-business-service",
+        "impact-tolerance"
+      ],
+      "pages_loaded": [
+        "operational-resilience"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n## Definition of \"Important Business Service\"\n\nUnder **SYSC 15A.2.1R**, an **\"important business service\"** is a service whose disruption would cause intolerable harm to clients or the UK financial system. \n\nKey characteristics:\n\n- **Firm-led identification:** The FCA does not prescribe a list of qualifying services. Each firm must identify its own IBS based on its activities, client base, and risk profile **(SYSC 15A.2.1R; SYSC 15A.2.4G)**.\n\n- **Individual assessment:** Services cannot be bundled into a single IBS; each service must be assessed individually **(SYSC 15A.2.3G)**.\n\n- **13-factor framework:** The FCA expects firms to consider factors including: nature of the client base (including vulnerability); substitutability; time criticality; number of clients; sensitivity of data; potential impact on the UK financial system; and whether disruption would breach a legal or regulatory obligation **(SYSC 15A.2.4G)**.\n\n---\n\n## Two Dimensions of Impact Tolerance\n\nAn **impact tolerance** (set under **SYSC 15A.2.5R**) must address **two dimensions**:\n\n1. **Outcomes for clients** \u2014 the maximum tolerable impact on clients in terms of service degradation, data loss, or inability to conduct transactions\n\n2. **Outcomes for markets** \u2014 the maximum tolerable systemic impact on the UK financial system and market functioning\n\nImpact tolerances must be expressed in terms of these outcome dimensions, not in technical recovery metrics alone (such as RTO/RPO) **(SYSC 15A.2.5R)**.\n\nAdditionally, tolerances must be calibrated to **peak demand** for the service, not average load, to ensure they remain achievable under fluctuations in demand **(SYSC 15A.2.8G)**.",
+      "fact_score": 0.5,
+      "citation_score": 1.0,
+      "overall_score": 0.65,
+      "facts_detail": [
+        {
+          "fact": "An important business service (IBS) is a service provided by a firm to an external end user whose disruption could cause intolerable harm to consumers or market integrity, or pose a risk to the firm's safety and soundness or financial stability",
+          "present": true,
+          "note": "The answer captures 'intolerable harm to clients or the UK financial system' which covers consumers and market integrity, though it omits the 'external end user' specificity and safety/soundness dimension."
+        },
+        {
+          "fact": "Firms must identify their own important business services \u2014 the FCA does not prescribe which services qualify; identification is the firm's responsibility based on impact assessment",
+          "present": true,
+          "note": "Explicitly stated: 'The FCA does not prescribe a list of qualifying services. Each firm must identify its own IBS based on its activities, client base, and risk profile.'"
+        },
+        {
+          "fact": "An impact tolerance must address two dimensions: (1) the maximum tolerable duration of disruption \u2014 the longest the firm can be disrupted before harm becomes intolerable; and (2) the maximum tolerable level of disruption within that period, for example transaction volumes or data integrity thresholds",
+          "present": false,
+          "note": "The answer incorrectly identifies the two dimensions as 'outcomes for clients' and 'outcomes for markets' rather than the correct two dimensions of duration and level/severity of disruption within that period."
+        },
+        {
+          "fact": "The deadline for all firms to be able to remain within their impact tolerances was 31 March 2025",
+          "present": false,
+          "note": "No mention of the 31 March 2025 deadline anywhere in the answer."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "SYSC 15A.2.1R",
+          "present": true
+        },
+        {
+          "citation": "SYSC 15A.2.5R",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly identifies the firm-led identification of IBS and cites the right rules, but critically misidentifies the two dimensions of impact tolerance (substituting client/market outcomes for the correct duration and level-of-disruption dimensions) and omits the 31 March 2025 compliance deadline.",
+      "error": null
+    }
+  ]
+}

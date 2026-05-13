@@ -2,7 +2,7 @@ export function FooterCTA() {
   return (
     <section className="mx-auto w-full max-w-6xl px-6 pb-20 pt-10 md:pb-24">
       <div className="rounded-2xl border border-border bg-surface p-8 md:p-10">
-        <h2 className="text-3xl font-semibold tracking-tight text-text-primary md:text-4xl">
+        <h2 className="text-2xl font-semibold tracking-tight text-text-primary md:text-3xl">
           Start building compliant fintech agents.
         </h2>
         <p className="mt-3 text-base text-text-secondary">Free. Open source. No sign-up.</p>
@@ -11,7 +11,7 @@ export function FooterCTA() {
             href="#connect"
             className="inline-flex items-center justify-center rounded-md bg-accent px-5 py-3 text-sm font-semibold text-white hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
           >
-            Add to Claude
+            Connect via MCP
           </a>
           <a
             href="https://github.com/havryleshko/fin-regbase"

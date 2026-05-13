@@ -1,0 +1,100 @@
+{
+  "run_at": "2026-05-13T20:57:45.711338",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 1,
+  "completed": 1,
+  "errors": 0,
+  "mean_fact_score": 0.75,
+  "mean_citation_score": 1.0,
+  "mean_overall_score": 0.825,
+  "pass_rate": 1.0,
+  "by_difficulty": {
+    "easy": {
+      "count": 1,
+      "mean_score": 0.825
+    },
+    "medium": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "hard": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 1,
+      "mean_score": 0.825
+    },
+    "synthesis": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "edge-case": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "E030",
+      "question": "What is an \"important business service\" under SYSC 15A, and what two dimensions must an impact tolerance address?",
+      "difficulty": "easy",
+      "type": "factual",
+      "tags": [
+        "SYSC",
+        "operational-resilience",
+        "important-business-service",
+        "impact-tolerance"
+      ],
+      "pages_loaded": [
+        "operational-resilience"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\n## Important Business Service Definition\n\nAn **\"important business service\"** under SYSC 15A is **a service provided by a firm, or by another person on behalf of the firm, to one or more clients of the firm which, if disrupted, could: (1) cause intolerable levels of harm to one or more of the firm's clients; or (2) pose a risk to the soundness, stability or resilience of the UK financial system or the orderly operation of financial markets** (PS21/3 \u00a72.14; SYSC 15A.2.1R).\n\nIBS identification is **firm-led**\u2014the FCA does not prescribe a list of qualifying services. Each firm must identify its own IBS based on the **13-factor framework** set out in SYSC 15A.2.4G, which includes: nature and vulnerability of the client base; substitutability; time criticality; number of clients; sensitivity of data; potential impact on the UK financial system; and whether disruption would breach legal or regulatory obligations.\n\n---\n\n## Two Dimensions of Impact Tolerance\n\nAn **impact tolerance** must address **two dimensions** (PS21/3 \u00a73.3; \u00a73.17; SYSC 15A.2.5R):\n\n1. **Duration (time) \u2014 mandatory metric:** the maximum period of time the service can be disrupted before intolerable harm is caused. Firms must specify the period or point in time beyond which disruption cannot extend (e.g., number of hours/days, or end-of-day).\n\n2. **Level of disruption \u2014 used in conjunction:** additional metrics measuring the degree of disruption within that time period, such as transaction volumes, percentage of normal service capacity, or customer complaints. A service running at reduced capacity for a defined period can itself cause intolerable harm.\n\nBoth dimensions are expressed **in terms of outcomes for clients and markets**, not merely technical recovery metrics (SYSC 15A.2.5R). The tolerance must also be calibrated to **peak demand** for the service, not average load (SYSC 15A.2.8G).",
+      "fact_score": 0.75,
+      "citation_score": 1.0,
+      "overall_score": 0.825,
+      "facts_detail": [
+        {
+          "fact": "An important business service (IBS) is a service provided by a firm to an external end user whose disruption could cause intolerable harm to consumers or market integrity, or pose a risk to the firm's safety and soundness or financial stability",
+          "present": true,
+          "note": "The answer clearly defines IBS as a service provided to clients whose disruption could cause intolerable harm to clients or pose risk to soundness/stability/resilience of UK financial system or orderly operation of markets."
+        },
+        {
+          "fact": "Firms must identify their own important business services \u2014 the FCA does not prescribe which services qualify; identification is the firm's responsibility based on impact assessment",
+          "present": true,
+          "note": "The answer explicitly states 'IBS identification is firm-led\u2014the FCA does not prescribe a list of qualifying services' and references the 13-factor framework."
+        },
+        {
+          "fact": "An impact tolerance must address two dimensions: (1) the maximum tolerable duration of disruption \u2014 the longest the firm can be disrupted before harm becomes intolerable; and (2) the maximum tolerable level of disruption within that period, for example transaction volumes or data integrity thresholds",
+          "present": true,
+          "note": "The answer correctly identifies both dimensions: duration/time as a mandatory metric, and level of disruption with examples like transaction volumes and service capacity."
+        },
+        {
+          "fact": "The deadline for all firms to be able to remain within their impact tolerances was 31 March 2025",
+          "present": false,
+          "note": "The answer makes no mention of the 31 March 2025 implementation deadline."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "SYSC 15A.2.1R",
+          "present": true
+        },
+        {
+          "citation": "SYSC 15A.2.5R",
+          "present": true
+        }
+      ],
+      "summary": "The answer is strong on the definition of IBS, firm-led identification, and the two dimensions of impact tolerance with correct citations, but omits the 31 March 2025 compliance deadline.",
+      "error": null
+    }
+  ]
+}

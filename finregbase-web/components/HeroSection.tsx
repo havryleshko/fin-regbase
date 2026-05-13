@@ -10,7 +10,7 @@ export function HeroSection() {
         initial={{ opacity: 0, y: 14 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="max-w-4xl text-4xl font-bold leading-tight tracking-tight text-text-primary md:text-6xl"
+        className="max-w-4xl text-5xl font-bold leading-[1.05] tracking-tight text-text-primary md:text-7xl"
       >
         Financial regulations knowledge base for AI agents.
       </motion.h1>
@@ -24,6 +24,14 @@ export function HeroSection() {
         {siteMetrics.jurisdiction} FCA regulations -
         queryable via MCP from any AI agent or development environment.
       </motion.p>
+      <motion.p
+        initial={{ opacity: 0, y: 14 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut", delay: 0.22 }}
+        className="mt-3 max-w-3xl text-sm leading-6 text-text-secondary md:text-base md:leading-7"
+      >
+        Built for AI engineers and LLM developers shipping agents that touch UK financial regulation.
+      </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 14 }}
         animate={{ opacity: 1, y: 0 }}
@@ -34,7 +42,7 @@ export function HeroSection() {
           href="#connect"
           className="inline-flex items-center justify-center rounded-md bg-accent px-5 py-3 text-sm font-semibold text-white hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
         >
-          Add to Claude
+          Connect via MCP
         </a>
         <a
           href="https://github.com/havryleshko/fin-regbase"

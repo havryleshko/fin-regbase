@@ -2562,3 +2562,170 @@ Transitional note: CONC TP 8 contains a transitional provision for the debt pack
 5. `concepts/uk-financial-sanctions-framework.md` — added `fcg2-financial-crime-systems-controls` to frontmatter `related:` and body inline link at the FCG 2.2/2.3 mention (line 127); sanctions governance is explicitly a specific application of FCG 2 general themes
 
 **Post-fix state:** Zero broken links. Zero orphan pages.
+
+---
+
+## [2026-05-13] eval | Citation Verification Pass — Investment/CASS/Inducements/FP/SYSC15A/GDPR domains
+
+**Scope:** Domain-by-domain verification of `required_citations` (and where necessary `required_facts`) in `evals/questions.yaml` for the 51 new questions added in the previous session. Source: wiki pages and source PDFs. Changes to eval questions only — wiki pages were already correct.
+
+**Pattern:** Most failures were wrong rule numbers written from memory in eval questions. Haiku cited correct rules from the wiki; Sonnet judged against the wrong rule in `required_citations`, producing citation score = 0.
+
+---
+
+### Questions fixed this session (continuation from previous session)
+
+| ID | Domain | Old citation | Correct citation | Reason |
+|----|--------|-------------|-----------------|--------|
+| M034 | Research unbundling | `COBS 2.3B.25R` | `COBS 2.3B.4R` | 2.3B.25R = joint payments; RPA conditions = 2.3B.4R |
+| M035 | Research unbundling | `COBS 2.3B.25R` | `COBS 2.3B.3R` | 2.3B.25R = joint payments; three-routes overview = 2.3B.3R |
+| E030 | SYSC 15A | `SYSC 15A.4` | `SYSC 15A.2.1R` + `SYSC 15A.2.5R` | 15A.4 = mapping (wrong topic); IBS = 15A.2.1R; impact tolerance = 15A.2.5R |
+| M040 | SYSC 15A | `SYSC 15A.6` | `SYSC 15A.5` | 15A.6 = self-assessment docs; scenario testing = 15A.5 |
+| M041 | SYSC 15A | `SYSC 15A.6.6R` | `SYSC 15A.2.11G` | 15A.6.6R doesn't exist; Principle 11 notification = 15A.2.11G |
+| H031 | SYSC 15A | `SYSC 15A.5` | `SYSC 15A.4` | 15A.5 = scenario testing (wrong topic); mapping = 15A.4 |
+| H032 | SYSC 15A | `SYSC 15A.6` | `SYSC 15A.4` | 15A.6 = self-assessment docs; third-party mapping = 15A.4.2G under 15A.4 |
+| E029 | FP Approver | `FSMA s.21A` | `COBS 4.10` | FSMA s.21A doesn't appear in wiki for financial promotions; gateway = COBS 4.10 |
+| M038 | FP Approver | `FSMA s.21A` | `COBS 4.10` | Same — ongoing monitoring/withdrawal = COBS 4.10.2R |
+| M039 | FP Approver | `FSMA s.21A` | `COBS 4.10` | Same — gateway scope = COBS 4.10 |
+| H029 | FP Approver | `FSMA s.21A` | `COBS 4.10` | Same — also fixed embedded s.21A language in required_facts |
+| H030 | FP Approver | `FSMA s.21A` | `COBS 4.10` | Same — also fixed embedded s.21A language in required_facts |
+
+**Questions verified as already correct (no changes):**
+- E026, H025, H026 (inducements MNMB + soft commissions): COBS 2.3A.19R, 2.3A.7E confirmed ✓
+- E027, E028, M036, M037, H027, H028 (APP fraud): PSR PS23/3 top-level citation confirmed ✓
+- E031, M042, M043, M044, H033, H034 (UK GDPR): Art. 37(1), 35(3)(a), 28(3), 33(2), 36, 9, 30 confirmed ✓
+
+**Domains verified over the full two-session pass (from previous session):**
+COBS 9A (suitability MiFID), COBS 10A (appropriateness), COBS 11.2A (best execution policy), COBS 11.3 (aggregation), CASS 6 (custody), CASS 7 (client money), COBS 2.3A/2.3B (inducements/research), PSR PS23/3 (APP fraud), FP Approver Regime (s.21/COBS 4.10), SYSC 15A (operational resilience), UK GDPR accountability layer.
+
+**Total fixes across both sessions: ~25 questions corrected.**
+
+---
+
+## [2026-05-13] wiki-update | APP Fraud Reimbursement — concept page gap fill
+
+**Trigger:** Content eval failures: E027 (0.30), H027 (0.44), H028 (0.44), E028 (0.53), M036 (0.58). All had high citation scores but low fact scores — wiki page missing core facts agents needed.
+
+**Sources read:** PSR PS23/3 §2.5, §2.9, §2.10–2.13, Chapter 5, Key Policy 8; PSR PS24/7 (maximum reimbursement level, October 2024).
+
+**Page updated:** `wiki/concepts/app-fraud-reimbursement-scheme.md`
+
+**Five facts added:**
+1. Eligible claimants explicitly named: consumers, micro-enterprises (<10 employees, ≤€2m), charities <£1m annual income — larger businesses excluded **(PS23/3 §2.9)**
+2. £85,000 maximum reimbursement cap per claim from 7 October 2024; 99.8% of claims by volume fully covered; CHAPS also set at £85,000 **(PSR PS24/7)**
+3. 13-month window runs from date of final payment to fraudster, not discovery; missing it forfeits mandatory reimbursement **(PS23/3 Key Policy 8)**
+4. Positive duty of care for identified vulnerable consumers: generic warnings insufficient; PSP cannot invoke consumer's failure to heed a generic warning after knowing of vulnerability **(PS23/3 §2.10–2.13)**
+5. Warning specificity standard for gross negligence: warning must be specific to payee/transaction, not generic fraud messaging **(PS23/3 Chapter 5)**
+
+New "Scope at a Glance" section added to concept page. Key Points section expanded and restructured to surface eligibility, cap, and time limit as top bullets.
+
+---
+
+## [2026-05-13] wiki-update | SYSC 15A Operational Resilience — concept page gap fill
+
+**Trigger:** Content eval failures: E030 (0.47), M041 (0.58), M040 (0.72). High citation scores; low fact scores — concept page missing facts needed to answer questions about IBS identification, tolerance gaps, and testing obligations.
+
+**Source read:** `raw/fca-handbook/SYSC 15A Operational resilience.pdf` — full text, all sections.
+
+**Page updated:** `wiki/concepts/operational-resilience.md`
+
+**Five facts added:**
+1. IBS identification is entirely firm-led — FCA publishes no prescribed list; each firm uses the 13-factor framework for its own assessment **(SYSC 15A.2.1R; SYSC 15A.2.4G)**
+2. When testing reveals a resilience gap, firm must improve to meet the tolerance — not lower the tolerance to match deficient resilience **(SYSC 15A.5.9R; SYSC 15A.2.9R)**
+3. Regular-basis testing (SYSC 15A.5.7R(3)) continues with no pause or exemption during a remediation period **(SYSC 15A.5.7R)**
+4. Governing body's approval/review obligation covers the full 15A.6 record, including scenario testing results and lessons learned — not just governance documents **(SYSC 15A.7.1R; SYSC 15A.6.1R)**
+5. Impact tolerance must be calibrated to peak demand fluctuations, not average load **(SYSC 15A.2.8G)**
+
+**Limitation noted:** E030 expects a "two dimensions" framing for impact tolerance (maximum duration + maximum level within that period). This framing is not present in SYSC 15A.2.5R or guidance notes; it appears to derive from FCA PS21/3 (Building Operational Resilience), which is not yet in raw/. E030 will continue to partially fail on that specific fact until PS21/3 is ingested.
+
+---
+
+## [2026-05-13] wiki-update | Financial Promotions Approver Regime — concept page gap fill
+
+**Trigger:** Content eval failures: H029 (0.40), E029 (0.65), M038 (0.68). Low fact scores — concept page missing statutory basis, criminal offence provision, and crypto-specific approver restrictions.
+
+**Sources read:** `raw/fca-cobs/COBS 4 Communicating with clients, including financial promotions.pdf` (COBS 4.10); `raw/fca-policy-statements/ps23-6.pdf` (PS23/6).
+
+**Page updated:** `wiki/concepts/financial-promotions-approver-regime.md`
+
+**Five facts added:**
+1. FSMA s.55NA is the statutory gateway basis — a firm cannot approve without being a "permitted approver" under s.55NA **(COBS 4.10.1B)**
+2. Breach of FSMA s.21 is a criminal offence under **FSMA s.25**: unlimited fine and/or 2 years' imprisonment for the person communicating without valid approval **(COBS 4.10.7; PS23/6 §1.7)**
+3. MLR-registered cryptoasset businesses can communicate their own promotions (Article 73ZA FPO) but **cannot approve** for others — COBS 4.10.3(8) explicitly bars registered persons from approving **(COBS 4.10.3(8); PS23/6 §1.13)**
+4. Four legal routes for cryptoasset promotion per PS23/6 §1.15; the eligible approver pool for crypto is deliberately narrow **(PS23/6 §1.15)**
+5. When approval is withdrawn, the unauthorised person must immediately cease communicating — continuing is a breach of FSMA s.21/s.25 **(COBS 4.10.2(2))**
+
+**Eval question fixed:** E029 `required_facts` corrected from "7 February 2024" to "7 January 2024" (confirmed against wiki effective_date; notes_for_reviewer had flagged this discrepancy).
+
+---
+
+## [2026-05-13] wiki-update | APP Fraud Reimbursement, FP Approver Regime, Operational Resilience — targeted eval gap fill (round 2)
+
+**Trigger:** Post-fix targeted eval (13 questions): E029 regressed to 0.33; M036 stuck at 0.72; E030 stuck at 0.65.
+
+**Sources re-read:** `raw/psr-payment-services/ps23-3-app-fraud-reimbursement-policy-statement-final-june-2023.pdf` (Chapter 5, pages 36–48); `raw/fca-handbook/SYSC 15A Operational resilience.pdf` (pages 1–10); `raw/fca-cobs/COBS 4 Communicating with clients, including financial promotions.pdf` (pages 50–60).
+
+**Three pages updated:**
+
+### wiki/concepts/app-fraud-reimbursement-scheme.md (M036 fix)
+- Warning specificity section rewritten to open with explicit "Yes — PSP may reduce or deny reimbursement" framing
+- Added: PSP must be able to evidence warning's specific content, targeting, and timing — follows from burden-of-proof obligation on PSP **(PS23/3 §5.23)**
+- Key Points bullet updated to match
+
+### wiki/concepts/financial-promotions-approver-regime.md (E029 fix)
+- Legal Basis section restructured as 3-statute numbered sequence: (1) FSMA s.21 base restriction; (2) FSMA s.55NA gateway second layer (7 January 2024); (3) FSMA s.25 criminal offence
+- Two-layer framing made unambiguous: approver without gateway permission is itself in breach; unauthorised person simultaneously commits s.25 offence
+- Civil liability (s.138D) moved to end of section
+
+**Limitation noted:** E029 required_fact 2 ("transitional period for existing approvers") cannot be added — no source in raw/ confirms the specific transitional period for the s.55NA gateway. This fact will remain unmet until PS23/1 or equivalent is ingested.
+
+### wiki/concepts/operational-resilience.md (E030 partial fix)
+- 31 March 2025 deadline added explicitly to the Step 2 hard obligation paragraph **(SYSC 15A.2.9R)**
+- Key Points bullet updated to include the 31 March 2025 date
+
+**Limitation noted:** E030 "two dimensions" fact (maximum duration + maximum level) remains unverifiable — not in SYSC 15A.2.5R or guidance notes; requires PS21/3.
+
+---
+
+## [2026-05-13] wiki-update | Operational Resilience (SYSC 15A) — IBS definition and impact tolerance two dimensions
+
+**Trigger:** E030 stuck at 0.65 due to missing IBS formal definition and two-dimensions framing for impact tolerance.
+
+**Source read:** `raw/fca-policy-statements/ps21-3-operational-resilience.pdf` (Chapters 2–4, pages 9–27)
+
+**Page updated:** `wiki/concepts/operational-resilience.md`
+
+**Three facts added:**
+1. **IBS formal definition** (PS21/3 §2.14): "a service provided by a firm, or by another person on behalf of the firm, to one or more clients of the firm which, if disrupted, could: (1) cause intolerable levels of harm to one or more of the firm's clients; or (2) pose a risk to the soundness, stability or resilience of the UK financial system or the orderly operation of financial markets"
+2. **Impact tolerance — two dimensions** (PS21/3 §3.3; §3.17): (1) duration/time — mandatory metric; (2) level of disruption — additional metrics (transaction volumes, customer complaints, percentage capacity) used in conjunction with time metric
+3. **31 March 2025 deadline source confirmed** (PS21/3 Chapter 4): "We are not changing the requirement for firms to be able to stay consistently within impact tolerances by 31 March 2025"
+
+**Frontmatter sources** updated with three PS21/3 entries.
+
+---
+
+## [2026-05-13] wiki-update | CASS Batch 1 — M033, H024, E025
+
+**Trigger:** Eval Batch 1 (CASS cluster) — three questions scoring below PASS threshold.
+
+**Sources read:** `raw/fca-cass/CASS 7 Client money rules.pdf` (CASS 7.15.29R, 7.15.33R); `raw/fca-cass/CASS 10 CASS resolution pack.pdf` (CASS 10.1.7R, 10.2.1R)
+
+**E025 (cass10-resolution-pack) — eval question corrected + wiki updated:**
+- Eval question fact 3 corrected: "one business day" → "48 hours" (verified against CASS 10.1.7R — both legs say "within 48 hours")
+- "Skilled person" removed from requestors; replaced with correct CASS 10.1.7R recipients: insolvency officer (administrator/receiver/trustee/liquidator) and FCA/Bank of England
+- Required citation updated from "CASS 10" to "CASS 10.1.7R"
+- Wiki intro updated: added "without relying on the firm's own staff or systems" purpose framing (CASS 10.1.2G; 10.2.1R(1)); explicit "all in-scope firms regardless of size" statement
+- Key Points updated: added self-sufficiency bullet (fact 2); updated 48-hour bullet to specify correct requestors
+
+**M033 (client-money-framework) — wiki updated:**
+- Shortfall section expanded with three additions from CASS 7.15.29R source:
+  1. "determine the reason for the discrepancy" (CASS 7.15.29R explicit requirement)
+  2. "firm's own money" framing — shortfall cannot be met from other clients' money
+  3. FCA notification if firm cannot make good (CASS 7.15.33R(2)) and historical material shortfall trigger (CASS 7.15.33R(6))
+- Key Points shortfall bullet updated to include all three additions
+
+**H024 (cass6-custody-rules) — wiki updated:**
+- Two Key Points bullets added:
+  1. Due diligence in selection, appointment and periodic review (CASS 6.3.1R) — was in body only
+  2. Identifiability requirement at third party (CASS 6.3.4A-1R) — was in body only
+- These were present in the wiki body but absent from Key Points, causing Haiku to miss facts 3 and 4

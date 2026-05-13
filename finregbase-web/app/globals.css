@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
 
 @theme inline {
   --color-background: var(--background);
@@ -17,15 +15,15 @@
 }
 
 :root {
-  --background: #ffffff;
-  --surface: #f9fafb;
-  --border: #e5e7eb;
-  --text-primary: #111827;
-  --text-secondary: #6b7280;
-  --accent: #1d4ed8;
-  --accent-hover: #1e40af;
-  --code-bg: #f8f8f8;
-  --success: #16a34a;
+  --background: #faf7f1;
+  --surface: #f1ebe0;
+  --border: #e5dccb;
+  --text-primary: #1b1a17;
+  --text-secondary: #6e6657;
+  --accent: #2e4f4f;
+  --accent-hover: #1f3838;
+  --code-bg: #f4eee2;
+  --success: #5c7a5c;
 }
 
 @layer base {

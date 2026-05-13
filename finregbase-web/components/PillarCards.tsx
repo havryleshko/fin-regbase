@@ -1,7 +1,6 @@
  "use client";
 
 import { motion } from "framer-motion";
-import { siteMetrics } from "@/lib/site-metrics";
 
 const pillars = [
   {
@@ -35,9 +34,7 @@ export function PillarCards() {
               {pillar.title}
             </h3>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
-              {pillar.title === "Plain files, no lock-in"
-                ? `${siteMetrics.articleCount} ${pillar.body}`
-                : pillar.body}
+              {pillar.body}
             </p>
           </motion.article>
         ))}
