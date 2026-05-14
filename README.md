@@ -5,15 +5,15 @@ Source documents in `raw/` are compiled into citation-backed wiki pages in `wiki
 
 ## Current repository snapshot (May 2026) — UK wiki complete + US expansion underway
 
-- `wiki/concepts`: 88 pages
-- `wiki/summaries`: 69 pages
+- `wiki/concepts`: 93 pages
+- `wiki/summaries`: 71 pages
 - `wiki/derived`: 7 pages
-- Total wiki articles: 164
+- Total wiki articles: 171
 - Source documents in `raw/`: 87
 
 **UK coverage:** Consumer Duty, AML/CTF and sanctions (FCG 2/3/7, JMLSG, FCTR 8, MLR 2017), APP fraud reimbursement (PSR PS23/3), CASS (client money and custody), COBS and MiFID conduct rules (COBS 2/3/4/9/9A/9B/10/10A/11, inducements, research unbundling, best execution, targeted support), CONC consumer credit (CONC 1–8), DISP complaints/FOS (DISP 1/2/3, motor finance DCA), SYSC governance and controls (SYSC 4/6/15A), MAR market abuse, PSR/E-Money, SM&CR, UK GDPR (all major ICO guidance chapters, DUA Act 2025 amendments).
 
-**US coverage (new):** Regulation Z / TILA (12 CFR Part 1026) — open-end and closed-end credit disclosures, BNPL coverage, TRID mortgage disclosures, right of rescission; Regulation E / EFTA (12 CFR Part 1005) — consumer liability, error resolution, overdraft opt-in, prepaid accounts (GPR/payroll cards, two-tier pre-acquisition disclosure), gift cards, remittance transfers (Subpart B).
+**US coverage:** Regulation B / ECOA (12 CFR Part 1002) — prohibited bases, effects test, discouragement prohibition, adverse action notifications, special purpose credit programs, appraisal copy rights, self-testing privilege, Section 1071 small business lending data collection (20-field SBLDC reporting, firewall, phased compliance July 2026–October 2027); Regulation E / EFTA (12 CFR Part 1005) — consumer liability, error resolution, overdraft opt-in, prepaid accounts (GPR/payroll cards, two-tier pre-acquisition disclosure), gift cards, remittance transfers (Subpart B); Regulation V / FCRA (12 CFR Part 1022) — affiliate marketing opt-out (eligibility information, pre-existing business relationship 18/3-month exception, 5-year minimum opt-out), medical information prohibition in credit decisions, CRA medical debt furnishing gatekeeping (Jan 2025), furnisher accuracy/integrity duties, direct dispute investigation, risk-based pricing notices (credit score proxy and tiered methods, credit score disclosure exception), address discrepancy duties, human trafficking adverse information block; Regulation Z / TILA (12 CFR Part 1026) — open-end and closed-end credit disclosures, BNPL coverage, TRID mortgage disclosures, right of rescission.
 
 ## How this repo is used
 

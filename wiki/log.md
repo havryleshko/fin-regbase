@@ -2938,6 +2938,38 @@ No contradictions with existing wiki pages noted. Reg E and Reg Z are distinct a
 - 12 CFR Part 1024 (Reg X — RESPA) — complements Reg Z mortgage disclosures
 - 12 CFR Part 1003 (HMDA) — US mortgage data reporting
 
+## [2026-05-14] ingest | Regulation B — Equal Credit Opportunity (12 CFR Part 1002)
+
+Source: `raw/us/12 CFR Part 1002 (up to date as of 5-12-2026).pdf` (172 pages, CFPB eCFR enhanced display)
+
+Pages read: 1–20 (§§1002.1–1002.12 — authority, definitions, limited exceptions, general rules, information requests, evaluation rules, extensions of credit, special purpose credit programs, adverse action notifications, furnishing credit information, relation to state law, record retention); 21–40 (§§1002.13–1002.16 and §§1002.101–1002.114 — monitoring information for dwelling credit, appraisals, self-testing privilege, enforcement and penalties; Subpart B: covered financial institutions, covered applications, covered credit transactions, 20 data fields, firewall, reporting, publication, recordkeeping, bona fide errors, compliance dates). Remainder: Official Interpretations (Supplement I) and model forms — not read; regulatory text complete.
+
+Pages created (3):
+- `wiki/summaries/reg-b-equal-credit-opportunity.md`
+- `wiki/concepts/reg-b-adverse-action-notifications.md`
+- `wiki/concepts/reg-b-small-business-lending-data-collection.md`
+
+Key additions:
+- Effects test (disparate impact without intent — Griggs/Albemarle standard) applies to algorithmic underwriting (§1002.6(a))
+- Discouragement prohibition — standalone violation, no denial required (§1002.4(b))
+- Information request rules: marital status restrictions; childbearing/childrearing prohibited; alimony/child support disclosure required before inquiry (§1002.5)
+- Age rules in empirically derived vs. judgmental systems — no negative factor for elderly in scoring (§1002.6(b)(2))
+- Cosigner rule — cannot require spouse specifically; can require cosigner but not mandate it be the spouse (§1002.7(d))
+- Special purpose credit programs — for-profit SPCPs require a qualifying written plan (§1002.8(a)(3))
+- Adverse action notification content — "internal standards" and "failed to achieve qualifying score" explicitly named as insufficient reason statements (§1002.9(b)(2))
+- Business credit modified notification rules — oral notification for ≤$1M revenue; reasons on written request for >$1M revenue (§1002.9(a)(3))
+- Self-testing privilege — corrective action required; privilege lost on voluntary disclosure or use as defence (§1002.15)
+- Appraisal copies unconditional — applies even to denied/withdrawn applications, no charge (§1002.14)
+- Section 1071 SBLDC: 20 data fields; $5M gross revenue small business threshold; firewall (access controls or notice); June 1 annual reporting; 3-year register retention; demographic data separate from application file (§§1002.101–1002.114)
+- Phased compliance dates: July 1, 2026 (≥2,500); January 1, 2027 (≥500); October 1, 2027 (≥100)
+
+No contradictions with existing wiki pages. Reg B intersects with: Reg Z (creditworthiness evaluation rules apply to open-end and closed-end credit products covered by Reg Z); Reg E (Subpart B SBLDC excludes HMDA-reportable transactions covered by Regulation C, which also excludes consumer accounts covered by Reg E); UK GDPR analogue (monitoring information collection under §1002.13 raises data minimisation and special category data issues analogous to UK GDPR Article 9).
+
+**Noted for future ingest:**
+- 12 CFR Part 1024 (Reg X — RESPA) — complements Reg Z mortgage disclosures
+- 12 CFR Part 1003 (HMDA / Regulation C) — US mortgage data reporting; cross-referenced extensively in Subpart B
+- Fair Housing Act (42 USC 3601 et seq.) — intersects with ECOA for dwelling-secured credit
+
 ## [2026-05-14] lint
 
 Scope: 166 pages (concepts/, summaries/, derived/). Full scan.
@@ -2955,3 +2987,32 @@ Scope: 166 pages (concepts/, summaries/, derived/). Full scan.
 
 **Informational:**
 - 242 forward references in `related:` frontmatter pointing to pages not yet created. Assessed as intentional graph stubs; no action taken.
+
+## [2026-05-14] ingest | Regulation V — Fair Credit Reporting (12 CFR Part 1022)
+
+Source: `raw/us/12 CFR Part 1022 (up to date as of 5-12-2026).pdf` (125 pages, CFPB eCFR enhanced display)
+
+Pages read: 1–20 (§§1022.1–1022.24 — scope, key definitions, Subpart C affiliate marketing §§1022.20–1022.24 — eligibility information, pre-existing business relationship, opt-out notice contents, reasonable opportunity); 21–40 (§§1022.25–1022.38 — opt-out delivery and renewal, Subpart D medical information: general prohibition, exceptions, redisclosure limits, affiliate sharing restrictions, §1022.38 CRA duty re medical debt [90 FR 3373, Jan. 14, 2025]); 41–60 (§§1022.40–1022.60 — Subpart E furnisher duties: scope, accuracy/integrity definitions, policies/procedures, direct dispute scope/exceptions/address/notice content/investigation/frivolous; Subpart F §1022.54 prescreened solicitation opt-out notice; Subpart H §§1022.70–1022.72 — risk-based pricing scope, definitions, determination methods); 61–80 (§§1022.73–1022.142 — risk-based pricing notice content/form/timing, exceptions including credit score disclosures, rules of construction; Subpart I §1022.82 address discrepancies; Subpart M active duty alerts/proof of identity; Subpart N annual file disclosures, centralised source, specialty CRAs, deceptive marketing prohibition; Subpart O §§1022.140–1022.142 anti-circumvention, reasonable charges, human trafficking block). Appendices B–D reviewed (model notices for furnishing negative information, opt-out forms, prescreened solicitation offers).
+
+Pages created (4):
+- `wiki/summaries/reg-v-fair-credit-reporting.md`
+- `wiki/concepts/reg-v-affiliate-marketing-opt-out.md`
+- `wiki/concepts/reg-v-furnisher-duties-direct-disputes.md`
+- `wiki/concepts/reg-v-risk-based-pricing-notices.md`
+
+Key additions:
+- Affiliate marketing opt-out: pre-existing business relationship exception (18 months active contract/transaction; 3 months inquiry/application); minimum 5-year opt-out duration; 7 required notice items; reasonable and simple methods defined — requiring consumer to write own letter explicitly insufficient (§§1022.21–1022.27)
+- Medical information prohibition: creditor rule (not CRA rule); 10 narrow exceptions including consumer-requested special credit programs (written plan required) and consumer-specifically-requested use; FCRA §603(d)(2) exclusions do not apply to affiliate sharing of medical information (§§1022.30–1022.32)
+- CRA medical debt gatekeeping: CRA may furnish medical debt to a creditor only where CRA has reason to believe creditor's use is non-prohibited and not legally barred — effective January 14, 2025 [90 FR 3373] (§1022.38)
+- Furnisher direct disputes: furnisher must investigate independently within FCRA §611(a)(1) timeframe (typically 30 days); dispute accepted at address in consumer report, specified dispute address, or any business address if none specified; omission of material information is an integrity failure; frivolous determination requires 5-business-day consumer notice (§§1022.41–1022.43)
+- Risk-based pricing notices: personal credit only; credit score proxy (40/60 cutoff, recalculate every 2 years) or tiered pricing (≤4 tiers: non-top-tier; ≥5 tiers: non-top-two-tiers plus sufficient additional to reach 30-40%); credit score disclosure notice (§1022.74(d)/(e)) eliminates obligation; bar chart distribution (minimum 6 bars) required in credit score disclosure; account review triggers when APR increased (§§1022.72–1022.75)
+- Human trafficking adverse information block: 4 business days to block; 25 business days to final determination; cannot question facts in trafficking documentation; notice of outcome within 5 business days; 7-year record retention (§1022.142)
+- Address discrepancy duties: user must develop policies to form reasonable belief report relates to correct consumer; must furnish confirmed address back to CRA when establishing a continuing relationship (§1022.82)
+- AnnualCreditReport.com and (877) 322-8228 are the only authorised sources for free Federal credit reports; medium-specific disclosure requirements apply to all advertising of "free credit reports" (§1022.138)
+
+No contradictions with existing wiki pages. Reg V intersects with: Reg B (medical information collected under Reg B's income disclosure rule — alimony, disability — is subject to Reg V redisclosure limits if passed to a CRA); Reg Z (risk-based pricing triggered by consumer reports used in credit applications subject to Reg Z; APR as the "material term" for Reg H purposes is defined by Reg Z); UK GDPR (affiliate marketing opt-out has no direct UK analogue but the concept of purpose limitation under UK GDPR Article 5(1)(b) operates similarly for data shared within corporate groups).
+
+**Noted for future ingest:**
+- 12 CFR Part 1024 (Reg X — RESPA)
+- 12 CFR Part 1003 (HMDA / Regulation C)
+- 12 CFR Part 1016 (Reg P — Privacy of Consumer Financial Information / GLB Act)
