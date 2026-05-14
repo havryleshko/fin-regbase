@@ -57,12 +57,20 @@ const coverage = [
     lines: ["PSR PS23/3", "Reimbursement scheme", "Liability allocation"],
   },
   {
-    topic: "Regulation Z (TILA)",
-    lines: ["12 CFR Part 1026", "Open- and closed-end credit", "TRID · rescission · BNPL scope"],
+    topic: "Regulation B (ECOA)",
+    lines: ["12 CFR Part 1002", "Adverse action · SPCPs", "Section 1071 small-business data"],
   },
   {
     topic: "Regulation E (EFTA)",
     lines: ["12 CFR Part 1005", "Liability tiers", "Prepaid · gift cards · remittances"],
+  },
+  {
+    topic: "Regulation V (FCRA)",
+    lines: ["12 CFR Part 1022", "Furnisher duties", "Risk-based pricing · affiliate marketing opt-out"],
+  },
+  {
+    topic: "Regulation Z (TILA)",
+    lines: ["12 CFR Part 1026", "Open- and closed-end credit", "TRID · rescission · BNPL scope"],
   },
 ] as const;
 

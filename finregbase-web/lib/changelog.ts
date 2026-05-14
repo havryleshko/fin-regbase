@@ -8,9 +8,9 @@ export type ChangelogEntry = {
 export const changelogEntries: ChangelogEntry[] = [
   {
     date: "2026-05-14",
-    title: "US Regulation E and wiki scale-up",
+    title: "US Reg B, Reg V, and wiki at 171 articles",
     summary:
-      "Regulation E (12 CFR Part 1005) summaries and concepts landed alongside ongoing UK work. Public site copy now reflects UK and US coverage.",
+      "Equal Credit Opportunity (12 CFR Part 1002) and Fair Credit Reporting (12 CFR Part 1022) landed alongside Reg E and Reg Z. Public site coverage grid and hero copy updated.",
     links: [
       {
         label: "Browse the wiki",

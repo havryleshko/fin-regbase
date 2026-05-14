@@ -7,10 +7,7 @@ const snippet = `{
         "--directory",
         "/absolute/path/to/fin-regbase/mcp-server",
         "/absolute/path/to/fin-regbase/mcp-server/server.py"
-      ],
-      "env": {
-        "WIKI_PATH": "/absolute/path/to/fin-regbase/wiki"
-      }
+      ]
     }
   }
 }`;
