@@ -12,6 +12,7 @@ sources:
   - "Shah v HSBC Private Bank [2012] EWHC 1283 (QB)"
 tags: [financial-crime, AML, SAR, DAML, consent, tipping-off, suspicion, POCA, nominated-officer, NCA, UK, JMLSG]
 related:
+  - concepts/poca-ss330-331-disclosure-offences.md
   - concepts/aml-ctf-framework.md
   - concepts/customer-due-diligence.md
   - summaries/jmlsg-part-i-guidance.md
@@ -158,6 +159,7 @@ The firm must permit the nominated officer access to all information in the firm
 
 ## Related Articles
 
+- [[poca-ss330-331-disclosure-offences]]
 - [[aml-ctf-framework]]
 - [[customer-due-diligence]]
 - [[jmlsg-part-i-guidance]]

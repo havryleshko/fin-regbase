@@ -2774,5 +2774,52 @@ Key additions absent from wiki before this ingest:
 Contradictions with existing wiki: None. COBS 19 was entirely absent from the wiki.
 
 Flagged for future ingest:
-- SUP 10C (SM approval forms, cessation notifications, Form C/D timelines) — thin coverage
+- SUP 10C (SM approval forms, cessation notifications, Form C/D timelines) — thin coverage — CLOSED 2026-05-14
 - POCA 2002 ss.330–331 (SAR statutory content) — agent gave guidance-level content instead of primary statutory requirements
+
+## 2026-05-14 ingest | SUP 10C — FCA Senior Managers Regime for Approved Persons in SMCR Firms
+
+Source: `raw/smcr/SUP 10C FCA senior managers regime for approved persons in SMCR firms.pdf` (FCA SUP Sourcebook Chapter 10C, May 2026, ~55pp)
+
+Pages created (1):
+- `wiki/summaries/sup10c-senior-managers-approval.md`
+
+Key additions absent from wiki before this ingest:
+1. **Full SMF function table (SUP 10C.4.3R):** Complete taxonomy of 20+ FCA-designated SMFs across five categories — governing (SMF1 CEO, SMF3 Executive Director, SMF7 Group Entity, SMF9–15 committee chairs/NEDs/SID, SMF19 Head of Third Country Branch, SMF27 Partner), required (SMF16 Compliance Oversight, SMF17 MLRO), systems and controls (SMF2 CFO, SMF4 CRO, SMF5 Head of Internal Audit, SMF24 Chief Operations), other (SMF18 Other Overall Responsibility, SMF21 EEA Branch, SMF22 Other Local Responsibility, SMF23b Lloyd's Conduct Risk, SMF29 Limited Scope). The existing SM&CR concept page described the regime but did not list the individual functions.
+2. **12-week rule mechanics (SUP 10C.3A.6R/3A.8R/3A.13R/3A.15G/3A.20G):** Cover person must be conduct rules staff; absence must be temporary or reasonably unforeseen; maximum 12 consecutive weeks in a 12-month period; fit and proper assessment required despite no FCA pre-approval; FCA-prescribed responsibilities cannot be inherited by cover person unless that person is also an SMF manager; rule must be used as infrequently and briefly as possible; planned departures (retirements, fixed-term endings) are ineligible.
+3. **Prior approval gate and individual s.63A liability (SUP 10C.10):** No one may perform an FCA-designated SMF before receiving FCA approval. The application is made by the firm, not the candidate. If an individual performs an SMF without approval knowing (or reasonably being expected to know) they lacked it, the FCA may impose a financial penalty directly on that individual under FSMA s.63A — personal liability separate from enforcement against the firm.
+4. **SMF7 strategic-only exclusion (SUP 10C.5B.5G):** A group-level individual whose responsibilities for a subsidiary are limited to developing overall group strategy is unlikely to be performing SMF7. The function applies to those implementing strategy in the firm, not setting it at group level. A judgment-based exclusion that firms must document.
+5. **PRA–FCA absorption rule (SUP 10C.9.8R):** For PRA-authorised firms, where a candidate will perform both a PRA-designated SMF and what would otherwise be an FCA governing function, and the PRA notified the FCA of this in the approval application, no separate FCA approval is required. This is the primary mechanism avoiding dual approval in banking/insurance firms; absent notification, both approvals remain required.
+
+Contradictions with existing wiki: None. The existing SM&CR concept page broadly stated "prior approval required" and "12-week rule exists" but did not cover the mechanics of either. The arrangement requirement (SUP 10C.3.6R) and the PRA absorption rule are entirely new to the wiki.
+
+Flagged for future ingest:
+- POCA 2002 ss.330–331 (SAR statutory content) — pre-existing gap — CLOSED 2026-05-14
+- SUP 10C Annex 1 (which SMFs apply to which firm type) — not yet ingested; cross-referenced but not substantiated
+
+## 2026-05-14 ingest | POCA 2002 ss.330–331 — Statutory Disclosure Offences
+
+Sources:
+- `raw/smcr/Proceeds of Crime Act 2002-2.md` — s.330 (point in time 02/02/2026; up to date as of 14 May 2026)
+- `raw/smcr/Proceeds of Crime Act 2002.md` — s.331 (point in time 02/02/2026; up to date as of 14 May 2026)
+
+Pages created (1):
+- `wiki/concepts/poca-ss330-331-disclosure-offences.md`
+
+Pages updated (1):
+- `wiki/concepts/sar-consent-tipping-off.md` — added `poca-ss330-331-disclosure-offences` to frontmatter related and Related Articles
+
+Key additions absent from wiki before this ingest:
+1. **Identification gate — third condition (ss.330(3A); 331(3A)):** Both offences require a third condition before they are committed: the person must be able to identify the suspect or the whereabouts of laundered property, or believe (or it be reasonable to expect them to believe) the information will or may assist identification. The existing `sar-consent-tipping-off` page presented the obligation as a simple suspicion → report chain; the statutory gate was entirely absent. In practice the gate is low but it is a complete answer to a charge where genuinely no identification is possible.
+2. **Mandatory SAR content — three statutory elements (ss.330(5); 331(5)):** The required disclosure must contain: (a) identity of suspect, if known; (b) whereabouts of laundered property, so far as known; (c) the underlying information or matter. These are identical in structure across both sections but scoped differently: in s.331 elements (a) and (b) are bounded by what was disclosed internally under s.330. The existing wiki said "report to the MLRO / NCA" without specifying what the report must contain at law.
+3. **LPP defence (s.330(6)(b); (10)–(11)):** Professional legal advisers and qualifying relevant professional advisers (accountants, auditors, tax advisers who are members of qualifying professional bodies per s.330(14)) do not commit the s.330 offence where the suspicion information came in privileged circumstances. Privilege does not apply where information was communicated to further a criminal purpose (s.330(11)). There is no LPP defence in s.331 — it is a staff-level protection only. Entirely absent from the wiki.
+4. **Untrained-staff defence (s.330(7)):** A staff member who does not subjectively suspect money laundering and has not been given required AML training by their employer commits no s.330 offence. Both conditions must be satisfied. This is a direct statutory incentive for firms to deliver compliant training — absent required training, staff who genuinely see nothing are protected; the firm is not. Entirely absent from the wiki.
+5. **Overseas conduct exclusion (ss.330(7C); 331(6A)):** Neither staff member nor MLRO commits an offence where the money laundering is occurring in a jurisdiction where it is not unlawful under local criminal law and not prescribed by the Secretary of State. Requires positive knowledge or reasonable belief about foreign law. Relevant to cross-border correspondent banking, trade finance, and crypto transactions. Entirely absent from the wiki.
+6. **JMLSG guidance as statutory court consideration (ss.330(8); 331(7)):** The court must consider whether the defendant followed Treasury-approved guidance. This is the statutory basis for JMLSG guidance having legal weight in s.330/s.331 prosecutions — not exoneration, but a mandatory factor the court must address.
+
+Contradictions with existing wiki: None. The existing `sar-consent-tipping-off` page correctly described the operational framework at JMLSG-guidance level. This ingest adds the primary statutory layer beneath it. All JMLSG-sourced content (suspicion thresholds, DAML timelines, tipping-off offences) remains accurate.
+
+Notable structural difference captured: s.331(3A)(a) requires the nominated officer to **know** the identity/whereabouts **in consequence of the s.330 disclosure** — a stronger standard than s.330(3A)(a) which requires only that the person **can identify** them. The MLRO's knowledge must derive from what was brought to them internally.
+
+Flagged for future ingest:
+- SUP 10C Annex 1 (which SMFs apply to which firm type) — pre-existing gap
