@@ -1,5 +1,6 @@
  "use client";
 
+import type { ReactNode } from "react";
 import { KeyboardEvent, useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { configSnippets } from "@/lib/config-snippets";
@@ -12,6 +13,21 @@ const labels = {
 } as const;
 
 type SnippetKey = keyof typeof configSnippets;
+
+const code = (children: string) => (
+  <code className="rounded-md border border-border bg-code-bg px-1.5 py-0.5 font-mono text-[0.8125rem] text-text-primary">
+    {children}
+  </code>
+);
+
+const setupSteps: ReactNode[] = [
+  "Clone the repo and install uv.",
+  <>
+    Run {code("uv sync")} in {code("mcp-server")}.
+  </>,
+  "Replace the absolute paths in the config above, then paste it into your MCP client.",
+  "Ask your agent a compliance question.",
+];
 
 export function ConnectSection() {
   const [activeTab, setActiveTab] = useState<SnippetKey>("claudeDesktop");
@@ -149,18 +165,34 @@ export function ConnectSection() {
         )}
       </motion.div>
 
-      <div className="mt-4 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <button
-          onClick={copyConfig}
-          className="inline-flex items-center rounded-md bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-        >
-          {copied ? "Copied ✓" : copyError ? "Copy failed" : "Copy config"}
-        </button>
-        <p className="text-sm text-text-secondary">
-          1. Clone repo and install uv → 2. Run <code className="rounded bg-surface px-1 py-0.5">uv sync</code> in{" "}
-          <code className="rounded bg-surface px-1 py-0.5">mcp-server</code> → 3. Replace absolute paths and paste
-          config → 4. Ask your agent a compliance question
-        </p>
+      <div className="mt-4 rounded-2xl border border-border bg-surface p-5 shadow-sm sm:p-6">
+        <div className="flex flex-col gap-6 sm:flex-row sm:items-stretch sm:gap-8">
+          <div className="min-h-0 min-w-0 flex-1">
+            <p className="text-xs font-medium uppercase tracking-[0.16em] text-text-secondary">Setup steps</p>
+            <ol className="mt-3 list-none space-y-0 p-0">
+              {setupSteps.map((body, index) => (
+                <li
+                  key={index}
+                  className="flex gap-3 border-b border-border py-3.5 first:pt-0 last:border-b-0 last:pb-0"
+                >
+                  <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-accent text-xs font-semibold text-white shadow-sm">
+                    {index + 1}
+                  </span>
+                  <p className="min-w-0 text-sm leading-6 text-text-secondary [&_code]:whitespace-nowrap">{body}</p>
+                </li>
+              ))}
+            </ol>
+          </div>
+          <div className="flex shrink-0 flex-col gap-2 sm:w-40 sm:border-l sm:border-border sm:pl-8">
+            <p className="text-xs font-medium uppercase tracking-[0.16em] text-text-secondary">Next</p>
+            <button
+              onClick={copyConfig}
+              className="inline-flex w-full items-center justify-center rounded-md bg-accent px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface"
+            >
+              {copied ? "Copied ✓" : copyError ? "Copy failed" : "Copy config"}
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   );
