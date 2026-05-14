@@ -2902,3 +2902,56 @@ Noted for future ingest:
 - Subpart G credit card special rules in detail
 - 12 CFR Part 1002 (Reg B — ECOA / credit discrimination)
 - 12 CFR Part 1005 (Reg E — EFTs, debit card overdraft, prepaid accounts)
+
+## [2026-05-14] ingest | Regulation E — Electronic Fund Transfers (12 CFR Part 1005)
+
+Source: `raw/us/12 CFR Part 1005 (up to date as of 5-12-2026).pdf` (260 pages, CFPB eCFR enhanced display)
+
+Pages read: 1–20 (§§1005.1–1005.15 — authority, definitions, coverage, EFT types, consumer liability, initial disclosures, change-in-terms, receipts/statements, preauthorised transfers, error resolution, record retention, third-party service providers, government benefit accounts); 21–40 (§§1005.15(d)–1005.18 — government benefit account error modifications, ATM fee disclosures §1005.16, overdraft opt-in §1005.17, prepaid accounts §1005.18 short form and long form pre-acquisition disclosures); 41–60 (§§1005.18(e)–1005.20 — unverified account liability/error carve-out, change-in-terms for prepaid, hybrid prepaid-credit card rules, internet posting of prepaid agreements §1005.19, gift cards §1005.20 — dormancy fees, fund expiry, on-card disclosures; Subpart B definitions §1005.30, disclosures §1005.31); 61–80 (§§1005.32–1005.36, Appendix A — estimate exceptions, error resolution, cancellation/refund, agent liability, scheduled transfers, model forms).
+
+Pages created (3):
+- `wiki/summaries/reg-e-electronic-fund-transfers.md`
+- `wiki/concepts/reg-e-prepaid-accounts-gift-cards.md`
+- `wiki/concepts/reg-e-remittance-transfers.md`
+
+Key additions:
+- Three-tier consumer liability structure (§1005.6)
+- Error resolution timelines: 10-business-day provisional credit, 45-business-day outer limit (90 for POS/foreign/new accounts) (§1005.11)
+- Overdraft opt-in requirements for ATM and one-time debit card — segregated notice, affirmative consent, non-conditional (§1005.17)
+- Prepaid account two-tier pre-acquisition disclosure (short form fee box with 9 mandatory items in bold 15-point type; long form all fees) (§1005.18)
+- Prepaid FDIC/NCUA insurance disclosure — five prescribed variants (§1005.18(b))
+- Unverified prepaid account — liability/error carve-out only if risk disclosed using model form (§1005.18(e)(3))
+- Internet posting obligation at 3,000 open accounts; 30-day CFPB submission; 5-business-day consumer request turnaround (§1005.19)
+- Gift card dormancy: 12-month inactivity trigger; one fee per calendar month; on-card disclosure required (§1005.20(d))
+- Gift card fund expiry: minimum 5 years from issuance/last load; replacement at no charge (§1005.20(e))
+- Remittance transfer safe harbor: 500 or fewer in both prior and current year (§1005.30(f)(2))
+- Pre-payment disclosure before sender pays: 8 items including recipient-currency amount, exchange rate to 4 decimal places, "total to recipient" (§1005.31(b)(1))
+- 30-minute mandatory cancellation right; refund within 3 business days (§1005.34)
+- Error investigation: 180-day reporting window, 90-day investigation, 3-business-day result notice (§1005.33)
+- Agent liability: provider liable for agent violations (§1005.35)
+- Preauthorised remittance transfers: cancellation with 3-day notice for scheduled transfers (§1005.36(c))
+
+No contradictions with existing wiki pages noted. Reg E and Reg Z are distinct and complementary — Reg Z governs the credit terms of hybrid prepaid-credit card features (referenced in §1005.18(g) and the short form Reg Z disclosure requirement for overdraft credit features); Reg E governs the EFT and prepaid account aspects of the same product.
+
+**Noted for future ingest:**
+- 12 CFR Part 1002 (Reg B — ECOA / credit discrimination)
+- 12 CFR Part 1024 (Reg X — RESPA) — complements Reg Z mortgage disclosures
+- 12 CFR Part 1003 (HMDA) — US mortgage data reporting
+
+## [2026-05-14] lint
+
+Scope: 166 pages (concepts/, summaries/, derived/). Full scan.
+
+**Issues found (2):**
+- `wiki/summaries/disp1-treating-complainants-fairly.md` line 5 — unquoted colon in `regulation:` YAML value; fixed by quoting the value.
+- `wiki/summaries/disp3-fos-complaint-procedures.md` line 5 — unquoted colon in `regulation:` YAML value; fixed by quoting the value.
+
+**Clean:**
+- Orphan pages: 0
+- Dead wikilinks (body text): 0
+- Index/disk mismatches: 0
+- Stale `last_updated` metadata: 0
+- Factual contradictions: 0
+
+**Informational:**
+- 242 forward references in `related:` frontmatter pointing to pages not yet created. Assessed as intentional graph stubs; no action taken.

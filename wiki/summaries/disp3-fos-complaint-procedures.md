@@ -2,7 +2,7 @@
 title: "DISP 3 — FOS Complaint Handling Procedures"
 jurisdiction: UK
 regulator: FCA / FOS
-regulation: DISP 3 (Dispute Resolution: Complaints) — April 2026
+regulation: "DISP 3 (Dispute Resolution: Complaints) — April 2026"
 status: current
 effective_date: 2001-12-01
 last_updated: 2026-04-28

@@ -398,6 +398,23 @@ Claude Code reads this file first on every query to identify relevant pages.
 
 ---
 
+## US — Regulation E (Electronic Fund Transfers)
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/reg-e-electronic-fund-transfers.md](summaries/reg-e-electronic-fund-transfers.md) | 12 CFR Part 1005 (Regulation E): implements EFTA (15 USC 1693 et seq.); Subpart A — core EFT rules (consumer liability three-tier structure: $50/2 days, $500/60 days, unlimited; initial disclosures; periodic statements; error resolution 10-business-day provisional credit / 45-business-day outer limit; preauthorised transfer stop-payment 3-day notice; overdraft opt-in for ATM and one-time debit card; prepaid accounts; gift cards; government benefit accounts); Subpart B — remittances (pre-payment disclosure before sender pays; receipt after payment; 30-minute cancellation right; 90-day error investigation; 500-transfer safe harbor) | 1 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/reg-e-prepaid-accounts-gift-cards.md](concepts/reg-e-prepaid-accounts-gift-cards.md) | Reg E §§1005.18–1005.20 — prepaid accounts (payroll cards and GPR prepaid as "accounts"; two-tier pre-acquisition disclosure: short form fee box in bold 15-point type with 9 mandatory items + additional fee types + FDIC/NCUA insurance status + CFPB website reference; long form all fees and conditions; electronic history 12 months / written history 24 months on request; unverified accounts — reduced protections if CIP not complete; hybrid prepaid-credit card non-discrimination rule); internet posting of prepaid agreements (3,000-account threshold; 30-day submission; 5-business-day consumer request turnaround); gift cards (dormancy fees only after 1-year inactivity, maximum one per calendar month, must disclose on card; underlying fund expiry minimum 5 years; replacement at no charge if card expires before funds) | 1 |
+| [concepts/reg-e-remittance-transfers.md](concepts/reg-e-remittance-transfers.md) | Reg E Subpart B §§1005.30–1005.36 — remittance transfers: 500-transfer safe harbor (both prior and current year); pre-payment disclosure (8 items including transfer amount in recipient currency, exchange rate to 4 decimal places, total to recipient, non-covered third-party fee disclaimer); receipt (date available, recipient info, cancellation/error rights, state agency and CFPB contact); combined disclosure option; 30-minute mandatory cancellation right (refund within 3 business days); error types (incorrect amount; bookkeeping error; shortfall; failure to deliver by date) — 180-day reporting window, 90-day investigation, 3-business-day result notice; agent liability (provider liable for agent violations); preauthorised transfers scheduled 5+ days in advance — accurate receipt within 1 business day after transfer; cancellation with 3-day notice for scheduled transfers | 1 |
+
+---
+
 ## US — Regulation Z (Truth in Lending)
 
 ### Summaries

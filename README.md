@@ -1,17 +1,19 @@
 # fin-regbase
 
-Persistent, agent-readable UK financial regulation knowledge base.  
+Persistent, agent-readable financial regulation knowledge base covering UK and US jurisdictions.  
 Source documents in `raw/` are compiled into citation-backed wiki pages in `wiki/`.
 
-## Current repository snapshot (May 2026) — UK wiki v3 complete
+## Current repository snapshot (May 2026) — UK wiki complete + US expansion underway
 
-- `wiki/concepts`: 80 pages
-- `wiki/summaries`: 63 pages
+- `wiki/concepts`: 88 pages
+- `wiki/summaries`: 69 pages
 - `wiki/derived`: 7 pages
-- Total wiki articles: 150
-- Source documents in `raw/`: 79
+- Total wiki articles: 164
+- Source documents in `raw/`: 87
 
-Primary coverage: Consumer Duty, AML/CTF and sanctions (FCG 2/3/7, JMLSG, FCTR 8, MLR 2017), APP fraud reimbursement (PSR PS23/3), CASS (client money and custody), COBS and MiFID conduct rules (COBS 2/3/4/9/9A/9B/10/10A/11, inducements, research unbundling, best execution, targeted support), CONC consumer credit (CONC 1–8), DISP complaints/FOS (DISP 1/2/3, motor finance DCA), SYSC governance and controls (SYSC 4/6/15A), MAR market abuse, PSR/E-Money, SM&CR, and UK GDPR (all major ICO guidance chapters, DUA Act 2025 amendments).
+**UK coverage:** Consumer Duty, AML/CTF and sanctions (FCG 2/3/7, JMLSG, FCTR 8, MLR 2017), APP fraud reimbursement (PSR PS23/3), CASS (client money and custody), COBS and MiFID conduct rules (COBS 2/3/4/9/9A/9B/10/10A/11, inducements, research unbundling, best execution, targeted support), CONC consumer credit (CONC 1–8), DISP complaints/FOS (DISP 1/2/3, motor finance DCA), SYSC governance and controls (SYSC 4/6/15A), MAR market abuse, PSR/E-Money, SM&CR, UK GDPR (all major ICO guidance chapters, DUA Act 2025 amendments).
+
+**US coverage (new):** Regulation Z / TILA (12 CFR Part 1026) — open-end and closed-end credit disclosures, BNPL coverage, TRID mortgage disclosures, right of rescission; Regulation E / EFTA (12 CFR Part 1005) — consumer liability, error resolution, overdraft opt-in, prepaid accounts (GPR/payroll cards, two-tier pre-acquisition disclosure), gift cards, remittance transfers (Subpart B).
 
 ## How this repo is used
 
