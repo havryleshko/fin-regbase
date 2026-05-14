@@ -1,0 +1,166 @@
+{
+  "run_at": "2026-05-13T22:53:29.067683",
+  "answer_model": "claude-haiku-4-5-20251001",
+  "judge_model": "claude-sonnet-4-6",
+  "total_questions": 2,
+  "completed": 2,
+  "errors": 0,
+  "mean_fact_score": 0.7,
+  "mean_citation_score": 0.83335,
+  "mean_overall_score": 0.74,
+  "pass_rate": 0.0,
+  "by_difficulty": {
+    "easy": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "medium": {
+      "count": 2,
+      "mean_score": 0.74
+    },
+    "hard": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "by_type": {
+    "factual": {
+      "count": 0,
+      "mean_score": 0.0
+    },
+    "synthesis": {
+      "count": 1,
+      "mean_score": 0.76
+    },
+    "edge-case": {
+      "count": 1,
+      "mean_score": 0.72
+    },
+    "boundary": {
+      "count": 0,
+      "mean_score": 0.0
+    }
+  },
+  "questions": [
+    {
+      "id": "M026",
+      "question": "A retail client instructs a firm to purchase a specific investment product. The firm's suitability assessment shows the product is not suitable for the client. Can the firm proceed, and if so under what conditions?",
+      "difficulty": "medium",
+      "type": "edge-case",
+      "tags": [
+        "COBS",
+        "suitability",
+        "insistent-client",
+        "personal-recommendation"
+      ],
+      "pages_loaded": [
+        "cobs9-suitability"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer: Firm Cannot Proceed with Unsuitable Product Recommendation\n\n## Core Rule\n\n**No.** A firm **must not** proceed with a personal recommendation for a product it has assessed as unsuitable. This is a hard prohibition under **COBS 9.2.1R**, which requires the firm to \"take reasonable steps to ensure that a personal recommendation, or a decision to trade, is **suitable for its client**.\"\n\n---\n\n## The Insistent Client Exception (Limited Scope)\n\nThe only circumstance permitting execution of an unsuitable transaction is the **insistent client regime** under **COBS 9.5A**, but this applies only where:\n\n1. **The firm has already given a personal recommendation** **(COBS 9.5A.2G)**\n2. **The client decides to enter into a *different* transaction** from what the firm recommended\n3. **The client wishes the firm to *facilitate* that different transaction**\n\nThis regime **does not apply** to your scenario. The client is instructing purchase of the *same* product the firm has assessed as unsuitable\u2014not requesting a *different* transaction after receiving a suitable recommendation.\n\n---\n\n## Required Communications if Proceeding Under Insistent Client Regime\n\nIf the insistent client regime were applicable, the firm would be required to communicate clearly **(COBS 9.5A.3G)**:\n\n- **(a)** That the firm has not recommended the transaction and it will not be in accordance with the firm's personal recommendation\n- **(b)** The reasons why the transaction will not be in accordance with the personal recommendation\n- **(c)** The risks of the transaction proposed by the client\n- **(d)** The reasons why the firm did not recommend that transaction\n\nThe firm must also obtain client acknowledgement **(COBS 9.5A.4G)** and retain full records of advice and communications **(COBS 9.5A.6G)**.\n\n---\n\n## Conclusion\n\n**The firm cannot proceed.** A suitability assessment showing unsuitability is incompatible with a personal recommendation under **COBS 9.2.1R**. The insistent client regime in **COBS 9.5A** does not permit a firm to recommend an unsuitable product; it applies only where a client rejects suitable advice in favour of an alternative course of action.",
+      "fact_score": 0.6,
+      "citation_score": 1.0,
+      "overall_score": 0.72,
+      "facts_detail": [
+        {
+          "fact": "The firm must not make a personal recommendation to purchase a product it has assessed as unsuitable \u2014 doing so breaches COBS 9A",
+          "present": true,
+          "note": "Clearly stated: 'A firm must not proceed with a personal recommendation for a product it has assessed as unsuitable' citing COBS 9.2.1R under COBS 9A framework."
+        },
+        {
+          "fact": "If the client insists on proceeding as an execution-only transaction without taking advice, the firm may execute \u2014 but only if the product is non-complex and no personal recommendation is being made",
+          "present": false,
+          "note": "The answer states the insistent client regime does not apply and concludes the firm cannot proceed, but does not address the possibility of execution-only for non-complex products as a permitted route."
+        },
+        {
+          "fact": "For complex products, switching to execution-only to sidestep a negative suitability finding is itself a breach \u2014 the firm cannot use execution-only as an escape route",
+          "present": false,
+          "note": "The answer does not address the distinction between complex and non-complex products or the prohibition on using execution-only to circumvent a suitability finding for complex products."
+        },
+        {
+          "fact": "Where the firm does proceed at the client's insistence, it must warn the client clearly that the product has not been assessed as suitable for them and record that warning",
+          "present": true,
+          "note": "Addressed under COBS 9.5A.3G communications requirements, including warning about risks and reasons, and obtaining client acknowledgement under COBS 9.5A.4G."
+        },
+        {
+          "fact": "The firm's suitability assessment and the client's instruction must both be documented",
+          "present": true,
+          "note": "Mentioned via COBS 9.5A.6G record retention requirements for advice and communications."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "COBS 9.5A",
+          "present": true
+        }
+      ],
+      "summary": "The answer correctly prohibits recommending unsuitable products and covers disclosure/documentation requirements, but fails to address the execution-only route for non-complex products or the prohibition on using execution-only to circumvent suitability for complex products.",
+      "error": null
+    },
+    {
+      "id": "M035",
+      "question": "A broker provides a bundled service combining trade execution and investment research. The investment firm receiving the service wishes to continue receiving both. What must it do to remain compliant with COBS 2.3B?",
+      "difficulty": "medium",
+      "type": "synthesis",
+      "tags": [
+        "COBS",
+        "research",
+        "unbundling",
+        "inducements",
+        "execution-commission"
+      ],
+      "pages_loaded": [
+        "research-unbundling",
+        "inducements-framework"
+      ],
+      "pages_missing": [],
+      "answer": "# Answer\n\nTo remain compliant with COBS 2.3B when continuing to receive a bundled service combining trade execution and investment research, the investment firm must structure the arrangement through **one of the three permissible payment routes** in **COBS 2.3B.3R**:\n\n## The Three Permissible Routes\n\n### Route 1: Direct Payment from Own Resources\nThe firm pays for research directly from its own P&L, absorbing the full cost without passing it to clients as a separate charge. This requires no additional governance but is commercially disfavoured for substantial research budgets.\n\n### Route 2: Research Payment Account (RPA) \u2014 COBS 2.3B.4R\nThe firm must establish a separate, ring-fenced account funded by a specific research charge agreed with clients. Critical conditions include:\n\n**Volume/Value De-linkage (COBS 2.3B.4R(1)(b)):** The research charge to clients must **not be linked to the volume or value of transactions executed**. The charge must be based on a budget reflecting assessed research needs, not trading activity.\n\n**Budget Discipline (COBS 2.3B.7R\u20132.3B.8R):**\n- Total research charges cannot exceed the budget ceiling;\n- The RPA cannot fund internally-generated research;\n- Any surplus at period end must be rebated to clients or carried forward \u2014 **never retained (COBS 2.3B.8R(3))**.\n\n**Governance (COBS 2.3B.11R\u20132.3B.12R):**\n- Research budget managed solely by the firm based on reasonable assessment of need;\n- Senior management oversight with appropriate controls;\n- Clear audit trail of payments to research providers and how amounts were determined by quality criteria;\n- **Written policy provided to clients (not internal-only) addressing:**\n  - Compliance with quality assessment criteria **(COBS 2.3B.4R(4))**; and\n  - How research benefits clients' portfolios and how costs are fairly allocated **(COBS 2.3B.12R(1))**.\n\n### Route 3: Joint Payments \u2014 COBS 2.3B.25R\nThe firm may combine research and execution costs in a single charge to clients provided:\n\n- The research element is **separately identified** within the total charge;\n- A **written joint payments policy** exists (provided to clients);\n- A **research provider payment allocation structure** is in place allocating costs between integrated brokers and independent research providers;\n- The research budget is **not linked to transaction volumes (COBS 2.3B.25R(5)(a))**;\n- **Annual disclosure (COBS 2.3B.30R\u20132.3B.31R)** includes policy key features, expected costs, most significant benefits received, and actual costs ex-post.\n\n## Critical Anti-Re-Bundling Rule\n\n**COBS 2.3B.29R** is mandatory: **Research services must not be treated as an execution factor** when determining relative importance of execution factors under COBS 11.2A.2R. The firm cannot justify routing to this broker partly because of research provision \u2014 this would infringe both COBS 2.3B.29R and COBS 11.2A.19R (PFOF prohibition).\n\n## Non-Compliant Arrangements\n\nAny bundled research received outside these three routes constitutes an inducement under **COBS 2.3A.5R**, automatically triggering breaches of COBS 2.3A and SYSC 10 **(COBS 2.3A.7E)** and cannot be cured by disclosure. The firm must restructure.\n\n---\n\n**In summary:** The firm must elect one of the three payment routes and document the chosen route in writing, ensuring (particularly for RPAs) that research charges are de-linked from trading volumes and that surplus funds are rebated.",
+      "fact_score": 0.8,
+      "citation_score": 0.6667,
+      "overall_score": 0.76,
+      "facts_detail": [
+        {
+          "fact": "The firm must unbundle the research from the execution \u2014 it must not pay for research through execution commissions",
+          "present": true,
+          "note": "The answer clearly states that bundled research received outside the three permissible routes constitutes an inducement and must be restructured, implying unbundling is required."
+        },
+        {
+          "fact": "The firm has two compliant options: pay for research from its own profit and loss (P&L funding), or use an RPA funded by a separate client charge",
+          "present": true,
+          "note": "Route 1 (direct payment from own P&L) and Route 2 (RPA) are both described. However, the answer adds a third route (joint payments) which may not be accurate under current UK COBS 2.3B as it stood post-MiFID II \u2014 but the two required options are present."
+        },
+        {
+          "fact": "Continuing to receive bundled research-and-execution payments without unbundling breaches COBS 2.3B",
+          "present": true,
+          "note": "The 'Non-Compliant Arrangements' section explicitly states that bundled research outside the three routes constitutes a breach and cannot be cured by disclosure."
+        },
+        {
+          "fact": "A breach of the research unbundling obligation is also a breach of the inducements rules under COBS 2.3A \u2014 the bundled payment impairs the firm's duty to act in the client's best interest",
+          "present": true,
+          "note": "The answer states non-compliant arrangements constitute an inducement under COBS 2.3A.5R and trigger breaches of COBS 2.3A, linking unbundling failures to inducement rules."
+        },
+        {
+          "fact": "Under COBS 2.3A.7E, a breach of the inducements rules is automatically a breach of the client's best interests rule under COBS 2.1.1R \u2014 no separate analysis is required",
+          "present": false,
+          "note": "The answer references COBS 2.3A.7E and mentions SYSC 10 but does not explicitly state that a breach of inducements rules automatically constitutes a breach of COBS 2.1.1R (client's best interests rule) with no separate analysis required."
+        }
+      ],
+      "citations_detail": [
+        {
+          "citation": "COBS 2.3B.3R",
+          "present": true
+        },
+        {
+          "citation": "COBS 2.3A.7E",
+          "present": true
+        },
+        {
+          "citation": "COBS 2.1.1R",
+          "present": false
+        }
+      ],
+      "summary": "The answer is detailed and covers most required elements well, but fails to explicitly state that a breach of inducements rules under COBS 2.3A.7E automatically constitutes a breach of the client's best interests rule under COBS 2.1.1R without separate analysis, and does not cite COBS 2.1.1R.",
+      "error": null
+    }
+  ]
+}

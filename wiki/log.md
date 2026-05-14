@@ -2729,3 +2729,50 @@ New "Scope at a Glance" section added to concept page. Key Points section expand
   1. Due diligence in selection, appointment and periodic review (CASS 6.3.1R) — was in body only
   2. Identifiability requirement at third party (CASS 6.3.4A-1R) — was in body only
 - These were present in the wiki body but absent from Key Points, causing Haiku to miss facts 3 and 4
+
+## 2026-05-14 ingest | SYSC 8 — Outsourcing
+
+Source: `raw/fca-handbook/SYSC 8 Outsourcing.pdf` (FCA SYSC Sourcebook, May 2026, 9pp)
+
+Sections covered: SYSC 8.1 — all subsections (8.1.1R through 8.1.14G): application table, general requirements, scope of critical and important operational functions, safe harbour exclusions, full responsibility retained, due skill/care/diligence, twelve ongoing conditions, written agreement requirements, group relief, FCA information obligations, third-country portfolio management gate, FCA notification, management company additional requirements.
+
+Pages created (1):
+- `wiki/summaries/sysc8-outsourcing.md` — full chapter summary
+
+Pages updated (1):
+- `wiki/index.md` — added sysc8-outsourcing.md to SYSC summaries table
+
+Key additions absent from wiki before this ingest:
+1. **Safe harbour list (SYSC 8.1.5R):** Legal advice, training, billing, premises security, standardised market data services, price feeds, and telephone recording are not critical or important by definition. Firms that over-classify these trigger unnecessary compliance overhead. Entirely absent from all prior wiki pages.
+2. **Retain-expertise obligation (SYSC 8.1.8R(5)):** After outsourcing, the firm must retain the necessary expertise and resources to supervise the outsourced functions effectively. This is the most frequently failed SYSC 8 condition in FCA supervisory reviews and was absent from the wiki.
+3. **Third-country portfolio management gate (SYSC 8.1.11-BR):** Two hard conditions for outsourcing PM to a third-country provider: (a) provider authorised/supervised in home jurisdiction; and (b) FCA cooperation agreement with that regulator. Both required — no contractual workaround. Absent from all prior wiki pages.
+4. **Sub-outsourcing written consent requirement (SYSC 8.1.9R):** The written agreement must explicitly require the firm's written consent before the service provider can sub-outsource. Without this clause, the service provider can further delegate without the firm's knowledge. Absent from all prior wiki pages.
+5. **FCA notification obligation (SYSC 8.1.12G; SUP 15.3.8G):** Firms should notify the FCA when intending to rely on a third party for critical or important functions. Most fintechs treat outsourcing as purely contractual and are unaware of this. Absent from all prior wiki pages.
+
+Contradictions with existing wiki: None. SYSC 8 was entirely absent from the wiki — the Cursor agent answering outsourcing questions was falling back to web searches and external legislation sources. This ingest closes that gap.
+
+Flagged for future ingest:
+- COBS 19 (pension transfers, APTA, TVC) — agent confirmed absent when answering DB-to-SIPP question — CLOSED 2026-05-14
+- SUP 10C (SM approval forms, cessation notifications, Form C/D timelines) — thin coverage
+- POCA 2002 ss.330–331 (SAR statutory content) — agent gave guidance-level content instead of primary statutory requirements
+
+## 2026-05-14 ingest | COBS 19 — Pensions Supplementary Provisions
+
+Source: `raw/fca-cobs/COBS 19 Pensions supplementary provisions.pdf` (FCA COBS Sourcebook, May 2026, ~40pp)
+
+Pages created (1):
+- `wiki/summaries/cobs19-pensions-supplementary.md`
+
+Key additions absent from wiki before this ingest:
+1. **Presumption against transfer (COBS 19.1.6G(2–3)):** Firm must start by assuming transfer will NOT be suitable. Burden is on the firm to demonstrate on contemporary evidence that it IS in the client's best interests. Defining feature of DB transfer advice. Entirely absent from all prior wiki pages.
+2. **Qualifying scheme bias (COBS 19.1.6G(7–11)):** Where a qualifying scheme is available, firm must also assume QS default is more suitable than a non-QS transfer. Three explicitly insufficient factors: wider investment options; >12 months before decumulation; entering decumulation in next 12 months without having decided how to access funds. Absent from all prior wiki pages.
+3. **APTA mandatory methodology gate (COBS 19.1.2BR/2CR):** Must follow Annex 4A + 4C. Alternative analysis only if 50th-percentile outcomes no less conservative than the Annex approach. Hard constraint on automated/robo pension transfer tools. Absent from all prior wiki pages.
+4. **Arranging without advising — mandatory refusal (COBS 19.1.7C):** Arranging firm must confirm from advising firm that client received full personal recommendation (not abridged advice). If recommendation was against transfer, must warn client, ask whether they understand, and refuse to arrange if they do not demonstrate understanding. Abridged advice can never support arrangement. Records indefinitely. Absent from all prior wiki pages.
+5. **Evidence of client understanding as pre-recommendation gate (COBS 19.1.1CR(5); COBS 19.1.9AR):** Before finalising the personal recommendation, firm must obtain evidence the client can demonstrate they understand the risks. Records indefinitely. Absent from all prior wiki pages.
+6. **Contingent charging ban (COBS 19.1B.3R):** Charge structure must not vary depending on whether the firm recommends or the client effects a pension transfer or conversion. Two narrow exceptions (serious ill-health; serious financial difficulty). Absent from all prior wiki pages.
+
+Contradictions with existing wiki: None. COBS 19 was entirely absent from the wiki.
+
+Flagged for future ingest:
+- SUP 10C (SM approval forms, cessation notifications, Form C/D timelines) — thin coverage
+- POCA 2002 ss.330–331 (SAR statutory content) — agent gave guidance-level content instead of primary statutory requirements
