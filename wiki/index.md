@@ -377,3 +377,38 @@ Claude Code reads this file first on every query to identify relevant pages.
 | Page | Summary | Sources |
 |------|---------|---------|
 | [concepts/cryptoasset-financial-promotions-framework.md](concepts/cryptoasset-financial-promotions-framework.md) | PS23/6 consumer journey operative rules: mandatory DOFP sequence (8 steps in order); 24-hour cooling-off (first-time investors only); personalised risk warning format (digital/non-digital); absolute incentives ban (no shareholder benefit exemption); three client categories (Restricted Investor, HNW, Certified Sophisticated — self-certified sophisticated disapplied); 12-month declaration expiry; appropriateness anti-gaming rules (different questions each attempt; 24-hour lock-out from second fail; no specific answer disclosure; no encouragement to retake; time counts toward cooling-off); existing vs new customer decision tree (Figure 3) | 5 |
+
+---
+
+## US — CFPB (Consumer Financial Protection Bureau)
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/cfpb-supervision-examination-manual.md](summaries/cfpb-supervision-examination-manual.md) | CFPB Supervision and Examination Manual (March 2022): statutory basis (Dodd-Frank Title X, §§1021–1026); three supervisory categories (non-depository §1024, large depositories §1025, service providers §1026); two-layer compliance structure (UDAAP catch-all + enumerated consumer laws table); three supervision principles (consumer risk focus, data-driven, bank/non-bank parity); CC Rating System 1–5; MRAs vs Supervisory Recommendations; five CMR modules; UDAAP three-prong standards (deceptive/unfair/abusive); service provider rule; civil enforcement only | 4 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/cfpb-framework-overview.md](concepts/cfpb-framework-overview.md) | CFPB regulatory framework: jurisdiction (non-banks §1024, large depositories §1025, service providers §1026); two-layer compliance (UDAAP + enumerated laws full table with CFR citations); three supervision principles; examination scheduling; CC Rating System; enforcement (civil only, up to $1m/day for knowing violations); multi-agency landscape (CFPB vs FinCEN vs OCC vs SEC vs FTC vs state regulators) | 2 |
+| [concepts/cfpb-compliance-management-system.md](concepts/cfpb-compliance-management-system.md) | CFPB CMS and CMR framework: CC Rating System 1–5 with three rating categories; five CMR modules (Board/Management Oversight, Compliance Program, Service Provider Oversight, Violations of Law/Consumer Harm, Wrap-Up); Module 2 four components (policies/procedures, training, monitoring/audit, consumer complaint response); Module 4 violation assessment factors (Root Cause, Severity, Duration, Pervasiveness); MRAs and Supervisory Recommendations mechanics; CMR-IT for technology compliance | 3 |
+| [concepts/cfpb-udaap.md](concepts/cfpb-udaap.md) | CFPB UDAAP — three-prong standard (Dodd-Frank §1036; 12 USC 5536): deceptive (misleads/likely to mislead; reasonable interpretation; material); unfair (substantial injury; not reasonably avoidable; not outweighed by countervailing benefits to consumers or competition); abusive (materially interferes with ability to understand; OR takes unreasonable advantage of lack of understanding / inability to protect interests / reasonable reliance); examination process; UDAAP + enumerated law relationship; fintech applicability | 2 |
+
+---
+
+## US — Regulation Z (Truth in Lending)
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/reg-z-truth-in-lending.md](summaries/reg-z-truth-in-lending.md) | 12 CFR Part 1026 (Regulation Z): implements TILA (15 USC 1601 et seq.); four coverage conditions (consumer; regularly extended 25+/year; finance charge OR 4+ instalments; personal purpose); BNPL in scope via 4-instalment prong; six subparts (A General, B Open-End, C Closed-End, D Misc, E Mortgage, F Private Education, G Credit Card special rules); finance charge definition (broader than interest; application-fee exclusion); APR 1/8-point tolerance; civil liability (actual damages; statutory damages $200–$2,000 closed-end; attorneys' fees; 1-year limitation / 3-year rescission) | 1 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/reg-z-open-end-credit-disclosures.md](concepts/reg-z-open-end-credit-disclosures.md) | Reg Z Subpart B — open-end (revolving/credit card) disclosures: account-opening Schumer Box (tabular; APR in 16-point type; 15 required table items including all APRs, fees, grace period, balance computation method); periodic statement 20+ required items; mandatory minimum payment warning (exact statutory language) and 36-month payoff estimate; deferred interest payoff date on front of every statement; 45-day advance notice for significant term changes; right to reject changes (close account at existing terms); advertising rules (introductory rate labelling; "if paid in full" alongside deferred-interest claims) | 1 |
+| [concepts/reg-z-closed-end-credit-disclosures.md](concepts/reg-z-closed-end-credit-disclosures.md) | Reg Z Subpart C — closed-end (instalment loan/BNPL) disclosures: pre-consummation timing; TILA box with 20 items (amount financed, finance charge dollar amount, APR, payment schedule, total of payments, prepayment, late charge, security interest, mortgage rate/payment summary table); RESPA mortgage two-stage process — Loan Estimate within 3 business days of application, Closing Disclosure 3 business days before consummation; zero-tolerance/10%-tolerance/no-tolerance fee classification; right of rescission for non-purchase dwelling-secured transactions (3-day window; 3-year extended right if notice/disclosures not delivered; security interest voids; 20-day return obligation); ARM adjustment notice lead times (60–120 days ongoing; 210–240 days initial) | 1 |

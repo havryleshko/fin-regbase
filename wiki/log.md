@@ -2823,3 +2823,82 @@ Notable structural difference captured: s.331(3A)(a) requires the nominated offi
 
 Flagged for future ingest:
 - SUP 10C Annex 1 (which SMFs apply to which firm type) — pre-existing gap
+
+## 2026-05-14 ingest | CFPB Supervision and Examination Manual (March 2022)
+
+Source: `raw/us/cfpb_supervision-and-examination-manual.pdf` (11.6MB; multiple module dates from 2015–2022)
+
+Pages created (4):
+- `wiki/summaries/cfpb-supervision-examination-manual.md`
+- `wiki/concepts/cfpb-framework-overview.md`
+- `wiki/concepts/cfpb-compliance-management-system.md`
+- `wiki/concepts/cfpb-udaap.md`
+
+Index updated: New section added — "US — CFPB (Consumer Financial Protection Bureau)"
+
+This is the first US jurisdiction ingest. Sections read before writing:
+- Overview section (statutory basis, supervision scope, principles, enforcement authority, examination process)
+- Compliance Management Review (CMR) full section — all five modules
+- CMR-IT section
+- Auto Finance examination procedures (UDAAP standards appear here as the cross-cutting standard applied in each product module)
+
+UDAAP standards sourced from: Dodd-Frank §1036 (12 USC 5536) as restated in CFPB examination procedures. The three-prong standard (deceptive/unfair/abusive) is applied identically across all product modules.
+
+Key additions to the wiki (first US content):
+1. **CFPB jurisdiction scope:** Non-depository covered persons (§1024), large depositories >$10bn (§1025), service providers (§1026). Fintechs fall under §1024 with no banking charter required for CFPB supervision.
+2. **Two-layer compliance structure:** UDAAP (catch-all, Dodd-Frank §1036) + enumerated consumer laws (TILA/Reg Z, EFTA/Reg E, ECOA/Reg B, FCRA/Reg V, FDCPA, GLBA/Reg P, HMDA, RESPA, CLA/Reg M).
+3. **CC Rating System:** FFIEC Uniform Consumer Compliance Rating System, 1–5. Ratings 1–2 satisfactory; 3–5 less than satisfactory. Three rating categories: Board/Management Oversight, Compliance Program, Violations of Law/Consumer Harm.
+4. **CMR five-module framework:** Module 1 (Board/Management Oversight), Module 2 (Compliance Program — four components), Module 3 (Service Provider Oversight), Module 4 (Violations — Root Cause/Severity/Duration/Pervasiveness), Module 5 (Wrap-Up/Rating).
+5. **UDAAP three-prong standard (Dodd-Frank §1036):** Deceptive (misleads/likely; reasonable interpretation; material); Unfair (substantial injury; not reasonably avoidable; not outweighed by countervailing benefits); Abusive (materially interferes with ability to understand; OR takes unreasonable advantage of lack of understanding / inability to protect interests / reasonable reliance).
+6. **Service provider rule:** Outsourcing does not reduce covered person's compliance liability. Separate CMR module assesses service provider oversight.
+7. **Civil enforcement only:** CFPB has no criminal authority. Penalties up to $1m/day for knowing violations (12 USC 5565).
+8. **US multi-agency fragmentation:** CFPB sits alongside FinCEN (AML), OCC, FDIC/Fed, SEC/FINRA, FTC, and state regulators — no single-regulator equivalent of FCA.
+
+Contradictions with existing wiki: None. UK content unaffected. No overlap with existing pages.
+
+Noted for future ingest:
+- 12 CFR Chapter X (eCFR) — official CFPB regulations (Regs B, E, V, Z, M, P, C, X)
+- Dodd-Frank Act Title X (statutory text)
+- CFPB UDAAP dedicated examination procedures section (remainder of manual not yet read; current UDAAP content sourced from §1036 statutory text as restated in Auto Finance section)
+
+---
+
+## 2026-05-14 | ingest | 12 CFR Part 1026 — Regulation Z (Truth in Lending)
+
+**Source:** `raw/us/12 CFR Part 1026 (up to date as of 5-12-2026).pdf` (1,395 pages; 25.9 MB)
+
+**Pages read:**
+- pp. 1–20: Table of contents; §1026.1 (coverage scope); §1026.2 (definitions: creditor, consumer, open-end, closed-end, consummation); §1026.3 (exempt transactions); §1026.4 (finance charge definition); beginning of §1026.5
+- pp. 21–40: §1026.6 (account-opening disclosures — home-equity and non-home-secured plans; Schumer Box content and format; 16-point APR requirement; all required table items); §1026.7 (periodic statement requirements including minimum payment warning and 36-month payoff estimate); §1026.8 (transaction identification); §1026.9 (subsequent disclosures: billing rights; change-in-terms 45-day notice; right to reject; 60-day delinquency rate increase rule)
+- pp. 60–79: §1026.16 (open-end advertising: "fixed" prohibition, introductory rate rules, deferred interest "if paid in full" requirement, balloon payment advertising); §1026.17 (Subpart C general disclosure requirements: form, timing, basis, estimates, early disclosures, mail/phone order delay); §1026.18 (content of closed-end disclosures — all 20 items of the TILA box including mortgage summary table §1026.18(s) and no-guarantee-to-refinance statement §1026.18(t)); §1026.19 (mortgage-specific timing: Loan Estimate, Closing Disclosure, fee restriction, good faith determination — zero/10%/no-tolerance tiers, revised Loan Estimates)
+- pp. 83–95: §1026.20 (post-consummation: refinancings; ARM rate adjustment notices — ongoing 60–120 day window, initial 210–240 day window; escrow cancellation notice); §1026.21 (treatment of credit balances); §1026.22 (APR determination: actuarial/US Rule; 1/8-point tolerance general; 1/4-point irregular; mortgage tolerances); §1026.23 (right of rescission: scope, 3-day exercise period, 3-year extended right if notice/disclosures not delivered, two-copy notice requirement, effects of rescission — security interest voids, 20-day return, consumer tender; exempt transactions; waiver for bona fide financial emergency; accuracy tolerances for rescission purposes); §1026.24 (closed-end advertising: available-terms rule, trigger terms, "fixed" prohibition, APR disclosure)
+- pp. 110–129: §1026.32 (high-cost mortgages — HOEPA: definition, counselling requirement, prohibited terms, late fee cap 4%, anti-evasion rule); §1026.33 (reverse mortgages); §1026.34 (prohibited acts for high-cost mortgages); §1026.35 (higher-priced mortgage loans: escrow requirement for first-lien HPML, appraisal requirement with interior inspection, second appraisal for rapid resales 90/180-day flip rule); §1026.36 (loan originator requirements: definition, compensation prohibition on loan terms, steering prohibition)
+
+**Pages created:**
+- `wiki/summaries/reg-z-truth-in-lending.md` — Full document summary: coverage (four conditions), exempt transactions, key definitions (finance charge, APR, open-end, closed-end, consummation), two-track disclosure structure, all seven subparts summarised, civil liability (15 USC 1640), Key Points for Agents
+- `wiki/concepts/reg-z-open-end-credit-disclosures.md` — Subpart B in full: account-opening disclosures (home-equity vs non-home-secured; Schumer Box format; all 15 required table items), periodic statements (all required items; minimum payment warning mandatory language; 36-month payoff estimate; deferred interest payoff date placement), change-in-terms (45-day notice; right to reject), advertising rules
+- `wiki/concepts/reg-z-closed-end-credit-disclosures.md` — Subpart C in full: general disclosure rules (form, timing, basis); TILA box (all 20 §1026.18 items); RESPA mortgage two-stage process (Loan Estimate + Closing Disclosure timing; fee restriction; good faith/tolerance tiers; revised Loan Estimates); right of rescission (scope, 3-day/3-year, notice requirements, effects, waiver, exemptions, accuracy tolerances); post-consummation (refinancings, ARM adjustment notices); closed-end advertising
+
+**Index updated:** Yes — new section "US — Regulation Z (Truth in Lending)" added to wiki/index.md
+
+**Key additions vs existing wiki:**
+- First coverage of TILA/Reg Z — no prior pages existed for this regulation
+- BNPL Reg Z scope confirmed via §1026.1(c)(1)(iii) (four-instalment prong)
+- Finance charge definition captures required third-party fees and required insurance; application fees charged to all applicants (approved or not) excluded
+- Right of rescission 3-year extended exposure documented with accuracy tolerances
+- TRID (Loan Estimate/Closing Disclosure) two-stage process documented with all key timing gates
+- Three-tier good faith tolerance framework (zero/10%/no tolerance) documented
+
+**No contradictions** with existing CFPB pages noted. Reg Z is an enumerated consumer law under the CFPB framework (cfpb-framework-overview); pages now cross-reference correctly.
+
+**Not yet read (Reg Z):**
+- Subpart D (§§1026.25–1026.30): record retention, oral disclosures, language requirements, state exemptions — lower priority for fintech concept pages
+- Subpart E in full (§§1026.31–1026.48): Loan Estimate (§1026.37) and Closing Disclosure (§1026.38) in detail — candidate for a dedicated mortgage-disclosures concept page
+- Subpart F (§§1026.46–1026.48): private education loans
+- Subpart G (§§1026.51–1026.57): credit card special rules (ability to pay, fee limits, payment allocation, rate restrictions) — content partially referenced in open-end concept page via Subpart G summary in the main summary page; a dedicated concept page would be beneficial
+
+**Noted for future ingest:**
+- Subpart E mortgage disclosure detail (§§1026.37–1026.38) — Loan Estimate and Closing Disclosure itemised content
+- Subpart G credit card special rules in detail
+- 12 CFR Part 1002 (Reg B — ECOA / credit discrimination)
+- 12 CFR Part 1005 (Reg E — EFTs, debit card overdraft, prepaid accounts)
