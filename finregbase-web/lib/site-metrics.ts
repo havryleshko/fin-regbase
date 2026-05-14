@@ -2,5 +2,5 @@ import { generatedSiteMetrics } from "./site-metrics.generated";
 
 export const siteMetrics = {
   ...generatedSiteMetrics,
-  jurisdiction: "UK",
+  jurisdictionsLabel: "UK and US",
 } as const;

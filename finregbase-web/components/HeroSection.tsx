@@ -20,8 +20,8 @@ export function HeroSection() {
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.15 }}
         className="mt-6 max-w-3xl text-base leading-7 text-text-secondary md:text-xl md:leading-8"
       >
-        {siteMetrics.articleCount} structured, citation-accurate articles across{" "}
-        {siteMetrics.jurisdiction} FCA regulations -
+        {siteMetrics.articleCount} structured, citation-accurate articles spanning{" "}
+        {siteMetrics.jurisdictionsLabel} — UK FCA coverage and US federal consumer finance (Reg Z, Reg E) —
         queryable via MCP from any AI agent or development environment.
       </motion.p>
       <motion.p
@@ -30,7 +30,7 @@ export function HeroSection() {
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.22 }}
         className="mt-3 max-w-3xl text-sm leading-6 text-text-secondary md:text-base md:leading-7"
       >
-        Built for AI engineers and LLM developers shipping agents that touch UK financial regulation.
+        Built for AI engineers and LLM developers shipping agents that touch UK or US financial regulation.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 14 }}

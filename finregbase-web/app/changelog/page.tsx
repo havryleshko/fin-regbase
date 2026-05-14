@@ -4,7 +4,7 @@ import { changelogEntries } from "@/lib/changelog";
 
 export const metadata: Metadata = {
   title: "Changelog | finregbase.com",
-  description: "Version and release transparency log for finregbase.com",
+  description: "Release notes for finregbase.com and the public fin-regbase wiki surface.",
 };
 
 export default function ChangelogPage() {

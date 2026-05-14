@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://finregbase.com"),
   title: "finregbase.com",
   description:
-    "Financial regulations knowledge base for AI agents. Query UK FCA coverage via MCP and connect in minutes.",
+    "Financial regulations knowledge base for AI agents. UK FCA and US consumer finance (Reg Z, Reg E) via MCP — connect in minutes.",
   openGraph: {
     title: "finregbase.com",
     description:
-      "Financial regulations knowledge base for AI agents. Query UK FCA coverage via MCP and connect in minutes.",
+      "Financial regulations knowledge base for AI agents. UK FCA and US consumer finance (Reg Z, Reg E) via MCP — connect in minutes.",
     url: "https://finregbase.com",
     siteName: "finregbase.com",
     images: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "fin-regbase - Financial regulations knowledge base for AI agents",
+        alt: "fin-regbase — UK and US financial regulations knowledge base for AI agents",
       },
     ],
     locale: "en_GB",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "finregbase.com",
     description:
-      "Financial regulations knowledge base for AI agents. Query UK FCA coverage via MCP and connect in minutes.",
+      "Financial regulations knowledge base for AI agents. UK FCA and US consumer finance (Reg Z, Reg E) via MCP — connect in minutes.",
     images: ["/og-image.png"],
   },
 };

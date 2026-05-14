@@ -25,7 +25,7 @@ const setupSteps: ReactNode[] = [
   <>
     Run {code("uv sync")} in {code("mcp-server")}.
   </>,
-  "Replace the absolute paths in the config above, then paste it into your MCP client.",
+  "Replace the absolute paths in the config (including WIKI_PATH if your wiki directory is non-standard), then paste it into your MCP client.",
   "Ask your agent a compliance question.",
 ];
 

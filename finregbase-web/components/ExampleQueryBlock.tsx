@@ -26,6 +26,7 @@ export function ExampleQueryBlock() {
       <p className="text-xs font-medium uppercase tracking-[0.16em] text-text-secondary">
         Example query
       </p>
+      <p className="mt-1 text-xs text-text-secondary">UK · FCA Consumer Duty (illustrative)</p>
       <h2 className="mt-2 text-2xl font-semibold tracking-tight text-text-primary md:text-3xl">
         What an agent gets back
       </h2>

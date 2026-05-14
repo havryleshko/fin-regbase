@@ -7,6 +7,18 @@ export type ChangelogEntry = {
 
 export const changelogEntries: ChangelogEntry[] = [
   {
+    date: "2026-05-14",
+    title: "US Regulation E and wiki scale-up",
+    summary:
+      "Regulation E (12 CFR Part 1005) summaries and concepts landed alongside ongoing UK work. Public site copy now reflects UK and US coverage.",
+    links: [
+      {
+        label: "Browse the wiki",
+        href: "https://github.com/havryleshko/fin-regbase/tree/main/wiki",
+      },
+    ],
+  },
+  {
     date: "2026-05-06",
     title: "Site refresh",
     summary:
@@ -14,9 +26,9 @@ export const changelogEntries: ChangelogEntry[] = [
   },
   {
     date: "2026-05-06",
-    title: "Coverage expanded to 150 articles",
+    title: "Coverage depth (UK)",
     summary:
-      "CASS, MAR, APP fraud reimbursement (PSR PS23/3) and the full UK GDPR / DUA Act 2025 review added.",
+      "CASS, MAR, APP fraud reimbursement (PSR PS23/3), SYSC, and full UK GDPR including DUA Act 2025 alignment work in the wiki.",
     links: [
       {
         label: "Browse the wiki",

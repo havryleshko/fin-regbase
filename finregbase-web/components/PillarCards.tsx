@@ -9,7 +9,7 @@ const pillars = [
   },
   {
     title: "Citation-accurate by design",
-    body: "Every claim cites the exact FCA rule, PS section, or paragraph. CISI-level accuracy standard.",
+    body: "Every claim cites the applicable FCA or US CFR rule, handbook section, or paragraph. CISI-level accuracy standard.",
   },
   {
     title: "Plain files, no lock-in",

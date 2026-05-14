@@ -21,6 +21,10 @@ const coverage = [
     lines: ["Senior Managers", "Certification", "Conduct Rules"],
   },
   {
+    topic: "SYSC",
+    lines: ["SYSC 4 governance", "SYSC 6 compliance and audit", "SYSC 15A outsourcing"],
+  },
+  {
     topic: "DISP",
     lines: ["Complaints handling", "Motor finance DCA", "FOS jurisdiction"],
   },
@@ -52,6 +56,14 @@ const coverage = [
     topic: "APP fraud",
     lines: ["PSR PS23/3", "Reimbursement scheme", "Liability allocation"],
   },
+  {
+    topic: "Regulation Z (TILA)",
+    lines: ["12 CFR Part 1026", "Open- and closed-end credit", "TRID · rescission · BNPL scope"],
+  },
+  {
+    topic: "Regulation E (EFTA)",
+    lines: ["12 CFR Part 1005", "Liability tiers", "Prepaid · gift cards · remittances"],
+  },
 ] as const;
 
 export function CoverageGrid() {
@@ -61,7 +73,7 @@ export function CoverageGrid() {
         What&apos;s inside
       </p>
       <h2 className="mt-2 text-2xl font-semibold tracking-tight text-text-primary md:text-3xl">
-        {siteMetrics.articleCount} articles across UK FCA regulations
+        {siteMetrics.articleCount} articles across UK and US financial regulation
       </h2>
       <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {coverage.map((card, index) => (
@@ -83,11 +95,11 @@ export function CoverageGrid() {
         ))}
       </div>
       <p className="mt-5 text-sm text-text-secondary">
-        Updated {siteMetrics.lastUpdated} · {siteMetrics.jurisdiction} jurisdiction ·
-        FCA-grade citation discipline
+        Updated {siteMetrics.lastUpdated} · {siteMetrics.jurisdictionsLabel} · Rule- and section-level
+        citations
       </p>
       <p className="mt-2 text-sm text-text-secondary">
-        Reviewed against the FCA Handbook and ICO guidance on each ingest.
+        Reviewed against the FCA Handbook, ICO guidance, and US eCFR sources on each ingest.
       </p>
       <a
         href="https://github.com/havryleshko/fin-regbase/tree/main/wiki"
