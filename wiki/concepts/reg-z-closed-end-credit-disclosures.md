@@ -1,5 +1,5 @@
 ---
-title: "Reg Z — Closed-End Credit Disclosures (Subpart C)"
+title: Reg Z — Closed-End Credit Disclosures (Subpart C)
 jurisdiction: US
 regulator: CFPB
 regulation: Truth in Lending Act (15 USC 1601 et seq.); 12 CFR Part 1026 Subpart C (§§1026.17–1026.24)
@@ -8,8 +8,27 @@ status: current
 effective_date: 1969-07-01
 last_updated: 2026-05-14
 sources:
-  - "12 CFR Part 1026 (Regulation Z) — up to date as of 5 May 2026 (eCFR enhanced display)"
-tags: [CFPB, US, Reg-Z, TILA, closed-end, installment-loan, auto-loan, personal-loan, BNPL, TILA-box, right-of-rescission, APR, finance-charge, mortgage, TRID, Loan-Estimate, Closing-Disclosure, b2c, consumer-credit]
+  - 12 CFR Part 1026 (Regulation Z) — up to date as of 5 May 2026 (eCFR enhanced display)
+tags:
+  - CFPB
+  - US
+  - Reg-Z
+  - TILA
+  - closed-end
+  - installment-loan
+  - auto-loan
+  - personal-loan
+  - BNPL
+  - TILA-box
+  - right-of-rescission
+  - APR
+  - finance-charge
+  - mortgage
+  - TRID
+  - Loan-Estimate
+  - Closing-Disclosure
+  - b2c
+  - consumer-credit
 related:
   - summaries/reg-z-truth-in-lending.md
   - concepts/reg-z-open-end-credit-disclosures.md

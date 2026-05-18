@@ -3016,3 +3016,91 @@ No contradictions with existing wiki pages. Reg V intersects with: Reg B (medica
 - 12 CFR Part 1024 (Reg X — RESPA)
 - 12 CFR Part 1003 (HMDA / Regulation C)
 - 12 CFR Part 1016 (Reg P — Privacy of Consumer Financial Information / GLB Act)
+
+## [2026-05-16] ingest | Dodd-Frank Wall Street Reform and Consumer Protection Act, Title X — Bureau of Consumer Financial Protection (Public Law 111-203, 124 Stat. 1955–2113)
+
+**Source:** `raw/us/Title-X.pdf` — enrolled statutory text, §§1001–1100H (165 pages)
+
+**Pages created:**
+- `wiki/summaries/dodd-frank-title-x-cfpb.md`
+- `wiki/concepts/cfpb-bureau-structure-independence.md`
+- `wiki/concepts/cfpb-enforcement-powers.md`
+- `wiki/concepts/cfpb-state-law-preemption.md`
+
+**Pages updated:**
+- `wiki/concepts/cfpb-framework-overview.md` — added Title X enrolled text as third source; added four new related pages
+
+Key additions:
+- Bureau structure and independence: Director 5-year for-cause term (Seila Law context noted); Bureau within Federal Reserve but Fed cannot direct or interfere; Consumer Advisory Board (min. 6 members, twice-yearly meetings); Federal Reserve transfer funding (Year 3+ cap 12% of Fed operating expenses; not congressional appropriations; Consumer Financial Protection Fund at FRBNY); FSOC override 2/3 vote including Treasury Secretary for systemic-risk standard only (90-day stay then set-aside; de novo judicial review); designated transfer date July 21, 2011; seven predecessor agencies; internal offices (Fair Lending, Financial Education, Service Member Affairs, Older Americans, Ombudsman) (§§1011–1018)
+- Covered person definition (activity-based, not charter-based); 18 enumerated consumer laws A–R full table; supervision framework (non-depository §1024, large depositories >$10B §1025, service providers §1026); major exclusions (merchants, attorneys, auto dealers §1029, real estate brokers, insurance companies, tax preparers, accountants §1027–1029A); FSOC veto (systemic risk only §1023); arbitration authority §1028 (§§1021–1029A)
+- UDAAP prohibition §§1031/1036 (see cfpb-udaap.md for standards); disclosure authority §1032; consumer data access §1033 (§§1031–1037)
+- State law preservation (greater protection not preempted; "prevents or significantly interferes" inconsistency standard §1041); state AG enforcement with prior Bureau notice; Bureau intervention right; no concurrent action where Bureau pending §1042; national bank preemption unchanged — OCC Barnett Bank case-by-case standard, de novo judicial review §§1044/1047; visitorial powers with OCC §1046 (§§1041–1048)
+- Civil enforcement toolkit: CIDs (any person, four types of compelled disclosure, petition to modify, federal court enforcement §1052); administrative cease-and-desist (ALJ, temporary orders up to 60 days, final orders incl. activity bans §§1053–1054); civil penalty tiers ($5K/day Tier 1; $25K/day Tier 2 reckless; $1M/day Tier 3 knowing; inflation-adjusted; Civil Penalty Fund §1055); restitution/disgorgement/rescission remedies; 3-year discovery/5-year absolute SOL; whistleblower (180-day Labor complaint; internal reporting protected; confidentiality agreements void §1057) (§§1051–1057)
+- Transfer of functions: seven predecessor agencies (Fed Board, OCC, OTS, FDIC, FTC, NCUA, HUD); designated transfer date July 21, 2011; predecessor rules remain effective until Bureau amends §§1061–1067
+- Subtitle G additions: §1071 SBLDC (ECOA §704B — firewall, 20 fields, annual Bureau submission; see reg-b-small-business-lending-data-collection.md); §1073 remittance transfers (EFTA §919 — 30-min cancellation, 180-day error window, agent liability, 500-transfer safe harbor; see reg-e-remittance-transfers.md); §1075 Durbin Amendment (EFTA §920 — debit interchange fee cap, network exclusivity ban ≥2 unaffiliated networks, routing restriction ban, <$10B small issuer exemption) (§§1071–1079A)
+- Subtitle H conforming amendments: 25+ statutes; HMDA new §304(b) data fields (credit score, points and fees, APR-benchmark spread, prepayment penalty, loan channel, parcel number, universal loan ID); RESPA-TILA integrated disclosure mandate; TILA dollar caps $25K→$50K (CPI-adjusted annually after Dec 31, 2011); FCRA §615 adverse action notices must include credit score; Bureau as "covered agency" for regulatory flexibility analyses (§§1081–1100H)
+
+No contradictions with existing wiki pages. Title X is the statutory foundation for all existing cfpb-* concept pages and the reg-b and reg-e concept pages that implement §§1071 and 1073 respectively. The Durbin Amendment (§1075) adds debit interchange content not yet covered by a dedicated wiki page — flagged for future concept page covering 12 CFR Part 235 (Regulation II).
+
+**Noted for future ingest:**
+- 12 CFR Part 235 (Regulation II — Debit Card Interchange Fees and Routing) — statutory basis now documented in summaries/dodd-frank-title-x-cfpb.md §1075
+- 12 CFR Part 1024 (Reg X — RESPA) — RESPA-TILA integrated disclosure mandate in §1098/§1100A now documented
+- 12 CFR Part 1003 (HMDA / Regulation C) — new §304(b) HMDA data fields in §1094 now documented
+- 12 CFR Part 1016 (Reg P — GLB Privacy) — GLB §§502–509 enumerated in Title X §1002(12)(P)
+
+## [2026-05-18] ingest | 12 CFR Part 1024 — Regulation X (Real Estate Settlement Procedures Act)
+
+**Source:** `raw/us/12 CFR Part 1024 (up to date as of 5-14-2026).pdf` — CFPB official text, §§1024.1–1024.41 + Appendices and Supplement I (154 pages)
+
+**Pages created:**
+- `wiki/summaries/reg-x-respa.md`
+- `wiki/concepts/reg-x-section-8-kickbacks-afba.md`
+- `wiki/concepts/reg-x-escrow-accounts.md`
+- `wiki/concepts/reg-x-mortgage-servicing.md`
+
+Key additions:
+- Scope: "federally related mortgage loan" definition (§1024.2) — 1–4 family residential; federally regulated lender; FHA/VA/USDA insured; intended for sale to FNMA/FHLMC/GNMA; or lender originating >$1M/yr in residential mortgage loans; six express exemptions (business-purpose, temporary construction, vacant land, assumption without lender approval, loan conversion, secondary market transfer §1024.5(b))
+- Subpart B disclosures: GFE 3-business-day delivery; binding on lender; changed circumstances allow revised GFE within 3 days; tolerance tiers (zero-tolerance: origination charges, locked-rate credits/charges, transfer taxes; 10% aggregate: lender-required services where lender selects provider, lender-required title/title insurance using lender-identified provider, government recording charges; unlimited: all other services §1024.7(e)); HUD-1/HUD-1A borrower inspection right day before settlement (§1024.8)
+- Section 8 kickback prohibition (§1024.14): "thing of value" extremely broadly defined (cash, equity, discounts, trips, reduced rent, below-market services, marketing support); "agreement or understanding" established by practice, pattern, or course of conduct without any written contract; criminal $10K/1yr per violation; civil 3× total settlement service charge + attorneys' fees; 1-year SOL for private claims
+- AfBA safe harbor (§1024.15): all 3 conditions mandatory simultaneously — (1) written Appendix D disclosure at time of referral; (2) no requirement to use affiliated provider (narrow exceptions: lender-chosen attorney, CRA, appraiser); (3) only return = ownership interest or bona fide franchise fee; "control" = >20% voting interest; failure of any one condition destroys safe harbor entirely
+- Escrow account limits (§1024.17): cushion cap 1/6 of estimated total annual disbursements (~2 months); no pre-accrual; aggregate accounting mandatory (Appendix E); initial escrow statement at or within 45 days of settlement; annual statement within 30 days of computation year end; delinquency exception (>30 days delinquent — annual statement not required); surplus ≥$50 refunded within 30 days (delinquent borrower exception); shortage ≥1 month repaid over ≥12 months; deficiency ≥1 month over ≥12 months
+- Subpart C servicing: small servicer exemption (≤5,000 loans originated/owned — exempt from §§1024.40/1024.41 §1024.30(b)); servicing transfer notices (transferor ≥15 days before; transferee ≤15 days after; 60-day grace period for payments sent to old servicer §1024.33); force-placed insurance two-notice requirement (first ≥45 days before; reminder ≥30 days after + ≥15 days before charging §1024.37); early intervention (live contact day 36; written notice day 45 §1024.39); continuity of contact SPOC/team with direct access to all information and authority to stop foreclosure proceedings (§1024.40)
+- Error resolution (§1024.35): 11 defined categories including failure to accept timely payment, improper payment application, unreasonable fee imposition, payoff balance failure, loss mitigation information failure, first foreclosure notice in violation of §1024.41, foreclosure sale in violation of §1024.41; 5-day acknowledgment; 7 business days payoff / before foreclosure sale or 30 days foreclosure-related / 30 days all others; +15-day extension with written notice; no fees; 60-day adverse credit reporting freeze on disputed payment from receipt of notice
+- Loss mitigation dual tracking prohibition (§1024.41): no first foreclosure notice/filing if complete application received 37+ days before scheduled foreclosure sale; reasonable diligence obligation to obtain documents (cannot passively wait); 5-day acknowledgment with complete/incomplete status; evaluate all available options within 30 days; appeal right for loan modification denials only — 14-day window; servicer determination within 30 days; no foreclosure sale during pending appeal
+- TRID relationship: GFE/HUD-1 replaced by Loan Estimate/Closing Disclosure for applications received on/after October 3, 2015 (TRID implemented through Reg Z Subpart E per Dodd-Frank §§1098/1100A); Section 8 and escrow rules remain operative for TRID-covered transactions
+
+No contradictions with existing wiki pages. Reg Z (summaries/reg-z-truth-in-lending.md, concepts/reg-z-closed-end-credit-disclosures.md) references RESPA TRID — consistent with this ingest's characterisation of TRID as a Reg Z mechanism that replaced Reg X GFE/HUD-1. The CFPB framework overview (concepts/cfpb-framework-overview.md) lists Reg X as a CFPB-administered regulation — consistent.
+
+**Noted for future ingest:**
+- 12 CFR Part 1003 (HMDA / Regulation C) — next Tier 1 priority
+- 12 CFR Part 1016 (Reg P — GLB Privacy) — Tier 1 after Reg C
+- 12 CFR Part 1026 Subpart E (TRID / Reg Z mortgage disclosures) — TRID is now referenced in both Reg X and Reg Z summaries; a dedicated concept page for TRID would consolidate the Loan Estimate/Closing Disclosure tolerance structure
+
+## [2026-05-18] ingest | 12 CFR Part 1003 — Regulation C (Home Mortgage Disclosure Act)
+
+**Source:** `raw/us/12 CFR Part 1003 (up to date as of 5-14-2026).pdf` — CFPB official text, §§1003.1–1003.6 + Appendices B–C and Supplement I (92 pages)
+
+**Pages created:**
+- `wiki/summaries/reg-c-hmda.md`
+- `wiki/concepts/reg-c-coverage-and-exemptions.md`
+- `wiki/concepts/reg-c-data-fields.md`
+
+Key additions:
+- Statutory purposes: (1) community needs assessment; (2) public investment direction; (3) discriminatory lending identification; HMDA data are primary public dataset for fair lending analysis (§1003.1(b))
+- Depository coverage — five-part AND test: assets >$59M (2026, CPI-adjusted annually on CPI-W Nov 12-month change); MSA office as of Dec 31; ≥1 home purchase/refinancing origination secured by first lien on 1–4 unit dwelling in prior year; federally insured/regulated OR FNMA/FHLMC intent; ≥25 closed-end OR ≥200 open-end originations in each of two preceding years (§1003.2(g)(1)); non-depository two-part test: MSA office + volume (no asset threshold §1003.2(g)(2))
+- Excluded transactions: 13 categories including fiduciary; unimproved land (unless proceeds for dwelling within 2 years); temporary financing (construction-only designed to be replaced — auto-convert construction loan is NOT temporary); pool interests; servicing-only; merger branch acquisitions; <$500; partial interest; agricultural; business/commercial purpose (with home purpose override); <25 closed-end in either preceding year (optional reporting permitted); <200 open-end in either preceding year (optional reporting permitted); NY CEMA §1003.3(c)(13) (§1003.3(c))
+- Business-purpose override (§1003.3(c)(10)): business-purpose loans are excluded UNLESS they also meet home purchase, home improvement, or refinancing definitions; covered despite business purpose: loans to corporations for multifamily dwelling purchase/improvement, investment property purchase, or any dwelling-secured refinancing; excluded: restaurant renovation not in dwelling, inventory purchase, loans for commercial purposes other than home purchase/improvement/refinancing even if cross-collateralised
+- Partial exemption (§1003.3(d)): insured depositories and CUs with <500 closed-end OR <500 open-end originations not excluded under §1003.3(c)(1)-(10)/(c)(13) in each of two preceding years exempt from collecting/recording/reporting "optional data" (26 fields including APOR spread, credit score and model, AUS name/result, DTI, CLTV, total loan costs, points and fees, discount points, lender credits, interest rate, prepayment penalty, introductory rate period, contractual features, property value, manufactured home fields, affordable housing units, application channel); CRA disqualifier: "needs to improve" on both two most recent exams OR "substantial noncompliance" on most recent exam denies exemption as of preceding Dec 31 (§1003.3(d)(6)); subsidiaries cannot inherit parent's exemption — must qualify independently (Supplement I comment 3(d)-5); voluntary optional data reporting must cover all sub-fields for any reported optional paragraph; NULI (up to 22 chars, unique within LAR, no PII) for partially exempt transactions (§1003.3(d)(5))
+- 38 data fields (§1003.4(a)): full field list documented in summary; key fields: ULI (field 1); loan purpose incl. cash-out refinancing (field 3); ethnicity/race/sex by visual observation flag (field 10); APOR rate spread (field 12, optional); credit score + scoring model (field 15, optional); denial reasons up to 4 (field 16); total loan costs OR total points and fees (field 17, optional); AUS name and result (field 35, optional); application channel (field 33, optional); business purpose flag (field 38)
+- ULI structure: LEI (20-char GLEIF-issued) + up to 23 loan identifier chars (no PII) + 2-char check digit (ISO/IEC 7064 MOD 97-10: alphabetic substitution → append "00" → mod(n,97) → 98-result → leading zero if 1 digit); uniqueness within institution required; purchased loans carry over original ULI — purchaser may not generate new ULI; NULI option for partial exemptions (§1003.4(a)(1)(i); Appendix C)
+- Multi-institution reporting: only credit decision maker reports origination; broker forwarding to lender = not direct submission; agent vs. principal under state law; application channel field reflects direct/indirect and whether initially payable to reporting institution (Supplement I comment 4(a)-2 through -4)
+- APOR rate spread: APR minus APOR for comparable transaction as of rate-set date; comparable = same amortization type and loan term (fixed: maturity; variable: initial fixed-rate period; balloon: loan term not amortization); rate-set date = date lock executed for locked loans; for brokered loans = date institution (not broker) set the rate; APOR published weekly by FFIEC/Bureau (Supplement I comment 4(a)(12)-1 through -9)
+- AUS reporting: AUS must be developed by securitizer or Federal government insurer/guarantor; proprietary models = "not applicable"; multiple AUS priority: loan type → purchaser/insurer/guarantor → closest to credit decision; max 5 AUS/results; FHA TOTAL Scorecard is an AUS (Supplement I comment 4(a)(35)-1 through -3)
+- Reporting timeline: LAR recorded within 30 days of quarter-end; annual submission by March 1; quarterly submission within 60 days of quarter-end for institutions with ≥60,000 covered loans/applications (excluding purchased) in prior year; quarterly threshold assessed per prior year; merger triggers quarterly obligation effective merger date; 3-year LAR retention (§§1003.4(f), 1003.5(a))
+- Bona fide error safe harbor: unintentional error despite reasonable procedures; FFIEC geocoding tool census tract error = bona fide; failure to report census tract or error from wrong address input = not bona fide (§1003.6(b))
+
+No contradictions with existing wiki pages. The Dodd-Frank Title X summary (dodd-frank-title-x-cfpb.md) references HMDA new §304(b) data fields in Subtitle H — consistent with this ingest documenting the 38 fields. The HMDA fields noted in the Dodd-Frank summary (credit score, points and fees, APR-benchmark spread, prepayment penalty, loan channel, parcel number, ULI) are a subset of the full 38 fields documented here; no contradiction.
+
+**Noted for future ingest:**
+- 12 CFR Part 1016 (Reg P — GLB Privacy) — next Tier 1 priority
+- 12 CFR Part 1026 Subpart E (TRID / Reg Z mortgage disclosures) — Loan Estimate/Closing Disclosure tolerance structure referenced in both Reg X and Reg Z summaries

@@ -72,6 +72,18 @@ const coverage = [
     topic: "Regulation Z (TILA)",
     lines: ["12 CFR Part 1026", "Open- and closed-end credit", "TRID · rescission · BNPL scope"],
   },
+  {
+    topic: "Regulation X (RESPA)",
+    lines: ["12 CFR Part 1024", "Section 8 kickbacks · AfBA safe harbour", "Loss mitigation · escrow · error resolution"],
+  },
+  {
+    topic: "Regulation C (HMDA)",
+    lines: ["12 CFR Part 1003", "38-field LAR · ULI · APOR spread", "Coverage thresholds · partial exemption"],
+  },
+  {
+    topic: "Dodd-Frank Title X",
+    lines: ["CFPB structure · enforcement powers", "UDAAP · enumerated consumer laws", "State-law preemption · CIDs"],
+  },
 ] as const;
 
 export function CoverageGrid() {

@@ -7,6 +7,18 @@ export type ChangelogEntry = {
 
 export const changelogEntries: ChangelogEntry[] = [
   {
+    date: "2026-05-18",
+    title: "Dodd-Frank Title X, Reg X (RESPA), Reg C (HMDA) — wiki at 182 articles",
+    summary:
+      "Three new US ingest sessions completed. Dodd-Frank Title X statutory text (165 pp) adds CFPB Bureau structure, enforcement powers, state-law preemption, UDAAP, and 18 enumerated consumer laws. Regulation X / RESPA (12 CFR Part 1024) adds Section 8 kickback prohibition, AfBA safe harbour, escrow account caps, error resolution 60-day adverse credit freeze, and loss mitigation dual-tracking prohibition. Regulation C / HMDA (12 CFR Part 1003) adds the full 38-field LAR dataset, coverage five-part test, partial exemption mechanics, ULI construction, multi-institution reporting rule, and APOR rate-spread calculation.",
+    links: [
+      {
+        label: "Browse the wiki",
+        href: "https://github.com/havryleshko/fin-regbase/tree/main/wiki",
+      },
+    ],
+  },
+  {
     date: "2026-05-14",
     title: "US Reg B, Reg V, and wiki at 171 articles",
     summary:

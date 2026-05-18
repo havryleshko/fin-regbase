@@ -6,14 +6,19 @@ regulation: Dodd-Frank Wall Street Reform and Consumer Protection Act, Title X (
 direction: b2c
 status: current
 effective_date: 2011-07-21
-last_updated: 2026-05-14
+last_updated: 2026-05-16
 sources:
   - "CFPB Supervision and Examination Manual (March 2022) — Overview section"
   - "Dodd-Frank Act Title X, §§1021–1100H"
+  - "Public Law 111-203, Title X — enrolled text (July 21, 2010), 124 Stat. 1955–2113"
 tags: [CFPB, US, regulatory-framework, supervision, UDAAP, consumer-protection, fintech, b2c, Dodd-Frank]
 related:
+  - summaries/dodd-frank-title-x-cfpb.md
+  - concepts/cfpb-bureau-structure-independence.md
   - concepts/cfpb-compliance-management-system.md
   - concepts/cfpb-udaap.md
+  - concepts/cfpb-enforcement-powers.md
+  - concepts/cfpb-state-law-preemption.md
   - summaries/cfpb-supervision-examination-manual.md
 ---
 
