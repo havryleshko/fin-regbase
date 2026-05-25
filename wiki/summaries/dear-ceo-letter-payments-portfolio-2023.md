@@ -3,6 +3,7 @@ title: "FCA Priorities for Payments Firms — Portfolio Letter (March 2023)"
 jurisdiction: UK
 regulator: FCA
 regulation: PSRs 2017; EMRs 2011; Consumer Duty (PS22/9); SYSC 15A; FSMA 2000 s.178
+direction: b2b
 status: current
 effective_date: 2023-03-16
 last_updated: 2026-04-13

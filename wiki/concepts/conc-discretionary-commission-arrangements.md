@@ -3,6 +3,7 @@ title: "CONC — Discretionary Commission Arrangements (DCA Prohibition)"
 jurisdiction: UK
 regulator: FCA
 regulation: Consumer Credit sourcebook (CONC)
+direction: b2c
 status: current
 effective_date: 2021-01-28
 last_updated: 2026-04-19

@@ -3,6 +3,7 @@ title: "FCA Consumer Duty — Consumer Principle (Principle 12)"
 jurisdiction: UK
 regulator: FCA
 regulation: Consumer Duty (PS22/9); Principles for Businesses (PRIN)
+direction: b2c
 status: current
 effective_date: 2023-07-31
 last_updated: 2026-04-20

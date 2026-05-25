@@ -3,6 +3,7 @@ title: "FCA FCTR 8 — Sanctions Systems and Controls: Firms' Response to Increa
 jurisdiction: UK
 regulator: FCA
 regulation: FCG 7; SYSC 6.3; Principle 11 (PRIN 2.1.1R); SUP 15.3
+direction: b2b
 status: current
 effective_date: 2023-06-09
 last_updated: 2026-04-13

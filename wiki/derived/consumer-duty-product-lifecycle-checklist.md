@@ -3,6 +3,7 @@ title: "Consumer Duty — Product Lifecycle Checklist"
 jurisdiction: UK
 regulator: FCA
 regulation: Consumer Duty (PS22/9); PROD 3; FCA FG22/5
+direction: b2c
 status: current
 effective_date: 2023-07-31
 last_updated: 2026-04-22

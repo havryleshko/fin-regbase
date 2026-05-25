@@ -3,6 +3,7 @@ title: "Capital Requirements — Payment Institutions and E-Money Institutions"
 jurisdiction: UK
 regulator: FCA
 regulation: PSRs 2017 (Regs 6, 18–19, Schedule 3); EMRs 2011 (Regs 6–7, Schedule 2)
+direction: b2b
 status: current
 effective_date: 2017-01-13
 last_updated: 2026-04-16

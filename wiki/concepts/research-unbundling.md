@@ -3,6 +3,7 @@ title: "Research Unbundling — COBS 2.3B"
 jurisdiction: UK
 regulator: FCA
 regulation: COBS 2.3B; MiFID Delegated Directive art. 13
+direction: investment
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-04-30

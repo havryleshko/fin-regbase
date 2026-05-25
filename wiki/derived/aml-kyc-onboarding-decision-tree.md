@@ -3,6 +3,7 @@ title: "AML/KYC Onboarding Decision Tree"
 jurisdiction: UK
 regulator: FCA
 regulation: MLR 2017; POCA 2002; Terrorism Act 2000; FCA SYSC
+direction: b2b
 status: current
 effective_date: 2017-06-26
 last_updated: 2026-04-22

@@ -3,6 +3,7 @@ title: "UK GDPR — Personal Data Breach Notification (Articles 33–34)"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR Arts. 33, 34, 83(4); DPA 2018; PECR (DUA Act Aug 2025)
+direction: b2b
 status: current
 effective_date: 2018-05-25
 last_updated: 2026-04-15

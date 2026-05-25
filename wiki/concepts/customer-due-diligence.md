@@ -3,6 +3,7 @@ title: "Customer Due Diligence — CDD, EDD, SDD, Third-Party Reliance, Ongoing 
 jurisdiction: UK
 regulator: FCA / JMLSG
 regulation: Money Laundering Regulations 2017; SYSC 6.3
+direction: b2b
 status: current
 effective_date: 2017-06-26
 last_updated: 2026-04-13

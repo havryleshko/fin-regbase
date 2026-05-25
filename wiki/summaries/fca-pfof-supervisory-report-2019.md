@@ -3,6 +3,7 @@ title: "FCA Payment for Order Flow (PFOF) Supervisory Report (April 2019)"
 jurisdiction: UK
 regulator: FCA
 regulation: MiFID II; SYSC 10; COBS 2.1; COBS 11.2A; MiFID Organisational Requirements Regulation
+direction: investment
 status: current
 effective_date: 2019-04-01
 last_updated: 2026-04-13

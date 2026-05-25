@@ -3,6 +3,7 @@ title: "Regulatory Reporting and Notifications — PSRs 2017 and EMRs 2011"
 jurisdiction: UK
 regulator: FCA
 regulation: PSRs 2017; EMRs 2011; SUP 16; SUP 15.14
+direction: b2b
 status: current
 effective_date: 2017-01-13
 last_updated: 2026-04-16

@@ -3,6 +3,7 @@ title: "SUP 3 — Auditors"
 jurisdiction: UK
 regulator: FCA
 regulation: "SUP 3; FSMA 2000 ss.342, 343, 346; Companies Act 2006 Pt 16"
+direction: b2b
 status: current
 effective_date: 2001-12-01
 last_updated: 2026-05-04

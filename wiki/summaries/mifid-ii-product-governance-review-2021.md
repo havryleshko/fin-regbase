@@ -3,6 +3,7 @@ title: "MiFID II: Product Governance Review (February 2021)"
 jurisdiction: UK
 regulator: FCA
 regulation: MiFID II; PROD 3; SYSC; COBS; PRIN
+direction: investment
 status: current
 effective_date: 2021-02-26
 last_updated: 2026-04-13

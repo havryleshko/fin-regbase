@@ -3,6 +3,7 @@ title: "JMLSG Guidance Part I — Generic AML/CTF Guidance for the UK Financial 
 jurisdiction: UK
 regulator: JMLSG (Treasury-approved)
 regulation: Money Laundering Regulations 2017; POCA 2002; Terrorism Act 2000
+direction: b2b
 status: current
 effective_date: 2023-06-01
 last_updated: 2026-04-12

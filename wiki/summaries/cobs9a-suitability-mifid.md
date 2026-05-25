@@ -3,6 +3,7 @@ title: "COBS 9A — Suitability (MiFID and insurance-based investment products p
 jurisdiction: UK
 regulator: FCA
 regulation: COBS 9A (Conduct of Business Sourcebook) — April 2026
+direction: investment
 status: current
 effective_date: 2007-11-01
 last_updated: 2026-04-28

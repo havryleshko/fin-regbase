@@ -3,6 +3,7 @@ title: "Prudential Risk Management — Payment Institutions and E-Money Institut
 jurisdiction: UK
 regulator: FCA
 regulation: PSRs 2017; EMRs 2011; FCA FG20/1; FCA Approach Document
+direction: b2b
 status: current
 effective_date: 2017-01-13
 last_updated: 2026-04-13

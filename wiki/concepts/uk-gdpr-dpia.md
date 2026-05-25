@@ -3,6 +3,7 @@ title: "UK GDPR — Data Protection Impact Assessments (Arts. 35–36)"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR Arts. 35–36; DPA 2018; Recitals 84, 89–95
+direction: b2b
 status: current
 effective_date: 2018-05-25
 last_updated: 2026-04-16

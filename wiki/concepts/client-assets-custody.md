@@ -3,6 +3,7 @@ title: "Client Assets — Custody Framework (CASS 6)"
 jurisdiction: UK
 regulator: FCA
 regulation: CASS 6; MiFID Delegated Directive arts. 2–5
+direction: investment
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-05-02

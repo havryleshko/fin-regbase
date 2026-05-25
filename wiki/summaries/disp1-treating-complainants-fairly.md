@@ -3,6 +3,7 @@ title: "DISP 1 — Treating Complainants Fairly"
 jurisdiction: UK
 regulator: FCA
 regulation: "DISP (Dispute Resolution: Complaints sourcebook)"
+direction: b2c
 status: current
 effective_date: 2001-12-01
 last_updated: 2026-04-21

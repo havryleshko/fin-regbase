@@ -3,6 +3,7 @@ title: "UK GDPR — Security of Processing (Article 32)"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR Art. 5(1)(f); Art. 32; DPA 2018
+direction: b2b
 status: current
 effective_date: 2018-05-25
 last_updated: 2026-05-05

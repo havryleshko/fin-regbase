@@ -3,6 +3,7 @@ title: "CASS 10 — CASS Resolution Pack (Sourcebook Reference)"
 jurisdiction: UK
 regulator: FCA
 regulation: CASS 10; MiFID Delegated Directive art. 2(5)
+direction: investment
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-05-03

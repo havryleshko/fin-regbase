@@ -3,6 +3,7 @@ title: "SYSC 9 — Record-Keeping"
 jurisdiction: UK
 regulator: FCA
 regulation: "SYSC (Senior Management Arrangements, Systems and Controls sourcebook), Chapter 9"
+direction: b2b
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-04-22

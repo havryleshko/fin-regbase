@@ -3,6 +3,7 @@ title: "UK GDPR — Data Protection by Design and by Default (Art. 25)"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR Art. 25; DPA 2018; Data (Use and Access) Act 2025; Recital 78
+direction: b2b
 status: current
 effective_date: 2018-05-25
 last_updated: 2026-04-16

@@ -3,6 +3,7 @@ title: "PROD 3 — Product Governance: MiFID"
 jurisdiction: UK
 regulator: FCA
 regulation: Product Intervention and Product Governance Sourcebook (PROD 3); MiFID II
+direction: investment
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-04-29

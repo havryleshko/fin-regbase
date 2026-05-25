@@ -3,6 +3,7 @@ title: "COBS 2 — Conduct of Business Obligations (Sourcebook Reference)"
 jurisdiction: UK
 regulator: FCA
 regulation: "Conduct of Business Sourcebook (COBS), Chapter 2 — Conduct of business obligations"
+direction: investment
 status: current
 effective_date: 2007-11-01
 last_updated: 2026-05-05

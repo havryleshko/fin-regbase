@@ -3,6 +3,7 @@ title: "AML/CTF Regulatory Framework — Governance, MLRO, Risk Assessment, and 
 jurisdiction: UK
 regulator: FCA
 regulation: Money Laundering Regulations 2017; SYSC 3.2.6R–J; SYSC 6.3; POCA 2002; Terrorism Act 2000
+direction: b2b
 status: current
 effective_date: 2017-06-26
 last_updated: 2026-04-13

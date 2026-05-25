@@ -3,6 +3,7 @@ title: "CONC 8 — Debt Advice (Sourcebook Reference)"
 jurisdiction: UK
 regulator: FCA
 regulation: "Consumer Credit sourcebook (CONC), Chapter 8 — Debt advice"
+direction: b2c
 status: current
 effective_date: 2014-04-01
 last_updated: 2026-05-05

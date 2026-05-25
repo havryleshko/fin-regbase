@@ -3,6 +3,7 @@ title: "Wind-Down Planning — Payment Institutions and E-Money Institutions"
 jurisdiction: UK
 regulator: FCA
 regulation: PSRs 2017; EMRs 2011; FCA Approach Document §3.73–3.76
+direction: b2b
 status: current
 effective_date: 2020-07-01
 last_updated: 2026-04-13

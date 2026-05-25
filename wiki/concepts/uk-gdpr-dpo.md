@@ -3,6 +3,7 @@ title: "UK GDPR — Data Protection Officer (Arts. 37–39)"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR Arts. 37–39; DPA 2018; Recital 97
+direction: b2b
 status: current
 effective_date: 2018-05-25
 last_updated: 2026-04-16

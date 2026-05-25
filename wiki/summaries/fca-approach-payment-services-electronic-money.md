@@ -3,6 +3,7 @@ title: "FCA Approach Document — Payment Services and Electronic Money (v7, Mar
 jurisdiction: UK
 regulator: FCA
 regulation: PSRs 2017; EMRs 2011; SCA-RTS; PSD2 (on-shored)
+direction: b2b
 status: current
 effective_date: 2017-01-13
 last_updated: 2026-04-16

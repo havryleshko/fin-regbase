@@ -3,6 +3,7 @@ title: "Proliferation Financing — MLR Reg 18A Risk Assessment and Trade Contro
 jurisdiction: UK
 regulator: FCA / OFSI / Export Control Organisation
 regulation: Money Laundering Regulations 2017 Reg 18A; FCG 7.2.5; Anti-Terrorism, Crime and Security Act 2001; Counter-Terrorism Act 2008
+direction: b2b
 status: current
 effective_date: 2022-03-14
 last_updated: 2026-04-13

@@ -3,6 +3,7 @@ title: "Strong Customer Authentication (SCA) — PSRs 2017 and SCA-RTS"
 jurisdiction: UK
 regulator: FCA
 regulation: PSRs 2017 (Reg 100); SCA-RTS (FCA, effective 31 December 2020); EBA Guidelines on SCA and CSC
+direction: b2c
 status: current
 effective_date: 2019-09-14
 last_updated: 2026-04-16

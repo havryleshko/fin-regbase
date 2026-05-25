@@ -3,6 +3,7 @@ title: "Appropriateness vs Suitability — The COBS Framework"
 jurisdiction: UK
 regulator: FCA
 regulation: COBS 3; COBS 9; COBS 9A; COBS 10; COBS 10A; COBS 9B
+direction: investment
 status: current
 effective_date: 2007-11-01
 last_updated: 2026-04-29

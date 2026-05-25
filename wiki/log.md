@@ -3104,3 +3104,86 @@ No contradictions with existing wiki pages. The Dodd-Frank Title X summary (dodd
 **Noted for future ingest:**
 - 12 CFR Part 1016 (Reg P — GLB Privacy) — next Tier 1 priority
 - 12 CFR Part 1026 Subpart E (TRID / Reg Z mortgage disclosures) — Loan Estimate/Closing Disclosure tolerance structure referenced in both Reg X and Reg Z summaries
+
+## [2026-05-18] ingest | 12 CFR Part 1016 — Regulation P (Privacy of Consumer Financial Information)
+
+**Source:** `raw/us/12 CFR Part 1016 (up to date as of 5-14-2026).pdf` — CFPB official text, §§1016.1–1016.17 + Appendix (model privacy form) (48 pages)
+
+**Pages created:**
+- `wiki/summaries/reg-p-glb-privacy.md`
+- `wiki/concepts/reg-p-notice-requirements.md`
+- `wiki/concepts/reg-p-disclosure-limits-and-opt-out.md`
+
+Key additions:
+- Consumer/customer distinction: "customer" = consumer with continuing relationship (deposit/investment account, loan, insurance, custodial investment product, home mortgage brokerage agreement, personal property lease, advisory services for fee); customer requires initial notice at/before relationship establishment + annual notice; consumer requires notice only before non-excepted disclosure to nonaffiliated third party; no continuing relationship = isolated transactions (ATM at another institution, cashier's check, isolated travel product purchase, sold loan where no servicing rights retained) (§§1016.3(e),(i),(j))
+- Annual notice exception (§1016.5(e)): no annual notice required if (1) institution shares NPI only under §§1016.13 (service provider/joint marketing), 1016.14 (transaction processing), or 1016.15 (other exceptions); AND (2) policies/practices not changed since last notice; losing the exception — if change requires revised notice (§1016.8): deliver annual notice per normal timing; if change does not require revised notice: deliver annual notice within 100 days of the change
+- Three-tier disclosure framework: Tier 1 (marketing to nonaffiliated third parties — initial notice + opt-out notice + 30-day reasonable opportunity; opt-out applies to all NPI including pre-opt-out collected); Tier 2 (service provider/joint marketing §1016.13 — initial notice only + written contract restricting third party from using NPI for own purposes; no opt-out required; "joint agreement" = written contract); Tier 3 (transaction processing §1016.14 + other exceptions §1016.15 — no notice, opt-out, or written contract required); affiliate sharing entirely outside Regulation P (FCRA Reg V §§1022.20–1022.27 applies separately to affiliate marketing)
+- Account number prohibition (§1016.12): absolute ban on disclosing account numbers or similar access codes to nonaffiliated third parties for telemarketing, direct mail marketing, or email marketing; no opt-out waiver cures this; two narrow exceptions: (1) agent/service provider performing marketing for institution's own products where agent not authorised to directly initiate charges; (2) private-label credit card or affinity/similar program participants identified to customer at enrollment; encrypted account numbers in encrypted form OK if recipient not given decode means; transaction accounts (accounts to which third parties cannot directly initiate charges) excluded
+- Redisclosure limits (§1016.11): third party receiving NPI under a §1016.14/1016.15 exception may only: disclose to originating institution's affiliates; disclose to own affiliates; use to carry out the purpose for which the exception applied — may not use for own marketing purposes
+- Opt-out duration and mechanics: permanent until revoked in writing or electronically; survives relationship termination (applies to NPI from former relationship); new customer relationship does not automatically reset prior opt-out direction; must implement as soon as reasonably practicable; consumer may opt out at any time; partial opt-out permitted; reasonable means: checkboxes, reply forms, electronic, toll-free number; unreasonable: requiring consumer to write own letter; at least 30 days reasonable opportunity before disclosure
+- Model privacy form: Appendix contains four standardised versions (no opt-out; telephone/online opt-out; mail-in opt-out; optional mail-in opt-out); use consistent with Instructions constitutes compliance with §§1016.6/1016.7 content requirements; safe harbour but not mandatory; minimum 10-point type; portrait orientation
+- §1016.15 other exceptions: consumer consent; fraud/security/risk control; attorneys/accountants/auditors; law enforcement (RFPA 1978, banking examiners, Treasury BSA records, FTC, SROs, public safety); FCRA consumer reporting agencies; corporate transactions (proposed or actual sale, merger, transfer); legal compulsion (federal/state/local laws, judicial process, regulatory authority)
+- FCRA interaction (§1016.16): Regulation P does not modify or supersede FCRA; no inference from Regulation P about whether information is transaction or experience information under FCRA §603; FCRA affiliate marketing opt-out (Reg V §§1022.20–1022.27, minimum 5-year opt-out, pre-existing business relationship exception 18 months/3 months) applies independently; opt-out notices may be consolidated
+- State law floor (§1016.17): state statutes providing greater consumer protection are not inconsistent with Regulation P and are preserved; Regulation P is a federal floor, not a ceiling
+
+No contradictions with existing wiki pages. The Reg V affiliate marketing opt-out concept page (reg-v-affiliate-marketing-opt-out.md) notes that the opt-out notice may be consolidated with the GLB privacy notice — consistent with §1016.16 here. The CFPB framework overview (cfpb-framework-overview.md) lists Reg P (12 CFR Part 1016) in the enumerated consumer laws table — consistent.
+
+**Noted for future ingest:**
+- 12 CFR Part 1026 Subpart E (TRID / Reg Z mortgage disclosures) — Loan Estimate/Closing Disclosure tolerance structure referenced in both Reg X and Reg Z summaries; dedicated concept page would consolidate
+- State privacy law survey (CCPA/CPRA, NY DFS Part 500, Vermont) — referenced in §1016.17 state law interaction
+
+## [2026-05-18] lint
+
+Full lint pass across all 185 pages.
+
+**Findings:**
+- Orphan pages: 0
+- Broken wikilinks: 0 (pipe-aliased wikilinks verified correctly)
+- Index/file mismatches: 0
+- Concept gaps: 0
+- `direction` field missing from 150 pages (all pre-US-expansion UK pages and derived pages)
+
+**Fix applied:**
+- Added `direction:` frontmatter field to all 150 affected pages
+- Values assigned: `b2c` (consumer-facing), `b2b` (business-facing/governance/AML), `investment` (suitability/COBS/CASS/MAR)
+- All 185 pages now have all 11 required frontmatter fields
+
+## 2026-05-18 ingest | 31 CFR Part 1010 — Bank Secrecy Act General Provisions
+
+Source: `raw/us/31 CFR Part 1010 (up to date as of 5-14-2026).pdf` (FinCEN official text, 115pp)
+
+Pages created:
+- `wiki/summaries/bsa-fincen-general-provisions.md` — Full summary: Subparts A–J; MSB definitions; CDD rule §1010.230; five reporting regimes (CTR, SAR, Form 8300, CMIR, FBAR); travel rule; BOI reporting §1010.380; 314(a)/(b) information sharing; Subpart F special diligence (correspondent account DD, private banking, shell bank prohibition, special measures); enforcement and penalties
+- `wiki/concepts/bsa-reporting-obligations.md` — CTR, SAR, Form 8300, CMIR, FBAR thresholds/deadlines/recipients; aggregation rules; structuring prohibition; travel rule ≥$3K; monetary instruments $3K–$10K records
+- `wiki/concepts/bsa-cdd-and-boi.md` — CDD rule §1010.230 (FI obligation; 25%+control prongs; 16 excluded categories; reliance on other FI); BOI reporting §1010.380 (CTA; company obligation; 23+ exemptions; beneficial owner definition; reporting deadlines; FinCEN identifier; BOI confidentiality; penalties)
+- `wiki/concepts/bsa-correspondent-accounts-special-diligence.md` — Subpart F: correspondent account DD §1010.610; private banking §1010.620; shell bank prohibition §1010.630; special measures §§1010.651–1010.664 (8 active designations including Huione Group Oct 2025); §1010.670 subpoena and termination
+- `wiki/concepts/bsa-information-sharing.md` — 314(a) mandatory FinCEN-directed searches; 314(b) voluntary FI-to-FI sharing with safe harbour; comparison table
+
+No contradictions with existing wiki pages. BSA is the first US b2b ingest; no prior coverage to conflict with.
+
+## 2026-05-19 ingest | 31 CFR Part 501 — OFAC Reporting, Procedures and Penalties + OFAC Framework for Compliance Commitments (May 2019)
+
+Sources:
+- `raw/us/31 CFR Part 501 (up to date as of 5-15-2026).pdf` (OFAC official text, 65pp)
+- `raw/us/framework_ofac_cc.pdf` (OFAC Framework for Compliance Commitments, May 2019, 12pp)
+
+Pages created:
+- `wiki/summaries/ofac-general-provisions.md` — Full summary: Subpart B three reporting obligations (blocked property 10 business days/annual September 30/unblocking 10 business days; rejected transactions 10 business days; records on demand); 10-year retention §501.601; Subpart D TWEA penalty process (Pre-Penalty Notice → Penalty Notice [final agency action] → ALJ hearing → Secretary's designee review [prerequisite to judicial review] → DOJ referral if unpaid 30 days); 8 types of enforcement responses; statutory maximums by statute (IEEPA/TWEA/FNKDA/AEDPA/CDTA); 2×2 base penalty matrix (egregious × VSD); 11 General Factors A–K; Subpart E licensing (general self-executing, specific by application; denial ≠ preclusion; OFAC decision = final agency action §501.802); SDN delisting (OFAC.Reconsideration@treasury.gov); mistaken-identity unblocking §501.806 (OFACReport@treasury.gov); Framework 5 SCP components; 10 root causes of SCP breakdowns
+- `wiki/concepts/ofac-reporting-and-recordkeeping.md` — 10-year retention; records on demand (civil penalties $29,150/$72,876); blocked property reports (initial/annual/unblocking deadlines and penalties); rejected transaction reports; blocked vs. rejected distinction; litigation/arbitration notification; all-programmes applicability
+- `wiki/concepts/ofac-enforcement-and-penalties.md` — 8 enforcement response types; full TWEA civil penalty process with ALJ procedure detail; settlements; 11 General Factors with sub-factor detail; 2×2 penalty matrix with all four quadrant calculations; statutory maximums table; applicable schedule amount table; adjustments (VSD, first violation, substantial cooperation); public disclosure rules (entities named, individuals aggregate-only)
+- `wiki/concepts/ofac-sanctions-compliance-programme.md` — 5 SCP components with enforcement relevance of each; 10 root causes mapped to SCP components; OFAC Risk Matrix (13 dimensions, Low/Moderate/High); relationship between robust SCP and General Factors E, F, G; how testing enables VSD
+- `wiki/concepts/ofac-licensing-delisting-procedures.md` — General licences (self-executing, conditions must be met); specific licences (application, disclosure, OFAC decision = final agency action, denial ≠ preclusion, FOIA protection); APA rulemaking exemption for OFAC; mistaken-identity unblocking procedure with required elements; SDN delisting petition procedure
+
+No contradictions with existing wiki pages. OFAC is the second US b2b domain ingested; no prior OFAC coverage in the wiki to conflict with. Note: BSA concepts cross-reference OFAC where relevant (e.g., §1010.661 Iran special measure references OFAC blocked property procedure); no conflict.
+
+## 2026-05-24 ingest | 31 CFR Part 1020 — Bank Secrecy Act Rules for Banks
+
+Source: `raw/us/31 CFR Part 1020 (up to date as of 5-21-2026).pdf` (FinCEN official text, 22pp)
+
+Pages created:
+- `wiki/summaries/bsa-rules-for-banks.md` — Full summary: Subpart A definitions (Account/Customer for CIP); Subpart B AML programme §1020.210 (5 elements including mandatory risk-based CDD/customer risk profiling/ongoing monitoring); CIP §1020.220 (4 required elements; documentary/non-documentary verification; failure-to-verify procedures; government list check; customer notice; reliance on another FI; 5-year retention); Subpart C CTR cross-refs; CTR exemptions §1020.315; bank SAR §1020.320; Subpart D bank travel rule §1020.410; Subparts E–F cross-reference Part 1010
+- `wiki/concepts/bsa-cip-customer-identification-programme.md` — Full CIP detail: 4 required elements; US/non-US person ID number alternatives; documentary verification (photo ID/entity formation docs); non-documentary verification (4 mandatory circumstances); additional verification for non-individual customers; failure-to-verify procedures (4 required elements); recordkeeping (5-year from closure); government list comparison; customer notice (with sample language); reliance on another FI (annual certification contract); CIP vs CDD comparison table
+- `wiki/concepts/bsa-ctr-exemptions.md` — CTR exemptions: 7 exempt person categories; auto-exempt vs designation required; FinCEN Form 110 within 30 days; early designation via risk-based assessment; annual review for (b)(4)–(b)(7); ineligible businesses list; agent transaction limitation; SAR obligation survives CTR exemption; monitoring system requirement; limitation on liability; automatic revocation on delisting
+- `wiki/concepts/bsa-bank-sar.md` — Bank SAR: $5K threshold; 3 filing grounds; 30/60-day timeline; immediate telephone notification for ongoing schemes; robbery/burglary/lost-securities exceptions; 5-year retention + supporting docs on demand; absolute SAR confidentiality (subpoena refusal + FinCEN notification obligation); permitted disclosures (FinCEN/law enforcement/regulators; underlying facts for joint SAR; corporate organisational structure); government disclosure prohibition in private legal proceedings; full safe harbour
+
+No contradictions with existing wiki pages. Note: CIP (§1020.220) adds detail on top of the CDD rule (§1010.230) covered in bsa-cdd-and-boi.md — they are complementary, not conflicting. Bank SAR (§1020.320) adds bank-specific thresholds and procedures on top of the general §1010.320 cross-reference in bsa-reporting-obligations.md — no conflict.

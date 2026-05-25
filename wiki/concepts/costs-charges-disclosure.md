@@ -3,6 +3,7 @@ title: "Costs and Charges Disclosure — Investment Products"
 jurisdiction: UK
 regulator: FCA
 regulation: UCITS KII Regulation; PRIIPs Regulation; MiFID II; PRIN 7; SYSC; TR 14-07
+direction: investment
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-04-13

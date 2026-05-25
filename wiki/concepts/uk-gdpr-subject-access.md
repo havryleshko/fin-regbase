@@ -3,6 +3,7 @@ title: "UK GDPR — Right of Access and Subject Access Requests (Article 15)"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR (Article 15); DPA 2018 (Schedules 2–3)
+direction: b2c
 status: current
 effective_date: 2021-01-01
 last_updated: 2026-05-05

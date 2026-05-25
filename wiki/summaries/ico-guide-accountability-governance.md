@@ -3,6 +3,7 @@ title: "ICO Guide to Accountability and Governance"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR Arts. 5(2), 24, 25, 28, 30, 33–34, 35–36, 37–39, 40–43; DPA 2018
+direction: b2b
 status: current
 effective_date: 2018-05-25
 last_updated: 2026-04-16

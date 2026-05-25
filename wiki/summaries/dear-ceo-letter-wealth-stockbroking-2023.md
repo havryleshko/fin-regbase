@@ -3,6 +3,7 @@ title: "FCA Dear CEO Letter — Expectations for Wealth Management and Stockbrok
 jurisdiction: UK
 regulator: FCA
 regulation: Consumer Duty (PS22/9); Financial Crime
+direction: investment
 status: current
 effective_date: 2023-11-08
 last_updated: 2026-04-12

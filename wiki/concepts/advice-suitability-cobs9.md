@@ -3,6 +3,7 @@ title: "Advice Suitability — Personal Recommendations (COBS 9)"
 jurisdiction: UK
 regulator: FCA
 regulation: COBS 9; COBS 6.1A; COBS 6.2A; COBS 14; PRIN 6; PRIN 9
+direction: investment
 status: current
 effective_date: 2007-11-01
 last_updated: 2026-04-14

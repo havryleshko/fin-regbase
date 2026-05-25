@@ -3,6 +3,7 @@ title: "Payment Institutions and EMIs — Overlapping Consumer Duty and UK Sanct
 jurisdiction: UK
 regulator: FCA / OFSI
 regulation: Consumer Duty (PS22/9); FCG 7 (April 2026); PSRs 2017; EMRs 2011
+direction: b2c
 status: current
 effective_date: 2023-07-31
 last_updated: 2026-04-13

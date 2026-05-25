@@ -3,6 +3,7 @@ title: "UK GDPR — Individual Rights Overview and Request-Handling Framework"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR (Articles 12–22)
+direction: b2c
 status: current
 effective_date: 2021-01-01
 last_updated: 2026-04-14

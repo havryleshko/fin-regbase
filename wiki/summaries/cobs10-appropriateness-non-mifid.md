@@ -3,6 +3,7 @@ title: "COBS 10 — Appropriateness (non-MiFID and non-insurance-based investmen
 jurisdiction: UK
 regulator: FCA
 regulation: COBS 10 (Conduct of Business Sourcebook) — April 2026
+direction: investment
 status: current
 effective_date: 2007-11-01
 last_updated: 2026-04-28

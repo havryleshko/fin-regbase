@@ -3,6 +3,7 @@ title: "PRIN 2A — The Consumer Duty"
 jurisdiction: UK
 regulator: FCA
 regulation: Principles for Businesses (PRIN)
+direction: b2c
 status: current
 effective_date: 2023-07-31
 last_updated: 2026-04-20

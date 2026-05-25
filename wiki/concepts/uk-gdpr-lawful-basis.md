@@ -3,6 +3,7 @@ title: "UK GDPR — Lawful Basis for Processing (Article 6)"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR Art. 6; Art. 9; Art. 10; DPA 2018; Data (Use and Access) Act 2025
+direction: b2c
 status: current
 effective_date: 2018-05-25
 last_updated: 2026-04-14

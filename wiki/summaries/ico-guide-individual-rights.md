@@ -3,6 +3,7 @@ title: "ICO Guide to Individual Rights"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR (Articles 12–22)
+direction: b2c
 status: current
 effective_date: 2023-05-19
 last_updated: 2026-05-05

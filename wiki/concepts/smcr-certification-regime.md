@@ -3,6 +3,7 @@ title: "SM&CR — Certification Regime, Fitness and Propriety, and Regulatory Re
 jurisdiction: UK
 regulator: FCA
 regulation: SM&CR; FSMA 2000 s.63F–63H; SYSC 27; FIT; SUP 10C
+direction: b2b
 status: current
 effective_date: 2019-12-09
 last_updated: 2026-04-15

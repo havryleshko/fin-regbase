@@ -3,6 +3,7 @@ title: "Cryptoasset Financial Promotions Framework — Consumer Journey Rules"
 jurisdiction: UK
 regulator: FCA
 regulation: PS23/6 (June 2023)
+direction: b2c
 status: current
 effective_date: 2023-10-08
 last_updated: 2026-04-21

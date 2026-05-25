@@ -3,6 +3,7 @@ title: "COBS 4 — Communicating with Clients, Including Financial Promotions"
 jurisdiction: UK
 regulator: FCA
 regulation: Conduct of Business Sourcebook (COBS 4)
+direction: b2c
 status: current
 effective_date: 2007-11-01
 last_updated: 2026-04-29

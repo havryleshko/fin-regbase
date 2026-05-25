@@ -3,6 +3,7 @@ title: "UK GDPR — Right to Object (Article 21)"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR (Article 21)
+direction: b2c
 status: current
 effective_date: 2021-01-01
 last_updated: 2026-04-14

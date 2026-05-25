@@ -3,6 +3,7 @@ title: "Targeted Support Service (COBS 9B)"
 jurisdiction: UK
 regulator: FCA
 regulation: Conduct of Business Sourcebook (COBS 9B); Regulated Activities Order Art. 55A
+direction: b2c
 status: current
 effective_date: 2026-04-01
 last_updated: 2026-04-29

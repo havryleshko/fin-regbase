@@ -3,6 +3,7 @@ title: "PROD 3 — Product Governance for Investment Manufacturers"
 jurisdiction: UK
 regulator: FCA
 regulation: MiFID II; PROD 3; SYSC; COBS; PRIN
+direction: investment
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-04-13

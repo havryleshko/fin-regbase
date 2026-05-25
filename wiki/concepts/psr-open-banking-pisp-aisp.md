@@ -3,6 +3,7 @@ title: "Open Banking — Payment Initiation, Account Information, and ASPSP Obli
 jurisdiction: UK
 regulator: FCA
 regulation: PSRs 2017 (Regs 68–70, 98–103); SCA-RTS (Arts. 30–33, 36)
+direction: b2c
 status: current
 effective_date: 2018-01-13
 last_updated: 2026-04-16

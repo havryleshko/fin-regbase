@@ -3,6 +3,7 @@ title: "Unauthorised and Incorrectly Executed Transactions — PSRs 2017 (Ch 8 C
 jurisdiction: UK
 regulator: FCA
 regulation: PSRs 2017 (Regs 67–96); FCA Approach Document Ch. 8
+direction: b2c
 status: current
 effective_date: 2018-01-13
 last_updated: 2026-04-16

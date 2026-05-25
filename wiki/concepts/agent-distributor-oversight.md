@@ -3,6 +3,7 @@ title: "Agent and Distributor Oversight — Payment Institutions and E-Money Ins
 jurisdiction: UK
 regulator: FCA
 regulation: PSRs 2017 (Regs 29–35, 38); EMRs 2011 (Regs 34–38)
+direction: b2b
 status: current
 effective_date: 2017-01-13
 last_updated: 2026-04-13

@@ -3,6 +3,7 @@ title: "CASS 6 — Custody Rules"
 jurisdiction: UK
 regulator: FCA
 regulation: CASS 6; MiFID Delegated Directive arts. 2–5
+direction: investment
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-05-02

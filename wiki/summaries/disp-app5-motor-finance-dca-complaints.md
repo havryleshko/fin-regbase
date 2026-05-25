@@ -3,6 +3,7 @@ title: "DISP App 5 — Motor Finance DCA and Non-DCA Complaint Handling Rules"
 jurisdiction: UK
 regulator: FCA
 regulation: DISP App 5 (April 2026)
+direction: b2c
 status: current
 effective_date: 2024-01-11
 last_updated: 2026-04-21

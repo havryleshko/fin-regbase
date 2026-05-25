@@ -3,6 +3,7 @@ title: "UK Financial Sanctions Framework — SAMLA, OFSI, and the Consolidated L
 jurisdiction: UK
 regulator: FCA / OFSI (HM Treasury)
 regulation: Sanctions and Anti-Money Laundering Act 2018 (SAMLA); FCG 7.1; PRIN 2.1.1R (Principle 11); FCTR 8 (June 2023)
+direction: b2b
 status: current
 effective_date: 2018-05-23
 last_updated: 2026-04-13

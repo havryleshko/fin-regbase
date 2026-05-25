@@ -3,6 +3,7 @@ title: "PRIN 1–2 — Introduction and the Principles"
 jurisdiction: UK
 regulator: FCA
 regulation: Principles for Businesses (PRIN)
+direction: b2b
 status: current
 effective_date: 2001-12-01
 last_updated: 2026-04-20

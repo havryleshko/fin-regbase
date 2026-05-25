@@ -3,6 +3,7 @@ title: "UK GDPR — Records of Processing Activities and Documentation (Art. 30)
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR Arts. 7(1), 30, 33(5); DPA 2018; Recitals 42, 82
+direction: b2b
 status: current
 effective_date: 2018-05-25
 last_updated: 2026-04-16

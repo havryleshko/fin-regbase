@@ -3,6 +3,7 @@ title: "Complaints Handling Framework — DISP 1 Operational Rules"
 jurisdiction: UK
 regulator: FCA
 regulation: DISP 1 (Treating Complainants Fairly)
+direction: b2c
 status: current
 effective_date: 2001-12-01
 last_updated: 2026-04-28

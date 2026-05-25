@@ -3,6 +3,7 @@ title: "Asset Freezes, OFSI Licences, and Sanctions Breach Reporting"
 jurisdiction: UK
 regulator: FCA / OFSI (HM Treasury)
 regulation: FCG 7.2.3B–7.2.4 (April 2026 version); Principle 11 (PRIN 2.1.1R); SUP 15.3; FCTR 8 (June 2023)
+direction: b2b
 status: current
 effective_date: 2026-04-01
 last_updated: 2026-04-13

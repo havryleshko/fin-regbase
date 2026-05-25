@@ -3,6 +3,7 @@ title: "FCA Guide for Solo-Regulated Firms — Senior Managers and Certification
 jurisdiction: UK
 regulator: FCA
 regulation: SM&CR; FSMA 2000 ss.59–60, 66A–66B; SYSC 23–27; FIT; SUP 10C; COCON
+direction: b2b
 status: current
 effective_date: 2019-12-09
 last_updated: 2026-04-15

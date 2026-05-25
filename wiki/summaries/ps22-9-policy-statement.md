@@ -3,6 +3,7 @@ title: "FCA PS22/9 — A New Consumer Duty: Feedback to CP21/36 and Final Rules"
 jurisdiction: UK
 regulator: FCA
 regulation: Consumer Duty (PS22/9)
+direction: b2c
 status: current
 effective_date: 2023-07-31
 last_updated: 2026-04-10

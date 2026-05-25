@@ -3,6 +3,7 @@ title: "CASS 1A — CASS Firm Classification and Operational Oversight (Sourcebo
 jurisdiction: UK
 regulator: FCA
 regulation: CASS 1A; SYSC 27.8.1R; SUP 16.14
+direction: investment
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-05-04

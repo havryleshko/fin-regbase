@@ -3,6 +3,7 @@ title: "Client Categorisation Framework — COBS 3"
 jurisdiction: UK
 regulator: FCA
 regulation: COBS 3; MiFID II arts. 4(1)(9)–4(1)(11), 30; MiFID Annex II
+direction: investment
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-04-29

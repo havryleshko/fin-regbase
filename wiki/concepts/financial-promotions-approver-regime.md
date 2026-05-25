@@ -3,6 +3,7 @@ title: "Financial Promotions Approver Regime (s.21 FSMA / COBS 4.10)"
 jurisdiction: UK
 regulator: FCA
 regulation: FSMA 2000 s.21; Conduct of Business Sourcebook (COBS 4.10)
+direction: b2c
 status: current
 effective_date: 2024-01-07
 last_updated: 2026-05-13

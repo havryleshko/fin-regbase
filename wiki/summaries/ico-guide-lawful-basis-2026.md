@@ -3,6 +3,7 @@ title: "ICO Guide to Lawful Basis (Updated April 2026)"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR Art. 6; DPA 2018 s.7; Data (Use and Access) Act 2025
+direction: b2c
 status: current
 effective_date: 2026-04-02
 last_updated: 2026-04-14

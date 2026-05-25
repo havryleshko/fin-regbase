@@ -3,6 +3,7 @@ title: "FOS Eligible Complainants — DISP 2.7"
 jurisdiction: UK
 regulator: FCA / FOS
 regulation: DISP 2 (April 2026)
+direction: b2c
 status: current
 effective_date: 2001-12-01
 last_updated: 2026-04-21

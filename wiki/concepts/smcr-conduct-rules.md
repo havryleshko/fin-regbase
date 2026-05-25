@@ -3,6 +3,7 @@ title: "SM&CR — Conduct Rules"
 jurisdiction: UK
 regulator: FCA
 regulation: SM&CR; COCON; FSMA 2000 s.64A; SUP 15
+direction: b2b
 status: current
 effective_date: 2019-12-09
 last_updated: 2026-04-15

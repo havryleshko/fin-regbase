@@ -3,6 +3,7 @@ title: "UK GDPR — Right to Be Informed (Articles 13–14)"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR (Articles 13–14)
+direction: b2c
 status: current
 effective_date: 2021-01-01
 last_updated: 2026-04-14

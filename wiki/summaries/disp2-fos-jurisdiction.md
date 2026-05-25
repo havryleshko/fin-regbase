@@ -3,6 +3,7 @@ title: "DISP 2 — Jurisdiction of the Financial Ombudsman Service"
 jurisdiction: UK
 regulator: FCA
 regulation: DISP 2 (April 2026)
+direction: b2c
 status: current
 effective_date: 2001-12-01
 last_updated: 2026-04-21

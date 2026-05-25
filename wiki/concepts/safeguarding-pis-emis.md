@@ -3,6 +3,7 @@ title: "Safeguarding — Payment Institutions and E-Money Institutions"
 jurisdiction: UK
 regulator: FCA
 regulation: PSRs 2017 (Regs 22–27); EMRs 2011 (Regs 20–25); FCA Approach Document (Ch.10)
+direction: b2b
 status: current
 effective_date: 2017-01-13
 last_updated: 2026-04-16

@@ -3,6 +3,7 @@ title: "FCA Assessing Suitability Review — Results (May 2017)"
 jurisdiction: UK
 regulator: FCA
 regulation: COBS 9 (suitability); COBS 6.1A (adviser charging); COBS 6.2A (describing advice services); COBS 14 (product disclosure); COBS 9.4 (suitability reports); PRIN 6; PRIN 7; PRIN 9
+direction: investment
 status: superseded
 effective_date: 2017-05-01
 last_updated: 2026-04-14

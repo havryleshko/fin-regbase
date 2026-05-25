@@ -3,6 +3,7 @@ title: "Client's Best Interests Rule (COBS 2.1.1R)"
 jurisdiction: UK
 regulator: FCA
 regulation: "Conduct of Business Sourcebook (COBS) 2.1.1R; MiFID article 24(1); IDD article 17(1)"
+direction: investment
 status: current
 effective_date: 2007-11-01
 last_updated: 2026-05-05

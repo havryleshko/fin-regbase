@@ -3,6 +3,7 @@ title: "SARs — Suspicion, the DAML Consent Regime, and Tipping Off"
 jurisdiction: UK
 regulator: FCA / NCA / JMLSG
 regulation: POCA 2002 ss.327–340; Terrorism Act 2000 ss.15–21G; Money Laundering Regulations 2017
+direction: b2b
 status: current
 effective_date: 2002-02-24
 last_updated: 2026-04-12

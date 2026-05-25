@@ -3,6 +3,7 @@ title: "Operational Resilience — SYSC 15A"
 jurisdiction: UK
 regulator: FCA
 regulation: "SYSC 15A; FSMA 2000 ss.55J, 55L"
+direction: b2b
 status: current
 effective_date: 2022-03-31
 last_updated: 2026-05-13

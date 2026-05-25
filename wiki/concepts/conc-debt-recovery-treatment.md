@@ -3,6 +3,7 @@ title: "CONC — Debt Recovery Treatment Standards"
 jurisdiction: UK
 regulator: FCA
 regulation: Consumer Credit sourcebook (CONC)
+direction: b2c
 status: current
 effective_date: 2014-04-01
 last_updated: 2026-04-18

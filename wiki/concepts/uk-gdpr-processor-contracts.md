@@ -3,6 +3,7 @@ title: "UK GDPR — Controller–Processor Contracts (Art. 28)"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR Art. 28; DPA 2018; Recital 81
+direction: b2b
 status: current
 effective_date: 2018-05-25
 last_updated: 2026-04-16

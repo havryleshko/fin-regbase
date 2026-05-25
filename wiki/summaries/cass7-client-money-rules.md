@@ -3,6 +3,7 @@ title: "CASS 7 — Client Money Rules (Sourcebook Reference)"
 jurisdiction: UK
 regulator: FCA
 regulation: CASS 7; MiFID Delegated Directive arts. 2–3
+direction: investment
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-05-02

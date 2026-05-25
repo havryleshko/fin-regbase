@@ -3,6 +3,7 @@ title: "SM&CR — Senior Managers Regime"
 jurisdiction: UK
 regulator: FCA
 regulation: SM&CR; FSMA 2000 ss.59–60, 66A–66B; SYSC 23–25; SUP 10C
+direction: b2b
 status: current
 effective_date: 2019-12-09
 last_updated: 2026-04-15

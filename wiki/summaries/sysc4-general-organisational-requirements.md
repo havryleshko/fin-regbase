@@ -3,6 +3,7 @@ title: "SYSC 4 — General Organisational Requirements"
 jurisdiction: UK
 regulator: FCA
 regulation: SYSC 4
+direction: b2b
 status: current
 effective_date: 2007-11-01
 last_updated: 2026-04-28

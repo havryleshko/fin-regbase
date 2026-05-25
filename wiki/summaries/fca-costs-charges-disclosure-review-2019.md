@@ -3,6 +3,7 @@ title: "FCA Review on Disclosure of Costs by Asset Managers (February 2019)"
 jurisdiction: UK
 regulator: FCA
 regulation: UCITS KII Regulation; PRIIPs Regulation; MiFID II; PRIN 7; SYSC
+direction: investment
 status: current
 effective_date: 2019-02-28
 last_updated: 2026-04-13

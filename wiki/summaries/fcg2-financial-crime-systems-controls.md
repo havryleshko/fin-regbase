@@ -3,6 +3,7 @@ title: "FCA Financial Crime Guide — FCG 2: Financial Crime Systems and Control
 jurisdiction: UK
 regulator: FCA
 regulation: "SYSC 3.2.6R; SYSC 6.1.1R; FCG 2 (May 2026)"
+direction: b2b
 status: current
 effective_date: 2017-06-26
 last_updated: 2026-05-06

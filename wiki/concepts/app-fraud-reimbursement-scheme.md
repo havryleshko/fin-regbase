@@ -3,6 +3,7 @@ title: "APP Fraud Reimbursement Scheme"
 jurisdiction: UK
 regulator: PSR
 regulation: "PSR PS23/3; FSBRA 2013 s.54/s.55; Faster Payments Rules"
+direction: b2c
 status: current
 effective_date: 2024-10-07
 last_updated: 2026-05-13

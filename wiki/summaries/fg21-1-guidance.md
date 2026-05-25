@@ -3,6 +3,7 @@ title: "FCA FG21/1 — Guidance for Firms on the Fair Treatment of Vulnerable Cu
 jurisdiction: UK
 regulator: FCA
 regulation: Consumer Duty (PS22/9) / Principles for Businesses (PRIN)
+direction: b2c
 status: current
 effective_date: 2021-02-23
 last_updated: 2026-04-14

@@ -3,6 +3,7 @@ title: "ICO Guide to the Data Protection Principles"
 jurisdiction: UK
 regulator: ICO
 regulation: UK GDPR Art. 5; DPA 2018; Data (Use and Access) Act 2025
+direction: b2c
 status: current
 effective_date: 2018-05-25
 last_updated: 2026-04-14

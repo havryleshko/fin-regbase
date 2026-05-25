@@ -3,6 +3,7 @@ title: "Sanctions Screening — Consolidated List Screening, Calibration, and Ev
 jurisdiction: UK
 regulator: FCA / OFSI
 regulation: FCG 7.2.3–7.2.3A (April 2026 version); FCTR 8 (June 2023)
+direction: b2b
 status: current
 effective_date: 2026-04-01
 last_updated: 2026-04-13

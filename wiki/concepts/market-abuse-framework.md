@@ -3,6 +3,7 @@ title: "UK Market Abuse Framework — Overview"
 jurisdiction: UK
 regulator: FCA
 regulation: UK MAR; MAR 1
+direction: b2b
 status: current
 effective_date: 2016-07-03
 last_updated: 2026-04-28

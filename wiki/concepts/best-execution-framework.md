@@ -3,6 +3,7 @@ title: "Best Execution — COBS 11 Three-Track Framework"
 jurisdiction: UK
 regulator: FCA
 regulation: COBS 11.2; COBS 11.2A; COBS 11.2B; MiFID II art. 27; UCITS implementing Directive arts. 25–26
+direction: investment
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-04-29

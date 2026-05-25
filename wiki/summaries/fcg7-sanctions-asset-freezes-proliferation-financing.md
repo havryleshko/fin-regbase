@@ -3,6 +3,7 @@ title: "FCG 7 — Sanctions, Asset Freezes and Proliferation Financing"
 jurisdiction: UK
 regulator: FCA
 regulation: FCA Financial Crime Guide (FCG), Chapter 7 (April 2026 version)
+direction: b2b
 status: current
 effective_date: 2026-04-01
 last_updated: 2026-04-13

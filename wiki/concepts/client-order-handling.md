@@ -3,6 +3,7 @@ title: "Client Order Handling, Limit Orders, and Personal Account Dealing — CO
 jurisdiction: UK
 regulator: FCA
 regulation: COBS 11.3; COBS 11.4; COBS 11.5A; COBS 11.7; COBS 11.7A; MiFID II arts. 28–29
+direction: investment
 status: current
 effective_date: 2007-11-01
 last_updated: 2026-04-29

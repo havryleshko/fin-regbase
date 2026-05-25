@@ -3,6 +3,7 @@ title: "Inducements Framework — COBS 2.3A"
 jurisdiction: UK
 regulator: FCA
 regulation: COBS 2.3A; MiFID II art. 24(9); IDD arts. 22(3), 29(2), 29(3)
+direction: investment
 status: current
 effective_date: 2018-01-03
 last_updated: 2026-04-30

@@ -3,6 +3,7 @@ title: "MAR 1 — Market Abuse: FCA Guidance on UK MAR Behaviours"
 jurisdiction: UK
 regulator: FCA
 regulation: MAR 1; UK MAR (Regulation (EU) 596/2014 as retained)
+direction: b2b
 status: current
 effective_date: 2016-07-03
 last_updated: 2026-04-28
