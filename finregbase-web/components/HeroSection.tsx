@@ -21,8 +21,8 @@ export function HeroSection() {
         className="mt-6 max-w-3xl text-base leading-7 text-text-secondary md:text-xl md:leading-8"
       >
         {siteMetrics.articleCount} structured, citation-accurate articles spanning{" "}
-        {siteMetrics.jurisdictionsLabel} — UK FCA coverage and US federal consumer finance (Reg B, Reg E,
-        Reg V/FCRA, Reg Z) — queryable via MCP from any AI agent or development environment.
+        {siteMetrics.jurisdictionsLabel} — UK FCA coverage and US federal regulation (Reg B, Reg E,
+        Reg V/FCRA, Reg Z, BSA/FinCEN, OFAC) — queryable via MCP from any AI agent or development environment.
       </motion.p>
       <motion.p
         initial={{ opacity: 0, y: 14 }}

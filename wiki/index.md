@@ -415,6 +415,24 @@ Claude Code reads this file first on every query to identify relevant pages.
 
 ---
 
+## US — BSA / FinCEN (Rules for MSBs — 31 CFR Part 1022)
+
+### Summaries
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [summaries/bsa-rules-for-msbs.md](summaries/bsa-rules-for-msbs.md) | 31 CFR Part 1022 — MSB-specific BSA rules layered on Part 1010: Subpart B AML programme §1022.210 (4 elements: internal controls; designated compliance officer; training; independent review; commensurate with risk; no board approval required; agent allocation permitted but principal solely liable; prepaid access customer ID embedded as fifth programme element — name/DOB/address/ID number; seller verification >$10K/day; 5-year retention from last use); MSB SAR §1022.320 (≥$2,000 threshold; ≥$5,000 for money order/traveler's check issuers with clearance records; 4 filing grounds including "use of MSB to facilitate criminal activity"; 30/60-day deadline; immediate law enforcement telephone notification for ongoing schemes; FinCEN Hotline 1-866-556-3974 for voluntary terrorist activity reports; absolute confidentiality; subpoena refusal obligation; safe harbour); MSB registration §1022.380 (every MSB except pure agents and USPS registers within 180 days; 2-year re-registration cycle; re-registration on ownership change/10%+ equity transfer/>50% agent increase; annual agent list; $5,000/day civil penalty; 18 USC 1960 criminal liability); dealer in foreign exchange records §1022.410 (TIN within 30 days; FX transactions >$1,000 recorded; items >$10K outside US; receipts >$10K from foreign sources; does not apply to banks offering FX as ancillary service); prepaid access records §1022.420 (providers: 5-year access to all transactional records — activation, loads, reloads, purchases, withdrawals, transfers; sellers: 5-year retention of sale records and customer ID info); Subparts E–F cross-reference Part 1010 | 1 |
+
+### Concepts
+
+| Page | Summary | Sources |
+|------|---------|---------|
+| [concepts/bsa-msb-sar.md](concepts/bsa-msb-sar.md) | MSB SAR §1022.320 — ≥$2,000 threshold (≥$5,000 for money order/traveler's check issuers with clearance records); four filing grounds: (i) funds from illegal activities; (ii) designed to evade BSA; (iii) no apparent lawful purpose; (iv) involves use of MSB to facilitate criminal activity [MSB-specific, absent from §1020.320]; 30-day filing deadline from initial detection; 60-day period only where no suspect identified at detection — 60-day absolute outer limit; ongoing schemes = immediate telephone notification to law enforcement (cumulative with SAR); voluntary terrorist activity = FinCEN Hotline 1-866-556-3974 (available for below-threshold suspicious activity too); exceptions: robbery/burglary reported to police; lost/stolen securities per 17 CFR 240.17f-1; 5-year retention from SAR filing; SAR absolutely confidential; subpoena refusal obligation (cite §1022.320(e)(1)(i) + 31 USC 5318(g)(2)(A)(i); notify FinCEN); permitted disclosures identical to §1020.320; safe harbour full extent of 31 USC 5318(g)(3) | 1 |
+| [concepts/bsa-msb-registration.md](concepts/bsa-msb-registration.md) | MSB registration §1022.380 — every MSB must register with FinCEN within 180 days of establishment; exceptions: pure agents acting solely for one principal MSB, USPS; biennial re-registration every 2 years; mandatory re-registration within 180 days on: ownership change creating new controlling person; transfer of >10% equity interest; >50% increase in agents; annual agent list (name/address/MSB activity type/incorporation status/TIN) updated as of January 1 each year; available to FinCEN within 10 business days; civil penalty $5,000/day per violation; criminal penalty under 18 USC 1960 (operating unregistered money transmitting business — intent not required); MSB registration distinct from and does not satisfy BOI reporting under §1010.380 | 1 |
+| [concepts/bsa-prepaid-access.md](concepts/bsa-prepaid-access.md) | Prepaid access customer ID and records — customer identification embedded in MSB AML programme (§1022.210(b)(5)), not standalone CIP: provider must collect name/DOB/address/ID number from all customers, verify identity of customers obtaining >$10,000/day, retain 5 years from last use; seller must verify and collect for any >$10,000/day sale, retain 5 years from last use; transactional records §1022.420: providers maintain 5-year access to all transactional records (activation, loads, reloads, purchases, withdrawals, transfers); sellers maintain 5 years of sale records including customer ID info; $10,000/day threshold triggers verification (below threshold, providers collect but need not verify); 5-year retention runs from last date of use (not date of collection — dormant accounts extend window) | 1 |
+
+---
+
 ## US — OFAC (Office of Foreign Assets Control)
 
 ### Summaries

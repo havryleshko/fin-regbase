@@ -7,6 +7,18 @@ export type ChangelogEntry = {
 
 export const changelogEntries: ChangelogEntry[] = [
   {
+    date: "2026-05-19",
+    title: "BSA/FinCEN and OFAC — wiki at 199 articles, US b2b foundation complete",
+    summary:
+      "Three new US b2b ingest sessions completed. BSA General Provisions (31 CFR Part 1010) adds MSB definitions, CDD rule, five reporting regimes (CTR/SAR/Form 8300/CMIR/FBAR), travel rule, BOI/CTA, 314(a)/(b) information sharing, correspondent account due diligence, private banking PEP screening, shell bank prohibition, and 8 active Section 311 special measures. BSA Rules for Banks (31 CFR Part 1020) adds AML programme five pillars, CIP four required elements with documentary and non-documentary verification, CTR exemptions across 7 categories with ineligible business list, bank SAR ($5K threshold, 30/60-day deadlines, absolute confidentiality), and bank travel rule. OFAC (31 CFR Part 501 + SCP Framework May 2019) adds blocked property and rejected transaction reporting, 10-year retention, civil penalty 2×2 matrix (egregious × VSD), 11 General Factors, SCP five components, 10 root causes, licensing, and SDN delisting procedures.",
+    links: [
+      {
+        label: "Browse the wiki",
+        href: "https://github.com/havryleshko/fin-regbase/tree/main/wiki",
+      },
+    ],
+  },
+  {
     date: "2026-05-18",
     title: "Dodd-Frank Title X, Reg X (RESPA), Reg C (HMDA) — wiki at 182 articles",
     summary:

@@ -84,6 +84,18 @@ const coverage = [
     topic: "Dodd-Frank Title X",
     lines: ["CFPB structure · enforcement powers", "UDAAP · enumerated consumer laws", "State-law preemption · CIDs"],
   },
+  {
+    topic: "BSA / FinCEN (General)",
+    lines: ["31 CFR Part 1010", "CTR · SAR · FBAR · CMIR · Form 8300", "CDD rule · travel rule · BOI/CTA · 314(a)/(b)"],
+  },
+  {
+    topic: "BSA Rules for Banks",
+    lines: ["31 CFR Part 1020", "AML programme five pillars · CIP", "CTR exemptions · bank SAR ($5K threshold)"],
+  },
+  {
+    topic: "OFAC",
+    lines: ["31 CFR Part 501 · SCP Framework", "Blocked property · SDN · Section 311", "Civil penalty matrix · VSD · 11 General Factors"],
+  },
 ] as const;
 
 export function CoverageGrid() {
